@@ -23,7 +23,7 @@ export function render(el, parts) {
   else if (tab === 'upgrade') body = upgradeHTML();
   else if (tab === 'func') body = funcHTML();
   else body = aussieHTML();
-  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>口语</h1><p class="pg-sub">只练真正用得上的地道说法：听原声，跟着说，再把自己的说法换掉。</p></div></header>
+  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.speak}口语</h1><p class="pg-sub">只练真正用得上的地道说法：听原声，跟着说，再把自己的说法换掉。</p></div></header>
   <nav class="seg lg tabs" aria-label="口语栏目">${TABS.map(([k, l]) => `<a href="#/speak/${k}"${k === tab ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
   <div id="speakBody">${body}</div></div>`;
   if (DLG.sc) syncDialogue();

@@ -24,7 +24,7 @@ export async function render(el, parts) {
     iss = await Data.loadIssue(date);
     if (!iss) { el.innerHTML = `<div class="page"><div class="empty"><b>没找到 ${esc(date)} 这一期</b><a class="btn tinted" href="#/news" style="margin-top:14px">回到最新一期</a></div></div>`; return; }
   }
-  if (!iss) { el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>新闻</h1></div></header>${Data.state === 'loading' ? '<div class="skel" style="height:360px"></div>' : '<div class="empty"><b>还没有新闻</b>每天早上 7 点左右更新。</div>'}</div>`; return; }
+  if (!iss) { el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.news}新闻</h1></div></header>${Data.state === 'loading' ? '<div class="skel" style="height:360px"></div>' : '<div class="empty"><b>还没有新闻</b>每天早上 7 点左右更新。</div>'}</div>`; return; }
   S.newsIssue = iss;
   const st = id && iss.stories.find(s => s.id === id);
   if (id && !st) { location.hash = '#/news/' + iss.date; return; }
@@ -34,7 +34,7 @@ export async function render(el, parts) {
 function renderList(el, iss) {
   const idx = Data.index;
   el.innerHTML = `<div class="page">
-  <header class="pg-head"><div><h1>新闻</h1><p class="pg-sub">每天 4 篇，各有 C1 和 B2 两个版本。点任意单词查词，跟着朗读练听力。</p></div>
+  <header class="pg-head"><div><h1>${ICON.news}新闻</h1><p class="pg-sub">每天 4 篇，各有 C1 和 B2 两个版本。点任意单词查词，跟着朗读练听力。</p></div>
     <div class="ctrl">${levelSeg()}<label class="sr" for="issueSel">选择日期</label><select class="select" id="issueSel" data-change="issue">${(idx.length ? idx : [{ date: iss.date, issueNo: iss.issueNo }]).map(x => `<option value="${x.date}"${x.date === iss.date ? ' selected' : ''}>${esc(fmtShort(x.date))}${x.issueNo ? `　第 ${x.issueNo} 期` : ''}</option>`).join('')}</select></div></header>
   <div class="sec" style="margin-top:0"><h2>${esc(fmtZhLong(iss.date))}</h2>${iss.title ? `<span class="note">${esc(iss.title)}</span>` : ''}</div>
   <ul class="list">${iss.stories.map(s => `<li><a class="story" href="${storyHref(iss.date, s.id)}">${catTile(s.category, 's64')}<div style="min-width:0"><div class="cat">${esc(s.category)}</div><div class="t">${esc(s.headline)}</div>${s.headlineZh ? `<div class="zh">${esc(s.headlineZh)}</div>` : ''}${s.summaryZh ? `<div class="sum">${esc(s.summaryZh)}</div>` : ''}<div class="m"><span class="tag num">${wordCount(s[S.level])} 词</span><span class="tag">${s.vocab.length} 个表达</span><span class="tag">${s.questions.length} 道题</span></div></div><span class="end">${ICON.next}</span></a></li>`).join('')}</ul>

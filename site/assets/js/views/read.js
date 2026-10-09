@@ -14,7 +14,7 @@ export function render(el) {
   unmount();
   S.paste = LS.get('ee.paste', '');
   const read = Data.feed.items.filter(i => i.kind === 'read').concat([ENGOO_ITEM]);
-  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>阅读</h1><p class="pg-sub">每天挑一篇有分量的读完。不认识的词点一下就能查，顺手收进生词本。</p></div></header>
+  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.read}阅读</h1><p class="pg-sub">每天挑一篇有分量的读完。不认识的词点一下就能查，顺手收进生词本。</p></div></header>
   <div class="read-grid">
     <section><div class="sec" style="margin-top:0"><h2>今天值得读</h2></div><div id="readFeed">${readRowsHTML(read)}${feedStamp()}</div></section>
     <section><div class="sec" style="margin-top:0"><h2>点词阅读</h2></div><div class="card pad"><p class="note" style="margin-bottom:12px">课程阅读、外刊、邮件都可以贴进来。每个词都能点开查义、发音、收藏。</p>

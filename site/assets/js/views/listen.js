@@ -20,7 +20,7 @@ export function render(el, parts) {
   S.listenTab = tab;
   const tabs = `<nav class="seg lg tabs" aria-label="听力栏目">${TABS.map(([k, l]) => `<a href="#/listen/${k}"${k === tab ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`;
   const body = tab === 'pods' ? podsHTML() : tab === 'dictation' ? dictHTML() : tab === 'shadow' ? shadowHTML() : channelsHTML();
-  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>听力</h1><p class="pg-sub">泛听用真实播客，精听用听写和跟读。先用正常语速，实在听不出再放慢。</p></div><div class="ctrl">${rateSelect('rateL')}${accentSelect('accL')}</div></header>${tabs}<div id="listenBody">${body}</div></div>`;
+  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.listen}听力</h1><p class="pg-sub">泛听用真实播客，精听用听写和跟读。先用正常语速，实在听不出再放慢。</p></div><div class="ctrl">${rateSelect('rateL')}${accentSelect('accL')}</div></header>${tabs}<div id="listenBody">${body}</div></div>`;
   if (tab === 'pods') off.push(Player.on(() => { const b = $('#listenBody'); if (b && S.listenTab === 'pods') b.innerHTML = podsHTML(); }));
   if (tab === 'dictation') {
     keyHandler = e => { if ((e.ctrlKey || e.metaKey) && e.key === 'Enter' && S.listenTab === 'dictation') { e.preventDefault(); DICT.checked ? nextDict(true) : dictCheck(); } };

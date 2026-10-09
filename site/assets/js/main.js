@@ -1,5 +1,5 @@
 /* App shell: navigation (sidebar + tab bar), routing, event delegation, appearance and data loading. */
-import { $, $$, ICON, LS, fmtShort } from './util.js';
+import { $, $$, ICON, LS, esc, fmtZhLong } from './util.js';
 import { S } from './state.js';
 import { Data } from './data.js';
 import { TTS } from './tts.js';
@@ -42,11 +42,27 @@ Object.assign(CHG, {
 
 /* ---------- navigation chrome ---------- */
 function buildNav() {
-  const links = NAV.map(([v, label, href]) => `<a href="${href}" data-v="${v}">${ICON[v]}<span>${label}</span></a>`).join('');
-  $('#sideNav').innerHTML = links; $('#tabbar').innerHTML = links;
+  const nav = $('#nav');
+  nav.innerHTML = '<span class="nav-ind" aria-hidden="true"></span>' + NAV.map(([v, label, href]) => `<a href="${href}" data-v="${v}">${ICON[v]}<span>${label}</span></a>`).join('');
   renderTheme();
+  let raf = 0;
+  window.addEventListener('resize', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => placeInd(false)); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => placeInd(false));
 }
-function markNav(view) { $$('#sideNav a, #tabbar a').forEach(a => { if (a.dataset.v === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); }
+/* The sliding pill under the current section: moved with transform, so it never triggers layout of the page. */
+function placeInd(animate) {
+  const nav = $('#nav'), ind = nav && nav.querySelector('.nav-ind'), a = nav && nav.querySelector('a[aria-current="page"]');
+  if (!ind || !a) return;
+  if (!animate) nav.classList.remove('ready');
+  ind.style.setProperty('--x', a.offsetLeft + 'px');
+  ind.style.setProperty('--w', a.offsetWidth + 'px');
+  ind.style.top = a.offsetTop + 'px'; ind.style.height = a.offsetHeight + 'px';
+  if (!animate) { void ind.offsetWidth; requestAnimationFrame(() => nav.classList.add('ready')); }
+}
+function markNav(view) {
+  $$('#nav a').forEach(a => { if (a.dataset.v === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  placeInd($('#nav').classList.contains('ready'));
+}
 function setTheme(t) {
   if (t === 'light' || t === 'dark') { document.documentElement.dataset.theme = t; LS.set('ee.theme', t); }
   else { delete document.documentElement.dataset.theme; LS.del('ee.theme'); }
@@ -59,7 +75,7 @@ function renderTheme() {
 }
 function setStatus() {
   const el = $('#status'); if (!el) return;
-  el.innerHTML = S.issue ? `<b>第 ${S.issue.issueNo || '·'} 期已更新</b>${fmtShort(S.issue.date)}，每天早上 7 点左右更新` : '每天早上 7 点左右更新';
+  el.innerHTML = S.issue ? `<b>第 ${S.issue.issueNo || '·'} 期</b> · ${esc(fmtZhLong(S.issue.date))} · 每天早上 7 点左右更新` : '每天早上 7 点左右更新';
 }
 
 /* ---------- routing ---------- */
@@ -69,18 +85,22 @@ function parse() {
   const view = VIEWS[parts[0]] ? parts.shift() : 'today';
   return { view, parts };
 }
-let current = null;
-function go() {
+let current = null, enterTimer = 0;
+function go(animate) {
   const { view, parts } = parse();
   if (current && VIEWS[current].unmount) VIEWS[current].unmount();
   Pop.close();
   S.view = view; S.parts = parts; current = view;
-  VIEWS[view].render($('#view'), parts);
+  const el = $('#view');
+  VIEWS[view].render(el, parts);
   markNav(view);
   document.title = TITLES[view];
   window.scrollTo(0, 0);
+  // Fade the new view in on navigation only (not on first load or data refreshes).
+  clearTimeout(enterTimer); el.classList.remove('enter');
+  if (animate === true) { void el.offsetWidth; el.classList.add('enter'); enterTimer = setTimeout(() => el.classList.remove('enter'), 900); }
 }
-window.addEventListener('hashchange', go);
+window.addEventListener('hashchange', () => go(true));
 document.addEventListener('ee:rerender', () => VIEWS[S.view].render($('#view'), S.parts));
 
 /* ---------- event delegation ---------- */
@@ -123,7 +143,7 @@ async function boot() {
   if (cached) S.issue = cached;
   if (cachedFeed) Data.feed = cachedFeed;
   setStatus();
-  go();
+  go(false);
   const feedBefore = JSON.stringify(Data.feed);
   const [idx] = await Promise.all([Data.loadIndex(), Data.loadFeed()]);
   let changed = JSON.stringify(Data.feed) !== feedBefore;

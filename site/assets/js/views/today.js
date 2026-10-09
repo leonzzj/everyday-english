@@ -1,5 +1,5 @@
 /* Today: featured story with read-aloud, today's stories, podcasts to play, phrases, dialogue and reading picks. */
-import { $, esc, ICON, fmtZhLong, fmtStamp, artHTML, catTile, catArt } from '../util.js';
+import { $, esc, ICON, fmtStamp, artHTML, catTile, catArt } from '../util.js';
 import { S, storyHref } from '../state.js';
 import { Data } from '../data.js';
 import { Story, scrubHTML, setScrub } from '../story.js';
@@ -41,7 +41,7 @@ export function render(el) {
   unmount();
   const iss = S.issue;
   if (!iss) {
-    el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>今日</h1></div></header>${Data.state === 'loading' ? '<div class="skel" style="height:320px"></div>' : `<div class="empty"><b>今天的新闻还没准备好</b>${Data.state === 'error' ? '数据读取失败，刷新一下试试。' : '每天早上 7 点左右更新。口语、听力和阅读随时可以用。'}</div>`}</div>`;
+    el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.today}今日</h1></div></header>${Data.state === 'loading' ? '<div class="skel" style="height:320px"></div>' : `<div class="empty"><b>今天的新闻还没准备好</b>${Data.state === 'error' ? '数据读取失败，刷新一下试试。' : '每天早上 7 点左右更新。口语、听力和阅读随时可以用。'}</div>`}</div>`;
     return;
   }
   const st = heroStory(iss);
@@ -52,7 +52,7 @@ export function render(el) {
   const read = Data.feed.items.filter(i => i.kind === 'read').concat([ENGOO_ITEM]);
   const phrases = iss.dialogue ? iss.dialogue.phrases.slice(0, 5) : [];
   el.innerHTML = `<div class="page">
-  <header class="pg-head"><div><h1>今日</h1><p class="pg-sub">${esc(fmtZhLong(iss.date))}${iss.issueNo ? `，第 ${iss.issueNo} 期` : ''}</p></div></header>
+  <header class="pg-head"><div><h1>${ICON.today}今日</h1><p class="pg-sub">${[`${iss.stories.length} 篇新闻`, listen.length ? `${listen.length} 期新播客` : '', iss.dialogue ? '1 段对话' : '', `${read.length} 篇阅读`].filter(Boolean).join(' · ')}</p></div></header>
   <section class="feature" style="--g1:${art.c[0]};--g2:${art.c[1]}" aria-label="头条">
     <div style="min-width:0">
       <div class="kick"><span>头条</span><span>${esc(st.category)}</span></div>

@@ -10,7 +10,7 @@ export function render(el, parts) {
   unmount();
   if (parts[0] === 'review') { startReview(el); return; }
   REV.active = false;
-  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>生词本</h1><p class="pg-sub">读新闻、听对话时点词收藏，原句一起存下来。复习随你，想起来再练。</p></div>
+  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>${ICON.words}生词本</h1><p class="pg-sub">读新闻、听对话时点词收藏，原句一起存下来。复习随你，想起来再练。</p></div>
     <div class="ctrl"><a class="btn fill" href="#/words/review" id="revBtn">复习</a><button class="btn" data-act="w-export-csv">${ICON.save}导出 CSV</button><button class="btn" data-act="w-export-json">${ICON.save}备份</button><label class="btn" for="wImport" style="cursor:pointer">${ICON.open}导入备份</label><input type="file" id="wImport" accept="application/json,.json" data-change="w-import" hidden></div></header>
   <div id="wStats"></div>
   <label class="search" style="margin:22px 0 14px">${ICON.search}<span class="sr">搜索生词</span><input type="search" id="wSearch" placeholder="搜索单词或中文释义" value="${esc(q)}" data-input="w-search"></label>
