@@ -1,6 +1,8 @@
-Gentium Book Plus (used for phonetic symbols) is licensed under the SIL Open Font License, Version 1.1.
+Both fonts in this folder are licensed under the SIL Open Font License, Version 1.1.
 
-Copyright (c) 2003-2022 SIL International GentiumBookPlus-Italic.ttf: Copyright (c) 2003-2022 SIL International GentiumBookPlus-Bold.ttf: Copyright (c) 2003-2022 SIL International GentiumBookPlus-BoldItalic.ttf: Copyright (c) 2003-2022 SIL International
+Inter (interface text on Windows and Android; inter-*.woff2): Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+
+Gentium Book Plus (phonetic symbols; gentium-*.woff2): Copyright (c) 2003-2022 SIL International GentiumBookPlus-Italic.ttf: Copyright (c) 2003-2022 SIL International GentiumBookPlus-Bold.ttf: Copyright (c) 2003-2022 SIL International GentiumBookPlus-BoldItalic.ttf: Copyright (c) 2003-2022 SIL International
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

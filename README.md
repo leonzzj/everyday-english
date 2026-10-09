@@ -42,4 +42,4 @@ cd site && python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-Text uses the system font stack (SF Pro / PingFang on Apple devices). Gentium Book Plus, used only for phonetic transcriptions, is self-hosted under the SIL Open Font License. Podcast artwork comes from each publisher's feed; when a feed has none, a colour tile is shown instead.
+Text uses the system font on Apple devices (SF Pro / PingFang); elsewhere it uses Inter, with Microsoft YaHei or Noto Sans SC for Chinese. Inter and Gentium Book Plus (phonetic transcriptions only) are self-hosted under the SIL Open Font License. Podcast artwork comes from each publisher's feed; when a feed has none, a colour tile is shown instead.

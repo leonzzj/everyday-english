@@ -1,5 +1,8 @@
 /* Everyday English — Apple-style system UI: neutral chrome, artwork carries the colour, one purple tint. */
 
+/* Inter stands in for SF Pro where the system font is not Apple's (Windows, Android). Apple devices never download it. */
+@font-face{font-family:"Inter Variable";font-style:normal;font-display:swap;font-weight:100 900;src:url(fonts/inter-latin.woff2) format("woff2-variations"),url(fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Inter Variable";font-style:normal;font-display:swap;font-weight:100 900;src:url(fonts/inter-latin-ext.woff2) format("woff2-variations"),url(fonts/inter-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 @font-face{font-family:"Gentium Book Plus";font-style:normal;font-display:swap;font-weight:400;src:url(fonts/gentium-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face{font-family:"Gentium Book Plus";font-style:normal;font-display:swap;font-weight:400;src:url(fonts/gentium-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 
@@ -13,8 +16,8 @@
   --green:#248A3D; --green-soft:rgba(52,199,89,.14); --red:#D70015; --red-soft:rgba(255,59,48,.10);
   --shadow:0 1px 2px rgba(0,0,0,.04),0 6px 22px rgba(0,0,0,.06);
   --shadow-hi:0 2px 6px rgba(0,0,0,.06),0 18px 48px rgba(0,0,0,.12);
-  --seg-on:#FFFFFF; --seg-shadow:0 1px 3px rgba(0,0,0,.12),0 0 0 .5px rgba(0,0,0,.04);
-  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue","PingFang SC","Hiragino Sans GB","Segoe UI","Microsoft YaHei","Noto Sans SC",Arial,sans-serif;
+  --seg-on:#FFFFFF; --seg-shadow:0 1px 3px rgba(0,0,0,.12),0 0 0 .5px rgba(0,0,0,.04); --scroll:rgba(0,0,0,.26);
+  --font:-apple-system,BlinkMacSystemFont,"Inter Variable","Segoe UI Variable Text","Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei","Noto Sans SC",sans-serif;
   --ipa:"Gentium Book Plus","Charis SIL","Doulos SIL","Lucida Sans Unicode",serif;
   --side:240px; --tabbar:0px; --mini:0px; --r:18px; --r-s:12px;
 }
@@ -26,7 +29,7 @@
   --tint:#BF5AF2; --tint-soft:rgba(191,90,242,.18); --tint-ink:#FFFFFF;
   --green:#30D158; --green-soft:rgba(48,209,88,.16); --red:#FF6961; --red-soft:rgba(255,69,58,.16);
   --shadow:none; --shadow-hi:0 18px 48px rgba(0,0,0,.55);
-  --seg-on:#636366; --seg-shadow:none;
+  --seg-on:#636366; --seg-shadow:none; --scroll:rgba(255,255,255,.26);
 }}
 :root[data-theme="dark"]{
   color-scheme:dark;
@@ -36,12 +39,14 @@
   --tint:#BF5AF2; --tint-soft:rgba(191,90,242,.18); --tint-ink:#FFFFFF;
   --green:#30D158; --green-soft:rgba(48,209,88,.16); --red:#FF6961; --red-soft:rgba(255,69,58,.16);
   --shadow:none; --shadow-hi:0 18px 48px rgba(0,0,0,.55);
-  --seg-on:#636366; --seg-shadow:none;
+  --seg-on:#636366; --seg-shadow:none; --scroll:rgba(255,255,255,.26);
 }
 
 /* ---------- base ---------- */
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-padding-top:24px}
+.win{scrollbar-width:thin;scrollbar-color:var(--scroll) transparent}
+.win .sidebar{scrollbar-width:thin}
 body{margin:0;background:var(--bg);color:var(--label);font:16px/1.5 var(--font);letter-spacing:-.01em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-bottom:calc(var(--tabbar) + var(--mini) + env(safe-area-inset-bottom,0px))}
 h1,h2,h3,h4{margin:0;font-weight:700;line-height:1.18;letter-spacing:-.02em;text-wrap:balance}
 p{margin:0}

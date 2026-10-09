@@ -8,7 +8,10 @@
 <meta name="theme-color" content="#F5F5F7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#161617" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-<script>try{var t=localStorage.getItem('ee.theme');if(t==='"light"'||t==='"dark"')document.documentElement.dataset.theme=JSON.parse(t)}catch(e){}</script>
+<script>(function(){var d=document.documentElement,ua=navigator.userAgent||'';
+try{var t=localStorage.getItem('ee.theme');if(t==='"light"'||t==='"dark"')d.dataset.theme=JSON.parse(t)}catch(e){}
+if(/Windows/.test(ua))d.classList.add('win');
+if(!/Mac|iPhone|iPad|iPod/.test(ua)){var l=document.createElement('link');l.rel='preload';l.as='font';l.type='font/woff2';l.crossOrigin='anonymous';l.href='assets/fonts/inter-latin.woff2';document.head.appendChild(l)}})()</script>
 <link rel="stylesheet" href="assets/app.css">
 <link rel="modulepreload" href="assets/js/main.js">
 <link rel="modulepreload" href="assets/js/util.js">
