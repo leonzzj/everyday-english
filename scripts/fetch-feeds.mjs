@@ -51,23 +51,26 @@ function imageOf(block) {
   const raw = unCdata(tag(block, ['description', 'content:encoded', 'content', 'summary'])); const html = /&lt;img/i.test(raw) ? decode(raw) : raw;
   const m = html.match(/<img\b[^>]*\bsrc=["'](https:[^"']+)["']/i); return m ? decode(m[1]) : '';
 }
-/* Podcast artwork is often 3000px square; ask image CDNs we know for a small copy. */
+/* Podcast artwork is often a 3000px original. Ask for a 480px copy: from the publisher's own image CDN
+   when it takes size parameters, otherwise through the wsrv.nl resizing proxy. The page falls back to a colour tile if either fails. */
 export function thumb(u) {
   try {
     const x = new URL(u);
     if (x.protocol !== 'https:') return '';
     if (/\.imgix\.net$/i.test(x.hostname)) {
       ['max-w', 'max-h', 'w', 'h'].forEach(k => x.searchParams.delete(k));
-      x.searchParams.set('w', '400'); x.searchParams.set('h', '400'); x.searchParams.set('fit', 'crop'); x.searchParams.set('auto', 'format,compress');
-    } else if (Number(x.searchParams.get('width')) > 400) x.searchParams.set('width', '400'); // the CDN already takes a width; ask for less
-    return x.toString();
+      x.searchParams.set('w', '480'); x.searchParams.set('h', '480'); x.searchParams.set('fit', 'crop'); x.searchParams.set('auto', 'format,compress');
+      return x.toString();
+    }
+    if (x.searchParams.has('width')) { if (!(Number(x.searchParams.get('width')) <= 480)) x.searchParams.set('width', '480'); return x.toString(); }
+    return `https://wsrv.nl/?url=${encodeURIComponent(x.toString())}&w=480&h=480&fit=cover&we&output=webp&q=80`;
   } catch { return ''; }
 }
 
 export function parseFeed(xml) {
   const items = [];
   const head = xml.split(/<item\b|<entry\b/i)[0] || '';
-  const chanImg = attr(head, 'itunes:image', 'href') || (head.match(/<image>[\s\S]*?<url>([^<]+)<\/url>/i) || [])[1] || '';
+  const chanImg = attr(head, 'itunes:image', 'href'); // square show art; a plain RSS <image> is usually a wide logo
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || [];
   for (const b of blocks) {
     const title = stripHtml(tag(b, ['title']));
@@ -93,6 +96,23 @@ async function get(url) {
     await new Promise(r => setTimeout(r, 1500));
   }
   return null;
+}
+
+/* Make sure the artwork URL really serves an image: try the resized copy, then the original, else none (the page shows a colour tile). */
+export async function usableImage(u) {
+  if (!u) return '';
+  const tries = [u];
+  if (u.startsWith('https://wsrv.nl/')) { const orig = new URL(u).searchParams.get('url'); if (orig) tries.push(orig); }
+  for (const t of tries) {
+    try {
+      const r = await fetch(t, { headers: { 'user-agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+      const type = r.headers.get('content-type') || '';
+      if (r.body) await r.body.cancel().catch(() => {});
+      if (r.ok && /^image\//i.test(type)) return t;
+      console.warn(`  image ${t} → HTTP ${r.status} ${type}`);
+    } catch (e) { console.warn(`  image ${t} → ${e.message}`); }
+  }
+  return '';
 }
 
 function shorten(s, n = 260) { s = String(s || ''); if (s.length <= n) return s; const cut = s.slice(0, n); return cut.slice(0, Math.max(cut.lastIndexOf(' '), n - 30)).replace(/[,;:\s]+$/, '') + '…'; }
@@ -132,7 +152,8 @@ export async function main() {
     let item = null;
     try { item = await newest(src); } catch (e) { console.warn(`  failed: ${e.message}`); }
     if (!item) { const old = (prev.items || []).find(i => i.source === src.source); if (old) { console.log('  kept previous item'); items.push(old); } continue; }
-    console.log(`  ${item.title} (${item.date || 'no date'})`);
+    item.image = await usableImage(item.image);
+    console.log(`  ${item.title} (${item.date || 'no date'})${item.image ? '' : ' [no artwork]'}`);
     items.push(item);
   }
   if (!items.length) { console.error('No items at all; leaving feed.json unchanged.'); process.exit(0); }
