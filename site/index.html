@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Everyday English</title>
+<meta name="description" content="每天更新的英语练习：分级新闻、地道口语、播客听力、点词阅读和生词本。">
+<meta name="theme-color" content="#1C1527">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/atkinson-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="sr" href="#view">跳到正文</a>
+<header class="masthead">
+  <a class="brand" href="#/" aria-label="Everyday English 首页"><b>everyday english</b><span class="onair" id="issuePill" hidden></span></a>
+  <nav class="dial" aria-label="栏目">
+    <div class="scale"></div><span class="needle" aria-hidden="true"></span>
+    <div class="stations">
+      <a href="#/" data-v="today">今日</a>
+      <a href="#/news" data-v="news">新闻</a>
+      <a href="#/speak" data-v="speak">口语</a>
+      <a href="#/listen" data-v="listen">听力</a>
+      <a href="#/read" data-v="read">阅读</a>
+      <a href="#/words" data-v="words">生词本</a>
+    </div>
+  </nav>
+</header>
+<main class="wrap" id="view" tabindex="-1"></main>
+<footer class="foot">
+  <span>新闻每天早上 7 点左右更新，播客和外刊每天自动抓取。新闻根据公开报道改写，附原文链接。</span>
+  <span>朗读使用你设备自带的英语语音。</span>
+</footer>
+<div class="mini" id="mini" hidden></div>
+<noscript><p style="padding:24px;color:#F4EFFA">这个网站需要开启 JavaScript。</p></noscript>
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

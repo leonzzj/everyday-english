@@ -1,0 +1,713 @@
+{
+ "date": "2026-10-10",
+ "issueNo": 1,
+ "title": "Nobel week, AI copies and a state-run dating app",
+ "createdAt": "2026-10-10T01:10:00+11:00",
+ "stories": [
+  {
+   "id": "peace-prize-pillay",
+   "category": "World",
+   "headline": "South African judge Navi Pillay wins the Nobel Peace Prize",
+   "headlineZh": "南非法官纳维·皮莱获诺贝尔和平奖",
+   "summaryZh": "85 岁的前联合国人权事务高级专员因推动国际法获奖，评委会借此强调“以法止战”。",
+   "b2": "Navi Pillay, a South African judge who spent her career making sure the powerful could be held to account, has been awarded the 2026 Nobel Peace Prize.\n\nThe Norwegian Nobel Committee said the 85-year-old had greatly broadened the scope and impact of international law. Announcing the prize in Oslo, committee chair Jørgen Watne Frydnes called her work a source of hope for everyone trying to build a more peaceful world. The committee admitted it had not yet been able to reach her with the news.\n\nPillay began her career under apartheid, working as a lawyer for opponents of the regime. In 1995 she became the first non-white woman to sit on South Africa's High Court. She went on to serve as a judge, and later as president, of the international tribunal set up to prosecute those responsible for the 1994 genocide in Rwanda. She then joined the International Criminal Court and, from 2008 to 2014, led the United Nations' human rights office.\n\nIn its statement, the committee warned that conflicts are multiplying while judges and international courts face mounting political attacks. Its message was that lasting peace rests on the rule of law: a legal system in which war criminals face justice and victims are heard.\n\nThe prize, worth 12 million Swedish kronor, will be presented on 10 December.",
+   "c1": "At a moment when international justice is under unusual strain, the Norwegian Nobel Committee has chosen to honour one of its most steadfast defenders. The 2026 Nobel Peace Prize goes to Navi Pillay, the 85-year-old South African judge who, in the committee's words, has substantially broadened the scope and impact of international law.\n\nPillay's career traces the arc of modern international justice. She began as a lawyer representing opponents of South Africa's apartheid government and, in 1995, became the first non-white woman appointed to the country's High Court. From there she moved onto the global stage, serving as a judge and later president of the UN tribunal established to try those responsible for the 1994 Rwandan genocide, then as a judge at the International Criminal Court, before heading the UN human rights office from 2008 to 2014. Throughout, her work has turned on a single question: whether those who commit atrocities can be held to account.\n\nThe choice carries an unmistakable message. In announcing the award, the committee pointed to a rising number of wars and to mounting political attacks on judges and international courts, arguing that the peaceful resolution of conflict ultimately rests on the rule of law. In its view, accountability for war crimes and justice for victims are not optional extras but preconditions for lasting peace.\n\nTellingly, the committee had been unable to contact Pillay before revealing her name to the world. The prize, worth 12 million Swedish kronor, will be presented in Oslo on 10 December, the anniversary of Alfred Nobel's death.",
+   "vocab": [
+    {
+     "word": "under strain",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "承受压力；处境艰难",
+     "en": "experiencing pressure that makes something difficult to maintain",
+     "example": "Hospitals are under strain during the winter flu season.",
+     "forms": [
+      "under unusual strain"
+     ]
+    },
+    {
+     "word": "broaden the scope",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "扩大……的范围",
+     "en": "to make something cover more areas or situations",
+     "example": "The new law broadens the scope of consumer protection.",
+     "forms": [
+      "broadened the scope"
+     ]
+    },
+    {
+     "word": "held to account",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "被追究责任",
+     "en": "made to explain and take responsibility for your actions",
+     "example": "Companies that pollute rivers should be held to account."
+    },
+    {
+     "word": "unmistakable",
+     "pos": "adj.",
+     "ipa": "/ˌʌnmɪˈsteɪkəbl/",
+     "zh": "明确无误的",
+     "en": "so clear that it cannot be confused with anything else",
+     "example": "There was an unmistakable sense of relief in the room."
+    },
+    {
+     "word": "mounting",
+     "pos": "adj.",
+     "ipa": "/ˈmaʊntɪŋ/",
+     "zh": "不断增加的",
+     "en": "gradually increasing",
+     "example": "The government faces mounting pressure to act on housing."
+    },
+    {
+     "word": "rest on",
+     "pos": "phr. v.",
+     "ipa": "",
+     "zh": "取决于；建立在……之上",
+     "en": "to depend on something as a basis",
+     "example": "The success of the plan rests on public support.",
+     "forms": [
+      "rests on"
+     ]
+    },
+    {
+     "word": "the rule of law",
+     "pos": "n. phr.",
+     "ipa": "",
+     "zh": "法治",
+     "en": "the principle that everyone, including the government, must obey the law",
+     "example": "Foreign investors want countries with a strong rule of law."
+    },
+    {
+     "word": "accountability",
+     "pos": "n.",
+     "ipa": "/əˌkaʊntəˈbɪləti/",
+     "zh": "问责；责任追究",
+     "en": "the fact of being responsible for what you do and able to explain it",
+     "example": "Voters are demanding greater accountability from politicians."
+    },
+    {
+     "word": "precondition",
+     "pos": "n.",
+     "ipa": "/ˌpriːkənˈdɪʃn/",
+     "zh": "前提条件",
+     "en": "something that must exist before something else can happen",
+     "example": "Trust is a precondition for any successful negotiation.",
+     "forms": [
+      "preconditions"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "type": "tfng",
+     "q": "Pillay led the UN human rights office before she became a judge at the International Criminal Court.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 1,
+     "explain": "原文顺序是先在国际刑事法院当法官，之后（2008–2014）才领导联合国人权办公室：then as a judge at the International Criminal Court, before heading the UN human rights office。判断题常在时间先后上设陷阱。"
+    },
+    {
+     "type": "tfng",
+     "q": "The committee told Pillay about the award before announcing it publicly.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 1,
+     "explain": "原文：the committee had been unable to contact Pillay before revealing her name——宣布前没能联系上她。"
+    },
+    {
+     "type": "tfng",
+     "q": "Pillay plans to donate the prize money to human rights organisations.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 2,
+     "explain": "文中完全没有提到奖金用途，所以是 Not Given。"
+    },
+    {
+     "type": "mcq",
+     "q": "What is the main message behind the committee's choice?",
+     "options": [
+      "International courts should replace national governments",
+      "Peace ultimately depends on the rule of law and accountability",
+      "The UN should spend more money on human rights",
+      "War crimes are becoming less common"
+     ],
+     "answer": 1,
+     "explain": "评委会认为和平最终取决于法治（rests on the rule of law），问责是持久和平的前提。"
+    }
+   ],
+   "discuss": "Why might some countries refuse to cooperate with international courts? Do you think this will change in the future?",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-10-09/nobel-peace-prize-2026-winner-judge-navi-pillay/107249984"
+    }
+   ]
+  },
+  {
+   "id": "physics-icecube",
+   "category": "Science",
+   "headline": "The physicist who turned Antarctic ice into a telescope wins a Nobel",
+   "headlineZh": "把南极冰层变成望远镜的物理学家获诺贝尔奖",
+   "summaryZh": "哈尔森 1988 年提出用南极冰探测中微子，IceCube 观测站让他独得 2026 年诺贝尔物理学奖。",
+   "b2": "In 1988, Francis Halzen proposed an idea that sounded like a long shot: use the ice beneath the South Pole as a giant particle detector. Almost four decades later, that idea has earned him the 2026 Nobel Prize in Physics.\n\nThe Belgian-born physicist, now 82 and based at the University of Wisconsin–Madison, was honoured for his decisive role in building the IceCube Neutrino Observatory and for the discovery of high-energy neutrinos from space.\n\nNeutrinos are nicknamed “ghost particles” because they are so elusive: they barely interact with matter. Tens of billions pass through your fingertip every second without leaving a trace. On the rare occasions when one does strike an atom, it gives off a faint flash of blue light. IceCube catches those flashes with 5,160 sensors buried in a cubic kilometre of Antarctic ice. Because neutrinos travel in straight lines, scientists can pinpoint the violent cosmic events that produced them.\n\nThe detector was completed in 2011, and two years later it produced the first evidence of neutrinos from far beyond our solar system. The Nobel Committee praised Halzen's tenacity and vision. Unusually for physics, he won the prize alone, and he used the moment to thank the colleagues who joined the project in its early days. His team is now planning a successor about eight times larger.",
+   "c1": "When Francis Halzen suggested in 1988 that the ice sheet beneath the South Pole could double as a particle detector, the proposal sounded far-fetched. Nearly four decades on, it has earned the Belgian-born physicist the 2026 Nobel Prize in Physics, which he receives alone, an increasingly rare distinction in a field dominated by large collaborations.\n\nHalzen, 82, who has spent most of his career at the University of Wisconsin–Madison, was recognised for his decisive contribution to the IceCube Neutrino Observatory and for the discovery of high-energy neutrinos originating far beyond our solar system. Neutrinos are notoriously elusive: they carry no electric charge, have almost no mass and pass through ordinary matter virtually unimpeded. Tens of billions of them stream through every square centimetre of your skin each second without leaving any trace.\n\nThe breakthrough lay in exploiting that elusiveness rather than fighting it. On the rare occasions when a neutrino does collide with an atom in the ice, it produces a faint flash of blue light. IceCube's 5,160 sensors, embedded in a cubic kilometre of exceptionally clear Antarctic ice, record these flashes, and because neutrinos travel in straight lines, researchers can work backwards to pinpoint the violent cosmic events that produced them.\n\nCompleted in 2011, the observatory delivered its first evidence of astrophysical neutrinos two years later, opening what the Nobel Committee described as a new kind of astronomy. Halzen has credited the colleagues who backed the idea when it looked like a long shot, and his team is already planning a successor roughly eight times larger.",
+   "vocab": [
+    {
+     "word": "far-fetched",
+     "pos": "adj.",
+     "ipa": "/ˌfɑː ˈfetʃt/",
+     "zh": "牵强的；难以置信的",
+     "en": "very unlikely to be true or to succeed",
+     "example": "The plot of the film was entertaining but completely far-fetched."
+    },
+    {
+     "word": "double as",
+     "pos": "phr. v.",
+     "ipa": "",
+     "zh": "兼作；同时充当",
+     "en": "to have a second use or job",
+     "example": "The sofa doubles as a bed for guests."
+    },
+    {
+     "word": "long shot",
+     "pos": "n.",
+     "ipa": "/ˌlɒŋ ˈʃɒt/",
+     "zh": "希望渺茫的尝试",
+     "en": "something that has only a small chance of succeeding",
+     "example": "It's a long shot, but it's worth applying."
+    },
+    {
+     "word": "distinction",
+     "pos": "n.",
+     "ipa": "/dɪˈstɪŋkʃn/",
+     "zh": "殊荣；荣誉",
+     "en": "a special honour or achievement",
+     "example": "She has the distinction of being the youngest ever winner."
+    },
+    {
+     "word": "notoriously",
+     "pos": "adv.",
+     "ipa": "/nəʊˈtɔːriəsli/",
+     "zh": "出了名地（多指负面）",
+     "en": "in a way that is well known, usually for something bad",
+     "example": "Melbourne's weather is notoriously unpredictable."
+    },
+    {
+     "word": "elusive",
+     "pos": "adj.",
+     "ipa": "/iˈluːsɪv/",
+     "zh": "难以捉摸的；难以找到的",
+     "en": "difficult to find, catch or achieve",
+     "example": "A lasting solution remains elusive.",
+     "forms": [
+      "elusiveness"
+     ]
+    },
+    {
+     "word": "unimpeded",
+     "pos": "adj.",
+     "ipa": "/ˌʌnɪmˈpiːdɪd/",
+     "zh": "畅通无阻的",
+     "en": "not slowed or stopped by anything",
+     "example": "Traffic flowed unimpeded after the road reopened."
+    },
+    {
+     "word": "exploit",
+     "pos": "v.",
+     "ipa": "/ɪkˈsplɔɪt/",
+     "zh": "充分利用",
+     "en": "to use something in a way that helps you",
+     "example": "The company exploited its early lead in the market.",
+     "forms": [
+      "exploiting"
+     ]
+    },
+    {
+     "word": "pinpoint",
+     "pos": "v.",
+     "ipa": "/ˈpɪnpɔɪnt/",
+     "zh": "精确定位；准确找出",
+     "en": "to find or describe something exactly",
+     "example": "Engineers finally pinpointed the cause of the fault."
+    }
+   ],
+   "questions": [
+    {
+     "type": "tfng",
+     "q": "Halzen shared the 2026 physics prize with other members of the IceCube team.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 1,
+     "explain": "原文：which he receives alone——他是独自获奖。"
+    },
+    {
+     "type": "tfng",
+     "q": "Neutrinos can pass through ordinary matter with almost no resistance.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 0,
+     "explain": "pass through ordinary matter virtually unimpeded = 几乎毫无阻碍地穿过普通物质，与题干同义替换。"
+    },
+    {
+     "type": "tfng",
+     "q": "IceCube was the first scientific experiment ever built at the South Pole.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 2,
+     "explain": "文章没有比较 IceCube 和南极其他实验的先后，属于 Not Given。"
+    },
+    {
+     "type": "mcq",
+     "q": "Why can researchers work out where a detected neutrino came from?",
+     "options": [
+      "Neutrinos record the temperature of their source",
+      "Neutrinos travel in straight lines",
+      "The sensors photograph distant galaxies",
+      "Each neutrino produces a different colour of light"
+     ],
+     "answer": 1,
+     "explain": "because neutrinos travel in straight lines, researchers can work backwards——直线传播所以能反推来源。"
+    }
+   ],
+   "discuss": "Should governments spend large amounts of public money on scientific research that has no obvious practical use? Why or why not?",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-10-06/francis-halzen-wins-2026-nobel-prize-in-physics/107236382"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles"
+    }
+   ]
+  },
+  {
+   "id": "etsy-ai-copies",
+   "category": "Tech",
+   "headline": "Artists say Etsy is filling up with AI copies of their work",
+   "headlineZh": "手工平台 Etsy 被 AI 仿品淹没，创作者叫苦",
+   "summaryZh": "霍巴特的钩针设计师发现自己的爆款图案被 AI 仿制出售；法律专家称版权法难以保护“风格”。",
+   "b2": "For years, Etsy has marketed itself as a home for handmade goods. Now buyers and sellers say the platform is being flooded with AI-generated products, some of which copy real artists' work.\n\nLucy Cooper, a 21-year-old crochet designer from Hobart, learned this the hard way. Her spiral beanie, inspired by 1990s surfwear, went viral on social media, so she began selling the pattern on Etsy. Months later, she stumbled upon another shop offering an AI-generated version of it, complete with AI images. Customers who bought the copy told her the instructions simply didn't produce the hat. When the ABC checked, that seller had made around 720 sales.\n\nEtsy says its rules are centred on human creativity. Sellers may use AI as a tool, the company says, but not to deceive buyers or copy others, and it concedes that enforcing this across such a huge marketplace is difficult.\n\nThe law offers limited help. Melbourne law professor Jeannie Paterson points out that copyright protects a specific work, not a style, so an AI imitation that isn't identical may not break the law. She argues that artists urgently need clearer guidance on their rights.",
+   "c1": "Etsy built its brand on the promise of the handmade; its stated mission is to “keep commerce human”. Yet a growing chorus of buyers and sellers now complains that the marketplace is being swamped by AI-generated products, some of them thinly disguised copies of real artists' designs.\n\nThe experience of Lucy Cooper, a 21-year-old crochet designer from Hobart, is a case in point. After a spiral beanie she created, inspired by 1990s surfwear, went viral, she began selling the pattern on Etsy. A few months later she stumbled upon another shop offering what appeared to be an AI-generated imitation, illustrated with AI images. Several customers who had bought it reported that the instructions simply did not produce the hat. When the ABC checked, the seller had racked up roughly 720 sales.\n\nEtsy insists that its standards are centred on human creativity: sellers may use AI as a tool, but not to mislead customers or replicate other people's work. The company concedes, however, that policing a platform of its size is complex and that there is more work to do.\n\nThe legal picture is murkier still. Melbourne law professor Jeannie Paterson notes that public debate has focused on what AI systems are trained on rather than on what they produce. Because copyright protects a particular work rather than a style, an AI-generated variation that stops short of an exact copy may not breach the law. Artists, she argues, urgently need clarity about their rights and about how to enforce them.",
+   "vocab": [
+    {
+     "word": "a growing chorus of",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "越来越多（人发出同样声音）",
+     "en": "an increasing number of people saying the same thing",
+     "example": "A growing chorus of experts is calling for stricter rules."
+    },
+    {
+     "word": "swamped",
+     "pos": "adj. / v.",
+     "ipa": "/swɒmpt/",
+     "zh": "被淹没；应接不暇",
+     "en": "overwhelmed by too much of something",
+     "example": "The help desk was swamped with calls after the outage."
+    },
+    {
+     "word": "thinly disguised",
+     "pos": "adj.",
+     "ipa": "",
+     "zh": "稍加掩饰的；换汤不换药的",
+     "en": "only slightly hidden, so the truth is easy to see",
+     "example": "His question was a thinly disguised criticism."
+    },
+    {
+     "word": "a case in point",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "恰当的例子；明证",
+     "en": "a clear example of what has just been said",
+     "example": "Public transport can be unreliable; last night's delays are a case in point."
+    },
+    {
+     "word": "stumble upon",
+     "pos": "phr. v.",
+     "ipa": "",
+     "zh": "偶然发现",
+     "en": "to find something by chance",
+     "example": "I stumbled upon a great café while exploring the laneways.",
+     "forms": [
+      "stumbled upon"
+     ]
+    },
+    {
+     "word": "rack up",
+     "pos": "phr. v.",
+     "ipa": "",
+     "zh": "累计获得（大量）",
+     "en": "to gradually collect a large number or amount of something",
+     "example": "The video racked up a million views in two days.",
+     "forms": [
+      "racked up"
+     ]
+    },
+    {
+     "word": "concede",
+     "pos": "v.",
+     "ipa": "/kənˈsiːd/",
+     "zh": "（不情愿地）承认",
+     "en": "to admit that something is true, often unwillingly",
+     "example": "The minister conceded that mistakes had been made."
+    },
+    {
+     "word": "murky",
+     "pos": "adj.",
+     "ipa": "/ˈmɜːki/",
+     "zh": "模糊不清的；说不清的",
+     "en": "unclear and complicated",
+     "example": "The rules around data ownership remain murky.",
+     "forms": [
+      "murkier"
+     ]
+    },
+    {
+     "word": "stop short of",
+     "pos": "phr.",
+     "ipa": "",
+     "zh": "差一点就……；没有走到……的地步",
+     "en": "to almost do something but not actually do it",
+     "example": "The report stopped short of blaming the company directly.",
+     "forms": [
+      "stops short of"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "type": "tfng",
+     "q": "Etsy does not allow sellers to use AI tools in any way.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 1,
+     "explain": "原文：sellers may use AI as a tool——可以把 AI 当工具，只是不能误导买家或抄袭。"
+    },
+    {
+     "type": "tfng",
+     "q": "Buyers of the copied pattern were unable to make the hat by following it.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 0,
+     "explain": "the instructions simply did not produce the hat——照着做织不出那顶帽子。"
+    },
+    {
+     "type": "tfng",
+     "q": "Etsy has removed the shop that copied Cooper's design.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 2,
+     "explain": "文章没有说 Etsy 是否下架了那家店，属于 Not Given。"
+    },
+    {
+     "type": "mcq",
+     "q": "According to Professor Paterson, why might an AI-generated variation be legal?",
+     "options": [
+      "AI companies have paid for the right to copy designs",
+      "Copyright protects particular works rather than styles",
+      "Etsy owns all designs sold on its platform",
+      "Crochet patterns are not considered creative works"
+     ],
+     "answer": 1,
+     "explain": "copyright protects a particular work rather than a style——版权保护具体作品而非风格。"
+    }
+   ],
+   "discuss": "Do you think AI-generated art and design will reduce the value of human creativity? Why or why not?",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-10-09/ai-copied-products-found-on-makers-platform-etsy/107191232"
+    }
+   ]
+  },
+  {
+   "id": "singapore-firstdate",
+   "category": "Society",
+   "headline": "Singapore launches a dating app just for public servants",
+   "headlineZh": "新加坡推出公务员专属婚恋 App",
+   "summaryZh": "生育率跌至 0.87 的新加坡用算法为 21–35 岁公务员“一次只配一人”，专家怀疑能否扭转趋势。",
+   "b2": "Singapore has entered the dating business. This month the government rolled out FirstDate, a matchmaking app open only to public servants aged 21 to 35 who verify their identity through Singpass, the national digital ID system.\n\nInstead of an endless feed of profiles, FirstDate offers one match at a time. Users answer questions about their interests, habits and values, and an algorithm based on the Gale-Shapley “stable marriage” model, devised by two American mathematicians in 1962, pairs them up. Matches have three days to decide whether to connect, and couples who meet can claim government vouchers for organised “date quests”.\n\nThe reason is demographic. Singapore's fertility rate dropped to a record low of 0.87 children per woman in 2025, and the number of marriages fell by 6.2 per cent. The government has already promised S$70,000 in support for every child from birth to age 17.\n\nResearchers doubt that an algorithm can turn the tide. One expert notes that high housing costs, the rising cost of living and work pressure remain untouched. Another sees the app as part of a wider pattern in Asia, where cities such as Tokyo and Seoul run their own matchmaking schemes.",
+   "c1": "Singapore's government has added matchmaking to its long list of policy tools. This month it rolled out FirstDate, a dating app open exclusively to public servants aged 21 to 35, who must verify their identity through Singpass, the national digital ID system.\n\nThe app deliberately rejects the endless-scroll model of commercial dating platforms. Users answer questions about their interests, habits and values, and an algorithm based on the Gale-Shapley “stable marriage” model, devised by two American mathematicians in 1962, proposes a single match at a time. Each pair has three days to decide whether to connect, and couples who meet up can redeem government vouchers for organised “date quests”.\n\nThe rationale is demographic. Singapore's total fertility rate sank to a record low of 0.87 children per woman in 2025, while the number of marriages fell by 6.2 per cent. Officials have already pledged S$70,000 in support for every child from birth to age 17, yet the downward trend has proved stubborn.\n\nResearchers are sceptical that better matchmaking can turn the tide. One academic argues that the underlying pressures, from high housing costs to the rising cost of living and demanding work cultures, are left untouched by an algorithm. Another frames FirstDate as part of a broader pattern across East Asia, where cities such as Tokyo and Seoul now run state-backed matchmaking schemes, effectively casting the government in the role of an anxious parent.",
+   "vocab": [
+    {
+     "word": "roll out",
+     "pos": "phr. v.",
+     "ipa": "",
+     "zh": "推出；推行",
+     "en": "to introduce a new product or service",
+     "example": "The bank will roll out the new app next month.",
+     "forms": [
+      "rolled out"
+     ]
+    },
+    {
+     "word": "exclusively",
+     "pos": "adv.",
+     "ipa": "/ɪkˈskluːsɪvli/",
+     "zh": "专门地；仅限于",
+     "en": "only for a particular person or group",
+     "example": "The lounge is exclusively for members."
+    },
+    {
+     "word": "rationale",
+     "pos": "n.",
+     "ipa": "/ˌræʃəˈnɑːl/",
+     "zh": "理由；基本原理",
+     "en": "the reasons behind a decision or belief",
+     "example": "The rationale for the policy was never clearly explained."
+    },
+    {
+     "word": "record low",
+     "pos": "n. phr.",
+     "ipa": "",
+     "zh": "历史新低",
+     "en": "the lowest level ever recorded",
+     "example": "Unemployment fell to a record low last year."
+    },
+    {
+     "word": "pledge",
+     "pos": "v.",
+     "ipa": "/pledʒ/",
+     "zh": "（正式）承诺",
+     "en": "to make a serious promise",
+     "example": "Both parties have pledged to cut emissions.",
+     "forms": [
+      "pledged"
+     ]
+    },
+    {
+     "word": "stubborn",
+     "pos": "adj.",
+     "ipa": "/ˈstʌbən/",
+     "zh": "顽固的；难以改变的",
+     "en": "difficult to change or remove",
+     "example": "Inflation has proved more stubborn than expected."
+    },
+    {
+     "word": "turn the tide",
+     "pos": "idiom",
+     "ipa": "",
+     "zh": "扭转局面",
+     "en": "to change a situation to the opposite direction",
+     "example": "A late goal turned the tide in their favour."
+    },
+    {
+     "word": "underlying",
+     "pos": "adj.",
+     "ipa": "/ˌʌndəˈlaɪɪŋ/",
+     "zh": "根本的；潜在的",
+     "en": "real and basic, but not always obvious",
+     "example": "We need to address the underlying causes of the problem."
+    },
+    {
+     "word": "state-backed",
+     "pos": "adj.",
+     "ipa": "",
+     "zh": "政府支持的",
+     "en": "supported or funded by the government",
+     "example": "The state-backed loan scheme helps first-home buyers."
+    }
+   ],
+   "questions": [
+    {
+     "type": "tfng",
+     "q": "Any Singaporean citizen aged 21 to 35 can sign up for FirstDate.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 1,
+     "explain": "open exclusively to public servants——仅限公务员，不是所有公民。"
+    },
+    {
+     "type": "tfng",
+     "q": "Couples who meet through the app can receive government vouchers.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 0,
+     "explain": "couples who meet up can redeem government vouchers——见面的情侣可兑换政府代金券。"
+    },
+    {
+     "type": "tfng",
+     "q": "More than 10,000 public servants joined the app in its first week.",
+     "options": [
+      "True",
+      "False",
+      "Not Given"
+     ],
+     "answer": 2,
+     "explain": "文中没有给出注册人数，属于 Not Given。"
+    },
+    {
+     "type": "mcq",
+     "q": "Why are experts doubtful that the app will raise the birth rate?",
+     "options": [
+      "The matching algorithm is outdated",
+      "Deeper pressures such as housing costs and work culture remain",
+      "Public servants are too busy to date",
+      "Similar schemes in Tokyo and Seoul failed completely"
+     ],
+     "answer": 1,
+     "explain": "专家认为高房价、生活成本和工作压力等根本问题（underlying pressures）没有改变。"
+    }
+   ],
+   "discuss": "Why do you think many young people today are choosing to marry later, or not at all?",
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-10-09/singapore-dating-app-firstdate-matchmaker-civil-servants/107229898"
+    }
+   ]
+  }
+ ],
+ "dialogue": {
+  "title": "Chatting about the news",
+  "titleZh": "课前聊新闻",
+  "setting": "Two classmates, Mia and Leo, meet outside the seminar room.",
+  "settingZh": "两位同学 Mia 和 Leo 在研讨课教室门口碰面，聊起这周的新闻。",
+  "lines": [
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "Did you catch the Nobel announcements this week? It's been a big one.",
+    "zh": "你看这周的诺贝尔奖公布了吗？挺热闹的。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "Only bits and pieces. The Peace Prize went to a judge, didn't it?",
+    "zh": "只看了一点点。和平奖是给了一位法官吧？"
+   },
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "Yeah, Navi Pillay. Apparently the committee couldn't even get hold of her before announcing it.",
+    "zh": "对，纳维·皮莱。听说委员会宣布之前都没联系上她。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "That's wild. Imagine finding out from the news like everyone else!",
+    "zh": "太离谱了。想象一下和大家一样从新闻里得知自己获奖！"
+   },
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "Right? And the physics prize went to the guy behind that neutrino detector buried in Antarctic ice.",
+    "zh": "是吧？物理学奖给了那个把中微子探测器埋在南极冰里的人。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "Oh, I read about that. It sounded completely far-fetched at first, but it actually worked.",
+    "zh": "哦，我看到了。一开始听着完全不靠谱，结果真成了。"
+   },
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "Exactly. Thirty-odd years of sticking with one idea. You've got to admire that kind of persistence.",
+    "zh": "就是。坚持一个想法三十多年，这种毅力真让人佩服。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "Totally. On a less inspiring note, did you see the story about AI copies flooding Etsy?",
+    "zh": "确实。说个不那么励志的，你看到 Etsy 被 AI 仿品淹没的新闻了吗？"
+   },
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "I did. It's a bit of a grey area legally, which is the frustrating part.",
+    "zh": "看了。法律上算是灰色地带，这才是最让人头疼的。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "Yeah, copyright doesn't really cover style, from what I understand.",
+    "zh": "嗯，据我了解，版权其实不保护风格。"
+   },
+   {
+    "s": "A",
+    "name": "Mia",
+    "en": "Which basically means artists are left to fend for themselves.",
+    "zh": "那基本上就是让创作者自生自灭了。"
+   },
+   {
+    "s": "B",
+    "name": "Leo",
+    "en": "Pretty much. Anyway, we'd better head in. The seminar's about to kick off.",
+    "zh": "差不多吧。好了，我们进去吧，研讨课要开始了。"
+   }
+  ],
+  "phrases": [
+   {
+    "plain": "Did you see the news?",
+    "en": "Did you catch…?",
+    "zh": "catch = 碰巧看到/听到，比 see 更地道"
+   },
+   {
+    "plain": "I only know a little.",
+    "en": "Only bits and pieces.",
+    "zh": "只知道零零碎碎的一点"
+   },
+   {
+    "plain": "contact her",
+    "en": "get hold of her",
+    "zh": "联系上（某人）"
+   },
+   {
+    "plain": "about thirty years",
+    "en": "thirty-odd years",
+    "zh": "三十多年（-odd 表示“多一点”）"
+   },
+   {
+    "plain": "It's not clear in law.",
+    "en": "It's a bit of a grey area legally.",
+    "zh": "法律上的灰色地带"
+   },
+   {
+    "plain": "nobody helps them",
+    "en": "they're left to fend for themselves",
+    "zh": "只能自己想办法；自生自灭"
+   },
+   {
+    "plain": "start",
+    "en": "kick off",
+    "zh": "（活动、会议）开始，口语常用"
+   }
+  ]
+ }
+}

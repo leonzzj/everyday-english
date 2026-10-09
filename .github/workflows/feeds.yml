@@ -1,0 +1,47 @@
+name: Refresh feeds
+
+on:
+  schedule:
+    # Twice a day (UTC): about 5:30am and 1:30pm in Melbourne during daylight saving.
+    - cron: '30 18 * * *'
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-feeds.mjs'
+      - '.github/workflows/feeds.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-feeds
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch newest episodes and articles
+        run: node scripts/fetch-feeds.mjs
+      - name: Commit feed.json if it changed
+        run: |
+          if git diff --quiet -- site/data/feed.json; then
+            echo "Feed unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/feed.json
+          git commit -m "Refresh external feeds"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

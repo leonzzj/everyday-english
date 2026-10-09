@@ -1,0 +1,65 @@
+{
+ "updatedAt": "2026-10-10T01:40:00+11:00",
+ "items": [
+  {
+   "source": "ABC News Daily",
+   "kind": "listen",
+   "title": "Waleed Aly on the Greens' Mamdani moment",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/waleed-aly-on-the-greens-mamdani-moment/107244142",
+   "date": "2026-10-09",
+   "minutes": 16,
+   "level": "C1",
+   "accent": "AU",
+   "desc": "",
+   "audio": ""
+  },
+  {
+   "source": "Conversations",
+   "kind": "listen",
+   "title": "Mick Fanning on surfing, fighting off a great white shark, and losing three brothers",
+   "url": "https://www.abc.net.au/listen/programs/conversations/mick-fanning-world-surfing-champion-shark-punching-grief-family/107227724",
+   "date": "2026-10-09",
+   "minutes": 52,
+   "level": "C1",
+   "accent": "AU",
+   "desc": "",
+   "audio": ""
+  },
+  {
+   "source": "SBS Learn English",
+   "kind": "listen",
+   "title": "#120 Going to a wedding",
+   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/120-going-to-a-wedding/8oto9csb7",
+   "date": "2026-09-30",
+   "minutes": 10,
+   "level": "B1–B2",
+   "accent": "AU",
+   "desc": "",
+   "audio": ""
+  },
+  {
+   "source": "Breaking News English",
+   "kind": "read",
+   "title": "Schools closed in France as students clash with police (Level 6)",
+   "url": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.html",
+   "date": "2026-10-05",
+   "minutes": 10,
+   "level": "B2–C1",
+   "accent": "",
+   "desc": "",
+   "audio": ""
+  },
+  {
+   "source": "Aeon",
+   "kind": "read",
+   "title": "The ghetto on the lagoon",
+   "url": "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516",
+   "date": "2026-10-08",
+   "minutes": 20,
+   "level": "C1+",
+   "accent": "",
+   "desc": "",
+   "audio": ""
+  }
+ ]
+}
