@@ -42,4 +42,4 @@ cd site && python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-Fonts (Archivo, Atkinson Hyperlegible, Gentium Book Plus) are self-hosted under the SIL Open Font License.
+Text uses the system font stack (SF Pro / PingFang on Apple devices). Gentium Book Plus, used only for phonetic transcriptions, is self-hosted under the SIL Open Font License. Podcast artwork comes from each publisher's feed; when a feed has none, a colour tile is shown instead.

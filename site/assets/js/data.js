@@ -50,14 +50,15 @@ function normIndex(d) {
 function normFeed(d) {
   const items = (d && Array.isArray(d.items) ? d.items : []).map(it => {
     if (!it || typeof it !== 'object') return null; const url = safeUrl(it.url); if (!url || !str(it.title)) return null;
-    return { source: str(it.source, 60) || 'Source', kind: it.kind === 'listen' ? 'listen' : 'read', title: str(it.title, 220), url, audio: safeUrl(it.audio), date: isDate(it.date) ? it.date : '',
+    const img = safeUrl(it.image);
+    return { source: str(it.source, 60) || 'Source', kind: it.kind === 'listen' ? 'listen' : 'read', title: str(it.title, 220), url, audio: safeUrl(it.audio), image: img.startsWith('https:') ? img : '', date: isDate(it.date) ? it.date : '',
       minutes: Math.max(0, Math.min(600, Math.round(Number(it.minutes) || 0))), level: str(it.level, 20), accent: str(it.accent, 10), desc: str(it.desc, 400) };
   }).filter(Boolean).slice(0, 40);
   return { updatedAt: str(d && d.updatedAt, 40), items };
 }
 
 async function getJSON(path) {
-  const r = await fetch(path, { cache: 'no-cache' });
+  const r = await fetch(path);
   if (!r.ok) throw new Error(path + ' ' + r.status);
   return r.json();
 }
@@ -75,9 +76,10 @@ export const Data = {
     catch (e) { return null; }
   },
   async loadFeed() {
-    try { this.feed = normFeed(await getJSON('data/feed.json')); this.feedState = 'ready'; }
+    try { this.feed = normFeed(await getJSON('data/feed.json')); this.feedState = 'ready'; LS.set('ee.feed', this.feed); }
     catch (e) { this.feedState = 'error'; }
     return this.feed;
   },
-  cachedIssue() { return normIssue(LS.get('ee.lastIssue', null)); }
+  cachedIssue() { return normIssue(LS.get('ee.lastIssue', null)); },
+  cachedFeed() { const f = LS.get('ee.feed', null); return f && Array.isArray(f.items) && f.items.length ? normFeed(f) : null; }
 };

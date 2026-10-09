@@ -1,5 +1,5 @@
 /* Listening: today's podcast episodes, dictation, shadowing and recommended channels. */
-import { $, $$, esc, ICON, toast, fmtShort, coverHTML, wordCount } from '../util.js';
+import { $, $$, esc, ICON, toast, fmtShort, artHTML, wordCount } from '../util.js';
 import { S } from '../state.js';
 import { Data } from '../data.js';
 import { TTS, rateSelect, accentSelect } from '../tts.js';
@@ -18,9 +18,9 @@ export function render(el, parts) {
   unmount();
   let tab = parts[0] || 'pods'; if (!TABS.some(t => t[0] === tab)) tab = 'pods';
   S.listenTab = tab;
-  const tabs = `<nav class="seg tabs" aria-label="听力栏目">${TABS.map(([k, l]) => `<a href="#/listen/${k}"${k === tab ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`;
+  const tabs = `<nav class="seg lg tabs" aria-label="听力栏目">${TABS.map(([k, l]) => `<a href="#/listen/${k}"${k === tab ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>`;
   const body = tab === 'pods' ? podsHTML() : tab === 'dictation' ? dictHTML() : tab === 'shadow' ? shadowHTML() : channelsHTML();
-  el.innerHTML = `<div class="page-head"><div><h1>听力</h1><p class="lede">泛听用真实播客，精听用听写和跟读。先用正常语速，实在听不出再放慢。</p></div><div class="ctrl">${rateSelect('rateL')}${accentSelect('accL')}</div></div>${tabs}<div id="listenBody">${body}</div>`;
+  el.innerHTML = `<div class="page"><header class="pg-head"><div><h1>听力</h1><p class="pg-sub">泛听用真实播客，精听用听写和跟读。先用正常语速，实在听不出再放慢。</p></div><div class="ctrl">${rateSelect('rateL')}${accentSelect('accL')}</div></header>${tabs}<div id="listenBody">${body}</div></div>`;
   if (tab === 'pods') off.push(Player.on(() => { const b = $('#listenBody'); if (b && S.listenTab === 'pods') b.innerHTML = podsHTML(); }));
   if (tab === 'dictation') {
     keyHandler = e => { if ((e.ctrlKey || e.metaKey) && e.key === 'Enter' && S.listenTab === 'dictation') { e.preventDefault(); DICT.checked ? nextDict(true) : dictCheck(); } };
@@ -32,10 +32,10 @@ export function render(el, parts) {
 function podsHTML() {
   const items = Data.feed.items.filter(i => i.kind === 'listen');
   if (!items.length) return `<div class="empty"><b>${Data.feedState === 'loading' ? '正在读取各平台的更新……' : '暂时没有新的播客'}</b>先去“频道推荐”挑一个节目听吧。</div>`;
-  return `<ul class="pods">${items.map(it => {
+  return `<ul class="list pods">${items.map(it => {
     const i = Data.feed.items.indexOf(it), playing = Player.isPlaying(it);
-    return `<li class="pod${playing ? ' playing' : ''}">${coverHTML(it.source, 'lg')}<div style="min-width:0"><div class="t">${esc(it.title)}</div>${it.desc ? `<div class="desc">${esc(it.desc)}</div>` : ''}<div class="meta"><span>${esc(it.source)}</span>${it.minutes ? `<span class="num">${it.minutes} 分钟</span>` : ''}${it.accent ? `<span>${esc(ACC[it.accent] || it.accent)}</span>` : ''}${it.level ? `<span class="tag">${esc(it.level)}</span>` : ''}${it.date ? `<span class="num">${esc(fmtShort(it.date))}</span>` : ''}</div></div>
-      <div class="acts">${it.audio ? `<button class="play sm" data-act="pod-play" data-i="${i}" aria-label="${playing ? '暂停' : '播放'}：${esc(it.title)}">${playing ? ICON.pause : ICON.play}</button>` : ''}<a class="icon-btn" href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="打开节目页面" title="打开节目页面">${ICON.ext}</a></div></li>`;
+    return `<li class="${playing ? 'playing' : ''}"><div class="row">${artHTML(it, 's64')}<div style="min-width:0"><div class="t">${esc(it.title)}</div>${it.desc ? `<div class="d">${esc(it.desc)}</div>` : ''}<div class="m"><span>${esc(it.source)}</span>${it.minutes ? `<span class="num">${it.minutes} 分钟</span>` : ''}${it.accent ? `<span>${esc(ACC[it.accent] || it.accent)}</span>` : ''}${it.level ? `<span class="tag">${esc(it.level)}</span>` : ''}${it.date ? `<span class="num">${esc(fmtShort(it.date))}</span>` : ''}</div></div>
+      <div class="end">${it.audio ? `<button class="play" data-act="pod-play" data-i="${i}" aria-label="${playing ? '暂停' : '播放'}：${esc(it.title)}">${playing ? ICON.pause : ICON.play}</button>` : ''}<a class="icon-btn plain" href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="打开节目页面" title="打开节目页面">${ICON.ext}</a></div></div></li>`;
   }).join('')}</ul>${feedStamp()}`;
 }
 
@@ -60,12 +60,12 @@ function dictHTML() {
   if (!DICT.cur || (DICT.src.startsWith('news') && S.issue && DICT.cur.date && DICT.cur.date !== S.issue.date)) nextDict(false);
   const c = DICT.cur;
   const srcs = [['news-c1', '今日新闻 C1'], ['news-b2', '今日新闻 B2'], ['dialogue', '场景对话'], ['phrases', '地道表达']];
-  return `<div class="stage"><div class="card">
-    <div class="ctrl"><label class="note" for="dictSrc">材料</label><select class="pick" id="dictSrc" data-change="dict-src">${srcs.map(s => `<option value="${s[0]}"${s[0] === DICT.src ? ' selected' : ''}>${s[1]}</option>`).join('')}</select>${DICT.count ? `<span class="count num">已听写 ${DICT.count} 句</span>` : ''}</div>
-    ${c ? `<div class="ctrl" style="margin:18px 0 14px"><button class="play sm" data-act="dict-play" aria-label="播放">${ICON.play}</button><button class="btn sm" data-act="dict-slow">0.75× 慢放</button><button class="btn sm" data-act="dict-hint">提示首字母</button></div>
+  return `<div class="stage"><div class="card pad">
+    <div class="ctrl"><label class="note" for="dictSrc">材料</label><select class="select" id="dictSrc" data-change="dict-src">${srcs.map(s => `<option value="${s[0]}"${s[0] === DICT.src ? ' selected' : ''}>${s[1]}</option>`).join('')}</select>${DICT.count ? `<span class="count num">已听写 ${DICT.count} 句</span>` : ''}</div>
+    ${c ? `<div class="ctrl" style="margin:18px 0 14px"><button class="play" data-act="dict-play" aria-label="播放">${ICON.play}</button><button class="btn" data-act="dict-slow">0.75× 慢放</button><button class="btn" data-act="dict-hint">提示首字母</button></div>
       ${DICT.hint ? `<p class="ipa" style="font-size:19px;letter-spacing:.04em;margin-bottom:10px">${esc(c.en.split(/\s+/).map(w => { const k = w.search(/[A-Za-z]/); return w.replace(/[A-Za-z]/g, (ch, p) => p === k ? ch : '_'); }).join(' '))}</p>` : ''}
       <label class="sr" for="dictIn">写下你听到的句子</label><textarea id="dictIn" placeholder="听到什么就写什么，大小写和标点不用管"${DICT.checked ? ' readonly' : ''}>${esc(DICT.checked ? DICT.last : '')}</textarea>
-      <div class="ctrl" style="margin-top:12px">${DICT.checked ? `<button class="btn primary" data-act="dict-next">下一句${ICON.next}</button>` : `<button class="btn primary" data-act="dict-check">${ICON.check}核对</button><button class="btn" data-act="dict-next">换一句</button>`}<span class="note">Ctrl / ⌘ + Enter</span></div>
+      <div class="ctrl" style="margin-top:12px">${DICT.checked ? `<button class="btn fill" data-act="dict-next">下一句${ICON.next}</button>` : `<button class="btn fill" data-act="dict-check">${ICON.check}核对</button><button class="btn" data-act="dict-next">换一句</button>`}<span class="note">Ctrl / ⌘ + Enter</span></div>
       <div id="dictRes">${DICT.checked ? dictResultHTML() : ''}</div>`
       : `<p class="note" style="margin-top:16px">${DICT.src.startsWith('news') && !S.issue ? (Data.state === 'loading' ? '今日新闻加载中……' : '新闻暂时不可用，先换“场景对话”或“地道表达”。') : '这个材料暂时没有句子，换一个试试。'}</p>`}
   </div><p class="note" style="margin-top:12px">新闻句子长、信息密，和讲座、新闻广播的难度相当。</p></div>`;
@@ -82,10 +82,10 @@ function diffOps(a, b) {
 }
 function dictResultHTML() {
   const c = DICT.cur, r = diffOps(toks(c.en), toks(DICT.last || '')), pct = Math.round(r.score * 100);
-  return `<div class="result"><div class="ctrl"><b style="color:var(--text)">${pct === 100 ? '全对！' : pct >= 80 ? `很接近了：${pct}%` : `${pct}%，对照原文再听一遍`}</b><button class="icon-btn sm" data-act="say" data-say="${esc(c.en)}" aria-label="再听一遍" style="margin-left:auto">${ICON.say}</button></div>
+  return `<div class="result"><div class="ctrl"><b>${pct === 100 ? '全对！' : pct >= 80 ? `很接近了：${pct}%` : `${pct}%，对照原文再听一遍`}</b><button class="icon-btn" data-act="say" data-say="${esc(c.en)}" aria-label="再听一遍" style="margin-left:auto">${ICON.say}</button></div>
     <div class="diff">${r.ops.map(o => `<span class="${o[0]}">${esc(o[1])}</span>`).join(' ')}</div>
     <p class="note">绿色＝听对；红色波浪线＝漏掉或听错的词；删除线＝原文没有的词。</p>
-    <p style="margin-top:10px;color:var(--text)">${esc(c.en)}</p>${c.zh ? `<p class="note">${esc(c.zh)}</p>` : ''}${c.from ? `<p class="note">出自：${esc(c.from)}</p>` : ''}</div>`;
+    <p style="margin-top:10px;font-weight:600">${esc(c.en)}</p>${c.zh ? `<p class="note">${esc(c.zh)}</p>` : ''}${c.from ? `<p class="note">出自：${esc(c.from)}</p>` : ''}</div>`;
 }
 function dictCheck() {
   const ta = $('#dictIn'); if (!ta || !DICT.cur) return; const v = ta.value.trim();
@@ -112,10 +112,10 @@ function shadowHTML() {
   const srcs = shadowSources();
   if (!SH.src || !srcs.some(s => s[0] === SH.src)) { SH.src = srcs[0] ? srcs[0][0] : ''; SH.items = shadowItems(SH.src); SH.i = 0; SH.auto = !S.issue; }
   const cur = SH.items[SH.i] || '';
-  return `<div class="stage"><div class="card">
-    <div class="ctrl"><label class="note" for="shSrc">材料</label><select class="pick" id="shSrc" data-change="sh-src" style="flex:1;min-width:0;max-width:100%">${srcs.map(s => `<option value="${esc(s[0])}"${s[0] === SH.src ? ' selected' : ''}>${esc(s[1])}</option>`).join('')}</select><label class="note" for="shReps">每句</label><select class="pick" id="shReps" data-change="sh-reps">${[1, 2, 3].map(n => `<option value="${n}"${n === SH.reps ? ' selected' : ''}>${n} 遍</option>`).join('')}</select></div>
+  return `<div class="stage"><div class="card pad">
+    <div class="ctrl"><label class="note" for="shSrc">材料</label><select class="select" id="shSrc" data-change="sh-src" style="flex:1;min-width:0;max-width:100%">${srcs.map(s => `<option value="${esc(s[0])}"${s[0] === SH.src ? ' selected' : ''}>${esc(s[1])}</option>`).join('')}</select><label class="note" for="shReps">每句</label><select class="select" id="shReps" data-change="sh-reps">${[1, 2, 3].map(n => `<option value="${n}"${n === SH.reps ? ' selected' : ''}>${n} 遍</option>`).join('')}</select></div>
     <p class="big-sent" id="shCur" aria-live="polite">${esc(cur)}</p>
-    <div class="ctrl"><button class="icon-btn" data-act="sh-prev" aria-label="上一句">${ICON.back}</button><button class="play" data-act="sh-toggle" id="shPlay" aria-label="开始跟读">${SH.running ? ICON.pause : ICON.play}</button><button class="icon-btn" data-act="sh-next" aria-label="下一句">${ICON.next}</button><span class="count num" id="shCount">${SH.items.length ? SH.i + 1 : 0} / ${SH.items.length}</span></div>
+    <div class="ctrl"><button class="icon-btn gray" data-act="sh-prev" aria-label="上一句">${ICON.back}</button><button class="play lg" data-act="sh-toggle" id="shPlay" aria-label="开始跟读">${SH.running ? ICON.pause : ICON.play}</button><button class="icon-btn gray" data-act="sh-next" aria-label="下一句">${ICON.next}</button><span class="note num" id="shCount" style="margin-left:auto">${SH.items.length ? SH.i + 1 : 0} / ${SH.items.length}</span></div>
     <p class="note" style="margin-top:12px">每句读完会留出同样长的停顿：跟着说，模仿语调、重音和连读。</p>
     <ol class="sh-list" id="shList">${SH.items.map((s, i) => `<li><button class="${i === SH.i ? 'cur' : ''}" data-act="sh-jump" data-i="${i}">${esc(s)}</button></li>`).join('')}</ol>
   </div></div>`;
@@ -147,14 +147,14 @@ function stopShadow() { if (SH.running) { SH.running = false; SH.run++; TTS.stop
 function channelsHTML() {
   const f = S.resFilter, fs = ['All', 'AU', 'UK', 'US', 'Mixed'], names = { All: '全部', ...ACC };
   const list = LISTEN_RES.filter(r => f === 'All' || r.accent === f);
-  return `<div class="filters seg" role="group" aria-label="按口音筛选">${fs.map(x => `<button data-act="res-filter" data-f="${x}" aria-pressed="${f === x}">${names[x]}</button>`).join('')}</div>
-  <ul class="rows">${list.map(r => chanRow(r, names)).join('')}</ul>
+  return `<div class="seg filters" role="group" aria-label="按口音筛选">${fs.map(x => `<button data-act="res-filter" data-f="${x}" aria-pressed="${f === x}">${names[x]}</button>`).join('')}</div>
+  <ul class="list chan">${list.map(r => chanRow(r, names)).join('')}</ul>
   <p class="note" style="margin-top:16px">节奏建议：每天一段精听（听写或跟读 10 分钟），通勤路上再泛听一期播客。</p>`;
 }
 export function chanRow(r, names = ACC) {
-  return `<li class="chan"><div><a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>${r.by ? `<div class="by">${esc(r.by)}</div>` : ''}</div>
-    <div class="body"><div class="why">${esc(r.why)}</div>${r.extra ? `<a class="extra" href="${esc(r.extra.url)}" target="_blank" rel="noopener">${esc(r.extra.label)} ${ICON.ext}</a>` : ''}<div class="tags">${r.level ? `<span class="tag">${esc(r.level)}</span>` : ''}${r.accent ? `<span class="tag">${esc(names[r.accent] || r.accent)}</span>` : ''}${r.len ? `<span class="tag">${esc(r.len)}</span>` : ''}</div></div>
-    <a class="icon-btn go" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="打开 ${esc(r.name)}">${ICON.ext}</a></li>`;
+  return `<li><div class="row"><div><a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>${r.by ? `<div class="by">${esc(r.by)}</div>` : ''}</div>
+    <div class="body"><div class="why">${esc(r.why)}</div>${r.extra ? `<a class="extra" href="${esc(r.extra.url)}" target="_blank" rel="noopener">${esc(r.extra.label)}${ICON.ext}</a>` : ''}<div class="tags">${r.level ? `<span class="tag">${esc(r.level)}</span>` : ''}${r.accent ? `<span class="tag">${esc(names[r.accent] || r.accent)}</span>` : ''}${r.len ? `<span class="tag">${esc(r.len)}</span>` : ''}</div></div>
+    <a class="icon-btn plain go" href="${esc(r.url)}" target="_blank" rel="noopener" aria-label="打开 ${esc(r.name)}">${ICON.ext}</a></div></li>`;
 }
 
 export function unmount() { off.forEach(f => f()); off = []; stopShadow(); if (keyHandler) { document.removeEventListener('keydown', keyHandler); keyHandler = null; } }

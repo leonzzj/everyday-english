@@ -48,12 +48,12 @@ export const Pop = {
     const saved = Words.has(wordId(d.word));
     const q = encodeURIComponent(d.word);
     const defs = d.defs && d.defs.length ? `<ol class="defs">${d.defs.map(x => `<li>${x.pos ? `<span class="pos">${esc(x.pos)}</span> ` : ''}${esc(x.def)}</li>`).join('')}</ol>` : '';
-    this.el.innerHTML = `<div class="hd"><div><div class="word">${esc(d.word)}</div><div class="sub">${d.ipa ? `<span class="ipa">${esc(d.ipa)}</span>` : ''}${d.pos ? `<span class="muted"><i>${esc(d.pos)}</i></span>` : ''}</div></div><button class="icon-btn sm" data-act="pop-close" aria-label="关闭">${ICON.close}</button></div>
-      ${d.zh ? `<div class="zh">${esc(d.zh)}</div>` : ''}${d.en ? `<div class="muted" style="font-size:15px">${esc(d.en)}</div>` : ''}${defs}
+    this.el.innerHTML = `<div class="hd"><div><div class="word">${esc(d.word)}</div><div class="sub">${d.ipa ? `<span class="ipa">${esc(d.ipa)}</span>` : ''}${d.pos ? `<span class="l2"><i>${esc(d.pos)}</i></span>` : ''}</div></div><button class="icon-btn gray" data-act="pop-close" aria-label="关闭">${ICON.close}</button></div>
+      ${d.zh ? `<div class="zh">${esc(d.zh)}</div>` : ''}${d.en ? `<div class="l2" style="font-size:14px;margin-top:2px">${esc(d.en)}</div>` : ''}${defs}
       ${d.example ? `<div class="ex">${esc(d.example)}</div>` : ''}
       ${d.loading ? '<div class="loading">正在查词典……</div>' : ''}${d.none && !d.zh ? '<div class="loading">词典里没找到，试试下面的剑桥词典。</div>' : ''}${d.error ? '<div class="loading">词典暂时连不上，试试下面的链接。</div>' : ''}
-      <div class="acts"><button class="btn sm" data-act="pop-say">${ICON.say}发音</button>${d.fromStory ? `<button class="btn sm" data-act="pop-from">${ICON.play}从这句读</button>` : ''}<button class="btn sm${saved ? '' : ' primary'}" data-act="pop-save">${saved ? ICON.check + '已在生词本' : ICON.plus + '加入生词本'}</button></div>
-      <div class="links"><a href="https://dictionary.cambridge.org/search/direct/?datasetsearch=english-chinese-simplified&q=${q}" target="_blank" rel="noopener">剑桥英汉 ${ICON.ext}</a><a href="https://youglish.com/pronounce/${q}/english/${ytAccent()}" target="_blank" rel="noopener">YouGlish 真人发音 ${ICON.ext}</a></div>`;
+      <div class="acts"><button class="btn tinted" data-act="pop-say">${ICON.say}发音</button>${d.fromStory ? `<button class="btn tinted" data-act="pop-from">${ICON.play}从这句读</button>` : ''}<button class="btn${saved ? '' : ' fill'}" data-act="pop-save">${saved ? ICON.check + '已在生词本' : ICON.plus + '加入生词本'}</button></div>
+      <div class="links"><a href="https://dictionary.cambridge.org/search/direct/?datasetsearch=english-chinese-simplified&q=${q}" target="_blank" rel="noopener">剑桥英汉${ICON.ext}</a><a href="https://youglish.com/pronounce/${q}/english/${ytAccent()}" target="_blank" rel="noopener">YouGlish 真人发音${ICON.ext}</a></div>`;
     this.el.hidden = false;
   },
   place() {

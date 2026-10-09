@@ -1,7 +1,6 @@
 /* Read-aloud controller for one story (shared by Today and the reader) + the waveform progress bar. */
 import { TTS } from './tts.js';
 import { allSentences } from './rich.js';
-import { hashStr, rng } from './util.js';
 
 export const Story = {
   story: null, level: 'c1', sents: [], i: 0, playing: false, run: 0, listeners: new Set(),
@@ -27,14 +26,11 @@ export const Story = {
   emit() { this.listeners.forEach(fn => { try { fn(this); } catch (e) { console.error(e); } }); }
 };
 
-export function waveHTML(seed, n = 88, cls = '') {
-  const r = rng(hashStr(seed)); let bars = '';
-  for (let i = 0; i < n; i++) { const h = 16 + Math.round(r() * 84 * (0.35 + 0.65 * Math.abs(Math.sin(i / 5.3)))); bars += `<i style="height:${Math.min(100, h)}%"></i>`; }
-  return `<div class="wave ${cls}" data-act="wave-seek" role="slider" aria-label="朗读进度" aria-valuemin="0" aria-valuemax="100" tabindex="0">${bars}</div>`;
+export function scrubHTML(cls = '') {
+  return `<div class="scrub ${cls}" data-act="wave-seek" role="slider" aria-label="朗读进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><i></i></div>`;
 }
-export function setWave(el, frac) {
-  if (!el) return; const bars = el.children, n = bars.length, k = Math.round(frac * n);
-  for (let i = 0; i < n; i++) bars[i].classList.toggle('p', i < k);
+export function setScrub(el, frac) {
+  if (!el) return; const bar = el.firstElementChild; if (bar) bar.style.width = (Math.max(0, Math.min(1, frac)) * 100).toFixed(2) + '%';
   el.setAttribute('aria-valuenow', String(Math.round(frac * 100)));
 }
 export function waveFraction(el, clientX) { const r = el.getBoundingClientRect(); return Math.max(0, Math.min(0.999, (clientX - r.left) / r.width)); }

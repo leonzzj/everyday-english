@@ -83,8 +83,8 @@ export const TTS = {
 };
 
 export function accentSelect(id) {
-  return `<label class="sr" for="${id}">口音</label><select class="pick" id="${id}" data-change="accent">${ACCENTS.map(([v, l]) => `<option value="${v}"${v === TTS.accent ? ' selected' : ''}>${l}</option>`).join('')}</select>`;
+  return `<label class="sr" for="${id}">口音</label><select class="select" id="${id}" data-change="accent">${ACCENTS.map(([v, l]) => `<option value="${v}"${v === TTS.accent ? ' selected' : ''}>${l}</option>`).join('')}</select>`;
 }
 export function rateSelect(id) {
-  return `<label class="sr" for="${id}">语速</label><select class="pick" id="${id}" data-change="rate">${RATES.map(r => `<option value="${r}"${r === TTS.rate ? ' selected' : ''}>${r}×</option>`).join('')}</select>`;
+  return `<label class="sr" for="${id}">语速</label><select class="select" id="${id}" data-change="rate">${RATES.map(r => `<option value="${r}"${r === TTS.rate ? ' selected' : ''}>${r}×</option>`).join('')}</select>`;
 }

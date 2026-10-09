@@ -5,35 +5,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Everyday English</title>
 <meta name="description" content="每天更新的英语练习：分级新闻、地道口语、播客听力、点词阅读和生词本。">
-<meta name="theme-color" content="#1C1527">
+<meta name="theme-color" content="#F5F5F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161617" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/atkinson-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{var t=localStorage.getItem('ee.theme');if(t==='"light"'||t==='"dark"')document.documentElement.dataset.theme=JSON.parse(t)}catch(e){}</script>
 <link rel="stylesheet" href="assets/app.css">
+<link rel="modulepreload" href="assets/js/main.js">
+<link rel="modulepreload" href="assets/js/util.js">
+<link rel="modulepreload" href="assets/js/state.js">
+<link rel="modulepreload" href="assets/js/data.js">
+<link rel="modulepreload" href="assets/js/tts.js">
+<link rel="modulepreload" href="assets/js/store.js">
+<link rel="modulepreload" href="assets/js/story.js">
+<link rel="modulepreload" href="assets/js/audio.js">
+<link rel="modulepreload" href="assets/js/popover.js">
+<link rel="modulepreload" href="assets/js/rich.js">
+<link rel="modulepreload" href="assets/js/content.js">
+<link rel="modulepreload" href="assets/js/views/today.js">
+<link rel="modulepreload" href="assets/js/views/news.js">
+<link rel="modulepreload" href="assets/js/views/speak.js">
+<link rel="modulepreload" href="assets/js/views/listen.js">
+<link rel="modulepreload" href="assets/js/views/read.js">
+<link rel="modulepreload" href="assets/js/views/words.js">
+<link rel="preload" href="data/index.json" as="fetch" crossorigin>
+<link rel="preload" href="data/feed.json" as="fetch" crossorigin>
 </head>
 <body>
 <a class="sr" href="#view">跳到正文</a>
-<header class="masthead">
-  <a class="brand" href="#/" aria-label="Everyday English 首页"><b>everyday english</b><span class="onair" id="issuePill" hidden></span></a>
-  <nav class="dial" aria-label="栏目">
-    <div class="scale"></div><span class="needle" aria-hidden="true"></span>
-    <div class="stations">
-      <a href="#/" data-v="today">今日</a>
-      <a href="#/news" data-v="news">新闻</a>
-      <a href="#/speak" data-v="speak">口语</a>
-      <a href="#/listen" data-v="listen">听力</a>
-      <a href="#/read" data-v="read">阅读</a>
-      <a href="#/words" data-v="words">生词本</a>
+<div class="app">
+  <aside class="sidebar" aria-label="栏目">
+    <a class="app-brand" href="#/"><span class="app-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10v4M9 7v10M13 4.5v15M17 8v8M21 10.5v3" transform="translate(-1 0)"/></svg></span>Everyday English</a>
+    <nav class="side-nav" id="sideNav"></nav>
+    <div class="side-foot">
+      <div class="status" id="status"></div>
+      <div class="theme" role="group" aria-label="外观" id="theme"></div>
     </div>
-  </nav>
-</header>
-<main class="wrap" id="view" tabindex="-1"></main>
-<footer class="foot">
-  <span>新闻每天早上 7 点左右更新，播客和外刊每天自动抓取。新闻根据公开报道改写，附原文链接。</span>
-  <span>朗读使用你设备自带的英语语音。</span>
-</footer>
+  </aside>
+  <main class="main" id="view" tabindex="-1"></main>
+</div>
+<nav class="tabbar" id="tabbar" aria-label="栏目"></nav>
 <div class="mini" id="mini" hidden></div>
-<noscript><p style="padding:24px;color:#F4EFFA">这个网站需要开启 JavaScript。</p></noscript>
+<noscript><p style="padding:24px">这个网站需要开启 JavaScript。</p></noscript>
 <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

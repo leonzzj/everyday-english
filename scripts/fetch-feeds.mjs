@@ -44,8 +44,30 @@ export function parseDuration(d) {
 }
 function isoDay(dateStr) { const t = new Date(dateStr); return isNaN(t) ? '' : new Date(t.getTime() + 10 * 3600 * 1000).toISOString().slice(0, 10); } // Melbourne-ish day
 
+function imageOf(block) {
+  const media = block.match(/<media:content\b[^>]*medium=["']image["'][^>]*>/i), enc = block.match(/<enclosure\b[^>]*type=["']image\/[^"']*["'][^>]*>/i);
+  const it = attr(block, 'itunes:image', 'href') || attr(block, 'media:thumbnail', 'url') || (media ? attr(media[0], 'media:content', 'url') : '') || (enc ? attr(enc[0], 'enclosure', 'url') : '');
+  if (/^https:/i.test(it)) return decode(it);
+  const raw = unCdata(tag(block, ['description', 'content:encoded', 'content', 'summary'])); const html = /&lt;img/i.test(raw) ? decode(raw) : raw;
+  const m = html.match(/<img\b[^>]*\bsrc=["'](https:[^"']+)["']/i); return m ? decode(m[1]) : '';
+}
+/* Podcast artwork is often 3000px square; ask image CDNs we know for a small copy. */
+export function thumb(u) {
+  try {
+    const x = new URL(u);
+    if (x.protocol !== 'https:') return '';
+    if (/\.imgix\.net$/i.test(x.hostname)) {
+      ['max-w', 'max-h', 'w', 'h'].forEach(k => x.searchParams.delete(k));
+      x.searchParams.set('w', '400'); x.searchParams.set('h', '400'); x.searchParams.set('fit', 'crop'); x.searchParams.set('auto', 'format,compress');
+    } else if (Number(x.searchParams.get('width')) > 400) x.searchParams.set('width', '400'); // the CDN already takes a width; ask for less
+    return x.toString();
+  } catch { return ''; }
+}
+
 export function parseFeed(xml) {
   const items = [];
+  const head = xml.split(/<item\b|<entry\b/i)[0] || '';
+  const chanImg = attr(head, 'itunes:image', 'href') || (head.match(/<image>[\s\S]*?<url>([^<]+)<\/url>/i) || [])[1] || '';
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || [];
   for (const b of blocks) {
     const title = stripHtml(tag(b, ['title']));
@@ -55,7 +77,8 @@ export function parseFeed(xml) {
     const audio = attr(b, 'enclosure', 'url');
     const minutes = parseDuration(tag(b, ['itunes:duration']));
     const desc = stripHtml(tag(b, ['itunes:summary', 'description', 'summary', 'content:encoded', 'content']));
-    if (title && /^https?:/i.test(link)) items.push({ title, link, date, ts: new Date(date).getTime() || 0, audio: /^https?:/i.test(audio) ? audio : '', minutes, desc });
+    const image = thumb(imageOf(b) || decode(chanImg.trim()));
+    if (title && /^https?:/i.test(link)) items.push({ title, link, date, ts: new Date(date).getTime() || 0, audio: /^https?:/i.test(audio) ? audio : '', minutes, desc, image });
   }
   return items.sort((a, b) => b.ts - a.ts);
 }
@@ -97,7 +120,7 @@ async function newest(src) {
     }
     if (chosen) { it = chosen.cand; title = it.title; if (chosen.lvl === 6) { title += ' (Level 6)'; level = 'B2–C1'; } else { title += ' (Level 3)'; level = 'B1'; } }
   }
-  return { source: src.source, kind: src.kind, title, url: it.link, audio: src.kind === 'listen' ? it.audio : '', date: isoDay(it.date), minutes: it.minutes || src.minutes || 0, level, accent: src.accent, desc: shorten(it.desc) };
+  return { source: src.source, kind: src.kind, title, url: it.link, audio: src.kind === 'listen' ? it.audio : '', image: it.image || '', date: isoDay(it.date), minutes: it.minutes || src.minutes || 0, level, accent: src.accent, desc: shorten(it.desc) };
 }
 
 export async function main() {
