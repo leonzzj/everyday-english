@@ -1,65 +1,77 @@
 {
- "updatedAt": "2026-10-10T01:40:00+11:00",
+ "updatedAt": "2026-10-09T15:09:10.751Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
    "title": "Waleed Aly on the Greens' Mamdani moment",
    "url": "https://www.abc.net.au/listen/programs/abc-news-daily/waleed-aly-on-the-greens-mamdani-moment/107244142",
+   "audio": "https://traffic.megaphone.fm/TECO6486960597.mp3",
    "date": "2026-10-09",
-   "minutes": 16,
+   "minutes": 18,
    "level": "C1",
    "accent": "AU",
-   "desc": "",
-   "audio": ""
+   "desc": "In the United States, they’re calling it the 'Mamdani effect' - a surge in support for democratic socialist candidates. And here, the Greens are hoping for their own Zohran Mamdani moment, with the party’s think tank pitching an Australian version of the New…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
    "title": "Mick Fanning on surfing, fighting off a great white shark, and losing three brothers",
    "url": "https://www.abc.net.au/listen/programs/conversations/mick-fanning-world-surfing-champion-shark-punching-grief-family/107227724",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/p8/Z/2g.mp3",
    "date": "2026-10-09",
    "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "",
-   "audio": ""
+   "desc": "Mick won 3 world surfing titles, and famously punched a great white shark in South Africa. But his life out of the water has been threaded through with devastating loss, after the death of his three older brothers. (CW: loss and grief) Mick Fanning grew up on…"
+  },
+  {
+   "source": "TED Talks Daily",
+   "kind": "listen",
+   "title": "The three words that saved my life | Blake Mycoskie",
+   "url": "http://go.ted.com/blakemycoskie",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7af6ae2a72faefc1e8d10/media.mp3",
+   "date": "2026-10-10",
+   "minutes": 19,
+   "level": "B2–C1",
+   "accent": "Mixed",
+   "desc": "On paper, Blake Mycoskie is a glowing success story: he founded TOMS Shoes, building a global brand that has given away more than 100 million pairs of shoes to children in need. Yet despite his success, his struggle with depression nearly cost him his life.…"
   },
   {
    "source": "SBS Learn English",
    "kind": "listen",
    "title": "#120 Going to a wedding",
    "url": "https://www.sbs.com.au/language/english/en/podcast-episode/120-going-to-a-wedding/8oto9csb7",
+   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20260930060512_314840-english-2933f4a4-439e-4365-ad5b-230f4d14acaf.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a0-7ad4-d037-ada6-7af5e1d40000&dur_cat=3",
    "date": "2026-09-30",
    "minutes": 10,
    "level": "B1–B2",
    "accent": "AU",
-   "desc": "",
-   "audio": ""
+   "desc": "Learn English useful for going to a wedding. Practise asking about the ceremony and reception, talking about gifts and gift registries, and inviting someone as your plus-one. Keep practising the phrases from this episode and test what you’ve learned with our…"
   },
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Schools closed in France as students clash with police (Level 6)",
+   "title": "Schools closed in France as students class with police (Level 6)",
    "url": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.html",
+   "audio": "",
    "date": "2026-10-05",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "",
-   "audio": ""
+   "desc": "Oct 05, 2026. Thousands of students across France have taken to the streets to protest against the state of schools."
   },
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "The ghetto on the lagoon",
-   "url": "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516",
-   "date": "2026-10-08",
+   "title": "Barbara Ward’s vision",
+   "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
+   "audio": "",
+   "date": "2026-10-09",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "",
-   "audio": ""
+   "desc": "She was among the first to argue that prosperity, equality and the protection of nature are inseparable planetary goals - by Or Rosenboim Read on Aeon"
   }
  ]
 }
