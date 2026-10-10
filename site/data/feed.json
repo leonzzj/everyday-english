@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T02:41:37.582Z",
+ "updatedAt": "2026-10-10T18:50:25.192Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The three words that saved my life | Blake Mycoskie",
-   "url": "http://go.ted.com/blakemycoskie",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7af6ae2a72faefc1e8d10/media.mp3",
+   "title": "Why the future is human ... plus AI | Sal Khan and Esther Perel",
+   "url": "http://go.ted.com/salandesther",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac518de854b00dcfdb99f09/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-10",
-   "minutes": 19,
+   "date": "2026-10-11",
+   "minutes": 24,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "On paper, Blake Mycoskie is a glowing success story: he founded TOMS Shoes, building a global brand that has given away more than 100 million pairs of shoes to children in need. Yet despite his success, his struggle with depression nearly cost him his life.…"
+   "desc": "As AI reshapes work, school and love, what part of being human can't a machine take over? In a wide-ranging conversation, psychotherapist Esther Perel and TED's vision steward Sal Khan provide their unique takes on the answer. From personalized learning and…"
   },
   {
    "source": "SBS Learn English",
