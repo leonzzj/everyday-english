@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-11T02:41:54.734Z",
+ "updatedAt": "2026-10-11T18:51:03.708Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Waleed Aly on the Greens' Mamdani moment",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/waleed-aly-on-the-greens-mamdani-moment/107244142",
-   "audio": "https://traffic.megaphone.fm/TECO6486960597.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/0d7a07b2-c32b-11f1-8a1c-7727fc3b5aae/image/222038bf305b74728613df1156632cf4.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-09",
-   "minutes": 18,
+   "title": "Is Iran's economy really about to collapse?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/is-irans-economy-really-about-to-collapse/107247440",
+   "audio": "https://traffic.megaphone.fm/TECO6288769066.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/8d58bc96-c586-11f1-9517-6fe265e2ab1c/image/cfec3239f51881acc2670c73f10f123c.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-12",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "In the United States, they’re calling it the 'Mamdani effect' - a surge in support for democratic socialist candidates. And here, the Greens are hoping for their own Zohran Mamdani moment, with the party’s think tank pitching an Australian version of the New…"
+   "desc": "With the military campaign failing to force Iran to backdown, Donald Trump has been turning up the economic pressure, hoping to cripple the country’s economy and force an end to the war. &nbsp; But despite Iran’s currency plunging to record lows, the regime…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Why the future is human ... plus AI | Sal Khan and Esther Perel",
-   "url": "http://go.ted.com/salandesther",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac518de854b00dcfdb99f09/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "title": "Sunday Pick: Can AI really teach your kids? with Leah Belsky | from WorkLife with Molly Graham",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7b033e2a72faefc1e8d13/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1791471730255-f2a292bf-0543-4dbe-b328-bf01d5d05279.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-10-11",
-   "minutes": 24,
+   "minutes": 51,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "As AI reshapes work, school and love, what part of being human can't a machine take over? In a wide-ranging conversation, psychotherapist Esther Perel and TED's vision steward Sal Khan provide their unique takes on the answer. From personalized learning and…"
+   "desc": "Technology has been promising to revolutionize education for a long time. Online learning, smartphones, and even asynchronous classes during COVID seemed for a while like they might finally transform what learning can look like, but all we really learned was…"
   },
   {
    "source": "SBS Learn English",
