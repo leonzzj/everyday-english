@@ -1,23 +1,23 @@
 {
- "updatedAt": "2026-10-12T02:44:03.823Z",
+ "updatedAt": "2026-10-12T18:54:47.648Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Is Iran's economy really about to collapse?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/is-irans-economy-really-about-to-collapse/107247440",
-   "audio": "https://traffic.megaphone.fm/TECO6288769066.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/8d58bc96-c586-11f1-9517-6fe265e2ab1c/image/cfec3239f51881acc2670c73f10f123c.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-12",
-   "minutes": 17,
+   "title": "Why Trump's selling out to Putin again",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-trumps-selling-out-to-putin-again/107256692",
+   "audio": "https://traffic.megaphone.fm/TECO2379422864.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/ba76f9f8-c64f-11f1-b5a4-6f8e96f5c400/image/420156931b115b1c538b6cf71f02175e.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-13",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "With the military campaign failing to force Iran to backdown, Donald Trump has been turning up the economic pressure, hoping to cripple the country’s economy and force an end to the war. &nbsp; But despite Iran’s currency plunging to record lows, the regime…"
+   "desc": "The US President has eased sanctions on the Kremlin, clearing the way for a lucrative deal to import Russian diesel. Trump says the move will help bring down fuel prices for Americans, as rising living costs weigh on his standing in the polls ahead of the…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "PART ONE: A little girl with a life split in three",
+   "title": "A little girl with a life split in three — how Mimi made it [PART I]",
    "url": "https://www.abc.net.au/listen/programs/conversations/mimi-kwa-hong-kong-family-perth/107238050",
    "audio": "https://mediacore-live-production.akamaized.net/audio/02/p7/Z/1g.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fdbfb6ae6b409d71782d852cb49dcfd87.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
@@ -25,20 +25,20 @@
    "minutes": 49,
    "level": "C1",
    "accent": "AU",
-   "desc": "Mimi Kwa tells her family’s saga, featuring her father — the thirty-second child of a wealthy Chinese silk trader, and her mother, who survived decades of undiagnosed schizophrenia, and Mimi's glamorous other life in the intoxicating hubbub of Hong Kong. (CW…"
+   "desc": "Mimi Kwa tells her family’s saga, featuring her dad — the thirty-second child of a wealthy Chinese silk trader, and her mum, who survived decades of undiagnosed schizophrenia, and Mimi's glamorous other life in the intoxicating hubbub of Hong Kong. (CW…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: Can AI really teach your kids? with Leah Belsky | from WorkLife with Molly Graham",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7b033e2a72faefc1e8d13/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1791471730255-f2a292bf-0543-4dbe-b328-bf01d5d05279.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-11",
-   "minutes": 51,
+   "title": "How to make parenting less lonely | Stacey McLachlan",
+   "url": "http://go.ted.com/staceymclachlan",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7affae2a72faefc1e8d12/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-13",
+   "minutes": 20,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Technology has been promising to revolutionize education for a long time. Online learning, smartphones, and even asynchronous classes during COVID seemed for a while like they might finally transform what learning can look like, but all we really learned was…"
+   "desc": "When parents first have kids, some risk entering “the loneliest decade,” where they fall out of touch with friends. Writer Stacey McLachlan decided to do something different when she had her daughter, refusing to let her social life slip away. In this witty…"
   },
   {
    "source": "SBS Learn English",
@@ -56,28 +56,28 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Schools closed in France as students class with police (Level 6)",
-   "url": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.html",
+   "title": "China agrees to halve hybrid car exports to EU (Level 6)",
+   "url": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.html",
    "audio": "",
    "image": "",
-   "date": "2026-10-05",
+   "date": "2026-10-12",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Oct 05, 2026. Thousands of students across France have taken to the streets to protest against the state of schools."
+   "desc": "Oct 12, 2026. China has agreed to halve its exports of hybrid cars to the European Union."
   },
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Barbara Ward’s vision",
-   "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
+   "title": "Is everything conscious?",
+   "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/41d8761c-df4f-4ee0-a580-d6bd64594340/essay-un-ward.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-09",
+   "image": "https://images.aeonmedia.co/images/bec1dfcc-28fe-4a77-8345-e232c4bcd475/essay-panos_00227070.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-12",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "She was among the first to argue that prosperity, equality and the protection of nature are inseparable planetary goals - by Or Rosenboim Read on Aeon"
+   "desc": "If the question makes no sense to you, try spending some time with the principle of sufficient reason - by Sam Kimpton-Nye Read on Aeon"
   }
  ]
 }
