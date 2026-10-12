@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T18:51:03.708Z",
+ "updatedAt": "2026-10-12T02:44:03.823Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Mick Fanning on surfing, fighting off a great white shark, and losing three brothers",
-   "url": "https://www.abc.net.au/listen/programs/conversations/mick-fanning-world-surfing-champion-shark-punching-grief-family/107227724",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/p8/Z/2g.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F88eb4b1452c17f7bbb10f01b56688316.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-09",
-   "minutes": 52,
+   "title": "PART ONE: A little girl with a life split in three",
+   "url": "https://www.abc.net.au/listen/programs/conversations/mimi-kwa-hong-kong-family-perth/107238050",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/p7/Z/1g.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fdbfb6ae6b409d71782d852cb49dcfd87.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-12",
+   "minutes": 49,
    "level": "C1",
    "accent": "AU",
-   "desc": "Mick won 3 world surfing titles, and famously punched a great white shark in South Africa. But his life out of the water has been threaded through with devastating loss, after the death of his three older brothers. (CW: loss and grief) Mick Fanning grew up on…"
+   "desc": "Mimi Kwa tells her family’s saga, featuring her father — the thirty-second child of a wealthy Chinese silk trader, and her mother, who survived decades of undiagnosed schizophrenia, and Mimi's glamorous other life in the intoxicating hubbub of Hong Kong. (CW…"
   },
   {
    "source": "TED Talks Daily",
