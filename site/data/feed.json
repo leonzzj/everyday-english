@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-13T02:44:19.667Z",
+ "updatedAt": "2026-10-13T19:01:47.561Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Why Trump's selling out to Putin again",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-trumps-selling-out-to-putin-again/107256692",
-   "audio": "https://traffic.megaphone.fm/TECO2379422864.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/ba76f9f8-c64f-11f1-b5a4-6f8e96f5c400/image/420156931b115b1c538b6cf71f02175e.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-13",
-   "minutes": 16,
+   "title": "Will Trump stream an execution to the world?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-trump-stream-an-execution-to-the-world-/107261282",
+   "audio": "https://traffic.megaphone.fm/TECO5385157947.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/e15a6a9a-c718-11f1-953c-bbcd19364462/image/06da749d3540a5e499621b350e106dc5.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-14",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "The US President has eased sanctions on the Kremlin, clearing the way for a lucrative deal to import Russian diesel. Trump says the move will help bring down fuel prices for Americans, as rising living costs weigh on his standing in the polls ahead of the…"
+   "desc": "The US president says he’s still deciding whether to livestream the execution by firing squad of Nidal Hasan, who killed 13 unarmed US soldiers in a 2009 shooting. &nbsp; It comes as Tennessee officials grapple with the aftermath of the botched execution of…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to make parenting less lonely | Stacey McLachlan",
-   "url": "http://go.ted.com/staceymclachlan",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7affae2a72faefc1e8d12/media.mp3",
+   "title": "Why it's so hard to listen when you disagree | Emily Kasriel",
+   "url": "http://go.ted.com/emilykasriel",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acd4daa1882f45a244792a2/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-13",
-   "minutes": 20,
+   "date": "2026-10-14",
+   "minutes": 14,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "When parents first have kids, some risk entering “the loneliest decade,” where they fall out of touch with friends. Writer Stacey McLachlan decided to do something different when she had her daughter, refusing to let her social life slip away. In this witty…"
+   "desc": "Do you avoid talking to people you disagree with? Author and mediator Emily Kasriel thinks you should try it out. She explains why engaging with ideas that bother you is one of the most powerful things you can do — and presents her framework for “deep…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Is everything conscious?",
-   "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+   "title": "Deskilling the body",
+   "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/bec1dfcc-28fe-4a77-8345-e232c4bcd475/essay-panos_00227070.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-12",
+   "image": "https://images.aeonmedia.co/images/b060a785-e136-4e8e-bd82-6085cc21e62a/essay-final-nn11563596.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-13",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "If the question makes no sense to you, try spending some time with the principle of sufficient reason - by Sam Kimpton-Nye Read on Aeon"
+   "desc": "We are, moment by moment, doing less sensing, navigating, remembering, walking, choosing, and attending - by Melanie Challenger Read on Aeon"
   }
  ]
 }
