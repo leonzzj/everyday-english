@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T19:01:47.561Z",
+ "updatedAt": "2026-10-14T02:54:56.491Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "A little girl with a life split in three — how Mimi made it [PART II]",
-   "url": "https://www.abc.net.au/listen/programs/conversations/mimi-kwa-hong-kong-family-perth-part-two/107243152",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pb/Z/ks.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fa8a1f3aba35d1444f95c8898e38fdc1c.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-13",
-   "minutes": 50,
+   "title": "How I decentred men and fell in love with my friends instead of another f*ckboy",
+   "url": "https://www.abc.net.au/listen/programs/conversations/dee-salmin-love-relationships-hookup-triple-j/107249318",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pc/Z/o4.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Ff91b2335026372c84b7a3671711c34b8.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-14",
+   "minutes": 53,
    "level": "C1",
    "accent": "AU",
-   "desc": "Mimi Kwa tells her family’s saga, featuring her dad — the thirty-second child of a wealthy Chinese silk trader, and her mum, who survived decades of undiagnosed schizophrenia, and Mimi's glamorous other life in the intoxicating hubbub of Hong Kong. Mimi…"
+   "desc": "Broadcaster and author Dee Salmin on how her parents' epic love story and dramatic relationship shaped her understanding of love and men; and how she eventually found healthy romance in life. When Dee was growing up in Perth, her father, a great Russian…"
   },
   {
    "source": "TED Talks Daily",
@@ -43,15 +43,15 @@
   {
    "source": "SBS Learn English",
    "kind": "listen",
-   "title": "#120 Going to a wedding",
-   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/120-going-to-a-wedding/8oto9csb7",
-   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20260930060512_314840-english-2933f4a4-439e-4365-ad5b-230f4d14acaf.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a0-7ad4-d037-ada6-7af5e1d40000&dur_cat=3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20260930060517_154372-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-09-30",
-   "minutes": 10,
+   "title": "#121 Picking up a prescription",
+   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/121-picking-up-a-prescription/940467f5s",
+   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261014060314_114650-english-61ae5b72-6a97-468a-8ab4-0bbab2a7c44e.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a0-ccc9-d59b-a7e9-dddfee2f0000&dur_cat=3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261014060320_283545-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-14",
+   "minutes": 9,
    "level": "B1–B2",
    "accent": "AU",
-   "desc": "Learn English useful for going to a wedding. Practise asking about the ceremony and reception, talking about gifts and gift registries, and inviting someone as your plus-one. Keep practising the phrases from this episode and test what you’ve learned with our…"
+   "desc": "Learn English useful for picking up prescription medicine. Practise phrases for filling a prescription, asking how to take medicine, understanding the instructions on a medicine label, and checking possible side effects and interactions with other medicines.…"
   },
   {
    "source": "Breaking News English",
