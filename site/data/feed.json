@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T02:56:58.672Z",
+ "updatedAt": "2026-10-15T19:10:39.405Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "AI brain fry is real. Here’s what’s causing it | Julie Bedard",
-   "url": "http://go.ted.com/juliebedard",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acf9867b3381b9dbb7c315a/media.mp3",
+   "title": "How to stop homelessness before it starts | Jen Loving",
+   "url": "http://go.ted.com/jenloving",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa619b3381b9dbb7c315c/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-15",
-   "minutes": 11,
+   "date": "2026-10-16",
+   "minutes": 12,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Workers everywhere are quietly redesigning their jobs around AI, boosting productivity but also creating new kinds of problems. AI advisor Julie Bedard thinks she has a fix. She shares new research on three areas for leaders to focus on — including how to…"
+   "desc": "Homelessness can feel like an issue that’s too big and complicated to fix, something we've learned to walk past. Jen Loving, who leads the nonprofit Destination: Home, has spent her entire life proving that mindset is wrong. She shows why we must stop waiting…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Deskilling the body",
-   "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+   "title": "The ladder of knowledge",
+   "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/b060a785-e136-4e8e-bd82-6085cc21e62a/essay-final-nn11563596.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-13",
+   "image": "https://images.aeonmedia.co/images/2185ca1b-0c32-4af5-bcf9-3c2def289504/herbert-list-essay-par184662.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-15",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "We are, moment by moment, doing less sensing, navigating, remembering, walking, choosing, and attending - by Melanie Challenger Read on Aeon"
+   "desc": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it - by Alexander V Gheorghiu Read on Aeon"
   }
  ]
 }
