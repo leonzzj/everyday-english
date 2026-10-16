@@ -1,31 +1,31 @@
 {
- "updatedAt": "2026-10-15T19:10:39.405Z",
+ "updatedAt": "2026-10-16T02:57:01.044Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "The Firmus 'flop' warning for the AI bubble",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/the-firmus-flop-warning-for-the-ai-bubble-/107266546",
-   "audio": "https://traffic.megaphone.fm/TECO8711205884.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/0e9560c2-c7e2-11f1-9b7f-0753a1bb89ce/image/c61d9260177b73e8291e5a906633536d.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-15",
-   "minutes": 17,
+   "title": "The mathematician taking on AI",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/the-mathematician-taking-on-ai/107271114",
+   "audio": "https://traffic.megaphone.fm/TECO4494867979.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/5494b61c-c8ab-11f1-a8fa-cfdfe6d7b00e/image/cc97ef530a9455df5e1a48f43d240045.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-16",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "It was meant to be the biggest ASX listing since the privatisation of Telstra, but&nbsp;last week&nbsp;the&nbsp;initial public offering&nbsp;for Firmus&nbsp;was dramatically&nbsp;pulled before a single share was traded.&nbsp; The co-founder of the AI startup…"
+   "desc": "Melbourne-born academic Tristan Buckmaster says he was maybe just one month away from solving the Navier-Stokes equation, a maths problem so difficult there was a million-dollar prize on offer for anyone who could. &nbsp; But just as the New York University…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: Inside the minds of the fish who sleep, have friends, and know it's the weekend",
-   "url": "https://www.abc.net.au/listen/programs/conversations/encore-dr-culum-brown-fish-sharks-feelings-friendship-memory/107252050",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pe/Z/td.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3a9703be8d66ff804c030c38472d68d6.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-15",
-   "minutes": 50,
+   "title": "How to keep living when life falls apart",
+   "url": "https://www.abc.net.au/listen/programs/conversations/robin-bailey-on-helping-her-sons-navigate-their-dads-suicide/107253008",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pg/Z/4i.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F7efb5b8e0f84400f7142cca40e3dd55a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-16",
+   "minutes": 51,
    "level": "C1",
    "accent": "AU",
-   "desc": "Dr Culum Brown's work on fish cognition has proven fish have long memories, sharks have friends, and sting rays know it's the weekend. Dr Culum Brown is a leading researcher in the field of fish cognition. He's based at Macquarie University where he runs the…"
+   "desc": "When Robin Bailey’s husband and father of their three boys died by suicide, she had to figure out the best way to help her children work through their grief while also managing her own sadness and anger. Robin is one of Brisbane’s best-known breakfast radio…"
   },
   {
    "source": "TED Talks Daily",
