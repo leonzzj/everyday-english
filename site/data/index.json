@@ -1,16 +1,26 @@
 {
- "updatedAt": "2026-10-10T01:10:00+11:00",
- "issues": [
-  {
-   "date": "2026-10-10",
-   "issueNo": 1,
-   "title": "Nobel week, AI copies and a state-run dating app",
-   "headlines": [
-    "South African judge Navi Pillay wins the Nobel Peace Prize",
-    "The physicist who turned Antarctic ice into a telescope wins a Nobel",
-    "Artists say Etsy is filling up with AI copies of their work",
-    "Singapore launches a dating app just for public servants"
-   ]
-  }
- ]
+  "updatedAt": "2026-10-17T02:50:00+11:00",
+  "issues": [
+    {
+      "date": "2026-10-17",
+      "issueNo": 2,
+      "title": "Hormuz sinkings, GLP-1 weight regain and Victoria's auction rules",
+      "headlines": [
+        "Two ships sink near Strait of Hormuz as attacks surge",
+        "Small trial finds support may slow weight regain after GLP-1",
+        "Victoria will force sellers to reveal auction reserve prices"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "issueNo": 1,
+      "title": "Nobel week, AI copies and a state-run dating app",
+      "headlines": [
+        "South African judge Navi Pillay wins the Nobel Peace Prize",
+        "The physicist who turned Antarctic ice into a telescope wins a Nobel",
+        "Artists say Etsy is filling up with AI copies of their work",
+        "Singapore launches a dating app just for public servants"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,573 @@
+{
+  "date": "2026-10-17",
+  "issueNo": 2,
+  "title": "Hormuz sinkings, GLP-1 weight regain and Victoria's auction rules",
+  "createdAt": "2026-10-17T02:50:00+11:00",
+  "stories": [
+    {
+      "id": "hormuz-sinkings",
+      "category": "World",
+      "headline": "Two ships sink near Strait of Hormuz as attacks surge",
+      "headlineZh": "霍尔木兹海峡附近两艘货船沉没，袭击激增",
+      "summaryZh": "两艘商船在霍尔木兹海峡附近沉没，具体原因各方说法不一。",
+      "c1": "Two merchant vessels have gone down near the Strait of Hormuz, sharpening fears that one of the world's most important shipping lanes is becoming steadily more dangerous. The container ship GFS Pride, which sails under the Singapore flag, sank on 14 October while passing through the strait. Singapore's maritime authority said all 21 crew members were evacuated safely and that nobody was hurt.\n\nThe second casualty, the bulk carrier Cape Dao, was registered in Antigua and Barbuda. It went down close to the strait several weeks after being struck by a projectile on 23 September, an attack that killed one member of its crew. Maritime security sources told Reuters that projectiles were behind the sinkings, although the precise cause remains disputed.\n\nIndeed, accounts differ sharply. Iran's Revolutionary Guard navy has said that a cargo ship hit a mine, whereas a US official has claimed that Iran itself attacked the vessel. Neither version has been independently confirmed, so it would be unwise to treat either as settled.\n\nThe sinkings come against a backdrop of rising tension. According to the UK Maritime Trade Operations centre, 20 attacks have been reported in the strait since 1 October, and strikes have surged over the past ten days. Iran says it is stepping up its operations in response to a US blockade of its ports and to tougher sanctions imposed last month. Whatever the truth behind each incident, shipping companies are likely to weigh the risks carefully before sending more crews through the waterway.",
+      "b2": "Two ships have sunk near the Strait of Hormuz, and people are more worried about this busy shipping route. The container ship GFS Pride, which flies the Singapore flag, sank on 14 October. Singapore's maritime authority said all 21 crew members were taken off safely and no one was injured.\n\nThe other ship was a bulk carrier called Cape Dao, registered in Antigua and Barbuda. It sank near the strait several weeks after a projectile hit it on 23 September. One crew member died in that attack. Security sources told Reuters that projectiles caused the sinkings, but the exact cause is still being argued about.\n\nThe two sides tell very different stories. Iran's Revolutionary Guard navy says a cargo ship hit a mine. A US official says Iran attacked the ship. Nobody has confirmed either claim independently, so we should be careful.\n\nTension in the area is rising. A UK maritime centre has recorded 20 attacks in the strait since 1 October, and attacks have increased over the past ten days. Iran says it is increasing its attacks because of a US blockade of its ports and tougher sanctions from last month. Shipping companies will probably think hard about the dangers before they send more crews through the strait.",
+      "vocab": [
+        {
+          "word": "sharpen fears",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "加剧担忧",
+          "en": "to make worries stronger or more intense",
+          "example": "The sudden job cuts sharpened fears about the local economy.",
+          "forms": [
+            "sharpening fears"
+          ]
+        },
+        {
+          "word": "against a backdrop of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……的背景下",
+          "en": "in a situation marked by a particular condition",
+          "example": "The talks began against a backdrop of rising prices."
+        },
+        {
+          "word": "step up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "加强；加大力度",
+          "en": "to increase the amount or intensity of something",
+          "example": "The council plans to step up patrols near the beach.",
+          "forms": [
+            "stepping up"
+          ]
+        },
+        {
+          "word": "differ sharply",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "大相径庭",
+          "en": "to be very clearly unlike each other",
+          "example": "Opinions on the new tax differ sharply across the party."
+        },
+        {
+          "word": "weigh the risks",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "权衡风险",
+          "en": "to think carefully about possible dangers before deciding",
+          "example": "Investors should weigh the risks before buying shares."
+        },
+        {
+          "word": "independently confirmed",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "经独立证实",
+          "en": "verified by a source with no link to the claim",
+          "example": "The figures have not been independently confirmed."
+        },
+        {
+          "word": "surge",
+          "pos": "v.",
+          "ipa": "/sɜːdʒ/",
+          "zh": "激增；猛涨",
+          "en": "to rise suddenly and strongly",
+          "example": "Demand for solar panels surged after the announcement."
+        },
+        {
+          "word": "remain disputed",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "仍有争议",
+          "en": "to continue to be argued about",
+          "example": "The exact cause of the fire remains disputed.",
+          "forms": [
+            "remains disputed"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All 21 crew members aboard the GFS Pride were evacuated without injury.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文明确写到 all 21 crew members were evacuated safely and that nobody was hurt，与陈述一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Cape Dao sank on the same day it was first struck by a projectile.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 It went down close to the strait several weeks after being struck by a projectile on 23 September，即数周之后才沉没，与陈述矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Iran has said it will stop its attacks if the United States lifts its blockade.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 Iran says it is stepping up its operations in response to a US blockade，没有提到解除封锁后停止袭击的条件，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the passage say about the competing explanations for one of the sinkings?",
+          "options": [
+            "Independent investigators have confirmed that a mine was responsible.",
+            "Iran's Revolutionary Guard navy points to a mine, while a US official says Iran attacked the vessel.",
+            "Reuters and Iran's Revolutionary Guard navy agree on the cause.",
+            "Singapore's maritime authority has blamed a collision."
+          ],
+          "answer": 1,
+          "explain": "原文：Iran's Revolutionary Guard navy has said that a cargo ship hit a mine, whereas a US official has claimed that Iran itself attacked the vessel；并且 Neither version has been independently confirmed。因此选 B。"
+        }
+      ],
+      "discuss": "Why do you think it is so hard to establish who is responsible for attacks at sea? Could governments or shipping companies do more to protect crews in the future?",
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/two-ships-sink-near-hormuz-after-being-hit-projectiles-amid-surge-attacks"
+        },
+        {
+          "name": "gCaptain",
+          "url": "https://gcaptain.com/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say/"
+        }
+      ]
+    },
+    {
+      "id": "glp1-weight-regain",
+      "category": "Health",
+      "headline": "Small trial finds support may slow weight regain after GLP-1",
+      "headlineZh": "小型试验：停用GLP-1药物后，辅助支持或可减缓体重反弹",
+      "summaryZh": "一项小型试验显示，停药后使用应用或配餐支持可减缓体重反弹。",
+      "c1": "Millions of people have lost significant weight on GLP-1 medications, but a stubborn question hangs over the treatment: what happens when they stop? Doctors have long observed that the pounds tend to creep back, and a small new trial suggests that the rebound may not be inevitable. The findings were published in the journal Obesity Science & Practice earlier this month.\n\nThe study was a pilot randomised trial involving just 39 adults who had shed weight while taking the drugs. As they came off the medication, participants were allocated to one of three groups: usual care, a digital wellness app, or medically tailored meals. Their weight was monitored for four months using Bluetooth-enabled scales.\n\nThe gap was striking. Estimated regain in the usual-care group was roughly 10.75 per cent of body weight, compared with about 3.6 per cent among app users and around 3.58 per cent among those receiving prepared meals. Curiously, there was no significant difference between the groups in diet quality, adherence or satisfaction, which makes it harder to explain exactly why the support helped.\n\nCaution is essential. With so few participants and such a short follow-up, the results are best viewed as a promising signal rather than proof, and weight change was only an exploratory outcome. The researchers say larger, longer and more diverse studies are needed before anyone draws firm conclusions. Even so, the work hints that structured support could play a useful role for patients who cannot, or choose not to, stay on the drugs indefinitely.",
+      "b2": "Millions of people have lost a lot of weight using GLP-1 drugs, but many wonder what happens when they stop. Doctors know the weight often returns, and a small new study suggests this might be reduced. The results appeared in the journal Obesity Science & Practice earlier this month.\n\nThe study was a small pilot trial with only 39 adults who had lost weight on the drugs. When they stopped taking the medication, they were placed in one of three groups: usual care, a digital wellness app, or meals prepared for health reasons. Researchers tracked their weight for four months with Bluetooth scales.\n\nThe difference was clear. People in the usual-care group were estimated to regain about 10.75 per cent of their body weight. The app group regained about 3.6 per cent, and the meals group about 3.58 per cent. Strangely, diet quality, sticking to the plan and satisfaction were similar in all groups, so it is hard to say why the support worked.\n\nWe need to be careful. There were few participants and the study was short, so the results are a hopeful sign, not proof. The researchers say bigger, longer and more varied studies are needed. Still, organised support could help patients who cannot stay on the drugs forever.",
+      "vocab": [
+        {
+          "word": "creep back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "慢慢回升",
+          "en": "to return gradually and almost unnoticed",
+          "example": "Old habits tend to creep back during stressful weeks."
+        },
+        {
+          "word": "shed weight",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "减重",
+          "en": "to lose body weight",
+          "example": "He managed to shed weight by walking to work."
+        },
+        {
+          "word": "come off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "停用（药物）",
+          "en": "to stop taking a medicine or treatment",
+          "example": "Patients should not come off the tablets without advice.",
+          "forms": [
+            "came off"
+          ]
+        },
+        {
+          "word": "be allocated to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被分配到",
+          "en": "to be assigned to a particular group or place",
+          "example": "Students were allocated to tutorial groups at random.",
+          "forms": [
+            "were allocated to"
+          ]
+        },
+        {
+          "word": "adherence",
+          "pos": "n.",
+          "ipa": "/ədˈhɪərəns/",
+          "zh": "坚持；遵从",
+          "en": "the act of following a plan or rule closely",
+          "example": "Adherence to the exercise plan fell after a month."
+        },
+        {
+          "word": "follow-up",
+          "pos": "n.",
+          "ipa": "/ˈfɒləʊ ʌp/",
+          "zh": "后续跟踪",
+          "en": "a later stage that checks on earlier results",
+          "example": "The follow-up showed that most patients had improved."
+        },
+        {
+          "word": "a promising signal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有希望的迹象",
+          "en": "an early sign that something may work",
+          "example": "The early data offer a promising signal for the new vaccine."
+        },
+        {
+          "word": "draw firm conclusions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "得出确定的结论",
+          "en": "to reach definite judgements from evidence",
+          "example": "It is too early to draw firm conclusions from one survey.",
+          "forms": [
+            "draws firm conclusions"
+          ]
+        },
+        {
+          "word": "hint",
+          "pos": "v.",
+          "ipa": "/hɪnt/",
+          "zh": "暗示",
+          "en": "to suggest something indirectly",
+          "example": "The results hint that sleep affects memory.",
+          "forms": [
+            "hints"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The participants were followed for longer than six months.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文写 monitored for four months，不足六个月，与陈述矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The wellness app used in the trial was designed by the researchers themselves.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到 a digital wellness app，没有说明是谁开发的，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Weight change was an exploratory outcome of the study rather than its main focus.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文写 weight change was only an exploratory outcome，与陈述一致，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What do the researchers say is needed next?",
+          "options": [
+            "That patients stop taking GLP-1 drugs earlier",
+            "That every patient be switched to a meal programme",
+            "That weight-loss apps be banned",
+            "Larger, longer and more diverse studies"
+          ],
+          "answer": 3,
+          "explain": "原文：The researchers say larger, longer and more diverse studies are needed before anyone draws firm conclusions，故选 D。"
+        }
+      ],
+      "discuss": "Why do you think it is so hard to keep weight off after treatment ends? Should governments pay for support programs to help people in this situation?",
+      "sources": [
+        {
+          "name": "News-Medical",
+          "url": "https://www.news-medical.net/news/20261011/Stopping-GLP-1-drugs-often-brings-weight-back-A-small-trial-suggests-ways-to-slow-it.aspx"
+        },
+        {
+          "name": "MedicineNet",
+          "url": "https://www.medicinenet.com/limiting_weight_regain_after_glp1s_two_strategies/news.htm"
+        }
+      ]
+    },
+    {
+      "id": "vic-auction-reserve",
+      "category": "Australia",
+      "headline": "Victoria will force sellers to reveal auction reserve prices",
+      "headlineZh": "维多利亚州将要求卖家公布拍卖底价",
+      "summaryZh": "维州新规要求中介在拍卖前至少七天公布底价，业内意见不一。",
+      "c1": "For anyone who has stood in a crowded front yard on a Saturday morning, watching a house sell for far more than the advertised range, Victoria's latest property reforms will sound overdue. Under the new rules, agents will have to publish the seller's reserve price at least seven days before an auction or a fixed-date sale. The state government says the aim is to stamp out underquoting.\n\nUnderquoting is already illegal in Victoria, yet critics argue that a loophole has let it persist. Vendors have been able to set or revise their reserve on the day of the auction, often well above the price range used to attract buyers. By forcing the figure into the open earlier, the government hopes to give buyers a fairer picture before they commit time and money to inspections, loans and legal checks.\n\nAgents who miss the deadline will not be allowed to proceed with the sale. Enforcement action is not new: a state taskforce has issued more than 200 infringements, totalling more than $2.3 million in fines, yet the problem has persisted.\n\nThe industry is far from united. The Real Estate Institute of Victoria says it strongly opposes unlawful underquoting, but argues that mandatory disclosure goes too far, and some commentators warn it could damage auction outcomes without tackling the root problem. Reports suggest the sector accepts the intention behind the laws while doubting their design. Which side is proved right will probably depend on how the rules work in practice, and sources differ on exactly when they take effect.",
+      "b2": "Anyone who has watched a house auction in Victoria knows the feeling: the home sells for much more than the advertised price range. Agents will have to publish the seller's reserve price at least seven days before an auction or a fixed-date sale. The government wants to stop underquoting.\n\nUnderquoting is already illegal, but critics say there is a gap in the law. Sellers have been able to set or change their reserve price on auction day, often far above the range that attracted buyers. If the number is made public earlier, buyers should have a fairer idea before they spend time and money on inspections, loans and legal checks.\n\nAgents who miss the deadline will not be allowed to go ahead with the sale. A state taskforce has already issued more than 200 infringements, with fines of more than $2.3 million in total, but the problem has continued.\n\nNot everyone agrees. The Real Estate Institute of Victoria says it strongly opposes illegal underquoting, but it believes forcing sellers to disclose the reserve goes too far. Some commentators warn that it could hurt auction results without fixing the real problem. The industry seems to accept the idea behind the laws but doubts the design. We will only know who is right once the rules are tested.",
+      "vocab": [
+        {
+          "word": "overdue",
+          "pos": "adj.",
+          "ipa": "/ˌəʊvəˈdjuː/",
+          "zh": "早该进行的",
+          "en": "happening later than it should have",
+          "example": "A review of the rules is long overdue."
+        },
+        {
+          "word": "stamp out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "杜绝；根除",
+          "en": "to put an end to something harmful",
+          "example": "The club wants to stamp out bullying."
+        },
+        {
+          "word": "loophole",
+          "pos": "n.",
+          "ipa": "/ˈluːphəʊl/",
+          "zh": "漏洞",
+          "en": "a gap in a law that people can exploit",
+          "example": "Some companies use a loophole to avoid paying tax."
+        },
+        {
+          "word": "into the open",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "公开；摆到明面上",
+          "en": "made known publicly after being hidden",
+          "example": "The scandal was finally brought into the open."
+        },
+        {
+          "word": "proceed with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "继续进行",
+          "en": "to go ahead and carry out something",
+          "example": "They decided to proceed with the renovation."
+        },
+        {
+          "word": "far from united",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远非团结一致",
+          "en": "strongly divided; not in agreement",
+          "example": "The committee was far from united on the budget."
+        },
+        {
+          "word": "go too far",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "做得过火",
+          "en": "to exceed what is reasonable",
+          "example": "Banning all phones at school might go too far.",
+          "forms": [
+            "goes too far"
+          ]
+        },
+        {
+          "word": "tackle the root problem",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "解决根本问题",
+          "en": "to deal with the underlying cause of an issue",
+          "example": "Fines alone will not tackle the root problem.",
+          "forms": [
+            "tackling the root problem"
+          ]
+        },
+        {
+          "word": "in practice",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在实践中",
+          "en": "when actually done, as opposed to in theory",
+          "example": "The plan looks neat, but in practice it is hard to follow."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The Real Estate Institute of Victoria has promised to take legal action against the government.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说该机构认为 mandatory disclosure goes too far，没有提到会提起诉讼，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Underquoting only became illegal in Victoria because of the new rules.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文第二段开头写 Underquoting is already illegal in Victoria，即此前已违法，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The infringements issued by the state taskforce have totalled more than $2.3 million in fines.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文写 more than 200 infringements, totalling more than $2.3 million in fines，与陈述一致，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What loophole do critics say the reforms are aimed at?",
+          "options": [
+            "Agents advertising homes without any photographs",
+            "Buyers pulling out of sales after the auction",
+            "Sellers setting or changing the reserve on auction day, often well above the advertised range",
+            "Banks approving loans after the sale has closed"
+          ],
+          "answer": 2,
+          "explain": "原文：Vendors have been able to set or revise their reserve on the day of the auction, often well above the price range used to attract buyers，故选 C。"
+        }
+      ],
+      "discuss": "Do you think publishing reserve prices in advance will make buying a home fairer? Why or why not, and could it have unintended effects?",
+      "sources": [
+        {
+          "name": "Maddocks",
+          "url": "https://www.maddocks.com.au/insights/victorias-crackdown-on-underquoting-new-reserve-price-disclosure-laws"
+        },
+        {
+          "name": "Consumer Affairs Victoria",
+          "url": "https://www.consumer.vic.gov.au/licensing-and-registration/estate-agents/new-changes-to-property-sales-and-underquoting-laws/industry-qas-new-changes-to-property-sales-and-underquoting-laws"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Inspecting a flat in Brunswick",
+    "titleZh": "看房：布伦瑞克的公寓",
+    "setting": "Two friends look around a rental flat while they wait for the agent to arrive.",
+    "settingZh": "两位朋友在等中介到来时参观一间出租公寓。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "Hey Dev, thanks for coming. The agent's running late, so we've got a few minutes to look around.",
+        "zh": "嗨，Dev，谢谢你来。中介会晚点到，我们先看看。"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "No worries. Honestly, the photos made the place look a lot bigger than it actually is.",
+        "zh": "没事。说实话，照片把这地方拍得比实际大多了。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "I know, right? The living room's cosy, but the kitchen's got heaps of bench space, which is a big plus.",
+        "zh": "就是吧？客厅挺温馨，但厨房台面空间很大，这是个大优点。"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "True. Have you noticed that damp patch on the bedroom ceiling, though? It might be nothing, but I'd ask.",
+        "zh": "没错。不过你注意到卧室天花板上那块潮湿的地方了吗？也许没事，但我会问一下。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "Good catch. I'll bring it up when she arrives. What's the rent again, per week?",
+        "zh": "观察得真仔细。她到了我就提。每周租金是多少来着？"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "Five hundred and eighty, and the agent said bills are on top of that.",
+        "zh": "五百八，中介说水电杂费另算。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "That's a bit steep for what we're getting. Can we try to negotiate it down?",
+        "zh": "就这条件来说有点贵。我们能试着把价格谈下来吗？"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "We can give it a go. Worst case, they say no and we keep looking.",
+        "zh": "可以试试。最坏的情况就是他们拒绝，我们继续找。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "Fair enough. Do you reckon the landlord would let us have a cat?",
+        "zh": "有道理。你觉得房东会让我们养猫吗？"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "Doubtful, but there's no harm in asking. Let's get it in writing so there's no confusion later.",
+        "zh": "不太可能，但问问也无妨。我们要把答复落到书面上，免得以后有误会。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "Smart. Right, I think she's pulling up now. Shall we get the ball rolling with the questions?",
+        "zh": "聪明。好，我想她到了。我们开始提问吧？"
+      },
+      {
+        "s": "B",
+        "name": "Dev",
+        "en": "Yeah, let's do it. I'll ask about the damp, and you take care of the rent.",
+        "zh": "好，开始吧。我问潮湿的事，你负责租金。"
+      },
+      {
+        "s": "A",
+        "name": "Hannah",
+        "en": "Sounds like a plan. If it all checks out, we could move in by the start of next month.",
+        "zh": "就这么办。要是一切没问题，我们下个月初就能搬进来。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Thank you for noticing that",
+        "en": "Good catch",
+        "zh": "观察得真仔细"
+      },
+      {
+        "plain": "It's expensive",
+        "en": "That's a bit steep",
+        "zh": "有点贵"
+      },
+      {
+        "plain": "Maybe we can try",
+        "en": "We can give it a go",
+        "zh": "可以试一试"
+      },
+      {
+        "plain": "Do you think",
+        "en": "Do you reckon",
+        "zh": "你觉得…吗（澳式口语）"
+      },
+      {
+        "plain": "It's fine to ask",
+        "en": "there's no harm in asking",
+        "zh": "问问也无妨"
+      },
+      {
+        "plain": "Let's start",
+        "en": "get the ball rolling",
+        "zh": "开始行动"
+      },
+      {
+        "plain": "a lot of",
+        "en": "heaps of",
+        "zh": "很多（口语）"
+      }
+    ]
+  }
+}
