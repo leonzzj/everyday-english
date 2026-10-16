@@ -1,19 +1,6 @@
-# Static site: no build step. Netlify publishes the site/ folder on every push to main.
+# The site is published by GitHub Pages now (.github/workflows/site.yml).
+# Netlify's free plan pauses every site once a month's 20 production deploys are used up,
+# so tell Netlify to skip all builds from this repo. Delete the Netlify project when convenient.
 [build]
   publish = "site"
-
-[[headers]]
-  for = "/data/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/assets/fonts/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
+  ignore = "exit 0"

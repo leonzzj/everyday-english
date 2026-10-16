@@ -2,14 +2,14 @@
 
 A personal English practice site: graded daily news (C1 and B2 versions with key expressions and a short quiz), natural spoken English, podcast listening with dictation and shadowing, tap-to-look-up reading, and a word book.
 
-Static site in `site/`, deployed by Netlify from the `main` branch (no build step).
+Static site in `site/` (no build step), published to GitHub Pages at https://leonzzj.github.io/everyday-english/ by `.github/workflows/site.yml` on every push to `main`.
 
 ## How content updates
 
 | What | Where it lives | Who updates it |
 |---|---|---|
 | Daily news issue | `site/data/issues/YYYY-MM-DD.json` + `site/data/index.json` | A scheduled Claude task commits a new issue each morning (Melbourne time) |
-| Podcast and article feed | `site/data/feed.json` | GitHub Actions (`.github/workflows/feeds.yml`) runs `scripts/fetch-feeds.mjs` twice a day |
+| Podcast and article feed | `site/data/feed.json` | GitHub Actions (`.github/workflows/site.yml`) runs `scripts/fetch-feeds.mjs` twice a day, then republishes the site |
 | Speaking content, curated sources | `site/assets/js/content.js` | Edit by hand |
 
 The word book, quiz answers and preferences are stored in the browser (localStorage). Use **备份 / 导入备份** on the word book page to move them between devices.

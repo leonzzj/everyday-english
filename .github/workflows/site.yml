@@ -1,4 +1,4 @@
-name: Refresh feeds
+name: Update and publish site
 
 on:
   schedule:
@@ -8,19 +8,20 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - 'scripts/fetch-feeds.mjs'
-      - '.github/workflows/feeds.yml'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: refresh-feeds
+  group: site
   cancel-in-progress: false
 
 jobs:
   refresh:
+    # Pull the newest podcast episodes and articles (scheduled and manual runs only).
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -45,3 +46,24 @@ jobs:
             sleep 5
           done
           exit 1
+
+  deploy:
+    # Publish site/ to GitHub Pages after every push to main and every feed refresh.
+    # (Commits made by this workflow's own token do not start new runs, so the refresh deploys here.)
+    needs: refresh
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
