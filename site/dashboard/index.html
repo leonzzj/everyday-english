@@ -1,0 +1,1425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Zijian's Dashboard</title>
+<meta name="theme-color" content="#121212">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Dashboard">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png" type="image/png">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+</head>
+<body>
+<style>
+/* Layout: a Windows 11 app window. Title bar; four summary tiles (next deadline, departure, semester, AUD rates);
+   a full-width 9-week timeline; three working panes (deadlines, itinerary, prep) that scroll inside a one-screen
+   grid on desktop and stack on smaller screens. Encoding: solid = real or booked, hollow/dashed = sample or not booked. */
+:root{
+  --mica:#f3f3f3;
+  --tint-a:#dbe6f6;
+  --tint-b:#f3e8d6;
+  --card:rgba(255,255,255,.72);
+  --card-solid:#fbfbfb;
+  --card-stroke:rgba(0,0,0,.065);
+  --shadow:0 2px 6px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.05);
+  --layer:#f6f6f6;
+  --fill-subtle:rgba(0,0,0,.04);
+  --fill-subtle-2:rgba(0,0,0,.025);
+  --control:rgba(255,255,255,.75);
+  --control-hover:rgba(249,249,249,.6);
+  --control-stroke:rgba(0,0,0,.06);
+  --control-stroke-2:rgba(0,0,0,.16);
+  --ctl-strong:rgba(0,0,0,.6);
+  --divider:rgba(0,0,0,.08);
+  --text-1:#1b1b1b;
+  --text-2:#5c5c5c;
+  --text-3:#8a8a8a;
+  --accent:#005fb8;
+  --accent-hover:#1a6fc0;
+  --on-accent:#ffffff;
+  --accent-soft:rgba(0,95,184,.09);
+  --mark-due:#005fb8;
+  --trip:#eda100;
+  --trip-wash:rgba(237,161,0,.2);
+  --band:rgba(0,0,0,.032);
+  --band-2:rgba(0,0,0,.06);
+  --success:#0f7b0f; --success-bg:#dff6dd;
+  --caution:#9d5d00; --caution-bg:#fff4ce;
+  --critical:#c42b1c; --critical-bg:#fde7e9;
+  --dot-warn:#e9a100; --dot-serious:#e5712f; --dot-critical:#c42b1c; --dot-good:#0f7b0f;
+  --on-status:#ffffff;
+  --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --font:"Segoe UI Variable Text","Segoe UI Variable","Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+  --font-display:"Segoe UI Variable Display","Segoe UI Variable","Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+  --font-mono:"Cascadia Mono","Cascadia Code",Consolas,ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --mica:#202020; --tint-a:#1a2433; --tint-b:#2a2217;
+    --card:rgba(44,44,44,.7); --card-solid:#2b2b2b; --card-stroke:rgba(255,255,255,.075);
+    --shadow:0 2px 8px rgba(0,0,0,.28); --layer:#272727;
+    --fill-subtle:rgba(255,255,255,.065); --fill-subtle-2:rgba(255,255,255,.04);
+    --control:rgba(255,255,255,.06); --control-hover:rgba(255,255,255,.09); --control-stroke:rgba(255,255,255,.07); --control-stroke-2:rgba(255,255,255,.1);
+    --ctl-strong:rgba(255,255,255,.55); --divider:rgba(255,255,255,.08);
+    --text-1:#ffffff; --text-2:#c5c5c5; --text-3:#8d8d8d;
+    --accent:#60cdff; --accent-hover:#5ab9e6; --on-accent:#000000; --accent-soft:rgba(96,205,255,.12);
+    --mark-due:#3a96dd; --trip:#c98500; --trip-wash:rgba(201,133,0,.24);
+    --band:rgba(255,255,255,.03); --band-2:rgba(255,255,255,.065);
+    --success:#6ccb5f; --success-bg:#393d1b; --caution:#fce100; --caution-bg:#433519; --critical:#ff99a4; --critical-bg:#442726;
+    --dot-warn:#fce100; --dot-serious:#f7894a; --dot-critical:#ff99a4; --dot-good:#6ccb5f; --on-status:#000000;
+    --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --mica:#202020; --tint-a:#1a2433; --tint-b:#2a2217;
+  --card:rgba(44,44,44,.7); --card-solid:#2b2b2b; --card-stroke:rgba(255,255,255,.075);
+  --shadow:0 2px 8px rgba(0,0,0,.28); --layer:#272727;
+  --fill-subtle:rgba(255,255,255,.065); --fill-subtle-2:rgba(255,255,255,.04);
+  --control:rgba(255,255,255,.06); --control-hover:rgba(255,255,255,.09); --control-stroke:rgba(255,255,255,.07); --control-stroke-2:rgba(255,255,255,.1);
+  --ctl-strong:rgba(255,255,255,.55); --divider:rgba(255,255,255,.08);
+  --text-1:#ffffff; --text-2:#c5c5c5; --text-3:#8d8d8d;
+  --accent:#60cdff; --accent-hover:#5ab9e6; --on-accent:#000000; --accent-soft:rgba(96,205,255,.12);
+  --mark-due:#3a96dd; --trip:#c98500; --trip-wash:rgba(201,133,0,.24);
+  --band:rgba(255,255,255,.03); --band-2:rgba(255,255,255,.065);
+  --success:#6ccb5f; --success-bg:#393d1b; --caution:#fce100; --caution-bg:#433519; --critical:#ff99a4; --critical-bg:#442726;
+  --dot-warn:#fce100; --dot-serious:#f7894a; --dot-critical:#ff99a4; --dot-good:#6ccb5f; --on-status:#000000;
+  --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+/* The page's own skin wins over the system and viewer theme: dark by default, light on request. */
+:root[data-skin="dark"]{
+  --mica:#121212; --tint-a:#132033; --tint-b:#231b10;
+  --card:rgba(31,31,31,.8); --card-solid:#1f1f1f; --card-stroke:rgba(255,255,255,.075);
+  --shadow:0 2px 12px rgba(0,0,0,.5); --layer:#1a1a1a;
+  --fill-subtle:rgba(255,255,255,.065); --fill-subtle-2:rgba(255,255,255,.035);
+  --control:rgba(255,255,255,.055); --control-hover:rgba(255,255,255,.085); --control-stroke:rgba(255,255,255,.07); --control-stroke-2:rgba(255,255,255,.1);
+  --ctl-strong:rgba(255,255,255,.55); --divider:rgba(255,255,255,.075);
+  --text-1:#ffffff; --text-2:#c2c2c2; --text-3:#8a8a8a;
+  --accent:#60cdff; --accent-hover:#5ab9e6; --on-accent:#000000; --accent-soft:rgba(96,205,255,.12);
+  --mark-due:#3a96dd; --trip:#c98500; --trip-wash:rgba(201,133,0,.24);
+  --band:rgba(255,255,255,.028); --band-2:rgba(255,255,255,.06);
+  --success:#6ccb5f; --success-bg:#2e3318; --caution:#fce100; --caution-bg:#3a2e14; --critical:#ff99a4; --critical-bg:#3d2222;
+  --dot-warn:#fce100; --dot-serious:#f7894a; --dot-critical:#ff99a4; --dot-good:#6ccb5f; --on-status:#000000;
+  --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+:root[data-skin="light"]{
+  --mica:#f3f3f3; --tint-a:#dbe6f6; --tint-b:#f3e8d6;
+  --card:rgba(255,255,255,.72); --card-solid:#fbfbfb; --card-stroke:rgba(0,0,0,.065);
+  --shadow:0 2px 6px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.05); --layer:#f6f6f6;
+  --fill-subtle:rgba(0,0,0,.04); --fill-subtle-2:rgba(0,0,0,.025);
+  --control:rgba(255,255,255,.75); --control-hover:rgba(249,249,249,.6); --control-stroke:rgba(0,0,0,.06); --control-stroke-2:rgba(0,0,0,.16);
+  --ctl-strong:rgba(0,0,0,.6); --divider:rgba(0,0,0,.08);
+  --text-1:#1b1b1b; --text-2:#5c5c5c; --text-3:#8a8a8a;
+  --accent:#005fb8; --accent-hover:#1a6fc0; --on-accent:#ffffff; --accent-soft:rgba(0,95,184,.09);
+  --mark-due:#005fb8; --trip:#eda100; --trip-wash:rgba(237,161,0,.2);
+  --band:rgba(0,0,0,.032); --band-2:rgba(0,0,0,.06);
+  --success:#0f7b0f; --success-bg:#dff6dd; --caution:#9d5d00; --caution-bg:#fff4ce; --critical:#c42b1c; --critical-bg:#fde7e9;
+  --dot-warn:#e9a100; --dot-serious:#e5712f; --dot-critical:#c42b1c; --dot-good:#0f7b0f; --on-status:#ffffff;
+  --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+.icon-btn{width:32px;height:32px;display:grid;place-items:center;padding:0;border-radius:4px;border:1px solid transparent;background:transparent;color:var(--text-1);cursor:pointer}
+.icon-btn:hover{background:var(--fill-subtle)}
+.icon-btn:active{opacity:.8}
+.icon-btn svg{width:16px;height:16px}
+:root:fullscreen .app{max-width:none}
+body{margin:0;font:14px/20px var(--font);color:var(--text-1);background-color:var(--mica);
+  background-image:radial-gradient(1100px 640px at 0% 0%,var(--tint-a),transparent 64%),radial-gradient(900px 560px at 100% 100%,var(--tint-b),transparent 62%);
+  background-attachment:fixed;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;text-wrap:balance}
+button,input,select{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--text-1);outline-offset:2px;border-radius:4px}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:var(--fill-subtle);border:3px solid transparent;border-radius:6px;background-clip:padding-box}
+:hover::-webkit-scrollbar-thumb{background-color:var(--text-3)}
+::-webkit-scrollbar-track{background:transparent}
+
+/* app frame */
+.app{min-height:100%;max-width:1680px;margin:0 auto;padding-inline:20px;padding-block:12px 20px;display:grid;gap:12px;grid-template-rows:auto auto auto auto}
+@media (max-width:520px){.app{padding-inline:16px}}
+@media (min-width:1180px) and (min-height:760px){
+  .app{height:100%;grid-template-rows:auto auto auto minmax(0,1fr)}
+  .panes{min-height:0}
+  .pane{min-height:0;display:flex;flex-direction:column}
+  .pane-body{flex:1;min-height:0;overflow:auto;margin-inline:-8px;padding-inline:8px}
+}
+
+/* title bar */
+.titlebar{display:flex;align-items:center;justify-content:space-between;gap:10px 20px;flex-wrap:wrap;padding-block:4px}
+.app-id{display:flex;align-items:center;gap:12px;min-width:0}
+.app-icon{width:32px;height:32px;flex:none;display:grid;place-items:center;border-radius:8px;background:linear-gradient(145deg,#2b88d8,#0f5aa6);box-shadow:0 1px 2px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.25)}
+.app-icon svg{width:18px;height:18px}
+.titlebar h1{font:600 20px/28px var(--font-display)}
+.titlebar p{margin:0;font-size:12px;line-height:16px;color:var(--text-2)}
+.tb-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:7px;height:30px;padding:0 12px;border-radius:15px;background:var(--card);border:1px solid var(--card-stroke);font-size:12px;color:var(--text-2);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--text-3)}
+.chip[data-s="live"] i{background:var(--dot-good)}
+.chip[data-s="cached"] i{background:var(--dot-warn)}
+.chip b{font:600 14px/20px var(--font);color:var(--text-1);font-variant-numeric:tabular-nums}
+
+/* surfaces */
+.card{background:var(--card);border:1px solid var(--card-stroke);border-radius:8px;box-shadow:var(--shadow);-webkit-backdrop-filter:blur(28px) saturate(150%);backdrop-filter:blur(28px) saturate(150%);min-width:0}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.card,.chip{background:var(--card-solid)}}
+.card-h{display:flex;align-items:center;justify-content:space-between;gap:6px 12px;flex-wrap:wrap;margin-bottom:10px}
+.ch-left{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}
+.card-h h2{font:600 16px/22px var(--font)}
+.ico{width:18px;height:18px;flex:none;color:var(--text-2)}
+.meta{font-size:12px;line-height:16px;color:var(--text-2)}
+.tag{display:inline-flex;align-items:center;height:20px;padding:0 7px;border-radius:4px;border:1px dashed var(--ctl-strong);font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--text-2);white-space:nowrap}
+.fine{margin:8px 0 0;font-size:12px;line-height:16px;color:var(--text-3)}
+.empty{margin:0;padding:10px 0;color:var(--text-2)}
+.stale{color:var(--critical)}
+
+/* controls */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:32px;padding:5px 12px 6px;border-radius:4px;border:1px solid var(--control-stroke);border-bottom-color:var(--control-stroke-2);background:var(--control);color:var(--text-1);font-weight:600;font-size:14px;line-height:20px;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--control-hover)}
+.btn:active{opacity:.8}
+.btn.accent{background:var(--accent);color:var(--on-accent);border-color:transparent;border-bottom-color:rgba(0,0,0,.28)}
+.btn.accent:hover{background:var(--accent-hover)}
+.btn.danger{color:var(--critical)}
+.btn[disabled]{opacity:.45;cursor:default}
+.btn svg{width:14px;height:14px}
+.input{min-height:32px;padding:5px 10px 6px;border-radius:4px;border:1px solid var(--control-stroke);border-bottom-color:var(--ctl-strong);background:var(--control);color:var(--text-1);font-size:14px;line-height:20px;min-width:0;width:100%}
+.input:hover{background:var(--control-hover)}
+.input:focus{outline:none;border-bottom:2px solid var(--accent);padding-bottom:5px;background:var(--card-solid)}
+.input.mini{width:72px;min-height:28px;padding:3px 8px 4px;font-variant-numeric:tabular-nums}
+.input.mini:focus{padding-bottom:3px}
+.progress{height:4px;border-radius:2px;background:var(--fill-subtle);overflow:hidden}
+.progress i{display:block;height:100%;width:0;border-radius:2px;background:var(--accent)}
+.progress.trip i{background:var(--trip)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:12px;line-height:16px;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--text-1)}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--text-3)}
+.pill[data-u="warn"]::before{background:var(--dot-warn)}
+.pill[data-u="serious"]::before{background:var(--dot-serious)}
+.pill[data-u="critical"]::before{background:var(--dot-critical)}
+.pill[data-u="critical"]{color:var(--critical);font-weight:600}
+.badge{display:inline-flex;align-items:center;gap:6px;height:22px;padding:0 9px;border-radius:11px;font-size:12px;font-weight:600;background:var(--fill-subtle);color:var(--text-1);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--text-3)}
+.badge[data-u="warn"]::before{background:var(--dot-warn)}
+.badge[data-u="serious"]::before{background:var(--dot-serious)}
+.badge[data-u="critical"]{background:var(--critical-bg);color:var(--critical)}
+.badge[data-u="critical"]::before{background:var(--dot-critical)}
+.badge[data-u="calm"]::before{background:var(--dot-good)}
+.state{display:inline-flex;align-items:center;gap:7px;min-height:28px;padding:3px 10px 4px;border-radius:4px;border:1px solid var(--control-stroke);border-bottom-color:var(--control-stroke-2);background:var(--control);font-size:12px;font-weight:600;line-height:16px;cursor:pointer;white-space:nowrap}
+.state:hover{background:var(--control-hover)}
+.state::before{content:"";width:10px;height:10px;border-radius:50%;border:1.5px solid var(--ctl-strong);box-sizing:border-box;flex:none}
+.state[data-s="doing"]::before{background:linear-gradient(90deg,var(--ctl-strong) 50%,transparent 50%)}
+.state[data-s="done"]::before,.state[data-s="booked"]::before{background:var(--dot-good);border-color:var(--dot-good)}
+.state[data-s="planned"]::before{border-style:dashed}
+.state[disabled]{cursor:default;opacity:.7}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:1179px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.tiles{grid-template-columns:minmax(0,1fr)}}
+.tile{padding:12px 16px 14px;display:flex;flex-direction:column;gap:6px}
+.tile-body{display:flex;flex-direction:column;gap:3px;min-width:0}
+.tile-body .progress{margin:7px 0 3px}
+.tile-h{display:flex;align-items:center;gap:8px;font-size:12px;line-height:16px;font-weight:600;color:var(--text-2)}
+.tile-h .ico{width:16px;height:16px}
+.tile-h .grow{flex:1}
+.big{font:600 40px/46px var(--font-display);letter-spacing:-.01em;display:flex;align-items:baseline;flex-wrap:wrap;gap:0 8px}
+.big small{font:600 16px/22px var(--font);color:var(--text-2);letter-spacing:0}
+.is-sample .big{color:var(--text-2)}
+.t-line{font-weight:600;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;overflow-wrap:anywhere}
+.t-sub{font-size:12px;line-height:16px;color:var(--text-2)}
+.code{font-family:var(--font-mono);font-size:12px;font-weight:600;color:var(--text-2);letter-spacing:.02em}
+.fx-row{display:grid;grid-template-columns:36px minmax(0,1fr) auto 64px;align-items:center;gap:8px;padding:3px 0}
+.fx-row .rate{font-weight:600;font-variant-numeric:tabular-nums}
+.delta{font-family:var(--font-mono);font-size:12px;white-space:nowrap}
+.delta.down{color:var(--critical)}
+.delta.up{color:var(--success)}
+.spark{display:block;width:64px;height:22px;overflow:visible;touch-action:pan-y}
+.spark .sp-line{fill:none;stroke:var(--text-2);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.spark .sp-area{fill:var(--text-2);opacity:.1}
+.spark .sp-end{fill:var(--trip);stroke:var(--card-solid);stroke-width:1.5}
+.spark .sp-cross{stroke:var(--text-3);stroke-width:1}
+.spark .hit{fill:transparent;cursor:crosshair}
+.conv{display:inline-flex;align-items:center;gap:6px;font-weight:400;color:var(--text-2)}
+#fxOut{font-family:var(--font-mono);font-size:12px;line-height:16px;color:var(--text-1);font-variant-numeric:tabular-nums}
+
+/* timeline */
+.tl-card{padding:14px 16px 14px}
+.tl-key{display:flex;flex-wrap:wrap;gap:4px 14px;margin:0;font-size:12px;line-height:16px;color:var(--text-2)}
+.tl-key span{display:inline-flex;align-items:center;gap:6px}
+.tl-key svg{width:12px;height:12px;flex:none}
+.tl-key .lk-due{fill:var(--mark-due)}
+.tl-key .lk-trip{fill:var(--trip)}
+.tl-scroll{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+.tl-hint{margin:6px 0 0;font-size:12px;color:var(--text-3)}
+#timeline{display:block}
+#timeline text{font-family:var(--font);font-size:11px;fill:var(--text-3)}
+#timeline .wk{fill:var(--text-1);font-weight:600}
+#timeline .grid{stroke:var(--divider);stroke-width:1}
+#timeline .track{stroke:var(--divider);stroke-width:1}
+#timeline .band-swot{fill:var(--band)}
+#timeline .band-exam{fill:var(--band-2)}
+#timeline .band-lbl{fill:var(--text-2);font-weight:600}
+#timeline .rowlbl{fill:var(--text-3);font-weight:600;letter-spacing:.06em}
+#timeline .due{fill:var(--mark-due);stroke:var(--card-solid);stroke-width:2}
+#timeline .due.sample{fill:var(--card-solid);stroke:var(--mark-due);stroke-width:2;stroke-dasharray:3 2}
+#timeline .due-lbl{fill:var(--text-1);font-family:var(--font-mono);font-weight:600;font-size:10.5px}
+#timeline .leader{stroke:var(--text-3);stroke-width:1}
+#timeline .trip-line{stroke:var(--trip);stroke-width:2}
+#timeline .stay{fill:var(--trip)}
+#timeline .stay.plan{fill:var(--trip-wash);stroke:var(--trip);stroke-width:1.5;stroke-dasharray:4 3}
+#timeline .fly{fill:var(--trip);stroke:var(--card-solid);stroke-width:.8}
+#timeline .fly.plan{fill:var(--card-solid);stroke:var(--trip);stroke-width:1.2}
+#timeline .trip-lbl{fill:var(--text-2);font-weight:600}
+#timeline .today{stroke:var(--accent);stroke-width:2}
+#timeline .today-tag{fill:var(--accent)}
+#timeline .today-txt{fill:var(--on-accent);font-weight:600}
+#timeline .hit{fill:transparent}
+#timeline .mk-g{cursor:pointer;outline:none}
+#timeline .mk-g:focus-visible .hit{stroke:var(--text-1);stroke-width:2}
+#timeline .none{fill:var(--text-2);font-size:13px}
+.infobar{display:flex;gap:12px;align-items:flex-start;margin:8px 0 0;padding:8px 12px;border-radius:4px;border:1px solid var(--card-stroke)}
+.infobar[data-k="good"]{background:var(--success-bg)}
+.infobar[data-k="warn"]{background:var(--caution-bg)}
+.infobar[data-k="bad"]{background:var(--critical-bg)}
+.infobar svg{width:16px;height:16px;flex:none;margin-top:2px}
+.infobar b{font-weight:600;margin-right:8px}
+
+/* panes */
+.panes{display:grid;gap:12px;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) minmax(0,.95fr)}
+@media (max-width:1179px){.panes{grid-template-columns:repeat(2,minmax(0,1fr))}.pane.prep{grid-column:1 / -1}}
+@media (max-width:760px){.panes{grid-template-columns:minmax(0,1fr)}}
+.pane{padding:14px 16px 12px}
+.note{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:-2px 0 8px;font-size:12px;line-height:16px;color:var(--text-2)}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:4px 12px;padding:7px 8px;margin-inline:-8px;border-radius:4px}
+.row:hover{background:var(--fill-subtle-2)}
+.row-main{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:10px;row-gap:1px;min-width:0;border-radius:4px}
+.row-main:focus-visible{outline:2px solid var(--text-1);outline-offset:3px}
+.row-main .mk{grid-row:1 / span 2;margin-top:5px}
+.row-main .ttl{font-weight:600;overflow-wrap:anywhere}
+.row-main .ttl .code{margin-right:6px}
+.row-main .sub{font-size:12px;line-height:16px;color:var(--text-2);display:flex;flex-wrap:wrap;gap:2px 10px;align-items:center}
+.mk{display:block;width:10px;height:10px;border-radius:50%;background:var(--mark-due)}
+.mk.hollow{background:transparent;border:2px dashed var(--mark-due)}
+.mk.sq{border-radius:2px}
+.mk.done{background:var(--dot-good)}
+@media (max-width:560px){
+  .row{grid-template-columns:minmax(0,1fr) auto}
+  .row .pill{grid-column:1;grid-row:2;justify-self:start;padding-left:20px}
+  .row .state{grid-column:2;grid-row:1 / span 2}
+}
+details.expander{margin-top:8px;border-radius:4px;background:var(--fill-subtle-2);border:1px solid var(--card-stroke)}
+details.expander summary{display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;padding:8px 12px;font-weight:600;list-style:none;border-radius:4px}
+details.expander summary::-webkit-details-marker{display:none}
+details.expander summary::after{content:"";width:8px;height:8px;border-right:1.5px solid var(--text-2);border-bottom:1.5px solid var(--text-2);transform:rotate(45deg) translateY(-2px);transition:transform .15s}
+details.expander[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
+details.expander .list{padding:0 12px 8px}
+details.expander .row{margin-inline:-6px}
+details.expander .row-main .ttl{color:var(--text-2)}
+
+.stepper{list-style:none;margin:0;padding:0}
+.leg{position:relative;display:grid;grid-template-columns:28px 64px minmax(0,1fr) auto;gap:2px 10px;align-items:start;padding:7px 0 9px}
+.leg::before{content:"";position:absolute;left:13.5px;top:34px;bottom:-6px;width:1px;background:var(--divider)}
+.leg:last-child::before{display:none}
+.node{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--trip);color:#1b1b1b;position:relative;z-index:1}
+.node svg{width:14px;height:14px;fill:currentColor}
+.leg.open .node{background:var(--card-solid);border:1.5px dashed var(--trip);color:var(--trip)}
+.leg .when{font-family:var(--font-mono);font-size:12px;line-height:16px;font-weight:600;color:var(--text-2);padding-top:6px;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.leg .what{min-width:0;padding-top:3px}
+.leg .main{display:block;font-weight:600;overflow-wrap:anywhere}
+.leg .main.codes{font-family:var(--font-mono);font-size:13px;letter-spacing:.04em}
+.leg .lnote{display:block;font-size:12px;line-height:16px;color:var(--text-2)}
+.leg .state{margin-top:1px}
+.leg.past{opacity:.55}
+@media (max-width:420px){.leg{grid-template-columns:28px 52px minmax(0,1fr);}.leg .state{grid-column:3;justify-self:start}}
+
+.pane.prep .progress{margin:-2px 0 10px}
+.checklist{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.checklist li{display:flex;align-items:flex-start;gap:6px;padding:5px 8px;margin-inline:-8px;border-radius:4px}
+.checklist li:hover{background:var(--fill-subtle-2)}
+.checklist label{display:flex;gap:10px;align-items:flex-start;flex:1;min-width:0;cursor:pointer}
+.checklist input[type="checkbox"]{-webkit-appearance:none;appearance:none;width:20px;height:20px;margin:0;flex:none;border-radius:4px;border:1px solid var(--ctl-strong);background:var(--control);cursor:pointer}
+.checklist input[type="checkbox"]:hover{background:var(--fill-subtle)}
+.checklist input[type="checkbox"]:checked{background:var(--accent) var(--check) center / 20px 20px no-repeat;border-color:var(--accent)}
+.checklist input[type="checkbox"]:focus-visible{outline:2px solid var(--text-1);outline-offset:2px}
+.checklist label span{padding-top:0;overflow-wrap:anywhere}
+.checklist li.done label span{color:var(--text-3);text-decoration:line-through}
+.x{all:unset;box-sizing:border-box;cursor:pointer;color:var(--text-3);height:24px;padding:0 6px;display:grid;place-items:center;border-radius:4px;font-size:12px;white-space:nowrap}
+.x:hover{background:var(--fill-subtle);color:var(--text-1)}
+.x:focus-visible{outline:2px solid var(--text-1)}
+.x[data-armed]{color:var(--critical);font-weight:600}
+@media (hover:hover){.checklist li .x{opacity:0}.checklist li:hover .x,.checklist li:focus-within .x,.checklist li .x[data-armed]{opacity:1}}
+.addrow{display:flex;gap:8px;margin-top:10px}
+
+/* dialog, tooltip, toast */
+dialog.dlg{border:0;padding:0;border-radius:8px;background:var(--card-solid);color:var(--text-1);width:min(540px,calc(100% - 32px));box-shadow:0 32px 64px rgba(0,0,0,.19),0 2px 21px rgba(0,0,0,.15);outline:1px solid var(--card-stroke)}
+dialog.dlg::backdrop{background:rgba(0,0,0,.3)}
+dialog.dlg[open]:not(:modal){position:fixed;inset:0;margin:auto;z-index:40;height:fit-content}
+.dlg-body{padding:22px 24px 20px;display:grid;gap:14px}
+.dlg-body h3{font:600 20px/28px var(--font-display)}
+.ed-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.ed-grid{grid-template-columns:minmax(0,1fr)}}
+.field{display:grid;gap:6px;font-size:14px;color:var(--text-1);min-width:0}
+.field select.input{appearance:auto}
+.check{display:flex;gap:10px;align-items:center;cursor:pointer}
+.check input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.dlg-foot{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:8px;padding:20px 24px;background:var(--layer);border-top:1px solid var(--card-stroke);border-radius:0 0 8px 8px}
+.tip{position:fixed;z-index:50;pointer-events:none;background:var(--card-solid);color:var(--text-1);border:1px solid var(--card-stroke);border-radius:4px;box-shadow:0 4px 8px rgba(0,0,0,.14);font-size:12px;line-height:16px;padding:6px 9px 7px;max-width:280px}
+.tip b{font-weight:600}
+.toast{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:60;max-width:min(360px,calc(100% - 40px));display:flex;gap:10px;align-items:flex-start;background:var(--card-solid);color:var(--text-1);border:1px solid var(--card-stroke);border-radius:8px;box-shadow:0 8px 16px rgba(0,0,0,.14);padding:12px 16px}
+.toast::before{content:"";width:4px;align-self:stretch;border-radius:2px;background:var(--accent);flex:none}
+@media (prefers-reduced-motion: no-preference){
+  .toast:not([hidden]){animation:rise .25s cubic-bezier(.1,.9,.2,1)}
+  .progress i{transition:width .5s cubic-bezier(.1,.9,.2,1)}
+  @keyframes rise{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+}
+/* iOS and touch screens: no zoom on input focus, bigger tap targets, no fixed background */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button,summary,label,a,input,select{-webkit-tap-highlight-color:transparent}
+@media (pointer:coarse){
+  body{background-attachment:scroll}
+  .input,.input.mini{font-size:16px}
+  .input.mini{width:84px}
+  .icon-btn{width:40px;height:40px}
+  .state{min-height:36px;padding:7px 12px 8px}
+  .checklist input[type="checkbox"]{width:24px;height:24px}
+  .x{height:32px;padding:0 10px}
+}
+@media (hover:none){.row:hover,.checklist li:hover{background:transparent}}
+
+/* standalone page: lock screen, and a scrim under the iOS status bar */
+.sb-scrim{position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);z-index:65;pointer-events:none}
+:root.standalone .sb-scrim{background:rgba(18,18,18,.88);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.lock{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:calc(24px + env(safe-area-inset-top,0px)) 16px calc(24px + env(safe-area-inset-bottom,0px));background-color:var(--mica);background-image:radial-gradient(1100px 640px at 0% 0%,var(--tint-a),transparent 64%),radial-gradient(900px 560px at 100% 100%,var(--tint-b),transparent 62%);overflow:auto}
+.lock-card{width:min(380px,100%);padding:24px 22px 20px;display:grid;gap:14px}
+.lock-card h2{font:600 20px/28px var(--font-display)}
+.lock-card .meta{font-size:13px;line-height:18px}
+.lock-icon{width:44px;height:44px;border-radius:11px}
+.lock-icon svg{width:24px;height:24px}
+.lock-card .input{font-size:16px;min-height:40px}
+.lock-card .btn{min-height:40px}
+.lock-card .fine{margin:0;min-height:16px;color:var(--critical)}
+@media (max-width:520px){#clock + span{display:none}}
+</style>
+<script>try { document.documentElement.dataset.skin = localStorage.getItem("dash.skin") || "dark"; } catch (e) { document.documentElement.dataset.skin = "dark"; }</script>
+
+<div class="sb-scrim" aria-hidden="true"></div>
+<div class="app">
+  <header class="titlebar">
+    <div class="app-id">
+      <span class="app-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><rect x="2.5" y="3" width="15" height="14" rx="2.5" fill="none" stroke="#fff" stroke-width="1.6"/><path d="M2.5 7.5h15M6.5 1.8v3M13.5 1.8v3" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/><path d="m6.8 12.2 2 2 4.4-4.4" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div><h1>Zijian's Dashboard</h1><p id="dateLine">Loading today</p></div>
+    </div>
+    <div class="tb-right">
+      <span class="chip" id="conn" data-s="connecting"><i aria-hidden="true"></i><span id="connTxt">Connecting</span></span>
+      <span class="chip"><b id="clock">--:--</b><span>Melbourne</span></span>
+      <button class="icon-btn" id="lockBtn" type="button" title="Lock this device" aria-label="Lock this device" hidden><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></button>
+      <button class="icon-btn" id="skinBtn" type="button" title="Switch to light" aria-label="Switch to light"><svg viewBox="0 0 16 16" aria-hidden="true"><path id="skinIco" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" d="M8 4.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zM8 1v1.4M8 13.6V15M1 8h1.4M13.6 8H15M3 3l1 1M12 12l1 1M3 13l1-1M12 4l1-1"/></svg></button>
+      <button class="icon-btn" id="fsBtn" type="button" title="Full screen (Esc to exit)" aria-label="Full screen"><svg viewBox="0 0 16 16" aria-hidden="true"><path id="fsIco" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" d="M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10"/></svg></button>
+    </div>
+  </header>
+
+  <section class="tiles" aria-label="Summary">
+    <article class="card tile" id="tileNext">
+      <div class="tile-h"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10.5" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 6.5v4l2.6 1.6M3.5 3.5l2 -1.5M16.5 3.5l-2-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="grow">Next up</span><span class="badge" id="nextBadge" hidden></span></div>
+      <div class="tile-body" id="nextBody"></div>
+    </article>
+    <article class="card tile" id="tileTrip">
+      <div class="tile-h"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M15 8c0-.6-.5-1-1-1h-3.6L7.2 2H5.8l1.7 5H4.2L3 5.5H2l.7 2.5L2 10.5h1l1.2-1.5h3.3l-1.7 5h1.4l3.2-5H14c.5 0 1-.4 1-1z"/></svg><span class="grow" id="tripName">Trip</span></div>
+      <div class="tile-body" id="tripBody"></div>
+    </article>
+    <article class="card tile" id="tileSem">
+      <div class="tile-h"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5 10 3l7 2.5L10 8z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M5.5 7v4.2c0 1.3 2 2.3 4.5 2.3s4.5-1 4.5-2.3V7M17 5.5V10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="grow" id="semName">Semester</span></div>
+      <div class="tile-body" id="semBody"></div>
+    </article>
+    <article class="card tile" id="tileFx">
+      <div class="tile-h"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="5" width="15" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="2.2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span class="grow">AUD rates</span><label class="conv" for="fxAmt"><input class="input mini" id="fxAmt" type="number" inputmode="decimal" min="0" step="any" value="100" aria-label="Amount in AUD to convert">AUD</label></div>
+      <div id="fx"></div>
+      <div id="fxOut" aria-live="polite"></div>
+      <p class="fine" id="fxNote"></p>
+    </article>
+  </section>
+
+  <section class="card tl-card" aria-labelledby="rwH">
+    <div class="card-h">
+      <div class="ch-left"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2.5 10h15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="5.5" cy="10" r="1.8" fill="currentColor"/><circle cx="11" cy="10" r="1.8" fill="currentColor"/><rect x="14.2" y="8.2" width="3.6" height="3.6" rx=".8" fill="currentColor"/></svg><h2 id="rwH">Next 8 weeks</h2><span class="meta" id="rwMeta"></span></div>
+      <p class="tl-key"><span><svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5" class="lk-due"/></svg>Assignment</span><span><svg viewBox="0 0 12 12" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="2" class="lk-due"/></svg>Exam, test, interview or class task</span><span><svg viewBox="0 0 16 12" aria-hidden="true"><rect x="1" y="2" width="14" height="8" rx="3" class="lk-trip"/></svg>Stay</span><span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M15 8c0-.6-.5-1-1-1h-3.6L7.2 2H5.8l1.7 5H4.2L3 5.5H2l.7 2.5L2 10.5h1l1.2-1.5h3.3l-1.7 5h1.4l3.2-5H14c.5 0 1-.4 1-1z" class="lk-trip"/></svg>Flight</span><span><svg viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M5 1h6a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zM5 3v3h6V3zM5.5 8a1 1 0 1 0 0 2 1 1 0 1 0 0-2zM10.5 8a1 1 0 1 0 0 2 1 1 0 1 0 0-2zM4.6 12.6 3 15h1.6l1.6-2.4zM11.4 12.6 13 15h-1.6l-1.6-2.4z" class="lk-trip"/></svg>Train</span><span><i class="mk hollow" style="width:10px;height:10px" aria-hidden="true"></i>Hollow = sample or not booked</span></p>
+    </div>
+    <div class="tl-scroll" id="tlScroll"><svg id="timeline" role="img" aria-label="Timeline of deadlines, exam period and trip"></svg></div>
+    <p class="tl-hint" id="tlHint" hidden>Scroll sideways to see the exam period and the trip.</p>
+    <div class="infobar" id="tlNote" role="status" hidden></div>
+  </section>
+
+  <div class="panes">
+    <section class="card pane" aria-labelledby="dlH">
+      <div class="card-h">
+        <div class="ch-left"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="m3 5.5 1.5 1.5L7 4.5M3 10.5 4.5 12 7 9.5M3 15.5 4.5 17 7 14.5M10 6h7M10 11h7M10 16h7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h2 id="dlH">Deadlines</h2><span class="meta" id="dlMeta"></span></div>
+        <button class="btn accent" id="addBtn" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Add</button>
+      </div>
+      <p class="note" id="sampleNote" hidden></p>
+      <div class="pane-body">
+        <ul class="list" id="items"></ul>
+        <details class="expander" id="doneBox" hidden><summary id="doneSum">Done</summary><ul class="list" id="doneItems"></ul></details>
+      </div>
+    </section>
+
+    <section class="card pane" aria-labelledby="trH">
+      <div class="card-h">
+        <div class="ch-left"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 3.5 2.5 5.5v11l5-2 5 2 5-2v-11l-5 2-5-2zM7.5 3.5v11M12.5 5.5v11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg><h2 id="trH">Itinerary</h2><span class="meta" id="tripMeta"></span></div>
+      </div>
+      <div class="pane-body">
+        <ol class="stepper" id="legs"></ol>
+        <p class="fine" id="legsNote" hidden></p>
+      </div>
+    </section>
+
+    <section class="card pane prep" aria-labelledby="prH">
+      <div class="card-h">
+        <div class="ch-left"><svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="3.5" width="12" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 2.5h5v2.5h-5zM7 10l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h2 id="prH">Before you fly</h2><span class="tag" id="prepTag" hidden>Suggested</span></div>
+        <span class="meta" id="prepCount"></span>
+      </div>
+      <div class="progress trip" aria-hidden="true"><i id="prepBar"></i></div>
+      <div class="pane-body"><ul class="checklist" id="prep"></ul></div>
+      <form class="addrow" id="prepForm"><input class="input" id="prepNew" maxlength="120" autocomplete="off" placeholder="Add a to-do" aria-label="New to-do"><button class="btn" type="submit" id="prepAdd">Add</button></form>
+    </section>
+  </div>
+</div>
+
+<div class="lock" id="lock" hidden>
+  <form class="card lock-card" id="lockForm">
+    <span class="app-icon lock-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><rect x="2.5" y="3" width="15" height="14" rx="2.5" fill="none" stroke="#fff" stroke-width="1.6"/><path d="M2.5 7.5h15M6.5 1.8v3M13.5 1.8v3" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/><path d="m6.8 12.2 2 2 4.4-4.4" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <h2>Zijian's Dashboard</h2>
+    <p class="meta">The data on this page is encrypted. Enter your password to unlock it.</p>
+    <input type="text" name="username" value="dashboard" autocomplete="username" hidden>
+    <input class="input" id="lockPw" name="password" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password">
+    <label class="check" for="lockKeep"><input type="checkbox" id="lockKeep" checked>Stay unlocked on this device</label>
+    <button class="btn accent" type="submit" id="lockGo">Unlock</button>
+    <p class="fine" id="lockErr" role="alert"></p>
+  </form>
+</div>
+
+<dialog class="dlg" id="editor" aria-labelledby="edHead">
+  <form id="edForm" novalidate>
+    <div class="dlg-body">
+      <h3 id="edHead">New deadline</h3>
+      <div class="ed-grid">
+        <label class="field" for="edUnit">Unit<input class="input" id="edUnit" maxlength="12" autocomplete="off" placeholder="FIT1234"></label>
+        <label class="field" for="edName">Title<input class="input" id="edName" maxlength="80" autocomplete="off" placeholder="Assignment 3"></label>
+        <label class="field" for="edDue">Due, Melbourne time<input class="input" id="edDue" type="datetime-local"></label>
+        <label class="field" for="edWeight">Weight % of unit<input class="input" id="edWeight" type="number" min="0" max="100" step="1" inputmode="numeric"></label>
+        <label class="field" for="edKind">Type<select class="input" id="edKind"><option value="assignment">Assignment</option><option value="exam">Exam</option><option value="test">Test</option><option value="interview">Interview</option><option value="class">In-class task</option></select></label>
+        <label class="field" for="edStatus">Status<select class="input" id="edStatus"><option value="todo">To do</option><option value="doing">In progress</option><option value="done">Submitted or done</option></select></label>
+      </div>
+      <label class="check" for="edConfirmed"><input type="checkbox" id="edConfirmed">This is the real due date</label>
+    </div>
+    <div class="dlg-foot"><button class="btn accent" type="submit" id="edSave">Save</button><button class="btn danger" type="button" id="edDelete">Delete</button><button class="btn" type="button" id="edClose">Cancel</button></div>
+  </form>
+</dialog>
+<div class="tip" id="tip" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden><span id="toastTxt"></span></div>
+
+<script>
+(() => {
+  "use strict";
+  const TZ = "Australia/Melbourne";
+  const DAY = 864e5;
+  const $ = (s, r = document) => r.querySelector(s);
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+  const NS = "http://www.w3.org/2000/svg";
+  const sv = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs || {}) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+
+  const S = {
+    db: null, board: null, items: [], legs: [], prep: [], fx: null,
+    loaded: { board: false, items: false, legs: false, prep: false, fx: false },
+    conn: "connecting", readOnly: false, editing: null, noRuntime: false, dueTouched: false,
+    locked: true, fresh: false, dataAt: null, priv: null, liveFx: null, baseFx: null
+  };
+
+  /* ---------- time: every calendar calculation happens in Melbourne time ---------- */
+  const partsFmt = new Intl.DateTimeFormat("en-AU", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" });
+  function mparts(d) { const o = {}; for (const p of partsFmt.formatToParts(d)) o[p.type] = p.value; return { y: +o.year, mo: +o.month, d: +o.day, h: (+o.hour) % 24, mi: +o.minute }; }
+  const ymd = (y, m, d) => Math.round(Date.UTC(y, m - 1, d) / DAY);
+  const dayNum = s => { const [y, m, d] = String(s).slice(0, 10).split("-").map(Number); return ymd(y, m, d); };
+  const melbDay = date => { const p = mparts(date); return ymd(p.y, p.mo, p.d) + (p.h * 60 + p.mi) / 1440; };
+  const todayNum = () => Math.floor(melbDay(new Date()));
+  const dow = n => new Date(n * DAY).getUTCDay();
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const WD = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const WDL = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const MONL = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const z2 = n => String(n).padStart(2, "0");
+  function dayLabel(n, wd) { const d = new Date(n * DAY); return `${wd ? WD[d.getUTCDay()] + " " : ""}${d.getUTCDate()} ${MON[d.getUTCMonth()]}`; }
+  function rangeLabel(a, b) { const da = new Date(a * DAY), db = new Date(b * DAY); return da.getUTCMonth() === db.getUTCMonth() ? `${da.getUTCDate()}–${dayLabel(b)}` : `${dayLabel(a)} – ${dayLabel(b)}`; }
+  function dueLabel(iso) { const p = mparts(new Date(iso)); return `${dayLabel(ymd(p.y, p.mo, p.d), true)}, ${z2(p.h)}:${z2(p.mi)}`; }
+  function dueText(it) {
+    if (!it || !it.due) return "No date yet";
+    return it.allDay ? `${dayLabel(Math.floor(melbDay(new Date(it.due))), true)}, time not set` : dueLabel(it.due);
+  }
+  const isEvent = it => !!it && !!it.kind && it.kind !== "assignment";
+  const isMove = l => !!l && (l.kind === "flight" || l.kind === "train");
+  function offsetMin(date) { const p = mparts(date); const wall = Date.UTC(p.y, p.mo - 1, p.d, p.h, p.mi); return Math.round((wall - Math.floor(date.getTime() / 6e4) * 6e4) / 6e4); }
+  function localToISO(v) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(v || ""); if (!m) return null;
+    const wall = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+    let off = offsetMin(new Date(wall - 600 * 6e4));
+    off = offsetMin(new Date(wall - off * 6e4));
+    const a = Math.abs(off);
+    return `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00${off < 0 ? "-" : "+"}${z2(Math.floor(a / 60))}:${z2(a % 60)}`;
+  }
+  function isoToLocal(iso) { const p = mparts(new Date(iso)); return `${p.y}-${z2(p.mo)}-${z2(p.d)}T${z2(p.h)}:${z2(p.mi)}`; }
+  function relStamp(iso) {
+    const d = new Date(iso); if (isNaN(d)) return "";
+    const n = Math.floor(melbDay(d)), t = todayNum(), p = mparts(d), hm = `${z2(p.h)}:${z2(p.mi)}`;
+    return n === t ? `today ${hm}` : n === t - 1 ? `yesterday ${hm}` : `${dayLabel(n)} ${hm}`;
+  }
+  function cdShort(ms) {
+    if (ms <= 0) { const d = Math.floor(-ms / DAY); return d >= 1 ? `Overdue ${d}d` : "Overdue"; }
+    const m = Math.floor(ms / 6e4), h = Math.floor(m / 60), d = Math.floor(h / 24);
+    if (d >= 2) return `${d}d ${h % 24}h`;
+    if (h >= 1) return `${h}h ${m % 60}m`;
+    return `${m}m`;
+  }
+  function cdBig(ms) {
+    if (ms <= 0) { const h = Math.floor(-ms / 36e5); if (h < 24) return [String(h), h === 1 ? "hour overdue" : "hours overdue", ""]; const d = Math.floor(h / 24); return [String(d), d === 1 ? "day overdue" : "days overdue", ""]; }
+    const m = Math.floor(ms / 6e4), h = Math.floor(m / 60), d = Math.floor(h / 24);
+    if (d >= 2) return [String(d), "days", `${h % 24} h`];
+    if (h >= 1) return [String(h), h === 1 ? "hour" : "hours", `${m % 60} min`];
+    return [String(m), "min", ""];
+  }
+  const urg = ms => ms <= 0 ? "critical" : ms <= 3 * DAY ? "serious" : ms <= 7 * DAY ? "warn" : "calm";
+
+  function phase(sem, t) {
+    if (!sem || !sem.teachingStart || !sem.teachingEnd) return null;
+    const s = dayNum(sem.teachingStart), tE = dayNum(sem.teachingEnd);
+    const bS = sem.breakStart ? dayNum(sem.breakStart) : null, bE = sem.breakEnd ? dayNum(sem.breakEnd) : null;
+    const hasBreak = bS != null && bE != null && bS > s && bS < tE;
+    const total = Math.floor((tE - s) / 7) + 1 - (hasBreak ? 1 : 0);
+    if (t < s) return { label: "Before teaching starts", short: "", total };
+    if (hasBreak && t >= bS && t <= bE + 2) return { label: "Mid-semester break", short: "Break", total };
+    if (t <= tE + 2) { const w = Math.floor((t - s) / 7) + 1 - (hasBreak && t > bE ? 1 : 0); return { label: `Week ${w} of ${total}`, short: `W${w}`, week: w, total, left: tE - t }; }
+    if (sem.swotStart && t >= dayNum(sem.swotStart) && t <= dayNum(sem.swotEnd) + 2) return { label: "SWOT VAC", short: "SWOT", total };
+    if (sem.examStart && t >= dayNum(sem.examStart) && t <= dayNum(sem.examEnd)) { const a = dayNum(sem.examStart), b = dayNum(sem.examEnd); return { label: `Exam period, day ${t - a + 1} of ${b - a + 1}`, short: "Exams", total }; }
+    if (sem.examEnd && t > dayNum(sem.examEnd)) return { label: "Semester finished", short: "", total };
+    return { label: "", short: "", total };
+  }
+
+  /* ---------- small UI helpers ---------- */
+  const fmtNum = (v, dp) => Number(v).toLocaleString("en-AU", { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  let toastTimer = 0;
+  function toast(msg) { $("#toastTxt").textContent = msg; const t = $("#toast"); t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 3400); }
+  const tip = $("#tip");
+  function showTip(cx, top, bottom, lines) {
+    tip.replaceChildren();
+    lines.filter(Boolean).forEach((l, i, a) => { tip.append(el(i ? "span" : "b", null, l)); if (i < a.length - 1) tip.append(document.createElement("br")); });
+    tip.hidden = false;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    tip.style.left = Math.min(Math.max(8, cx - w / 2), innerWidth - w - 8) + "px";
+    tip.style.top = (top - h - 8 < 8 ? bottom + 8 : top - h - 8) + "px";
+  }
+  const hideTip = () => { tip.hidden = true; };
+  const emptyNote = text => el("p", "empty", text);
+  const loadingText = what => S.locked ? `Unlock to see your ${what}.` : `Loading your ${what}`;
+  function reconcile(ul, list, build, patch) {
+    const old = new Map([...ul.children].map(n => [n.dataset.key, n]));
+    let prev = null;
+    for (const item of list) {
+      let n = old.get(item.id);
+      if (n) old.delete(item.id); else { n = build(); n.dataset.key = item.id; }
+      patch(n, item);
+      const want = prev ? prev.nextSibling : ul.firstChild;
+      if (n !== want) ul.insertBefore(n, want);
+      prev = n;
+    }
+    old.forEach(n => n.remove());
+  }
+  const ICON = {
+    good: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7.5" fill="var(--success)"/><path d="m4.8 8.3 2.2 2.2 4.2-4.6" fill="none" stroke="var(--on-status)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    warn: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7.5" fill="var(--caution)"/><path d="M8 4.2v4.6" stroke="var(--on-status)" stroke-width="1.6" stroke-linecap="round"/><circle cx="8" cy="11.4" r="1" fill="var(--on-status)"/></svg>',
+    bad: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7.5" fill="var(--critical)"/><path d="m5.5 5.5 5 5m0-5-5 5" stroke="var(--on-status)" stroke-width="1.5" stroke-linecap="round"/></svg>'
+  };
+  const PLANE = "M15 8c0-.6-.5-1-1-1h-3.6L7.2 2H5.8l1.7 5H4.2L3 5.5H2l.7 2.5L2 10.5h1l1.2-1.5h3.3l-1.7 5h1.4l3.2-5H14c.5 0 1-.4 1-1z";
+  const TRAIN = "M5 1h6a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zM5 3v3h6V3zM5.5 8a1 1 0 1 0 0 2 1 1 0 1 0 0-2zM10.5 8a1 1 0 1 0 0 2 1 1 0 1 0 0-2zM4.6 12.6 3 15h1.6l1.6-2.4zM11.4 12.6 13 15h-1.6l-1.6-2.4z";
+  const BED = "M1.5 4.5v9M1.5 10h13v3.5M14.5 10V8.5a2 2 0 0 0-2-2H7v3.5M3.5 7.8a1.3 1.3 0 1 0 2.6 0 1.3 1.3 0 1 0-2.6 0";
+
+  /* ---------- writes ---------- */
+  const chains = new Map();
+  function queue(path, fn) { const p = (chains.get(path) || Promise.resolve()).then(fn); chains.set(path, p.catch(() => {})); return p; }
+  async function guard(fn, ok) {
+    if (!S.db) { toast("Unlock the dashboard first."); return false; }
+    if (S.readOnly) { toast("This board is read-only for you. Only its owner can change it."); return false; }
+    try {
+      await fn();
+      if (!store.get("dash.localNote")) { store.set("dash.localNote", "1"); toast("Saved on this device. Changes made here don't sync back to Claude."); }
+      else if (ok) toast(ok);
+      return true;
+    }
+    catch (e) {
+      const c = e && e.code;
+      if (c === "invalid_argument") { S.readOnly = true; toast("This board is read-only for you. Only its owner can change it."); renderAll(); }
+      else if (c === "quota_exceeded") toast("The board is full. Delete a few finished items, then try again.");
+      else if (c === "resource_exhausted") toast("Too many changes at once. Wait a moment, then try again.");
+      else toast("Couldn't save that. Check your connection and try again.");
+      return false;
+    }
+  }
+
+  /* ---------- title bar ---------- */
+  const shortStamp = iso => { const d = new Date(iso); if (isNaN(d)) return ""; const n = Math.floor(melbDay(d)), t = todayNum(), q = mparts(d); return n === t ? `${z2(q.h)}:${z2(q.mi)}` : n === t - 1 ? "yesterday" : dayLabel(n); };
+  function setConn(s) {
+    S.conn = s; $("#conn").dataset.s = s;
+    $("#connTxt").textContent = { connecting: "Loading", live: S.dataAt ? `Updated ${shortStamp(S.dataAt)}` : "Up to date", cached: S.dataAt ? `Offline · ${shortStamp(S.dataAt)}` : "Offline copy", none: "Locked", ended: "Couldn't load" }[s] || s;
+    $("#conn").title = S.dataAt ? `Data from ${dueLabel(S.dataAt)}` : "";
+  }
+  function renderHeader() {
+    const now = new Date(), p = mparts(now), t = ymd(p.y, p.mo, p.d), d = new Date(t * DAY);
+    const sem = S.board && S.board.semester, ph = phase(sem, t);
+    const bits = [`${WDL[d.getUTCDay()]} ${d.getUTCDate()} ${MONL[d.getUTCMonth()]}`];
+    if (ph && ph.label) bits.push(ph.label + (sem.name ? `, ${sem.name}` : ""));
+    $("#dateLine").textContent = bits.join(" · ");
+    $("#clock").textContent = `${z2(p.h)}:${z2(p.mi)}`;
+  }
+
+  /* ---------- summary tiles ---------- */
+  const STATUS = { todo: "To do", doing: "In progress", done: "Submitted" };
+  const STATUS_EV = { todo: "To do", doing: "Preparing", done: "Done" };
+  const stLabel = (it, s) => (isEvent(it) ? STATUS_EV : STATUS)[s];
+  const NEXT = { todo: "doing", doing: "done", done: "todo" };
+  const byDue = (a, b) => (a.due ? new Date(a.due).getTime() : Infinity) - (b.due ? new Date(b.due).getTime() : Infinity);
+  const URG_LABEL = { critical: "Overdue", serious: "Due soon", warn: "This week", calm: "On track" };
+
+  function bigNum(num, unit, rest) { const b = el("div", "big", num); if (unit) b.append(el("small", null, unit)); if (rest) b.append(el("small", null, rest)); return b; }
+
+  function renderNextTile() {
+    const body = $("#nextBody"), tile = $("#tileNext"), badge = $("#nextBadge");
+    body.replaceChildren(); tile.classList.remove("is-sample"); badge.hidden = true;
+    const active = S.items.filter(i => i.status !== "done").sort(byDue);
+    if (!S.loaded.items) { body.append(emptyNote(loadingText("deadlines"))); return; }
+    if (!active.length) { body.append(bigNum("All clear"), el("div", "t-sub", S.items.length ? "Everything is submitted." : "Add a deadline to start.")); return; }
+    const n = active.find(i => i.due) || active[0];
+    if (n.due) {
+      const ms = new Date(n.due).getTime() - Date.now(), u = urg(ms);
+      body.append(bigNum(...cdBig(ms)));
+      badge.hidden = false; badge.dataset.u = u; badge.textContent = URG_LABEL[u];
+    }
+    const line = el("div", "t-line"); line.append(el("span", "code", n.unit || ""), el("span", null, n.title || "Untitled"));
+    if (n.sample) { line.append(el("span", "tag", "Sample date")); tile.classList.add("is-sample"); }
+    body.append(line, el("div", "t-sub", [dueText(n), n.weight != null && n.weight !== "" ? `${n.weight}% of ${n.unit}` : null].filter(Boolean).join(" · ")));
+    if (n.detail) body.append(el("div", "t-sub", n.detail));
+  }
+
+  function renderTripTile() {
+    const body = $("#tripBody"); body.replaceChildren();
+    const trip = S.board && S.board.trip, t = todayNum();
+    if (!S.loaded.board) { body.append(emptyNote(loadingText("trip"))); return; }
+    if (!trip || !trip.depart) { body.append(emptyNote(S.readOnly ? "This board is private to its owner." : "No trip saved yet.")); return; }
+    $("#tripName").textContent = trip.name || "Trip";
+    const dep = dayNum(trip.depart), end = trip.end ? dayNum(trip.end) : null, n = dep - t;
+    if (n > 1) body.append(bigNum(String(n), "days to go"));
+    else if (n === 1) body.append(bigNum("Tomorrow"));
+    else if (n === 0) body.append(bigNum("Today"));
+    else if (end != null && t <= end) body.append(bigNum(`Day ${t - dep + 1}`, `of ${end - dep + 1}`));
+    else body.append(bigNum("Done"));
+    body.append(el("div", "t-line", [trip.route, dayLabel(dep, true)].filter(Boolean).join(" · ")));
+    const fl = S.legs.filter(l => l.kind === "flight"), flLeft = fl.filter(l => l.status !== "booked").length;
+    const left = [["train", S.legs.filter(l => l.kind === "train" && l.status !== "booked").length], ["stay", S.legs.filter(l => l.kind === "stay" && l.status !== "booked").length]]
+      .filter(([, k]) => k).map(([w, k]) => `${k} ${w}${k > 1 ? "s" : ""}`);
+    body.append(el("div", "t-sub", [fl.length ? (flLeft ? `${flLeft} of ${fl.length} flights to book` : `All ${fl.length} flights booked`) : null, left.length ? `${left.join(" and ")} to book` : null].filter(Boolean).join(" · ")));
+    if (S.legs.length) {
+      const booked = S.legs.filter(l => l.status === "booked").length;
+      const bar = el("div", "progress trip"); const fill = el("i"); fill.style.width = `${booked / S.legs.length * 100}%`; bar.append(fill);
+      bar.setAttribute("role", "img"); bar.setAttribute("aria-label", `${booked} of ${S.legs.length} bookings done`);
+      body.append(bar, el("div", "t-sub", `${booked} of ${S.legs.length} bookings done`));
+    }
+  }
+
+  function renderSemTile() {
+    const body = $("#semBody"); body.replaceChildren();
+    const sem = S.board && S.board.semester, t = todayNum();
+    if (!S.loaded.board) { body.append(emptyNote(loadingText("semester"))); return; }
+    if (!sem) { body.append(emptyNote("No semester dates saved.")); return; }
+    $("#semName").textContent = sem.name || "Semester";
+    const ph = phase(sem, t);
+    if (ph && ph.week) {
+      body.append(bigNum(`Week ${ph.week}`, `of ${ph.total}`));
+      const bar = el("div", "progress"); const fill = el("i"); fill.style.width = `${Math.min(1, ph.week / ph.total) * 100}%`; bar.append(fill); body.append(bar);
+      body.append(el("div", "t-line", ph.left > 1 ? `Teaching ends in ${ph.left} days` : ph.left === 1 ? "Teaching ends tomorrow" : "Last day of teaching"));
+    } else body.append(bigNum(ph ? (ph.short || ph.label || "—") : "—"), el("div", "t-line", ph ? ph.label : ""));
+    const bits = [];
+    if (sem.swotStart) bits.push(`SWOT VAC ${rangeLabel(dayNum(sem.swotStart), dayNum(sem.swotEnd))}`);
+    if (sem.examStart) bits.push(`Exams ${rangeLabel(dayNum(sem.examStart), dayNum(sem.examEnd))}`);
+    body.append(el("div", "t-sub", bits.join(" · ")));
+    if (S.items.length) body.append(el("div", "t-sub", `${S.items.filter(i => i.status === "done").length} of ${S.items.length} assessments done`));
+  }
+
+  /* ---------- exchange rates ---------- */
+  const CCY = [["KRW", "Korean won", 2, 0], ["JPY", "Japanese yen", 2, 0], ["CNY", "Chinese yuan", 4, 2]];
+  function spark(hist, code, dp) {
+    const W = 64, H = 22, P = 3;
+    const pts = hist.filter(h => typeof h[code] === "number");
+    const svg = sv("svg", { class: "spark", viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `${code} per AUD over ${pts.length} trading days` });
+    if (pts.length < 2) return svg;
+    const vals = pts.map(h => h[code]);
+    let lo = Math.min(...vals), hi = Math.max(...vals); const pad = (hi - lo) * 0.15 || hi * 0.01; lo -= pad; hi += pad;
+    const xs = i => P + i * (W - 2 * P) / (vals.length - 1), ys = v => H - P - (v - lo) / (hi - lo) * (H - 2 * P);
+    const d = vals.map((v, i) => `${i ? "L" : "M"}${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join("");
+    sv("path", { d: `${d}L${xs(vals.length - 1).toFixed(1)},${H - P}L${P},${H - P}Z`, class: "sp-area" }, svg);
+    sv("path", { d, class: "sp-line" }, svg);
+    const cross = sv("line", { x1: 0, x2: 0, y1: 0, y2: H, class: "sp-cross", visibility: "hidden" }, svg);
+    sv("circle", { cx: xs(vals.length - 1), cy: ys(vals[vals.length - 1]), r: 3, class: "sp-end" }, svg);
+    const hit = sv("rect", { x: 0, y: -4, width: W, height: H + 8, class: "hit" }, svg);
+    const move = ev => {
+      const r = svg.getBoundingClientRect(), rel = (ev.clientX - r.left) / r.width * W;
+      const i = Math.max(0, Math.min(vals.length - 1, Math.round((rel - P) / (W - 2 * P) * (vals.length - 1))));
+      cross.setAttribute("x1", xs(i)); cross.setAttribute("x2", xs(i)); cross.setAttribute("visibility", "visible");
+      showTip(r.left + xs(i) / W * r.width, r.top, r.bottom, [`${fmtNum(vals[i], dp)} ${code}`, dayLabel(dayNum(pts[i].d), true)]);
+    };
+    hit.addEventListener("pointermove", move); hit.addEventListener("pointerdown", move);
+    hit.addEventListener("pointerleave", () => { cross.setAttribute("visibility", "hidden"); hideTip(); });
+    return svg;
+  }
+  function renderFx() {
+    const box = $("#fx"); box.replaceChildren();
+    const fx = S.fx;
+    if (!fx || !fx.rates) {
+      box.append(emptyNote(!S.loaded.fx ? loadingText("exchange rates") : "No rates yet. They arrive with the next morning refresh."));
+      $("#fxNote").textContent = ""; updateConv(); return;
+    }
+    const hist = (Array.isArray(fx.history) ? fx.history : []).filter(h => h && h.d).slice().sort((a, b) => a.d < b.d ? -1 : a.d > b.d ? 1 : 0);
+    for (const [code, name, dp] of CCY) {
+      const v = fx.rates[code]; if (typeof v !== "number") continue;
+      const row = el("div", "fx-row");
+      const c = el("span", "code", code); c.title = name;
+      const rate = el("span", "rate", fmtNum(v, dp));
+      const first = hist.length > 1 ? hist[0][code] : null;
+      const dEl = el("span", "delta");
+      if (typeof first === "number" && first) { const pct = (v - first) / first * 100; dEl.textContent = `${pct < 0 ? "▼" : "▲"} ${Math.abs(pct).toFixed(1)}%`; dEl.classList.add(pct < 0 ? "down" : "up"); dEl.title = `Change since ${dayLabel(dayNum(hist[0].d))}`; }
+      row.append(c, rate, dEl, spark(hist, code, dp));
+      box.append(row);
+    }
+    const note = $("#fxNote"); note.replaceChildren();
+    note.append(el("span", null, fx.date ? `ECB rate ${dayLabel(dayNum(fx.date), true)}` : "ECB rate"));
+    if (hist.length > 1) note.title = `Arrows show the change since ${dayLabel(dayNum(hist[0].d))}`;
+    if (fx.checkedAt) {
+      const stale = Date.now() - new Date(fx.checkedAt).getTime() > 36 * 36e5;
+      note.append(el("span", stale ? "stale" : null, ` · checked ${relStamp(fx.checkedAt)}${stale ? ". Rates couldn't be refreshed since." : ""}`));
+    }
+    updateConv();
+  }
+  function updateConv() {
+    const out = $("#fxOut"), a = parseFloat($("#fxAmt").value), r = S.fx && S.fx.rates;
+    if (!r || !(a >= 0)) { out.textContent = ""; return; }
+    out.textContent = "≈ " + CCY.filter(c => typeof r[c[0]] === "number").map(([c, , , dp]) => `${fmtNum(a * r[c], dp)} ${c}`).join(" · ");
+  }
+  $("#fxAmt").addEventListener("input", () => { updateConv(); store.set("dash.fxAmt", $("#fxAmt").value); });
+
+  /* ---------- timeline ---------- */
+  function renderTimeline() {
+    hideTip();
+    const svg = $("#timeline"); svg.replaceChildren();
+    const sem = S.board && S.board.semester, trip = S.board && S.board.trip;
+    const tNow = melbDay(new Date()), t = Math.floor(tNow);
+    const start = t - ((dow(t) + 6) % 7);
+    let end = t + 41;
+    const active = S.items.filter(i => i.status !== "done" && i.due);
+    active.forEach(i => { end = Math.max(end, Math.floor(melbDay(new Date(i.due))) + 3); });
+    if (trip && trip.end) end = Math.max(end, dayNum(trip.end) + 3);
+    if (sem && sem.examEnd && dayNum(sem.examEnd) >= t) end = Math.max(end, dayNum(sem.examEnd) + 3);
+    end = Math.min(end, start + 7 * 12 - 1);
+    end += (7 - ((end - start + 1) % 7)) % 7;
+    const days = end - start + 1;
+    $("#rwH").textContent = `Next ${days / 7} weeks`;
+    $("#rwMeta").textContent = `${dayLabel(start, true)} – ${dayLabel(end, true)}`;
+
+    const boxW = $("#tlScroll").clientWidth || 0, W = Math.max(boxW, 760);
+    $("#tlHint").hidden = !(boxW && W > boxW + 4);
+    const L = 46, R = 10, top = 32, rowDue = top + 54, rowTrip = top + 106, bottom = top + 142, H = bottom + 20;
+    svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const x = d => L + (d - start) / days * (W - L - R);
+    const g = sv("g", {}, svg);
+
+    const bandLbls = [];
+    function band(a, b, cls, short, long) {
+      if (a > end || b < start) return;
+      const x1 = x(Math.max(a, start)), x2 = x(Math.min(b + 1, end + 1));
+      sv("rect", { x: x1, y: top, width: Math.max(0, x2 - x1), height: bottom - top, class: cls }, g);
+      const wdt = x2 - x1;
+      if (wdt > 52) bandLbls.push([x1 + 6, wdt > 150 && long ? long : short]);
+    }
+    if (sem && sem.swotStart) band(dayNum(sem.swotStart), dayNum(sem.swotEnd), "band-swot", "SWOT VAC");
+    if (sem && sem.examStart) band(dayNum(sem.examStart), dayNum(sem.examEnd), "band-exam", "Exams", `Exam period ${rangeLabel(dayNum(sem.examStart), dayNum(sem.examEnd))}`);
+
+    for (let m = start; m <= end; m += 7) {
+      const gx = x(m);
+      sv("line", { x1: gx, x2: gx, y1: 2, y2: bottom, class: "grid" }, g);
+      const ph = phase(sem, m);
+      if (ph && /^(W\d|Break)/.test(ph.short)) sv("text", { x: gx + 5, y: 11, class: "wk" }, g).textContent = ph.short;
+      sv("text", { x: gx + 5, y: 24 }, g).textContent = dayLabel(m);
+    }
+    bandLbls.forEach(([bx, s]) => { sv("text", { x: bx, y: top + 14, class: "band-lbl" }, g).textContent = s; });
+
+    [[rowDue, "DUE"], [rowTrip, "TRIP"]].forEach(([y, s]) => {
+      sv("line", { x1: L, x2: W - R, y1: y, y2: y, class: "track" }, g);
+      sv("text", { x: 0, y: y + 4, class: "rowlbl" }, g).textContent = s;
+    });
+
+    const attachTip = (grp, lines, onClick) => {
+      const show = () => { const r = grp.getBoundingClientRect(); showTip(r.left + r.width / 2, r.top, r.bottom, lines); };
+      grp.addEventListener("pointerenter", show); grp.addEventListener("focus", show);
+      grp.addEventListener("pointerleave", hideTip); grp.addEventListener("blur", hideTip);
+      if (onClick) { grp.addEventListener("click", onClick); grp.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onClick(); } }); }
+    };
+
+    // deadline markers: ones that would overlap share a label and sit side by side
+    const marks = active.map(i => ({ i, d: melbDay(new Date(i.due)) })).filter(m => m.d >= start && m.d <= end + 1).sort((a, b) => a.d - b.d);
+    const clusters = [];
+    marks.forEach(m => { m.x = x(m.d); const c = clusters[clusters.length - 1]; if (c && m.x - c.x0 < 11) c.items.push(m); else clusters.push({ x0: m.x, items: [m] }); });
+    const laneEnds = [];
+    clusters.forEach(c => {
+      c.x = c.items.reduce((s, m) => s + m.x, 0) / c.items.length;
+      c.label = [...new Set(c.items.map(m => String(m.i.unit || "").replace(/^FIT/i, "") || "Due"))].join("+");
+      const w = c.label.length * 6.6 + 8; let lane = 0;
+      while (laneEnds[lane] != null && laneEnds[lane] > c.x - w / 2) lane++;
+      laneEnds[lane] = c.x + w / 2; c.lane = Math.min(lane, 2);
+    });
+    clusters.forEach(c => {
+      const ly = rowDue - 14 - c.lane * 12, n = c.items.length;
+      if (c.lane) sv("line", { x1: c.x, x2: c.x, y1: ly + 3, y2: rowDue - 8, class: "leader" }, g);
+      sv("text", { x: c.x, y: ly, class: "due-lbl", "text-anchor": "middle" }, g).textContent = c.label;
+      c.items.forEach((m, k) => {
+        const it = m.i, mx = c.x + (k - (n - 1) / 2) * 13, ms = new Date(it.due).getTime() - Date.now();
+        const grp = sv("g", { class: "mk-g", tabindex: "0", role: "button", "aria-label": `${it.unit || ""} ${it.title || ""}, ${dueText(it)}${it.sample ? ", sample date" : ""}` }, g);
+        const cls = "due" + (it.sample ? " sample" : "");
+        if (isEvent(it)) sv("rect", { x: mx - 6, y: rowDue - 6, width: 12, height: 12, rx: 2, class: cls }, grp);
+        else sv("circle", { cx: mx, cy: rowDue, r: 6, class: cls }, grp);
+        const hw = n > 1 ? 6.5 : 13;
+        sv("rect", { x: mx - hw, y: ly - 12, width: hw * 2, height: rowDue + 14 - (ly - 12), rx: 4, class: "hit" }, grp);
+        attachTip(grp, [`${it.unit || ""} ${it.title || ""}`.trim(), `${dueText(it)} · ${cdShort(ms)}`, it.sample ? "Sample date. Click to set the real one." : (it.weight != null ? `${it.weight}% of the unit` : null)], () => openEditor(it.id));
+      });
+    });
+
+    // trip lane
+    if (trip && trip.depart) {
+      const a = dayNum(trip.depart), b = trip.end ? dayNum(trip.end) : a;
+      if (b >= start && a <= end) sv("line", { x1: x(Math.max(a, start)), x2: x(Math.min(b + 1, end + 1)), y1: rowTrip, y2: rowTrip, class: "trip-line" }, g);
+    }
+    let lblEnd = -Infinity, moveX = -Infinity, moveUp = false;
+    const dayFrac = s => { const m = /^(\d{1,2}):(\d{2})/.exec(s || ""); return m ? (+m[1] * 60 + +m[2]) / 1440 : 0.5; };
+    S.legs.forEach(l => {
+      if (!l.start) return;
+      const a = dayNum(l.start), b = l.end ? dayNum(l.end) : a;
+      if (b < start || a > end) return;
+      const booked = l.status === "booked", move = isMove(l);
+      const what = move && Array.isArray(l.codes) && l.codes.length ? `${l.flightNo ? l.flightNo + " " : ""}${l.codes.join(" → ")}` : (l.title || "");
+      const dates = (l.approx ? "around " : "") + (b > a && !move ? rangeLabel(a, b) : dayLabel(a, true));
+      const grp = sv("g", { class: "mk-g", tabindex: "0", "aria-label": `${what}, ${dates}, ${booked ? "booked" : "not booked yet"}` }, g);
+      if (!move) {
+        const x1 = x(a) + 1.5, x2 = x(b + 1) - 1.5, lbl = l.short || l.title || "";
+        sv("rect", { x: x1, y: rowTrip - 7, width: Math.max(4, x2 - x1), height: 14, rx: 4, class: "stay" + (booked ? "" : " plan") }, grp);
+        const cx = (x1 + x2) / 2, half = lbl.length * 3.3, second = cx - half < lblEnd + 4;
+        sv("text", { x: cx, y: rowTrip + (second ? 34 : 22), class: "trip-lbl", "text-anchor": "middle" }, grp).textContent = lbl;
+        if (!second) lblEnd = cx + half;
+        sv("rect", { x: x1, y: rowTrip - 12, width: Math.max(16, x2 - x1), height: 50, rx: 4, class: "hit" }, grp);
+      } else {
+        const px = x(a + dayFrac(l.dep)), up = px - moveX < 16 && !moveUp;
+        moveX = px; moveUp = up;
+        const gy = rowTrip - 29 - (up ? 13 : 0);
+        sv("path", { d: l.kind === "train" ? TRAIN : PLANE, "fill-rule": "evenodd", transform: `translate(${px - 8} ${gy})`, class: "fly" + (booked ? "" : " plan") }, grp);
+        sv("rect", { x: px - 10, y: gy - 3, width: 20, height: 22, rx: 4, class: "hit" }, grp);
+      }
+      const times = l.dep && l.arr ? `${l.dep} → ${l.arr}` : null;
+      attachTip(grp, [what, [dates, times, booked ? "Booked" : move ? "Not booked yet" : "Planned"].filter(Boolean).join(" · "), l.note || (move ? l.title : null)]);
+    });
+
+    const tx = x(tNow);
+    sv("line", { x1: tx, x2: tx, y1: top - 2, y2: bottom, class: "today" }, g);
+    sv("rect", { x: tx - 21, y: bottom + 2, width: 42, height: 16, rx: 8, class: "today-tag" }, g);
+    sv("text", { x: tx, y: bottom + 13.5, "text-anchor": "middle", class: "today-txt" }, g).textContent = "Today";
+
+    if (!marks.length && !(trip && trip.depart)) {
+      sv("text", { x: (L + W) / 2, y: rowDue + 30, "text-anchor": "middle", class: "none" }, g).textContent =
+        S.locked ? "Unlock to load your timeline." : (S.loaded.items && S.loaded.board ? "Add a deadline and it appears here." : "Loading your timeline");
+    }
+    svg.setAttribute("aria-label", `Timeline ${dayLabel(start)} to ${dayLabel(end)}: ${marks.length} deadlines${sem && sem.examStart ? `, exam period ${rangeLabel(dayNum(sem.examStart), dayNum(sem.examEnd))}` : ""}${trip && trip.depart ? `, trip from ${dayLabel(dayNum(trip.depart))}` : ""}.`);
+
+    // exam period versus flight
+    const note = $("#tlNote");
+    note.hidden = true;
+    if (sem && sem.examStart && trip && trip.depart) {
+      const dep = dayNum(trip.depart), exS = dayNum(sem.examStart), exE = dayNum(sem.examEnd);
+      if (dep >= exS && dep <= exE && t <= dep) {
+        const exams = S.items.filter(i => i.kind === "exam" && i.due);
+        const clash = exams.filter(i => Math.floor(melbDay(new Date(i.due))) >= dep);
+        let kind, head, text;
+        if (!exams.length) { kind = "warn"; head = "Check your exams"; text = `You fly on ${dayLabel(dep, true)}, inside the exam period (${rangeLabel(exS, exE)}). Add your exam dates and this board will check for clashes.`; }
+        else if (clash.length) { kind = "bad"; head = "Exam clash"; text = `${clash.map(i => `${i.unit} ${i.title} on ${dayLabel(Math.floor(melbDay(new Date(i.due))), true)}`).join("; ")}. Your flight leaves ${dayLabel(dep, true)}.`; }
+        else { const last = exams.slice().sort(byDue).pop(); kind = "good"; head = "No exam clash"; text = `Your last exam, ${last.unit || ""} ${last.title || ""} on ${dueText(last)}, is before your flight on ${dayLabel(dep, true)}.`; }
+        note.dataset.k = kind; note.innerHTML = ICON[kind];
+        const p = el("span"); p.append(el("b", null, head), document.createTextNode(text)); note.append(p);
+        note.hidden = false;
+      }
+    }
+  }
+
+  /* ---------- deadlines ---------- */
+  function buildRow() {
+    const li = el("li", "row");
+    const main = el("button", "row-main"); main.type = "button";
+    const mk = el("span", "mk"); mk.setAttribute("aria-hidden", "true");
+    const ttl = el("span", "ttl"), code = el("span", "code"), nm = el("span", "nm"); ttl.append(code, nm);
+    const sub = el("span", "sub");
+    main.append(mk, ttl, sub);
+    const pill = el("span", "pill");
+    const st = el("button", "state"); st.type = "button";
+    li.append(main, pill, st);
+    li._r = { main, mk, code, nm, sub, pill, st };
+    main.addEventListener("click", () => openEditor(li.dataset.key));
+    st.addEventListener("click", () => cycleStatus(li.dataset.key));
+    return li;
+  }
+  function patchRow(li, it) {
+    const r = li._r, done = it.status === "done";
+    r.mk.className = "mk" + (done ? " done" : it.sample ? " hollow" : "") + (isEvent(it) ? " sq" : "");
+    r.code.textContent = it.unit || "";
+    r.nm.textContent = it.title || "Untitled";
+    r.sub.replaceChildren();
+    if (it.sample && !done) r.sub.append(el("span", "tag", "Sample date"));
+    if (it.due || !done) r.sub.append(el("span", null, dueText(it)));
+    if (it.weight != null && it.weight !== "") r.sub.append(el("span", null, `${it.weight}%`));
+    if (it.detail) r.sub.append(el("span", null, it.detail));
+    if (done) { r.pill.textContent = ""; r.pill.hidden = true; }
+    else {
+      r.pill.hidden = false;
+      const ms = it.due ? new Date(it.due).getTime() - Date.now() : null;
+      r.pill.textContent = ms == null ? "No date" : cdShort(ms);
+      r.pill.dataset.u = ms == null ? "calm" : urg(ms);
+    }
+    const s = STATUS[it.status] ? it.status : "todo";
+    r.st.dataset.s = s; r.st.textContent = stLabel(it, s);
+    r.st.setAttribute("aria-label", `${stLabel(it, s)}. Change status of ${it.unit || ""} ${it.title || ""}`);
+    r.main.setAttribute("aria-label", `Edit ${it.unit || ""} ${it.title || ""}`);
+    r.st.disabled = S.readOnly;
+  }
+  function renderDeadlines() {
+    $("#addBtn").disabled = S.readOnly || !S.db;
+    const active = S.items.filter(i => i.status !== "done").sort(byDue);
+    const done = S.items.filter(i => i.status === "done").sort((a, b) => String(a.unit).localeCompare(String(b.unit)));
+    $("#dlMeta").textContent = S.loaded.items ? `${active.length} to go · ${done.length} done` : "";
+    const samples = active.filter(i => i.sample).length, sn = $("#sampleNote");
+    sn.hidden = !samples;
+    if (samples) sn.replaceChildren(el("span", "tag", "Sample"), el("span", null, `${samples} of ${active.length} due dates are placeholders. Click one to set the real date.`));
+    const host = $("#items");
+    if (S.loaded.items && !active.length) { host.replaceChildren(); host.append(el("li", "empty", S.readOnly && !S.items.length ? "This board is private to its owner." : "Nothing due. Add a deadline with Add.")); }
+    else { [...host.children].forEach(n => { if (!n.dataset.key) n.remove(); }); reconcile(host, active, buildRow, patchRow); }
+    if (!S.loaded.items) { host.replaceChildren(el("li", "empty", loadingText("deadlines"))); }
+    $("#doneBox").hidden = true;
+    $("#doneSum").textContent = `Done this semester (${done.length})`;
+    reconcile($("#doneItems"), done, buildRow, patchRow);
+  }
+  function cycleStatus(id) {
+    const it = S.items.find(i => i.id === id); if (!it) return;
+    const next = NEXT[it.status] || "doing";
+    guard(() => queue("items/" + id, () => S.db.doc("items/" + id).update({ status: next })), next === "done" ? `Marked ${it.unit || ""} ${it.title || ""} as ${stLabel(it, "done").toLowerCase()}`.replace(/\s+/g, " ") : null);
+  }
+
+  /* editor dialog */
+  const dlg = $("#editor");
+  let delTimer = 0;
+  function resetDelete() { const b = $("#edDelete"); b.textContent = "Delete"; delete b.dataset.armed; clearTimeout(delTimer); }
+  function openEditor(id) {
+    if (!S.db) return toast("Unlock the dashboard first.");
+    if (S.readOnly) return toast("This board is read-only for you. Only its owner can change it.");
+    const it = id ? S.items.find(i => i.id === id) : null;
+    if (id && !it) return;
+    S.editing = it ? it.id : "new"; S.dueTouched = false;
+    $("#edHead").textContent = it ? `${it.unit || ""} ${it.title || ""}`.trim() : "New deadline";
+    $("#edUnit").value = it ? it.unit || "" : "";
+    $("#edName").value = it ? it.title || "" : "";
+    $("#edDue").value = it && it.due ? isoToLocal(it.due) : "";
+    $("#edWeight").value = it && it.weight != null ? it.weight : "";
+    $("#edKind").value = it && ["exam", "test", "interview", "class"].includes(it.kind) ? it.kind : "assignment";
+    $("#edStatus").value = it && STATUS[it.status] ? it.status : "todo";
+    $("#edConfirmed").checked = it ? !it.sample : true;
+    $("#edDelete").hidden = !it; resetDelete();
+    hideTip();
+    try { if (!dlg.open) dlg.showModal(); } catch (e) { dlg.setAttribute("open", ""); }
+    (it ? $("#edDue") : $("#edUnit")).focus();
+  }
+  function closeEditor() { if (dlg.open) { try { dlg.close(); } catch (e) { dlg.removeAttribute("open"); } } S.editing = null; resetDelete(); }
+  $("#addBtn").addEventListener("click", () => openEditor(null));
+  $("#edClose").addEventListener("click", closeEditor);
+  dlg.addEventListener("cancel", e => { e.preventDefault(); closeEditor(); });
+  dlg.addEventListener("click", e => { if (e.target === dlg) closeEditor(); });
+  $("#edDue").addEventListener("input", () => { $("#edConfirmed").checked = true; S.dueTouched = true; });
+  $("#edForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    const unit = $("#edUnit").value.trim().toUpperCase(), title = $("#edName").value.trim();
+    const due = localToISO($("#edDue").value);
+    if (!unit || !title) return toast("Add a unit code and a title.");
+    if (!due) return toast("Pick a due date and time.");
+    const wRaw = $("#edWeight").value.trim(), w = wRaw === "" ? null : Math.max(0, Math.min(100, Math.round(Number(wRaw))));
+    const data = { unit, title, due, kind: $("#edKind").value, status: $("#edStatus").value, sample: !$("#edConfirmed").checked, weight: Number.isFinite(w) ? w : null };
+    const id = S.editing, it = id && id !== "new" ? S.items.find(i => i.id === id) : null;
+    data.allDay = it && !S.dueTouched ? !!it.allDay : false;
+    if (it && it.sample && !data.sample) data.source = "Set on the dashboard";
+    if (!it) data.source = "Added on the dashboard";
+    const ok = it
+      ? await guard(() => queue("items/" + it.id, () => S.db.doc("items/" + it.id).update(data)), "Saved")
+      : await guard(() => S.db.collection("items").add(data), "Deadline added");
+    if (ok) closeEditor();
+  });
+  $("#edDelete").addEventListener("click", async () => {
+    const b = $("#edDelete");
+    if (!b.dataset.armed) { b.dataset.armed = "1"; b.textContent = "Click again to delete"; delTimer = setTimeout(resetDelete, 4000); return; }
+    const id = S.editing; if (!id || id === "new") return;
+    closeEditor();
+    await guard(() => queue("items/" + id, () => S.db.doc("items/" + id).delete()), "Deleted");
+  });
+
+  /* ---------- itinerary ---------- */
+  const LEG_STATE = { booked: "Booked", tobook: "To book", planned: "Planned" };
+  function buildLeg() {
+    const li = el("li", "leg");
+    const node = el("span", "node"); node.setAttribute("aria-hidden", "true");
+    const icon = sv("svg", { viewBox: "0 0 16 16" }); const path = sv("path", {}, icon); node.append(icon);
+    const when = el("span", "when"), what = el("span", "what"), main = el("span", "main"), note = el("span", "lnote");
+    what.append(main, note);
+    const b = el("button", "state"); b.type = "button";
+    li.append(node, when, what, b);
+    li._r = { path, when, main, note, b };
+    b.addEventListener("click", () => toggleLeg(li.dataset.key));
+    return li;
+  }
+  function patchLeg(li, l) {
+    const r = li._r, a = dayNum(l.start), b = l.end ? dayNum(l.end) : a;
+    const move = isMove(l), hasCodes = move && Array.isArray(l.codes) && l.codes.length;
+    if (l.kind === "stay") { r.path.setAttribute("d", BED); r.path.setAttribute("fill", "none"); r.path.setAttribute("stroke", "currentColor"); r.path.setAttribute("stroke-width", "1.6"); r.path.setAttribute("stroke-linecap", "round"); r.path.setAttribute("fill-rule", "nonzero"); }
+    else { r.path.setAttribute("d", l.kind === "train" ? TRAIN : PLANE); r.path.setAttribute("fill", "currentColor"); r.path.setAttribute("stroke", "none"); r.path.setAttribute("fill-rule", "evenodd"); }
+    r.when.textContent = (l.approx ? "~" : "") + (!move && b > a ? rangeLabel(a, b) : dayLabel(a));
+    r.main.className = "main" + (hasCodes ? " codes" : "");
+    r.main.textContent = hasCodes ? l.codes.join(" → ") : (l.title || "");
+    r.note.textContent = move ? [l.flightNo, l.dep && l.arr ? `${l.dep} → ${l.arr}` : null, hasCodes ? l.title : null, l.note].filter(Boolean).join(" · ") : (l.note || "");
+    r.note.hidden = !r.note.textContent;
+    const s = LEG_STATE[l.status] ? l.status : "planned";
+    r.b.dataset.s = s; r.b.textContent = LEG_STATE[s];
+    r.b.setAttribute("aria-label", `${LEG_STATE[s]}. Change booking status of ${r.main.textContent}`);
+    r.b.disabled = S.readOnly;
+    li.classList.toggle("open", s !== "booked");
+    li.classList.toggle("past", b < todayNum());
+  }
+  function toggleLeg(id) {
+    const l = S.legs.find(x => x.id === id); if (!l) return;
+    const next = l.status === "booked" ? (isMove(l) ? "tobook" : "planned") : "booked";
+    guard(() => queue("legs/" + id, () => S.db.doc("legs/" + id).update({ status: next })), next === "booked" ? "Marked booked" : null);
+  }
+  function renderItinerary() {
+    const trip = S.board && S.board.trip;
+    $("#tripMeta").textContent = trip && trip.depart ? (trip.end ? `${dayLabel(dayNum(trip.depart))} – ${trip.endApprox ? "about " : ""}${dayLabel(dayNum(trip.end))}` : dayLabel(dayNum(trip.depart), true)) : "";
+    const host = $("#legs");
+    if (!S.loaded.legs) host.replaceChildren(el("li", "empty", loadingText("itinerary")));
+    else if (!S.legs.length) host.replaceChildren(el("li", "empty", "No legs saved yet."));
+    else { [...host.children].forEach(n => { if (!n.dataset.key) n.remove(); }); reconcile(host, S.legs, buildLeg, patchLeg); }
+    const ln = $("#legsNote"); ln.textContent = (trip && trip.note) || ""; ln.hidden = !ln.textContent;
+  }
+
+  /* ---------- prep checklist ---------- */
+  function buildPrep() {
+    const li = el("li"), lab = el("label"), cb = el("input"), sp = el("span"), x = el("button", "x", "Remove");
+    cb.type = "checkbox"; x.type = "button";
+    lab.append(cb, sp); li.append(lab, x);
+    li._r = { lab, cb, sp, x };
+    cb.addEventListener("change", () => {
+      const id = li.dataset.key, v = cb.checked;
+      guard(() => queue("prep/" + id, () => S.db.doc("prep/" + id).update({ done: v }))).then(ok => { if (!ok) cb.checked = !v; });
+    });
+    x.addEventListener("click", () => {
+      if (!x.dataset.armed) { x.dataset.armed = "1"; x.textContent = "Remove?"; setTimeout(() => { delete x.dataset.armed; x.textContent = "Remove"; }, 3000); return; }
+      const id = li.dataset.key;
+      guard(() => queue("prep/" + id, () => S.db.doc("prep/" + id).delete()), "Removed");
+    });
+    return li;
+  }
+  function patchPrep(li, p) {
+    const r = li._r;
+    r.cb.id = "prep-" + p.id; r.lab.htmlFor = r.cb.id;
+    r.cb.checked = !!p.done; r.sp.textContent = p.text || "";
+    li.classList.toggle("done", !!p.done);
+    r.x.setAttribute("aria-label", `Remove ${p.text || "item"}`);
+    r.cb.disabled = S.readOnly; r.x.hidden = S.readOnly;
+  }
+  function renderPrep() {
+    const prep = S.prep, doneN = prep.filter(p => p.done).length;
+    $("#prepCount").textContent = prep.length ? `${doneN} of ${prep.length} done` : "";
+    $("#prepBar").style.width = prep.length ? `${(doneN / prep.length) * 100}%` : "0";
+    $("#prepTag").hidden = !prep.some(p => p.suggested);
+    const host = $("#prep");
+    if (!S.loaded.prep) host.replaceChildren(el("li", "empty", loadingText("checklist")));
+    else if (!prep.length) host.replaceChildren(el("li", "empty", "Nothing on the list. Add a to-do below."));
+    else { [...host.children].forEach(n => { if (!n.dataset.key) n.remove(); }); reconcile(host, prep, buildPrep, patchPrep); }
+    $("#prepNew").disabled = $("#prepAdd").disabled = S.readOnly || !S.db;
+  }
+  $("#prepForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    const inp = $("#prepNew"), v = inp.value.trim(); if (!v) return;
+    const order = S.prep.reduce((m, p) => Math.max(m, Number(p.order) || 0), 0) + 1;
+    const ok = await guard(() => S.db.collection("prep").add({ text: v.slice(0, 120), done: false, order, suggested: false }));
+    if (ok) inp.value = "";
+  });
+
+  /* ---------- render loop ---------- */
+  function renderAll() { renderHeader(); renderNextTile(); renderTripTile(); renderSemTile(); renderFx(); renderTimeline(); renderDeadlines(); renderItinerary(); renderPrep(); }
+
+  /* ---------- skin and full screen ---------- */
+  const SUN = "M8 4.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zM8 1v1.4M8 13.6V15M1 8h1.4M13.6 8H15M3 3l1 1M12 12l1 1M3 13l1-1M12 4l1-1";
+  const MOON = "M13.2 9.6A5.6 5.6 0 0 1 6.4 2.8 5.6 5.6 0 1 0 13.2 9.6z";
+  function applySkin(s) {
+    document.documentElement.dataset.skin = s;
+    const next = s === "dark" ? "light" : "dark", b = $("#skinBtn");
+    $("#skinIco").setAttribute("d", s === "dark" ? SUN : MOON);
+    b.title = b.ariaLabel = `Switch to ${next}`; b.setAttribute("aria-label", `Switch to ${next}`);
+  }
+  applySkin(document.documentElement.dataset.skin === "light" ? "light" : "dark");
+  $("#skinBtn").addEventListener("click", () => {
+    const s = document.documentElement.dataset.skin === "dark" ? "light" : "dark";
+    applySkin(s); store.set("dash.skin", s); renderTimeline();
+  });
+  const FS_IN = "M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10";
+  const FS_OUT = "M6 2.5V6H2.5M13.5 6H10V2.5M10 13.5V10h3.5M2.5 10H6v3.5";
+  const fsEl = () => document.fullscreenElement || document.webkitFullscreenElement || null;
+  if (!(document.fullscreenEnabled || document.webkitFullscreenEnabled)) $("#fsBtn").hidden = true;
+  function syncFs() {
+    const on = !!fsEl(), b = $("#fsBtn");
+    $("#fsIco").setAttribute("d", on ? FS_OUT : FS_IN);
+    b.title = on ? "Exit full screen (Esc)" : "Full screen (Esc to exit)";
+    b.setAttribute("aria-label", on ? "Exit full screen" : "Full screen");
+  }
+  $("#fsBtn").addEventListener("click", async () => {
+    const root = document.documentElement;
+    try {
+      if (fsEl()) await (document.exitFullscreen ? document.exitFullscreen() : document.webkitExitFullscreen());
+      else if (root.requestFullscreen) await root.requestFullscreen({ navigationUI: "hide" });
+      else if (root.webkitRequestFullscreen) root.webkitRequestFullscreen();
+      else throw new Error("unsupported");
+    } catch (e) { toast("This browser doesn't allow full screen here."); }
+  });
+  document.addEventListener("fullscreenchange", () => { syncFs(); renderTimeline(); });
+  document.addEventListener("webkitfullscreenchange", () => { syncFs(); renderTimeline(); });
+  let raf = 0;
+  const schedule = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; renderAll(); }); };
+  setInterval(renderAll, 30000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) renderAll(); });
+  let lastW = 0;
+  if ("ResizeObserver" in window) new ResizeObserver(es => { const w = Math.round(es[0].contentRect.width); if (w !== lastW) { lastW = w; renderTimeline(); } }).observe($("#tlScroll"));
+  $("#doneBox").addEventListener("toggle", () => store.set("dash.doneOpen", $("#doneBox").open ? "1" : "0"));
+
+  /* ---------- data: an encrypted snapshot of the Claude dashboard, plus changes kept on this device ---------- */
+  const b64 = v => Uint8Array.from(atob(v), c => c.charCodeAt(0));
+  const canon = v => Array.isArray(v) ? v.map(canon) : (v && typeof v === "object") ? Object.keys(v).sort().reduce((o, k) => { o[k] = canon(v[k]); return o; }, {}) : v;
+  function hashOf(o) { const t = JSON.stringify(canon(o == null ? null : o)); let h = 0x811c9dc5; for (let i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 0x01000193); } return (h >>> 0).toString(36); }
+  const LOCAL = "dash.local.v1";
+
+  // A tiny stand-in for the Claude database: the snapshot is the base, and this device's
+  // edits sit on top. An edit is dropped once the snapshot changes that same document.
+  function makeDb(initial) {
+    let base = initial || {};
+    let ov = null;
+    try { ov = JSON.parse(store.get(LOCAL) || "null"); } catch (e) { ov = null; }
+    if (!ov || typeof ov !== "object") ov = {};
+    ov.patch = ov.patch || {}; ov.del = ov.del || {}; ov.add = ov.add || {};
+    const subs = new Set();
+    const save = () => store.set(LOCAL, JSON.stringify(ov));
+    const split = p => { const i = p.indexOf("/"); return [p.slice(0, i), p.slice(i + 1)]; };
+    const baseDoc = p => { const [c, id] = split(p); return base[c] ? base[c][id] : undefined; };
+    function view() {
+      const out = {};
+      for (const c of Object.keys(base)) { out[c] = {}; for (const id of Object.keys(base[c] || {})) out[c][id] = Object.assign({}, base[c][id]); }
+      let stale = false;
+      for (const p of Object.keys(ov.del)) { const b = baseDoc(p), [c, id] = split(p); if (b && ov.del[p].h === hashOf(b)) delete out[c][id]; else { delete ov.del[p]; stale = true; } }
+      for (const p of Object.keys(ov.patch)) { const b = baseDoc(p), [c, id] = split(p); if (b && ov.patch[p].h === hashOf(b) && out[c] && out[c][id]) Object.assign(out[c][id], ov.patch[p].data); else { delete ov.patch[p]; stale = true; } }
+      for (const p of Object.keys(ov.add)) { const [c, id] = split(p); (out[c] = out[c] || {})[id] = Object.assign({}, ov.add[p].data); }
+      if (stale) save();
+      return out;
+    }
+    const notify = () => subs.forEach(fn => { try { fn(); } catch (e) {} });
+    const meta = () => ({ fromCache: !S.fresh });
+    function docRef(path) {
+      const [c, id] = split(path);
+      return {
+        onSnapshot(cb) { const run = () => { const v = view(), d = v[c] ? v[c][id] : undefined; cb({ exists: !!d, data: () => d, metadata: meta() }); }; subs.add(run); run(); return () => subs.delete(run); },
+        async update(data) {
+          if (ov.add[path]) Object.assign(ov.add[path].data, data);
+          else {
+            const b = baseDoc(path); if (!b) throw Object.assign(new Error("Not found"), { code: "not-found" });
+            const h = hashOf(b), cur = ov.patch[path];
+            ov.patch[path] = { h, data: Object.assign(cur && cur.h === h ? cur.data : {}, data) };
+          }
+          save(); notify();
+        },
+        async delete() {
+          if (ov.add[path]) delete ov.add[path];
+          else { const b = baseDoc(path); if (b) ov.del[path] = { h: hashOf(b) }; delete ov.patch[path]; }
+          save(); notify();
+        }
+      };
+    }
+    function collRef(name, order) {
+      return {
+        orderBy: f => collRef(name, f),
+        onSnapshot(cb) {
+          const run = () => {
+            const v = view()[name] || {};
+            const docs = Object.keys(v).map(id => ({ id, data: () => v[id] }));
+            if (order) docs.sort((a, b) => (Number(v[a.id][order]) || 0) - (Number(v[b.id][order]) || 0));
+            cb({ docs, metadata: meta() });
+          };
+          subs.add(run); run(); return () => subs.delete(run);
+        },
+        async add(data) {
+          const id = "local-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+          ov.add[name + "/" + id] = { data: Object.assign({}, data) };
+          save(); notify(); return { id };
+        }
+      };
+    }
+    return { doc: docRef, collection: n => collRef(n, null), setBase(b) { base = b || {}; notify(); } };
+  }
+
+  // The private key, once unlocked, is kept in IndexedDB as a key the page can use but not read out.
+  const idb = (() => {
+    const open = () => new Promise((res, rej) => { const r = indexedDB.open("dashboard", 1); r.onupgradeneeded = () => r.result.createObjectStore("keys"); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+    const run = (mode, fn) => open().then(db => new Promise((res, rej) => {
+      const tx = db.transaction("keys", mode), rq = fn(tx.objectStore("keys"));
+      tx.oncomplete = () => { db.close(); res(rq ? rq.result : undefined); };
+      tx.onerror = tx.onabort = () => { db.close(); rej(tx.error); };
+    }));
+    return { get: k => run("readonly", st => st.get(k)), set: (k, v) => run("readwrite", st => st.put(v, k)), del: k => run("readwrite", st => st.delete(k)) };
+  })();
+  async function getJSON(url) {
+    let r;
+    try { r = await fetch(url, { cache: "no-cache" }); } catch (e) { throw Object.assign(new Error("offline"), { net: true }); }
+    if (!r.ok) throw Object.assign(new Error("HTTP " + r.status), { net: true });
+    return { json: await r.json(), cached: r.headers.get("x-dash-cache") === "1" };
+  }
+  async function keyFromPassword(pw) {
+    const kf = (await getJSON("key.enc.json")).json;
+    const pwKey = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+    const aes = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: b64(kf.salt), iterations: kf.iter, hash: "SHA-256" }, pwKey, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    let der;
+    try { der = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(kf.iv) }, aes, b64(kf.ct)); }
+    catch (e) { throw Object.assign(new Error("Wrong password"), { wrong: true }); }
+    return crypto.subtle.importKey("pkcs8", der, { name: "RSA-OAEP", hash: "SHA-256" }, false, ["decrypt"]);
+  }
+  async function openData(priv, f) {
+    const raw = await crypto.subtle.decrypt({ name: "RSA-OAEP" }, priv, b64(f.wk));
+    const k = await crypto.subtle.importKey("raw", raw, { name: "AES-GCM" }, false, ["decrypt"]);
+    const pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(f.iv) }, k, b64(f.ct));
+    return JSON.parse(new TextDecoder().decode(pt));
+  }
+
+  let lastCheck = 0;
+  async function loadData(priv) {
+    const res = await getJSON("data.enc.json");
+    const doc = await openData(priv, res.json);
+    S.fresh = !res.cached; S.dataAt = res.json.at || doc.at || null; lastCheck = Date.now();
+    return doc;
+  }
+  const newerFx = (a, b) => !a ? b : !b ? a : (String(a.date || "") >= String(b.date || "") ? a : b);
+  function subscribe(db) {
+    const seen = k => { S.loaded[k] = true; schedule(); };
+    db.doc("board/main").onSnapshot(s => { S.board = s.exists ? s.data() : null; seen("board"); });
+    db.collection("items").onSnapshot(q => { S.items = q.docs.map(d => Object.assign({ id: d.id }, d.data())); seen("items"); });
+    db.collection("legs").orderBy("order").onSnapshot(q => { S.legs = q.docs.map(d => Object.assign({ id: d.id }, d.data())); seen("legs"); });
+    db.collection("prep").orderBy("order").onSnapshot(q => { S.prep = q.docs.map(d => Object.assign({ id: d.id }, d.data())); seen("prep"); });
+    db.doc("fx/latest").onSnapshot(s => { S.baseFx = s.exists ? s.data() : null; S.fx = newerFx(S.liveFx, S.baseFx); seen("fx"); });
+  }
+  async function start(priv) {
+    const doc = await loadData(priv);
+    S.priv = priv; S.locked = false;
+    $("#lock").hidden = true; $("#lockBtn").hidden = false;
+    if (S.db) S.db.setBase(doc.data); else { S.db = makeDb(doc.data); subscribe(S.db); }
+    setConn(S.fresh ? "live" : "cached");
+    renderAll();
+    refreshFx();
+  }
+  async function refreshData() {
+    if (!S.priv || S.locked) return;
+    try { const doc = await loadData(S.priv); S.db.setBase(doc.data); setConn(S.fresh ? "live" : "cached"); }
+    catch (e) { setConn("cached"); }
+  }
+  // Exchange rates: the snapshot has the last ECB rates; the page also asks the ECB feed directly.
+  async function refreshFx() {
+    try { const c = JSON.parse(store.get("dash.fx") || "null"); if (c && c.rates) { S.liveFx = c; S.fx = newerFx(c, S.baseFx); schedule(); } } catch (e) {}
+    if (S.liveFx && Date.now() - new Date(S.liveFx.checkedAt).getTime() < 3 * 36e5) return;
+    const q = "base=AUD&symbols=KRW,JPY,CNY", from = new Date(Date.now() - 50 * DAY).toISOString().slice(0, 10);
+    try {
+      const [lat, ser] = await Promise.all([
+        fetch(`https://api.frankfurter.dev/v1/latest?${q}`).then(r => r.ok ? r.json() : null),
+        fetch(`https://api.frankfurter.dev/v1/${from}..?${q}`).then(r => r.ok ? r.json() : null)
+      ]);
+      if (!lat || !lat.rates) return;
+      const history = Object.keys((ser && ser.rates) || {}).sort().map(d => Object.assign({ d }, ser.rates[d]));
+      if (!history.length || history[history.length - 1].d < lat.date) history.push(Object.assign({ d: lat.date }, lat.rates));
+      const fx = { base: "AUD", date: lat.date, rates: lat.rates, history, checkedAt: new Date().toISOString() };
+      S.liveFx = fx; S.fx = newerFx(fx, S.baseFx); store.set("dash.fx", JSON.stringify(fx)); schedule();
+    } catch (e) {}
+  }
+
+  function showLock(msg) {
+    S.locked = true; setConn("none");
+    $("#lock").hidden = false; $("#lockBtn").hidden = true;
+    $("#lockErr").textContent = msg || "";
+    renderAll();
+  }
+  $("#lockForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    const pw = $("#lockPw").value; if (!pw) { $("#lockPw").focus(); return; }
+    const btn = $("#lockGo"); btn.disabled = true; btn.textContent = "Unlocking…"; $("#lockErr").textContent = "";
+    try {
+      const priv = await keyFromPassword(pw);
+      if ($("#lockKeep").checked) { try { await idb.set("priv", priv); } catch (err) {} }
+      await start(priv);
+      $("#lockPw").value = ""; $("#lockPw").blur();
+    } catch (err) {
+      $("#lockErr").textContent = err && err.wrong ? "Wrong password. Try again." : "Couldn't load the data. Check your connection and try again.";
+    } finally { btn.disabled = false; btn.textContent = "Unlock"; }
+  });
+  $("#lockBtn").addEventListener("click", async () => {
+    try { await idb.del("priv"); } catch (e) {}
+    location.reload();
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && !S.locked && Date.now() - lastCheck > 10 * 6e4) { refreshData(); refreshFx(); }
+  });
+
+  async function boot() {
+    const amt = store.get("dash.fxAmt"); if (amt) $("#fxAmt").value = amt;
+    if (store.get("dash.doneOpen") === "1") $("#doneBox").open = true;
+    try { if (navigator.standalone || matchMedia("(display-mode: standalone)").matches) document.documentElement.classList.add("standalone"); } catch (e) {}
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {});
+    setConn("connecting"); renderAll();
+    if (!(window.crypto && crypto.subtle)) { showLock("Open this page over https to unlock it."); return; }
+    let priv = null;
+    try { priv = await idb.get("priv"); } catch (e) {}
+    if (priv) {
+      try { await start(priv); return; }
+      catch (e) {
+        if (e && e.net) { showLock("Couldn't load the data. Check your connection, then reload."); return; }
+        try { await idb.del("priv"); } catch (err) {}
+      }
+    }
+    showLock();
+  }
+  boot();
+})();
+</script>
+
+</body></html>
