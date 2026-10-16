@@ -15,6 +15,20 @@ function levelSeg() {
 }
 export function sayBtn(text, label, cls = '') { return `<button class="icon-btn ${cls}" data-act="say" data-say="${esc(text)}" aria-label="${esc(label || '朗读')}" title="朗读">${ICON.say}</button>`; }
 
+/* Past issues, newest first, grouped by month. Every issue is kept; only the newest month starts open. */
+const monthZh = k => `${Number(k.slice(0, 4))}年${Number(k.slice(5, 7))}月`;
+function byMonth(entries) {
+  const groups = [];
+  for (const x of entries) { const k = x.date.slice(0, 7), g = groups[groups.length - 1]; if (g && g.k === k) g.items.push(x); else groups.push({ k, items: [x] }); }
+  return groups;
+}
+export function archiveHTML(entries) {
+  return byMonth(entries).map((g, i) => `<details class="month"${i === 0 ? ' open' : ''}><summary><span class="mlabel">${monthZh(g.k)}</span><span class="note num">${g.items.length} 期</span></summary><ul class="list archive">${g.items.map(x => `<li><div class="row"><span class="d">${esc(fmtShort(x.date))}${x.issueNo ? `<br><span class="l2" style="font-weight:400;font-size:13px">第 ${x.issueNo} 期</span>` : ''}</span><div>${x.headlines.map(h => `<a href="#/news/${x.date}">${esc(h)}</a>`).join('')}</div></div></li>`).join('')}</ul></details>`).join('');
+}
+function issueOptions(idx, cur) {
+  return byMonth(idx).map(g => `<optgroup label="${monthZh(g.k)}">${g.items.map(x => `<option value="${x.date}"${x.date === cur ? ' selected' : ''}>${esc(fmtShort(x.date))}${x.issueNo ? `　第 ${x.issueNo} 期` : ''}</option>`).join('')}</optgroup>`).join('');
+}
+
 export async function render(el, parts) {
   unmount();
   const [date, id] = parts;
@@ -35,10 +49,10 @@ function renderList(el, iss) {
   const idx = Data.index;
   el.innerHTML = `<div class="page">
   <header class="pg-head"><div><h1>${ICON.news}新闻</h1><p class="pg-sub">每天 4 篇，各有 C1 和 B2 两个版本。点任意单词查词，跟着朗读练听力。</p></div>
-    <div class="ctrl">${levelSeg()}<label class="sr" for="issueSel">选择日期</label><select class="select" id="issueSel" data-change="issue">${(idx.length ? idx : [{ date: iss.date, issueNo: iss.issueNo }]).map(x => `<option value="${x.date}"${x.date === iss.date ? ' selected' : ''}>${esc(fmtShort(x.date))}${x.issueNo ? `　第 ${x.issueNo} 期` : ''}</option>`).join('')}</select></div></header>
+    <div class="ctrl">${levelSeg()}<label class="sr" for="issueSel">选择日期</label><select class="select" id="issueSel" data-change="issue">${issueOptions(idx.length ? idx : [{ date: iss.date, issueNo: iss.issueNo }], iss.date)}</select></div></header>
   <div class="sec" style="margin-top:0"><h2>${esc(fmtZhLong(iss.date))}</h2>${iss.title ? `<span class="note">${esc(iss.title)}</span>` : ''}</div>
   <ul class="list">${iss.stories.map(s => `<li><a class="story" href="${storyHref(iss.date, s.id)}">${catTile(s.category, 's64')}<div style="min-width:0"><div class="cat">${esc(s.category)}</div><div class="t">${esc(s.headline)}</div>${s.headlineZh ? `<div class="zh">${esc(s.headlineZh)}</div>` : ''}${s.summaryZh ? `<div class="sum">${esc(s.summaryZh)}</div>` : ''}<div class="m"><span class="tag num">${wordCount(s[S.level])} 词</span><span class="tag">${s.vocab.length} 个表达</span><span class="tag">${s.questions.length} 道题</span></div></div><span class="end">${ICON.next}</span></a></li>`).join('')}</ul>
-  ${idx.length > 1 ? `<div class="sec"><h2>往期</h2><span class="note">每一期都可以重读、再做一遍题</span></div><ul class="list archive">${idx.filter(x => x.date !== iss.date).slice(0, 60).map(x => `<li><div class="row"><span class="d">${esc(fmtShort(x.date))}${x.issueNo ? `<br><span class="l2" style="font-weight:400;font-size:13px">第 ${x.issueNo} 期</span>` : ''}</span><div>${x.headlines.map(h => `<a href="#/news/${x.date}">${esc(h)}</a>`).join('')}</div></div></li>`).join('')}</ul>` : ''}
+  ${idx.length > 1 ? `<div class="sec"><h2>往期</h2><span class="note">每一期都可以重读、再做一遍题</span></div>${archiveHTML(idx.filter(x => x.date !== iss.date))}` : ''}
   </div>`;
 }
 

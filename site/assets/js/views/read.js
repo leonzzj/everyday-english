@@ -7,6 +7,7 @@ import { articleHTML, allSentences, Scopes } from '../rich.js';
 import { READ_RES, ENGOO_ITEM } from '../content.js';
 import { readRowsHTML, feedStamp } from './today.js';
 import { chanRow } from './listen.js';
+import { archiveHTML } from './news.js';
 
 let reading = { on: false, run: 0 };
 
@@ -22,7 +23,7 @@ export function render(el) {
       <div class="ctrl" style="margin-top:12px"><button class="btn fill" data-act="paste-go">开始阅读</button><button class="btn" data-act="paste-play" id="pastePlay">${ICON.play}朗读</button></div></div></section>
   </div>
   <div id="pasteOut"></div>
-  ${Data.index.length ? `<div class="sec"><h2>往期新闻</h2><span class="note">每一期都能重读、再做一遍题</span></div><ul class="list archive">${Data.index.slice(0, 60).map(x => `<li><div class="row"><span class="d">${esc(fmtShort(x.date))}${x.issueNo ? `<br><span class="l2" style="font-weight:400;font-size:13px">第 ${x.issueNo} 期</span>` : ''}</span><div>${x.headlines.map(h => `<a href="#/news/${x.date}">${esc(h)}</a>`).join('')}</div></div></li>`).join('')}</ul>` : ''}
+  ${Data.index.length ? `<div class="sec"><h2>往期新闻</h2><span class="note">每一期都能重读、再做一遍题</span></div>${archiveHTML(Data.index)}` : ''}
   <div class="sec"><h2>精选来源</h2><span class="note">各平台的推荐读法</span></div><ul class="list chan">${READ_RES.map(r => chanRow(r)).join('')}</ul></div>`;
   if (S.paste) renderPaste(false);
 }

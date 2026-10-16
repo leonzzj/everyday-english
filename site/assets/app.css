@@ -441,6 +441,14 @@ a.row:hover .t,button.row:hover .t{color:var(--tint)}
 .archive .d{font-weight:600;font-size:15px}
 .archive a{display:block;font-size:15px;line-height:1.45;padding:1px 0}
 .archive a:hover{color:var(--tint)}
+.month + .month{margin-top:10px}
+.month > summary{display:flex;align-items:center;gap:10px;padding:10px 6px;cursor:pointer;list-style:none;font-weight:700;font-size:15px;border-radius:var(--r-s);transition:background-color .2s}
+.month > summary::-webkit-details-marker{display:none}
+.month > summary::before{content:"";flex:none;width:7px;height:7px;border-right:2px solid var(--label3);border-bottom:2px solid var(--label3);transform:rotate(-45deg);transition:transform .3s var(--ease);margin:0 2px}
+.month[open] > summary::before{transform:rotate(45deg)}
+.month > summary:hover{background:var(--hover)}
+.month > summary .mlabel{flex:1}
+.month > .list{margin-top:6px}
 .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .stat{padding:18px 20px;overflow:hidden}
 .stat::after{content:"";position:absolute;right:-30%;top:-60%;width:80%;height:160%;background:radial-gradient(closest-side,var(--sheen),transparent);pointer-events:none}
