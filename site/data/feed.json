@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T02:57:01.044Z",
+ "updatedAt": "2026-10-16T19:01:20.720Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -19,26 +19,26 @@
    "kind": "listen",
    "title": "How to keep living when life falls apart",
    "url": "https://www.abc.net.au/listen/programs/conversations/robin-bailey-on-helping-her-sons-navigate-their-dads-suicide/107253008",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pg/Z/4i.mp3",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pg/Z/jm.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F7efb5b8e0f84400f7142cca40e3dd55a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-10-16",
    "minutes": 51,
    "level": "C1",
    "accent": "AU",
-   "desc": "When Robin Bailey’s husband and father of their three boys died by suicide, she had to figure out the best way to help her children work through their grief while also managing her own sadness and anger. Robin is one of Brisbane’s best-known breakfast radio…"
+   "desc": "When Robin Bailey’s husband and father of their three boys died by suicide, she had to figure out the best way to help her children work through their grief while also managing her own sadness and anger. (CW: this episode discusses suicide, please take care…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to stop homelessness before it starts | Jen Loving",
-   "url": "http://go.ted.com/jenloving",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa619b3381b9dbb7c315c/media.mp3",
+   "title": "Is your body language working against you? | Cara Hale Alter",
+   "url": "http://go.ted.com/carahalealter",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa672b3381b9dbb7c315d/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-16",
-   "minutes": 12,
+   "date": "2026-10-17",
+   "minutes": 19,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Homelessness can feel like an issue that’s too big and complicated to fix, something we've learned to walk past. Jen Loving, who leads the nonprofit Destination: Home, has spent her entire life proving that mindset is wrong. She shows why we must stop waiting…"
+   "desc": "What does confidence look like? Public speaking expert Cara Hale Alter studies how to project confidence and credibility — and she's pinpointed two key behaviors that shape how others see you. In this actionable talk, she explains how to make sure you're…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "The ladder of knowledge",
-   "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+   "title": "How to be a (Roman) man",
+   "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/2185ca1b-0c32-4af5-bcf9-3c2def289504/herbert-list-essay-par184662.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-15",
+   "image": "https://images.aeonmedia.co/images/2ac1e107-fd3a-4df1-9ecf-c703c8eea898/v7-dp328509.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-16",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it - by Alexander V Gheorghiu Read on Aeon"
+   "desc": "Cicero’s ideal of manly virtue stressed the performance of self-control and bravery, not boastful egotism and domination - by Catharine Edwards Read on Aeon"
   }
  ]
 }
