@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-18T06:53:38+11:00",
+  "updatedAt": "2026-10-19T06:55:19+11:00",
   "issues": [
+    {
+      "date": "2026-10-19",
+      "issueNo": 4,
+      "title": "Pope Leo's recovery, a melting glacier and AI pricing",
+      "headlines": [
+        "Pope Leo returns to the Vatican after lung cancer surgery",
+        "Antarctica's 'Doomsday Glacier' is melting faster than scientists thought",
+        "US shoppers grow uneasy as retailers turn to AI pricing tools",
+        "Melbourne elephant calves first in Australia to get virus vaccine"
+      ]
+    },
     {
       "date": "2026-10-18",
       "issueNo": 3,

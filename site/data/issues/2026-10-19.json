@@ -1,0 +1,752 @@
+{
+  "date": "2026-10-19",
+  "issueNo": 4,
+  "title": "Pope Leo's recovery, a melting glacier and AI pricing",
+  "createdAt": "2026-10-19T06:55:19+11:00",
+  "stories": [
+    {
+      "id": "pope-leo-recovery",
+      "category": "World",
+      "headline": "Pope Leo returns to the Vatican after lung cancer surgery",
+      "headlineZh": "教皇利奥十四世肺癌手术后返回梵蒂冈",
+      "summaryZh": "教皇术后仅四天便出院，医生称其恢复良好，下月拉美之行有望如期进行。",
+      "c1": "Pope Leo XIV has returned to the Vatican after only four days in hospital, cutting short a stay that officials had initially expected to last around a week. He was discharged on Saturday from Rome's Gemelli University Hospital, where surgeons had removed the lower lobe of his right lung on Tuesday. The operation confirmed that he had adenocarcinoma, the most common type of lung cancer.\n\nNotably, the diagnosis was made public only after the surgery had taken place. Since then, the Vatican has painted a broadly reassuring picture, with doctors reporting continued improvement. Even from his hospital bed, the pope kept up a demanding schedule: he met senior aides, celebrated Mass in a makeshift chapel and held a phone call with Russian President Vladimir Putin. Asked how he felt as he left, he replied that he was \"much better\".\n\nOn Sunday he made his first official appearance since leaving hospital, leading the Angelus prayer from a window overlooking St Peter's Square. His surgeon has said there is no clinical reason why a planned tour of Latin America in mid-November should not go ahead, although the itinerary, which reportedly involves a dozen flights and two helicopter journeys, is hardly a gentle one.\n\nQuestions nonetheless remain. Further laboratory analysis of the tumour, including its molecular and genetic make-up, will help doctors decide whether additional treatment is required. For a leader born in Chicago who spent decades working in South America and later became a Peruvian citizen, the trip will carry considerable personal significance. Whether his recovery keeps pace with his ambitions, however, is something only the coming weeks will reveal.",
+      "b2": "Pope Leo XIV has gone back to the Vatican after only four days in hospital. Officials had first expected him to stay for about a week. He left Rome's Gemelli University Hospital on Saturday. On Tuesday, surgeons had removed the lower part of his right lung.\n\nThe operation showed that he had adenocarcinoma, the most common type of lung cancer. The public only learnt about the cancer after the surgery. Doctors say his health is continuing to improve. While he was in hospital, he still met senior staff, celebrated Mass and spoke to Russian President Vladimir Putin on the phone.\n\nOn Sunday, he led the Angelus prayer from a window above St Peter's Square. It was his first official appearance after leaving hospital. His surgeon says there is no medical reason to cancel his trip to Latin America in mid-November. However, the trip will be tiring, with about twelve flights and two helicopter journeys.\n\nDoctors are still studying the tumour in a laboratory. The results will help them decide whether he needs more treatment. The pope was born in Chicago and worked in South America for many years, so this trip means a lot to him personally.",
+      "vocab": [
+        {
+          "word": "cut short",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "提前结束；缩短",
+          "en": "to end something earlier than planned",
+          "example": "We had to cut short our holiday when my dad got sick.",
+          "forms": [
+            "cutting short"
+          ]
+        },
+        {
+          "word": "be discharged",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "出院",
+          "en": "to be officially allowed to leave hospital",
+          "example": "She was discharged two days after the operation.",
+          "forms": [
+            "was discharged"
+          ]
+        },
+        {
+          "word": "make public",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "公开；公布",
+          "en": "to tell everyone about something that was private",
+          "example": "The council will make public the results of the review next month.",
+          "forms": [
+            "made public"
+          ]
+        },
+        {
+          "word": "paint a reassuring picture",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "描绘出令人安心的情况",
+          "en": "to describe a situation in a way that makes people less worried",
+          "example": "The latest figures paint a reassuring picture of the local economy.",
+          "forms": [
+            "painted a broadly reassuring picture"
+          ]
+        },
+        {
+          "word": "keep up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "保持；维持",
+          "en": "to continue doing something at the same level",
+          "example": "It's hard to keep up a routine of exercise during exam season.",
+          "forms": [
+            "kept up"
+          ]
+        },
+        {
+          "word": "makeshift",
+          "pos": "adj.",
+          "ipa": "/ˈmeɪkʃɪft/",
+          "zh": "临时凑合的",
+          "en": "temporary and made from whatever is available",
+          "example": "They turned the garage into a makeshift office during lockdown."
+        },
+        {
+          "word": "go ahead",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "照常进行",
+          "en": "to happen as planned",
+          "example": "The concert will go ahead despite the rain."
+        },
+        {
+          "word": "itinerary",
+          "pos": "n.",
+          "ipa": "/aɪˈtɪnərəri/",
+          "zh": "行程安排",
+          "en": "a detailed plan of a journey",
+          "example": "Our itinerary includes three days in Kyoto and two in Osaka."
+        },
+        {
+          "word": "keep pace with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "跟上……的步伐",
+          "en": "to move or develop at the same speed as something",
+          "example": "Wages haven't kept pace with rising rents.",
+          "forms": [
+            "keeps pace with"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The pope left hospital earlier than officials had originally expected.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 cutting short a stay that officials had initially expected to last around a week 说明他提前出院，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Doctors have already decided that the pope needs no further treatment.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 analysis ... will help doctors decide whether additional treatment is required，说明尚未决定，与题干矛盾，为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The pope's Latin America tour will include a stop in Peru.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到他 became a Peruvian citizen，并未说明行程是否包括秘鲁，为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "When was the pope's cancer diagnosis made public?",
+          "options": [
+            "Several weeks before the operation",
+            "Only after the surgery had taken place",
+            "During his phone call with Vladimir Putin",
+            "At the Angelus prayer on Sunday"
+          ],
+          "answer": 1,
+          "explain": "原文 the diagnosis was made public only after the surgery had taken place，故选 B。"
+        }
+      ],
+      "discuss": "How much do you think the public has a right to know about the health of world leaders? Should this be different for religious and political leaders?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/pope-leo-returns-to-vatican-after-lung-cancer-surgery"
+        },
+        {
+          "name": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/world/pope-leo-lung-cancer-surgery-9.7385445"
+        }
+      ]
+    },
+    {
+      "id": "thwaites-glacier",
+      "category": "Environment",
+      "headline": "Antarctica's 'Doomsday Glacier' is melting faster than scientists thought",
+      "headlineZh": "南极“末日冰川”融化速度超出科学家预期",
+      "summaryZh": "新研究发现潮汐将暖海水泵入冰川底部，思韦茨冰川对海平面上升的贡献或为此前估计的两倍。",
+      "c1": "Thwaites Glacier in West Antarctica, nicknamed the \"Doomsday Glacier\", may be melting considerably faster than scientists had assumed, according to a study published this week in Nature Communications. Covering roughly 192,000 square kilometres, an area comparable to Senegal, Thwaites is often described as the largest glacier on Earth, and its fate has long preoccupied climate researchers.\n\nThe team, led by Mattia Poinelli, a project scientist at UCLA, worked with NASA's Jet Propulsion Laboratory to build new computer models of the glacier's grounding line, the point where ice resting on bedrock begins to float. Earlier models had treated this line as fixed. The new research instead describes a wider \"grounding zone\", in which tides repeatedly lift and lower the ice, allowing warm seawater to be pumped far beneath it and to melt it from below.\n\nThe implications are sobering. The researchers estimate that Thwaites alone could add up to 30 millimetres to global sea levels by 2100, roughly double previous estimates, even if warming does not accelerate. They also put the chance that the glacier will come loose from an underwater ridge that currently anchors it at around 60 per cent by the end of the century. Thwaites already accounts for about four per cent of global sea-level rise and has shed more than 1,000 billion tonnes of ice since 2000.\n\nAdmittedly, experts caution that further studies are needed before future losses can be predicted with confidence. Even so, the stakes are high: Thwaites helps to hold back the far larger West Antarctic ice sheet, whose eventual collapse, though likely to unfold over decades or centuries, could leave many coastal cities under water.",
+      "b2": "A new study suggests that Thwaites Glacier in West Antarctica is melting faster than scientists thought. The glacier, often called the \"Doomsday Glacier\", covers about 192,000 square kilometres, which is similar to the size of Senegal. The research was published this week in the journal Nature Communications.\n\nScientists from UCLA and NASA's Jet Propulsion Laboratory made new computer models of the place where the ice stops sitting on rock and starts to float. Older models said this line did not move. The new study shows that tides lift and lower the ice, so warm seawater can flow far underneath it and melt it from below.\n\nAccording to the researchers, Thwaites could raise global sea levels by up to 30 millimetres by 2100. This is about twice as much as earlier estimates. They also say there is around a 60 per cent chance that the glacier will separate from an underwater ridge that holds it in place. The glacier has already lost more than 1,000 billion tonnes of ice since 2000.\n\nExperts say more research is needed before anyone can be sure about future ice loss. However, the glacier is important because it helps to hold back the much bigger West Antarctic ice sheet. If that ice sheet melted, many cities on the coast could end up under water.",
+      "vocab": [
+        {
+          "word": "preoccupy",
+          "pos": "v.",
+          "ipa": "/priˈɒkjupaɪ/",
+          "zh": "使担忧；使全神贯注",
+          "en": "to make someone think or worry about something a lot",
+          "example": "The question of funding has preoccupied the committee for months.",
+          "forms": [
+            "preoccupied"
+          ]
+        },
+        {
+          "word": "sobering",
+          "pos": "adj.",
+          "ipa": "/ˈsəʊbərɪŋ/",
+          "zh": "令人警醒的",
+          "en": "making you feel serious and think carefully",
+          "example": "It's a sobering thought that most of the world's coral reefs are at risk."
+        },
+        {
+          "word": "accelerate",
+          "pos": "v.",
+          "ipa": "/əkˈseləreɪt/",
+          "zh": "加速",
+          "en": "to happen or make something happen faster",
+          "example": "The pandemic accelerated the shift to online shopping."
+        },
+        {
+          "word": "come loose",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "松脱；脱离",
+          "en": "to become detached from something",
+          "example": "One of the shelves came loose and everything fell off."
+        },
+        {
+          "word": "account for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "占（比例）",
+          "en": "to form a particular amount or part of something",
+          "example": "Students account for nearly half of the suburb's population.",
+          "forms": [
+            "accounts for"
+          ]
+        },
+        {
+          "word": "shed",
+          "pos": "v.",
+          "ipa": "/ʃed/",
+          "zh": "失去；脱落",
+          "en": "to lose something, such as weight, jobs or ice",
+          "example": "The company has shed hundreds of jobs this year."
+        },
+        {
+          "word": "with confidence",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有把握地",
+          "en": "in a way that you are sure about",
+          "example": "It's too early to say with confidence whether the policy has worked."
+        },
+        {
+          "word": "the stakes are high",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "事关重大",
+          "en": "a lot could be won or lost",
+          "example": "The stakes are high for both teams in Saturday's grand final."
+        },
+        {
+          "word": "unfold",
+          "pos": "v.",
+          "ipa": "/ʌnˈfəʊld/",
+          "zh": "（事情）逐渐展开、发生",
+          "en": "to develop or happen over a period of time",
+          "example": "We'll have to wait and see how the situation unfolds."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers placed sensors directly beneath the glacier to measure the melting.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 build new computer models，没有提到在冰川下放置传感器，为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Earlier models assumed that the glacier's grounding line did not move.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 Earlier models had treated this line as fixed，与题干一致，为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "According to the study, Thwaites will add 30 mm to sea levels only if global warming speeds up.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 even if warming does not accelerate，即使变暖不加速也可能如此，与题干矛盾，为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What allows warm seawater to reach beneath the glacier, according to the new research?",
+          "options": [
+            "Snow melting on the glacier's surface",
+            "Rising air temperatures over Antarctica",
+            "Icebergs breaking off the front of the glacier",
+            "Tides repeatedly lifting and lowering the ice"
+          ],
+          "answer": 3,
+          "explain": "原文 tides repeatedly lift and lower the ice, allowing warm seawater to be pumped far beneath it，故选 D。"
+        }
+      ],
+      "discuss": "Why do you think distant events like melting glaciers often feel less urgent to people than local problems? How could scientists make them feel more real?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/senegal-sized-antarctic-glacier-melting-faster-than-thought-why-it-matters"
+        },
+        {
+          "name": "Greek Reporter",
+          "url": "https://greekreporter.com/2026/10/18/thwaites-glacier-sea-level-rise/"
+        }
+      ]
+    },
+    {
+      "id": "ai-pricing-unease",
+      "category": "Business",
+      "headline": "US shoppers grow uneasy as retailers turn to AI pricing tools",
+      "headlineZh": "零售商采用AI定价工具，美国消费者日益不安",
+      "summaryZh": "电子价签和AI定价普及，消费者担心“千人千价”，沃尔玛和麦当劳出面否认，监管机构密切关注。",
+      "c1": "Shoppers in the United States are increasingly uneasy not just about how much things cost, but about how those prices are arrived at. According to a report by the Associated Press, social media is awash with talk of \"dynamic\" and \"surveillance\" pricing, as consumers wonder whether two people might be charged different amounts for exactly the same item.\n\nTheir suspicions have been fuelled by the spread of new technology. Digital shelf labels, which allow prices to be changed remotely, are becoming a common sight in supermarkets, while artificial intelligence tools help businesses predict how customers are likely to react to a particular price. Critics argue that, in principle, such systems could enable retailers to squeeze extra money out of those deemed willing to pay more.\n\nBig brands have been quick to push back. Walmart's chief executive, John Furner, has published a letter stating that the company does not set prices according to who a customer is or the time of day, and will not use personal details such as income or shopping history. McDonald's, meanwhile, has insisted that a pricing tool reported to factor in local customers' \"willingness to pay\" merely offers suggestions, and that franchisees decide what to charge.\n\nRegulators, however, are paying close attention. Lawmakers in at least 30 states have considered bills on the issue, and the Federal Trade Commission has proposed a policy targeting the undisclosed use of personal data to set individual prices. The broader backdrop is one of eroding trust: a 2026 Bentley-Gallup survey found that only 27 per cent of Americans trust businesses at least somewhat to use AI responsibly, down from 31 per cent a year earlier.",
+      "b2": "Many shoppers in the United States are worried about how prices are set, not only about how high they are. The Associated Press reports that people on social media are talking a lot about \"dynamic\" and \"surveillance\" pricing. They want to know if different customers are paying different prices for the same product.\n\nNew technology is part of the reason. More and more supermarkets are using digital shelf labels, and businesses use artificial intelligence to predict how customers will react to a price. Critics say these tools could, in theory, help shops charge some people more.\n\nLarge companies say these fears are wrong. Walmart's boss, John Furner, wrote a letter saying the company does not change prices based on who the customer is or the time of day. He said it will not use personal information such as income or shopping history. McDonald's says its pricing tool only gives suggestions, and that the owners of each restaurant decide the prices.\n\nGovernments are watching closely. Lawmakers in at least 30 states have looked at new laws, and the Federal Trade Commission has suggested a new policy about using personal data to set prices. A 2026 survey also found that only 27 per cent of Americans trust businesses at least somewhat to use AI responsibly.",
+      "vocab": [
+        {
+          "word": "uneasy",
+          "pos": "adj.",
+          "ipa": "/ʌnˈiːzi/",
+          "zh": "不安的；忧虑的",
+          "en": "slightly worried or uncomfortable",
+          "example": "I feel uneasy about lending him that much money."
+        },
+        {
+          "word": "arrive at",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "得出（结论、决定等）",
+          "en": "to reach a decision, price or result after thinking",
+          "example": "How did the panel arrive at its final decision?",
+          "forms": [
+            "arrived at"
+          ]
+        },
+        {
+          "word": "be awash with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "充斥着",
+          "en": "to have a very large amount of something",
+          "example": "The city is awash with tourists during the Grand Prix.",
+          "forms": [
+            "awash with"
+          ]
+        },
+        {
+          "word": "fuel",
+          "pos": "v.",
+          "ipa": "/ˈfjuːəl/",
+          "zh": "加剧；助长",
+          "en": "to make a feeling or situation stronger",
+          "example": "Rumours of job cuts have fuelled anxiety among staff.",
+          "forms": [
+            "fuelled"
+          ]
+        },
+        {
+          "word": "in principle",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "理论上；原则上",
+          "en": "in theory, though perhaps not in practice",
+          "example": "In principle, anyone can apply, but very few are accepted."
+        },
+        {
+          "word": "push back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "反驳；抵制",
+          "en": "to resist or argue against something",
+          "example": "Residents pushed back against plans for a new car park."
+        },
+        {
+          "word": "factor in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……考虑在内",
+          "en": "to include something when making a calculation or decision",
+          "example": "Don't forget to factor in transport costs when you set your budget."
+        },
+        {
+          "word": "pay close attention",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "密切关注",
+          "en": "to watch or listen very carefully",
+          "example": "Investors are paying close attention to the next interest rate decision.",
+          "forms": [
+            "paying close attention"
+          ]
+        },
+        {
+          "word": "erode",
+          "pos": "v.",
+          "ipa": "/ɪˈrəʊd/",
+          "zh": "逐渐削弱；侵蚀",
+          "en": "to gradually reduce or destroy something",
+          "example": "Repeated delays have eroded public confidence in the project.",
+          "forms": [
+            "eroding"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Walmart has admitted using customers' income when setting prices.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Walmart will not use personal details such as income，与题干矛盾，为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "McDonald's plans to stop using its pricing tool.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 McDonald's 称该工具 merely offers suggestions，没有提到是否停用，为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Digital shelf labels allow prices to be changed remotely.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 Digital shelf labels, which allow prices to be changed remotely，与题干一致，为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the Bentley-Gallup survey, what share of Americans trust businesses at least somewhat to use AI responsibly?",
+          "options": [
+            "31 per cent",
+            "30 per cent",
+            "27 per cent",
+            "More than half"
+          ],
+          "answer": 2,
+          "explain": "原文 only 27 per cent of Americans trust businesses at least somewhat，31% 是一年前的数字，故选 C。"
+        }
+      ],
+      "discuss": "Is it ever fair for two customers to pay different prices for the same product? Do you think personalised pricing will become normal in the future?",
+      "sources": [
+        {
+          "name": "AP News (via Washington Times)",
+          "url": "https://washingtontimes.com/news/2026/oct/18/apprehension-among-consumers-grows-us-retailers-adopt-ai-assisted"
+        },
+        {
+          "name": "eMarketer",
+          "url": "https://www.emarketer.com/content/dynamic-pricing-backlash-walmart-mcdonalds-consumer-trust"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/walmart-personalised-pricing-ceo-letter-sparky"
+        }
+      ]
+    },
+    {
+      "id": "werribee-elephant-vaccine",
+      "category": "Science",
+      "headline": "Melbourne elephant calves first in Australia to get virus vaccine",
+      "headlineZh": "墨尔本小象成为澳大利亚首批接种致命病毒疫苗的象",
+      "summaryZh": "维拉比动物园三头小象接种实验性EEHV疫苗，研究人员希望保护幼象免受这种致命病毒侵害。",
+      "c1": "Three young elephants at Werribee Open Range Zoo, in Melbourne's west, have become the first calves in Australia to receive an experimental vaccine against a devastating virus. Known as elephant endotheliotropic herpesvirus, or EEHV, the disease has no cure and can trigger massive internal bleeding, sometimes killing an animal within 24 hours.\n\nFor the zoo, the trial is deeply personal. It follows the death in 2023 of Man Jai, a nine-year-old Asian elephant, and comes amid wider alarm in the conservation world: over the past 25 years, more than 90 calves in human care have died from the virus. The research is being led by veterinary scientist Tabitha Hoornweg of Utrecht University, whose team is one of three groups, alongside others in the United States and the United Kingdom, racing to develop an effective vaccine.\n\nGetting a needle into a young elephant is no small feat. Keepers spent time training the calves with food rewards so that the procedure would cause as little stress as possible. When the moment came, one calf, Roi-Yim, received the injection in his thigh while his mother, Mali, stayed close by.\n\nThe early signs are encouraging but far from conclusive. An earlier test on six older elephants in Dutch zoos found no dangerous side effects, yet it remains to be seen whether the vaccine actually protects younger animals. If it does, researchers hope it could eventually offer a lifeline to elephant calves in zoos that have long had no defence against the disease.",
+      "b2": "Three young elephants at Werribee Open Range Zoo in Melbourne's west are the first calves in Australia to get a new, experimental vaccine. It is designed to protect them from a virus called EEHV. There is no cure for the virus. It can cause serious bleeding inside the body and can kill an elephant within a day.\n\nThe zoo's nine-year-old Asian elephant, Man Jai, died in 2023. In the last 25 years, more than 90 young elephants in human care have died from the virus. The research is led by Tabitha Hoornweg from Utrecht University. Her team is one of three groups, with others in the US and the UK, working on a vaccine.\n\nBefore the injections, keepers trained the calves with food rewards so that the animals would feel less stressed. One calf, Roi-Yim, got the injection in his leg while his mother, Mali, stood nearby.\n\nAn earlier test on six older elephants in zoos in the Netherlands found no dangerous side effects. However, scientists do not yet know if the vaccine will protect young elephants. If it works, it could help save many calves in the future.",
+      "vocab": [
+        {
+          "word": "devastating",
+          "pos": "adj.",
+          "ipa": "/ˈdevəsteɪtɪŋ/",
+          "zh": "毁灭性的；极具破坏力的",
+          "en": "causing great damage or harm",
+          "example": "The floods had a devastating effect on local farms."
+        },
+        {
+          "word": "trigger",
+          "pos": "v.",
+          "ipa": "/ˈtrɪɡə/",
+          "zh": "引发；触发",
+          "en": "to cause something to start happening",
+          "example": "Loud noises can trigger anxiety in some dogs."
+        },
+        {
+          "word": "deeply personal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与个人密切相关的",
+          "en": "strongly connected to someone's own life and feelings",
+          "example": "Her decision to become a nurse was deeply personal."
+        },
+        {
+          "word": "amid",
+          "pos": "prep.",
+          "ipa": "/əˈmɪd/",
+          "zh": "在……的背景下",
+          "en": "during or surrounded by a particular situation",
+          "example": "The festival went ahead amid concerns about the weather."
+        },
+        {
+          "word": "race to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "争分夺秒地做",
+          "en": "to try to do something as quickly as possible",
+          "example": "Engineers are racing to fix the fault before peak hour.",
+          "forms": [
+            "racing to develop"
+          ]
+        },
+        {
+          "word": "no small feat",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "不是件容易的事",
+          "en": "a difficult achievement",
+          "example": "Finishing a marathon at 70 is no small feat."
+        },
+        {
+          "word": "far from conclusive",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远非定论",
+          "en": "not at all certain or final",
+          "example": "The evidence so far is far from conclusive."
+        },
+        {
+          "word": "it remains to be seen",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚待观察",
+          "en": "it is not yet known",
+          "example": "It remains to be seen whether the new timetable will reduce delays."
+        },
+        {
+          "word": "offer a lifeline",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "提供救命稻草；带来希望",
+          "en": "to give help that saves someone from a difficult situation",
+          "example": "The grant could offer a lifeline to struggling small businesses."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Roi-Yim's mother stayed near him while he was vaccinated.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 his mother, Mali, stayed close by，与题干一致，为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The calves at Werribee will need a second dose of the vaccine next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到是否需要第二剂，为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The earlier test in Dutch zoos found serious side effects in some elephants.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 found no dangerous side effects，与题干矛盾，为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did keepers train the calves with food rewards?",
+          "options": [
+            "To keep the procedure as stress-free as possible",
+            "To help them recover from the virus",
+            "To prepare them for a move to another zoo",
+            "To test whether the vaccine affected their appetite"
+          ],
+          "answer": 0,
+          "explain": "原文 so that the procedure would cause as little stress as possible，故选 A。"
+        }
+      ],
+      "discuss": "Do you think zoos still have an important role to play in protecting wild animals, or should money go to protecting animals in the wild instead? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-10-18/elephant-calves-vaccine-virus-deadly/106638700"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck at Flinders Street",
+    "titleZh": "困在弗林德斯街车站",
+    "setting": "Two colleagues wait on a crowded platform at Flinders Street Station after their morning train is delayed.",
+    "settingZh": "两位同事早上的火车晚点，他们在弗林德斯街车站拥挤的站台上等车。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Ugh, the board's just changed again. Our train's now running twenty minutes late.",
+        "zh": "唉，显示屏又变了。我们的车现在晚点二十分钟了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "You're kidding. That's the third delay this week. I'm starting to lose my patience.",
+        "zh": "开玩笑吧。这是这周第三次晚点了，我快没耐心了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Apparently there's a signal fault near Richmond. Classic Monday morning, isn't it?",
+        "zh": "好像是里士满附近信号出了故障。典型的周一早上，对吧？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Tell me about it. I've got a meeting at nine, so I'm cutting it pretty fine.",
+        "zh": "可不是嘛。我九点有个会，时间已经很紧了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Could you jump on a tram instead? There must be one heading out that way.",
+        "zh": "你能不能改坐电车？肯定有往那边去的。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "There is, but it crawls through traffic. I'd be better off waiting it out.",
+        "zh": "有是有，但堵车时慢得像蜗牛。我还是等着比较好。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough. Have you let your boss know you might be running late?",
+        "zh": "也是。你跟老板说了你可能会迟到吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Not yet. I'll flick her a text. She's usually pretty easygoing about this stuff.",
+        "zh": "还没。我给她发条短信。她对这种事一般挺随和的。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Lucky you. Mine would give me the side-eye for a week if I rocked up late.",
+        "zh": "你真走运。我要是迟到，我老板会给我甩一个星期的白眼。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Seriously? Surely everyone knows the trains have been all over the place lately.",
+        "zh": "真的假的？大家肯定都知道最近火车乱七八糟的吧。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "You'd think so, but she drives in every day, so she doesn't really get it.",
+        "zh": "按理说是，但她天天开车上班，所以不太能理解。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Well, at least we've got time to grab a coffee from that cart over there.",
+        "zh": "好吧，至少我们有时间去那边的小推车买杯咖啡。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Now you're talking. My shout, though. You bought them last time.",
+        "zh": "这主意好。不过这次我请，上次是你买的。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Cheers, Mei. Let's just hope the train doesn't sneak in while we're queuing.",
+        "zh": "谢啦，Mei。但愿我们排队的时候火车别悄悄开进来。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Yes, I agree, it's really annoying.",
+        "en": "Tell me about it",
+        "zh": "“可不是嘛”，表示深有同感"
+      },
+      {
+        "plain": "I don't have much time left.",
+        "en": "cutting it pretty fine",
+        "zh": "时间卡得很紧"
+      },
+      {
+        "plain": "It's better for me to wait.",
+        "en": "I'd be better off waiting it out",
+        "zh": "耐心等到情况结束更划算"
+      },
+      {
+        "plain": "I'll send her a message.",
+        "en": "flick her a text",
+        "zh": "随手发条短信（澳式口语）"
+      },
+      {
+        "plain": "if I arrived late",
+        "en": "rocked up late",
+        "zh": "rock up = 到场（口语）"
+      },
+      {
+        "plain": "very unreliable",
+        "en": "all over the place",
+        "zh": "乱七八糟，毫无规律"
+      },
+      {
+        "plain": "That's a great idea.",
+        "en": "Now you're talking",
+        "zh": "“这才像话”，表示赞同"
+      },
+      {
+        "plain": "I'll pay this time.",
+        "en": "My shout",
+        "zh": "这次我请客（澳式口语）"
+      }
+    ]
+  }
+}
