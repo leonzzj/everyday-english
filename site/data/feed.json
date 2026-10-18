@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-18T02:53:13.359Z",
+ "updatedAt": "2026-10-18T18:54:27.752Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "The mathematician taking on AI",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/the-mathematician-taking-on-ai/107271114",
-   "audio": "https://traffic.megaphone.fm/TECO4494867979.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/5494b61c-c8ab-11f1-a8fa-cfdfe6d7b00e/image/cc97ef530a9455df5e1a48f43d240045.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-16",
+   "title": "Why pregnancy is still costing women their jobs",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-pregnancy-is-still-costing-women-their-jobs/107275724",
+   "audio": "https://traffic.megaphone.fm/TECO5331950116.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/b6bec17c-cb06-11f1-8cb0-8394adfb331c/image/94f27fd060f4cc01f8e3ea2d0b19fed9.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-19",
    "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Melbourne-born academic Tristan Buckmaster says he was maybe just one month away from solving the Navier-Stokes equation, a maths problem so difficult there was a million-dollar prize on offer for anyone who could. &nbsp; But just as the New York University…"
+   "desc": "They've been fired, demoted, and even offered sham redundancies.&nbsp; Decades after the Sex Discrimination Act was introduced, women across the country say they're being pushed out of the workforce&nbsp;for having kids&nbsp;under laws that haven't kept up…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Inside Venezuela's uncertain path to freedom | Leopoldo López",
-   "url": "http://go.ted.com/leopoldolopez2026",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa6f7b3381b9dbb7c315e/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "title": "Sunday Pick: How to reclaim your narrative (w/ Monica Lewinsky) | from How to Be a Better Human",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acf9f12b3381b9dbb7c315b/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1791993237120-8bf9bf00-921f-447c-ab02-c0b4f49e7bbb.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-10-18",
-   "minutes": 45,
+   "minutes": 55,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Activist Leopoldo López learned the true value of freedom in a solitary confinement cell, when someone else decided if he would eat or see sunlight. In this searching conversation, he explains why democracy is losing ground across the globe, the state of…"
+   "desc": "Monica Lewinsky is an anti-bullying activist and host of Reclaiming with Monica, a podcast that shines her guests’ unguarded conversations about how they make sense of the world. In this episode filmed in front of a live audience at TED 2026, Chris interviews…"
   },
   {
    "source": "SBS Learn English",
@@ -56,15 +56,15 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "China agrees to halve hybrid car exports to EU (Level 6)",
-   "url": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.html",
+   "title": "One billion meals thrown away every day (Level 6)",
+   "url": "https://breakingnewsenglish.com/2610/261019-food-waste.html",
    "audio": "",
    "image": "",
-   "date": "2026-10-12",
+   "date": "2026-10-19",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Oct 12, 2026. China has agreed to halve its exports of hybrid cars to the European Union."
+   "desc": "Oct 19, 2026. More than one billion meals are thrown away worldwide every day."
   },
   {
    "source": "Aeon",
