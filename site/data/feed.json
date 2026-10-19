@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T18:54:27.752Z",
+ "updatedAt": "2026-10-19T02:56:27.431Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -7,7 +7,7 @@
    "title": "Why pregnancy is still costing women their jobs",
    "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-pregnancy-is-still-costing-women-their-jobs/107275724",
    "audio": "https://traffic.megaphone.fm/TECO5331950116.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/b6bec17c-cb06-11f1-8cb0-8394adfb331c/image/94f27fd060f4cc01f8e3ea2d0b19fed9.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "image": "",
    "date": "2026-10-19",
    "minutes": 16,
    "level": "C1",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "How to keep living when life falls apart",
-   "url": "https://www.abc.net.au/listen/programs/conversations/robin-bailey-on-helping-her-sons-navigate-their-dads-suicide/107253008",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pg/Z/jm.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F7efb5b8e0f84400f7142cca40e3dd55a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-16",
-   "minutes": 51,
+   "title": "Anthony Scaramucci on Trump, getting fired and owning his mistakes",
+   "url": "https://www.abc.net.au/listen/programs/conversations/anthony-scaramucci-latest-book-all-the-wrong-moves/107267990",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pi/Z/kj.mp3",
+   "image": "https://live-production.wcms.abc-cdn.net.au/1c7cf0919afa3ffaccfcce8d0faa2b22.png?src",
+   "date": "2026-10-19",
+   "minutes": 45,
    "level": "C1",
    "accent": "AU",
-   "desc": "When Robin Bailey’s husband and father of their three boys died by suicide, she had to figure out the best way to help her children work through their grief while also managing her own sadness and anger. (CW: this episode discusses suicide, please take care…"
+   "desc": "The Mooch on his childhood, his career before joining Donald Trump in 2016 and rebuilding his reputation after making a bad bet on the MAGA movement. Anthony grew up on Long Island, part of a large Italian-American community and far away from the world of…"
   },
   {
    "source": "TED Talks Daily",
