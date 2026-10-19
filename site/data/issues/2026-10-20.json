@@ -1,0 +1,735 @@
+{
+  "date": "2026-10-20",
+  "issueNo": 5,
+  "title": "Alberta's vote, the Amazon's record low and spyware in ads",
+  "createdAt": "2026-10-20T06:54:37+11:00",
+  "stories": [
+    {
+      "id": "alberta-referendum",
+      "category": "World",
+      "headline": "Alberta votes on whether to start leaving Canada",
+      "headlineZh": "加拿大阿尔伯塔省就是否启动脱离加拿大进程举行公投",
+      "summaryZh": "阿尔伯塔省举行非约束性公投，民调显示多数人支持留在加拿大，但分离主义恐难消退。",
+      "c1": "Voters in Alberta, the oil-rich province in western Canada, went to the polls on Monday to answer a question that would once have seemed unthinkable: should the province stay in Canada, or begin a legal process that could eventually lead to a binding vote on independence? It is the first time a province other than French-speaking Quebec has held a vote on separating from the rest of the country, although the result itself carries no legal force.\n\nSomewhat paradoxically, the premier who called the referendum, Danielle Smith, wants her province to remain in Canada. She agreed to the vote after months of pressure from a small but vocal faction within her own United Conservative Party, and she has since conceded that support for starting the separation process, put at around 23 per cent in one recent poll, is still higher than she would like. The independence question is one of ten on the ballot, and Smith has urged Albertans to back the other nine.\n\nOpinion polls have consistently pointed to a comfortable win for the 'remain' side, with Abacus Data finding that 68 per cent of Albertans intended to vote to stay. Interest has nonetheless been strong: some 1.36 million people, or 43 per cent of the province's 3.1 million eligible voters, had already voted early or by mail. Prime Minister Mark Carney also made the case for unity during a visit to Red Deer, insisting that \"Canada is not a transaction between provinces.\"\n\nEven so, few observers expect a defeat to settle the matter. Separatism has moved from the fringes of Alberta politics to the ballot box, and analysts warn that the movement is likely to outlast Monday's vote, whatever the margin.",
+      "b2": "On Monday, people in Alberta, an oil-rich province in western Canada, voted on whether to stay in Canada or start a legal process that could lead to a real vote on independence later. This is the first time a province other than Quebec has held a vote like this. The result is not legally binding.\n\nThe premier, Danielle Smith, called the referendum, but she actually wants Alberta to stay in Canada. She agreed to hold the vote because a small but loud group inside her own party kept pushing for it. She has said that support for separation, about 23 per cent in one poll, is still too high. The independence question is one of ten questions on the ballot.\n\nPolls suggest the 'remain' side will win easily. One survey by Abacus Data found that 68 per cent of Albertans planned to vote to stay. Many people voted early: about 1.36 million people, or 43 per cent of the 3.1 million eligible voters, voted before the day or by mail. Prime Minister Mark Carney also visited the province to argue for national unity.\n\nHowever, experts do not think the issue will disappear. Separatism has grown from a small movement into a serious political topic, and analysts say it will probably continue after the vote, whatever the result.",
+      "vocab": [
+        {
+          "word": "go to the polls",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "去投票；举行选举",
+          "en": "to vote in an election or referendum",
+          "example": "Voters in three states will go to the polls next month.",
+          "forms": [
+            "went to the polls"
+          ]
+        },
+        {
+          "word": "carry no legal force",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "不具法律效力",
+          "en": "to have no power under the law",
+          "example": "The agreement carries no legal force, but both sides say they will respect it.",
+          "forms": [
+            "carries no legal force"
+          ]
+        },
+        {
+          "word": "paradoxically",
+          "pos": "adv.",
+          "ipa": "/ˌpærəˈdɒksɪkli/",
+          "zh": "矛盾的是；看似荒谬地",
+          "en": "in a way that seems strange because it is the opposite of what you expect",
+          "example": "Paradoxically, the busiest people often seem to have the most free time."
+        },
+        {
+          "word": "small but vocal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "人数少但声音大的",
+          "en": "describing a group with few members who express their views loudly",
+          "example": "A small but vocal group of residents opposed the new bike lane."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit, often unwillingly, that something is true",
+          "example": "The coach conceded that the team had played poorly.",
+          "forms": [
+            "conceded"
+          ]
+        },
+        {
+          "word": "point to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "表明；显示",
+          "en": "to suggest that something is true or likely",
+          "example": "All the evidence points to a rise in interest rates.",
+          "forms": [
+            "pointed to"
+          ]
+        },
+        {
+          "word": "make the case for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……据理力争",
+          "en": "to give reasons why something is good or necessary",
+          "example": "She made the case for a four-day working week at the staff meeting.",
+          "forms": [
+            "made the case for"
+          ]
+        },
+        {
+          "word": "settle the matter",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "了结此事；彻底解决问题",
+          "en": "to end an argument or decide an issue completely",
+          "example": "A quick phone call to the landlord should settle the matter."
+        },
+        {
+          "word": "outlast",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈlɑːst/",
+          "zh": "比……持续更久",
+          "en": "to continue to exist for longer than something else",
+          "example": "Good habits often outlast the motivation that started them."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The outcome of Monday's vote is not legally binding.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 the result itself \"carries no legal force\"，即不具法律效力，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Danielle Smith personally supports Alberta leaving Canada.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Smith \"wants her province to remain in Canada\"，与题干相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the early votes were cast in the city of Calgary.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到 1.36 million people 提前或邮寄投票，没有说明投票地点，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What share of Alberta's eligible voters had voted early or by mail?",
+          "options": [
+            "23 per cent",
+            "43 per cent",
+            "68 per cent",
+            "78 per cent"
+          ],
+          "answer": 1,
+          "explain": "文中说 1.36 million people, or \"43 per cent of the province's 3.1 million eligible voters\"。23% 是支持启动分离的比例，68% 是打算留下的比例。"
+        }
+      ],
+      "discuss": "Why do you think some people want their region to become independent even when most of the population disagrees? Can a vote like this ever really settle the question?",
+      "sources": [
+        {
+          "name": "US News (Reuters)",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-19/alberta-votes-on-leaving-canada-separatist-movement-likely-to-outlast-expected-defeat"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12102950/danielle-smith-votes-stay-in-canada/"
+        }
+      ]
+    },
+    {
+      "id": "amazon-deforestation-low",
+      "category": "Environment",
+      "headline": "Amazon deforestation falls to its lowest level on record",
+      "headlineZh": "亚马孙雨林砍伐量降至有记录以来最低",
+      "summaryZh": "巴西卫星数据显示，过去一年亚马孙毁林面积下降约42%，创1988年以来新低。",
+      "c1": "Deforestation in Brazil's Amazon has fallen to its lowest level since records began in 1988, according to figures released on Friday by the country's space research agency, Inpe. Satellite data from its Prodes programme show that 3,335 square kilometres of rainforest were cleared in the twelve months to July, a drop of roughly 42 per cent on the previous year and comfortably below the earlier record low of 4,571 square kilometres, set in 2011–12.\n\nThe scale of the turnaround is striking. At its peak in the mid-1990s, the Amazon was losing almost 30,000 square kilometres a year; clearing has now declined every year since 2022, falling by more than 71 per cent over four years. Environment Minister João Paulo Capobianco called the result \"absolutely stratospheric\", while the advocacy group Observatório do Clima hailed it as a historic achievement that shows what political will can do. Closer monitoring and stiffer penalties for illegal logging are credited with driving the decline, and clearing in the neighbouring Cerrado savanna also fell by about 24 per cent.\n\nThe timing is politically convenient for President Luiz Inácio Lula da Silva, who took office in 2023 promising to end illegal deforestation by 2030. Under his far-right predecessor, Jair Bolsonaro, clearing climbed to a 15-year high, and the new figures emerged just days before a presidential run-off on 25 October in which Lula faces Bolsonaro's eldest son, Senator Flávio Bolsonaro. Polls suggest the race is roughly tied.\n\nFlávio Bolsonaro has pledged to strengthen oversight of the Amazon, albeit with enforcement aimed at organised crime rather than small farmers, and has set a goal of ending illegal deforestation by 2029. Whoever wins, the real test will be whether this progress can be sustained rather than allowed to unravel.",
+      "b2": "Deforestation in Brazil's Amazon rainforest has dropped to its lowest level since records began in 1988. Figures from Brazil's space research agency, Inpe, show that 3,335 square kilometres of forest were cleared in the twelve months to July. That is about 42 per cent less than the year before.\n\nIn the mid-1990s, the Amazon was losing almost 30,000 square kilometres a year. Since 2022, clearing has fallen every year. The environment minister called the result \"absolutely stratospheric\", and experts say closer monitoring and tougher penalties for illegal logging have made the difference. Clearing in the nearby Cerrado savanna also fell, by about 24 per cent.\n\nThe news is good for President Luiz Inácio Lula da Silva, who took office in 2023 and promised to end illegal deforestation by 2030. Under the previous president, Jair Bolsonaro, clearing reached a 15-year high. On 25 October, Lula will face Bolsonaro's eldest son, Flávio, in a presidential run-off, and polls show the race is very close.\n\nFlávio Bolsonaro has also promised to protect the Amazon, and he wants to end illegal deforestation by 2029. Whoever wins the election, the main challenge will be to keep the progress going.",
+      "vocab": [
+        {
+          "word": "since records began",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "自有记录以来",
+          "en": "from the time when official measurements started",
+          "example": "This was the wettest October since records began."
+        },
+        {
+          "word": "turnaround",
+          "pos": "n.",
+          "ipa": "/ˈtɜːnəraʊnd/",
+          "zh": "（由坏到好的）好转，扭转",
+          "en": "a complete change from a bad situation to a good one",
+          "example": "The new manager oversaw a remarkable turnaround in the café's fortunes."
+        },
+        {
+          "word": "hail",
+          "pos": "v.",
+          "ipa": "/heɪl/",
+          "zh": "称赞；誉为",
+          "en": "to praise someone or something publicly and enthusiastically",
+          "example": "Critics hailed the film as a masterpiece.",
+          "forms": [
+            "hailed"
+          ]
+        },
+        {
+          "word": "political will",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "政治意愿",
+          "en": "the determination of leaders to do something",
+          "example": "Fixing the housing crisis will take real political will."
+        },
+        {
+          "word": "be credited with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被认为是……的功劳",
+          "en": "to be thought of as the cause of something good",
+          "example": "Free public transport is credited with cutting traffic in the city centre.",
+          "forms": [
+            "are credited with"
+          ]
+        },
+        {
+          "word": "politically convenient",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在政治上很有利的",
+          "en": "helpful to a politician's position or campaign",
+          "example": "The announcement came at a politically convenient moment for the government."
+        },
+        {
+          "word": "run-off",
+          "pos": "n.",
+          "ipa": "/ˈrʌn ɒf/",
+          "zh": "决胜轮投票",
+          "en": "a second election between the top two candidates",
+          "example": "No candidate won a majority, so a run-off will be held next month."
+        },
+        {
+          "word": "sustain",
+          "pos": "v.",
+          "ipa": "/səˈsteɪn/",
+          "zh": "维持；保持",
+          "en": "to keep something going over a long period",
+          "example": "It's hard to sustain that level of effort for the whole semester.",
+          "forms": [
+            "sustained"
+          ]
+        },
+        {
+          "word": "unravel",
+          "pos": "v.",
+          "ipa": "/ʌnˈrævl/",
+          "zh": "瓦解；崩溃",
+          "en": "to start to fail or fall apart",
+          "example": "Their plans began to unravel when the funding fell through."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Inpe has warned that its satellite data may be inaccurate because of cloud cover.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说数据来自 Inpe 的 Prodes 卫星项目，没有提到对数据准确性的警告，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The area cleared in the latest period was smaller than the previous record low set in 2011–12.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 3,335 平方公里 \"comfortably below the earlier record low of 4,571 square kilometres\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Deforestation rose in 2023 before falling again in 2024.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 clearing \"has now declined every year since 2022\"，即每年都在下降，与题干矛盾，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, what has driven the decline in deforestation?",
+          "options": [
+            "Higher rainfall in the Amazon region",
+            "A complete ban on farming in the rainforest",
+            "Closer monitoring and stiffer penalties for illegal logging",
+            "Large payments from foreign governments"
+          ],
+          "answer": 2,
+          "explain": "文中说 \"Closer monitoring and stiffer penalties for illegal logging are credited with driving the decline\"。"
+        }
+      ],
+      "discuss": "Why do you think environmental results often become part of election campaigns? Should voters judge leaders mainly on long-term issues like climate and forests?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record"
+        }
+      ]
+    },
+    {
+      "id": "spyware-ads-ansto",
+      "category": "Tech",
+      "headline": "Online ads used to target Australia's nuclear agency with spyware",
+      "headlineZh": "间谍软件借网络广告瞄准澳大利亚核科学机构",
+      "summaryZh": "报告称有公司利用广告竞价投放“零点击”间谍软件，澳核科学与技术组织在目标之列。",
+      "c1": "Australia's nuclear science agency was among the organisations targeted in an espionage campaign that turned ordinary online advertisements into a way of delivering spyware according to the Citizen Lab at the University of Toronto. The zero-click attack required no action from victims: merely viewing an infected ad on a website or in an app could be enough to open a back door into a device.\n\nThe researchers allege that a company called Discover-Tech acted as a go-between, linking mainstream ad platforms, including Google, with spyware and hacking firms. By bidding in routine ad auctions, it placed seemingly harmless \"SALE\" images on services such as Duolingo and the BBC. Behind the scenes, the same technology was used to profile devices, track browsing and estimate users' locations, laying the groundwork for later attacks linked to Candiru, an Israel-based spyware maker that is already subject to US export controls.\n\nAdvertising records suggest that millions of devices were targeted, including networks belonging to defence forces and NATO. The report identifies a substantial cluster in Australia across government, critical infrastructure, universities and the media, and it names the Australian Nuclear Science and Technology Organisation (ANSTO) and its Synchrotron campus. ANSTO says it has found no impact on its systems and was not breached, and the researchers stress that seeing an ad meant exposure to the exploit rather than certain infection. They did, however, trace one chain all the way from an ad to files installed on Al Jazeera computers.\n\nGoogle reportedly removed Discover-Tech from its platform once the findings were shared. Diarmaid Harkin, a Deakin University academic who studies the spyware industry, says the case raises awkward questions about how such a firm earned the trust of major ad companies, and he is calling for proper oversight of the advertising industry.",
+      "b2": "Australia's nuclear science agency was one of many organisations targeted by a spying campaign that used online ads to spread spyware, according to a report from the Citizen Lab at the University of Toronto. It was a zero-click attack, which means victims did not have to click anything. Simply seeing an infected ad could open a back door into their device.\n\nThe researchers say a company called Discover-Tech connected big ad platforms, such as Google, with spyware companies. It won normal ad auctions and showed harmless-looking \"SALE\" ads on services like Duolingo and the BBC. The same technology also tracked people's devices and locations, which helped later attacks linked to Candiru, an Israel-based spyware company.\n\nMillions of devices may have been targeted, including networks used by defence forces and NATO. In Australia, the report names the Australian Nuclear Science and Technology Organisation (ANSTO). ANSTO says its systems were not breached, and the researchers explain that seeing an ad did not always mean a device was infected. However, they did trace one case to computers at Al Jazeera.\n\nGoogle reportedly removed Discover-Tech after the findings were shared. Diarmaid Harkin, an expert at Deakin University, says the case shows that the advertising industry needs much better oversight.",
+      "vocab": [
+        {
+          "word": "go-between",
+          "pos": "n.",
+          "ipa": "/ˈɡəʊ bɪtwiːn/",
+          "zh": "中间人；牵线人",
+          "en": "a person or company that passes messages or deals between two sides",
+          "example": "My cousin acted as a go-between when the two families fell out."
+        },
+        {
+          "word": "seemingly harmless",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "看似无害的",
+          "en": "appearing safe, although it may not be",
+          "example": "A seemingly harmless email can contain a dangerous link."
+        },
+        {
+          "word": "behind the scenes",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "在幕后；暗中",
+          "en": "secretly or out of public view",
+          "example": "A lot of work goes on behind the scenes before a festival opens."
+        },
+        {
+          "word": "lay the groundwork for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……打下基础",
+          "en": "to do the early work that makes something possible later",
+          "example": "These early talks laid the groundwork for a trade deal.",
+          "forms": [
+            "laying the groundwork for"
+          ]
+        },
+        {
+          "word": "subject to",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "受……约束的；须服从……的",
+          "en": "affected by or controlled by a rule or law",
+          "example": "All new buildings are subject to strict fire regulations."
+        },
+        {
+          "word": "exposure",
+          "pos": "n.",
+          "ipa": "/ɪkˈspəʊʒə/",
+          "zh": "暴露；接触",
+          "en": "the state of being put in contact with something harmful",
+          "example": "Long exposure to loud noise can damage your hearing."
+        },
+        {
+          "word": "raise awkward questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发令人尴尬的问题",
+          "en": "to make people ask difficult or uncomfortable questions",
+          "example": "The missing funds raise awkward questions for the club's board.",
+          "forms": [
+            "raises awkward questions"
+          ]
+        },
+        {
+          "word": "earn the trust of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "赢得……的信任",
+          "en": "to make someone believe that you are reliable",
+          "example": "It took the new teacher months to earn the trust of her students.",
+          "forms": [
+            "earned the trust of"
+          ]
+        },
+        {
+          "word": "oversight",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəsaɪt/",
+          "zh": "监管；监督",
+          "en": "the job of watching and checking that something is done properly",
+          "example": "The new agency will provide independent oversight of police complaints."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Victims had to click on an advertisement before their devices could be infected.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说这是 zero-click 攻击，\"required no action from victims\"，与题干矛盾，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Discover-Tech is based in Israel.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中说 Candiru 是 \"an Israel-based spyware maker\"，但没有说明 Discover-Tech 的所在地，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "ANSTO says its systems were not breached.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 ANSTO \"has found no impact on its systems and was not breached\"，因此为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "Where did the researchers trace an infection chain from an ad to installed files?",
+          "options": [
+            "ANSTO's Synchrotron campus",
+            "NATO's networks",
+            "Duolingo's servers",
+            "Al Jazeera's computers"
+          ],
+          "answer": 3,
+          "explain": "文中说研究人员 \"trace one chain all the way from an ad to files installed on Al Jazeera computers\"。"
+        }
+      ],
+      "discuss": "Why do you think online advertising has become so hard to regulate? Should governments or tech companies be responsible for making it safe?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-19/nuclear-agency-targeted-in-cyber-attack-infecting-devices/107283804"
+        }
+      ]
+    },
+    {
+      "id": "korea-museum-calligraphy",
+      "category": "Culture",
+      "headline": "Korean museum chief apologises over wrongly labelled calligraphy",
+      "headlineZh": "韩国国立中央博物馆馆长就书法作品错误标注道歉",
+      "summaryZh": "被标为独立运动人士手迹的书法实为亲日派所写，且出自馆长私人收藏，引发问责。",
+      "c1": "The head of South Korea's national museum has apologised to lawmakers over a calligraphy scroll that was put on display as the work of an independence activist, only for experts to conclude that it had been written by a man who collaborated with Japan. Appearing before a parliamentary audit on Monday, Yoo Hong-jun, director of the National Museum of Korea, described the episode as a grave blunder that had badly damaged the institution's standing.\n\nThe piece was included in an exhibition that opened in July, where it was labelled as calligraphy by Park Won-geun, an independence activist who died in 1950. After receiving a tip-off, the museum convened a panel of seven outside specialists, spanning calligraphy, modern history, classical documents and conservation science. They determined that the scroll had in fact been written by Park Jung-yang, a pro-Japanese collaborator. The work was withdrawn in early August, and Yoo issued a formal apology soon afterwards.\n\nThe controversy deepened last week when it emerged that the scroll came from Yoo's own private collection, prompting criticism that showing it in a national exhibition could have inflated its value. Yoo told the audit that he had planned to donate it, along with other works, to a cultural centre in Buyeo County, and admitted that he had hoped the affair would simply blow over. \"As an art historian, I felt ashamed,\" he said.\n\nAlthough some opposition lawmakers have called on him to resign, Yoo has refused to step down, pledging instead to restore the museum's honour. The case is a reminder that in Korea, where the legacy of Japanese colonial rule remains deeply sensitive, questions of attribution are about far more than art history.",
+      "b2": "The director of the National Museum of Korea has apologised to members of parliament about a piece of calligraphy that was shown as the work of an independence hero. Experts later decided that it was actually written by a man who had worked with Japan. On Monday, Yoo Hong-jun told a parliamentary audit that it was a grave blunder.\n\nThe piece was part of an exhibition that opened in July. It was labelled as the work of Park Won-geun, an independence activist who died in 1950. After a tip-off, the museum asked seven outside experts to examine it. They decided it was written by Park Jung-yang, a man who had supported Japan. The museum removed the scroll in early August.\n\nLast week, people learned that the scroll came from Yoo's own private collection. Critics said that showing it in a national exhibition could make it worth more money. Yoo said he had planned to give it to a cultural centre in Buyeo County, and he admitted he had hoped the problem would just go away.\n\nSome opposition politicians want him to resign, but Yoo says he will stay and try to restore the museum's good name. The case shows that the history of Japanese rule is still a very sensitive subject in Korea.",
+      "vocab": [
+        {
+          "word": "only for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "结果却……（表示出乎意料）",
+          "en": "used to introduce a surprising or disappointing result",
+          "example": "We queued for an hour, only for the tickets to sell out."
+        },
+        {
+          "word": "grave blunder",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "严重失误",
+          "en": "a very serious and careless mistake",
+          "example": "Forgetting to back up the files was a grave blunder."
+        },
+        {
+          "word": "tip-off",
+          "pos": "n.",
+          "ipa": "/ˈtɪp ɒf/",
+          "zh": "密报；线索",
+          "en": "a piece of secret information given as a warning",
+          "example": "Police acted on a tip-off from a member of the public."
+        },
+        {
+          "word": "convene",
+          "pos": "v.",
+          "ipa": "/kənˈviːn/",
+          "zh": "召集；召开",
+          "en": "to bring people together for a formal meeting",
+          "example": "The council convened an emergency meeting after the floods.",
+          "forms": [
+            "convened"
+          ]
+        },
+        {
+          "word": "it emerged that",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "人们得知……；事实浮出水面",
+          "en": "used to say that a fact became known",
+          "example": "Later it emerged that the CEO had known about the problem for months."
+        },
+        {
+          "word": "inflate",
+          "pos": "v.",
+          "ipa": "/ɪnˈfleɪt/",
+          "zh": "抬高（价格、价值）",
+          "en": "to make something seem more valuable or higher than it really is",
+          "example": "Some agents inflate prices to attract more sellers.",
+          "forms": [
+            "inflated"
+          ]
+        },
+        {
+          "word": "blow over",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（风波）平息，过去",
+          "en": "to end without having a serious effect",
+          "example": "Don't worry about the argument—it'll blow over by tomorrow."
+        },
+        {
+          "word": "step down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "辞职；下台",
+          "en": "to leave an important job or position",
+          "example": "The coach stepped down after a disappointing season."
+        },
+        {
+          "word": "deeply sensitive",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "极其敏感的",
+          "en": "likely to upset people and needing careful handling",
+          "example": "Immigration remains a deeply sensitive topic in many countries."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The scroll was removed from the exhibition in early August.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"The work was withdrawn in early August\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Yoo Hong-jun bought the scroll at a public auction.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说作品来自 Yoo 的 \"private collection\"，没有说明他如何获得，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Yoo has agreed to resign at the end of the year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Yoo has refused to step down\"，与题干矛盾，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the controversy grow last week?",
+          "options": [
+            "It emerged that the scroll came from Yoo's private collection.",
+            "The scroll was damaged during the exhibition.",
+            "The expert panel reversed its earlier verdict.",
+            "The museum closed the whole exhibition."
+          ],
+          "answer": 0,
+          "explain": "文中说 \"The controversy deepened last week when it emerged that the scroll came from Yoo's own private collection\"。"
+        }
+      ],
+      "discuss": "Why do you think mistakes about history can upset people so much? Should museums be stricter about who lends them objects to display?",
+      "sources": [
+        {
+          "name": "SBS News (Korea)",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008805081"
+        },
+        {
+          "name": "The Korea Times",
+          "url": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20261019/chief-of-national-museum-apologizes-over-wrongful-attribution-of-item-on-display"
+        },
+        {
+          "name": "The Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026101608454507521"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Crunch Time on the Group Project",
+    "titleZh": "小组作业的冲刺时刻",
+    "setting": "Two uni students meet in the State Library Victoria reading room to sort out their group presentation, due on Friday.",
+    "settingZh": "两名大学生在维多利亚州立图书馆阅览室碰头，商量周五要交的小组展示。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Hey, sorry I'm late. The tram was crawling down Swanston Street again.",
+        "zh": "嘿，抱歉我迟到了。电车在斯旺斯顿街上又慢得像爬一样。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "No worries, I only just grabbed a table myself. This place fills up fast.",
+        "zh": "没事，我也刚占到桌子。这里人满得很快。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "So, have we actually heard from Josh? He's gone completely quiet on the group chat.",
+        "zh": "那么，乔希到底有没有消息？他在群聊里完全不吭声了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Not a peep. I reckon we'll have to pick up the slack on his section.",
+        "zh": "一点动静都没有。我觉得我们得替他把那部分补上了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough, but let's flag it with the tutor, just to cover ourselves.",
+        "zh": "也行，但我们还是跟助教提一下吧，免得到时候说不清。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Good call. Anyway, where are we at with the slides on online privacy?",
+        "zh": "好主意。话说回来，网络隐私那部分的幻灯片做到哪儿了？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "I've roughed out the first half, but it's way too text-heavy at the moment.",
+        "zh": "前半部分我已经草拟好了，但现在文字太多了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "We could open with that spyware-in-ads story. It'd grab people's attention straight away.",
+        "zh": "我们可以用那个广告里藏间谍软件的新闻开场，一下子就能抓住大家的注意力。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Ooh, I like that. It ties in nicely with our point about tracking.",
+        "zh": "哦，这个好。正好和我们关于追踪的观点联系起来。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Then I'll take the case studies, and you can tackle the recommendations.",
+        "zh": "那我负责案例分析，你来搞定建议部分。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Deal. Should we do a run-through on Thursday arvo, before it's too late to fix anything?",
+        "zh": "成交。我们周四下午排练一遍吧，趁还来得及修改。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Definitely. I'd rather iron out the kinks now than wing it on Friday.",
+        "zh": "当然。我宁愿现在把问题都理顺，也不想周五临场发挥。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Same. Right, let's knuckle down for a couple of hours, then grab a coffee.",
+        "zh": "我也是。好了，我们先埋头干两个小时，然后去喝杯咖啡。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "The tram was very slow.",
+        "en": "The tram was crawling",
+        "zh": "crawl 本义爬行，形容车辆极慢"
+      },
+      {
+        "plain": "He didn't say anything at all.",
+        "en": "Not a peep.",
+        "zh": "一点声音都没有，口语"
+      },
+      {
+        "plain": "do the work that someone else didn't do",
+        "en": "pick up the slack",
+        "zh": "替别人分担没完成的工作"
+      },
+      {
+        "plain": "tell the tutor about the problem",
+        "en": "flag it with the tutor",
+        "zh": "flag 表示提出、报告某问题"
+      },
+      {
+        "plain": "That's a good idea.",
+        "en": "Good call.",
+        "zh": "赞同别人决定的常用口语"
+      },
+      {
+        "plain": "What progress have we made?",
+        "en": "where are we at with",
+        "zh": "询问进度的地道说法"
+      },
+      {
+        "plain": "fix the small problems",
+        "en": "iron out the kinks",
+        "zh": "解决小毛病、理顺细节"
+      },
+      {
+        "plain": "do it without preparing",
+        "en": "wing it",
+        "zh": "临场发挥，不做准备"
+      }
+    ]
+  }
+}

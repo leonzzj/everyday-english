@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-19T06:55:19+11:00",
+  "updatedAt": "2026-10-20T06:54:37+11:00",
   "issues": [
+    {
+      "date": "2026-10-20",
+      "issueNo": 5,
+      "title": "Alberta's vote, the Amazon's record low and spyware in ads",
+      "headlines": [
+        "Alberta votes on whether to start leaving Canada",
+        "Amazon deforestation falls to its lowest level on record",
+        "Online ads used to target Australia's nuclear agency with spyware",
+        "Korean museum chief apologises over wrongly labelled calligraphy"
+      ]
+    },
     {
       "date": "2026-10-19",
       "issueNo": 4,
