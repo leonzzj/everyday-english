@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-19T02:56:27.431Z",
+ "updatedAt": "2026-10-19T19:07:53.279Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Why pregnancy is still costing women their jobs",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-pregnancy-is-still-costing-women-their-jobs/107275724",
-   "audio": "https://traffic.megaphone.fm/TECO5331950116.mp3",
-   "image": "",
-   "date": "2026-10-19",
+   "title": "Why an 'October surprise' won't save Trump",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-an-october-surprise-won-t-save-trump-/107282870",
+   "audio": "https://traffic.megaphone.fm/TECO7533720913.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/e0d04df4-cbcf-11f1-9332-df38f3412839/image/0bb7f94e7b59848ee66de7f914cecd1a.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-20",
    "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "They've been fired, demoted, and even offered sham redundancies.&nbsp; Decades after the Sex Discrimination Act was introduced, women across the country say they're being pushed out of the workforce&nbsp;for having kids&nbsp;under laws that haven't kept up…"
+   "desc": "From a press secretary who lasted just five days to a dramatic&nbsp;pivot to Putin, Donald Trump&nbsp;has unleashed a fresh wave of chaos inside the White House.&nbsp; So,&nbsp;with&nbsp;the US midterms looming, is he&nbsp;still holding out for…"
   },
   {
    "source": "Conversations",
@@ -20,25 +20,25 @@
    "title": "Anthony Scaramucci on Trump, getting fired and owning his mistakes",
    "url": "https://www.abc.net.au/listen/programs/conversations/anthony-scaramucci-latest-book-all-the-wrong-moves/107267990",
    "audio": "https://mediacore-live-production.akamaized.net/audio/02/pi/Z/kj.mp3",
-   "image": "https://live-production.wcms.abc-cdn.net.au/1c7cf0919afa3ffaccfcce8d0faa2b22.png?src",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1c7cf0919afa3ffaccfcce8d0faa2b22.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-10-19",
    "minutes": 45,
    "level": "C1",
    "accent": "AU",
-   "desc": "The Mooch on his childhood, his career before joining Donald Trump in 2016 and rebuilding his reputation after making a bad bet on the MAGA movement. Anthony grew up on Long Island, part of a large Italian-American community and far away from the world of…"
+   "desc": "Anthony “The Mooch” Scaramucci on his childhood, becoming a success on Wall Street and why backing Trump was a colossal error. Anthony grew up on Long Island, part of a large Italian-American community and far away from the world of money, power and…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: How to reclaim your narrative (w/ Monica Lewinsky) | from How to Be a Better Human",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acf9f12b3381b9dbb7c315b/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1791993237120-8bf9bf00-921f-447c-ab02-c0b4f49e7bbb.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-18",
-   "minutes": 55,
+   "title": "What if you could read the DNA of your future child? | Noor Siddiqui",
+   "url": "http://go.ted.com/noorsiddiqui",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa742b3381b9dbb7c315f/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-20",
+   "minutes": 15,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Monica Lewinsky is an anti-bullying activist and host of Reclaiming with Monica, a podcast that shines her guests’ unguarded conversations about how they make sense of the world. In this episode filmed in front of a live audience at TED 2026, Chris interviews…"
+   "desc": "For all of human history, a baby's DNA was determined by chance at conception: the so-called genetic lottery. \"That era is over,\" says Noor Siddiqui, whose company builds screening tools to read the whole genome of embryos in an effort to give parents more…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "How to be a (Roman) man",
-   "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+   "title": "Horrible, unmanly, indispensable",
+   "url": "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/2ac1e107-fd3a-4df1-9ecf-c703c8eea898/v7-dp328509.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-16",
+   "image": "https://images.aeonmedia.co/images/d5a13b73-fa43-4d25-a1ff-05f75220297e/essay-the_battle_of_pavia_1525_by_rupert_heller_-_nationalmuseum_stockholm.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-19",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Cicero’s ideal of manly virtue stressed the performance of self-control and bravery, not boastful egotism and domination - by Catharine Edwards Read on Aeon"
+   "desc": "Renaissance Italians saw the gun as the Devil’s work. But soon they embraced this unchivalrous – and necessary – weapon - by Catherine Fletcher Read on Aeon"
   }
  ]
 }
