@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-20T06:54:37+11:00",
+  "updatedAt": "2026-10-21T06:53:28+11:00",
   "issues": [
+    {
+      "date": "2026-10-21",
+      "issueNo": 6,
+      "title": "Ukraine's drone barrage, NAB's job cuts and OzAsia's farewell",
+      "headlines": [
+        "Ukraine launches more than 1,000 drones at Russia in one night",
+        "Scientists find why some people still can't taste food after COVID",
+        "NAB to cut up to 2,500 jobs as technology reshapes banking",
+        "Adelaide's OzAsia Festival bows out after 20 years"
+      ]
+    },
     {
       "date": "2026-10-20",
       "issueNo": 5,

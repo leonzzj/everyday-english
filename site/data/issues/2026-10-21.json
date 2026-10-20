@@ -1,0 +1,752 @@
+{
+  "date": "2026-10-21",
+  "issueNo": 6,
+  "title": "Ukraine's drone barrage, NAB's job cuts and OzAsia's farewell",
+  "createdAt": "2026-10-21T06:53:28+11:00",
+  "stories": [
+    {
+      "id": "ukraine-drone-strike",
+      "category": "World",
+      "headline": "Ukraine launches more than 1,000 drones at Russia in one night",
+      "headlineZh": "乌克兰一夜之间向俄罗斯发射逾千架无人机",
+      "summaryZh": "乌克兰发动战争以来最大规模空袭之一，圣彼得堡油库起火，美乌在制裁问题上分歧加深。",
+      "c1": "Ukraine has carried out one of the largest aerial assaults of the war, sending more than 1,000 drones into Russia overnight into Sunday. Russia's defence ministry claimed to have neutralised 1,015 of them across 15 regions, as well as over annexed Crimea and the Black Sea, but the sheer scale of the operation meant that a number inevitably got through. St Petersburg bore the brunt, with fires breaking out at an oil terminal, a fuel depot and industrial warehouses south of the city.\n\nAccording to the city's governor, Alexander Beglov, at least one person was killed and five were injured, while several homes were also damaged. Flights at the city's main airport, one of the busiest in the country, were restricted for safety reasons, and around 20,000 people in the surrounding Leningrad region were left without electricity. A logistics hub belonging to the online retailer Ozon also caught fire.\n\nThe strikes come at an awkward moment for relations between Kyiv and Washington. President Donald Trump has criticised Ukraine's attacks on Russian oil infrastructure and has held off imposing new sanctions on Moscow, arguing that they could drive Russia away from negotiations. Volodymyr Zelenskyy, for his part, has warned that easing the pressure would only strengthen Vladimir Putin's war effort, and has accused Russia of attacking Ukraine's energy sector 76 times in the week after Mr Trump announced an \"energy ceasefire\".\n\nRussia, meanwhile, shows no sign of scaling back its own campaign. Mr Zelenskyy said Moscow had fired nearly 2,700 attack drones and 66 missiles at Ukraine in a single week. With both sides targeting each other's energy supplies as winter approaches, a lasting settlement looks, if anything, more distant than before.",
+      "b2": "Ukraine has launched one of its biggest air attacks of the war, sending more than 1,000 drones into Russia overnight into Sunday. Russia's defence ministry said it stopped 1,015 drones over 15 regions, Crimea and the Black Sea. However, some drones still hit their targets. The city of St Petersburg was hit hardest, with fires at an oil terminal, a fuel depot and warehouses.\n\nThe city's governor said at least one person died and five were hurt. Some homes were also damaged. Flights at the main airport were limited for safety, and about 20,000 people in the Leningrad region lost power.\n\nThe attack has made relations between Ukraine and the US more difficult. President Donald Trump has criticised Ukraine for hitting Russian oil sites. He has also decided not to add new sanctions on Russia for now, saying they could stop Moscow from negotiating. Ukraine's president, Volodymyr Zelenskyy, disagrees. He says weaker pressure will only help Russia's war.\n\nRussia is also continuing its attacks. Mr Zelenskyy said Russia fired nearly 2,700 drones and 66 missiles at Ukraine in one week. With both sides hitting energy supplies before winter, peace seems further away.",
+      "vocab": [
+        {
+          "word": "aerial assault",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "空中袭击",
+          "en": "an attack carried out from the air",
+          "example": "The town was evacuated after warnings of a possible aerial assault.",
+          "forms": [
+            "aerial assaults"
+          ]
+        },
+        {
+          "word": "sheer scale",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "规模之大",
+          "en": "the very large size of something, emphasised",
+          "example": "The sheer scale of the clean-up surprised even the volunteers."
+        },
+        {
+          "word": "bear the brunt",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "首当其冲",
+          "en": "to suffer the worst part of something unpleasant",
+          "example": "Small businesses usually bear the brunt of a sudden rise in energy prices.",
+          "forms": [
+            "bore the brunt"
+          ]
+        },
+        {
+          "word": "hold off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "推迟；暂缓",
+          "en": "to delay doing something",
+          "example": "We held off booking the flights until the prices dropped.",
+          "forms": [
+            "held off"
+          ]
+        },
+        {
+          "word": "awkward moment",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尴尬的时刻；不合时宜之时",
+          "en": "a time when something causes difficulty or embarrassment",
+          "example": "The resignation came at an awkward moment for the government."
+        },
+        {
+          "word": "for his part",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "就他而言",
+          "en": "used to introduce one person's view or action in contrast to another's",
+          "example": "The manager praised the plan; the director, for his part, remained unconvinced."
+        },
+        {
+          "word": "scale back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "缩减；缩小规模",
+          "en": "to reduce the size or extent of something",
+          "example": "The council has scaled back its plans because of budget cuts.",
+          "forms": [
+            "scaling back"
+          ]
+        },
+        {
+          "word": "lasting settlement",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "持久的和解协议",
+          "en": "an agreement that ends a conflict for a long time",
+          "example": "Both sides say they want a lasting settlement, but neither will compromise."
+        },
+        {
+          "word": "inevitably",
+          "pos": "adv.",
+          "ipa": "/ɪnˈevɪtəbli/",
+          "zh": "不可避免地",
+          "en": "in a way that cannot be avoided",
+          "example": "Moving house inevitably involves a bit of stress."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Russia said it had neutralised more than 1,000 Ukrainian drones.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说俄国防部 \"claimed to have neutralised 1,015 of them\"，超过1000架，因此为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "St Petersburg's main airport was closed for the whole of Sunday.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说航班 \"were restricted for safety reasons\"，并未说明是否整天关闭，因此为Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "President Trump has recently introduced new sanctions on Russia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说特朗普 \"has held off imposing new sanctions on Moscow\"，即暂缓制裁，与题干相矛盾，因此为False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the writer suggest in the final paragraph?",
+          "options": [
+            "Russia is reducing its attacks on Ukraine.",
+            "A peace deal now seems less likely than before.",
+            "Winter will force both sides to stop fighting.",
+            "Ukraine has run out of drones."
+          ],
+          "answer": 1,
+          "explain": "最后一段说 \"a lasting settlement looks, if anything, more distant than before\"，即和平协议更遥远，故选B。"
+        }
+      ],
+      "discuss": "Why do you think attacks on energy supplies have become so central to this war? Do you think they make a peace agreement more or less likely?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+        }
+      ]
+    },
+    {
+      "id": "long-covid-taste",
+      "category": "Health",
+      "headline": "Scientists find why some people still can't taste food after COVID",
+      "headlineZh": "科学家揭示部分人新冠后长期味觉受损的原因",
+      "summaryZh": "一项小型研究发现，长期味觉障碍者的味蕾中一种放大信号的蛋白质水平偏低。",
+      "c1": "For most people who lose their sense of taste during a bout of COVID-19, the problem clears up within weeks or months. For a small minority, however, food can remain strangely flat for more than a year. A new study published in the journal Chemical Senses offers what its authors describe as measurable evidence of why this happens, pointing to changes deep inside the taste buds themselves.\n\nResearchers from the University of Colorado Anschutz and several Swedish institutions examined 28 people whose taste problems had persisted for over a year after infection, none of whom had been admitted to hospital. Eight had clearly abnormal results on taste tests, and eleven reported particular difficulty detecting sweet, bitter and savoury, or umami, flavours. Salty and sour tastes, by contrast, were largely unaffected.\n\nWhen the team analysed taste bud tissue from 20 of the participants, they found reduced levels of the genetic instructions for a protein called PLCβ2. This protein amplifies the signals from sweet, bitter and umami cells before they reach the brain, whereas salty and sour cells rely on different mechanisms, which may well account for the pattern. The corresponding author, Thomas Finger, likened it to \"a molecular amplifier inside taste cells\". Some participants also had disorganised taste buds, while others appeared normal.\n\nThe findings are intriguing, not least because taste cells are normally replaced every two to four weeks, implying that the disruption somehow outlasts the cells themselves. Nevertheless, the sample was small and the results should be treated as preliminary. It remains unclear whether the damage can be reversed, or whether treatments that restore healthy signalling might one day help patients regain their enjoyment of food.",
+      "b2": "Most people who lose their sense of taste because of COVID-19 get it back within weeks or months. But for a small number of people, food can taste strange or flat for more than a year. A new study in the journal Chemical Senses may help explain why.\n\nResearchers from the University of Colorado Anschutz and universities in Sweden studied 28 people who still had taste problems more than a year after infection. None of them had been in hospital. Eight had clearly abnormal taste test results. Eleven said they had trouble tasting sweet, bitter and savoury, or umami, flavours. Salty and sour tastes were mostly fine.\n\nThe team looked at taste bud tissue from 20 participants. They found low levels of the genetic instructions for a protein called PLCβ2. This protein makes signals from sweet, bitter and umami cells stronger. Salty and sour cells work differently, which may explain the pattern. Some people's taste buds also looked disorganised.\n\nThis is surprising, because taste cells are usually replaced every two to four weeks. However, the study was small, so the results are early. Scientists still do not know if the damage can be fixed.",
+      "vocab": [
+        {
+          "word": "a bout of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一阵（疾病）；一次发作",
+          "en": "a short period of illness",
+          "example": "She missed a week of work after a nasty bout of flu."
+        },
+        {
+          "word": "clear up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（病情）好转、消失",
+          "en": "(of an illness) to go away",
+          "example": "Your cough should clear up in a few days if you rest.",
+          "forms": [
+            "clears up"
+          ]
+        },
+        {
+          "word": "persist",
+          "pos": "v.",
+          "ipa": "/pəˈsɪst/",
+          "zh": "持续存在",
+          "en": "to continue to exist for longer than expected",
+          "example": "If the pain persists, you should see a doctor.",
+          "forms": [
+            "persisted"
+          ]
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show a clear difference between two things",
+          "example": "Sydney was wet all week; Melbourne, by contrast, stayed dry."
+        },
+        {
+          "word": "account for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "解释；说明……的原因",
+          "en": "to explain the reason for something",
+          "example": "Poor sleep may account for her lack of concentration."
+        },
+        {
+          "word": "liken to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……比作",
+          "en": "to say that something is similar to something else",
+          "example": "He likened starting a business to raising a child.",
+          "forms": [
+            "likened it to"
+          ]
+        },
+        {
+          "word": "not least because",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尤其是因为",
+          "en": "used to give an important reason among others",
+          "example": "The plan is popular, not least because it will save families money."
+        },
+        {
+          "word": "outlast",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈlɑːst/",
+          "zh": "比……持续得更久",
+          "en": "to continue to exist longer than something else",
+          "example": "Good habits often outlast the motivation that started them.",
+          "forms": [
+            "outlasts"
+          ]
+        },
+        {
+          "word": "preliminary",
+          "pos": "adj.",
+          "ipa": "/prɪˈlɪmɪnəri/",
+          "zh": "初步的",
+          "en": "happening before a more complete version; early",
+          "example": "Preliminary figures suggest that sales have improved."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All participants in the study had been treated in hospital for COVID-19.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"none of whom had been admitted to hospital\"，与题干相反，因此为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Participants mainly struggled to detect sweet, bitter and umami flavours.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中提到 \"difficulty detecting sweet, bitter and savoury, or umami, flavours\"，而咸和酸 \"largely unaffected\"，因此为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers plan to test a new treatment on the participants next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说 \"It remains unclear whether ... treatments ... might one day help\"，未提及明年的试验计划，因此为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the writer find the results 'intriguing'?",
+          "options": [
+            "Because the study involved a very large number of people.",
+            "Because salty tastes were affected more than sweet ones.",
+            "Because the problem continues even though taste cells are regularly replaced.",
+            "Because the damage has already been shown to be reversible."
+          ],
+          "answer": 2,
+          "explain": "文中说味觉细胞 \"normally replaced every two to four weeks, implying that the disruption somehow outlasts the cells themselves\"，故选C。"
+        }
+      ],
+      "discuss": "Why do you think long-term effects of illnesses like COVID-19 often receive less attention than the illness itself? Should governments fund more research into them?",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "http://www.sciencedaily.com/releases/2026/10/261018205033.htm"
+        }
+      ]
+    },
+    {
+      "id": "nab-job-cuts",
+      "category": "Business",
+      "headline": "NAB to cut up to 2,500 jobs as technology reshapes banking",
+      "headlineZh": "澳大利亚国民银行拟裁员至多2500人",
+      "summaryZh": "NAB称将在2027年中前裁员约6%，工会痛批时机恶劣，外界追问人工智能的作用。",
+      "c1": "National Australia Bank has announced that it will shed up to 2,500 jobs, or roughly 6 per cent of its workforce, by the middle of 2027. As many as 1,500 of those roles are expected to go before the end of this year, with the remainder falling in the following financial year. The news did little to reassure investors, and the bank's shares fell after the announcement.\n\nAccording to NAB, the cuts will be concentrated in corporate functions and senior management, while customer-facing staff will be largely spared. The bank also intends to rely less heavily on consultants and contractors. It has put the cost of the overhaul at around $300 million before tax, and has attributed the decision to fierce competition, a challenging economy and \"rapid technological change\".\n\nThat last phrase has attracted particular scrutiny. Although the bank's statement to the stock exchange reportedly makes no mention of artificial intelligence, chief executive Andrew Irvine had previously suggested that AI would leave the bank with a lower headcount in operational work. NSW Senator Tony Sheldon has called on NAB to be transparent about how far technology drove the cuts, and a governance expert at Swinburne University, Helen Bird, has made a similar demand.\n\nThe Finance Sector Union was scathing, branding the timing of the announcement, so close to Christmas, disgraceful. Whatever the precise role of AI turns out to be, the episode is likely to fuel a broader debate about how the gains from automation are shared, and whether workers in white-collar industries are being given a fair hearing as their jobs are redesigned.",
+      "b2": "National Australia Bank (NAB) says it will cut up to 2,500 jobs by the middle of 2027. That is about 6 per cent of its staff. Up to 1,500 jobs could go before the end of this year, and the rest will follow in the next financial year. The bank's shares fell after the news.\n\nNAB says most of the cuts will be in corporate roles and senior management. Staff who deal directly with customers will mostly keep their jobs. The bank will also use fewer consultants and contractors. The changes will cost about $300 million before tax. NAB says the reasons are strong competition, a difficult economy and \"rapid technological change\".\n\nMany people want to know if this means artificial intelligence. The bank's official statement reportedly did not mention AI. However, its chief executive, Andrew Irvine, had said earlier that AI would mean fewer workers in some areas. Senator Tony Sheldon and a Swinburne University expert have asked NAB to be honest about the role of technology.\n\nThe Finance Sector Union said cutting jobs so close to Christmas was disgraceful. The news is likely to increase debate about how automation affects office workers.",
+      "vocab": [
+        {
+          "word": "shed jobs",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "裁员",
+          "en": "to reduce the number of workers",
+          "example": "The factory shed hundreds of jobs when demand collapsed.",
+          "forms": [
+            "shed up to 2,500 jobs"
+          ]
+        },
+        {
+          "word": "do little to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "几乎无助于",
+          "en": "to have very little effect in achieving something",
+          "example": "The apology did little to calm the angry customers.",
+          "forms": [
+            "did little to"
+          ]
+        },
+        {
+          "word": "be largely spared",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "基本未受影响",
+          "en": "to mostly avoid harm or loss",
+          "example": "The coastal towns were largely spared when the storm changed direction.",
+          "forms": [
+            "be largely spared"
+          ]
+        },
+        {
+          "word": "overhaul",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəhɔːl/",
+          "zh": "全面改革；彻底整顿",
+          "en": "a complete change to improve a system",
+          "example": "Experts say the tax system needs a major overhaul."
+        },
+        {
+          "word": "attribute to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "to say that something is caused by something else",
+          "example": "She attributes her success to hard work and good luck.",
+          "forms": [
+            "attributed the decision to"
+          ]
+        },
+        {
+          "word": "attract scrutiny",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引起审视；受到关注",
+          "en": "to cause people to examine something carefully",
+          "example": "The minister's travel expenses have attracted scrutiny from journalists.",
+          "forms": [
+            "attracted particular scrutiny"
+          ]
+        },
+        {
+          "word": "scathing",
+          "pos": "adj.",
+          "ipa": "/ˈskeɪðɪŋ/",
+          "zh": "严厉批评的；尖刻的",
+          "en": "extremely critical",
+          "example": "The film received a scathing review in the local paper."
+        },
+        {
+          "word": "fuel a debate",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发/加剧讨论",
+          "en": "to make a discussion more intense",
+          "example": "The report has fuelled a debate about housing affordability.",
+          "forms": [
+            "fuel a broader debate"
+          ]
+        },
+        {
+          "word": "a fair hearing",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "公平陈述的机会",
+          "en": "a chance to explain your side before a decision is made",
+          "example": "Every employee deserves a fair hearing before being dismissed."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "NAB says most of the job cuts will affect staff who deal directly with customers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"customer-facing staff will be largely spared\"，与题干相反，因此为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "NAB's statement to the stock exchange reportedly did not mention artificial intelligence.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说声明 \"reportedly makes no mention of artificial intelligence\"，因此为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Finance Sector Union is planning strike action in response to the cuts.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说工会 \"was scathing\" 并称时机 \"disgraceful\"，未提及罢工计划，因此为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which reason did NAB itself give for the restructure?",
+          "options": [
+            "A shortage of skilled workers",
+            "Rapid technological change",
+            "New government regulations",
+            "A fall in customer numbers"
+          ],
+          "answer": 1,
+          "explain": "NAB将决定归因于 \"fierce competition, a challenging economy and 'rapid technological change'\"，故选B。"
+        }
+      ],
+      "discuss": "Why do you think companies are often reluctant to say that AI is replacing jobs? How should the benefits of automation be shared with workers?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316"
+        },
+        {
+          "name": "ABC News (business live blog)",
+          "url": "https://www.abc.net.au/news/2026-10-20/asx-markets-business-live-news-october-20-2026/107283924"
+        }
+      ]
+    },
+    {
+      "id": "ozasia-final-festival",
+      "category": "Culture",
+      "headline": "Adelaide's OzAsia Festival bows out after 20 years",
+      "headlineZh": "阿德莱德OzAsia艺术节办满20年后落幕",
+      "summaryZh": "展示亚洲及亚裔澳洲艺术的OzAsia迎来最后一届，主办方改为全年节目，引发争议。",
+      "c1": "After two decades as Australia's leading showcase of Asian and Asian-Australian art, Adelaide's OzAsia Festival is staging its final edition. The 2026 program, which runs from 9 October to 1 November, has been made entirely free, a gesture that has been welcomed by audiences but has done little to soften the disappointment felt by many artists and community members.\n\nSince its launch in 2007, the festival has brought together theatre, music, literature and public debate, and has drawn more than 200,000 people in recent years. Under directors including Annette Shun Wah and, more recently, Joon-Yee Kwok, it also became a platform for nurturing emerging talent, notably through an artist lab that offered mentoring and connections with local arts organisations.\n\nThe Adelaide Festival Centre, which presents the event, insists that the decision is strategic rather than a retreat. Its chief executive, Kate Gould, has argued that a single dedicated festival does not reflect Asian artists' wish for a year-round presence at the centre, and Asian and Asian-Australian work will instead be woven into its regular program from 2027. The popular Lucky Dumpling Market will also return each spring.\n\nCritics, however, are unconvinced. Writing in The Conversation, one researcher warned that scattered programming cannot replicate the concentrated visibility that a festival provides, particularly at a time of rising anti-Asian sentiment. Others have questioned who will shape these stories once the festival's Asian-Australian leadership is gone. Coming after the end of the Adelaide Guitar Festival, the closure has also raised awkward questions for a city that proudly markets itself as Australia's festival capital.",
+      "b2": "For 20 years, Adelaide's OzAsia Festival has been Australia's main event for Asian and Asian-Australian art. Now it is holding its last festival. This year's program runs from 9 October to 1 November, and every event is free. Audiences are happy about this, but many artists and community members are still disappointed.\n\nThe festival started in 2007. It has included theatre, music, books and public talks, and more than 200,000 people have attended in recent years. It also helped young artists by giving them mentoring and links to local arts groups.\n\nThe Adelaide Festival Centre runs the event. Its chief executive, Kate Gould, says the decision is part of a plan. She says Asian artists want to be part of the centre all year, not only during one festival. From 2027, their work will be included in the centre's normal program. The Lucky Dumpling Market will also continue every spring.\n\nNot everyone agrees. One researcher wrote that a festival gives artists a strong, visible platform that regular events cannot. Some people also worry about who will make decisions in future. Adelaide calls itself Australia's festival capital, so losing another festival has surprised many.",
+      "vocab": [
+        {
+          "word": "showcase",
+          "pos": "n.",
+          "ipa": "/ˈʃəʊkeɪs/",
+          "zh": "展示平台；橱窗",
+          "en": "an event or place that presents something in an attractive way",
+          "example": "The fair is a showcase for young designers from across the state."
+        },
+        {
+          "word": "stage",
+          "pos": "v.",
+          "ipa": "/steɪdʒ/",
+          "zh": "举办；上演",
+          "en": "to organise and present an event",
+          "example": "The town staged a huge concert to celebrate its anniversary.",
+          "forms": [
+            "staging"
+          ]
+        },
+        {
+          "word": "soften the disappointment",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "减轻失望",
+          "en": "to make a feeling of disappointment less strong",
+          "example": "A small bonus helped soften the disappointment of not getting the promotion."
+        },
+        {
+          "word": "nurture",
+          "pos": "v.",
+          "ipa": "/ˈnɜːtʃə/",
+          "zh": "培养；扶植",
+          "en": "to help someone or something develop",
+          "example": "Good teachers nurture curiosity rather than just testing knowledge.",
+          "forms": [
+            "nurturing"
+          ]
+        },
+        {
+          "word": "emerging talent",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "新兴人才；新秀",
+          "en": "people who are new and beginning to become successful",
+          "example": "The prize is designed to support emerging talent in Australian film."
+        },
+        {
+          "word": "be woven into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "融入；编织进",
+          "en": "to be included as a natural part of something",
+          "example": "Local history is woven into every part of the tour.",
+          "forms": [
+            "be woven into"
+          ]
+        },
+        {
+          "word": "unconvinced",
+          "pos": "adj.",
+          "ipa": "/ˌʌnkənˈvɪnst/",
+          "zh": "不信服的",
+          "en": "not believing that something is true or right",
+          "example": "Many voters remain unconvinced by the new policy."
+        },
+        {
+          "word": "replicate",
+          "pos": "v.",
+          "ipa": "/ˈreplɪkeɪt/",
+          "zh": "复制；再现",
+          "en": "to make or do something again in the same way",
+          "example": "It's hard to replicate the atmosphere of a live gig at home."
+        },
+        {
+          "word": "raise questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发疑问",
+          "en": "to make people want to ask about or doubt something",
+          "example": "The delays have raised questions about the project's budget.",
+          "forms": [
+            "raised awkward questions"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Tickets for the final OzAsia Festival are more expensive than in previous years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说今年节目 \"has been made entirely free\"，与题干矛盾，因此为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Lucky Dumpling Market will continue after the festival ends.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"The popular Lucky Dumpling Market will also return each spring\"，因此为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Kate Gould will leave the Adelaide Festival Centre in 2027.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到2027年起亚洲作品 \"woven into its regular program\"，并未提及Kate Gould是否离任，因此为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is the critics' main concern?",
+          "options": [
+            "The festival has become too commercial.",
+            "Year-round events may not give Asian-Australian artists the same visibility.",
+            "The festival should move to Melbourne.",
+            "Free events will attract too many people."
+          ],
+          "answer": 1,
+          "explain": "批评者认为 \"scattered programming cannot replicate the concentrated visibility that a festival provides\"，故选B。"
+        }
+      ],
+      "discuss": "Why do you think dedicated cultural festivals matter to minority communities? Is year-round inclusion a better long-term approach, or does something get lost?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-20/ozasia-final-festival-legacy/107282856"
+        },
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/ozasia-festival-to-end-after-20-years-in-a-huge-blow-for-asian-australian-art-and-culture-290342"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Interview Nerves",
+    "titleZh": "面试前的紧张",
+    "setting": "The night before a job interview, Mia's friend Ravi helps her practise in her Brunswick flat.",
+    "settingZh": "面试前一晚，米娅的朋友拉维在她位于布伦瑞克的公寓里帮她练习。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Thanks for coming over. My interview's at ten tomorrow and I'm a bit of a wreck.",
+        "zh": "谢谢你过来。我的面试在明天十点，我现在有点紧张得不行。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "No worries. Put the kettle on and we'll run through a few questions.",
+        "zh": "没事。去烧壶水，我们来过几道题。"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Okay. Hit me with the one I'm dreading: tell me about yourself.",
+        "zh": "好。先来我最怕的那题吧：介绍一下你自己。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "Go on, then. Keep it under two minutes and don't recite your whole CV.",
+        "zh": "那开始吧。控制在两分钟以内，别把整份简历背一遍。"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Right. I've spent three years in customer support, and I'm keen to move into data.",
+        "zh": "好。我做了三年客服，现在很想转去做数据方面的工作。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "Not bad, but say why. What actually sparked your interest in data?",
+        "zh": "还行，但要说为什么。到底是什么激发了你对数据的兴趣？"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Honestly, I started building little dashboards to track complaints, and I got hooked.",
+        "zh": "老实说，我开始做一些小仪表盘来追踪投诉，然后就上瘾了。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "That's gold. Lead with that story — it shows you've already got your hands dirty.",
+        "zh": "这个太好了。用这个故事开头，说明你已经实际动手干过了。"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "What if they ask about the gap year? I don't want it to sound like I was slacking off.",
+        "zh": "要是他们问到我的空档年怎么办？我不想听起来像是在偷懒。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "Just own it. You travelled, you did that online course — frame it as time well spent.",
+        "zh": "大方承认就好。你去旅行了，还上了那门网课——把它说成是有意义的时间。"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Fair point. And with all these banks cutting jobs, should I ask about job security?",
+        "zh": "有道理。现在这么多银行在裁员，我该问问工作稳定性吗？"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "Maybe word it as, 'How do you see the team changing over the next few years?'",
+        "zh": "可以换个说法：'您觉得未来几年团队会有怎样的变化？'"
+      },
+      {
+        "s": "A",
+        "name": "Mia",
+        "en": "Ooh, that's much smoother. Okay, I reckon I'm feeling a bit less rattled now.",
+        "zh": "哦，这样说顺多了。好，我觉得现在没那么慌了。"
+      },
+      {
+        "s": "B",
+        "name": "Ravi",
+        "en": "Good. Get a decent night's sleep and you'll smash it. Text me afterwards!",
+        "zh": "很好。今晚好好睡一觉，你肯定能搞定。结束后给我发消息！"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I'm very nervous",
+        "en": "I'm a bit of a wreck",
+        "zh": "紧张/状态很糟（口语）"
+      },
+      {
+        "plain": "let's practise",
+        "en": "we'll run through a few questions",
+        "zh": "run through：过一遍、演练"
+      },
+      {
+        "plain": "ask me the question I'm afraid of",
+        "en": "Hit me with the one I'm dreading",
+        "zh": "hit me with：尽管问/说吧"
+      },
+      {
+        "plain": "what made you interested",
+        "en": "What actually sparked your interest",
+        "zh": "spark one's interest：激发兴趣"
+      },
+      {
+        "plain": "I liked it very much",
+        "en": "I got hooked",
+        "zh": "着迷、上瘾"
+      },
+      {
+        "plain": "you have practical experience",
+        "en": "you've already got your hands dirty",
+        "zh": "get your hands dirty：亲自动手做实事"
+      },
+      {
+        "plain": "admit it confidently",
+        "en": "Just own it",
+        "zh": "坦然承认、不回避"
+      },
+      {
+        "plain": "you will do very well",
+        "en": "you'll smash it",
+        "zh": "smash it：干得漂亮（澳英口语）"
+      }
+    ]
+  }
+}
