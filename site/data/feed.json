@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-20T02:57:04.585Z",
+ "updatedAt": "2026-10-20T19:07:56.472Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Why an 'October surprise' won't save Trump",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-an-october-surprise-won-t-save-trump-/107282870",
-   "audio": "https://traffic.megaphone.fm/TECO7533720913.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/e0d04df4-cbcf-11f1-9332-df38f3412839/image/0bb7f94e7b59848ee66de7f914cecd1a.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "title": "Helen Haines loses leg in horror attack",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/helen-haines-loses-leg-in-horror-attack/107288010",
+   "audio": "https://traffic.megaphone.fm/TECO5886062146.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/7476dcc6-cc34-11f1-91c9-d3107b383277/image/3efe043f990255cc4c6f23b3b299b3da.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
    "date": "2026-10-20",
-   "minutes": 16,
+   "minutes": 19,
    "level": "C1",
    "accent": "AU",
-   "desc": "From a press secretary who lasted just five days to a dramatic&nbsp;pivot to Putin, Donald Trump&nbsp;has unleashed a fresh wave of chaos inside the White House.&nbsp; So,&nbsp;with&nbsp;the US midterms looming, is he&nbsp;still holding out for…"
+   "desc": "On Monday afternoon, Victorian man Brendan Nugent, 43, allegedly used a white Toyota LandCruiser to strike independent MP Helen Haines twice.&nbsp;&nbsp; The 65-year-old member for Indi in regional Victoria is in critical condition with devastating injuries.…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "What if you could read the DNA of your future child? | Noor Siddiqui",
-   "url": "http://go.ted.com/noorsiddiqui",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa742b3381b9dbb7c315f/media.mp3",
+   "title": "Why the best learners talk to themselves | Tania Lombrozo",
+   "url": "http://go.ted.com/tanialombrozo",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad77fd358c0e97ce0c32f31/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-20",
-   "minutes": 15,
+   "date": "2026-10-21",
+   "minutes": 19,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "For all of human history, a baby's DNA was determined by chance at conception: the so-called genetic lottery. \"That era is over,\" says Noor Siddiqui, whose company builds screening tools to read the whole genome of embryos in an effort to give parents more…"
+   "desc": "With more information at our fingertips than ever before, learning should be getting easier ... yet the opposite seems to be true, says cognitive scientist Tania Lombrozo. Drawing on her research into how our minds understand and reason, she explores why more…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Horrible, unmanly, indispensable",
-   "url": "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias",
+   "title": "How intuitions work",
+   "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/d5a13b73-fa43-4d25-a1ff-05f75220297e/essay-the_battle_of_pavia_1525_by_rupert_heller_-_nationalmuseum_stockholm.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-19",
+   "image": "https://images.aeonmedia.co/images/ebbfc9dd-2883-4780-837a-43887f0fbdb5/pessay-ar211874.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-20",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Renaissance Italians saw the gun as the Devil’s work. But soon they embraced this unchivalrous – and necessary – weapon - by Catherine Fletcher Read on Aeon"
+   "desc": "Just as seeing a tree gives you reason to believe it’s there, sensing that a stranger is creepy gives you reason to walk away - by Marc A Moffett Read on Aeon"
   }
  ]
 }
