@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-21T02:57:26.642Z",
+ "updatedAt": "2026-10-21T19:08:22.981Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Helen Haines loses leg in horror attack",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/helen-haines-loses-leg-in-horror-attack/107288010",
-   "audio": "https://traffic.megaphone.fm/TECO5886062146.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/7476dcc6-cc34-11f1-91c9-d3107b383277/image/3efe043f990255cc4c6f23b3b299b3da.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-20",
-   "minutes": 19,
+   "title": "Will the Helen Haines attack stop hateful politics?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-the-helen-haines-attack-stop-hateful-politics/107292712",
+   "audio": "https://traffic.megaphone.fm/TECO4707850058.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/011cf986-cd06-11f1-804c-2f3de71cc391/image/a96c49ed1950fce00e58ac8d795ac5c1.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-21",
+   "minutes": 20,
    "level": "C1",
    "accent": "AU",
-   "desc": "On Monday afternoon, Victorian man Brendan Nugent, 43, allegedly used a white Toyota LandCruiser to strike independent MP Helen Haines twice.&nbsp;&nbsp; The 65-year-old member for Indi in regional Victoria is in critical condition with devastating injuries.…"
+   "desc": "Brendan Nugent, the 43-year-old Victorian man accused of ramming his LandCruiser into&nbsp;Independent MP Helen Haines, has appeared in court today on five charges.&nbsp; Authorities say they&nbsp;are still working to determine an alleged motive.&nbsp;&nbsp…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Why the best learners talk to themselves | Tania Lombrozo",
-   "url": "http://go.ted.com/tanialombrozo",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad77fd358c0e97ce0c32f31/media.mp3",
+   "title": "How would you design your dream city? | James Rojas",
+   "url": "http://go.ted.com/jamesrojas",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad8c44bc3737ccbbdc0fece/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-21",
-   "minutes": 19,
+   "date": "2026-10-22",
+   "minutes": 15,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "With more information at our fingertips than ever before, learning should be getting easier ... yet the opposite seems to be true, says cognitive scientist Tania Lombrozo. Drawing on her research into how our minds understand and reason, she explores why more…"
+   "desc": "Urban planner James Rojas has led hundreds of workshops where participants creatively design their ideal communities with small objects — and he's noticed that people of every age, income and background build strikingly similar places. Through play and…"
   },
   {
    "source": "SBS Learn English",
