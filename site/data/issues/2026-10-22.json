@@ -1,0 +1,736 @@
+{
+  "date": "2026-10-22",
+  "issueNo": 7,
+  "title": "A new defence pact, NextDC's power problem and WA's university merger",
+  "createdAt": "2026-10-22T06:49:00+11:00",
+  "stories": [
+    {
+      "id": "badr-defence-pact",
+      "category": "World",
+      "headline": "Qatar, Türkiye, Pakistan and Indonesia sign defence industry pact",
+      "headlineZh": "卡塔尔、土耳其、巴基斯坦和印尼签署国防工业合作协议",
+      "summaryZh": "四国在多哈签署“巴德尔”谅解备忘录，深化武器联合生产与研发合作，背景是中东战事持续。",
+      "c1": "Four countries stretching from the Gulf to Southeast Asia have agreed to pool their efforts in weapons manufacturing. On Wednesday, Qatar, Türkiye, Pakistan and Indonesia signed a memorandum of understanding in Doha, dubbed the \"Badr\" agreement, which commits them to closer cooperation in defence production, technical training, and research and development.\n\nRather than starting from scratch, the deal builds on projects already under way. Pakistan and Türkiye are jointly constructing four naval ships, two in Istanbul and two in Karachi, while Indonesia and Türkiye are developing a tank together. Analysts suggest each partner brings something different to the table: Türkiye offers a mature defence industry and technological know-how, Pakistan and Indonesia contribute manufacturing capacity and large domestic markets, and Qatar provides investment. Shifting part of production to Pakistan and Indonesia could lower costs for Turkish firms while creating jobs locally.\n\nThe timing is hardly coincidental. The agreement comes amid a prolonged US-Israel war with Iran, the failure of US-Iran talks to produce a peace deal and recent Houthi attacks on Saudi Arabia. Reported shortages of American weapons may also be adding urgency, and experts argue that recent conflicts have exposed the risks of depending too heavily on foreign suppliers.\n\nEven so, observers caution against reading too much into the pact. It concerns industrial cooperation rather than a pledge of mutual defence, and one analyst stressed that Türkiye wants greater technological independence \"within NATO, not autonomy from it\". Arguably, the more significant shift is a gradual one: a loose network of security ties linking the Gulf with South and Southeast Asia, which may prove more resilient than any single formal alliance.",
+      "b2": "Four countries have agreed to work more closely on making weapons. On Wednesday, Qatar, Türkiye, Pakistan and Indonesia signed an agreement in Doha called the \"Badr\" agreement. It covers defence production, technical training, and research and development.\n\nThe deal builds on projects that already exist. Pakistan and Türkiye are building four navy ships together, and Indonesia and Türkiye are developing a tank. Experts say each country adds something useful. Türkiye has a strong defence industry and technical skills. Pakistan and Indonesia have factories, workers and big home markets. Qatar has money to invest.\n\nThe agreement comes at a tense time. There is a long US-Israel war with Iran, US-Iran talks have failed to produce a peace deal, and the Houthis have recently attacked Saudi Arabia. There are also reports of shortages of American weapons. Experts say recent wars have shown that relying on foreign suppliers can be risky.\n\nHowever, the agreement is about industry, not a promise to defend each other. One expert said Türkiye wants more technological independence inside NATO, not a break from it. Some analysts believe the bigger change is slow but important: a growing network of security links between the Gulf and South and Southeast Asia.",
+      "vocab": [
+        {
+          "word": "pool your efforts",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "齐心协力；联合力量",
+          "en": "to combine work or resources with others to achieve something",
+          "example": "The neighbours pooled their efforts to clean up the local park.",
+          "forms": [
+            "pool their efforts"
+          ]
+        },
+        {
+          "word": "start from scratch",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "从零开始",
+          "en": "to begin something completely new, without using anything that exists",
+          "example": "The files were lost, so we had to start from scratch.",
+          "forms": [
+            "starting from scratch"
+          ]
+        },
+        {
+          "word": "under way",
+          "pos": "adv.",
+          "ipa": "",
+          "zh": "正在进行中",
+          "en": "already happening or in progress",
+          "example": "Repairs to the bridge are already under way."
+        },
+        {
+          "word": "bring something to the table",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "贡献（技能、资源等）",
+          "en": "to offer something useful in a partnership or discussion",
+          "example": "She brings years of design experience to the table.",
+          "forms": [
+            "brings something different to the table"
+          ]
+        },
+        {
+          "word": "know-how",
+          "pos": "n.",
+          "ipa": "/ˈnəʊhaʊ/",
+          "zh": "专门知识；技能",
+          "en": "practical knowledge of how to do something",
+          "example": "Setting up a small business takes a lot of financial know-how."
+        },
+        {
+          "word": "hardly coincidental",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝非巧合",
+          "en": "clearly not happening by chance",
+          "example": "The price rise just before the holidays was hardly coincidental."
+        },
+        {
+          "word": "add urgency",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "增加紧迫性",
+          "en": "to make something seem more important to deal with quickly",
+          "example": "The heatwave has added urgency to calls for more shade trees.",
+          "forms": [
+            "adding urgency"
+          ]
+        },
+        {
+          "word": "read too much into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "过度解读",
+          "en": "to believe something has more meaning than it really has",
+          "example": "Don't read too much into his short reply; he's just busy.",
+          "forms": [
+            "reading too much into"
+          ]
+        },
+        {
+          "word": "arguably",
+          "pos": "adv.",
+          "ipa": "/ˈɑːɡjuəbli/",
+          "zh": "可以说；按理说",
+          "en": "used when giving an opinion you believe can be supported",
+          "example": "It's arguably the best café in the neighbourhood."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The Badr agreement was signed in Istanbul.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说协议是 \"signed a memorandum of understanding in Doha\"，签署地是多哈，伊斯坦布尔只是造船地点之一。"
+        },
+        {
+          "type": "tfng",
+          "q": "Indonesia and Türkiye are already working together on a tank.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文提到 \"Indonesia and Türkiye are developing a tank together\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "The agreement states exactly how much money Qatar will invest.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。原文只说卡塔尔 \"provides investment\"，没有给出任何具体金额。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, what does the agreement NOT include?",
+          "options": [
+            "Technical training",
+            "Research and development",
+            "A pledge to defend each other",
+            "Cooperation in defence production"
+          ],
+          "answer": 2,
+          "explain": "原文明确说该协议 \"concerns industrial cooperation rather than a pledge of mutual defence\"，因此不包括共同防御承诺。"
+        }
+      ],
+      "discuss": "Why do you think countries increasingly want to make their own weapons rather than buy them from abroad? Could this make the world safer or more dangerous?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties"
+        }
+      ]
+    },
+    {
+      "id": "postpartum-psychosis",
+      "category": "Health",
+      "headline": "New mothers with postpartum psychosis ask for help seven times on average",
+      "headlineZh": "研究：产后精神病母亲平均求助七次才获救治",
+      "summaryZh": "弗林德斯大学研究发现，产后精神病患者常被忽视，平均求助七次才得到适当护理。",
+      "c1": "Women who develop postpartum psychosis often have to ask for help repeatedly before anyone takes them seriously, according to Australian research published this week. A team at Flinders University, led by provisional psychologist Donna McMahon, interviewed 15 women diagnosed with the condition and found they had contacted health services an average of seven times before receiving appropriate care, with some reaching out as many as 27 times.\n\nPostpartum psychosis is rare, affecting roughly one or two in every 1,000 new mothers, but it is regarded as a psychiatric emergency and tends to develop suddenly in the days or weeks after birth. Strikingly, more than half of the women in the study had no previous mental health diagnosis, and all of them sensed early on that something was amiss, well before more obvious symptoms emerged.\n\nMany participants said their concerns were brushed aside or played down, and some were told they were probably experiencing the \"baby blues\". They described their care as fragmented and felt that staff were unfamiliar with the condition and rarely asked probing follow-up questions. The researchers argue there is a critical window soon after symptoms begin in which early detection matters most.\n\nThe authors acknowledge that their sample was small and recruited online, so the findings may not generalise to all women, let alone to other countries. Nevertheless, their recommendations are straightforward: listen closely to women and families who keep saying something is wrong, and raise awareness of how the illness presents. Stigma and shame, a psychologist who has experienced the condition herself noted, may deter some women from seeking help at all.",
+      "b2": "Women with postpartum psychosis often have to ask for help many times before they get it, according to new Australian research. Researchers at Flinders University interviewed 15 women with the condition. On average, the women contacted health services seven times before they received proper care. One woman made 27 contacts.\n\nPostpartum psychosis is rare. It affects about one or two in every 1,000 new mothers, but it is a psychiatric emergency. It usually starts suddenly in the days or weeks after a baby is born. More than half of the women in the study had never had a mental health diagnosis before. All of them felt early on that something was wrong.\n\nMany women said their worries were ignored or treated as unimportant. Some were told they probably had the \"baby blues\". They said staff did not know much about the condition and did not ask enough questions. The researchers say early detection is especially important soon after symptoms begin.\n\nThe study was small, so the results may not apply to everyone. Still, the researchers want health workers to listen carefully when women and families say something is wrong. They also want more awareness of the illness, because stigma can stop women from asking for help.",
+      "vocab": [
+        {
+          "word": "take someone seriously",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "认真对待某人",
+          "en": "to treat someone's words or concerns as important",
+          "example": "When she complained about the noise, the landlord finally took her seriously.",
+          "forms": [
+            "takes them seriously"
+          ]
+        },
+        {
+          "word": "reach out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "寻求帮助；主动联系",
+          "en": "to contact someone to ask for or offer help",
+          "example": "If you're struggling with your studies, reach out to your tutor.",
+          "forms": [
+            "reaching out"
+          ]
+        },
+        {
+          "word": "amiss",
+          "pos": "adj.",
+          "ipa": "/əˈmɪs/",
+          "zh": "不对劲的；有问题的",
+          "en": "wrong or not as it should be",
+          "example": "I knew something was amiss when the front door was unlocked."
+        },
+        {
+          "word": "brush aside",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "不理会；漠视",
+          "en": "to refuse to give attention to something",
+          "example": "The manager brushed aside our suggestions without reading them.",
+          "forms": [
+            "brushed aside"
+          ]
+        },
+        {
+          "word": "play down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "淡化；轻描淡写",
+          "en": "to make something seem less important than it is",
+          "example": "The minister tried to play down the size of the budget gap.",
+          "forms": [
+            "played down"
+          ]
+        },
+        {
+          "word": "probing",
+          "pos": "adj.",
+          "ipa": "/ˈprəʊbɪŋ/",
+          "zh": "探究性的；深入的",
+          "en": "designed to find out hidden or detailed information",
+          "example": "The journalist asked a few probing questions about the deal."
+        },
+        {
+          "word": "generalise",
+          "pos": "v.",
+          "ipa": "/ˈdʒenrəlaɪz/",
+          "zh": "推广；概括",
+          "en": "to apply a result or idea to a wider group",
+          "example": "It's risky to generalise from a survey of only twenty people."
+        },
+        {
+          "word": "let alone",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "更不用说",
+          "en": "used to say that something is even less likely than the previous thing",
+          "example": "I can barely boil an egg, let alone cook a three-course dinner."
+        },
+        {
+          "word": "deter",
+          "pos": "v.",
+          "ipa": "/dɪˈtɜː(r)/",
+          "zh": "阻止；使不敢",
+          "en": "to make someone less likely to do something",
+          "example": "High fees may deter young people from joining the club."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Some women contacted health services more than 20 times before getting proper care.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文说 \"some reaching out as many as 27 times\"，27 次超过 20 次。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers plan to repeat the study in other countries.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。原文只说结果可能不适用于 \"other countries\"，并未说研究者计划在其他国家重复研究。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most women in the study had been diagnosed with a mental health condition before giving birth.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说 \"more than half of the women in the study had no previous mental health diagnosis\"，与题干相反。"
+        },
+        {
+          "type": "mcq",
+          "q": "What do the researchers mainly recommend?",
+          "options": [
+            "Recruiting larger samples through hospitals",
+            "Treating every new mother for the baby blues",
+            "Building more psychiatric hospitals",
+            "Listening closely to women and families who say something is wrong"
+          ],
+          "answer": 3,
+          "explain": "原文的建议是 \"listen closely to women and families who keep saying something is wrong\"，并提高对该病的认识。"
+        }
+      ],
+      "discuss": "Why do you think people's health concerns are sometimes dismissed by professionals? What could make it easier for patients to be heard?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-10-21/australia-postpartum-psychosis-research/107292188"
+        }
+      ]
+    },
+    {
+      "id": "nextdc-power-delay",
+      "category": "Business",
+      "headline": "NextDC shares plunge as power delays stall Melbourne data centre",
+      "headlineZh": "墨尔本数据中心供电延误，NextDC股价暴跌",
+      "summaryZh": "因居民反对导致供电升级暂停，NextDC下调业绩预期，股价单日大跌约四成。",
+      "c1": "Shares in NextDC, one of Australia's biggest data centre operators, plunged by about 40 per cent on Wednesday after the company slashed its forecasts. The firm, which had been valued at close to $7 billion, cut its net revenue guidance for the current financial year by about a third, to between $475 million and $500 million, and lowered its operating profit forecast to between $245 million and $265 million.\n\nAt the heart of the problem is its M3 facility in West Footscray, in Melbourne's inner west. Energy supplier Jemena has suspended parts of the network upgrades needed to boost the site's power supply, citing community and stakeholder opposition, and the next increase is now not expected until mid-2027. In September, residents in nearby Yarraville halted the installation of 15-metre power poles, in some cases by leaving cars and bins in the way of work crews.\n\nLocals have long complained about noise and diesel pollution from the centre, which sits roughly 15 metres from homes, and say they were never properly consulted. One residents' group argues the company lacks a social licence to expand and is pushing for compensation, including voluntary buybacks of affected homes.\n\nIn response, NextDC has put all new developments and land purchases on hold and says it is exploring alternatives, such as relocating poles or running cables underground, though neither offers a quick fix. The episode highlights a broader tension: however strong the appetite for data centres becomes, the infrastructure they depend on still has to win over the neighbours.",
+      "b2": "Shares in NextDC, a large Australian data centre company, fell by about 40 per cent on Wednesday. The company had cut its forecasts. It now expects net revenue of $475 million to $500 million this financial year, about a third lower than before. Its operating profit forecast was also reduced.\n\nThe main problem is its M3 data centre in West Footscray, in Melbourne. The energy company Jemena has stopped some of the work needed to give the site more power because of opposition from the community. More power is now not expected until mid-2027. In September, residents in Yarraville stopped workers from putting up 15-metre power poles.\n\nLocal people have complained for years about noise and diesel pollution from the centre. It is only about 15 metres from homes. Residents say nobody asked their opinion properly. One local group wants compensation for affected households.\n\nNextDC has stopped all new building projects and land purchases for now. It is looking at other options, such as moving the poles or putting cables underground, but these will take time. The situation shows that big technology projects still need the support of the people who live next to them.",
+      "vocab": [
+        {
+          "word": "slash",
+          "pos": "v.",
+          "ipa": "/slæʃ/",
+          "zh": "大幅削减",
+          "en": "to reduce something by a large amount",
+          "example": "The airline slashed its fares to attract more passengers.",
+          "forms": [
+            "slashed"
+          ]
+        },
+        {
+          "word": "at the heart of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "处于……的核心",
+          "en": "at the most important or central part of something",
+          "example": "At the heart of the argument was a disagreement about money."
+        },
+        {
+          "word": "cite",
+          "pos": "v.",
+          "ipa": "/saɪt/",
+          "zh": "以……为理由；引用",
+          "en": "to mention something as a reason or example",
+          "example": "The council cited safety concerns when it closed the pool.",
+          "forms": [
+            "citing"
+          ]
+        },
+        {
+          "word": "in the way of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "挡住……的路",
+          "en": "blocking someone or something",
+          "example": "Please don't leave your bike in the way of the front door."
+        },
+        {
+          "word": "social licence",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "社会认可；社会许可",
+          "en": "public acceptance that a company's activities are legitimate",
+          "example": "Mining companies need a social licence as well as a government permit."
+        },
+        {
+          "word": "push for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "极力争取；推动",
+          "en": "to try hard to get something",
+          "example": "Parents are pushing for a new crossing outside the school.",
+          "forms": [
+            "pushing for"
+          ]
+        },
+        {
+          "word": "on hold",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "暂停；搁置",
+          "en": "delayed until a later time",
+          "example": "We've put our travel plans on hold until the new year."
+        },
+        {
+          "word": "quick fix",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "权宜之计；速效办法",
+          "en": "a fast, easy solution that may not last",
+          "example": "There's no quick fix for the city's housing shortage."
+        },
+        {
+          "word": "win over",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "争取到……的支持",
+          "en": "to persuade someone to support you",
+          "example": "The new coach soon won over the sceptical fans."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "NextDC plans to sell its M3 data centre.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。原文只说公司 \"put all new developments and land purchases on hold\" 并寻找替代方案，没有说要出售 M3。"
+        },
+        {
+          "type": "tfng",
+          "q": "NextDC's share price rose after the announcement.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说股价 \"plunged by about 40 per cent\"，是大跌而非上涨。"
+        },
+        {
+          "type": "tfng",
+          "q": "The West Footscray data centre is located very close to houses.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文说数据中心 \"sits roughly 15 metres from homes\"。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did Jemena suspend some of its network upgrades?",
+          "options": [
+            "The company ran out of money",
+            "There was community and stakeholder opposition",
+            "New government safety rules came in",
+            "NextDC cancelled its contract"
+          ],
+          "answer": 1,
+          "explain": "原文说 Jemena 暂停工程是 \"citing community and stakeholder opposition\"，即社区和相关方的反对。"
+        }
+      ],
+      "discuss": "Should local residents have the power to delay major infrastructure projects that the wider economy depends on? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-21/west-footscray-data-centre-delays-nextdc-value-asx-vic/107291744"
+        },
+        {
+          "name": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/nextdcs-42-plunge-puts-data-centre-risks-in-focus/rhykd447o"
+        }
+      ]
+    },
+    {
+      "id": "wa-university-merger",
+      "category": "Australia",
+      "headline": "Students march against plan to merge three WA universities",
+      "headlineZh": "西澳师生游行反对三所大学合并计划",
+      "summaryZh": "三百多名师生到西澳议会抗议合并西澳大学、科廷和莫道克大学的提议，议会能否通过尚不确定。",
+      "c1": "More than 300 students and staff marched on Western Australia's Parliament House on Wednesday to protest against a proposal to merge three of the state's public universities. If it goes ahead, combining the University of Western Australia, Curtin University and Murdoch University would create the country's largest university, with more than 100,000 students. The state government set up a steering committee to examine the idea in more detail only last week.\n\nOpponents question what the merger would actually deliver. Curtin and Murdoch have described the plan as expensive and wasteful, and student leaders argue the money would be better spent on affordable housing, teaching and support services. As Curtin's student guild president put it, \"you cannot fix a cost-of-living crisis with a corporate restructure\". UWA's vice-chancellor, by contrast, praised the plan's ambition.\n\nTertiary Education Minister Tony Buti, who did not attend the rally, insisted that no commitment had been made and that the merger would proceed only if the business case stacked up. He also suggested that money currently spent on executives could instead benefit students.\n\nEven if the government is persuaded, the legislation faces an uphill battle. The Liberal party room voted on Tuesday to reject the proposal regardless of the business case, the Greens are strongly opposed, and Labor would need the support of at least three crossbench members to get it through. Whatever the outcome, the debate raises a broader question about whether bigger institutions necessarily serve students better.",
+      "b2": "More than 300 students and staff marched to Western Australia's Parliament House on Wednesday. They were protesting against a plan to merge three public universities: the University of Western Australia, Curtin University and Murdoch University. The new university would be the largest in Australia, with more than 100,000 students. Last week, the government created a committee to study the idea.\n\nPeople against the plan ask what benefits it would bring. Curtin and Murdoch say it would be expensive and wasteful. Student leaders want the money spent on cheaper housing, teaching and student support instead. However, the head of UWA said he liked the plan's ambition.\n\nThe Tertiary Education Minister, Tony Buti, did not go to the rally. He said the government had not made a final decision. The merger would only happen if the business case was strong, he said.\n\nPassing the law could be difficult. On Tuesday, the Liberals voted to reject the plan, and the Greens also strongly oppose it. Labor would need at least three crossbench members to support it. The debate also raises a bigger question: are larger universities really better for students?",
+      "vocab": [
+        {
+          "word": "go ahead",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "进行；实施",
+          "en": "to happen or be carried out as planned",
+          "example": "The concert will go ahead despite the rain.",
+          "forms": [
+            "goes ahead"
+          ]
+        },
+        {
+          "word": "set up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "设立；建立",
+          "en": "to create an organisation, group or system",
+          "example": "The school set up a committee to review its uniform policy."
+        },
+        {
+          "word": "steering committee",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "指导委员会",
+          "en": "a group that decides the direction and priorities of a project",
+          "example": "The steering committee meets monthly to check the project's progress."
+        },
+        {
+          "word": "be better spent",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "花在……更值得",
+          "en": "used to say money or time would be more useful elsewhere",
+          "example": "Some argue the money would be better spent on public transport."
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show a clear difference between two things",
+          "example": "Sydney was wet all week; Melbourne, by contrast, stayed dry."
+        },
+        {
+          "word": "stack up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "站得住脚；说得通",
+          "en": "to make sense or be convincing when examined",
+          "example": "His explanation just doesn't stack up.",
+          "forms": [
+            "stacked up"
+          ]
+        },
+        {
+          "word": "uphill battle",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "艰难的斗争",
+          "en": "a struggle that is very difficult to win",
+          "example": "Getting the new bike lanes approved was an uphill battle."
+        },
+        {
+          "word": "regardless of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "不管；不顾",
+          "en": "without being affected by something",
+          "example": "The event is free, regardless of age."
+        },
+        {
+          "word": "necessarily",
+          "pos": "adv.",
+          "ipa": "/ˌnesəˈserəli/",
+          "zh": "必然地",
+          "en": "used to say something is not always true",
+          "example": "A more expensive phone isn't necessarily a better one."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The merged institution would have the most students of any university in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文说合并将 \"create the country's largest university, with more than 100,000 students\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the protesters at the rally were Curtin University students.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。原文只说有 \"more than 300 students and staff\"，没有说明他们来自哪所大学。"
+        },
+        {
+          "type": "tfng",
+          "q": "Tony Buti spoke to the crowd at the rally.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说部长 \"did not attend the rally\"，所以他不可能在集会上发言。"
+        },
+        {
+          "type": "mcq",
+          "q": "What would Labor need to pass the merger legislation?",
+          "options": [
+            "The support of at least three crossbench members",
+            "A vote from the Liberal party room",
+            "Approval from all three universities",
+            "A new steering committee"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"Labor would need the support of at least three crossbench members to get it through\"。"
+        }
+      ],
+      "discuss": "Do you think merging universities into bigger institutions benefits students, or does something important get lost? Explain your reasons.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-21/hundreds-march-parliament-to-protest-wa-university-merger-/107292936"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "First Impressions",
+    "titleZh": "看房第一印象",
+    "setting": "Two friends look around a rental flat in Yarraville during a busy Saturday-morning open inspection.",
+    "settingZh": "周六上午，两位朋友在雅拉维尔参加热闹的公开看房，一起参观一套出租公寓。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Okay, first impressions? Be honest, I've already got my heart set on it.",
+        "zh": "好了，第一印象如何？说实话，我已经认定这套了。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "It's not bad, but the photos definitely made the living room look bigger.",
+        "zh": "还不错，不过照片绝对把客厅拍得更大了。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Fair enough. Still, the light's lovely, and the station's only five minutes away.",
+        "zh": "有道理。不过采光很好，而且离车站只有五分钟。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "True. Have you checked the water pressure? That'd be a dealbreaker for me.",
+        "zh": "没错。你试过水压了吗？对我来说那可是决定性的问题。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Good call. Hang on... yep, it's decent. Better than my current place, anyway.",
+        "zh": "提醒得好。等一下……嗯，还可以。反正比我现在住的地方好。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "And the bedroom? There's barely room to swing a cat in there.",
+        "zh": "那卧室呢？里面简直小得转不开身。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "I'll have to downsize a bit, but I'm sick of paying for space I never use.",
+        "zh": "我得精简点东西，但我受够了为用不上的空间付钱。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "Makes sense. Did the agent say whether the rent's negotiable at all?",
+        "zh": "有道理。中介有没有说租金能不能商量？"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "She said the owner's firm on the price, but open to a longer lease.",
+        "zh": "她说房东价格不松口，但可以考虑签更长的租约。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "That could work in your favour. A twelve-month lease gives you a bit of security.",
+        "zh": "那可能对你有利。签一年的租约能让你更安心。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Exactly. Mind you, there were about twenty people here when we turned up.",
+        "zh": "没错。不过话说回来，我们到的时候这里大概有二十个人。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "Then you'd better get your application in today, before someone beats you to it.",
+        "zh": "那你最好今天就把申请交上去，免得被别人抢先。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "I'll do it on the tram home. Fingers crossed they don't want a cover letter.",
+        "zh": "我在回家的电车上就弄。但愿他们不要求写求职信式的自我介绍。"
+      },
+      {
+        "s": "B",
+        "name": "Sam",
+        "en": "Even if they do, just keep it short and sweet. You've got this.",
+        "zh": "就算要，也写得简洁明了就行。你没问题的。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I really want it",
+        "en": "I've already got my heart set on it",
+        "zh": "心意已决，非常想要"
+      },
+      {
+        "plain": "That's reasonable",
+        "en": "Fair enough",
+        "zh": "有道理（表示接受对方观点）"
+      },
+      {
+        "plain": "a reason I would say no",
+        "en": "a dealbreaker",
+        "zh": "决定性的否决因素"
+      },
+      {
+        "plain": "Good idea",
+        "en": "Good call",
+        "zh": "想得周到，好主意"
+      },
+      {
+        "plain": "The room is very small",
+        "en": "There's barely room to swing a cat",
+        "zh": "地方小得转不开身（幽默说法）"
+      },
+      {
+        "plain": "won't lower the price",
+        "en": "firm on the price",
+        "zh": "价格不让步"
+      },
+      {
+        "plain": "be good for you",
+        "en": "work in your favour",
+        "zh": "对你有利"
+      },
+      {
+        "plain": "before someone gets it first",
+        "en": "before someone beats you to it",
+        "zh": "免得被人抢先"
+      }
+    ]
+  }
+}
