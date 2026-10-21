@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T19:07:56.472Z",
+ "updatedAt": "2026-10-21T02:57:26.642Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: My orgasm induced amnesia and other epic adventures",
-   "url": "https://www.abc.net.au/listen/programs/conversations/dasha-ross-and-her-memoir-big-trouble-coming-rpt/107272934",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pj/Z/a3.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Ff002b7cec3d912eaf67c80625b7370b4.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-20",
-   "minutes": 52,
+   "title": "Learning my family connection to the brutal history of Australia's pearling industry",
+   "url": "https://www.abc.net.au/listen/programs/conversations/edith-wright-family-history-pearling-industry-slavery-divers/107278300",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pl/Z/2e.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F5cc8c097974f8fe4fe6a8952507dda0a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-21",
+   "minutes": 51,
    "level": "C1",
    "accent": "AU",
-   "desc": "Dasha Ross tells the story of her bizarre brush with memory loss and what happened when she and her husband decided to takeover a rundown beachside hotel in Sri Lanka. Dasha has lived a life full of adventures, from nude modelling in Sydney and making films…"
+   "desc": "When Edith Wright discovered the turbulent history of her great-grandfathers, who were some of the founders of the pearling industry in the waters off Broome, she knew she had to write down the story Edith is a Bardi Jawi woman from the saltwater country of…"
   },
   {
    "source": "TED Talks Daily",
