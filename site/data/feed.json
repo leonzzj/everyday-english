@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T19:08:22.981Z",
+ "updatedAt": "2026-10-22T02:58:10.632Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Learning my family connection to the brutal history of Australia's pearling industry",
-   "url": "https://www.abc.net.au/listen/programs/conversations/edith-wright-family-history-pearling-industry-slavery-divers/107278300",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pl/Z/2e.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F5cc8c097974f8fe4fe6a8952507dda0a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-21",
-   "minutes": 51,
+   "title": "Encore: The incandscent life of fashion visionary Jenny Kee",
+   "url": "https://www.abc.net.au/listen/programs/conversations/jenny-kee-fashion-designer-linda-jackson-flamingo-park-style/107279700",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pm/Z/c9.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3ed8893e3a980b7f523fbcdd300224d2.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-22",
+   "minutes": 44,
    "level": "C1",
    "accent": "AU",
-   "desc": "When Edith Wright discovered the turbulent history of her great-grandfathers, who were some of the founders of the pearling industry in the waters off Broome, she knew she had to write down the story Edith is a Bardi Jawi woman from the saltwater country of…"
+   "desc": "Fashion designer Jenny Kee co-created a vivid new era in Australian fashion in the 1970s. But nothing could have prepared her for the next chapter of her story. Jenny was born in Bondi in the 1950s, and left Australia for London when she was young. She began…"
   },
   {
    "source": "TED Talks Daily",
