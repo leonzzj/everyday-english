@@ -1,0 +1,757 @@
+{
+  "date": "2026-10-23",
+  "issueNo": 8,
+  "title": "Serbia's student vote, many healthy diets and KPMG's extended ban",
+  "createdAt": "2026-10-23T06:49:54+11:00",
+  "stories": [
+    {
+      "id": "serbia-student-list",
+      "category": "World",
+      "headline": "Serbia's protesting students take their fight to the ballot box",
+      "headlineZh": "塞尔维亚抗议学生走向投票箱",
+      "summaryZh": "学生运动组建竞选名单参加10月25日提前议会选举，并在贝尔格莱德举行最后一场大型集会。",
+      "c1": "Almost two years after a deadly accident set off Serbia's largest protest movement in years, the students who led it are now trying their luck at the ballot box. Ahead of snap parliamentary elections on Sunday, 25 October, thousands of students and supporters converged on Belgrade for a final major rally, many of them having walked for several days from towns across the country.\n\nThe movement traces its origins to 1 November 2024, when a concrete canopy at the newly renovated railway station in Novi Sad collapsed, killing 16 people. The tragedy quickly became a lightning rod for anger over alleged corruption, shoddy construction and weak government oversight. Students, later joined by teachers, professors and other professionals, staged protests that have remained largely peaceful, although some rallies, including one in May, ended in clashes with riot police.\n\nHaving pressed for early elections for nearly two years, the protesters have now formally registered their own ballot list, \"Student List–Students Win\", headed by a cardiologist, Ilija Srdanovic. Rather than calling for President Aleksandar Vucic to be overthrown, they are pitching an 11-point plan to overhaul a system they regard as corrupt, including a law on the origin of assets and a special police unit working with prosecutors. Strikingly, the movement has no formal leader: decisions are thrashed out in lengthy meetings at university faculties.\n\nWhether this grassroots energy will translate into seats remains to be seen. Critics accuse Vucic's long-ruling Serbian Progressive Party of pressuring voters and stifling the media, claims his allies deny. Some observers, while praising the students' commitment to non-violence, doubt that a single election can resolve the country's deeper tensions.",
+      "b2": "Almost two years after a deadly accident started Serbia's biggest protest movement in years, the students who led it are now standing in an election. Before snap parliamentary elections on Sunday, 25 October, thousands of students and supporters came to Belgrade for a final big rally. Many had walked for several days to get there.\n\nThe movement began on 1 November 2024, when a concrete roof at the renovated railway station in Novi Sad fell down and killed 16 people. Many people blamed corruption and poor building work. Students, and later teachers and professors, began protesting. The protests have mostly been peaceful, but some rallies ended in clashes with police.\n\nThe students have now registered their own list of candidates, called \"Student List–Students Win\". It is led by a heart doctor, Ilija Srdanovic. The students are not calling for President Aleksandar Vucic to be removed. Instead, they have an 11-point plan to change a system they see as corrupt. The movement has no single leader, and decisions are made in long meetings at universities.\n\nIt is not clear how many seats the students will win. Critics say Vucic's ruling party puts pressure on voters and the media, which his allies deny. Some experts doubt one election can solve Serbia's deeper problems.",
+      "vocab": [
+        {
+          "word": "try one's luck",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "碰碰运气；尝试",
+          "en": "to attempt something without being sure of success",
+          "example": "After years of working in sales, she decided to try her luck as a freelance designer.",
+          "forms": [
+            "trying their luck"
+          ]
+        },
+        {
+          "word": "converge on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "从各处汇集到某地",
+          "en": "to come together at one place from different directions",
+          "example": "Food trucks from all over the state converged on the showgrounds for the festival.",
+          "forms": [
+            "converged on"
+          ]
+        },
+        {
+          "word": "trace its origins to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "起源可追溯到",
+          "en": "to have begun at a particular time or event",
+          "example": "The tradition traces its origins to a small village market in the 1800s.",
+          "forms": [
+            "traces its origins to"
+          ]
+        },
+        {
+          "word": "lightning rod",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "众矢之的；引发不满的焦点",
+          "en": "a person or thing that attracts strong criticism or emotion",
+          "example": "The new parking fees became a lightning rod for residents' frustration with the council."
+        },
+        {
+          "word": "shoddy",
+          "pos": "adj.",
+          "ipa": "/ˈʃɒdi/",
+          "zh": "劣质的；粗制滥造的",
+          "en": "badly made or done",
+          "example": "The landlord's shoddy repairs meant the leak came back within a week."
+        },
+        {
+          "word": "press for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "强烈要求；力争",
+          "en": "to keep demanding something",
+          "example": "Parents are pressing for safer crossings near the school.",
+          "forms": [
+            "pressed for"
+          ]
+        },
+        {
+          "word": "thrash out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（通过反复讨论）敲定",
+          "en": "to discuss something thoroughly until you reach a decision",
+          "example": "We spent the whole afternoon thrashing out the details of the budget.",
+          "forms": [
+            "thrashed out"
+          ]
+        },
+        {
+          "word": "translate into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "转化为；变成",
+          "en": "to result in something concrete",
+          "example": "Good reviews don't always translate into strong ticket sales."
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "尚待观察；还不确定",
+          "en": "to be still unknown or uncertain",
+          "example": "Whether the new timetable actually reduces delays remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The Novi Sad railway station had recently been renovated when the canopy collapsed.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"the newly renovated railway station in Novi Sad\"，说明车站刚翻修过，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The students are demanding that President Vucic be removed from office.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中明确说 \"Rather than calling for President Aleksandar Vucic to be overthrown\"，与陈述相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Opinion polls show the student list will win the most seats.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只说 \"remains to be seen\"，没有提到任何民调结果，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "How does the student movement make its decisions?",
+          "options": [
+            "Its lead candidate decides alone",
+            "Through long meetings at university faculties",
+            "By online votes among supporters",
+            "Through talks with opposition parties"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"the movement has no formal leader: decisions are thrashed out in lengthy meetings at university faculties\"。"
+        }
+      ],
+      "discuss": "Why do you think young people are sometimes more willing than older generations to protest against their government? Can protest movements succeed once they enter formal politics?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/22/from-the-streets-to-the-ballot-box-serbias-students-hope-for-election-win"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/22/serbia-student-protesters-flood-belgrade-ahead-of-snap-elections"
+        }
+      ]
+    },
+    {
+      "id": "diets-slower-ageing",
+      "category": "Health",
+      "headline": "Ten different healthy diets linked to slower biological ageing",
+      "headlineZh": "研究：十种健康饮食都与生物衰老放缓相关",
+      "summaryZh": "德国一项约7500人的研究发现，健康饮食不止一种，坚持任一种都与较慢的生物衰老有关。",
+      "c1": "If you have ever felt overwhelmed by competing claims about the one \"right\" way to eat, a new German study offers some reassurance. Researchers at the German Center for Neurodegenerative Diseases (DZNE) have found that sticking closely to any of ten healthy eating patterns, including the Mediterranean, Nordic, plant-based, DASH and MIND diets, is associated with slower biological ageing.\n\nThe team, whose findings appear in Nature Communications, drew on data from about 7,500 adults. The main analysis involved 6,470 participants in the Rhineland Study in Bonn, and the results were then cross-checked against a separate group of just over 1,000 people. Rather than relying on birthdays, the researchers estimated biological age from chemical markers on DNA, known as methylation, using three so-called epigenetic clocks and examining around 850,000 sites in the genome.\n\nSome diets showed stronger associations than others, but the differences were small, and more than 70 per cent of the biological pathways involved were common to all ten. Interestingly, people who scored well on one diet frequently scored poorly on another, suggesting there is more than one route to healthy eating. As one senior author put it, the effects \"are not massive, but they are measurable\". A puzzling twist was that the link appeared stronger among smokers, something the team cannot yet explain and which in no way makes smoking less harmful.\n\nIt is worth bearing in mind the study's limitations. It shows an association rather than proof of cause and effect, and diets were based on what participants reported eating, which is notoriously imprecise. Nonetheless, the message that flexibility, not perfection, matters may resonate with many readers.",
+      "b2": "Many people feel confused by different claims about the one \"right\" way to eat. A new study from Germany offers some good news. Researchers at the German Center for Neurodegenerative Diseases (DZNE) found that following any of ten healthy diets, such as the Mediterranean, Nordic, plant-based, DASH and MIND diets, is linked to slower biological ageing.\n\nThe study, published in Nature Communications, used data from about 7,500 adults. Most of them were part of a large health study in Bonn. Instead of looking at people's real age, the researchers measured biological age through chemical changes on DNA, using three \"epigenetic clocks\".\n\nSome diets had stronger links than others, but the differences were small. More than 70 per cent of the body processes involved were the same for all ten diets. People who did well on one diet often did badly on another, which suggests there are many ways to eat well. Surprisingly, the link was stronger in smokers. The researchers cannot explain this yet, and it does not make smoking any safer.\n\nThe study has limits. It shows a link, not proof that diet causes slower ageing. It also depended on what people said they ate, which is not always accurate. Still, its main message is that flexibility matters more than perfection.",
+      "vocab": [
+        {
+          "word": "offer reassurance",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "让人安心；给予宽慰",
+          "en": "to make someone feel less worried",
+          "example": "The doctor's calm explanation offered some reassurance to the anxious parents.",
+          "forms": [
+            "offers some reassurance"
+          ]
+        },
+        {
+          "word": "stick closely to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "严格遵守；紧跟",
+          "en": "to follow a plan or rule carefully",
+          "example": "If you stick closely to the recipe, the cake should turn out fine.",
+          "forms": [
+            "sticking closely to"
+          ]
+        },
+        {
+          "word": "draw on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "利用；借鉴",
+          "en": "to use information or experience as a resource",
+          "example": "In her speech, she drew on her years of experience as a nurse.",
+          "forms": [
+            "drew on"
+          ]
+        },
+        {
+          "word": "cross-check",
+          "pos": "v.",
+          "ipa": "/ˌkrɒsˈtʃek/",
+          "zh": "交叉核对",
+          "en": "to check information by using a different source or method",
+          "example": "Always cross-check your figures before you send the report.",
+          "forms": [
+            "cross-checked"
+          ]
+        },
+        {
+          "word": "puzzling",
+          "pos": "adj.",
+          "ipa": "/ˈpʌzlɪŋ/",
+          "zh": "令人费解的",
+          "en": "difficult to understand or explain",
+          "example": "It's puzzling that the café is always empty when the coffee is so good."
+        },
+        {
+          "word": "in no way",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝不；一点也不",
+          "en": "not at all",
+          "example": "Admitting a mistake in no way makes you a weaker leader."
+        },
+        {
+          "word": "bear in mind",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "记住；考虑到",
+          "en": "to remember a fact when making a judgement",
+          "example": "Bear in mind that the trains run less often on Sundays.",
+          "forms": [
+            "bearing in mind"
+          ]
+        },
+        {
+          "word": "notoriously",
+          "pos": "adv.",
+          "ipa": "/nəʊˈtɔːriəsli/",
+          "zh": "出了名地（贬义）",
+          "en": "in a way that is well known for being bad",
+          "example": "Melbourne's weather is notoriously hard to predict."
+        },
+        {
+          "word": "resonate with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "引起共鸣",
+          "en": "to feel meaningful or familiar to someone",
+          "example": "Her story about moving overseas really resonated with the international students."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers measured biological age using markers on DNA.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说研究者 \"estimated biological age from chemical markers on DNA, known as methylation\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Mediterranean diet produced by far the largest effect of the ten diets.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Some diets showed stronger associations than others, but the differences were small\"，与“遥遥领先”相矛盾，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Participants were given meals prepared by the research team.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说饮食数据 \"were based on what participants reported eating\"，即依据参与者自己报告，而非研究团队提供餐食，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the study suggest about healthy eating?",
+          "options": [
+            "Only one diet slows ageing",
+            "Smokers should change their diet first",
+            "There are several different ways to eat healthily",
+            "Diet has no measurable effect on ageing"
+          ],
+          "answer": 2,
+          "explain": "文中说 \"suggesting there is more than one route to healthy eating\"。"
+        }
+      ],
+      "discuss": "Why do you think people are so attracted to the idea of a single 'perfect' diet? Will flexible advice like this change how people eat?",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093439.htm"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-ban-extended",
+      "category": "Business",
+      "headline": "Government extends KPMG's ban on new federal work until February",
+      "headlineZh": "联邦政府将毕马威承接政府新业务的禁令延长至明年2月",
+      "summaryZh": "独立审查指出毕马威高层存在严重道德问题，财政部将禁令延至2027年2月28日。",
+      "c1": "The accounting giant KPMG will remain barred from bidding for new federal government work until at least 28 February 2027, after an independent review delivered a damning verdict on its leadership. The Department of Finance agreed to extend the pause, which began in June as a three-month freeze, following a report by Ian Watt, who was commissioned by the department.\n\nThe controversy stems from allegations that KPMG audit partners misused client data and then mishandled a whistleblower's complaint about it. Watt found the firm's response revealed \"serious ethical failings\" by some senior members, and that problems were rooted in its leadership and culture. Crucially, he noted that KPMG had been warned before about weaknesses in its ethical culture and accountability but had failed to act with sufficient urgency. He was careful, however, to stress that the report should not be read as a judgement on every member of the firm.\n\nDuring the extended pause, KPMG must hand over an implementation plan and quarterly progress reports, and cooperate with reviews by the corporate regulator ASIC and the Tax Practitioners Board. Its new chief executive and chair said they accepted the findings, conceding that changing a culture takes far longer than reshuffling roles or structures. The firm has already lost several major clients, including ANZ and Macquarie Group, as auditor.\n\nNot everyone is satisfied. Greens senator Barbara Pocock argued that a short extension fails to tackle the underlying problem and that the government should set the standard on probity for its contractors. Several states and territories, which imposed their own bans, are still weighing up their response, so the fallout for the firm may be far from over.",
+      "b2": "The accounting firm KPMG will not be allowed to bid for new federal government work until at least 28 February 2027. The ban began in June as a three-month pause. The Department of Finance agreed to extend it after an independent review by Ian Watt.\n\nThe problems started with claims that KPMG audit partners misused client data and then handled a whistleblower's complaint badly. Watt found \"serious ethical failings\" by some senior members of the firm. He said the problems came from its leadership and culture, and that KPMG had been warned before but did not act quickly enough. However, he said the report was not a judgement on every person at the firm.\n\nDuring the longer pause, KPMG must give the department a plan and regular progress reports. It must also cooperate with reviews by ASIC and the Tax Practitioners Board. KPMG's new leaders said they accepted the findings and admitted that changing a culture takes a long time. The firm has also lost some big clients, including ANZ.\n\nGreens senator Barbara Pocock said the short extension does not solve the real problem. Several states and territories have their own bans and are still deciding what to do.",
+      "vocab": [
+        {
+          "word": "be barred from",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被禁止（做某事）",
+          "en": "to be officially not allowed to do something",
+          "example": "Drivers caught speeding twice could be barred from driving for six months.",
+          "forms": [
+            "barred from"
+          ]
+        },
+        {
+          "word": "damning verdict",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "严厉的结论；致命的评价",
+          "en": "a judgement that strongly criticises someone",
+          "example": "The inspection delivered a damning verdict on the hospital's hygiene standards."
+        },
+        {
+          "word": "stem from",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "源于；由……引起",
+          "en": "to be caused by something",
+          "example": "Much of the team's stress stems from unclear deadlines.",
+          "forms": [
+            "stems from"
+          ]
+        },
+        {
+          "word": "be rooted in",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "根源在于",
+          "en": "to have its basic cause in something",
+          "example": "Her love of cooking is rooted in childhood weekends at her grandmother's.",
+          "forms": [
+            "rooted in"
+          ]
+        },
+        {
+          "word": "act with urgency",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "紧急行动；迅速采取措施",
+          "en": "to deal with something quickly because it is important",
+          "example": "Councils need to act with urgency before the bushfire season begins.",
+          "forms": [
+            "act with sufficient urgency"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had been a bit too ambitious.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "probity",
+          "pos": "n.",
+          "ipa": "/ˈprəʊbəti/",
+          "zh": "正直；廉洁",
+          "en": "complete honesty and high moral standards",
+          "example": "Public officials are expected to show the highest standards of probity."
+        },
+        {
+          "word": "weigh up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "权衡；斟酌",
+          "en": "to consider the advantages and disadvantages of something",
+          "example": "I'm still weighing up whether to take the job in Sydney.",
+          "forms": [
+            "weighing up"
+          ]
+        },
+        {
+          "word": "fallout",
+          "pos": "n.",
+          "ipa": "/ˈfɔːlaʊt/",
+          "zh": "（不良）后果；余波",
+          "en": "the bad results of an event or decision",
+          "example": "The political fallout from the scandal lasted for months."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The pause on KPMG began as a three-month freeze.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说暂停 \"began in June as a three-month freeze\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Ian Watt said every member of KPMG was responsible for the failings.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Watt 强调报告 \"should not be read as a judgement on every member of the firm\"，与陈述相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "KPMG plans to cut staff to save money during the ban.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到毕马威裁员或节省成本的计划，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is Senator Barbara Pocock's view of the decision?",
+          "options": [
+            "It is too harsh on KPMG",
+            "It does not deal with the real problem",
+            "It should apply only to the states",
+            "It was the right length of time"
+          ],
+          "answer": 1,
+          "explain": "文中说她认为 \"a short extension fails to tackle the underlying problem\"。"
+        }
+      ],
+      "discuss": "Why do you think governments keep hiring large consulting firms despite repeated scandals? Should a company's past behaviour permanently affect its right to public contracts?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-22/audit-leaks-scandal-kpmg-ban-on-government-work-extends-to-2027/107297484"
+        }
+      ]
+    },
+    {
+      "id": "unpaid-super-ato",
+      "category": "Society",
+      "headline": "Workers say the ATO isn't doing enough to recover unpaid super",
+      "headlineZh": "员工称澳洲税务局追讨欠缴养老金不力",
+      "summaryZh": "约四分之一澳洲员工被少缴养老金，但据估计税务局只追回约15%，受害者呼吁更透明。",
+      "c1": "Roughly one in four Australian workers are being short-changed on their superannuation, a shortfall worth about $6 billion a year, yet only around 15 per cent of that money is ever clawed back by the Australian Taxation Office, according to independent estimates. Now workers who have been through the process are speaking out about what they see as a frustratingly passive regulator.\n\nTwo oral health therapists from a Brisbane dental clinic, Pauline Devin and Angela Noack, were underpaid thousands of dollars in super. They lodged complaints with the ATO early last year, and in April the office found in their favour. Some 18 months on, however, neither has seen a cent returned to her fund, and both say they have been kept in the dark, partly because the ATO cites privacy rules. Devin, now retired, says she feels \"in limbo\".\n\nThe ATO, which declined an interview, said in a statement that it takes employer compliance seriously, relying on education, audits and debt recovery, and that 92 per cent of contributions by value are paid voluntarily. Critics counter that private recovery firms tend to intervene far earlier, contacting employers by text, email and phone as soon as payments go missing.\n\nAdvocates hope a recent reform will tip the balance. Since 1 July, under so-called payday super, employers must pay super at the same time as wages, giving the ATO near real-time visibility. The head of the Super Members Council argues that the office must now use this to be more proactive, so that workers are not left acting as their own debt collectors. Both women also point out that, having taken time off to care for family, they can ill afford to lose any retirement savings.",
+      "b2": "About one in four Australian workers do not receive all the superannuation they are owed. This adds up to about $6 billion a year. However, independent estimates say the Australian Taxation Office recovers only around 15 per cent of it. Now some workers are complaining that the ATO is too slow.\n\nPauline Devin and Angela Noack worked at a dental clinic in Brisbane and were underpaid thousands of dollars in super. They complained to the ATO early last year, and in April it decided they were right. But 18 months later, neither woman has received any money. They say they have been given very little information, partly because of privacy rules.\n\nThe ATO did not give an interview. In a statement, it said it takes the problem seriously and uses education, audits and debt recovery. It also said 92 per cent of super payments by value are made voluntarily. Critics say private recovery companies act much earlier, contacting employers by text, email and phone.\n\nSince 1 July, employers must pay super at the same time as wages. Supporters say this gives the ATO almost real-time information and that it should now act faster. Both women say they took time off to care for family, so losing retirement savings hurts them even more.",
+      "vocab": [
+        {
+          "word": "short-change",
+          "pos": "v.",
+          "ipa": "/ˌʃɔːtˈtʃeɪndʒ/",
+          "zh": "少给（钱）；亏待",
+          "en": "to give someone less than they are owed",
+          "example": "Casual staff often feel short-changed when penalty rates are cut.",
+          "forms": [
+            "short-changed"
+          ]
+        },
+        {
+          "word": "claw back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "追回（钱款）",
+          "en": "to get money back, often with difficulty",
+          "example": "The council is trying to claw back funds that were wrongly paid to contractors.",
+          "forms": [
+            "clawed back"
+          ]
+        },
+        {
+          "word": "speak out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "公开发声",
+          "en": "to say publicly what you think about something",
+          "example": "More nurses are speaking out about unsafe staffing levels.",
+          "forms": [
+            "speaking out"
+          ]
+        },
+        {
+          "word": "find in someone's favour",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "裁定某人胜诉/有理",
+          "en": "to officially decide that someone is right in a dispute",
+          "example": "The tribunal found in the tenant's favour and ordered the bond to be returned.",
+          "forms": [
+            "found in their favour"
+          ]
+        },
+        {
+          "word": "keep someone in the dark",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "让某人蒙在鼓里",
+          "en": "to not tell someone about something they want to know",
+          "example": "Staff were kept in the dark about the merger until the last minute.",
+          "forms": [
+            "kept in the dark"
+          ]
+        },
+        {
+          "word": "in limbo",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "处于悬而未决的状态",
+          "en": "in an uncertain situation, waiting for a decision",
+          "example": "My visa application has been in limbo for months."
+        },
+        {
+          "word": "counter",
+          "pos": "v.",
+          "ipa": "/ˈkaʊntə/",
+          "zh": "反驳；回应",
+          "en": "to reply to an argument with an opposing view",
+          "example": "The minister countered that the new policy would create jobs.",
+          "forms": [
+            "counter"
+          ]
+        },
+        {
+          "word": "tip the balance",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "改变局势；起决定作用",
+          "en": "to be the factor that changes a situation or decision",
+          "example": "The free parking tipped the balance in favour of the bigger shopping centre."
+        },
+        {
+          "word": "can ill afford",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "承受不起",
+          "en": "to be unable to accept something without serious problems",
+          "example": "Small businesses can ill afford another rise in energy prices."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The ATO ruled in favour of the two dental clinic workers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"in April the office found in their favour\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Pauline Devin and Angela Noack have received part of their unpaid super.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"neither has seen a cent returned to her fund\"，与陈述相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The dental clinic has since closed down.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到诊所是否已经关闭，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What changed for employers on 1 July?",
+          "options": [
+            "They must pay super with wages",
+            "They must pay super once a year",
+            "They no longer need to report super",
+            "They must use private recovery firms"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"employers must pay super at the same time as wages\"。"
+        }
+      ],
+      "discuss": "Why do you think some employers fail to pay their workers' retirement savings? Whose job should it be to make sure workers get what they are owed?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-22/australian-workers-criticise-ato-unpaid-superannuation-recovery/107288902"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck on the Sandringham Line",
+    "titleZh": "困在桑德灵厄姆线上",
+    "setting": "Two colleagues are stuck on a delayed train between Richmond and South Yarra on their way to work.",
+    "settingZh": "两位同事上班途中，乘坐的火车在里士满和南亚拉之间延误停车。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "We've been sitting here for twenty minutes. Did they say what's going on?",
+        "zh": "我们已经在这儿停了二十分钟了。他们说是怎么回事吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Something about a signal fault up ahead. Classic Thursday morning, really.",
+        "zh": "好像是前面信号故障。说实话，典型的周四早晨。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "I've got a meeting at nine. I'll have to give my manager a heads-up.",
+        "zh": "我九点有个会。我得提前跟经理打个招呼。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Same here. Mind you, half the office will be on this train anyway.",
+        "zh": "我也是。不过话说回来，办公室一半的人估计都在这趟车上。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Fair point. Hey, did you see that story about people's super going unpaid?",
+        "zh": "有道理。对了，你看到那篇关于员工养老金没被缴的报道了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Yeah, it got me thinking. I've never actually checked mine properly.",
+        "zh": "看了，让我想了想。我其实从没认真查过我的。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Me neither, to be honest. I just assume it's all ticking along nicely.",
+        "zh": "说实话我也没有。我一直以为一切都运转正常。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Apparently one in four people are getting short-changed. That's no small thing.",
+        "zh": "据说四分之一的人被少缴了。这可不是小事。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Back when I was waitressing, I reckon my boss never paid a cent.",
+        "zh": "我以前当服务员的时候，估计老板一分钱都没给我缴过。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "You should look into it. It might add up to more than you think.",
+        "zh": "你应该查一查。加起来可能比你想的要多。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "I'll get round to it this weekend. Oh, finally, we're moving!",
+        "zh": "我这周末抽空弄一下。哦，终于动了！"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Don't speak too soon. Last week we stopped again two minutes later.",
+        "zh": "别高兴得太早。上周我们开了两分钟又停了。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Let's just hope we make it in before the coffee runs out.",
+        "zh": "只希望我们能在咖啡被喝完之前赶到公司。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "tell my manager in advance",
+        "en": "give my manager a heads-up",
+        "zh": "提前给经理打招呼"
+      },
+      {
+        "plain": "however / but remember",
+        "en": "Mind you",
+        "zh": "不过话说回来"
+      },
+      {
+        "plain": "You're right.",
+        "en": "Fair point.",
+        "zh": "有道理"
+      },
+      {
+        "plain": "made me think about it",
+        "en": "it got me thinking",
+        "zh": "让我开始思考"
+      },
+      {
+        "plain": "is working well",
+        "en": "ticking along nicely",
+        "zh": "运转顺利"
+      },
+      {
+        "plain": "It's quite serious.",
+        "en": "That's no small thing.",
+        "zh": "这可不是小事"
+      },
+      {
+        "plain": "I'll do it when I have time",
+        "en": "I'll get round to it",
+        "zh": "我抽空去做"
+      },
+      {
+        "plain": "Don't be so sure yet.",
+        "en": "Don't speak too soon.",
+        "zh": "别高兴得太早"
+      }
+    ]
+  }
+}
