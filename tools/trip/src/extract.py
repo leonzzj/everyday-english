@@ -159,6 +159,11 @@ if (src / "places.py").exists():
     places_mod = importlib.util.module_from_spec(pspec)
     pspec.loader.exec_module(places_mod)
     PLACES = places_mod.PLACES
+    WX = getattr(places_mod, "WX", {})
+    PARKS = getattr(places_mod, "PARKS", {})
+    CROWD = getattr(places_mod, "CROWD", {})
+else:
+    WX, PARKS, CROWD = {}, {}, {}
 hotel_by_id = {h["id"]: h for h in hotels}
 
 
@@ -211,6 +216,9 @@ for d in days_mod.DAYS:
         "main": o.get("main", ""),
         "tip": o.get("tip", ""),
         "hotel": o.get("hotel"),
+        "wx": [{"n": w[0], "lat": w[1], "lon": w[2], **({"note": w[3]} if len(w) > 3 else {})} for w in WX.get(md, [])],
+        "park": PARKS.get(md, ""),
+        "crowd": CROWD.get(md, ""),
     })
 
 # ---------------------------------------------------------------- notes (INTRO boxes)
