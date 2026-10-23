@@ -1,0 +1,760 @@
+{
+  "date": "2026-10-24",
+  "issueNo": 9,
+  "title": "Korean border talks, Europe's deadly heat and a melanoma vaccine",
+  "createdAt": "2026-10-24T06:49:57+11:00",
+  "stories": [
+    {
+      "id": "korea-border-talks",
+      "category": "World",
+      "headline": "South Korea invites the North to military talks over the border",
+      "headlineZh": "韩国邀请朝鲜就边界问题举行军事会谈",
+      "summaryZh": "九月非军事区爆炸致三名韩国士兵受伤后，首尔提议与平壤会谈以缓和边境紧张局势。",
+      "c1": "South Korea has invited North Korea to formal military talks in a bid to defuse tensions that have been simmering along one of the world's most heavily fortified borders. The offer, announced by Seoul's defence ministry on Friday, 23 October, would see the two sides sit down to confirm exactly where the land Military Demarcation Line runs, restore military communication lines and work out ways of preventing accidental clashes.\n\nThe proposal comes in the wake of a series of incidents that have rattled the frontier. In September, explosions near the demarcation line in the western part of the Demilitarized Zone injured three South Korean soldiers. Seoul blamed landmines laid by the North and demanded an apology, but Pyongyang flatly rejected the accusation.\n\nOfficials in Seoul suggested that dates and venues could be arranged through Panmunjom, the truce village where soldiers from both sides stand face to face, and said they would be open to involving the US-led United Nations Command. The ministry warned that it was hard to predict what further incidents might occur if the situation were left unaddressed.\n\nWhether the North will take up the offer is far from certain. Under Kim Jong Un, Pyongyang has suspended almost all dialogue and cooperation with the South in recent years, and a similar proposal last year went unanswered. Kim's sister, Kim Yo Jong, has said new military units have been moved into firing positions along the border, and she dismissed President Lee Jae Myung's calls for talks as \"the climax of the farce\". Still, by putting a concrete agenda on the table, Seoul has at least signalled that it would rather talk than escalate.",
+      "b2": "South Korea has invited North Korea to official military talks to reduce tension along one of the most heavily guarded borders in the world. The defence ministry in Seoul announced the offer on Friday, 23 October. It wants both sides to agree on exactly where the land border runs, bring back military communication lines and find ways to avoid accidental fighting.\n\nThe offer follows several worrying incidents. In September, explosions near the border in the western part of the Demilitarized Zone injured three South Korean soldiers. Seoul said the North had laid landmines there and asked for an apology, but Pyongyang strongly denied this.\n\nSouth Korean officials said the dates and place of the talks could be organised through Panmunjom, the village where soldiers from both countries stand face to face. They also said the US-led United Nations Command could take part. The ministry warned that more incidents could happen if nothing is done.\n\nNobody knows if the North will accept. In recent years it has stopped almost all contact with the South, and it did not reply to a similar offer last year. Kim Jong Un's sister, Kim Yo Jong, has said new military units are now in firing positions along the border.",
+      "vocab": [
+        {
+          "word": "in a bid to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为了；试图",
+          "en": "in an attempt to achieve something",
+          "example": "The café cut its prices in a bid to win back regular customers."
+        },
+        {
+          "word": "defuse tensions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "缓和紧张局势",
+          "en": "make a tense situation calmer and less dangerous",
+          "example": "Our manager made a joke to defuse tensions during the heated meeting."
+        },
+        {
+          "word": "simmer",
+          "pos": "v.",
+          "ipa": "/ˈsɪmə(r)/",
+          "zh": "（矛盾）酝酿；即将爆发",
+          "en": "(of anger or conflict) to stay at a low level, ready to break out",
+          "example": "Resentment had been simmering in the team for months.",
+          "forms": [
+            "simmering"
+          ]
+        },
+        {
+          "word": "heavily fortified",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "戒备森严的",
+          "en": "strongly protected with military defences",
+          "example": "The embassy is now heavily fortified after last year's protests."
+        },
+        {
+          "word": "in the wake of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……之后；由于",
+          "en": "following and often caused by an event",
+          "example": "Airport security was tightened in the wake of the incident."
+        },
+        {
+          "word": "rattle",
+          "pos": "v.",
+          "ipa": "/ˈrætl/",
+          "zh": "使紧张不安",
+          "en": "to make someone or something nervous or unsettled",
+          "example": "The sudden fall in share prices rattled investors.",
+          "forms": [
+            "rattled"
+          ]
+        },
+        {
+          "word": "flatly reject",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "断然拒绝",
+          "en": "refuse completely and firmly",
+          "example": "The council flatly rejected the developer's new proposal.",
+          "forms": [
+            "flatly rejected"
+          ]
+        },
+        {
+          "word": "take up the offer",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "接受提议",
+          "en": "accept something that has been offered",
+          "example": "She took up the offer of a lift home after the party."
+        },
+        {
+          "word": "far from certain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远不能确定",
+          "en": "very uncertain",
+          "example": "It's far from certain that the train line will open on time."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "North Korea has admitted that it laid the landmines.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Pyongyang “flatly rejected the accusation”，即断然否认，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Explosions in the Demilitarized Zone injured three South Korean soldiers in September.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“In September, explosions ... injured three South Korean soldiers”，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is one aim of the proposed talks?",
+          "options": [
+            "To agree on a peace treaty ending the Korean War",
+            "To arrange a meeting between the two leaders",
+            "To confirm where the land border actually runs",
+            "To remove all landmines from the Demilitarized Zone"
+          ],
+          "answer": 2,
+          "explain": "原文提到会谈要 “confirm exactly where the land Military Demarcation Line runs”，其他选项文中未提。"
+        },
+        {
+          "type": "tfng",
+          "q": "The United Nations Command has already agreed to join the talks.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说首尔 “would be open to involving” 联合国军司令部，并未说明对方是否同意。"
+        }
+      ],
+      "discuss": "Why do you think countries in a long-running conflict often find it so hard to start talking? Can small practical steps, like restoring a hotline, lead to bigger changes?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/south-korea-invites-north-for-military-talks-over-border"
+        },
+        {
+          "name": "The Korea Times",
+          "url": "https://www.koreatimes.co.kr/southkorea/defense/20261023/s-korea-proposes-military-talks-with-n-korea-over-border-conflict-issue"
+        }
+      ]
+    },
+    {
+      "id": "europe-heat-deaths",
+      "category": "Environment",
+      "headline": "Europe's summer heat killed over 50,000 people in its cities",
+      "headlineZh": "欧洲今夏高温致城市逾五万人死亡",
+      "summaryZh": "新研究估计欧洲854座城市今夏有50391人死于高温，约三分之二与气候变化有关。",
+      "c1": "Europe's scorching summer may have claimed more than 50,000 lives in its cities, according to a new study, and researchers believe roughly two-thirds of those deaths would not have happened without human-caused climate change. Modelling 854 cities through the heatwaves of June, July and August, the team estimated 50,391 heat-related deaths, of which 32,619 were attributed to the extra warmth from burning fossil fuels.\n\nIf the estimate holds up, this summer would be by far the deadliest in recent records, with a toll 71% higher than that of 2022, the previous worst. Italy, France, Spain and Germany bore the brunt, and more than half of those who died were aged 85 or older, although over 800 deaths were among people aged 20 to 44. Some cities sweltered at 12°C above normal.\n\nBecause heat is rarely recorded on death certificates, the figures rely on statistical modelling rather than direct counts. The researchers compared actual conditions with a simulated world without climate change, and checked their method against official UK data, which it matched closely, if not perfectly. The authors concede that the total is probably an underestimate, since it leaves out a deadly May heatwave and covers cities home to only about 40% of Europe's population.\n\nThe study, due to appear in the journal Nature Health, has prompted renewed calls for action. Outside experts urged governments to invest in early-warning systems, affordable low-carbon cooling and check-in programmes for vulnerable residents. Several stressed, however, that adapting to the heat is not enough on its own: cutting fossil fuel use must go hand in hand with it.",
+      "b2": "A new study suggests that more than 50,000 people died because of heat in Europe's cities this summer. The researchers believe about two-thirds of these deaths would not have happened without climate change caused by humans. They studied 854 cities during the heatwaves of June, July and August and estimated 50,391 deaths, with 32,619 linked to extra heat from burning fossil fuels.\n\nIf the figure is correct, this summer was much deadlier than 2022, the previous worst year, with 71% more deaths. Italy, France, Spain and Germany were hit hardest. More than half of the people who died were 85 or older, but over 800 were aged between 20 and 44.\n\nHeat is rarely written on death certificates, so the team used statistical models instead of counting deaths directly. They compared real conditions with a computer-made world without climate change. The authors say the real total is probably higher, because the study did not include a deadly heatwave in May and covered only about 40% of Europe's population.\n\nExperts not involved in the study called for early-warning systems, cheap low-carbon cooling and programmes that check on vulnerable people. But they said that reducing fossil fuel use is also necessary.",
+      "vocab": [
+        {
+          "word": "claim lives",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "夺去生命",
+          "en": "cause people to die",
+          "example": "The floods claimed dozens of lives across the region.",
+          "forms": [
+            "claimed more than 50,000 lives"
+          ]
+        },
+        {
+          "word": "attribute to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "say that something is caused by something else",
+          "example": "Doctors attributed his recovery to early treatment.",
+          "forms": [
+            "attributed to"
+          ]
+        },
+        {
+          "word": "hold up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "站得住脚；经得起检验",
+          "en": "remain true or valid when examined",
+          "example": "Her theory didn't hold up once more data came in.",
+          "forms": [
+            "holds up"
+          ]
+        },
+        {
+          "word": "bear the brunt",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "首当其冲",
+          "en": "suffer the worst part of something unpleasant",
+          "example": "Small businesses bore the brunt of the lockdowns.",
+          "forms": [
+            "bore the brunt"
+          ]
+        },
+        {
+          "word": "swelter",
+          "pos": "v.",
+          "ipa": "/ˈsweltə(r)/",
+          "zh": "酷热难耐",
+          "en": "to be uncomfortably hot",
+          "example": "Commuters sweltered on the packed tram all afternoon.",
+          "forms": [
+            "sweltered"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had some weaknesses."
+        },
+        {
+          "word": "underestimate",
+          "pos": "n.",
+          "ipa": "/ˌʌndərˈestɪmət/",
+          "zh": "低估",
+          "en": "a figure or judgement that is too low",
+          "example": "Calling it a small delay is an underestimate; we waited three hours."
+        },
+        {
+          "word": "prompt renewed calls",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发新一轮呼吁",
+          "en": "cause people to demand something again",
+          "example": "The accident prompted renewed calls for safer bike lanes.",
+          "forms": [
+            "prompted renewed calls"
+          ]
+        },
+        {
+          "word": "go hand in hand",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "相辅相成；同时进行",
+          "en": "be closely connected or happen together",
+          "example": "Good sleep and good health go hand in hand."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers counted heat deaths directly from death certificates.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 “the figures rely on statistical modelling rather than direct counts”，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why do the authors think the real number of deaths is probably higher?",
+          "options": [
+            "The study ignored a May heatwave and many areas outside the cities studied",
+            "Many hospitals refused to share their data",
+            "The UK figures were much higher than their estimate",
+            "They only counted people aged over 85"
+          ],
+          "answer": 0,
+          "explain": "原文：“it leaves out a deadly May heatwave and covers cities home to only about 40% of Europe's population”。"
+        },
+        {
+          "type": "tfng",
+          "q": "Rome recorded more heat deaths than any other city this summer.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到意大利、法国、西班牙和德国死亡人数最多，没有提到罗马。"
+        },
+        {
+          "type": "tfng",
+          "q": "More than half of the people who died were aged 85 or older.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“more than half of those who died were aged 85 or older”，与题干一致。"
+        }
+      ],
+      "discuss": "Why do you think heatwaves get less public attention than floods or bushfires, even though they can kill more people? How should cities prepare for hotter summers?",
+      "sources": [
+        {
+          "name": "Phys.org (AP)",
+          "url": "https://phys.org/news/2026-10-europe-killer-summer-climate-blamed.html"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149498/europe-heat-deaths"
+        }
+      ]
+    },
+    {
+      "id": "php-ai-security-flaws",
+      "category": "Tech",
+      "headline": "AI uncovers hidden PHP flaws, forcing websites worldwide offline",
+      "headlineZh": "AI发现PHP隐藏漏洞，全球网站紧急下线",
+      "summaryZh": "AI协助发现PHP两个严重漏洞，多国政府网站为打补丁暂时下线。",
+      "c1": "Websites around the world went dark this week as organisations scrambled to patch two critical security flaws in PHP, a programming language that is estimated to power around 70% of the web. Collectively dubbed PHP2Shell, the bugs could allow attackers to break into websites and potentially read sensitive data such as passwords.\n\nWhat makes the episode particularly striking is how the flaws came to light. The security firm Calif and the Google-owned cybersecurity company Wiz both uncovered them in August with the help of advanced AI models, including one built by OpenAI. The weaknesses had apparently lain undetected for more than a decade, affecting PHP versions stretching back to 2012. OpenAI claimed that, to its knowledge, \"frontier AI found these vulnerabilities before attackers did\".\n\nPHP's developers released fixes on 21 October, but the rollout was far from smooth. Details reportedly leaked a day before the planned disclosure, and Amazon's threat intelligence team said it had detected a hacking attempt before the flaws were made public. Erring on the side of caution, Finland temporarily shut down its government's public web services and the Dutch cyber-security agency took its own website offline, while the US National Security Agency advised organisations to patch immediately or pull vulnerable systems offline.\n\nThe incident highlights what many see as a double-edged sword. The same AI tools that helped defenders spot long-hidden bugs could, in the wrong hands, allow attackers to find them just as quickly. Some commentators argue that this may usher in an era in which software has to be fixed at unprecedented speed.",
+      "b2": "Websites around the world went offline this week as organisations hurried to fix two serious security problems in PHP. This programming language is thought to run about 70% of the web. The bugs, called PHP2Shell, could let attackers break into websites and possibly read private information such as passwords.\n\nThe way the problems were found is unusual. The security company Calif and Wiz, a cybersecurity company owned by Google, both discovered them in August using advanced AI models, including one made by OpenAI. The weaknesses had been hidden for more than ten years and affect PHP versions going back to 2012.\n\nPHP's developers released fixes on 21 October, but things did not go smoothly. Details reportedly leaked a day early, and Amazon said it had seen a hacking attempt before the flaws were announced. To be safe, Finland briefly closed its government's public websites, and the Dutch cyber-security agency took its own site offline. The US National Security Agency told organisations to update at once or disconnect systems at risk.\n\nMany people say AI cuts both ways. Tools that help defenders find old bugs could also help criminals find them quickly. Software may now need to be fixed faster than ever before.",
+      "vocab": [
+        {
+          "word": "scramble to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "争先恐后地做；仓促应对",
+          "en": "hurry to do something difficult, often in a disorganised way",
+          "example": "Retailers scrambled to restock shelves before the long weekend.",
+          "forms": [
+            "scrambled to"
+          ]
+        },
+        {
+          "word": "dub",
+          "pos": "v.",
+          "ipa": "/dʌb/",
+          "zh": "把……称为",
+          "en": "give someone or something a nickname",
+          "example": "The media dubbed the storm 'the beast from the east'.",
+          "forms": [
+            "dubbed"
+          ]
+        },
+        {
+          "word": "come to light",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "被发现；暴露出来",
+          "en": "become known, especially after being hidden",
+          "example": "New evidence came to light during the inquiry.",
+          "forms": [
+            "came to light"
+          ]
+        },
+        {
+          "word": "lie undetected",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "未被察觉",
+          "en": "remain hidden without anyone noticing",
+          "example": "The leak lay undetected behind the wall for years.",
+          "forms": [
+            "lain undetected"
+          ]
+        },
+        {
+          "word": "stretch back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "追溯到",
+          "en": "go back in time to a particular point",
+          "example": "Their friendship stretches back to primary school.",
+          "forms": [
+            "stretching back"
+          ]
+        },
+        {
+          "word": "err on the side of caution",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "宁可谨慎行事",
+          "en": "choose the safer option to avoid risk",
+          "example": "I erred on the side of caution and packed an umbrella.",
+          "forms": [
+            "Erring on the side of caution"
+          ]
+        },
+        {
+          "word": "double-edged sword",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "双刃剑",
+          "en": "something with both good and bad effects",
+          "example": "Working from home is a double-edged sword for many people."
+        },
+        {
+          "word": "in the wrong hands",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "落入坏人手中",
+          "en": "if used by people who might cause harm",
+          "example": "In the wrong hands, this data could be used for scams."
+        },
+        {
+          "word": "usher in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "开创；引入",
+          "en": "mark or cause the beginning of something new",
+          "example": "The new law could usher in cheaper public transport."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Wiz is a company owned by Google.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“the Google-owned cybersecurity company Wiz”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Hackers stole passwords from the Dutch cyber-security agency's website.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说该机构 “took its own website offline”，没有提到密码被盗。"
+        },
+        {
+          "type": "tfng",
+          "q": "The flaws were first discovered in October.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说漏洞是 “uncovered ... in August”，10月21日只是发布补丁，因此与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did the US National Security Agency advise organisations to do?",
+          "options": [
+            "Stop using PHP permanently",
+            "Wait for an official investigation",
+            "Report any attacks to Amazon",
+            "Patch immediately or take vulnerable systems offline"
+          ],
+          "answer": 3,
+          "explain": "原文：NSA “advised organisations to patch immediately or pull vulnerable systems offline”。"
+        }
+      ],
+      "discuss": "Do you think AI will make the internet safer or more dangerous overall? Why, and who should be responsible for keeping websites secure?",
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149503/hacking-php-flaws"
+        },
+        {
+          "name": "CNN",
+          "url": "https://us.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai"
+        }
+      ]
+    },
+    {
+      "id": "melanoma-vaccine-trial",
+      "category": "Australia",
+      "headline": "Australian-led trial finds personalised vaccine cuts melanoma's return",
+      "headlineZh": "澳洲主导试验：个性化疫苗降低黑色素瘤复发风险",
+      "summaryZh": "由澳洲学者领导的三期试验显示，个性化mRNA疫苗使黑色素瘤复发或死亡风险降低42%。",
+      "c1": "A personalised cancer vaccine has sharply reduced the chance of melanoma returning after surgery, according to the results of a large international trial led by an Australian researcher. Georgina Long, of Melanoma Institute Australia, described the findings as \"phenomenal\", and the results have been accepted for publication in the New England Journal of Medicine.\n\nThe phase 3 trial, known as INTerpath-001, enrolled 1,137 patients whose melanoma was at high risk of coming back. After their tumours had been surgically removed, participants were randomly assigned to receive either the immunotherapy drug pembrolizumab with a placebo, or pembrolizumab combined with intismeran, an mRNA vaccine developed by Moderna and Merck. Crucially, the vaccine is tailor-made from each patient's own tumour, with the aim of helping the immune system target that particular cancer.\n\nAdding the vaccine cut the risk of the cancer recurring or the patient dying by 42%, and Long reported no major harmful side effects. The study ran across 157 sites worldwide, including several Australian centres such as Westmead Hospital and the Peter MacCallum Cancer Centre. Long, who chaired the trial's steering committee and advised both companies, has been open about those industry ties.\n\nExperts nonetheless caution against reading too much into the results just yet. Patients have so far been followed for only about 25 months, data on overall survival are still immature, and some participants did not respond to the vaccine. If the benefits prove durable, however, researchers hope the same approach could eventually be extended to other types of cancer.",
+      "b2": "A personalised cancer vaccine has greatly lowered the chance of melanoma coming back after surgery, according to a large international trial led by an Australian researcher. Georgina Long, from Melanoma Institute Australia, called the results \"phenomenal\". They will be published in the New England Journal of Medicine.\n\nThe trial included 1,137 patients whose melanoma was likely to return. After surgery to remove their tumours, they were put into two groups by chance. One group received the immunotherapy drug pembrolizumab and a placebo. The other received pembrolizumab with intismeran, an mRNA vaccine made by Moderna and Merck. Each vaccine is made from the patient's own tumour.\n\nAdding the vaccine lowered the risk of the cancer returning or the patient dying by 42%. Long said there were no major harmful side effects. The trial took place at 157 sites around the world, including several in Australia, such as Westmead Hospital and the Peter MacCallum Cancer Centre.\n\nHowever, experts say it is too early to be sure. Patients have only been followed for about 25 months, and some did not respond to the vaccine. If the benefits last, researchers hope the method could be used for other cancers too.",
+      "vocab": [
+        {
+          "word": "sharply reduce",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "大幅降低",
+          "en": "make something much smaller or lower",
+          "example": "The new timetable has sharply reduced waiting times.",
+          "forms": [
+            "sharply reduced"
+          ]
+        },
+        {
+          "word": "at high risk of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "面临……的高风险",
+          "en": "very likely to suffer something bad",
+          "example": "Older people are at high risk of heatstroke in summer."
+        },
+        {
+          "word": "randomly assign",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "随机分配",
+          "en": "put people into groups by chance, as in a scientific study",
+          "example": "Students were randomly assigned to different project teams.",
+          "forms": [
+            "randomly assigned"
+          ]
+        },
+        {
+          "word": "tailor-made",
+          "pos": "adj.",
+          "ipa": "/ˌteɪlə ˈmeɪd/",
+          "zh": "量身定制的",
+          "en": "made specially for a particular person or purpose",
+          "example": "The gym offers tailor-made fitness plans."
+        },
+        {
+          "word": "industry ties",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与业界的关联",
+          "en": "connections with companies in a particular business",
+          "example": "Some readers questioned the report because of the author's industry ties."
+        },
+        {
+          "word": "caution against",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "告诫不要",
+          "en": "warn people not to do something",
+          "example": "Doctors caution against taking antibiotics for a cold.",
+          "forms": [
+            "caution against"
+          ]
+        },
+        {
+          "word": "read too much into",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "过度解读",
+          "en": "believe something means more than it really does",
+          "example": "Don't read too much into his short reply; he's just busy.",
+          "forms": [
+            "reading too much into"
+          ]
+        },
+        {
+          "word": "prove durable",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "证明持久有效",
+          "en": "turn out to last a long time",
+          "example": "If the peace deal proves durable, tourism could recover quickly."
+        },
+        {
+          "word": "extend to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "推广到；扩展到",
+          "en": "make something apply to a wider group or area",
+          "example": "The discount will be extended to part-time staff.",
+          "forms": [
+            "extended to"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All of the patients in the trial were treated in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说试验在 “157 sites worldwide” 进行，澳洲只是其中几处，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why do experts say it is too early to draw firm conclusions?",
+          "options": [
+            "The vaccine caused serious side effects",
+            "Patients have only been followed for about two years",
+            "The trial included too few patients",
+            "The results have not been accepted by any journal"
+          ],
+          "answer": 1,
+          "explain": "原文：“Patients have so far been followed for only about 25 months”，其余选项与原文不符。"
+        },
+        {
+          "type": "tfng",
+          "q": "Each dose of the vaccine is made from the individual patient's tumour.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“the vaccine is tailor-made from each patient's own tumour”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The vaccine will be available in Australian public hospitals next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到疫苗何时、在哪里上市。"
+        }
+      ],
+      "discuss": "Why do you think personalised medicine attracts so much hope and investment? Should expensive treatments like this be funded by the government for everyone who needs them?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-23/melanoma-cancer-vaccine-breakthrough-georgina-long/107303082"
+        },
+        {
+          "name": "Scimex",
+          "url": "https://www.scimex.org/newsfeed/expert-reaction-melanoma-vaccine-reduces-death-or-cancer-recurrence-by-42-percent"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Skin Check at the GP",
+    "titleZh": "在全科诊所做皮肤检查",
+    "setting": "Priya visits her GP in Footscray for a skin check after noticing a mole that seems to have changed.",
+    "settingZh": "Priya发现一颗痣似乎有变化，于是去Footscray的全科诊所做皮肤检查。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Come on in, Priya. What can I do for you today?",
+        "zh": "请进，Priya。今天有什么需要帮忙的？"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "There's a mole on my shoulder that I reckon has got a bit bigger.",
+        "zh": "我肩膀上有颗痣，我觉得好像变大了一点。"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Good on you for getting it looked at. How long have you noticed it?",
+        "zh": "你来检查做得对。你注意到它多久了？"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "Maybe a couple of months? My partner pointed it out, to be honest.",
+        "zh": "大概两三个月吧？说实话，是我伴侣先发现的。"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Okay, let's have a proper look under the dermatoscope. Just slip your top off that side.",
+        "zh": "好，我们用皮肤镜仔细看看。请把那边的衣服脱下来。"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "Sure. I've been putting this off for ages, so I'm a bit on edge.",
+        "zh": "好的。我一直拖着没来，所以有点紧张。"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "That's completely understandable. The edges look fairly even, which is a good sign.",
+        "zh": "完全可以理解。边缘看起来比较整齐，这是个好迹象。"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "Phew. So you don't think it's anything to worry about?",
+        "zh": "呼。那你觉得没什么好担心的吧？"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Probably not, but I'd rather be safe than sorry and take a small sample.",
+        "zh": "可能没事，但为了保险起见，我想取一小块样本。"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "Fair enough. Will it hurt much? I'm a bit of a wimp with needles.",
+        "zh": "有道理。会很疼吗？我挺怕打针的。"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Just a quick sting from the local anaesthetic, then you won't feel a thing.",
+        "zh": "局部麻醉时会刺一下，之后就没感觉了。"
+      },
+      {
+        "s": "B",
+        "name": "Priya",
+        "en": "Alright, let's get it over and done with. When will I hear back?",
+        "zh": "好吧，那就赶紧做完吧。什么时候能知道结果？"
+      },
+      {
+        "s": "A",
+        "name": "Dr Hughes",
+        "en": "Results usually come through within a week. In the meantime, slip, slop, slap, okay?",
+        "zh": "结果通常一周内出来。在此期间记得做好防晒，好吗？"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I think",
+        "en": "I reckon",
+        "zh": "澳式口语，表示“我觉得”"
+      },
+      {
+        "plain": "You did the right thing",
+        "en": "Good on you",
+        "zh": "称赞对方做得好"
+      },
+      {
+        "plain": "examine it",
+        "en": "getting it looked at",
+        "zh": "让专业人士检查"
+      },
+      {
+        "plain": "I have delayed this for a long time",
+        "en": "I've been putting this off for ages",
+        "zh": "拖延很久"
+      },
+      {
+        "plain": "I'm nervous",
+        "en": "I'm a bit on edge",
+        "zh": "有点紧张不安"
+      },
+      {
+        "plain": "It's better to be careful",
+        "en": "I'd rather be safe than sorry",
+        "zh": "宁可稳妥，免得后悔"
+      },
+      {
+        "plain": "I'm scared of needles",
+        "en": "I'm a bit of a wimp with needles",
+        "zh": "自嘲胆小怕打针"
+      },
+      {
+        "plain": "let's finish it quickly",
+        "en": "let's get it over and done with",
+        "zh": "赶紧把不愉快的事做完"
+      }
+    ]
+  }
+}

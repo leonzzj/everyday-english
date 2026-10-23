@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-23T06:49:54+11:00",
+  "updatedAt": "2026-10-24T06:49:57+11:00",
   "issues": [
+    {
+      "date": "2026-10-24",
+      "issueNo": 9,
+      "title": "Korean border talks, Europe's deadly heat and a melanoma vaccine",
+      "headlines": [
+        "South Korea invites the North to military talks over the border",
+        "Europe's summer heat killed over 50,000 people in its cities",
+        "AI uncovers hidden PHP flaws, forcing websites worldwide offline",
+        "Australian-led trial finds personalised vaccine cuts melanoma's return"
+      ]
+    },
     {
       "date": "2026-10-23",
       "issueNo": 8,
