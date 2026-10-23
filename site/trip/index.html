@@ -17,30 +17,37 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&display=swap">
 <style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 <style>
-/* Layout: a pocket timetable. One day per screen, drawn as a metro line:
-   each stop is a station, the line takes the country's colour, times run down the left like a departures board. */
+/* Layout: a pocket timetable. A dark departures board on top; each day opens with a postcard
+   (date, weather, route), then the day drawn as a metro line in the country's colour. */
 :root {
-  --bg: #eef1f3;
+  --bg: #eef1f4;
   --card: #ffffff;
-  --ink: #1a2026;
-  --ink-2: #39434d;
-  --muted: #69747f;
-  --line: #dce1e6;
-  --soft: #f4f6f7;
+  --ink: #161b21;
+  --ink-2: #3a444f;
+  --muted: #6a7581;
+  --line: #e2e6eb;
+  --soft: #f3f5f7;
   --link: #1f5fa8;
-  --sel-bg: #1a2026;
+  --chip: #ecf2fb;
+  --chip-ink: #1d5aa0;
+  --sel-bg: #161b21;
   --sel-fg: #ffffff;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 8px 24px rgba(16, 24, 40, 0.06);
+  --scrim: rgba(16, 20, 24, 0.4);
 
-  --cn: #9a6a12;  --cn-bg: #f8f0e0;
-  --kr: #2a5ba6;  --kr-bg: #e8effa;
-  --jp: #c0392b;  --jp-bg: #fbeceb;
-  --au: #56606b;  --au-bg: #eceff2;
+  --cn: #9a6a12;  --cn-bg: #f7eedb;
+  --kr: #2a5ba6;  --kr-bg: #e3ecfa;
+  --jp: #c0392b;  --jp-bg: #fae8e6;
+  --au: #56606b;  --au-bg: #eaeef2;
 
   --fix: #b42318;   --fix-bg: #fdeceb;   --fix-line: #f1b5ad;
-  --tight: #9a5a00; --tight-bg: #fff4de; --tight-line: #f0c27a;
+  --tight: #9a5a00; --tight-bg: #fff4de; --tight-line: #efc27c;
   --meal: #9a5a00;  --meal-bg: #fff8ec;
   --ok: #1e7a46;    --ok-bg: #e2f3e8;
   --todo: #9a5a00;  --todo-bg: #fff0d6;
+  --rain: #2f6fd0;
+  --sun: #e8a300;
+  --wait-lo: #2e9d63; --wait-mid: #e09b16; --wait-hi: #d1493b;
 
   --m-fly: #2a4a9c;   --m-fly-bg: #e6ecfa;
   --m-rail: #1e7a46;  --m-rail-bg: #e2f3e8;
@@ -50,102 +57,77 @@
   --m-walk: #4b5563;  --m-walk-bg: #eceff2;
   --m-bike: #6b2fa3;  --m-bike-bg: #f1e8fb;
 
-  --f-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", "Apple SD Gothic Neo", sans-serif;
-  --f-data: "Barlow Semi Condensed", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-
-  --fs-xs: 0.75rem;
-  --fs-s: 0.84rem;
-  --fs-m: 0.95rem;
-  --fs-l: 1.12rem;
-  --fs-xl: 1.5rem;
-  --fs-date: 2.25rem;
-
-  --board-bg: #161b20; --board-fg: #f2f4f6; --board-muted: #9ba6b1; --board-line: #2c343c; --board-chip: #20272e; --board-dot: #ff7a66;
+  --board-bg: #151a1f; --board-fg: #f2f4f6; --board-muted: #9ba6b1; --board-line: #2b333b; --board-chip: #1f262d; --board-dot: #ff7a66;
   --b-cn: #e2b35a; --b-kr: #82a9ea; --b-jp: #ff8f80; --b-au: #aab3bc;
 
+  --f-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", "Apple SD Gothic Neo", sans-serif;
+  --f-data: "Barlow Semi Condensed", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --fs-xs: 0.75rem; --fs-s: 0.85rem; --fs-m: 0.95rem; --fs-l: 1.12rem; --fs-xl: 1.5rem;
+  --r-l: 20px; --r-m: 16px; --r-s: 12px;
   --gut-l: max(16px, env(safe-area-inset-left, 0px));
   --gut-r: max(16px, env(safe-area-inset-right, 0px));
-  --tabbar-h: 56px;
-  --scrim: rgba(16, 20, 24, 0.38);
+  --tabbar-h: 58px;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0f1215; --card: #171b20; --ink: #e8ebee; --ink-2: #c3cad2; --muted: #98a3ae; --line: #2a3138; --soft: #1d2228;
-    --link: #8db6ef; --sel-bg: #e8ebee; --sel-fg: #0f1215;
-    --cn: #e2b35a; --cn-bg: #2d2412; --kr: #82a9ea; --kr-bg: #172338; --jp: #ff8f80; --jp-bg: #3a1916; --au: #aab3bc; --au-bg: #232930;
-    --fix: #ff8578; --fix-bg: #3a1714; --fix-line: #7a2c25; --tight: #f3be62; --tight-bg: #33270f; --tight-line: #7a5a1c;
-    --meal: #f0b45e; --meal-bg: #261f12; --ok: #6fd39b; --ok-bg: #11301f; --todo: #f3be62; --todo-bg: #33270f;
+    --bg: #0d1013; --card: #161a1f; --ink: #e9ecef; --ink-2: #c4cbd2; --muted: #97a2ad; --line: #262d34; --soft: #1c2127;
+    --link: #8db6ef; --chip: #17253a; --chip-ink: #93bbf2; --sel-bg: #e9ecef; --sel-fg: #0d1013;
+    --shadow: 0 0 0 1px #232a31; --scrim: rgba(0, 0, 0, 0.6);
+    --cn: #e2b35a; --cn-bg: #2a2212; --kr: #82a9ea; --kr-bg: #15223a; --jp: #ff8f80; --jp-bg: #371816; --au: #aab3bc; --au-bg: #222830;
+    --fix: #ff8578; --fix-bg: #3a1714; --fix-line: #7a2c25; --tight: #f3be62; --tight-bg: #30250f; --tight-line: #77581c;
+    --meal: #f0b45e; --meal-bg: #241d12; --ok: #6fd39b; --ok-bg: #11301f; --todo: #f3be62; --todo-bg: #33270f;
+    --rain: #7fb0ff; --sun: #ffc94a; --wait-lo: #5ccf8f; --wait-mid: #f3be62; --wait-hi: #ff7f70;
     --m-fly: #a9bdf3; --m-fly-bg: #1c2645; --m-rail: #79d6a0; --m-rail-bg: #12301f; --m-metro: #8db6ef; --m-metro-bg: #172a40;
     --m-bus: #f3be62; --m-bus-bg: #33270f; --m-taxi: #ff9a8d; --m-taxi-bg: #3a1916; --m-walk: #b9c2cb; --m-walk-bg: #252b32;
     --m-bike: #cfa6f5; --m-bike-bg: #2c1d3d;
-    --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22; --scrim: rgba(0, 0, 0, 0.55);
+    --board-bg: #0a0d10; --board-line: #222930; --board-chip: #151b21;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0f1215; --card: #171b20; --ink: #e8ebee; --ink-2: #c3cad2; --muted: #98a3ae; --line: #2a3138; --soft: #1d2228;
-  --link: #8db6ef; --sel-bg: #e8ebee; --sel-fg: #0f1215;
-  --cn: #e2b35a; --cn-bg: #2d2412; --kr: #82a9ea; --kr-bg: #172338; --jp: #ff8f80; --jp-bg: #3a1916; --au: #aab3bc; --au-bg: #232930;
-  --fix: #ff8578; --fix-bg: #3a1714; --fix-line: #7a2c25; --tight: #f3be62; --tight-bg: #33270f; --tight-line: #7a5a1c;
-  --meal: #f0b45e; --meal-bg: #261f12; --ok: #6fd39b; --ok-bg: #11301f; --todo: #f3be62; --todo-bg: #33270f;
+  --bg: #0d1013; --card: #161a1f; --ink: #e9ecef; --ink-2: #c4cbd2; --muted: #97a2ad; --line: #262d34; --soft: #1c2127;
+  --link: #8db6ef; --chip: #17253a; --chip-ink: #93bbf2; --sel-bg: #e9ecef; --sel-fg: #0d1013;
+  --shadow: 0 0 0 1px #232a31; --scrim: rgba(0, 0, 0, 0.6);
+  --cn: #e2b35a; --cn-bg: #2a2212; --kr: #82a9ea; --kr-bg: #15223a; --jp: #ff8f80; --jp-bg: #371816; --au: #aab3bc; --au-bg: #222830;
+  --fix: #ff8578; --fix-bg: #3a1714; --fix-line: #7a2c25; --tight: #f3be62; --tight-bg: #30250f; --tight-line: #77581c;
+  --meal: #f0b45e; --meal-bg: #241d12; --ok: #6fd39b; --ok-bg: #11301f; --todo: #f3be62; --todo-bg: #33270f;
+  --rain: #7fb0ff; --sun: #ffc94a; --wait-lo: #5ccf8f; --wait-mid: #f3be62; --wait-hi: #ff7f70;
   --m-fly: #a9bdf3; --m-fly-bg: #1c2645; --m-rail: #79d6a0; --m-rail-bg: #12301f; --m-metro: #8db6ef; --m-metro-bg: #172a40;
   --m-bus: #f3be62; --m-bus-bg: #33270f; --m-taxi: #ff9a8d; --m-taxi-bg: #3a1916; --m-walk: #b9c2cb; --m-walk-bg: #252b32;
   --m-bike: #cfa6f5; --m-bike-bg: #2c1d3d;
-  --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22; --scrim: rgba(0, 0, 0, 0.55);
+  --board-bg: #0a0d10; --board-line: #222930; --board-chip: #151b21;
   color-scheme: dark;
 }
 
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-body {
-  background: var(--bg);
-  color: var(--ink);
-  font-family: var(--f-body);
-  font-size: 15px;
-  line-height: 1.5;
-  -webkit-tap-highlight-color: transparent;
-}
-body::before {
-  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--board-bg);
-}
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; -webkit-tap-highlight-color: transparent; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--board-bg); }
 button { font: inherit; color: inherit; }
 a { color: var(--link); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 6px; }
 .wrap { padding-left: var(--gut-l); padding-right: var(--gut-r); max-width: 760px; margin: 0 auto; box-sizing: border-box; }
 .num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.ico { width: 16px; height: 16px; flex: none; vertical-align: -3px; }
 
-/* ---------- top bar: a departures board, dark in both themes ---------- */
-.top {
-  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
-  background: var(--board-bg); color: var(--board-fg);
-  border-bottom: 1px solid var(--board-line);
-}
-.top .wrap { padding-block: 10px 10px; display: grid; gap: 9px; }
+/* ---------- top: a departures board, dark in both themes ---------- */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--board-bg); color: var(--board-fg); }
+.top .wrap { padding-block: 10px 12px; display: grid; gap: 10px; }
 .top-row { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .brand { font-weight: 700; font-size: var(--fs-l); letter-spacing: 0.04em; white-space: nowrap; }
 .status { color: var(--board-muted); font-size: var(--fs-s); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.today-btn {
-  margin-left: auto; flex: none; border: 1px solid var(--board-line); background: var(--board-chip); color: var(--board-fg); border-radius: 999px;
-  padding: 4px 12px; font-size: var(--fs-s); font-weight: 600; cursor: pointer;
-}
-.strip {
-  display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none;
-  margin-inline: calc(-1 * var(--gut-l)) calc(-1 * var(--gut-r)); padding-inline: var(--gut-l) var(--gut-r);
-  -webkit-overflow-scrolling: touch;
-}
+.today-btn { margin-left: auto; flex: none; border: 1px solid var(--board-line); background: var(--board-chip); color: var(--board-fg); border-radius: 999px; padding: 4px 12px; font-size: var(--fs-s); font-weight: 600; cursor: pointer; }
+.strip { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; margin-inline: calc(-1 * var(--gut-l)) calc(-1 * var(--gut-r)); padding-inline: var(--gut-l) var(--gut-r); -webkit-overflow-scrolling: touch; }
 .strip::-webkit-scrollbar { display: none; }
-.dchip {
-  flex: none; scroll-snap-align: center; position: relative; color: var(--board-fg);
-  display: grid; justify-items: center; gap: 0; min-width: 50px; padding: 9px 6px 8px;
-  border: 1px solid var(--board-line); border-radius: 10px; background: var(--board-chip); cursor: pointer;
-}
+.dchip { flex: none; scroll-snap-align: center; position: relative; color: var(--board-fg); display: grid; justify-items: center; gap: 1px; min-width: 52px; padding: 9px 6px 9px; border: 1px solid var(--board-line); border-radius: 12px; background: var(--board-chip); cursor: pointer; }
 .dchip .d { font-family: var(--f-data); font-weight: 600; font-size: 1.04rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
-.dchip .w { font-size: 0.68rem; color: var(--board-muted); line-height: 1.25; }
-.dchip .bar { position: absolute; left: 12px; right: 12px; bottom: 3px; height: 3px; border-radius: 2px; background: var(--bc, var(--b-au)); }
+.dchip .w { font-size: 0.66rem; color: var(--board-muted); line-height: 1.25; display: flex; align-items: center; gap: 2px; white-space: nowrap; }
+.dchip .w svg { width: 12px; height: 12px; }
+.dchip .wi { color: var(--board-muted); }
+.dchip[aria-current="true"] .wi { color: var(--board-bg); }
+.dchip .bar { position: absolute; left: 13px; right: 13px; bottom: 3px; height: 3px; border-radius: 2px; background: var(--bc, var(--b-au)); }
 .dchip[aria-current="true"] { background: var(--board-fg); border-color: var(--board-fg); color: var(--board-bg); }
-.dchip[aria-current="true"] .w { color: var(--board-bg); opacity: 0.7; }
-.dchip.is-today::after {
-  content: ""; position: absolute; top: 3px; left: 50%; width: 14px; height: 4px; margin-left: -7px; border-radius: 2px; background: var(--board-dot);
-}
+.dchip[aria-current="true"] .w { color: var(--board-bg); opacity: 0.75; }
+.dchip.is-today::after { content: ""; position: absolute; top: 3px; left: 50%; width: 14px; height: 4px; margin-left: -7px; border-radius: 2px; background: var(--board-dot); }
 .dchip.cc-cn { --bc: var(--b-cn); } .dchip.cc-kr { --bc: var(--b-kr); } .dchip.cc-jp { --bc: var(--b-jp); } .dchip.cc-au { --bc: var(--b-au); }
 .cc-cn { --c: var(--cn); --cbg: var(--cn-bg); }
 .cc-kr { --c: var(--kr); --cbg: var(--kr-bg); }
@@ -153,60 +135,80 @@ a { color: var(--link); }
 .cc-au { --c: var(--au); --cbg: var(--au-bg); }
 
 /* ---------- main ---------- */
-main { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 24px); }
-.view { padding-block: 16px 8px; display: grid; gap: 16px; }
+main { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 28px); }
+.view { padding-block: 16px 8px; display: grid; gap: 14px; }
+.card, .panel, .tl, .hero, .ovday { background: var(--card); border-radius: var(--r-m); box-shadow: var(--shadow); }
 
-/* day header */
-.dhead { display: grid; gap: 6px; }
-.dline { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-.ddate { font-family: var(--f-data); font-weight: 700; font-size: var(--fs-date); line-height: 1; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
-.dwd { font-size: var(--fs-m); color: var(--muted); }
-.hol { font-size: var(--fs-xs); font-weight: 600; color: var(--jp); background: var(--jp-bg); border-radius: 5px; padding: 1px 6px; }
+/* the day's postcard */
+.hero { border-radius: var(--r-l); padding: 16px 16px 14px; display: grid; gap: 10px; background: linear-gradient(165deg, var(--cbg) 0%, var(--card) 58%); }
+.hero-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; }
+.dline { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.ddate { font-family: var(--f-data); font-weight: 700; font-size: 2.6rem; line-height: 0.95; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
+.dwd { font-size: var(--fs-m); color: var(--ink-2); font-weight: 600; }
+.hol { font-size: var(--fs-xs); font-weight: 700; color: var(--jp); background: var(--card); border-radius: 6px; padding: 1px 7px; }
 .cities { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
-.ctag { font-size: var(--fs-xs); font-weight: 600; color: var(--c); background: var(--cbg); border-radius: 5px; padding: 1px 7px; }
+.ctag { font-size: var(--fs-xs); font-weight: 700; color: var(--c); background: var(--cbg); border-radius: 6px; padding: 1px 7px; }
+.hero .ctag { background: var(--card); }
 .cities .to { color: var(--muted); font-size: var(--fs-xs); }
-.dtitle { margin: 0; font-size: var(--fs-l); line-height: 1.35; font-weight: 650; text-wrap: balance; }
+.dtitle { margin: 0; font-size: 1.2rem; line-height: 1.35; font-weight: 700; text-wrap: balance; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px; }
-.meta span { font-size: var(--fs-xs); color: var(--ink-2); border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 2px 9px; }
+.meta span { font-size: var(--fs-xs); color: var(--ink-2); background: var(--card); border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 1px var(--line) inset; }
 
-.warn {
-  background: var(--tight-bg); border: 1px solid var(--tight-line); color: var(--ink); border-radius: 12px;
-  padding: 10px 12px; font-size: var(--fs-s); line-height: 1.55;
-}
-.warn b { color: var(--tight); margin-right: 4px; }
+/* weather */
+.wxb { display: grid; justify-items: end; gap: 1px; text-align: right; min-width: 92px; }
+.wxb .wi { width: 34px; height: 34px; }
+.wxb .tt { font-family: var(--f-data); font-weight: 600; font-size: 1.35rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.wxb .tt small { font-size: 0.95rem; color: var(--muted); font-weight: 500; }
+.wxb .ds { font-size: var(--fs-xs); color: var(--ink-2); white-space: nowrap; }
+.wxb .pp { font-size: var(--fs-xs); color: var(--rain); font-weight: 600; white-space: nowrap; }
+.wxb.pending { min-width: 0; max-width: 132px; }
+.wxb.pending .ds { white-space: normal; color: var(--muted); line-height: 1.4; }
+.wi { color: var(--ink-2); }
+.wi .sun { color: var(--sun); }
+.wi .drop { color: var(--rain); }
+.hours { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; margin-inline: -4px; padding: 2px 4px; }
+.hours::-webkit-scrollbar { display: none; }
+.hr { flex: none; width: 46px; display: grid; justify-items: center; gap: 1px; padding: 6px 0; border-radius: 12px; background: var(--card); box-shadow: 0 0 0 1px var(--line) inset; }
+.hr.now { box-shadow: 0 0 0 2px var(--ink) inset; }
+.hr .h { font-size: 0.68rem; color: var(--muted); }
+.hr .wi { width: 20px; height: 20px; }
+.hr .t { font-family: var(--f-data); font-weight: 600; font-size: 0.95rem; font-variant-numeric: tabular-nums; }
+.hr .p { font-size: 0.66rem; color: var(--rain); font-weight: 600; min-height: 1em; }
+.wx-more { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: var(--fs-xs); color: var(--ink-2); }
+.wx-more span { display: inline-flex; align-items: center; gap: 4px; }
+.wx-more .wi { width: 16px; height: 16px; }
+.wx-src { font-size: 0.68rem; color: var(--muted); }
 
-/* timeline: a metro line */
-.tl { list-style: none; margin: 0; padding: 12px 12px 12px 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
-.stop { display: grid; grid-template-columns: 54px 22px minmax(0, 1fr); column-gap: 6px; position: relative; padding-block: 2px 12px; }
+.warn { background: var(--tight-bg); color: var(--ink); border-radius: var(--r-s); padding: 11px 13px; font-size: var(--fs-s); line-height: 1.6; box-shadow: 0 0 0 1px var(--tight-line) inset; }
+.warn b { color: var(--tight); margin-right: 6px; }
+
+/* timeline: the day as a metro line */
+.tl { list-style: none; margin: 0; padding: 14px 14px 12px 0; border-radius: var(--r-l); }
+.stop { display: grid; grid-template-columns: 56px 22px minmax(0, 1fr); column-gap: 6px; position: relative; padding-block: 2px 16px; }
 .stop:last-child { padding-bottom: 2px; }
-.stop .t { text-align: right; padding-top: 1px; font-family: var(--f-data); font-weight: 600; font-size: 1.02rem; line-height: 1.3; font-variant-numeric: tabular-nums; color: var(--ink-2); }
-.stop .t.lbl { font-family: var(--f-body); font-size: var(--fs-xs); font-weight: 600; color: var(--muted); padding-top: 3px; }
+.stop .t { text-align: right; padding-top: 1px; font-family: var(--f-data); font-weight: 600; font-size: 1.04rem; line-height: 1.3; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.stop .t.lbl { font-family: var(--f-body); font-size: var(--fs-xs); font-weight: 700; color: var(--muted); padding-top: 3px; }
 .stop .rail { position: relative; }
-.stop .rail::before { /* the line */
-  content: ""; position: absolute; left: 50%; width: 4px; margin-left: -2px; top: 0; bottom: -2px; background: var(--c); opacity: 0.85;
-}
+.stop .rail::before { content: ""; position: absolute; left: 50%; width: 4px; margin-left: -2px; top: 0; bottom: -2px; background: var(--c); border-radius: 2px; opacity: 0.9; }
 .stop:first-child .rail::before { top: 9px; }
 .stop:last-child .rail::before { bottom: auto; height: 9px; }
-.stop .rail::after { /* the station */
-  content: ""; position: absolute; left: 50%; top: 4px; width: 12px; height: 12px; margin-left: -8px;
-  border-radius: 50%; background: var(--card); border: 2px solid var(--c);
-}
+.stop .rail::after { content: ""; position: absolute; left: 50%; top: 4px; width: 12px; height: 12px; margin-left: -8px; border-radius: 50%; background: var(--card); border: 2px solid var(--c); }
 .stop.meal .rail::after { width: 8px; height: 8px; margin-left: -6px; top: 6px; border-color: var(--meal); }
 .stop.fix .rail::after { background: var(--c); }
 .stop.tight .rail::after { background: var(--tight); border-color: var(--tight); box-shadow: 0 0 0 3px var(--tight-bg); }
 .stop.fix .t { color: var(--fix); }
 .stop.tight .t { color: var(--tight); }
-.stop .body { min-width: 0; display: grid; gap: 3px; padding: 0 2px; border-radius: 8px; }
-.stop.tight .body { background: var(--tight-bg); padding: 6px 8px; margin: -4px 0 0; }
-.stop.meal .body { background: var(--meal-bg); padding: 5px 8px; margin: -3px 0 0; }
-.what { font-size: var(--fs-m); font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }
-.how { font-size: var(--fs-s); color: var(--ink-2); line-height: 1.6; overflow-wrap: anywhere; }
-.badge { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 4px; padding: 0 5px; margin-left: 6px; vertical-align: 2px; line-height: 1.6; }
-.badge.fix { color: var(--fix); border: 1px solid var(--fix-line); background: var(--fix-bg); }
-.badge.tight { color: var(--tight); border: 1px solid var(--tight-line); background: var(--card); }
+.stop .body { min-width: 0; display: grid; gap: 4px; padding: 0 2px; border-radius: 12px; }
+.stop.tight .body { background: var(--tight-bg); padding: 8px 10px; margin: -5px 0 0; }
+.stop.meal .body { background: var(--meal-bg); padding: 7px 10px; margin: -4px 0 0; }
+.what { font-size: var(--fs-m); font-weight: 650; line-height: 1.45; overflow-wrap: anywhere; }
+.how { font-size: var(--fs-s); color: var(--ink-2); line-height: 1.62; overflow-wrap: anywhere; }
+.badge { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 5px; padding: 0 5px; margin-left: 6px; vertical-align: 2px; line-height: 1.6; }
+.badge.fix { color: var(--fix); background: var(--fix-bg); box-shadow: 0 0 0 1px var(--fix-line) inset; }
+.badge.tight { color: var(--tight); background: var(--card); box-shadow: 0 0 0 1px var(--tight-line) inset; }
 .badge.now { color: var(--sel-fg); background: var(--sel-bg); }
-.mealtag { display: inline-block; font-size: 0.7rem; font-weight: 700; color: var(--meal); border: 1px solid var(--tight-line); border-radius: 4px; padding: 0 5px; margin-right: 6px; vertical-align: 2px; line-height: 1.6; }
-.mode { display: inline-block; font-size: 0.7rem; font-weight: 700; border-radius: 4px; padding: 0 5px; margin-right: 3px; line-height: 1.65; vertical-align: 1px; white-space: nowrap; color: var(--mc); background: var(--mbg); }
+.mealtag { display: inline-block; font-size: 0.7rem; font-weight: 700; color: var(--meal); border-radius: 5px; padding: 0 5px; margin-right: 6px; vertical-align: 2px; line-height: 1.6; box-shadow: 0 0 0 1px var(--tight-line) inset; }
+.mode { display: inline-block; font-size: 0.7rem; font-weight: 700; border-radius: 5px; padding: 0 5px; margin-right: 3px; line-height: 1.65; vertical-align: 1px; white-space: nowrap; color: var(--mc); background: var(--mbg); }
 .mode.fly { --mc: var(--m-fly); --mbg: var(--m-fly-bg); }
 .mode.rail { --mc: var(--m-rail); --mbg: var(--m-rail-bg); }
 .mode.metro { --mc: var(--m-metro); --mbg: var(--m-metro-bg); }
@@ -214,133 +216,153 @@ main { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) +
 .mode.taxi { --mc: var(--m-taxi); --mbg: var(--m-taxi-bg); }
 .mode.walk { --mc: var(--m-walk); --mbg: var(--m-walk-bg); }
 .mode.bike { --mc: var(--m-bike); --mbg: var(--m-bike-bg); }
-.stop.is-now .body { outline: 2px solid var(--ink); outline-offset: 3px; }
+.stop.is-now .body { box-shadow: 0 0 0 2px var(--ink); }
+.stop.is-now:not(.tight):not(.meal) .body { padding: 6px 8px; margin: -4px 0 0; }
 @media (prefers-reduced-motion: no-preference) {
   .stop.is-now .rail::after { animation: ping 1.8s ease-out infinite; }
   @keyframes ping { 0% { box-shadow: 0 0 0 0 var(--c); } 70%, 100% { box-shadow: 0 0 0 8px transparent; } }
 }
 
+/* place buttons */
+.places { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.pl { display: inline-flex; align-items: center; gap: 4px; min-height: 30px; box-sizing: border-box; border: 0; background: var(--chip); color: var(--chip-ink); border-radius: 999px; padding: 3px 11px 3px 8px; font-size: var(--fs-xs); font-weight: 650; line-height: 1.35; cursor: pointer; text-align: left; }
+.pl svg { width: 14px; height: 14px; flex: none; }
+.stop.tight .pl, .stop.meal .pl { background: var(--card); }
+
 /* panels */
-.panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: grid; gap: 6px; }
-.panel h3 { margin: 0; font-size: var(--fs-xs); font-weight: 700; color: var(--muted); letter-spacing: 0.06em; }
-.panel p { margin: 0; font-size: var(--fs-s); line-height: 1.65; color: var(--ink-2); }
-.panel ul { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: var(--fs-s); line-height: 1.6; color: var(--ink-2); }
+.panel { padding: 13px 15px; display: grid; gap: 7px; }
+.panel h3 { margin: 0; display: flex; align-items: center; gap: 6px; font-size: var(--fs-xs); font-weight: 700; color: var(--muted); letter-spacing: 0.06em; }
+.panel h3 svg { width: 15px; height: 15px; }
+.panel p { margin: 0; font-size: var(--fs-s); line-height: 1.7; color: var(--ink-2); }
+.panel ul { margin: 0; padding-left: 1.1em; display: grid; gap: 5px; font-size: var(--fs-s); line-height: 1.65; color: var(--ink-2); }
 .panel b { color: var(--ink); }
 .two { display: grid; gap: 12px; }
 @media (min-width: 620px) { .two { grid-template-columns: 1fr 1fr; } }
 
-/* hotel card */
+/* hotel */
 .hotel { display: grid; gap: 6px; }
-.hotel .hname { font-size: var(--fs-m); font-weight: 650; line-height: 1.35; overflow-wrap: anywhere; }
+.hotel .hname { font-size: var(--fs-m); font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; }
 .hotel .hsub { font-size: var(--fs-s); color: var(--muted); }
+.hotel .addrbox { display: grid; gap: 2px; background: var(--soft); border-radius: var(--r-s); padding: 9px 11px; }
 .hotel .addr { font-size: var(--fs-s); color: var(--ink); user-select: text; -webkit-user-select: text; overflow-wrap: anywhere; }
 .hotel .acc { font-size: var(--fs-xs); color: var(--muted); }
-.st { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 4px; padding: 0 5px; margin-left: 6px; vertical-align: 2px; line-height: 1.6; }
+.st { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 5px; padding: 0 5px; margin-left: 6px; vertical-align: 2px; line-height: 1.6; }
 .st.ok, .chip.ok { color: var(--ok); background: var(--ok-bg); }
 .st.todo, .chip.todo { color: var(--todo); background: var(--todo-bg); }
-.acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
-.btn {
-  display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--soft); color: var(--ink);
-  border-radius: 999px; padding: 6px 12px; font-size: var(--fs-s); font-weight: 600; text-decoration: none; cursor: pointer; min-height: 34px; box-sizing: border-box;
-}
-.btn.primary { background: var(--sel-bg); color: var(--sel-fg); border-color: var(--sel-bg); }
-.btn svg { width: 15px; height: 15px; flex: none; }
+.acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; border: 0; background: var(--soft); color: var(--ink); border-radius: 999px; padding: 7px 13px; font-size: var(--fs-s); font-weight: 650; text-decoration: none; cursor: pointer; min-height: 36px; box-sizing: border-box; box-shadow: 0 0 0 1px var(--line) inset; }
+.btn.primary { background: var(--sel-bg); color: var(--sel-fg); box-shadow: none; }
+.btn svg { width: 16px; height: 16px; flex: none; }
+
+/* theme park: live waits */
+.park .crowd { margin: 0; font-size: var(--fs-s); color: var(--ink-2); line-height: 1.65; background: var(--soft); border-radius: var(--r-s); padding: 9px 11px; }
+.park-h { display: flex; align-items: center; gap: 8px; }
+#parkIn { display: grid; gap: 10px; }
+.park-h h3 { flex: 1; }
+.mini { border: 0; background: var(--soft); color: var(--ink-2); border-radius: 999px; padding: 4px 11px; font-size: var(--fs-xs); font-weight: 650; cursor: pointer; box-shadow: 0 0 0 1px var(--line) inset; }
+.panel .waits { list-style: none; margin: 2px 0 0; padding: 0; display: grid; gap: 8px; }
+.waits li { display: grid; grid-template-columns: minmax(0, 1fr) 72px 50px; gap: 8px; align-items: center; font-size: var(--fs-s); }
+.waits .n { min-width: 0; overflow-wrap: anywhere; line-height: 1.35; }
+.waits .n small { display: block; color: var(--muted); font-size: 0.7rem; }
+.waits .bar { height: 6px; border-radius: 3px; background: var(--soft); overflow: hidden; box-shadow: 0 0 0 1px var(--line) inset; }
+.waits .bar i { display: block; height: 100%; border-radius: 3px; background: var(--wc, var(--wait-lo)); }
+.waits .m { text-align: right; font-family: var(--f-data); font-weight: 700; font-size: 1.02rem; font-variant-numeric: tabular-nums; color: var(--wc, var(--ink)); }
+.waits .m small { font-size: 0.7rem; font-weight: 600; margin-left: 1px; }
+.waits .off { color: var(--muted); font-family: var(--f-body); font-size: var(--fs-xs); font-weight: 600; }
+.src { font-size: 0.7rem; color: var(--muted); margin: 0; }
 
 /* pager */
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.pg { border: 1px solid var(--line); background: var(--card); border-radius: 12px; padding: 10px 12px; text-align: left; cursor: pointer; display: grid; gap: 2px; min-width: 0; }
+.pg { border: 0; background: var(--card); border-radius: var(--r-s); padding: 10px 12px; text-align: left; cursor: pointer; display: grid; gap: 2px; min-width: 0; box-shadow: var(--shadow); }
 .pg.next { text-align: right; }
 .pg .k { font-size: var(--fs-xs); color: var(--muted); }
-.pg .v { font-weight: 600; font-size: var(--fs-s); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pg .v { font-weight: 650; font-size: var(--fs-s); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pg[disabled] { visibility: hidden; }
 
 /* overview */
-.hero { display: grid; gap: 4px; }
-.hero h1 { margin: 0; font-size: var(--fs-xl); line-height: 1.2; text-wrap: balance; }
-.hero p { margin: 0; color: var(--muted); font-size: var(--fs-s); }
-.route { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 2px; }
-.route .rs { font-size: var(--fs-s); font-weight: 600; color: var(--c); background: var(--cbg); border-radius: 6px; padding: 2px 8px; white-space: nowrap; }
+.ovhero { display: grid; gap: 4px; }
+.ovhero h1 { margin: 0; font-size: var(--fs-xl); line-height: 1.2; text-wrap: balance; }
+.ovhero p { margin: 0; color: var(--muted); font-size: var(--fs-s); }
+.route { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 2px; }
+.route .rs { font-size: var(--fs-s); font-weight: 650; color: var(--c); background: var(--cbg); border-radius: 8px; padding: 3px 9px; white-space: nowrap; }
 .route .rs small { font-weight: 500; margin-left: 4px; opacity: 0.85; }
 .route .ar { color: var(--muted); font-size: var(--fs-xs); padding: 0 2px; }
-.ovlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-.ovday {
-  width: 100%; display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 10px; text-align: left;
-  background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; cursor: pointer;
-}
-.ovday.is-today { border-color: var(--ink); }
-.ovday .od { display: grid; align-content: start; gap: 1px; }
-.ovday .od .n { font-family: var(--f-data); font-weight: 700; font-size: 1.15rem; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.ovlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+.ovday { width: 100%; border: 0; display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 10px; text-align: left; padding: 11px 13px; cursor: pointer; color: inherit; }
+.ovday.is-today { box-shadow: 0 0 0 2px var(--ink); }
+.ovday .od { display: grid; align-content: start; gap: 2px; }
+.ovday .od .n { font-family: var(--f-data); font-weight: 700; font-size: 1.18rem; line-height: 1.15; font-variant-numeric: tabular-nums; }
 .ovday .od .w { font-size: var(--fs-xs); color: var(--muted); }
-.ovday .od .u { height: 3px; width: 28px; border-radius: 2px; background: var(--c); margin-top: 4px; }
+.ovday .od .u { height: 3px; width: 28px; border-radius: 2px; background: var(--c); margin-top: 3px; }
+.ovday .od .wxs { display: flex; align-items: center; gap: 2px; font-size: 0.7rem; color: var(--ink-2); margin-top: 4px; white-space: nowrap; }
+.ovday .od .wxs svg { width: 14px; height: 14px; }
 .ovday .oc { min-width: 0; display: grid; gap: 4px; }
 .ovday .om { font-size: var(--fs-s); line-height: 1.55; color: var(--ink); overflow-wrap: anywhere; }
 .ovday .ot { font-size: var(--fs-xs); line-height: 1.55; color: var(--muted); overflow-wrap: anywhere; }
-.chip { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 4px; padding: 0 5px; margin-right: 4px; vertical-align: 1px; line-height: 1.65; white-space: nowrap; }
-h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: var(--muted); letter-spacing: 0.08em; }
+.chip { display: inline-block; font-size: 0.68rem; font-weight: 700; border-radius: 5px; padding: 0 5px; margin-right: 4px; vertical-align: 1px; line-height: 1.65; white-space: nowrap; }
+h2.sec { margin: 8px 2px -4px; font-size: var(--fs-xs); font-weight: 700; color: var(--muted); letter-spacing: 0.08em; }
 
-/* lists of cards (notes, shopping) */
+/* cards (notes, shopping) */
 .cards { display: grid; gap: 10px; }
 @media (min-width: 620px) { .cards.c2 { grid-template-columns: 1fr 1fr; } }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; display: grid; gap: 4px; min-width: 0; }
-.card .ct { font-weight: 650; font-size: var(--fs-m); line-height: 1.4; overflow-wrap: anywhere; }
-.card .cw { font-size: var(--fs-xs); color: var(--ink-2); display: flex; gap: 6px; align-items: baseline; }
+.card { padding: 11px 13px; display: grid; gap: 5px; min-width: 0; }
+.card .ct { font-weight: 700; font-size: var(--fs-m); line-height: 1.4; overflow-wrap: anywhere; }
+.card .cw { font-size: var(--fs-xs); color: var(--ink-2); display: flex; gap: 6px; align-items: baseline; line-height: 1.55; }
 .card .cw .k { flex: none; font-weight: 700; color: var(--muted); }
 .card .cn { font-size: var(--fs-s); color: var(--muted); line-height: 1.6; overflow-wrap: anywhere; }
 .card .cn b, .card .ct b { color: var(--ink); }
-.grp-h { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.grp-h { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
 .grp-h .ctag { font-size: var(--fs-s); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: var(--fs-xs); color: var(--muted); }
-.foot-note { font-size: var(--fs-xs); color: var(--muted); text-align: center; padding-top: 4px; }
+.foot-note { font-size: var(--fs-xs); color: var(--muted); text-align: center; padding-top: 4px; line-height: 1.7; }
 .foot-note button { border: 0; background: none; color: var(--link); text-decoration: underline; cursor: pointer; font-size: inherit; padding: 4px; }
 
 /* bottom tabs */
-.tabbar {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 25;
-  background: var(--card); border-top: 1px solid var(--line);
-  padding-bottom: env(safe-area-inset-bottom, 0px);
+.tabbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--card); box-shadow: 0 -1px 0 var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+@supports ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .tabbar { background: color-mix(in srgb, var(--card) 82%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(16px); backdrop-filter: saturate(1.6) blur(16px); }
 }
 .tabbar .wrap { display: grid; grid-template-columns: repeat(4, 1fr); height: var(--tabbar-h); }
-.tab { border: 0; background: none; display: grid; justify-items: center; align-content: center; gap: 2px; color: var(--muted); font-size: 0.7rem; font-weight: 600; cursor: pointer; }
-.tab svg { width: 22px; height: 22px; }
+.tab { border: 0; background: none; display: grid; justify-items: center; align-content: center; gap: 2px; color: var(--muted); font-size: 0.7rem; font-weight: 650; cursor: pointer; }
+.tab svg { width: 23px; height: 23px; }
 .tab[aria-selected="true"] { color: var(--ink); }
 
-/* place buttons and the map sheet */
-.places { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 3px; }
-.pl {
-  display: inline-flex; align-items: center; gap: 4px; min-height: 28px; box-sizing: border-box;
-  border: 1px solid var(--line); background: var(--card); color: var(--link); border-radius: 999px;
-  padding: 2px 10px 2px 7px; font-size: var(--fs-xs); font-weight: 600; line-height: 1.35; cursor: pointer; text-align: left;
-}
-.pl svg { width: 13px; height: 13px; flex: none; }
-.stop.tight .pl, .stop.meal .pl { background: var(--card); }
+/* map sheet */
 .sheet-bg { position: fixed; inset: 0; z-index: 50; background: var(--scrim); }
-.sheet {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 51; background: var(--card); color: var(--ink);
-  border-top: 1px solid var(--line); border-radius: 18px 18px 0 0; box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.18);
-  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px)); max-height: 80vh; overflow: auto;
-}
-.sheet-in { padding-block: 16px 4px; display: grid; gap: 14px; }
+.sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 51; background: var(--card); color: var(--ink); border-radius: 22px 22px 0 0; box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.2); padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px)); max-height: 86vh; overflow: auto; }
+.sheet::before { content: ""; display: block; width: 38px; height: 5px; border-radius: 3px; background: var(--line); margin: 8px auto 0; }
+.sheet-in { padding-block: 10px 4px; display: grid; gap: 14px; }
 .sheet-head { display: flex; gap: 12px; align-items: flex-start; }
-.sheet-txt { min-width: 0; display: grid; gap: 2px; }
-.sheet-t { font-size: var(--fs-l); font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
-.sheet-q { font-size: var(--fs-s); color: var(--muted); user-select: text; -webkit-user-select: text; overflow-wrap: anywhere; }
+.sheet-txt { min-width: 0; display: grid; gap: 6px; }
+.sheet-t { font-size: 1.25rem; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+.sheet-q { display: grid; gap: 1px; background: var(--soft); border-radius: var(--r-s); padding: 8px 11px; }
+.sheet-q .k { font-size: 0.7rem; color: var(--muted); font-weight: 600; }
+.sheet-q .v { font-size: 1.05rem; font-weight: 650; user-select: text; -webkit-user-select: text; overflow-wrap: anywhere; }
 .sheet-x { margin-left: auto; flex: none; border: 0; background: var(--soft); color: var(--ink-2); width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; }
 .sheet-acts { display: grid; gap: 8px; }
-.sheet-acts .btn { justify-content: center; min-height: 46px; font-size: var(--fs-m); border-radius: 12px; }
-.sheet-note { font-size: var(--fs-xs); color: var(--muted); margin: 0; }
+.sheet-acts .btn { justify-content: center; min-height: 48px; font-size: var(--fs-m); border-radius: 14px; }
+.sheet-acts .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sheet-note { font-size: var(--fs-xs); color: var(--muted); margin: 0; line-height: 1.6; }
+
+/* show-the-driver card */
+.driver { position: fixed; inset: 0; z-index: 70; background: var(--card); color: var(--ink); display: grid; place-items: center; text-align: center; cursor: pointer;
+  padding: calc(24px + env(safe-area-inset-top, 0px)) var(--gut-r) calc(24px + env(safe-area-inset-bottom, 0px)) var(--gut-l); }
+.driver .in { display: grid; gap: 18px; max-width: 640px; }
+.driver .say { font-size: 1.35rem; font-weight: 700; color: var(--ink-2); line-height: 1.4; }
+.driver .big { font-size: clamp(2.2rem, 11vw, 4.2rem); font-weight: 800; line-height: 1.2; overflow-wrap: anywhere; }
+.driver .zh { font-size: var(--fs-m); color: var(--muted); }
+.driver .hint { font-size: var(--fs-xs); color: var(--muted); }
 
 /* lock screen (web copy only) */
-.lock { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: grid; place-items: center; overflow: auto;
-  padding: calc(24px + env(safe-area-inset-top, 0px)) var(--gut-r) calc(24px + env(safe-area-inset-bottom, 0px)) var(--gut-l); }
-.lock form { width: min(360px, 100%); display: grid; gap: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; box-sizing: border-box; }
+.lock { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: grid; place-items: center; overflow: auto; padding: calc(24px + env(safe-area-inset-top, 0px)) var(--gut-r) calc(24px + env(safe-area-inset-bottom, 0px)) var(--gut-l); }
+.lock form { width: min(360px, 100%); display: grid; gap: 12px; background: var(--card); box-shadow: var(--shadow); border-radius: var(--r-l); padding: 22px; box-sizing: border-box; }
 .lock h1 { margin: 0; font-size: var(--fs-xl); }
 .lock p { margin: 0; color: var(--muted); font-size: var(--fs-s); line-height: 1.6; }
-.lock input[type="password"] { font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--soft); color: var(--ink); width: 100%; box-sizing: border-box; }
+.lock input[type="password"] { font: inherit; font-size: 16px; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--soft); color: var(--ink); width: 100%; box-sizing: border-box; }
 .lock label.keep { display: flex; gap: 8px; align-items: center; font-size: var(--fs-s); color: var(--ink-2); }
 .lock .err { color: var(--fix); font-size: var(--fs-s); min-height: 1.2em; }
-.lock button { min-height: 44px; border-radius: 10px; justify-content: center; font-size: var(--fs-m); }
-.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 14px); z-index: 60;
-  background: var(--sel-bg); color: var(--sel-fg); border-radius: 999px; padding: 8px 16px; font-size: var(--fs-s); font-weight: 600; }
+.lock button { min-height: 46px; border-radius: 12px; justify-content: center; font-size: var(--fs-m); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 14px); z-index: 80; background: var(--sel-bg); color: var(--sel-fg); border-radius: 999px; padding: 9px 16px; font-size: var(--fs-s); font-weight: 650; max-width: calc(100% - 48px); box-sizing: border-box; text-align: center; }
 
 </style>
 </head>
@@ -382,10 +404,22 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
   <div class="wrap sheet-in">
     <div class="sheet-head">
-      <div class="sheet-txt"><div class="sheet-t" id="sheetTitle"></div><div class="sheet-q" id="sheetQ"></div></div>
+      <div class="sheet-txt">
+        <div class="sheet-t" id="sheetTitle"></div>
+        <div class="sheet-q"><span class="k" id="sheetQk">地图里显示的名字</span><span class="v" id="sheetQ"></span></div>
+      </div>
       <button class="sheet-x" id="sheetX" type="button" aria-label="关闭">×</button>
     </div>
     <div class="sheet-acts" id="sheetActs"></div>
+  </div>
+</div>
+
+<div class="driver" id="driver" role="dialog" aria-modal="true" aria-label="给司机看" hidden>
+  <div class="in">
+    <div class="say" id="driverSay"></div>
+    <div class="big" id="driverBig"></div>
+    <div class="zh" id="driverZh"></div>
+    <div class="hint">点一下屏幕关闭</div>
   </div>
 </div>
 
@@ -412,16 +446,73 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   const MODE = { "飞机": "fly", "火车": "rail", "新干线": "rail", "KTX": "rail", "高铁": "rail", "机场快线": "rail",
     "地铁": "metro", "电车": "metro", "单轨": "metro", "公交": "bus", "大巴": "bus", "小巴": "bus", "班车": "bus",
     "打车": "taxi", "步行": "walk", "骑车": "bike" };
+  const SVG = (inner, extra = "") => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"${extra}>${inner}</svg>`;
   const ICON = {
-    copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>',
-    map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>'
+    copy: SVG('<rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/>'),
+    map: SVG('<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>'),
+    route: SVG('<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8 18h7a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h7"/>'),
+    taxi: SVG('<path d="M5 16V11l2-5h10l2 5v5"/><path d="M3.5 16h17v2.5h-17z"/><path d="M9 6V4h6v2"/><circle cx="7.5" cy="13" r="1"/><circle cx="16.5" cy="13" r="1"/>'),
+    bag: SVG('<path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/>'),
+    bulb: SVG('<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/>'),
+    bed: SVG('<path d="M3 18V7M3 14h18v4M21 14v-2.5A3.5 3.5 0 0 0 17.5 8H11v6"/><circle cx="7" cy="11" r="1.8"/>'),
+    clock: SVG('<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>'),
+    globe: SVG('<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/>')
   };
-  const INLINE = !!document.getElementById("trip-data");  // the Claude copy (data inline, no lock)
+  // weather icons (WMO codes from Open-Meteo)
+  const WI = {
+    sun: SVG('<g class="sun"><circle cx="12" cy="12" r="4"/><path d="M12 2.8v2M12 19.2v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2.8 12h2M19.2 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g>', ' class="wi"'),
+    partly: SVG('<g class="sun"><circle cx="9" cy="9" r="3"/><path d="M9 3.4v1.3M3.4 9h1.3M5 5l.9.9M13 5l-.9.9"/></g><path d="M9 20h8.5a3.5 3.5 0 0 0 .4-6.98A5 5 0 0 0 8.4 13.4 3.3 3.3 0 0 0 9 20z"/>', ' class="wi"'),
+    cloud: SVG('<path d="M7 18h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.1 11.1 3.5 3.5 0 0 0 7 18z"/>', ' class="wi"'),
+    fog: SVG('<path d="M7 12h10a3.5 3.5 0 0 0 .3-6.98A5.5 5.5 0 0 0 6.4 6.3 3 3 0 0 0 7 12z"/><path d="M4 15.5h16M6 19h12"/>', ' class="wi"'),
+    rain: SVG('<path d="M7 15h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.1 8.1 3.5 3.5 0 0 0 7 15z"/><g class="drop"><path d="M8.5 18l-1 2.6M12.5 18l-1 2.6M16.5 18l-1 2.6"/></g>', ' class="wi"'),
+    snow: SVG('<path d="M7 15h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.1 8.1 3.5 3.5 0 0 0 7 15z"/><g class="drop"><path d="M8 18.5h.01M12 20h.01M16 18.5h.01M10 21.5h.01M14 21.5h.01"/></g>', ' class="wi"'),
+    thunder: SVG('<path d="M7 15h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.1 8.1 3.5 3.5 0 0 0 7 15z"/><path class="sun" d="M12.6 15.5l-2.2 3.4h3l-2.2 3.4"/>', ' class="wi"')
+  };
+  function wmo(c) {
+    if (c === 0) return ["晴", "sun"];
+    if (c === 1) return ["晴间多云", "sun"];
+    if (c === 2) return ["多云", "partly"];
+    if (c === 3) return ["阴", "cloud"];
+    if (c === 45 || c === 48) return ["雾", "fog"];
+    if (c >= 51 && c <= 57) return ["毛毛雨", "rain"];
+    if (c === 61 || c === 80) return ["小雨", "rain"];
+    if (c === 63 || c === 81) return ["中雨", "rain"];
+    if (c === 65 || c === 82) return ["大雨", "rain"];
+    if (c === 66 || c === 67) return ["冻雨", "rain"];
+    if ((c >= 71 && c <= 77) || c === 85 || c === 86) return ["雪", "snow"];
+    if (c >= 95) return ["雷阵雨", "thunder"];
+    return ["", "cloud"];
+  }
+  // theme parks: ThemeParks.wiki entity ids
+  const PARK = {
+    tdl: { id: "3cc919f1-d16d-43e0-8c3f-1dd269bd1a42", name: "东京迪士尼乐园", rides: [
+      ["e76670f0-9f5f-4918-8491-9bf51e73a596", "美女与野兽"], ["a88464b5-2cf5-4ef1-b38f-96e07b233bf2", "小熊维尼猎蜜记"],
+      ["4ed6a812-df04-4aa8-acb9-c6b164dbb706", "怪兽电力公司"], ["e3577b4a-f1d9-4ec5-aacf-b99977ea88c9", "巨雷山"],
+      ["8fce6b54-e3e4-40bb-a574-93c8327c3fab", "幽灵公馆（圣诞版）"], ["ca00a0e8-f069-4d0a-9d5e-10cb63010956", "大白快乐骑乘"],
+      ["dfe25d8e-e234-4020-a261-30c6825d0680", "飞溅山"], ["a853aadd-2337-435a-b0a3-2c03db96e5e1", "白雪公主"],
+      ["e541ad8f-1457-469a-8f35-457555f475ad", "小飞侠天空之旅"], ["52eb0fc9-5853-49c8-8c72-1e5e83aae1c1", "加勒比海盗"]] },
+    tds: { id: "67b290d5-3478-4f23-b601-2f8fb71ba803", name: "东京迪士尼海洋", rides: [
+      ["9fb0c97c-ebf7-4c25-8ea7-a3f4fe2aa9ec", "冰雪奇缘之旅"], ["e8c15bc6-aaab-44ef-8285-1d92ebd2c47d", "小飞侠梦幻岛冒险"],
+      ["10b5b89e-02a6-4456-9ddd-69e06c2bded4", "长发公主天灯节"], ["4ca7254c-7abc-4e52-82e0-9c562c096494", "惊魂古塔"],
+      ["c8526be3-e82c-4692-ae44-e8f2d1142c8a", "地心探险"], ["3407ebac-c575-4c31-b794-1d271014d303", "翱翔：梦幻奇航"],
+      ["abb5d6ec-469e-4ab0-8685-5f04e9749653", "玩具总动员疯狂游戏屋"], ["dd942cd2-b364-4262-af12-ca1a5012528b", "忿怒双神"],
+      ["c15da0f5-9668-48ee-b93a-8b737b6acf5b", "海底两万里"], ["f66e072d-8bab-48e5-b8cf-6d1947bd291b", "印第安纳琼斯"]] },
+    usj: { id: "47f61fac-7586-41ac-ae80-61c9257cf33e", name: "日本环球影城", rides: [
+      ["e1bee688-c11a-477a-bec3-866037d2601d", "咚奇刚矿车"], ["50b48b8f-975f-480e-9c77-0cb8d8d85dda", "马里奥赛车"],
+      ["dfce9bc6-a057-4589-b694-8015a858e9a8", "耀西冒险"], ["7fb500a9-0716-4b1b-b905-0b3b0e3b174a", "哈利波特禁忌之旅"],
+      ["7c98a4dd-cc2a-4c0b-8d70-e825a33dc55b", "鹰马的飞行"], ["9fcbfbff-3212-42d4-83ce-02912477037d", "飞天翼龙"],
+      ["568847eb-f470-44c8-bd67-33bd95bf205f", "好莱坞美梦"], ["644bb2aa-6882-488b-b8c7-d758be2dde45", "好莱坞美梦·逆转"],
+      ["a5fd26f6-ef34-4606-9c70-e23355d8a9b9", "小黄人乐园"], ["2cffef69-0e7c-4eb5-92bb-cd7610ce2544", "侏罗纪公园"]] }
+  };
+  const SAY = { kr: "여기로 가 주세요", jp: "ここまでお願いします", cn: "请带我去这里", au: "Please take me here" };
+  const INLINE = !!document.getElementById("trip-data");  // the Claude copy (data inline, no lock, no outside requests)
   const MEAL_RE = /^(早饭|午饭|晚饭|下午茶|零食)：/;
   const TIME_RE = /^(\d{1,2}):(\d{2})$/;
 
   let T = null;
   const S = { tab: "day", i: 0, lastNav: 0, extra: "" };
+  const W = { data: null, at: 0, loading: false, failed: false };   // weather
+  const P = {};                                                     // park key -> {at, items, err, loading}
 
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const bold = s => s.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
@@ -429,10 +520,154 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   const fmtHow = s => esc(s).replace(/\[([^\[\]]{1,6})\]/g, (m, n) => MODE[n] ? `<span class="mode ${MODE[n]}">${n}</span>` : m);
   const isoLocal = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   const toDate = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const hhmm = d => `${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`;
   const todayIdx = () => T.days.findIndex(d => d.date === isoLocal());
   function phase() { const t = isoLocal(); return t < T.start ? "before" : t > T.end ? "after" : "during"; }
   const cityTags = list => list.map((c, k) => (k ? '<span class="to">→</span>' : "") + `<span class="ctag cc-${esc(c.cc)}">${esc(c.name)}</span>`).join("");
   const hotelOf = d => T.hotels.find(h => h.id === d.hotel) || null;
+  const deg = v => (v == null || isNaN(v)) ? "–" : Math.round(v) + "°";
+
+  // ---------------------------------------------------------------- weather (Open-Meteo, cached for offline)
+  const WX_KEY = "trip.wx.v1";
+  const locKey = w => `${(+w.lat).toFixed(3)},${(+w.lon).toFixed(3)}`;
+  function wxLocs() {
+    const m = new Map();
+    T.days.forEach(d => (d.wx || []).forEach(w => { const k = locKey(w); if (!m.has(k)) m.set(k, w); }));
+    return [...m.entries()].map(([key, w]) => ({ key, lat: w.lat, lon: w.lon }));
+  }
+  function loadWxCache() {
+    try { const c = JSON.parse(store.get(WX_KEY) || "null"); if (c && c.data) { W.data = c.data; W.at = c.at || 0; } } catch (e) {}
+  }
+  async function loadWeather(force) {
+    if (INLINE || W.loading || !T) return;
+    if (!force && W.data && Date.now() - W.at < 45 * 6e4) return;
+    const locs = wxLocs(); if (!locs.length) return;
+    W.loading = true;
+    try {
+      const u = "https://api.open-meteo.com/v1/forecast?latitude=" + locs.map(l => l.lat).join(",") + "&longitude=" + locs.map(l => l.lon).join(",") +
+        "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max" +
+        "&hourly=temperature_2m,precipitation_probability,weather_code&forecast_hours=48&forecast_days=16&timezone=auto&wind_speed_unit=ms";
+      const r = await fetch(u); if (!r.ok) throw new Error("HTTP " + r.status);
+      let j = await r.json(); if (!Array.isArray(j)) j = [j];
+      const data = {};
+      locs.forEach((l, k) => { if (j[k] && j[k].daily) data[l.key] = { daily: j[k].daily, hourly: j[k].hourly || null }; });
+      W.data = data; W.at = Date.now(); W.failed = false;
+      store.set(WX_KEY, JSON.stringify({ at: W.at, data }));
+    } catch (e) { W.failed = true; }
+    finally { W.loading = false; }
+    renderWeatherParts();
+  }
+  function wxDay(w, date) {
+    const d = W.data && W.data[locKey(w)]; if (!d) return null;
+    const i = d.daily.time.indexOf(date); if (i < 0) return null;
+    const v = k => d.daily[k] ? d.daily[k][i] : null;
+    return { code: v("weather_code"), hi: v("temperature_2m_max"), lo: v("temperature_2m_min"), pp: v("precipitation_probability_max"), wind: v("wind_speed_10m_max") };
+  }
+  function wxHours(w, date) {
+    const d = W.data && W.data[locKey(w)]; if (!d || !d.hourly) return [];
+    const out = [], nowKey = isoLocal() === date ? new Date().getHours() : -1;
+    d.hourly.time.forEach((t, i) => {
+      if (t.slice(0, 10) !== date) return;
+      const h = +t.slice(11, 13);
+      if (h >= 6 && h <= 23 && (h % 2 === 0 || h === nowKey)) out.push({ h, now: h === nowKey, code: d.hourly.weather_code[i], t: d.hourly.temperature_2m[i], pp: d.hourly.precipitation_probability[i] });
+    });
+    return out;
+  }
+  const mainWx = d => (d.wx || []).find(w => !w.note) || (d.wx || [])[0] || null;
+  function wxReadyFrom(date) { const t = toDate(date); t.setDate(t.getDate() - 15); return `${t.getMonth() + 1}/${t.getDate()}`; }
+  function wxBlock(d) {
+    const w = mainWx(d); if (!w) return "";
+    if (INLINE) return `<div class="wxb pending"><span class="ds">天气只在网页版显示</span></div>`;
+    const x = wxDay(w, d.date);
+    if (x) {
+      const [label, ic] = wmo(x.code);
+      return `<div class="wxb" aria-label="${esc(w.n + " " + label)}">${WI[ic]}<span class="tt">${deg(x.hi)}<small> / ${deg(x.lo)}</small></span><span class="ds">${esc(w.n)} · ${esc(label)}</span>${x.pp != null ? `<span class="pp">降水 ${Math.round(x.pp)}%</span>` : ""}</div>`;
+    }
+    const days = Math.round((toDate(d.date) - toDate(isoLocal())) / 864e5);
+    if (days > 15) return `<div class="wxb pending"><span class="ds">${esc(w.n)}天气预报 ${wxReadyFrom(d.date)} 起有</span></div>`;
+    if (days < 0) return "";
+    return `<div class="wxb pending"><span class="ds">${W.loading ? "天气加载中…" : W.failed ? "连不上天气数据" : "天气加载中…"}</span></div>`;
+  }
+  function wxExtras(d) {
+    if (INLINE) return "";
+    const w = mainWx(d); if (!w) return "";
+    const hrs = wxHours(w, d.date);
+    const hours = hrs.length ? `<div class="hours" aria-label="逐小时天气">${hrs.map(h => { const [, ic] = wmo(h.code); return `<div class="hr${h.now ? " now" : ""}"><span class="h">${h.now ? "现在" : h.h + "时"}</span>${WI[ic]}<span class="t">${deg(h.t)}</span><span class="p">${h.pp >= 20 ? Math.round(h.pp) + "%" : ""}</span></div>`; }).join("")}</div>` : "";
+    const more = (d.wx || []).filter(x => x !== w).map(x => { const v = wxDay(x, d.date); if (!v) return ""; const [label, ic] = wmo(v.code); return `<span>${WI[ic]}${esc(x.n)}${x.note ? "（" + esc(x.note) + "）" : ""} ${esc(label)} ${deg(v.hi)}/${deg(v.lo)}</span>`; }).filter(Boolean).join("");
+    const has = wxDay(w, d.date);
+    const src = has ? `<div class="wx-src">天气来自 Open-Meteo · ${W.at ? "更新于 " + new Date(W.at).toLocaleString("zh-CN", { month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }) : ""}${has.wind != null ? " · 最大风速 " + Math.round(has.wind) + " m/s" : ""}</div>` : "";
+    return hours + (more ? `<div class="wx-more">${more}</div>` : "") + src;
+  }
+  function chipWx(d) {
+    const w = mainWx(d); const x = w && wxDay(w, d.date); if (!x) return "";
+    return WI[wmo(x.code)[1]] + deg(x.hi);
+  }
+  function renderWeatherParts() {
+    if (!T) return;
+    buildStrip(); syncStrip();
+    renderOv();
+    if (S.tab === "day") { const y = window.scrollY; renderDay(); window.scrollTo(0, y); } else renderDay();
+  }
+
+  // ---------------------------------------------------------------- theme park live waits (ThemeParks.wiki)
+  async function loadPark(key, force) {
+    const pk = PARK[key]; if (!pk || INLINE) return;
+    const st = P[key] || (P[key] = {});
+    if (st.loading || (!force && st.at && Date.now() - st.at < 4 * 6e4)) return;
+    st.loading = true; paintPark(key);
+    try {
+      const r = await fetch(`https://api.themeparks.wiki/v1/entity/${pk.id}/live`); if (!r.ok) throw new Error("HTTP " + r.status);
+      const j = await r.json();
+      const by = {}; (j.liveData || []).forEach(x => { by[x.id] = x; });
+      st.items = pk.rides.map(([id, name]) => ({ name, x: by[id] || null }));
+      st.at = Date.now(); st.err = "";
+    } catch (e) { st.err = "连不上排队数据，检查网络后点刷新。"; }
+    finally { st.loading = false; }
+    paintPark(key);
+  }
+  function waitRow(it) {
+    const x = it.x, q = (x && x.queue) || {};
+    const wait = q.STANDBY && typeof q.STANDBY.waitTime === "number" ? q.STANDBY.waitTime : null;
+    const paid = q.PAID_RETURN_TIME;
+    let sub = "";
+    if (paid) {
+      const start = paid.returnStart ? hhmm(new Date(paid.returnStart)) : "";
+      sub = paid.state === "AVAILABLE" ? `DPA 可买${start ? " · " + start + " 起" : ""}` : paid.state === "TEMP_FULL" ? "DPA 暂时买不到" : paid.state === "FINISHED" ? "DPA 已售完" : "";
+    }
+    const status = x ? x.status : "";
+    if (status === "OPERATING" && wait != null) {
+      const c = wait < 30 ? "var(--wait-lo)" : wait < 60 ? "var(--wait-mid)" : "var(--wait-hi)";
+      return `<li style="--wc:${c}"><span class="n">${esc(it.name)}${sub ? `<small>${esc(sub)}</small>` : ""}</span><span class="bar"><i style="width:${Math.max(4, Math.min(100, wait / 1.2))}%"></i></span><span class="m">${wait}<small>分</small></span></li>`;
+    }
+    const word = !x ? "没有数据" : status === "DOWN" ? "暂停" : status === "REFURBISHMENT" ? "整修中" : status === "OPERATING" ? "运行中" : "关闭";
+    return `<li><span class="n">${esc(it.name)}${sub ? `<small>${esc(sub)}</small>` : ""}</span><span class="bar"></span><span class="m off">${word}</span></li>`;
+  }
+  function parkInner(d) {
+    const key = d.park, pk = PARK[key]; if (!pk) return "";
+    const st = P[key] || {}, isDay = isoLocal() === d.date;
+    const crowd = d.crowd ? `<p class="crowd">${esc(d.crowd)}</p>` : "";
+    if (INLINE) return `${crowd}<p class="src">实时排队只在网页版显示。也可以看官方 App。</p>`;
+    let body;
+    if (st.items) {
+      const t = new Date(st.at);
+      body = `<ul class="waits">${st.items.map(waitRow).join("")}</ul>
+        <p class="src">${isDay ? "" : `这是现在（${t.getMonth() + 1}/${t.getDate()} ${hhmm(t)}）的实时排队，不是 ${esc(d.md)} 的预测。`}数据来自 ThemeParks.wiki，几分钟更新一次；以官方 App 为准，DPA、整理券也只能在官方 App 里买、领。</p>`;
+    } else if (st.loading) body = `<p class="src">加载中…</p>`;
+    else if (st.err) body = `<p class="src">${esc(st.err)}</p>`;
+    else body = `<p class="src">${isDay ? "加载中…" : "当天打开会自动显示实时排队。想先看看现在的情况，点右上角「看实时」。"}</p>`;
+    return `${crowd}${body}`;
+  }
+  function parkPanel(d) {
+    if (!d.park || !PARK[d.park]) return "";
+    const st = P[d.park] || {};
+    const btn = INLINE ? "" : `<button class="mini" type="button" data-park="${esc(d.park)}">${st.items ? "刷新" : "看实时"}</button>`;
+    return `<section class="panel park" id="parkBox"><div class="park-h"><h3>${ICON.clock}排队和拥挤 · ${esc(PARK[d.park].name)}</h3>${btn}</div><div id="parkIn">${parkInner(d)}</div></section>`;
+  }
+  function paintPark(key) {
+    const d = T && T.days[S.i]; if (!d || d.park !== key) return;
+    const box = $("#parkBox"); if (!box) return;
+    box.outerHTML = parkPanel(d);
+  }
 
   // ---------------------------------------------------------------- header
   function renderStatus() {
@@ -448,7 +683,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   }
   function buildStrip() {
     $("#strip").innerHTML = T.days.map((d, k) =>
-      `<button class="dchip cc-${esc(d.cc)}" type="button" data-day="${k}" aria-label="${esc(d.md + " " + d.wd + " " + d.title)}"><span class="d">${esc(d.md)}</span><span class="w">${esc(d.wd.replace("周", ""))}</span><span class="bar"></span></button>`).join("");
+      `<button class="dchip cc-${esc(d.cc)}" type="button" data-day="${k}" aria-label="${esc(d.md + " " + d.wd + " " + d.title)}"><span class="d">${esc(d.md)}</span><span class="w">${esc(d.wd.replace("周", ""))}${chipWx(d) ? " " + chipWx(d) : ""}</span><span class="bar"></span></button>`).join("");
   }
   function syncStrip(center) {
     const ti = todayIdx();
@@ -462,14 +697,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     }
   }
 
-  // ---------------------------------------------------------------- day view
-  function currentRow(d) {
-    const now = new Date(), mins = now.getHours() * 60 + now.getMinutes();
-    let cur = -1;
-    d.rows.forEach((r, k) => { const m = TIME_RE.exec(r.t); if (m && (+m[1]) * 60 + (+m[2]) <= mins) cur = k; });
-    return cur;
-  }
-  // Map links for one place. Search names are in the local language, so the local map apps find them.
+  // ---------------------------------------------------------------- places: map links, sheet, driver card
   function mapLinks(p) {
     const q = encodeURIComponent(p.q), L = [];
     const gDir = `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=transit`;
@@ -478,12 +706,12 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     if (p.c === "kr") {
       // nmap:// opens the Naver Map app straight away (its web links only open the website)
       L.push({ label: "Naver 地图（打开 App）", url: `nmap://search?query=${q}&appname=io.github.leonzzj.trip`, primary: true, app: true });
-      L.push({ label: "Naver 网页版", url: `https://map.naver.com/p/search/${q}` });
-      L.push({ label: "Google 地图路线", url: gDir });
+      L.push({ label: "Naver 网页版", url: `https://map.naver.com/p/search/${q}`, half: true });
+      L.push({ label: "Google 路线", url: gDir, half: true });
     } else if (p.c === "jp") {
       L.push({ label: "Google 地图路线", url: gDir, primary: true });
-      L.push({ label: "Google 地图看地点", url: gPlace });
-      L.push({ label: "Apple 地图", url: apple });
+      L.push({ label: "Google 看地点", url: gPlace, half: true });
+      L.push({ label: "Apple 地图", url: apple, half: true });
     } else if (p.c === "cn") {
       L.push({ label: "Apple 地图", url: apple, primary: true });
       L.push({ label: "高德地图", url: `https://uri.amap.com/search?keyword=${q}&callnative=1` });
@@ -493,16 +721,19 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     }
     return L;
   }
-  let sheetFrom = null;
+  let sheetFrom = null, sheetPlace = null;
+  const linkBtn = l => `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? ' data-app="1"' : ' target="_blank" rel="noopener"'}>${l.primary ? ICON.route : ICON.map}${esc(l.label)}</a>`;
   function openSheet(p, from) {
-    sheetFrom = from || null;
+    sheetFrom = from || null; sheetPlace = p;
     $("#sheetTitle").textContent = p.n;
     $("#sheetQ").textContent = p.q;
-    const lang = p.c === "kr" ? "韩文名" : p.c === "jp" ? "日文名" : "名称";
-    $("#sheetActs").innerHTML = mapLinks(p).map(l =>
-      `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? ' data-app="1"' : ' target="_blank" rel="noopener"'}>${ICON.map}${esc(l.label)}</a>`).join("") +
-      `<button class="btn" type="button" data-copy="${esc(p.q)}">${ICON.copy}复制${lang}</button>` +
-      (p.c === "kr" ? '<p class="sheet-note">要先在 App Store 装「네이버 지도」（Naver Map）。没跳过去就点「Naver 网页版」。</p>' : "");
+    $("#sheetQk").textContent = p.c === "kr" ? "韩文名（Naver 里搜这个）" : p.c === "jp" ? "日文名（地图里搜这个）" : "地图里搜这个";
+    const L = mapLinks(p), lang = p.c === "kr" ? "韩文名" : p.c === "jp" ? "日文名" : "名称";
+    const halves = L.filter(l => l.half);
+    $("#sheetActs").innerHTML = L.filter(l => !l.half).map(linkBtn).join("") +
+      (halves.length ? `<div class="row2">${halves.map(linkBtn).join("")}</div>` : "") +
+      `<div class="row2"><button class="btn" type="button" data-driver="1">${ICON.taxi}给司机看</button><button class="btn" type="button" data-copy="${esc(p.q)}">${ICON.copy}复制${lang}</button></div>` +
+      (p.c === "kr" ? '<p class="sheet-note">要先装 Naver 地图 App（App Store 里叫「네이버 지도」）。在 App 设置里把语言改成中文，地名、地址会尽量显示中文。</p>' : "");
     $("#sheetBg").hidden = false; $("#sheet").hidden = false;
     const first = $("#sheetActs .btn"); if (first) first.focus({ preventScroll: true });
   }
@@ -511,10 +742,24 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     $("#sheetBg").hidden = true; $("#sheet").hidden = true;
     if (sheetFrom && document.body.contains(sheetFrom)) sheetFrom.focus({ preventScroll: true });
   }
+  function openDriver(text, zh, cc) {
+    $("#driverSay").textContent = SAY[cc] || SAY.au;
+    $("#driverBig").textContent = text;
+    $("#driverZh").textContent = zh ? `${zh} · 请带我去这里` : "请带我去这里";
+    $("#driver").hidden = false;
+  }
   function placesHTML(r, k) {
     if (!r.places || !r.places.length) return "";
     return `<div class="places">${r.places.map((p, j) =>
       `<button class="pl" type="button" data-pl="${k}:${j}" aria-label="${esc("导航到 " + p.n)}">${ICON.map}${esc(p.n)}</button>`).join("")}</div>`;
+  }
+
+  // ---------------------------------------------------------------- day view
+  function currentRow(d) {
+    const now = new Date(), mins = now.getHours() * 60 + now.getMinutes();
+    let cur = -1;
+    d.rows.forEach((r, k) => { const m = TIME_RE.exec(r.t); if (m && (+m[1]) * 60 + (+m[2]) <= mins) cur = k; });
+    return cur;
   }
   function stopHTML(r, now, k) {
     const timed = TIME_RE.test(r.t);
@@ -530,11 +775,11 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   function hotelCard(h, opts = {}) {
     const st = h.status ? `<span class="st ${h.status.includes("待") ? "todo" : "ok"}">${esc(h.status)}</span>` : "";
     const head = opts.withCity ? `<span class="ctag cc-${esc(h.cc)}">${esc(h.city)}${h.nights ? " " + esc(h.nights) : ""}</span>` : "";
-    const addr = h.addr.map(a => `<div class="addr">${esc(a)}</div>`).join("");
-    const acc = h.access.length ? `<div class="acc">${h.access.map(esc).join(" · ")}</div>` : "";
+    const addr = h.addr.length || h.access.length ? `<div class="addrbox">${h.addr.map(a => `<div class="addr">${esc(a)}</div>`).join("")}${h.access.length ? `<div class="acc">${h.access.map(esc).join(" · ")}</div>` : ""}</div>` : "";
     const copy = h.copy ? `<button class="btn primary" type="button" data-copy="${esc(h.copy)}">${ICON.copy}${h.addr.length ? "复制地址" : "复制名称"}</button>` : "";
+    const drv = h.copy ? `<button class="btn" type="button" data-driver-text="${esc(h.copy)}" data-driver-zh="${esc(h.sub || h.name)}" data-driver-cc="${esc(h.cc)}">${ICON.taxi}给司机看</button>` : "";
     const maps = h.maps.map(m => `<a class="btn" href="${esc(m.url)}" target="_blank" rel="noopener">${ICON.map}${esc(m.label)}</a>`).join("");
-    return `<div class="hotel">${head ? `<div>${head}</div>` : ""}<div class="hname">${esc(h.name)}${st}</div>${h.sub ? `<div class="hsub">${esc(h.sub)}</div>` : ""}${addr}${acc}<div class="acts">${copy}${maps}</div></div>`;
+    return `<div class="hotel">${head ? `<div>${head}</div>` : ""}<div class="hname">${esc(h.name)}${st}</div>${h.sub ? `<div class="hsub">${esc(h.sub)}</div>` : ""}${addr}<div class="acts">${copy}${drv}${maps}</div></div>`;
   }
   function renderDay() {
     const d = T.days[S.i], ti = todayIdx(), isToday = ti === S.i;
@@ -542,27 +787,33 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     const meta = d.meta.split(" · ").map(m => `<span>${esc(m)}</span>`).join("");
     const h = hotelOf(d);
     let stay = "";
-    if (h && h.name) stay = `<div class="panel"><h3>今晚住</h3>${hotelCard(h)}</div>`;
-    else if (h) stay = `<div class="panel"><h3>今晚</h3><p>${esc(h.city)}</p></div>`;
+    if (h && h.name) stay = `<div class="panel"><h3>${ICON.bed}今晚住</h3>${hotelCard(h)}</div>`;
+    else if (h) stay = `<div class="panel"><h3>${ICON.bed}今晚</h3><p>${esc(h.city)}</p></div>`;
     const prev = T.days[S.i - 1], next = T.days[S.i + 1];
     const pg = (x, k, cls, label) => x
       ? `<button class="pg ${cls}" type="button" data-day="${k}"><span class="k">${label}</span><span class="v">${esc(x.md + " " + x.wd)} · ${esc(x.title)}</span></button>`
       : `<button class="pg ${cls}" type="button" disabled></button>`;
     $("#v-day").innerHTML = `
-      <div class="dhead">
-        <div class="dline"><span class="ddate">${esc(d.md)}</span><span class="dwd">${esc(d.wd)}</span>${d.hol ? `<span class="hol">${esc(d.hol)}</span>` : ""}${isToday ? '<span class="badge now">今天</span>' : ""}</div>
+      <section class="hero cc-${esc(d.cc)}">
+        <div class="hero-top">
+          <div class="dline"><span class="ddate">${esc(d.md)}</span><span class="dwd">${esc(d.wd)}</span>${d.hol ? `<span class="hol">${esc(d.hol)}</span>` : ""}${isToday ? '<span class="badge now">今天</span>' : ""}</div>
+          ${wxBlock(d)}
+        </div>
         <div class="cities">${cityTags(d.cities)}</div>
         <h2 class="dtitle">${esc(d.title)}</h2>
         <div class="meta">${meta}</div>
-      </div>
+        ${wxExtras(d)}
+      </section>
       ${d.warn ? `<div class="warn" role="note"><b>时间紧</b>${esc(d.warn)}</div>` : ""}
+      ${parkPanel(d)}
       <ol class="tl cc-${esc(d.cc)}">${d.rows.map((r, k) => stopHTML(r, k === nowRow, k)).join("")}</ol>
       <div class="two">
-        <div class="panel"><h3>今天带</h3><p>${esc(d.bring)}</p></div>
-        ${d.tips ? `<div class="panel"><h3>提醒</h3><p>${esc(d.tips)}</p></div>` : ""}
+        <div class="panel"><h3>${ICON.bag}今天带</h3><p>${esc(d.bring)}</p></div>
+        ${d.tips ? `<div class="panel"><h3>${ICON.bulb}提醒</h3><p>${esc(d.tips)}</p></div>` : ""}
       </div>
       ${stay}
       <div class="pager">${pg(prev, S.i - 1, "prev", "← 前一天")}${pg(next, S.i + 1, "next", "后一天 →")}</div>`;
+    if (d.park && isToday) loadPark(d.park);
   }
 
   // ---------------------------------------------------------------- overview
@@ -570,14 +821,18 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     const ti = todayIdx(), first = T.days[0], last = T.days[T.days.length - 1];
     const route = T.route.map((r, k) => (k ? '<span class="ar">→</span>' : "") +
       `<span class="rs cc-${esc(r.cc)}">${esc(r.city)}${r.nights ? `<small>${esc(r.nights)}</small>` : ""}</span>`).join("");
-    const days = T.days.map((d, k) => `<li><button class="ovday cc-${esc(d.cc)}${k === ti ? " is-today" : ""}" type="button" data-go="${k}">
-        <span class="od"><span class="n">${esc(d.md)}</span><span class="w">${esc(d.wd)}${d.hol ? " · 假日" : ""}${k === ti ? " · 今天" : ""}</span><span class="u"></span></span>
+    const days = T.days.map((d, k) => {
+      const w = mainWx(d), x = w && wxDay(w, d.date);
+      const wx = x ? `<span class="wxs">${WI[wmo(x.code)[1]]}${deg(x.hi)}/${deg(x.lo)}</span>` : "";
+      return `<li><button class="ovday cc-${esc(d.cc)}${k === ti ? " is-today" : ""}" type="button" data-go="${k}">
+        <span class="od"><span class="n">${esc(d.md)}</span><span class="w">${esc(d.wd)}${d.hol ? " · 假日" : ""}${k === ti ? " · 今天" : ""}</span><span class="u"></span>${wx}</span>
         <span class="oc"><span class="cities">${cityTags(d.cities)}</span><span class="om">${fmtInline(d.main)}</span>${d.tip ? `<span class="ot">${fmtInline(d.tip)}</span>` : ""}</span>
-      </button></li>`).join("");
+      </button></li>`;
+    }).join("");
     const foot = T.foot.map(b => `<div class="panel"><h3>${esc(b.h)}</h3><ul>${b.items.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`).join("");
     const hotels = T.hotels.filter(h => h.name).map(h => `<div class="panel">${hotelCard(h, { withCity: true })}</div>`).join("");
     $("#v-ov").innerHTML = `
-      <div class="hero"><h1>${esc(T.title)}</h1><p class="num">${esc(first.md)}（${esc(first.wd)}）– ${esc(last.md)}（${esc(last.wd)}）· ${T.days.length} 天</p><p>更新于 ${esc(T.updated)}</p></div>
+      <div class="ovhero"><h1>${esc(T.title)}</h1><p class="num">${esc(first.md)}（${esc(first.wd)}）– ${esc(last.md)}（${esc(last.wd)}）· ${T.days.length} 天</p><p>更新于 ${esc(T.updated)}</p></div>
       <div class="route">${route}</div>
       <h2 class="sec">每一天</h2>
       <ol class="ovlist">${days}</ol>
@@ -589,14 +844,19 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
 
   // ---------------------------------------------------------------- notes
   function renderNotes() {
+    const lang = `<div class="panel"><h3>${ICON.globe}看不懂地图上的韩文、日文</h3><ul>
+      <li><b>Naver 地图切成中文：</b>手机系统是中文时会自动显示中文；也可以在 App 的设置里把语言改成中文。店名、地址、分类大多有中文翻译。</li>
+      <li><b>Google 地图</b>跟着手机语言走。日本的地名多是汉字，基本能看懂。</li>
+      <li>点每个地点按钮，弹出来的框里有中文名和当地名：对照当地名找地图上的搜索结果；打车或问路就点「给司机看」。</li>
+      <li>菜单、路牌看不懂，用 Papago（Naver 的翻译 App）拍照翻译。</li></ul></div>`;
     const notes = T.notes.map(n => `<div class="panel"><h3>${esc(n.h)}</h3><ul>${n.items.map(x => `<li>${bold(esc(x))}</li>`).join("")}</ul></div>`).join("");
     const modes = ["飞机", "高铁", "电车", "地铁", "公交", "打车", "步行", "骑车"].map(n => `<span class="mode ${MODE[n]}">${n}</span>`).join("");
     const legend = `<div class="panel"><h3>图例</h3><div class="legend">${modes}</div>
       <div class="legend"><span><span class="badge fix" style="margin-left:0">固定</span> 航班、车票、开门时间，不能晚</span><span><span class="badge tight" style="margin-left:0">紧</span> 时间卡得紧，旁边写了赶不上怎么办</span><span><span class="mealtag">午饭</span>第一家是首选</span></div></div>`;
     const tables = T.analysis.tables.map(t => `<h2 class="sec">${esc(t.h)}</h2><div class="cards c2">${t.rows.map(r =>
       `<div class="card"><div class="ct">${bold(esc(r[0]))}</div>${r.slice(1).map((v, k) => `<div class="cw"><span class="k">${esc(t.cols[k + 1])}</span><span>${bold(esc(v))}</span></div>`).join("")}</div>`).join("")}</div>`).join("");
-    $("#v-notes").innerHTML = `${notes}${legend}${tables}${T.analysis.note ? `<div class="panel"><h3>帖子里反复出现的提醒</h3><p>${esc(T.analysis.note)}</p></div>` : ""}
-      <p class="foot-note">内容和 PDF 详细版一致 · 更新于 ${esc(T.updated)}${S.extra}</p>`;
+    $("#v-notes").innerHTML = `${lang}${notes}${legend}${tables}${T.analysis.note ? `<div class="panel"><h3>帖子里反复出现的提醒</h3><p>${esc(T.analysis.note)}</p></div>` : ""}
+      <p class="foot-note">内容和 PDF 详细版一致 · 更新于 ${esc(T.updated)}${S.extra}<br>天气：Open-Meteo · 排队：ThemeParks.wiki</p>`;
   }
 
   // ---------------------------------------------------------------- shopping
@@ -634,9 +894,9 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     window.scrollTo(0, Math.max(0, top));
   }
   let toastTimer = 0;
-  function toast(msg) {
+  function toast(msg, ms) {
     const t = $("#toast"); t.textContent = msg; t.hidden = false;
-    clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 1800);
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, ms || 1800);
   }
   function copyText(text) {
     const done = () => toast("已复制：" + text);
@@ -646,14 +906,15 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
         ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
         document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
         const ok = document.execCommand("copy"); ta.remove();
-        ok ? done() : toast("复制不了，长按地址手动复制");
-      } catch (e) { toast("复制不了，长按地址手动复制"); }
+        ok ? done() : toast("复制不了，长按文字手动复制");
+      } catch (e) { toast("复制不了，长按文字手动复制"); }
     };
     try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
   }
 
   function wire() {
     document.addEventListener("click", e => {
+      if (!$("#driver").hidden) { $("#driver").hidden = true; return; }
       const pl = e.target.closest("[data-pl]");
       if (pl && T) {
         const [k, j] = pl.dataset.pl.split(":").map(Number), r = T.days[S.i].rows[k];
@@ -661,14 +922,19 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
         return;
       }
       if (e.target.closest("#sheetBg, #sheetX")) { closeSheet(); return; }
+      if (e.target.closest("[data-driver]") && sheetPlace) { openDriver(sheetPlace.q, sheetPlace.n, sheetPlace.c); return; }
+      const dv = e.target.closest("[data-driver-text]");
+      if (dv) { openDriver(dv.dataset.driverText, dv.dataset.driverZh, dv.dataset.driverCc); return; }
       const al = e.target.closest("#sheetActs a");
       if (al) {
         if (al.dataset.app) {  // keep the sheet open, so the web version is one tap away if the app is missing
           const t0 = Date.now();
-          setTimeout(() => { if (!document.hidden && Date.now() - t0 < 8000) toast("没跳到 Naver 地图的话，点「Naver 网页版」"); }, 3000);
+          setTimeout(() => { if (!document.hidden && Date.now() - t0 < 8000) toast("没跳到 Naver 地图的话，点「Naver 网页版」", 3000); }, 3000);
         } else setTimeout(closeSheet, 300);
         return;
       }
+      const pk = e.target.closest("[data-park]");
+      if (pk) { loadPark(pk.dataset.park, true); return; }
       const c = e.target.closest("[data-copy]");
       if (c) { copyText(c.getAttribute("data-copy")); return; }
       const d = e.target.closest("[data-day]");
@@ -686,28 +952,38 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     const v = $("#v-day");
     v.addEventListener("touchstart", e => { const t = e.changedTouches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); }, { passive: true });
     v.addEventListener("touchend", e => {
+      if (e.target.closest(".hours")) return;
       const t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
       if (Date.now() - st < 650 && Math.abs(dx) > 70 && Math.abs(dy) < 45) goDay(S.i + (dx < 0 ? 1 : -1), "smooth");
     }, { passive: true });
     document.addEventListener("keydown", e => {
-      if (e.key === "Escape") { closeSheet(); return; }
-      if (!$("#sheet").hidden) return;
+      if (e.key === "Escape") { $("#driver").hidden = true; closeSheet(); return; }
+      if (!$("#sheet").hidden || !$("#driver").hidden) return;
       if (S.tab !== "day" || e.altKey || e.metaKey || e.ctrlKey || /input|textarea/i.test((e.target.tagName || ""))) return;
       if (e.key === "ArrowRight") goDay(S.i + 1, "smooth");
       if (e.key === "ArrowLeft") goDay(S.i - 1, "smooth");
     });
-    // keep "today" and the "now" mark current
-    setInterval(() => { if (!T) return; if (S.tab === "day" && todayIdx() === S.i) renderDay(); renderStatus(); syncStrip(); }, 60000);
+    // keep "today", the "now" mark, weather and waits current
+    setInterval(() => {
+      if (!T || document.hidden) return;
+      const d = T.days[S.i];
+      if (S.tab === "day" && todayIdx() === S.i && $("#sheet").hidden) { const y = window.scrollY; renderDay(); window.scrollTo(0, y); }
+      renderStatus(); syncStrip();
+      if (d && d.park && isoLocal() === d.date) loadPark(d.park);
+      loadWeather();
+    }, 60000);
     document.addEventListener("visibilitychange", () => {
       if (document.hidden || !T) return;
+      loadWeather();
       const ti = todayIdx();
       if (ti >= 0 && ti !== S.i && Date.now() - S.lastNav > 30 * 6e4) { setTab("day", true); goDay(ti); scrollToNow(); }
-      else { renderStatus(); syncStrip(); if (S.tab === "day") renderDay(); }
+      else { renderStatus(); syncStrip(); if (S.tab === "day") { const y = window.scrollY; renderDay(); window.scrollTo(0, y); } }
     });
   }
 
   function start(data, extraNote) {
     T = data; S.extra = extraNote || "";
+    loadWxCache();
     buildStrip();
     const ti = todayIdx(), saved = parseInt(store.get("trip.day"), 10);
     S.i = ti >= 0 ? ti : (saved >= 0 && saved < T.days.length ? saved : 0);
@@ -716,6 +992,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     setTab(ti >= 0 ? "day" : (VIEWS[tab] ? tab : "day"), true);
     syncStrip("auto");
     if (ti >= 0) requestAnimationFrame(scrollToNow);
+    loadWeather();
   }
   function refresh(data, extraNote) {
     T = data; S.extra = extraNote || S.extra;

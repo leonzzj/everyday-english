@@ -35,10 +35,22 @@
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
   <div class="wrap sheet-in">
     <div class="sheet-head">
-      <div class="sheet-txt"><div class="sheet-t" id="sheetTitle"></div><div class="sheet-q" id="sheetQ"></div></div>
+      <div class="sheet-txt">
+        <div class="sheet-t" id="sheetTitle"></div>
+        <div class="sheet-q"><span class="k" id="sheetQk">地图里显示的名字</span><span class="v" id="sheetQ"></span></div>
+      </div>
       <button class="sheet-x" id="sheetX" type="button" aria-label="关闭">×</button>
     </div>
     <div class="sheet-acts" id="sheetActs"></div>
+  </div>
+</div>
+
+<div class="driver" id="driver" role="dialog" aria-modal="true" aria-label="给司机看" hidden>
+  <div class="in">
+    <div class="say" id="driverSay"></div>
+    <div class="big" id="driverBig"></div>
+    <div class="zh" id="driverZh"></div>
+    <div class="hint">点一下屏幕关闭</div>
   </div>
 </div>
 
