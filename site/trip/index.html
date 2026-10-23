@@ -66,6 +66,7 @@
   --gut-l: max(16px, env(safe-area-inset-left, 0px));
   --gut-r: max(16px, env(safe-area-inset-right, 0px));
   --tabbar-h: 56px;
+  --scrim: rgba(16, 20, 24, 0.38);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -77,7 +78,7 @@
     --m-fly: #a9bdf3; --m-fly-bg: #1c2645; --m-rail: #79d6a0; --m-rail-bg: #12301f; --m-metro: #8db6ef; --m-metro-bg: #172a40;
     --m-bus: #f3be62; --m-bus-bg: #33270f; --m-taxi: #ff9a8d; --m-taxi-bg: #3a1916; --m-walk: #b9c2cb; --m-walk-bg: #252b32;
     --m-bike: #cfa6f5; --m-bike-bg: #2c1d3d;
-    --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22;
+    --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22; --scrim: rgba(0, 0, 0, 0.55);
     color-scheme: dark;
   }
 }
@@ -90,7 +91,7 @@
   --m-fly: #a9bdf3; --m-fly-bg: #1c2645; --m-rail: #79d6a0; --m-rail-bg: #12301f; --m-metro: #8db6ef; --m-metro-bg: #172a40;
   --m-bus: #f3be62; --m-bus-bg: #33270f; --m-taxi: #ff9a8d; --m-taxi-bg: #3a1916; --m-walk: #b9c2cb; --m-walk-bg: #252b32;
   --m-bike: #cfa6f5; --m-bike-bg: #2c1d3d;
-  --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22;
+  --board-bg: #0a0d10; --board-line: #232a31; --board-chip: #161c22; --scrim: rgba(0, 0, 0, 0.55);
   color-scheme: dark;
 }
 
@@ -303,6 +304,31 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
 .tab svg { width: 22px; height: 22px; }
 .tab[aria-selected="true"] { color: var(--ink); }
 
+/* place buttons and the map sheet */
+.places { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 3px; }
+.pl {
+  display: inline-flex; align-items: center; gap: 4px; min-height: 28px; box-sizing: border-box;
+  border: 1px solid var(--line); background: var(--card); color: var(--link); border-radius: 999px;
+  padding: 2px 10px 2px 7px; font-size: var(--fs-xs); font-weight: 600; line-height: 1.35; cursor: pointer; text-align: left;
+}
+.pl svg { width: 13px; height: 13px; flex: none; }
+.stop.tight .pl, .stop.meal .pl { background: var(--card); }
+.sheet-bg { position: fixed; inset: 0; z-index: 50; background: var(--scrim); }
+.sheet {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 51; background: var(--card); color: var(--ink);
+  border-top: 1px solid var(--line); border-radius: 18px 18px 0 0; box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.18);
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px)); max-height: 80vh; overflow: auto;
+}
+.sheet-in { padding-block: 16px 4px; display: grid; gap: 14px; }
+.sheet-head { display: flex; gap: 12px; align-items: flex-start; }
+.sheet-txt { min-width: 0; display: grid; gap: 2px; }
+.sheet-t { font-size: var(--fs-l); font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+.sheet-q { font-size: var(--fs-s); color: var(--muted); user-select: text; -webkit-user-select: text; overflow-wrap: anywhere; }
+.sheet-x { margin-left: auto; flex: none; border: 0; background: var(--soft); color: var(--ink-2); width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; }
+.sheet-acts { display: grid; gap: 8px; }
+.sheet-acts .btn { justify-content: center; min-height: 46px; font-size: var(--fs-m); border-radius: 12px; }
+.sheet-note { font-size: var(--fs-xs); color: var(--muted); margin: 0; }
+
 /* lock screen (web copy only) */
 .lock { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: grid; place-items: center; overflow: auto;
   padding: calc(24px + env(safe-area-inset-top, 0px)) var(--gut-r) calc(24px + env(safe-area-inset-bottom, 0px)) var(--gut-l); }
@@ -313,7 +339,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
 .lock label.keep { display: flex; gap: 8px; align-items: center; font-size: var(--fs-s); color: var(--ink-2); }
 .lock .err { color: var(--fix); font-size: var(--fs-s); min-height: 1.2em; }
 .lock button { min-height: 44px; border-radius: 10px; justify-content: center; font-size: var(--fs-m); }
-.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 14px); z-index: 35;
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 14px); z-index: 60;
   background: var(--sel-bg); color: var(--sel-fg); border-radius: 999px; padding: 8px 16px; font-size: var(--fs-s); font-weight: 600; }
 
 </style>
@@ -352,6 +378,17 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   </div>
 </nav>
 
+<div class="sheet-bg" id="sheetBg" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+  <div class="wrap sheet-in">
+    <div class="sheet-head">
+      <div class="sheet-txt"><div class="sheet-t" id="sheetTitle"></div><div class="sheet-q" id="sheetQ"></div></div>
+      <button class="sheet-x" id="sheetX" type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="sheet-acts" id="sheetActs"></div>
+  </div>
+</div>
+
 <div class="toast" id="toast" role="status" hidden></div>
 <div class="lock" id="lock" hidden>
   <form id="lockForm" autocomplete="off">
@@ -379,6 +416,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>',
     map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>'
   };
+  const INLINE = !!document.getElementById("trip-data");  // the Claude copy: app links (nmap://) are unreliable there
   const MEAL_RE = /^(早饭|午饭|晚饭|下午茶|零食)：/;
   const TIME_RE = /^(\d{1,2}):(\d{2})$/;
 
@@ -431,7 +469,53 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     d.rows.forEach((r, k) => { const m = TIME_RE.exec(r.t); if (m && (+m[1]) * 60 + (+m[2]) <= mins) cur = k; });
     return cur;
   }
-  function stopHTML(r, now) {
+  // Map links for one place. Search names are in the local language, so the local map apps find them.
+  function mapLinks(p) {
+    const q = encodeURIComponent(p.q), L = [];
+    const gDir = `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=transit`;
+    const gPlace = `https://www.google.com/maps/search/?api=1&query=${q}`;
+    const apple = `https://maps.apple.com/?q=${q}`;
+    if (p.c === "kr") {
+      if (!INLINE) L.push({ label: "Naver 地图 App", url: `nmap://search?query=${q}&appname=${encodeURIComponent(location.origin)}`, primary: true, app: true });
+      L.push({ label: INLINE ? "Naver 地图" : "Naver 地图网页版", url: `https://map.naver.com/p/search/${q}`, primary: INLINE });
+      L.push({ label: "Google 地图路线", url: gDir });
+    } else if (p.c === "jp") {
+      L.push({ label: "Google 地图路线", url: gDir, primary: true });
+      L.push({ label: "Google 地图看地点", url: gPlace });
+      L.push({ label: "Apple 地图", url: apple });
+    } else if (p.c === "cn") {
+      L.push({ label: "Apple 地图", url: apple, primary: true });
+      L.push({ label: "高德地图", url: `https://uri.amap.com/search?keyword=${q}&callnative=1` });
+    } else {
+      L.push({ label: "Google 地图路线", url: gDir, primary: true });
+      L.push({ label: "Apple 地图", url: apple });
+    }
+    return L;
+  }
+  let sheetFrom = null;
+  function openSheet(p, from) {
+    sheetFrom = from || null;
+    $("#sheetTitle").textContent = p.n;
+    $("#sheetQ").textContent = p.q;
+    const lang = p.c === "kr" ? "韩文名" : p.c === "jp" ? "日文名" : "名称";
+    $("#sheetActs").innerHTML = mapLinks(p).map(l =>
+      `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? "" : ' target="_blank" rel="noopener"'}>${ICON.map}${esc(l.label)}</a>`).join("") +
+      `<button class="btn" type="button" data-copy="${esc(p.q)}">${ICON.copy}复制${lang}</button>` +
+      (p.c === "kr" && !INLINE ? '<p class="sheet-note">没装 Naver 地图 App 就点网页版。</p>' : "");
+    $("#sheetBg").hidden = false; $("#sheet").hidden = false;
+    const first = $("#sheetActs .btn"); if (first) first.focus({ preventScroll: true });
+  }
+  function closeSheet() {
+    if ($("#sheet").hidden) return;
+    $("#sheetBg").hidden = true; $("#sheet").hidden = true;
+    if (sheetFrom && document.body.contains(sheetFrom)) sheetFrom.focus({ preventScroll: true });
+  }
+  function placesHTML(r, k) {
+    if (!r.places || !r.places.length) return "";
+    return `<div class="places">${r.places.map((p, j) =>
+      `<button class="pl" type="button" data-pl="${k}:${j}" aria-label="${esc("导航到 " + p.n)}">${ICON.map}${esc(p.n)}</button>`).join("")}</div>`;
+  }
+  function stopHTML(r, now, k) {
     const timed = TIME_RE.test(r.t);
     let what = r.what, tag = "";
     const mm = MEAL_RE.exec(what);
@@ -440,7 +524,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     const cls = ["stop", fix && "fix", tight && "tight", mm && "meal", now && "is-now"].filter(Boolean).join(" ");
     const badges = (fix ? '<span class="badge fix">固定</span>' : "") + (tight ? '<span class="badge tight">紧</span>' : "") + (now ? '<span class="badge now">现在</span>' : "");
     return `<li class="${cls}"><span class="t${timed ? "" : " lbl"}">${esc(r.t)}</span><span class="rail" aria-hidden="true"></span>` +
-      `<div class="body"><div class="what">${tag}${esc(what)}${badges}</div>${r.how ? `<div class="how">${fmtHow(r.how)}</div>` : ""}</div></li>`;
+      `<div class="body"><div class="what">${tag}${esc(what)}${badges}</div>${r.how ? `<div class="how">${fmtHow(r.how)}</div>` : ""}${placesHTML(r, k)}</div></li>`;
   }
   function hotelCard(h, opts = {}) {
     const st = h.status ? `<span class="st ${h.status.includes("待") ? "todo" : "ok"}">${esc(h.status)}</span>` : "";
@@ -471,7 +555,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
         <div class="meta">${meta}</div>
       </div>
       ${d.warn ? `<div class="warn" role="note"><b>时间紧</b>${esc(d.warn)}</div>` : ""}
-      <ol class="tl cc-${esc(d.cc)}">${d.rows.map((r, k) => stopHTML(r, k === nowRow)).join("")}</ol>
+      <ol class="tl cc-${esc(d.cc)}">${d.rows.map((r, k) => stopHTML(r, k === nowRow, k)).join("")}</ol>
       <div class="two">
         <div class="panel"><h3>今天带</h3><p>${esc(d.bring)}</p></div>
         ${d.tips ? `<div class="panel"><h3>提醒</h3><p>${esc(d.tips)}</p></div>` : ""}
@@ -536,6 +620,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
   }
   function goDay(i, how) {
     if (!T || i < 0 || i >= T.days.length) return;
+    closeSheet();
     S.i = i; S.lastNav = Date.now();
     if (phase() !== "during") store.set("trip.day", String(i));
     renderDay(); syncStrip(how === "smooth" ? "smooth" : "auto"); renderStatus();
@@ -568,6 +653,14 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
 
   function wire() {
     document.addEventListener("click", e => {
+      const pl = e.target.closest("[data-pl]");
+      if (pl && T) {
+        const [k, j] = pl.dataset.pl.split(":").map(Number), r = T.days[S.i].rows[k];
+        if (r && r.places && r.places[j]) openSheet(r.places[j], pl);
+        return;
+      }
+      if (e.target.closest("#sheetBg, #sheetX")) { closeSheet(); return; }
+      if (e.target.closest("#sheetActs a")) { setTimeout(closeSheet, 300); return; }
       const c = e.target.closest("[data-copy]");
       if (c) { copyText(c.getAttribute("data-copy")); return; }
       const d = e.target.closest("[data-day]");
@@ -589,6 +682,8 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
       if (Date.now() - st < 650 && Math.abs(dx) > 70 && Math.abs(dy) < 45) goDay(S.i + (dx < 0 ? 1 : -1), "smooth");
     }, { passive: true });
     document.addEventListener("keydown", e => {
+      if (e.key === "Escape") { closeSheet(); return; }
+      if (!$("#sheet").hidden) return;
       if (S.tab !== "day" || e.altKey || e.metaKey || e.ctrlKey || /input|textarea/i.test((e.target.tagName || ""))) return;
       if (e.key === "ArrowRight") goDay(S.i + 1, "smooth");
       if (e.key === "ArrowLeft") goDay(S.i - 1, "smooth");

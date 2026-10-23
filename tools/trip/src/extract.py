@@ -151,18 +151,50 @@ foot = []
 for box in ov.select(".foot > div"):
     foot.append({"h": clean(box.find("h3").get_text()), "items": [clean(li.get_text()) for li in box.select("li")]})
 
+# ---------------------------------------------------------------- places (map buttons)
+# places.py sits next to days.py (it is part of the private itinerary, not of this code)
+PLACES = {}
+if (src / "places.py").exists():
+    pspec = importlib.util.spec_from_file_location("places", src / "places.py")
+    places_mod = importlib.util.module_from_spec(pspec)
+    pspec.loader.exec_module(places_mod)
+    PLACES = places_mod.PLACES
+hotel_by_id = {h["id"]: h for h in hotels}
+
+
+def place_list(md, t, day_cc, hotel_id):
+    out_list = []
+    for item in PLACES.get(md, {}).get(t, []):
+        label, q = item[0], item[1]
+        cc = item[2] if len(item) > 2 else day_cc
+        if q == "@hotel":
+            h = hotel_by_id.get(hotel_id)
+            if not h or not h["name"]:
+                continue
+            cc = h["cc"]
+            q = h["addr"][0] if (cc == "kr" and h["addr"]) else (h["name"] if cc == "jp" else f"{h['city']}{h['name']}")
+        out_list.append({"n": label, "q": q, "c": cc})
+    return out_list
+
+
 # ---------------------------------------------------------------- days
 FLAG = {True: "fix", "固定紧": "fixtight", "紧": "tight"}
 days = []
+used = set()
 for d in days_mod.DAYS:
     md = d["date"]
     mm, dd = (int(x) for x in md.split("/"))
     wd, _, hol = d["wd"].partition(" · ")
+    o = ov_days.get(md, {})
     rows = []
     for r in d["rows"]:
         flag = r[3] if len(r) > 3 else None
-        rows.append({"t": r[0], "what": r[1], "how": r[2], "flag": FLAG.get(flag)})
-    o = ov_days.get(md, {})
+        row = {"t": r[0], "what": r[1], "how": r[2], "flag": FLAG.get(flag)}
+        pl = place_list(md, r[0], d["cc"], o.get("hotel"))
+        if pl:
+            row["places"] = pl
+            used.add((md, r[0]))
+        rows.append(row)
     days.append({
         "date": f"{YEAR}-{mm:02d}-{dd:02d}",
         "md": md,
@@ -224,6 +256,9 @@ data = {
     "shopping": {"rules": rules, "groups": groups},
     "analysis": {"tables": analysis, "note": clean(note.get_text()) if note else ""},
 }
+unused = [(md, t) for md, rows in PLACES.items() for t in rows if (md, t) not in used]
+if unused:
+    sys.exit(f"places.py keys that match no row: {unused}")
 out.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 print("days", len(days), "hotels", [(h["city"], len(h["dates"])) for h in hotels], "notes", [n["h"] for n in notes],
       "shop groups", [(g["name"], len(g["items"])) for g in groups], "analysis", [(a["h"], len(a["rows"])) for a in analysis])

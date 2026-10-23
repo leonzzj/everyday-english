@@ -13,6 +13,7 @@
     copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>',
     map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>'
   };
+  const INLINE = !!document.getElementById("trip-data");  // the Claude copy: app links (nmap://) are unreliable there
   const MEAL_RE = /^(早饭|午饭|晚饭|下午茶|零食)：/;
   const TIME_RE = /^(\d{1,2}):(\d{2})$/;
 
@@ -65,7 +66,53 @@
     d.rows.forEach((r, k) => { const m = TIME_RE.exec(r.t); if (m && (+m[1]) * 60 + (+m[2]) <= mins) cur = k; });
     return cur;
   }
-  function stopHTML(r, now) {
+  // Map links for one place. Search names are in the local language, so the local map apps find them.
+  function mapLinks(p) {
+    const q = encodeURIComponent(p.q), L = [];
+    const gDir = `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=transit`;
+    const gPlace = `https://www.google.com/maps/search/?api=1&query=${q}`;
+    const apple = `https://maps.apple.com/?q=${q}`;
+    if (p.c === "kr") {
+      if (!INLINE) L.push({ label: "Naver 地图 App", url: `nmap://search?query=${q}&appname=${encodeURIComponent(location.origin)}`, primary: true, app: true });
+      L.push({ label: INLINE ? "Naver 地图" : "Naver 地图网页版", url: `https://map.naver.com/p/search/${q}`, primary: INLINE });
+      L.push({ label: "Google 地图路线", url: gDir });
+    } else if (p.c === "jp") {
+      L.push({ label: "Google 地图路线", url: gDir, primary: true });
+      L.push({ label: "Google 地图看地点", url: gPlace });
+      L.push({ label: "Apple 地图", url: apple });
+    } else if (p.c === "cn") {
+      L.push({ label: "Apple 地图", url: apple, primary: true });
+      L.push({ label: "高德地图", url: `https://uri.amap.com/search?keyword=${q}&callnative=1` });
+    } else {
+      L.push({ label: "Google 地图路线", url: gDir, primary: true });
+      L.push({ label: "Apple 地图", url: apple });
+    }
+    return L;
+  }
+  let sheetFrom = null;
+  function openSheet(p, from) {
+    sheetFrom = from || null;
+    $("#sheetTitle").textContent = p.n;
+    $("#sheetQ").textContent = p.q;
+    const lang = p.c === "kr" ? "韩文名" : p.c === "jp" ? "日文名" : "名称";
+    $("#sheetActs").innerHTML = mapLinks(p).map(l =>
+      `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? "" : ' target="_blank" rel="noopener"'}>${ICON.map}${esc(l.label)}</a>`).join("") +
+      `<button class="btn" type="button" data-copy="${esc(p.q)}">${ICON.copy}复制${lang}</button>` +
+      (p.c === "kr" && !INLINE ? '<p class="sheet-note">没装 Naver 地图 App 就点网页版。</p>' : "");
+    $("#sheetBg").hidden = false; $("#sheet").hidden = false;
+    const first = $("#sheetActs .btn"); if (first) first.focus({ preventScroll: true });
+  }
+  function closeSheet() {
+    if ($("#sheet").hidden) return;
+    $("#sheetBg").hidden = true; $("#sheet").hidden = true;
+    if (sheetFrom && document.body.contains(sheetFrom)) sheetFrom.focus({ preventScroll: true });
+  }
+  function placesHTML(r, k) {
+    if (!r.places || !r.places.length) return "";
+    return `<div class="places">${r.places.map((p, j) =>
+      `<button class="pl" type="button" data-pl="${k}:${j}" aria-label="${esc("导航到 " + p.n)}">${ICON.map}${esc(p.n)}</button>`).join("")}</div>`;
+  }
+  function stopHTML(r, now, k) {
     const timed = TIME_RE.test(r.t);
     let what = r.what, tag = "";
     const mm = MEAL_RE.exec(what);
@@ -74,7 +121,7 @@
     const cls = ["stop", fix && "fix", tight && "tight", mm && "meal", now && "is-now"].filter(Boolean).join(" ");
     const badges = (fix ? '<span class="badge fix">固定</span>' : "") + (tight ? '<span class="badge tight">紧</span>' : "") + (now ? '<span class="badge now">现在</span>' : "");
     return `<li class="${cls}"><span class="t${timed ? "" : " lbl"}">${esc(r.t)}</span><span class="rail" aria-hidden="true"></span>` +
-      `<div class="body"><div class="what">${tag}${esc(what)}${badges}</div>${r.how ? `<div class="how">${fmtHow(r.how)}</div>` : ""}</div></li>`;
+      `<div class="body"><div class="what">${tag}${esc(what)}${badges}</div>${r.how ? `<div class="how">${fmtHow(r.how)}</div>` : ""}${placesHTML(r, k)}</div></li>`;
   }
   function hotelCard(h, opts = {}) {
     const st = h.status ? `<span class="st ${h.status.includes("待") ? "todo" : "ok"}">${esc(h.status)}</span>` : "";
@@ -105,7 +152,7 @@
         <div class="meta">${meta}</div>
       </div>
       ${d.warn ? `<div class="warn" role="note"><b>时间紧</b>${esc(d.warn)}</div>` : ""}
-      <ol class="tl cc-${esc(d.cc)}">${d.rows.map((r, k) => stopHTML(r, k === nowRow)).join("")}</ol>
+      <ol class="tl cc-${esc(d.cc)}">${d.rows.map((r, k) => stopHTML(r, k === nowRow, k)).join("")}</ol>
       <div class="two">
         <div class="panel"><h3>今天带</h3><p>${esc(d.bring)}</p></div>
         ${d.tips ? `<div class="panel"><h3>提醒</h3><p>${esc(d.tips)}</p></div>` : ""}
@@ -170,6 +217,7 @@
   }
   function goDay(i, how) {
     if (!T || i < 0 || i >= T.days.length) return;
+    closeSheet();
     S.i = i; S.lastNav = Date.now();
     if (phase() !== "during") store.set("trip.day", String(i));
     renderDay(); syncStrip(how === "smooth" ? "smooth" : "auto"); renderStatus();
@@ -202,6 +250,14 @@
 
   function wire() {
     document.addEventListener("click", e => {
+      const pl = e.target.closest("[data-pl]");
+      if (pl && T) {
+        const [k, j] = pl.dataset.pl.split(":").map(Number), r = T.days[S.i].rows[k];
+        if (r && r.places && r.places[j]) openSheet(r.places[j], pl);
+        return;
+      }
+      if (e.target.closest("#sheetBg, #sheetX")) { closeSheet(); return; }
+      if (e.target.closest("#sheetActs a")) { setTimeout(closeSheet, 300); return; }
       const c = e.target.closest("[data-copy]");
       if (c) { copyText(c.getAttribute("data-copy")); return; }
       const d = e.target.closest("[data-day]");
@@ -223,6 +279,8 @@
       if (Date.now() - st < 650 && Math.abs(dx) > 70 && Math.abs(dy) < 45) goDay(S.i + (dx < 0 ? 1 : -1), "smooth");
     }, { passive: true });
     document.addEventListener("keydown", e => {
+      if (e.key === "Escape") { closeSheet(); return; }
+      if (!$("#sheet").hidden) return;
       if (S.tab !== "day" || e.altKey || e.metaKey || e.ctrlKey || /input|textarea/i.test((e.target.tagName || ""))) return;
       if (e.key === "ArrowRight") goDay(S.i + 1, "smooth");
       if (e.key === "ArrowLeft") goDay(S.i - 1, "smooth");
