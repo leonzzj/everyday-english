@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T19:07:42.998Z",
+ "updatedAt": "2026-10-23T02:58:59.572Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: The incandescent life of fashion visionary Jenny Kee",
-   "url": "https://www.abc.net.au/listen/programs/conversations/jenny-kee-fashion-designer-linda-jackson-flamingo-park-style/107279700",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pm/Z/c9.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3ed8893e3a980b7f523fbcdd300224d2.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-22",
-   "minutes": 44,
+   "title": "Why Anthony LaPaglia is unapologetically irritable",
+   "url": "https://www.abc.net.au/listen/programs/conversations/actor-anthony-lapaglia-on-his-life-and-career/107281086",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pn/Z/gi.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Ff017d36700a75f4d107c1826ecdd09ac.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-23",
+   "minutes": 47,
    "level": "C1",
    "accent": "AU",
-   "desc": "Fashion designer Jenny Kee co-created a whole new era in Australian fashion in the 1970s. But nothing could have prepared her for her own next chapter. Jenny was born in Bondi in the 1950s, and left Australia for London when she was young. She began selling…"
+   "desc": "Anthony talks about his turbulent childhood in Adelaide, escaping to a cocaine-fuelled New York in the 1980s to begin his life as an actor, and how writing his memoir helped him forgive his parents. Anthony grew up in the suburbs of Adelaide, in a house full…"
   },
   {
    "source": "TED Talks Daily",
