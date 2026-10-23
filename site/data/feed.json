@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T02:58:59.572Z",
+ "updatedAt": "2026-10-23T19:06:24.574Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "I can't speak. Here's how I get people to listen | Jessica Irwin",
-   "url": "http://go.ted.com/jessicairwin",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ada23e044592625b9151811/media.mp3",
+   "title": "Can you spot the lies in your news feed? | Laura Smythe",
+   "url": "http://go.ted.com/laurasmythe",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb749627504523efb891e6/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-23",
-   "minutes": 9,
+   "date": "2026-10-24",
+   "minutes": 15,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Jessica Irwin is many things: a photographer, artist, author, performer. She also happens to be nonverbal, born with cerebral palsy that affects the muscles she needs to talk. Speaking through a device that turns her typed words into speech, she gives a…"
+   "desc": "Laura Smythe spent years in legacy newsrooms, and she thinks the habits journalists use to vet information should belong to all of us. Using Fyre Festival as a cautionary tale, she explains why media literacy is a vital skill in our age of deepfakes and…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Other people",
-   "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+   "title": "Traction!",
+   "url": "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/9bc0eb2d-bb6c-4037-8408-96e841ba02b7/essay-photo-.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-22",
+   "image": "https://images.aeonmedia.co/images/44e36cdb-f3d7-45b0-8759-ba91f5eb550c/essay-friction.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-23",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Disconnection is at the heart of today’s crises. So my husband and I chose a radical and revealing remedy: living communally - by Elizabeth Oldfield Read on Aeon"
+   "desc": "Tribologists study friction: what happens when things rub together. It’s indispensable, from the wheel to the paths of stars - by Jennifer R Vail Read on Aeon"
   }
  ]
 }
