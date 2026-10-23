@@ -15,6 +15,10 @@ add it to the Home Screen; it then opens full screen like an app and works offli
 - The unlocked key is kept in the same IndexedDB store as the dashboard (`dashboard` / `keys` /
   `priv`), so the password is typed once per browser or Home Screen app.
 - `sw.js` serves the last copy when there is no connection.
+- Weather comes straight from Open-Meteo (no key; one request for all the trip's places, cached in
+  `localStorage` for offline). Daily forecasts reach 16 days ahead, hourly 48 hours.
+- Theme-park waits come from ThemeParks.wiki's live endpoint (no key, CORS open); the park and ride ids
+  are in `src/app.js` (`PARK`). Queue-Times.com has the same data but blocks browser requests.
 
 ## Updating the itinerary (for Claude sessions)
 
