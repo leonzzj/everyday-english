@@ -20,7 +20,8 @@ add it to the Home Screen; it then opens full screen like an app and works offli
 
 The readable source is the private Claude artifact https://claude.ai/artifact/VDasKcgA4sdt8fWPeT93Wp
 (owner only). Its page holds the data as JSON in `<script id="trip-data">`. The same JSON format
-is produced from the PDF sources (`days.py` and `itinerary.html`) by `src/extract.py`.
+is produced from the PDF sources (`days.py`, `itinerary.html`, and `places.py` with the local-language
+map names for each stop) by `src/extract.py`. Those sources are private and stay out of this repo.
 
 1. Get the updated JSON (edit it, or regenerate it with `src/extract.py`) and keep it outside the repo.
 2. Republish the artifact with the new JSON (`src/build_page.py artifact trip.json page.html`).
