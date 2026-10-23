@@ -1,0 +1,10 @@
+<div class="lock" id="lock" hidden>
+  <form id="lockForm" autocomplete="off">
+    <h1>韩日行程</h1>
+    <p>行程里有航班、酒店和订单信息，所以加了密。密码和看板的一样，每台设备输一次就行。</p>
+    <input type="password" id="lockPw" name="password" placeholder="密码" aria-label="密码" autocomplete="current-password">
+    <label class="keep"><input type="checkbox" id="lockKeep" checked> 在这台设备上记住</label>
+    <div class="err" id="lockErr" role="alert"></div>
+    <button class="btn primary" id="lockGo" type="submit">解锁</button>
+  </form>
+</div>
