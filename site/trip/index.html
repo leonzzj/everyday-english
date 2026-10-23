@@ -416,7 +416,7 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>',
     map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>'
   };
-  const INLINE = !!document.getElementById("trip-data");  // the Claude copy: app links (nmap://) are unreliable there
+  const INLINE = !!document.getElementById("trip-data");  // the Claude copy (data inline, no lock)
   const MEAL_RE = /^(早饭|午饭|晚饭|下午茶|零食)：/;
   const TIME_RE = /^(\d{1,2}):(\d{2})$/;
 
@@ -476,8 +476,9 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     const gPlace = `https://www.google.com/maps/search/?api=1&query=${q}`;
     const apple = `https://maps.apple.com/?q=${q}`;
     if (p.c === "kr") {
-      if (!INLINE) L.push({ label: "Naver 地图 App", url: `nmap://search?query=${q}&appname=${encodeURIComponent(location.origin)}`, primary: true, app: true });
-      L.push({ label: INLINE ? "Naver 地图" : "Naver 地图网页版", url: `https://map.naver.com/p/search/${q}`, primary: INLINE });
+      // nmap:// opens the Naver Map app straight away (its web links only open the website)
+      L.push({ label: "Naver 地图（打开 App）", url: `nmap://search?query=${q}&appname=io.github.leonzzj.trip`, primary: true, app: true });
+      L.push({ label: "Naver 网页版", url: `https://map.naver.com/p/search/${q}` });
       L.push({ label: "Google 地图路线", url: gDir });
     } else if (p.c === "jp") {
       L.push({ label: "Google 地图路线", url: gDir, primary: true });
@@ -499,9 +500,9 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
     $("#sheetQ").textContent = p.q;
     const lang = p.c === "kr" ? "韩文名" : p.c === "jp" ? "日文名" : "名称";
     $("#sheetActs").innerHTML = mapLinks(p).map(l =>
-      `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? "" : ' target="_blank" rel="noopener"'}>${ICON.map}${esc(l.label)}</a>`).join("") +
+      `<a class="btn${l.primary ? " primary" : ""}" href="${esc(l.url)}"${l.app ? ' data-app="1"' : ' target="_blank" rel="noopener"'}>${ICON.map}${esc(l.label)}</a>`).join("") +
       `<button class="btn" type="button" data-copy="${esc(p.q)}">${ICON.copy}复制${lang}</button>` +
-      (p.c === "kr" && !INLINE ? '<p class="sheet-note">没装 Naver 地图 App 就点网页版。</p>' : "");
+      (p.c === "kr" ? '<p class="sheet-note">要先在 App Store 装「네이버 지도」（Naver Map）。没跳过去就点「Naver 网页版」。</p>' : "");
     $("#sheetBg").hidden = false; $("#sheet").hidden = false;
     const first = $("#sheetActs .btn"); if (first) first.focus({ preventScroll: true });
   }
@@ -660,7 +661,14 @@ h2.sec { margin: 6px 0 -4px; font-size: var(--fs-xs); font-weight: 700; color: v
         return;
       }
       if (e.target.closest("#sheetBg, #sheetX")) { closeSheet(); return; }
-      if (e.target.closest("#sheetActs a")) { setTimeout(closeSheet, 300); return; }
+      const al = e.target.closest("#sheetActs a");
+      if (al) {
+        if (al.dataset.app) {  // keep the sheet open, so the web version is one tap away if the app is missing
+          const t0 = Date.now();
+          setTimeout(() => { if (!document.hidden && Date.now() - t0 < 8000) toast("没跳到 Naver 地图的话，点「Naver 网页版」"); }, 3000);
+        } else setTimeout(closeSheet, 300);
+        return;
+      }
       const c = e.target.closest("[data-copy]");
       if (c) { copyText(c.getAttribute("data-copy")); return; }
       const d = e.target.closest("[data-day]");
