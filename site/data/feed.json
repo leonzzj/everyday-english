@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T02:56:14.447Z",
+ "updatedAt": "2026-10-24T18:56:34.223Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Can you spot the lies in your news feed? | Laura Smythe",
-   "url": "http://go.ted.com/laurasmythe",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb749627504523efb891e6/media.mp3",
+   "title": "The pursuit of happiness requires free time | Danielle Roberts",
+   "url": "http://go.ted.com/danielleroberts",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb884ac84c3697e90f7b90/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-24",
-   "minutes": 15,
+   "date": "2026-10-25",
+   "minutes": 32,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Laura Smythe spent years in legacy newsrooms, and she thinks the habits journalists use to vet information should belong to all of us. Using Fyre Festival as a cautionary tale, she explains why media literacy is a vital skill in our age of deepfakes and…"
+   "desc": "Do you feel short on time? Writer and work expert Danielle Roberts would like to help you with that. In this quick talk, she makes the case that free time isn't a reward you earn but a civil right you're owed. Hosted on Acast. See acast.com/privacy for more…"
   },
   {
    "source": "SBS Learn English",
