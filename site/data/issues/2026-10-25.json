@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-25",
+  "issueNo": 10,
+  "title": "Typhoon Champi, Snowy 2.0's blowout and Ukraine's Starlink",
+  "createdAt": "2026-10-25T06:54:31+11:00",
+  "stories": [
+    {
+      "id": "typhoon-champi-taiwan",
+      "category": "World",
+      "headline": "Typhoon Champi batters Taiwan before heading for China and Japan",
+      "headlineZh": "台风“昌鸿”重创台湾，随后将移向中国和日本",
+      "summaryZh": "台风袭击台湾东北部，造成一人死亡、逾五百人受伤，数千人撤离，并将继续北上。",
+      "c1": "Typhoon Champi tore across northeastern Taiwan on Friday, 23 October, killing one person, injuring more than 500 and forcing over 5,000 residents to leave their homes. Ferocious winds uprooted trees and brought down power lines, while heavy rain caused brief bouts of flooding. By Saturday, crews were still scrambling to reconnect roughly 56,000 households, and most shops across northern and central Taiwan remained shut for a second day.\n\nThe disruption to travel was considerable. Almost 1,000 flights were cancelled on Friday, with a further 259 grounded on Saturday. Forecasters warned that up to 900 millimetres of rain could fall between Thursday and Saturday, with the northeast bearing the brunt: Yilan County alone had recorded about 650 millimetres since Thursday. At its peak, Champi briefly reached super typhoon status before losing some of its strength as it moved north.\n\nFor many residents, the night was a genuine ordeal. A retired teacher in Yilan, surveying his flattened banana trees, called it \"a sleepless night\", while a secretary in New Taipei City said she had feared being blown away as her scooter shook on a bridge. Not everyone was quite so rattled, however; one librarian reckoned the storm was no fiercer than others he had lived through.\n\nChampi's journey is far from over. It is forecast to linger near Okinawa, where thousands of households lost power, before heading towards China's eastern coast and then turning towards mainland Japan. In Shanghai, some train services have already been suspended and tens of thousands of people evacuated. Meteorologists note that the storm is part of a Pacific season intensified by El Niño, which the UN has warned could prove unprecedented in strength.",
+      "b2": "Typhoon Champi hit northeastern Taiwan on Friday, 23 October. One person died, more than 500 were injured and over 5,000 people had to leave their homes. Strong winds pulled trees out of the ground and damaged power lines, and heavy rain caused short periods of flooding. On Saturday, about 56,000 homes still had no electricity, and most shops in the north and centre of Taiwan stayed closed.\n\nTravel was badly affected. Nearly 1,000 flights were cancelled on Friday and another 259 on Saturday. Forecasters said up to 900 millimetres of rain could fall in three days. The northeast was hit hardest, and Yilan County received about 650 millimetres. For a short time, Champi was a super typhoon, but it then became weaker.\n\nMany people found the night frightening. A retired teacher in Yilan said it was \"a sleepless night\". A woman in New Taipei City was afraid of being blown off her scooter on a bridge. But one librarian felt the storm was no stronger than earlier typhoons.\n\nThe storm is now moving north. It is expected to stay near Okinawa, then travel towards China's east coast and later Japan. In Shanghai, some trains have stopped and tens of thousands of people have been evacuated.",
+      "vocab": [
+        {
+          "word": "tear across",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "猛烈席卷",
+          "en": "to move very fast and violently across an area",
+          "example": "A fierce dust storm tore across the plains, closing roads for hours.",
+          "forms": [
+            "tore across"
+          ]
+        },
+        {
+          "word": "uproot",
+          "pos": "v.",
+          "ipa": "/ʌpˈruːt/",
+          "zh": "连根拔起",
+          "en": "to pull a tree or plant out of the ground with its roots",
+          "example": "The gale uprooted several old gum trees in the park."
+        },
+        {
+          "word": "scramble to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "争分夺秒地做",
+          "en": "to hurry to do something difficult, often in a disorganised way",
+          "example": "Retailers are scrambling to restock shelves before the holiday rush.",
+          "forms": [
+            "scrambling to"
+          ]
+        },
+        {
+          "word": "bear the brunt",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "首当其冲",
+          "en": "to suffer the worst part of something unpleasant",
+          "example": "Low-income families usually bear the brunt of rising rents.",
+          "forms": [
+            "bearing the brunt"
+          ]
+        },
+        {
+          "word": "ordeal",
+          "pos": "n.",
+          "ipa": "/ɔːˈdiːl/",
+          "zh": "痛苦的经历；磨难",
+          "en": "a very difficult or unpleasant experience",
+          "example": "Being stuck in the lift for three hours was quite an ordeal."
+        },
+        {
+          "word": "rattled",
+          "pos": "adj.",
+          "ipa": "/ˈrætld/",
+          "zh": "慌乱的；心神不宁",
+          "en": "nervous, worried or upset",
+          "example": "She was a bit rattled after the near miss on the freeway."
+        },
+        {
+          "word": "far from over",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远未结束",
+          "en": "not finished; likely to continue for some time",
+          "example": "The debate about remote work is far from over."
+        },
+        {
+          "word": "linger",
+          "pos": "v.",
+          "ipa": "/ˈlɪŋɡə/",
+          "zh": "徘徊；逗留",
+          "en": "to stay somewhere longer than expected",
+          "example": "The smoke from the bushfires lingered over the city for days."
+        },
+        {
+          "word": "unprecedented",
+          "pos": "adj.",
+          "ipa": "/ʌnˈpresɪdentɪd/",
+          "zh": "前所未有的",
+          "en": "never having happened or existed before",
+          "example": "The museum saw an unprecedented number of visitors this summer."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Most shops in northern and central Taiwan were still closed on Saturday.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 “most shops across northern and central Taiwan remained shut for a second day”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Champi kept its super typhoon strength all the way to Okinawa.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Champi “briefly reached super typhoon status before losing some of its strength”，只是短暂达到超强台风级别，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The typhoon caused serious damage to Taiwan's rice harvest.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到 “flattened banana trees”，没有提到水稻收成，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the article suggest about residents' reactions to the storm?",
+          "options": [
+            "Everyone agreed it was the worst storm in decades.",
+            "Most residents left Taiwan before it arrived.",
+            "Reactions varied, from fear to calm indifference.",
+            "Residents mainly complained about flight cancellations."
+          ],
+          "answer": 2,
+          "explain": "原文既有 “a sleepless night” 和害怕被吹走的描述，也有图书管理员认为 “no fiercer than others”，说明反应不一。"
+        }
+      ],
+      "discuss": "Why do you think some people stay calm during extreme weather while others feel terrified? Should governments do more to prepare communities as storms become more intense?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350"
+        }
+      ]
+    },
+    {
+      "id": "el-nino-forecasts",
+      "category": "Science",
+      "headline": "Scientists find clue to reliable El Niño forecasts a year ahead",
+      "headlineZh": "科学家找到提前一年可靠预测厄尔尼诺的线索",
+      "summaryZh": "澳大利亚研究发现，在拉尼娜期间发布的预测即使提前一年也相当准确。",
+      "c1": "Australian scientists believe they have found a way to tell, a full year in advance, which El Niño and La Niña forecasts are likely to prove accurate. The study, published in the journal Science Advances and led by Nandini Ramesh of CSIRO and UNSW Sydney together with Mandy Freund of the University of Melbourne, could eventually give communities considerably more time to prepare for droughts and floods.\n\nThe El Niño–Southern Oscillation, a natural cycle of warming and cooling in the tropical Pacific, shapes weather patterns around the globe. Its events tend to peak around December and can usually be predicted with reasonable confidence about six months ahead. Beyond that horizon, however, forecasts have long been notoriously unreliable.\n\nTo tackle the problem, the team analysed more than 7,500 historical forecasts produced by climate models from nine countries, asking whether the state of the Pacific at the moment a forecast was issued offered any clue to its eventual accuracy. The answer was striking. Forecasts that began during La Niña conditions held up consistently well, even a year out, across all nine models. By contrast, those starting from neutral conditions were far less dependable, and traditional physics-based models fared worst of all in such cases, although machine learning and statistical approaches may cope better.\n\nThe researchers argue that this insight could help agencies judge which forecasts deserve more confidence and warn the public earlier. They concede, though, that they remain \"a few steps away\" from applying it to the models forecasting agencies actually use. Exactly why La Niña makes the Pacific more predictable is not yet fully understood, and further research will be needed before the approach can be put to everyday use.",
+      "b2": "Australian scientists may have found a way to know, one year ahead, which El Niño and La Niña forecasts will be correct. The study was published in the journal Science Advances. It was led by Nandini Ramesh from CSIRO and UNSW Sydney, working with Mandy Freund from the University of Melbourne.\n\nEl Niño and La Niña are part of a natural cycle in the tropical Pacific Ocean, and they affect weather all over the world. They usually peak around December. Scientists can normally predict them about six months in advance, but forecasts made a year ahead have often been wrong.\n\nThe team studied more than 7,500 old forecasts from climate models in nine countries. They wanted to know if the conditions in the Pacific when a forecast was made could show how accurate it would be. They found that forecasts made during La Niña were good, even a year later, in all nine models. Forecasts made in neutral conditions were much less reliable.\n\nThe researchers say this could help experts decide which forecasts to trust and give earlier warnings about droughts and floods. However, more research is needed before weather agencies can use the method.",
+      "vocab": [
+        {
+          "word": "in advance",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "提前；预先",
+          "en": "before a particular time or event",
+          "example": "It's cheaper to book train tickets well in advance."
+        },
+        {
+          "word": "shape weather patterns",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "影响天气模式",
+          "en": "to influence the usual type of weather in an area",
+          "example": "Ocean currents shape weather patterns far beyond the coast.",
+          "forms": [
+            "shapes weather patterns"
+          ]
+        },
+        {
+          "word": "notoriously",
+          "pos": "adv.",
+          "ipa": "/nəʊˈtɔːriəsli/",
+          "zh": "出了名地",
+          "en": "in a way that is famous for something bad",
+          "example": "Melbourne's weather is notoriously hard to predict."
+        },
+        {
+          "word": "tackle the problem",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "着手解决问题",
+          "en": "to make a determined effort to deal with a difficult issue",
+          "example": "The council hired extra staff to tackle the problem of illegal dumping."
+        },
+        {
+          "word": "striking",
+          "pos": "adj.",
+          "ipa": "/ˈstraɪkɪŋ/",
+          "zh": "显著的；惊人的",
+          "en": "very noticeable or unusual",
+          "example": "There's a striking difference between the two survey results."
+        },
+        {
+          "word": "hold up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "经得起检验；保持良好",
+          "en": "to remain strong, valid or effective",
+          "example": "Her argument didn't hold up under close questioning.",
+          "forms": [
+            "held up"
+          ]
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show a clear difference between two things",
+          "example": "City rents rose sharply; by contrast, regional prices barely moved."
+        },
+        {
+          "word": "fare",
+          "pos": "v.",
+          "ipa": "/feə/",
+          "zh": "进展；表现",
+          "en": "to succeed or perform in a particular way",
+          "example": "Small businesses fared badly during the lockdowns.",
+          "forms": [
+            "fared"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had some serious flaws."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers examined forecasts from climate models developed in nine countries.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 “climate models from nine countries”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Forecasts starting from neutral conditions were the most reliable.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说从中性条件开始的预测 “far less dependable”，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The study was funded by the Australian Bureau of Meteorology.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到研究经费来源，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "What do the researchers admit about their findings?",
+          "options": [
+            "They are already used by all forecasting agencies.",
+            "They need more work before agencies can use them.",
+            "They only apply to physics-based models.",
+            "They prove why La Niña is predictable."
+          ],
+          "answer": 1,
+          "explain": "原文说研究者承认仍 “a few steps away” 才能应用于预报机构，且 “further research will be needed”。"
+        }
+      ],
+      "discuss": "How much do you think people should trust long-range forecasts when making decisions? Will better predictions change how farmers and cities prepare for droughts and floods?",
+      "sources": [
+        {
+          "name": "Phys.org (University of Melbourne)",
+          "url": "https://phys.org/news/2026-10-scientists-key-el-nio-events.html"
+        }
+      ]
+    },
+    {
+      "id": "snowy-2-cost-blowout",
+      "category": "Australia",
+      "headline": "Snowy 2.0 could now cost up to $25 billion",
+      "headlineZh": "“雪山2.0”项目成本或高达250亿澳元",
+      "summaryZh": "抽水蓄能项目成本再翻一倍，首次发电推迟至2029年，引发激烈政治争论。",
+      "c1": "The cost of Snowy 2.0, Australia's flagship pumped hydro project, has roughly doubled again. A long-awaited review released by Snowy Hydro this week puts the target cost at about $22 billion, with an extra $3 billion set aside in case it is needed, taking the potential bill to $25 billion. That is around 12 times the original $2 billion estimate, and first power is not now expected until early 2029, eight years later than first planned.\n\nSnowy Hydro chief executive Dennis Barnes said he was \"incredibly disappointed\" and could not rule out further blowouts. The company points to immature designs before a 2023 reset, the sheer complexity of the project, productivity shortfalls and rising costs, while the main contractor blames difficult ground conditions in a national park that were only partly investigated. With around 5,000 people on site, Barnes noted that roughly 80 per cent of the costs are people.\n\nThe revelation has triggered a fierce political row. Shadow Energy Minister Dan Tehan called on Energy Minister Chris Bowen to apologise and resign, though he stopped short of saying clearly whether the Coalition still backs the scheme. Bowen and Finance Minister Katy Gallagher, for their part, laid the blame on the former Coalition government and insisted that abandoning the project would harm grid reliability, cost jobs and push up power bills.\n\nSupporters argue that the scheme, which links two dams through about 27 kilometres of tunnels, will provide long-duration storage that batteries generally cannot match, soaking up surplus wind and solar power and releasing it when demand peaks. About 65 per cent of the machine tunnelling is complete. Even so, the saga raises awkward questions about how governments plan and cost megaprojects.",
+      "b2": "The cost of Snowy 2.0, Australia's biggest pumped hydro project, has almost doubled again. A new review by Snowy Hydro says the target cost is about $22 billion, with another $3 billion kept aside in case it is needed. That means it could cost $25 billion, around 12 times the first estimate of $2 billion. The project should now start producing power in early 2029.\n\nSnowy Hydro's boss, Dennis Barnes, said he was very disappointed and could not promise that costs would not rise again. The company says the designs were not ready before a 2023 reset and the project is very complicated. The main builder says the ground in the national park was harder to dig through than expected.\n\nThe news has caused a big political argument. The opposition's energy spokesperson, Dan Tehan, said Energy Minister Chris Bowen should resign. But he did not clearly say if the Coalition still supports the project. The government blamed the former Coalition government and said stopping the project would make power bills higher.\n\nSupporters say Snowy 2.0, which connects two dams with long tunnels, can store extra wind and solar energy and release it when people need it most. Batteries usually cannot store energy for so long.",
+      "vocab": [
+        {
+          "word": "flagship",
+          "pos": "n.",
+          "ipa": "/ˈflæɡʃɪp/",
+          "zh": "旗舰；最重要的项目",
+          "en": "the most important product, project or service of an organisation",
+          "example": "The new library is the council's flagship development."
+        },
+        {
+          "word": "set aside",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "留出；拨出",
+          "en": "to keep money or time for a particular purpose",
+          "example": "We set aside a bit of money each month for car repairs."
+        },
+        {
+          "word": "rule out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "排除（可能性）",
+          "en": "to say that something is not possible",
+          "example": "Police haven't ruled out foul play."
+        },
+        {
+          "word": "sheer",
+          "pos": "adj.",
+          "ipa": "/ʃɪə/",
+          "zh": "纯粹的；十足的",
+          "en": "used to emphasise the size or degree of something",
+          "example": "The sheer size of the stadium took my breath away."
+        },
+        {
+          "word": "political row",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "政治争论",
+          "en": "a serious public disagreement between politicians",
+          "example": "The tax proposal sparked a political row in Canberra."
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "差一点就；没有走到……地步",
+          "en": "to almost do something but decide not to",
+          "example": "The minister stopped short of promising new funding.",
+          "forms": [
+            "stopped short of"
+          ]
+        },
+        {
+          "word": "lay the blame on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "归咎于",
+          "en": "to say that someone or something is responsible for a problem",
+          "example": "It's easy to lay the blame on the weather when sales fall.",
+          "forms": [
+            "laid the blame on"
+          ]
+        },
+        {
+          "word": "soak up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "吸收",
+          "en": "to absorb something such as liquid, energy or information",
+          "example": "Kids soak up new languages remarkably quickly.",
+          "forms": [
+            "soaking up"
+          ]
+        },
+        {
+          "word": "raise awkward questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发尴尬的问题",
+          "en": "to make people ask difficult or embarrassing questions",
+          "example": "The leaked emails raised awkward questions for the company.",
+          "forms": [
+            "raises awkward questions"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Dennis Barnes said further cost increases could not be ruled out.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 Barnes “could not rule out further blowouts”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Dan Tehan clearly stated that the Coalition would cancel Snowy 2.0.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Tehan “stopped short of saying clearly whether the Coalition still backs the scheme”，并未明确表态，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The review recommended building more batteries instead of finishing Snowy 2.0.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到支持者认为电池 “cannot match” 长时储能，并没有说审查报告建议改建电池，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the government, what would happen if Snowy 2.0 were abandoned?",
+          "options": [
+            "Power bills would rise and the grid would be less reliable.",
+            "The Coalition would have to pay back the costs.",
+            "Wind and solar farms would be shut down.",
+            "The national park would be restored immediately."
+          ],
+          "answer": 0,
+          "explain": "原文说放弃项目会 “harm grid reliability, cost jobs and push up power bills”。"
+        }
+      ],
+      "discuss": "Why do you think large public infrastructure projects so often go over budget? Should governments keep funding a project once it has cost far more than planned?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-22/cost-of-snowy-hydro-expansion-doubles/107276162"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-starlink-restored",
+      "category": "Tech",
+      "headline": "Ukraine says Starlink is back to normal after damaging slowdown",
+      "headlineZh": "乌克兰称星链在遭限速后恢复正常",
+      "summaryZh": "乌克兰称星链及其军用版“星盾”恢复原有速度，但谁下令限速仍存争议。",
+      "c1": "Ukraine says its Starlink satellite internet links, along with those of Starshield, the service's military counterpart, are working at high speed again after restrictions that disrupted its armed forces for more than a week. President Volodymyr Zelenskyy said on Saturday, 24 October, that speeds had been restored to their previous levels, and the defence ministry reported stable connections at more than 400 kilometres per hour, although it did not say whether service had been fully restored.\n\nBoth systems, run by Elon Musk's company SpaceX, have become a lifeline for Ukraine's frontline communications. During the slowdown, terminals reportedly lost their connection once they were moving faster than about 160 kilometres per hour, which meant faster drones and missiles could no longer be guided. Officials said this hampered Ukraine's ability to intercept Russian attack drones and forced some operations to be called off.\n\nWho ordered the throttling remains murky. Musk has insisted that limits on Starshield are decided by the US military and, ultimately, the president, while Washington has not acknowledged any role. Reuters, citing unnamed sources, reported that the order came from inside the White House. Notably, the restrictions followed a US announcement of a deal to buy Russian diesel, at a time when Washington was pressing Kyiv to stop striking Russian oil refineries.\n\nThe episode has underlined how heavily a country at war can depend on technology controlled by a private company in another nation. Zelenskyy has dismissed suggestions of a mere glitch, saying: \"It was not a technical problem; it was the will.\" Even with speeds back to normal, the affair is likely to fuel debate in Kyiv and beyond about the risks of relying on a single foreign provider for critical infrastructure.",
+      "b2": "Ukraine says its Starlink satellite internet and Starshield, the military version, are working at high speed again. For more than a week, limits on the service caused problems for its armed forces. On Saturday, 24 October, President Volodymyr Zelenskyy said speeds were back to their earlier levels. The defence ministry said connections were stable at over 400 kilometres per hour, but it did not say if the service was completely fixed.\n\nBoth systems belong to Elon Musk's company SpaceX, and they are very important for communication at the front line. During the slowdown, devices reportedly lost their connection when moving faster than about 160 kilometres per hour, so faster drones could not be guided. Officials said this made it harder to stop Russian drones and some operations were cancelled.\n\nIt is still unclear who ordered the slowdown. Musk said the US military and the president decide on limits, while the US government has not accepted any role. Reuters reported that the order came from the White House.\n\nThe situation shows how much a country at war can depend on technology owned by a foreign private company. Zelenskyy said it was not a technical problem. Many people may now ask whether it is risky to rely on one foreign provider.",
+      "vocab": [
+        {
+          "word": "counterpart",
+          "pos": "n.",
+          "ipa": "/ˈkaʊntəpɑːt/",
+          "zh": "对应的事物或人",
+          "en": "a person or thing that has the same role as another in a different place or system",
+          "example": "The Australian minister met her Japanese counterpart in Tokyo."
+        },
+        {
+          "word": "lifeline",
+          "pos": "n.",
+          "ipa": "/ˈlaɪflaɪn/",
+          "zh": "生命线；命脉",
+          "en": "something that someone depends on to survive or succeed",
+          "example": "For many older people, the local bus service is a lifeline."
+        },
+        {
+          "word": "hamper",
+          "pos": "v.",
+          "ipa": "/ˈhæmpə/",
+          "zh": "妨碍；阻碍",
+          "en": "to make it difficult for someone to do something",
+          "example": "Heavy fog hampered the search for the missing boat.",
+          "forms": [
+            "hampered"
+          ]
+        },
+        {
+          "word": "call off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "取消",
+          "en": "to decide that a planned event will not happen",
+          "example": "They called off the match because of the storm.",
+          "forms": [
+            "called off"
+          ]
+        },
+        {
+          "word": "murky",
+          "pos": "adj.",
+          "ipa": "/ˈmɜːki/",
+          "zh": "含糊不清的；不透明的",
+          "en": "not clear, and possibly involving dishonesty",
+          "example": "The details of the deal are still pretty murky."
+        },
+        {
+          "word": "underline",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈlaɪn/",
+          "zh": "突显；强调",
+          "en": "to show clearly that something is important or true",
+          "example": "The outage underlined how much we rely on mobile networks.",
+          "forms": [
+            "underlined"
+          ]
+        },
+        {
+          "word": "glitch",
+          "pos": "n.",
+          "ipa": "/ɡlɪtʃ/",
+          "zh": "小故障",
+          "en": "a small problem or fault that stops something working properly",
+          "example": "A software glitch delayed thousands of payments."
+        },
+        {
+          "word": "fuel debate",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "加剧争论",
+          "en": "to make a discussion or argument more intense",
+          "example": "The report is likely to fuel debate about housing policy."
+        },
+        {
+          "word": "critical infrastructure",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "关键基础设施",
+          "en": "systems and services, such as power and communications, that a country needs to function",
+          "example": "Cyberattacks on critical infrastructure are a growing concern."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The defence ministry confirmed that the service had been fully restored.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说国防部 “did not say whether service had been fully restored”，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Some Ukrainian military operations were cancelled because of the slowdown.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说限速 “forced some operations to be called off”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "SpaceX has offered Ukraine compensation for the disruption.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到任何补偿，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does Zelenskyy believe about the slowdown?",
+          "options": [
+            "It was caused by a software glitch.",
+            "It was the result of a deliberate decision.",
+            "It was caused by Russian hacking.",
+            "It only affected civilian users."
+          ],
+          "answer": 1,
+          "explain": "泽连斯基说 “It was not a technical problem; it was the will”，认为是有意为之。"
+        }
+      ],
+      "discuss": "Is it wise for countries to rely on private companies for essential services like communications? What could governments do to reduce this kind of risk in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-25/ukraine-says-starlink-operating-normal-speed/107305276"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/what-is-starshield-and-who-limited-ukraines-access-to-it"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck on the Sandringham Line",
+    "titleZh": "困在桑德林汉姆线上",
+    "setting": "Two colleagues, Tessa and Arjun, are stuck on a stationary train outside Richmond on their way to work.",
+    "settingZh": "同事特莎和阿琼在上班途中，被困在里士满站外一列停着不动的火车上。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "We've been sitting here for twenty minutes now. Any idea what's going on?",
+        "zh": "我们已经在这儿停了二十分钟了。知道出什么事了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "The driver mentioned a signal fault, but they haven't said much since.",
+        "zh": "司机说是信号故障，但之后就没再多说什么。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Typical. I've got a meeting at nine, and I'm cutting it fine already.",
+        "zh": "真是老样子。我九点有个会，时间本来就很紧了。"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "Could you jump on the call from your phone if it drags on?",
+        "zh": "要是一直拖下去，你能用手机先接入会议吗？"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "I suppose so, but my battery's on its last legs, unfortunately.",
+        "zh": "应该可以吧，可惜我手机快没电了。"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "I've got a power bank in my bag. You're welcome to borrow it.",
+        "zh": "我包里有个充电宝，你尽管拿去用。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "You're a lifesaver. Honestly, this line's been hopeless lately.",
+        "zh": "你真是救星。说实话，这条线最近太让人失望了。"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "Tell me about it. Last week I ended up getting an Uber halfway.",
+        "zh": "可不是嘛。上周我最后只好半路打了辆优步。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Hang on, I think we're moving. Oh, no, false alarm.",
+        "zh": "等等，好像动了。哦，不对，空欢喜一场。"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "Let's give it five more minutes, then we could walk to the tram.",
+        "zh": "再等五分钟吧，不行我们就走去坐电车。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Good call. I'll give my manager a heads-up that I'm running late.",
+        "zh": "好主意。我先跟经理打个招呼说我要迟到了。"
+      },
+      {
+        "s": "B",
+        "name": "Arjun",
+        "en": "Might be worth asking for a refund too. They do compensate for long delays.",
+        "zh": "也可以申请退款，长时间延误他们确实会补偿。"
+      },
+      {
+        "s": "A",
+        "name": "Tessa",
+        "en": "Really? I had no idea. I'll look into it once we're off this thing.",
+        "zh": "真的吗？我完全不知道。等下了车我就去查查。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I'm almost late",
+        "en": "I'm cutting it fine",
+        "zh": "时间很紧，差点来不及"
+      },
+      {
+        "plain": "if it continues for a long time",
+        "en": "if it drags on",
+        "zh": "如果一直拖下去"
+      },
+      {
+        "plain": "my battery is almost empty",
+        "en": "my battery's on its last legs",
+        "zh": "快没电了（口语）"
+      },
+      {
+        "plain": "Thank you very much, you helped me a lot",
+        "en": "You're a lifesaver",
+        "zh": "你真是救星"
+      },
+      {
+        "plain": "I agree, I have the same problem",
+        "en": "Tell me about it",
+        "zh": "可不是嘛，深有同感"
+      },
+      {
+        "plain": "It was not true",
+        "en": "false alarm",
+        "zh": "虚惊一场"
+      },
+      {
+        "plain": "That's a good idea",
+        "en": "Good call",
+        "zh": "好主意"
+      },
+      {
+        "plain": "tell my manager before",
+        "en": "give my manager a heads-up",
+        "zh": "提前告知经理"
+      }
+    ]
+  }
+}

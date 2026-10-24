@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-24T06:49:57+11:00",
+  "updatedAt": "2026-10-25T06:54:31+11:00",
   "issues": [
+    {
+      "date": "2026-10-25",
+      "issueNo": 10,
+      "title": "Typhoon Champi, Snowy 2.0's blowout and Ukraine's Starlink",
+      "headlines": [
+        "Typhoon Champi batters Taiwan before heading for China and Japan",
+        "Scientists find clue to reliable El Niño forecasts a year ahead",
+        "Snowy 2.0 could now cost up to $25 billion",
+        "Ukraine says Starlink is back to normal after damaging slowdown"
+      ]
+    },
     {
       "date": "2026-10-24",
       "issueNo": 9,
