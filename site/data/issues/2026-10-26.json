@@ -1,0 +1,724 @@
+{
+  "date": "2026-10-26",
+  "issueNo": 11,
+  "title": "Machado's return, a possible exomoon and Australia's AI debate",
+  "createdAt": "2026-10-26T06:49:48+11:00",
+  "stories": [
+    {
+      "id": "machado-returns-venezuela",
+      "category": "World",
+      "headline": "Venezuela's Machado returns home after ten months in exile",
+      "headlineZh": "委内瑞拉反对派领袖马查多结束十个月流亡回国",
+      "summaryZh": "诺贝尔和平奖得主马查多返回委内瑞拉，或将加大要求举行选举的压力。",
+      "c1": "María Corina Machado, the Venezuelan opposition leader who was awarded the Nobel Peace Prize, has returned to her homeland after more than ten months in exile. She broke the news on social media on Sunday, 25 October, with a terse message: \"I am here. With you.\" Footage shared by her supporters showed her being welcomed at a church in Lara state, although she has not disclosed how she re-entered the country.\n\nHer homecoming was far from straightforward. She vanished from public life after a brief arrest in January 2025 and resurfaced only in December, in Norway, to collect the prize. Since then, her team says, she has tried repeatedly to go back, with seven unsuccessful attempts in the space of a few weeks reported in September alone. Her ally Edmundo González swiftly confirmed on X that she was once again on Venezuelan soil.\n\nThe political landscape she has come back to is barely recognisable. In January, US forces seized President Nicolás Maduro in Caracas, and Vice President Delcy Rodríguez has governed as acting president ever since, with Donald Trump's backing. Although she was authorised to serve for only 90 days, she has yet to name a date for elections, despite pledging at the UN in September to hold them. Washington, for its part, maintains that Venezuela is not ready to vote.\n\nMachado's return is therefore likely to intensify pressure for a democratic transition. Only days earlier, on 22 October, thousands marched in Caracas in the first nationwide opposition protest in almost two years, which she had called from exile in Panama. US Secretary of State Marco Rubio credited American-backed reconciliation talks with making her safe return possible. Whether her presence will hasten a vote, or simply sharpen tensions with the interim government, remains to be seen.",
+      "b2": "María Corina Machado, the Venezuelan opposition leader who won the Nobel Peace Prize, has returned home after more than ten months in exile. On Sunday, 25 October, she posted a short message on social media: \"I am here. With you.\" Supporters welcomed her at a church in Lara state. She has not said how she entered the country.\n\nHer return was not easy. She disappeared from public life after a short arrest in January 2025 and appeared again in December in Norway to receive the prize. Her team says she then tried many times to go back, and in September it reported seven failed attempts in just a few weeks.\n\nVenezuela has changed a lot since then. In January, US forces took President Nicolás Maduro from Caracas. Since then, Vice President Delcy Rodríguez has been acting president with Donald Trump's support. She was only supposed to serve for 90 days, but she has not set a date for elections. The US says the country is not ready to vote.\n\nOn 22 October, thousands of people protested in Caracas after Machado called for action from Panama. US Secretary of State Marco Rubio said that talks supported by America made her safe return possible. Nobody knows yet whether her return will lead to elections.",
+      "vocab": [
+        {
+          "word": "break the news",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "宣布消息",
+          "en": "to tell people about something important for the first time",
+          "example": "She broke the news of her promotion to her parents over dinner.",
+          "forms": [
+            "broke the news"
+          ]
+        },
+        {
+          "word": "far from straightforward",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远非简单",
+          "en": "much more complicated than expected",
+          "example": "Getting a visa turned out to be far from straightforward."
+        },
+        {
+          "word": "resurface",
+          "pos": "v.",
+          "ipa": "/ˌriːˈsɜːfɪs/",
+          "zh": "重新露面",
+          "en": "to appear again after being absent or hidden",
+          "example": "The old argument resurfaced at the end-of-year meeting.",
+          "forms": [
+            "resurfaced"
+          ]
+        },
+        {
+          "word": "barely recognisable",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "几乎认不出来",
+          "en": "changed so much that it is hard to identify",
+          "example": "After the renovation, the old café was barely recognisable."
+        },
+        {
+          "word": "have yet to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚未",
+          "en": "have not done something so far, although it is expected",
+          "example": "The council has yet to explain why the pool closed.",
+          "forms": [
+            "has yet to"
+          ]
+        },
+        {
+          "word": "for its part",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "就其而言",
+          "en": "used to introduce one side's position or action",
+          "example": "The union, for its part, says it is open to further talks."
+        },
+        {
+          "word": "intensify pressure",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "加大压力",
+          "en": "to make demands or demands for action stronger",
+          "example": "The leaked report intensified pressure on the minister to resign."
+        },
+        {
+          "word": "hasten",
+          "pos": "v.",
+          "ipa": "/ˈheɪsn/",
+          "zh": "加速；促使……更快发生",
+          "en": "to make something happen sooner",
+          "example": "Poor sales may hasten the company's decision to close the store."
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "尚待观察",
+          "en": "is not yet known or certain",
+          "example": "Whether the new timetable will reduce delays remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Machado explained on social media how she had travelled back into Venezuela.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"she has not disclosed how she re-entered the country\"，她并未说明如何入境，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Delcy Rodríguez was originally authorised to serve as acting president for 90 days.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"she was authorised to serve for only 90 days\" 与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Machado has announced that she will stand as a candidate in the next presidential election.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只提到要求举行选举的压力，没有提及马查多是否宣布参选，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Marco Rubio, what made Machado's safe return possible?",
+          "options": [
+            "Diplomatic pressure from Norway",
+            "Reconciliation talks backed by the United States",
+            "The protest in Caracas on 22 October",
+            "A personal agreement with Delcy Rodríguez"
+          ],
+          "answer": 1,
+          "explain": "原文 \"credited American-backed reconciliation talks with making her safe return possible\"，即美国支持的和解谈判。"
+        }
+      ],
+      "discuss": "Why do you think leaders who return from exile often become powerful symbols? Can a symbol alone bring about real political change?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/"
+        }
+      ]
+    },
+    {
+      "id": "possible-first-exomoon",
+      "category": "Science",
+      "headline": "Astronomers find possible first moon beyond our Solar System",
+      "headlineZh": "天文学家或发现首颗太阳系外卫星",
+      "summaryZh": "研究团队在一颗褐矮星周围探测到疑似卫星，质量至少与木星相当，但尚待证实。",
+      "c1": "Astronomers may have spotted the first moon ever found beyond our Solar System, although they are careful to stress that the detection has not yet been confirmed. Using the CRIRES+ instrument on the European Southern Observatory's Very Large Telescope, a team led by Kevin Hoy, an ESO student, studied a system known as CD-35 2722. Their findings have been published in the journal Nature.\n\nThe arrangement is unlike anything in our own cosmic neighbourhood. At its centre lies a star roughly half the mass of the Sun. Orbiting that star is a brown dwarf, an object too big to be an ordinary planet but too small to shine like a true star, weighing in at more than 30 times the mass of Jupiter. The candidate moon, in turn, circles the brown dwarf and is at least as massive as Jupiter itself.\n\nRather than photographing the object directly, the researchers relied on the radial velocity method, which picks up the subtle wobble that a companion induces in the motion of the body it orbits. Hoy described the set-up as \"super weird\", noting that the object is heavy enough to be a planet yet does not orbit a star. A collaborator, Alice Zurlo, called it the first plausible detection of an exosatellite.\n\nNevertheless, a degree of caution is warranted. Only a handful of possible exomoons have ever been reported, and none has been confirmed. There is also no universally accepted definition of an exomoon, so under some classification schemes the object might simply count as a planet. Further observations, perhaps with ESO's forthcoming Extremely Large Telescope and its 39-metre mirror, could help settle the question and might even reveal smaller moons elsewhere.",
+      "b2": "Astronomers may have found the first moon outside our Solar System, but they say the discovery is not yet confirmed. A team led by Kevin Hoy used an instrument called CRIRES+ on the European Southern Observatory's Very Large Telescope to study a system called CD-35 2722. The results were published in the journal Nature.\n\nThe system is very different from ours. In the middle is a star about half the mass of the Sun. A brown dwarf, more than 30 times heavier than Jupiter, travels around this star. The possible moon goes around the brown dwarf, and it is at least as heavy as Jupiter.\n\nThe team did not take a picture of the object. Instead, they measured a small wobble in the brown dwarf's movement, which showed that something was pulling on it. Hoy said the system was \"super weird\", because the object is big enough to be a planet but does not go around a star.\n\nScientists say we still need to be careful. Only a few possible exomoons have been reported, and none has been confirmed. Also, there is no agreed definition of an exomoon, so the object could be called a planet. Future telescopes may help to answer the question.",
+      "vocab": [
+        {
+          "word": "cosmic neighbourhood",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "宇宙近邻（指太阳系一带）",
+          "en": "the region of space close to Earth and the Sun",
+          "example": "Our cosmic neighbourhood still holds plenty of surprises for astronomers."
+        },
+        {
+          "word": "weigh in at",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "重达",
+          "en": "to have a particular weight",
+          "example": "The newborn calf weighed in at almost 40 kilograms.",
+          "forms": [
+            "weighing in at"
+          ]
+        },
+        {
+          "word": "in turn",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "进而；依次",
+          "en": "as a result of or following on from something else",
+          "example": "Higher rents push up costs, which in turn push up prices."
+        },
+        {
+          "word": "subtle",
+          "pos": "adj.",
+          "ipa": "/ˈsʌtl/",
+          "zh": "细微的",
+          "en": "small and not obvious, so it is hard to notice",
+          "example": "There was a subtle change in her tone when the topic came up."
+        },
+        {
+          "word": "induce",
+          "pos": "v.",
+          "ipa": "/ɪnˈdjuːs/",
+          "zh": "引起；诱发",
+          "en": "to cause something to happen",
+          "example": "Some medicines can induce drowsiness, so don't drive after taking them.",
+          "forms": [
+            "induces"
+          ]
+        },
+        {
+          "word": "plausible",
+          "pos": "adj.",
+          "ipa": "/ˈplɔːzəbl/",
+          "zh": "似乎合理的",
+          "en": "seeming likely to be true",
+          "example": "Traffic is a plausible excuse, but he's late every single day."
+        },
+        {
+          "word": "warranted",
+          "pos": "adj.",
+          "ipa": "/ˈwɒrəntɪd/",
+          "zh": "有正当理由的",
+          "en": "justified or necessary in the circumstances",
+          "example": "Given the storm warnings, cancelling the match was warranted."
+        },
+        {
+          "word": "a handful of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "少数；几个",
+          "en": "a small number of",
+          "example": "Only a handful of students turned up to the early lecture."
+        },
+        {
+          "word": "settle the question",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "解决问题；定论",
+          "en": "to find a final answer to a disputed matter",
+          "example": "A larger study should finally settle the question of whether the drug works."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The brown dwarf in CD-35 2722 is more than 30 times as massive as Jupiter.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"weighing in at more than 30 times the mass of Jupiter\" 与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers detected the candidate moon by photographing it directly.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 \"Rather than photographing the object directly, the researchers relied on the radial velocity method\"，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "CD-35 2722 is the closest known system to Earth that contains a brown dwarf.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提及该系统与地球的距离，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why might the object not be classified as a moon?",
+          "options": [
+            "It is smaller than any known moon.",
+            "It orbits the central star directly.",
+            "There is no universally accepted definition of an exomoon.",
+            "It was detected by a different telescope."
+          ],
+          "answer": 2,
+          "explain": "原文 \"There is also no universally accepted definition of an exomoon, so ... the object might simply count as a planet\"。"
+        }
+      ],
+      "discuss": "Why do you think discoveries about distant worlds capture the public imagination? Should governments keep spending money on this kind of research?",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023736.htm"
+        }
+      ]
+    },
+    {
+      "id": "australia-ai-go-slow",
+      "category": "Tech",
+      "headline": "Should Australia slow down on AI? Sceptics are growing louder",
+      "headlineZh": "澳大利亚是否该放慢发展人工智能？质疑声渐高",
+      "summaryZh": "议会委员会审议人工智能利弊，支持者看重投资，批评者担忧就业与社会成本。",
+      "c1": "Australia's political class is grappling with a deceptively simple question: should the country race to embrace artificial intelligence, or hold back and learn from others' mistakes? In an analysis for the ABC, political editor Jacob Greber argues that the case for caution is gaining ground, even as the government presses ahead on an ambitious timetable. A parliamentary committee examining AI's risks and opportunities must report by the end of November, with legislation expected early next year.\n\nThose keen to move fast point to the sheer scale of the investment on offer. Treasurer Jim Chalmers says Australia ranks among the world's top ten markets for data centre capacity, and roughly $150 billion of AI infrastructure is slated for construction here over five years. Supporters warn that dithering would simply hand the benefits to rival nations. This month, members from both major parties also recommended safety checks for AI companies.\n\nSceptics, however, are making themselves heard. The inquiry has received more than 500 submissions, many expressing deep concern, and a study by the University of Melbourne and KPMG found Australians to be among the least trusting of AI in the world. Economist Richard Denniss told the committee that the industry's soaring share prices rest on the assumption that hundreds of millions of people will lose their jobs, and asked what data centres would mean for electricity, water and inflation.\n\nSenator David Pocock has gone further, accusing the government of being \"starstruck\" by American AI giants and proposing a five per cent tax on data centre revenue. Even Treasury, broadly upbeat about the technology, concedes it could worsen deepfakes, harassment and radicalisation. None of this necessarily means Australia should slam the brakes on AI, but it does suggest the rewards of being first should be weighed carefully against the costs.",
+      "b2": "Australian politicians are facing a big question: should the country move quickly to adopt artificial intelligence, or wait and learn from other countries' mistakes? In an ABC analysis, political editor Jacob Greber says the argument for going slowly is getting stronger. A parliamentary committee on AI must report by the end of November, and new laws are expected early next year.\n\nPeople who want to move fast point to the huge amount of money involved. Treasurer Jim Chalmers says Australia is one of the world's top ten markets for data centres. About $150 billion of AI infrastructure is planned here over the next five years. Supporters say that if Australia waits, other countries will get the benefits instead.\n\nHowever, many people are worried. The committee has received more than 500 submissions, and many of them express strong concern. A study by the University of Melbourne and KPMG found that Australians are among the least trusting of AI in the world. Economist Richard Denniss said AI companies' high share prices depend on the idea that huge numbers of people will lose their jobs.\n\nSenator David Pocock said the government was \"starstruck\" by American AI companies. He suggested a five per cent tax on data centre income. Even Treasury agrees that AI could make problems such as deepfakes and harassment worse.",
+      "vocab": [
+        {
+          "word": "grapple with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "努力应对；设法解决",
+          "en": "to try hard to deal with a difficult problem",
+          "example": "Many cities are grappling with a shortage of affordable housing.",
+          "forms": [
+            "grappling with"
+          ]
+        },
+        {
+          "word": "deceptively simple",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "看似简单（实则不然）",
+          "en": "appearing easy but actually complicated",
+          "example": "The recipe looks deceptively simple, but timing is everything."
+        },
+        {
+          "word": "gain ground",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "获得支持；逐渐流行",
+          "en": "to become more popular or accepted",
+          "example": "The idea of a four-day week is gaining ground among employers.",
+          "forms": [
+            "gaining ground"
+          ]
+        },
+        {
+          "word": "press ahead",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "坚持推进",
+          "en": "to continue doing something with determination despite problems",
+          "example": "The council pressed ahead with the bike lane despite complaints.",
+          "forms": [
+            "presses ahead"
+          ]
+        },
+        {
+          "word": "slated for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "计划用于；预定",
+          "en": "planned or scheduled for something",
+          "example": "The old warehouse is slated for demolition next spring."
+        },
+        {
+          "word": "dither",
+          "pos": "v.",
+          "ipa": "/ˈdɪðə/",
+          "zh": "犹豫不决",
+          "en": "to be slow to decide because you are unsure",
+          "example": "Stop dithering and book the tickets before they sell out.",
+          "forms": [
+            "dithering"
+          ]
+        },
+        {
+          "word": "upbeat",
+          "pos": "adj.",
+          "ipa": "/ˈʌpbiːt/",
+          "zh": "乐观的",
+          "en": "positive and hopeful",
+          "example": "The coach was upbeat about the team's chances despite the loss."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had some weaknesses."
+        },
+        {
+          "word": "slam the brakes on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "紧急叫停",
+          "en": "to suddenly stop or slow down a process",
+          "example": "The bank slammed the brakes on lending when interest rates rose."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The parliamentary committee on AI has been told to report by the end of November.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"must report by the end of November\" 与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Jim Chalmers has publicly backed David Pocock's proposed tax on data centre revenue.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只提到 Pocock 提出征税，没有说明 Chalmers 的态度，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "According to a University of Melbourne and KPMG study, Australians trust AI more than people in most other countries.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 \"found Australians to be among the least trusting of AI in the world\"，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did Senator David Pocock propose?",
+          "options": [
+            "Banning foreign AI companies from Australia",
+            "Delaying AI legislation for a year",
+            "Giving security agencies access to AI models",
+            "A five per cent tax on data centre revenue"
+          ],
+          "answer": 3,
+          "explain": "原文 \"proposing a five per cent tax on data centre revenue\"。"
+        }
+      ],
+      "discuss": "Is it wiser for a country to adopt a new technology early, or to wait and learn from others? Why do you think so?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-24/the-case-to-go-slow-on-ai-is-growing-louder/107303128"
+        }
+      ]
+    },
+    {
+      "id": "broulee-school-microforest",
+      "category": "Australia",
+      "headline": "Year 4 students plant a 1,000-tree microforest in their playground",
+      "headlineZh": "四年级学生在操场种下千株植物打造“微型森林”",
+      "summaryZh": "新州南岸一所学校的学生种植约一千株本土植物，把荒地变成微型森林。",
+      "c1": "On the New South Wales Far South Coast, a group of Year 4 students has transformed a barren corner of their playground into what they hope will become a thriving microforest. Over roughly a week, pupils at St Peter's Anglican College in Broulee, working alongside teachers and volunteers, planted about 1,000 native trees, shrubs and climbers, all drawn from the region's endangered coastal littoral rainforest.\n\nThe project was far more than a gardening exercise. Partnering with the not-for-profit Microforest Collective, the school became the first in the state to research, design and plant a microforest as part of its curriculum. Students visited nearby rainforests to identify species, carried out a site analysis and even calculated the volume of the area to work out how much mulch they would need. One student explained that the aim was to bring back species lost in the 2020 bushfires.\n\nThe planting follows the Miyawaki method, a Japanese technique in which a diverse mix of local species is packed closely together to accelerate growth. Landscape architect Edwina Robinson, a co-founder of the collective, says the approach can make plants grow up to ten times faster than usual, and she expects the forest to reach around seven metres within two to three years. Because the soil is sandy, the team also dug about 40 metres of clay-lined trenches to harvest rainwater.\n\nSupporters argue that such patches, often no larger than a tennis court, can alter the local microclimate and provide shade, helping communities adapt to climate change. Teacher Danielle Phillips believes the benefits extend beyond science and maths to teamwork and communication. The collective has developed design templates and curriculum programs so that other schools can follow suit, and the students will be able to watch their forest mature as they move through school.",
+      "b2": "Year 4 students at St Peter's Anglican College in Broulee, on the New South Wales Far South Coast, have turned an empty part of their playground into a microforest. Over about a week, students, teachers and volunteers planted around 1,000 native trees, bushes and climbing plants. All of them come from the area's endangered coastal rainforest.\n\nIt was more than just gardening. The school worked with a not-for-profit group called Microforest Collective. It is the first school in the state to plan and plant a microforest as part of its lessons. Students visited local rainforests, studied the site and used maths to calculate how much mulch they needed. One student said they wanted to bring back plants lost in the 2020 bushfires.\n\nThe students used the Miyawaki method, a Japanese way of planting many local species close together so they grow faster. Edwina Robinson, a co-founder of the group, says plants can grow up to ten times faster than normal. She expects the forest to be about seven metres tall in two to three years. Because the soil is sandy, the team also dug trenches to collect rainwater.\n\nTeacher Danielle Phillips says the project also teaches teamwork and communication. Other schools can now use the group's plans to create their own microforests.",
+      "vocab": [
+        {
+          "word": "barren",
+          "pos": "adj.",
+          "ipa": "/ˈbærən/",
+          "zh": "贫瘠的；荒芜的",
+          "en": "empty and unable to support much plant life",
+          "example": "The garden was barren when we moved in, but now it's full of herbs."
+        },
+        {
+          "word": "thriving",
+          "pos": "adj.",
+          "ipa": "/ˈθraɪvɪŋ/",
+          "zh": "繁荣的；茁壮成长的",
+          "en": "growing or developing very well",
+          "example": "The area now has a thriving café scene."
+        },
+        {
+          "word": "be drawn from",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "取自；来自",
+          "en": "to come from a particular source or group",
+          "example": "The panel members were drawn from a wide range of industries.",
+          "forms": [
+            "drawn from"
+          ]
+        },
+        {
+          "word": "carry out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "实施；进行",
+          "en": "to do a task, study or piece of work",
+          "example": "The council will carry out a survey of local residents next month.",
+          "forms": [
+            "carried out"
+          ]
+        },
+        {
+          "word": "work out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "算出；弄清楚",
+          "en": "to calculate or find the answer to something",
+          "example": "Can you work out how much each of us owes for dinner?"
+        },
+        {
+          "word": "accelerate",
+          "pos": "v.",
+          "ipa": "/əkˈseləreɪt/",
+          "zh": "加快；促进",
+          "en": "to make something happen faster",
+          "example": "The pandemic accelerated the shift to online shopping."
+        },
+        {
+          "word": "harvest",
+          "pos": "v.",
+          "ipa": "/ˈhɑːvɪst/",
+          "zh": "收集；采集",
+          "en": "to collect something useful, such as water or energy",
+          "example": "Their house harvests rainwater for the garden and toilets."
+        },
+        {
+          "word": "follow suit",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "效仿；跟着做",
+          "en": "to do the same thing that someone else has just done",
+          "example": "When one bank cut its rates, the others quickly followed suit."
+        },
+        {
+          "word": "extend beyond",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "超出……的范围",
+          "en": "to reach or affect more than a particular area",
+          "example": "The impact of the festival extends beyond the city itself."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The students' teachers have said the project will be included in their final school reports.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到项目是否计入学生成绩或学期报告，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "St Peter's is the first school in NSW to research, design and plant a microforest with the collective as part of its curriculum.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"the school became the first in the state to research, design and plant a microforest as part of its curriculum\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The plants used in the microforest were brought in from Japan.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说植物 \"all drawn from the region's endangered coastal littoral rainforest\"，来自本地雨林；日本的只是种植方法，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the team dig clay-lined trenches?",
+          "options": [
+            "To capture rainwater, because the soil is sandy",
+            "To protect the plants from bushfires",
+            "To keep animals away from the young trees",
+            "To mark the edges of the microforest"
+          ],
+          "answer": 0,
+          "explain": "原文 \"Because the soil is sandy, the team also dug about 40 metres of clay-lined trenches to harvest rainwater\"。"
+        }
+      ],
+      "discuss": "Why do you think hands-on projects like this might help children learn? Should more schools replace classroom lessons with practical projects?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-25/microforest-planted-with-1000-native-trees-at-broulee-school/107292384"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Inspecting a Flat in Brunswick",
+    "titleZh": "在布伦瑞克看房",
+    "setting": "Two friends, Lucia and Kenji, meet at an open inspection for a two-bedroom flat they might rent together.",
+    "settingZh": "露西娅和健二两位朋友一起去看一套两居室公寓，打算合租。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "Sorry I'm late — the tram was packed, so I had to wait for the next one.",
+        "zh": "抱歉我迟到了——电车挤满了人，我只好等下一班。"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "No worries, the agent's only just let people in. It's a bit of a crowd, though.",
+        "zh": "没关系，中介刚刚才放人进来。不过人还真不少。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "Wow, the photos made the living room look twice the size. Bit of a stretch, wasn't it?",
+        "zh": "哇，照片里的客厅看着有两倍大。有点夸张了吧？"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "Totally. Still, the light's great, and it's only five minutes' walk from Sydney Road.",
+        "zh": "绝对是。不过采光很好，而且离悉尼路只要走五分钟。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "True. Have a look at the bathroom, though — there's mould creeping up the ceiling.",
+        "zh": "没错。不过你看看浴室——天花板上霉菌在往上蔓延。"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "Yeah, I spotted that. We'd want the landlord to sort it out before we sign anything.",
+        "zh": "嗯，我也注意到了。签任何东西之前，我们得让房东先处理好。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "Definitely. And the second bedroom's tiny. I'm not sure a double bed would even fit.",
+        "zh": "当然。而且第二间卧室特别小，我都不确定能不能放下一张双人床。"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "We could flip a coin for it, or whoever takes it pays a bit less rent.",
+        "zh": "我们可以抛硬币决定，或者谁住那间就少付点房租。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "That seems fair. What's the rent again? Five-eighty a week, wasn't it?",
+        "zh": "这样挺公平。房租是多少来着？每周五百八，对吧？"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "Yeah, which is steep, but it's about the going rate for Brunswick these days.",
+        "zh": "对，挺贵的，不过现在布伦瑞克差不多就是这个行情。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "I suppose so. Should we put in an application today, or keep our options open?",
+        "zh": "也是。我们今天就递申请，还是再多看看？"
+      },
+      {
+        "s": "B",
+        "name": "Kenji",
+        "en": "Honestly, places like this get snapped up fast, so I reckon we just go for it.",
+        "zh": "说实话，这样的房子很快就会被抢走，我觉得我们直接申请吧。"
+      },
+      {
+        "s": "A",
+        "name": "Lucia",
+        "en": "Alright, let's ask the agent about the mould first, then fill in the forms tonight.",
+        "zh": "好，那我们先问问中介霉菌的事，今晚再填表。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "It's OK / It doesn't matter",
+        "en": "No worries",
+        "zh": "没关系（澳洲常用）"
+      },
+      {
+        "plain": "That's an exaggeration",
+        "en": "Bit of a stretch",
+        "zh": "有点夸张，言过其实"
+      },
+      {
+        "plain": "I saw that too",
+        "en": "I spotted that",
+        "zh": "我注意到了"
+      },
+      {
+        "plain": "fix the problem",
+        "en": "sort it out",
+        "zh": "把问题处理好"
+      },
+      {
+        "plain": "very expensive",
+        "en": "steep",
+        "zh": "（价格）很高"
+      },
+      {
+        "plain": "the normal price",
+        "en": "the going rate",
+        "zh": "市场行情价"
+      },
+      {
+        "plain": "not decide yet",
+        "en": "keep our options open",
+        "zh": "暂不决定，保留选择"
+      },
+      {
+        "plain": "rented very quickly",
+        "en": "get snapped up",
+        "zh": "被一抢而空"
+      }
+    ]
+  }
+}
