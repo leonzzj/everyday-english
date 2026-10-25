@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-25T02:56:52.094Z",
+ "updatedAt": "2026-10-25T18:58:09.798Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Why Trump's siding with 'humanitarian' Putin",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/why-trumps-siding-with-humanitarian-putin/107297738",
-   "audio": "https://traffic.megaphone.fm/TECO5026682143.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/5f9cb17e-ce2b-11f1-8480-23a718d616c4/image/5daac32c79ad4afd8ebb04ce82638c53.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-23",
+   "title": "How Labor's losing the cost-of-living battle",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-labors-losing-the-costofliving-battle/107300406",
+   "audio": "https://traffic.megaphone.fm/TECO3153939463.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/dd6324e6-d086-11f1-b2e3-0348cb026f8c/image/05a852a18a114ed3ce77f3a0951c5efa.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-26",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "It’s been a&nbsp;fortnight&nbsp;of extraordinary setbacks for US relations with Ukraine.&nbsp; Donald Trump has struck a deal to buy Russian diesel, delivering a financial boost to Vladimir Putin’s war effort, he briefly interrupted intelligence sharing with…"
+   "desc": "Unemployment is on the rise, interest&nbsp;rates are up, the price of fuel is&nbsp;soaring and everything just costs more.&nbsp;&nbsp; Recent&nbsp;polling shows voters are blaming the Prime Minister and his Treasurer for the tough times with their popularity…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The pursuit of happiness requires free time | Danielle Roberts",
-   "url": "http://go.ted.com/danielleroberts",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb884ac84c3697e90f7b90/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "title": "Sunday Pick: Unlocking Your Power at Work: Kara Swisher on how to get what you want | from Fixable",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb86439522da114937cd6a/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1792771799335-9d71f2ce-0522-44af-aa5a-f7849aefb157.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-10-25",
-   "minutes": 32,
+   "minutes": 36,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Do you feel short on time? Writer and work expert Danielle Roberts would like to help you with that. In this quick talk, she makes the case that free time isn't a reward you earn but a civil right you're owed. Hosted on Acast. See acast.com/privacy for more…"
+   "desc": "No matter where you fall on the corporate food chain, you have power at work—you just might not know how to use it. In this new series on Unlocking Your Power at Work, Anne and Frances dig into how to discover, build, and use your power, explore common power…"
   },
   {
    "source": "SBS Learn English",
