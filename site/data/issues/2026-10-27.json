@@ -1,0 +1,736 @@
+{
+  "date": "2026-10-27",
+  "issueNo": 12,
+  "title": "Lula's comeback, Europe's first bats and a likely rate rise",
+  "createdAt": "2026-10-27T06:54:24+11:00",
+  "stories": [
+    {
+      "id": "lula-fourth-term",
+      "category": "World",
+      "headline": "Lula wins a fourth term after a dramatic comeback in Brazil",
+      "headlineZh": "卢拉逆转胜出，第四次当选巴西总统",
+      "summaryZh": "首轮落后的卢拉在决选中以微弱优势击败小博索纳罗，但对手拒绝认输。",
+      "c1": "Luiz Inácio Lula da Silva has secured a fourth, non-consecutive term as Brazil's president, narrowly defeating the right-wing senator Flávio Bolsonaro in a run-off held on Sunday, 25 October. According to the final tally, Lula took 51.79 per cent of valid votes against 48.21 per cent for his rival, a margin of roughly 4.4 million votes. Turnout rose to 80.8 per cent, almost two points higher than in the first round.\n\nThe result is all the more striking given that Lula trailed after the first round on 4 October, when Bolsonaro finished about 2.2 million votes ahead. No candidate since 1985 had come from second place to win a run-off. Analysts quoted by Al Jazeera put the comeback down to several factors: a belated shift towards online and grassroots campaigning, a wave of young supporters dubbed \"Lula's army\", and a sense that Bolsonaro had behaved arrogantly, acting almost as though he had already won.\n\nBolsonaro, the son of former president Jair Bolsonaro, has refused to concede and is calling for the vote to be annulled because a Supreme Court justice extended voting by two hours. Experts point out, however, that his own campaign had requested the extension, which seriously undermines his case. The dispute nonetheless echoes 2022, when his father would not accept defeat and was later convicted of plotting a coup.\n\nCongratulations poured in from leaders across Latin America, Europe and beyond, although reactions largely split along political lines. Even so, Lula, who turns 81 this week, faces a daunting term. The opposition may well control both chambers of Congress, public debt is high and growth is forecast at just 2.3 per cent next year. Questions about who might eventually succeed him are also likely to grow louder.",
+      "b2": "Luiz Inácio Lula da Silva has won a fourth term as Brazil's president. In a run-off on Sunday, 25 October, he narrowly beat the right-wing senator Flávio Bolsonaro. Lula received 51.79 per cent of valid votes and Bolsonaro 48.21 per cent, a difference of about 4.4 million votes. More people voted than in the first round.\n\nThe win was surprising because Lula was behind after the first round on 4 October. Bolsonaro was about 2.2 million votes ahead then. No candidate since 1985 had finished second in the first round and then won the run-off. Experts say Lula's campaign moved online, many young people supported him, and some voters felt Bolsonaro was too confident, as if he had already won.\n\nBolsonaro, whose father Jair Bolsonaro was also president, has not accepted defeat. He wants the vote cancelled because a judge allowed voting to continue for two extra hours. However, his own campaign had asked for this extra time, so experts think his case is weak.\n\nMany world leaders congratulated Lula, though reactions mostly followed political lines. Lula, who turns 81 this week, has a hard job ahead. The opposition may control Congress, public debt is high and economic growth is expected to be slow next year.",
+      "vocab": [
+        {
+          "word": "non-consecutive",
+          "pos": "adj.",
+          "ipa": "/ˌnɒn kənˈsekjətɪv/",
+          "zh": "非连续的",
+          "en": "not following one after another without a break",
+          "example": "She has served two non-consecutive terms as club president."
+        },
+        {
+          "word": "narrowly defeat",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "险胜；以微弱优势击败",
+          "en": "to beat someone by a very small margin",
+          "example": "Our team narrowly defeated the visitors in extra time.",
+          "forms": [
+            "narrowly defeating"
+          ]
+        },
+        {
+          "word": "all the more striking",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更加引人注目",
+          "en": "even more remarkable because of a particular fact",
+          "example": "His recovery is all the more striking given how ill he was last year."
+        },
+        {
+          "word": "trail",
+          "pos": "v.",
+          "ipa": "/treɪl/",
+          "zh": "落后",
+          "en": "to be behind a rival in a competition or vote",
+          "example": "The government is trailing in the latest polls."
+        },
+        {
+          "word": "put something down to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "to say that something is caused by a particular thing",
+          "example": "I'd put her success down to sheer hard work.",
+          "forms": [
+            "put the comeback down to"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "承认失败",
+          "en": "to admit that you have lost an election or contest",
+          "example": "The mayor conceded shortly after midnight."
+        },
+        {
+          "word": "undermine",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈmaɪn/",
+          "zh": "削弱；破坏",
+          "en": "to make something weaker or less convincing",
+          "example": "Constant delays have undermined public trust in the project."
+        },
+        {
+          "word": "pour in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "大量涌来",
+          "en": "to arrive in large numbers or quantities",
+          "example": "Donations poured in after the bushfire appeal was launched.",
+          "forms": [
+            "poured in"
+          ]
+        },
+        {
+          "word": "split along political lines",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "按政治立场分化",
+          "en": "to divide according to people's political views",
+          "example": "Opinions on the new tax split along political lines."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Turnout in the run-off was higher than in the first round.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"Turnout rose to 80.8 per cent, almost two points higher than in the first round\"，因此为真。"
+        },
+        {
+          "type": "tfng",
+          "q": "Lula won more votes than Bolsonaro in the first round on 4 October.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Lula trailed after the first round\"，小博索纳罗领先约220万票，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Brazil's courts have already rejected Bolsonaro's call to annul the vote.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只说专家认为他的理由站不住脚（\"seriously undermines his case\"），并未提到法院是否已作出裁决。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why do experts think Bolsonaro's challenge is weak?",
+          "options": [
+            "The vote was counted twice by independent observers.",
+            "Lula won by more than ten million votes.",
+            "His own campaign had asked for voting to be extended.",
+            "Foreign leaders have already congratulated Lula."
+          ],
+          "answer": 2,
+          "explain": "文中说 \"his own campaign had requested the extension, which seriously undermines his case\"。"
+        }
+      ],
+      "discuss": "Why do you think some voters change their minds between two rounds of an election? Should countries use run-off systems at all?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/26/how-did-lula-beat-bolsonaro-after-losing-brazils-first-round-election"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race"
+        }
+      ]
+    },
+    {
+      "id": "bats-origin-europe",
+      "category": "Science",
+      "headline": "New study suggests bats first evolved in Europe",
+      "headlineZh": "新研究指出蝙蝠最早起源于欧洲",
+      "summaryZh": "结合基因组与化石数据的研究显示，蝙蝠可能在5600多万年前起源于欧洲。",
+      "c1": "Bats are the only mammals capable of powered flight, yet where they first appeared has long been a matter of debate. A new study published in Nature now points to a somewhat unexpected birthplace: Europe, during the late Palaeocene epoch, more than 56 million years ago. From there, according to the researchers, early bats spread into Africa and, later, to other continents as the major groups diversified.\n\nThe question has proved hard to settle partly because the fossil record is patchy. The oldest known bat skeletons, found in Wyoming in the United States, are about 52 million years old and already show elongated wing fingers, suggesting these animals could fly. But, as two researchers from the University of Southampton explain in The Conversation, the place where the oldest fossils happen to turn up does not necessarily reveal where a group originated. Earlier reconstructions had variously favoured North America, Africa and Asia.\n\nTo tackle the problem, the international team combined genetic and anatomical evidence on an unprecedented scale. They drew on genomes from 103 species covering all 21 living bat families, together with anatomical data from 65 species, 44 of which are extinct. The work is linked to Bat1K, a project that aims to sequence high-quality genomes for every living bat species.\n\nThe findings also shed light on echolocation, the sonar-like system many bats use to find their way. An extinct French species, known from a skull roughly 50 million years old, sits among the earliest branches of the family tree, which lends weight to the idea that echolocation is ancient. Even so, whether flight or echolocation evolved first remains an open question. At the time, Europe was covered in warm, subtropical forests and was at times linked to North America via Greenland.",
+      "b2": "Bats are the only mammals that can truly fly, but scientists have long disagreed about where they first appeared. A new study in the journal Nature suggests a surprising answer: Europe, more than 56 million years ago. The researchers say early bats then spread to Africa and later to other continents.\n\nThis question has been difficult because there are not many fossils. The oldest known bat skeletons were found in Wyoming, in the United States. They are about 52 million years old, and their long wing fingers show the animals could already fly. However, two researchers explain that the place where the oldest fossils are found does not always show where a group began. Earlier studies had suggested North America, Africa or Asia.\n\nThe international team used a very large amount of data. They studied the genomes of 103 bat species from all 21 living bat families. They also used body data from 65 species, 44 of them extinct.\n\nThe study also tells us something about echolocation, the system many bats use to find their way using sound. An extinct French bat appears near the start of the family tree, which suggests echolocation is very old. But scientists still do not know whether flight or echolocation came first.",
+      "vocab": [
+        {
+          "word": "point to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "表明；指向",
+          "en": "to suggest that something is true or likely",
+          "example": "All the evidence points to a problem with the software.",
+          "forms": [
+            "points to"
+          ]
+        },
+        {
+          "word": "diversify",
+          "pos": "v.",
+          "ipa": "/daɪˈvɜːsɪfaɪ/",
+          "zh": "多样化；分化",
+          "en": "to develop into many different types",
+          "example": "The company diversified into renewable energy in the 1990s.",
+          "forms": [
+            "diversified"
+          ]
+        },
+        {
+          "word": "patchy",
+          "pos": "adj.",
+          "ipa": "/ˈpætʃi/",
+          "zh": "不完整的；零散的",
+          "en": "incomplete, with parts missing",
+          "example": "Data on rural health services is still patchy."
+        },
+        {
+          "word": "turn up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "出现；被发现",
+          "en": "to be found, often unexpectedly",
+          "example": "My lost keys turned up in the washing machine."
+        },
+        {
+          "word": "on an unprecedented scale",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以前所未有的规模",
+          "en": "to a degree or size never seen before",
+          "example": "The city is investing in public transport on an unprecedented scale."
+        },
+        {
+          "word": "draw on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "利用；借鉴",
+          "en": "to use information, experience or resources",
+          "example": "The novel draws on the author's childhood in Darwin.",
+          "forms": [
+            "drew on"
+          ]
+        },
+        {
+          "word": "shed light on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "阐明；揭示",
+          "en": "to help explain something that was unclear",
+          "example": "The interviews shed light on why so many teachers are leaving."
+        },
+        {
+          "word": "lend weight to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……提供支持",
+          "en": "to make an idea or argument seem more likely to be true",
+          "example": "The new survey lends weight to calls for a four-day week.",
+          "forms": [
+            "lends weight to"
+          ]
+        },
+        {
+          "word": "an open question",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "悬而未决的问题",
+          "en": "something that has not yet been decided or answered",
+          "example": "Whether the plan will save money is still an open question."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers used genetic data from every living family of bats.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"genomes from 103 species covering all 21 living bat families\"，因此为真。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers intend to search for new bat fossils in Greenland.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说当时欧洲曾经 \"linked to North America via Greenland\"，并未提到研究者要去格陵兰寻找化石。"
+        },
+        {
+          "type": "tfng",
+          "q": "The oldest known bat skeletons were discovered in Europe.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说最古老的蝙蝠骨骼 \"found in Wyoming in the United States\"，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, which question is still unresolved?",
+          "options": [
+            "Whether flight or echolocation evolved first",
+            "Whether bats are able to fly",
+            "How many living bat families exist",
+            "Where the oldest bat skeletons were found"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"whether flight or echolocation evolved first remains an open question\"。"
+        }
+      ],
+      "discuss": "Why do you think scientists spend so much effort on questions about the distant past? Is this kind of research a good use of public money?",
+      "sources": [
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/where-did-bats-come-from-new-research-points-to-europe-293625"
+        }
+      ]
+    },
+    {
+      "id": "rba-rate-hike-odds",
+      "category": "Business",
+      "headline": "Markets bet the Reserve Bank will raise rates again next week",
+      "headlineZh": "市场押注澳储行下周再次加息",
+      "summaryZh": "市场认为澳储行11月加息的概率超过六成，本周通胀数据将成关键。",
+      "c1": "Financial markets are increasingly convinced that the Reserve Bank of Australia will raise interest rates again when its board meets next week. On Monday, traders put the probability of a hike at the 3 November meeting at just over 60 per cent, although one ABC analysis described the decision as close to a coin flip between holding steady and lifting the cash rate by a quarter of a percentage point. The rate currently stands at 4.6 per cent after four increases this year.\n\nExpectations have been shaped partly by remarks from senior RBA officials. In a television interview aired on Sunday, chief economist Sarah Hunter was asked whether the bank had done enough to bring inflation under control and replied, \"Unfortunately, not quite yet.\" She stressed that higher rates do work, but only with a lag. The previous week, Deputy Governor Andrew Hauser had described the inflation outlook as materially worse than in August.\n\nMuch now hinges on quarterly inflation figures due on Wednesday. Economists expect headline prices to have risen 1.3 per cent in the September quarter, up from 0.6 per cent, leaving the annual rate steady at 3.9 per cent. The closely watched trimmed mean, the bank's preferred measure of underlying inflation, is tipped to hold at about 3.6 per cent a year.\n\nFor households already stretched by cost-of-living pressures, another hike would add further strain to mortgage repayments. Yet the RBA is hardly alone: markets are pricing in a strong chance of a rate rise from the US Federal Reserve in December, and New Zealand's central bank is expected to lift its rate this week. The global fight against inflation, it seems, is far from over.",
+      "b2": "Financial markets now believe the Reserve Bank of Australia will probably raise interest rates again next week. On Monday, traders put the chance of a rise at the 3 November meeting at just over 60 per cent. Some analysts say it is almost a coin flip. The cash rate is now 4.6 per cent after four rises this year.\n\nComments from senior RBA officials have influenced these expectations. In a TV interview shown on Sunday, chief economist Sarah Hunter was asked if the bank had done enough to control inflation. She said, \"Unfortunately, not quite yet.\" She explained that higher rates do work, but it takes time. A week earlier, Deputy Governor Andrew Hauser said the inflation outlook was much worse than in August.\n\nA lot depends on new inflation figures that come out on Wednesday. Economists expect prices to have risen 1.3 per cent in the September quarter, and the yearly rate to stay at 3.9 per cent.\n\nMany households are already struggling with the cost of living, and another rise would make home loans more expensive. But Australia is not alone. Markets think the US Federal Reserve may raise rates in December, and New Zealand's central bank is expected to raise its rate this week.",
+      "vocab": [
+        {
+          "word": "coin flip",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "五五开；难以预料的事",
+          "en": "a situation where either result is equally likely",
+          "example": "Who wins the final is basically a coin flip."
+        },
+        {
+          "word": "bring something under control",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "控制住",
+          "en": "to stop something from getting worse",
+          "example": "Firefighters brought the blaze under control by evening.",
+          "forms": [
+            "bring inflation under control"
+          ]
+        },
+        {
+          "word": "with a lag",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有滞后地",
+          "en": "after a delay rather than immediately",
+          "example": "Changes in policy usually affect jobs with a lag."
+        },
+        {
+          "word": "hinge on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "取决于",
+          "en": "to depend completely on something",
+          "example": "Our holiday plans hinge on whether I get leave approved.",
+          "forms": [
+            "hinges on"
+          ]
+        },
+        {
+          "word": "closely watched",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "备受关注的",
+          "en": "followed carefully by many people because it is important",
+          "example": "The closely watched trial resumes next month."
+        },
+        {
+          "word": "underlying",
+          "pos": "adj.",
+          "ipa": "/ˌʌndəˈlaɪɪŋ/",
+          "zh": "根本的；基础的",
+          "en": "real or basic, though not immediately obvious",
+          "example": "We need to address the underlying causes of the problem."
+        },
+        {
+          "word": "stretched",
+          "pos": "adj.",
+          "ipa": "/stretʃt/",
+          "zh": "（资金）紧张的",
+          "en": "having barely enough money or resources",
+          "example": "Many young families feel stretched by rising rents."
+        },
+        {
+          "word": "price in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（市场）提前计入",
+          "en": "to include an expected event in current prices",
+          "example": "Investors have already priced in a slowdown in China.",
+          "forms": [
+            "pricing in"
+          ]
+        },
+        {
+          "word": "far from over",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远未结束",
+          "en": "not finished at all; likely to continue",
+          "example": "The housing crisis is far from over."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Sarah Hunter said the RBA had already done enough to control inflation.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "她的回答是 \"Unfortunately, not quite yet\"，即还没有做够，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most economists expect the RBA to cut interest rates in 2027.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到2027年降息的预测。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Reserve Bank has raised the cash rate several times this year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说利率为4.6% \"after four increases this year\"，因此为真。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is due to be released on Wednesday?",
+          "options": [
+            "The RBA's interest rate decision",
+            "New Zealand's cash rate decision",
+            "The US Federal Reserve's annual report",
+            "Quarterly inflation figures"
+          ],
+          "answer": 3,
+          "explain": "文中说 \"Much now hinges on quarterly inflation figures due on Wednesday\"。"
+        }
+      ],
+      "discuss": "Why do you think central banks raise interest rates even when many households are struggling? Is there a fairer way to fight inflation?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-26/asx-markets-business-live-news-october-26/107306820"
+        }
+      ]
+    },
+    {
+      "id": "dancerites-wadeye-win",
+      "category": "Culture",
+      "headline": "Wadeye dance group wins DanceRites at the Sydney Opera House",
+      "headlineZh": "北领地瓦代耶舞团在悉尼歌剧院DanceRites夺冠",
+      "summaryZh": "Tharnpa舞团夺得原住民舞蹈比赛DanceRites最高奖，本届活动致敬创办人。",
+      "c1": "A dance group from Wadeye, a remote community in the Northern Territory, has claimed the top prize at DanceRites 2026, a national First Nations dance competition held at the Sydney Opera House. Tharnpa Dance Group came out on top in a field of hundreds of performers representing nations and clans from across the country, and its members said the victory meant a great deal to them and to their proud families back home.\n\nOver two days, groups competed in three categories: Song Cycle, Cultural Dance and Wild Card. The Sundowners Kalkutungu Dancers were runners-up for the main cultural award, Island Stars took out the Wild Card prize, and the Rhoda Roberts AO Rites of Passage Award was shared between Brolga Dance Academy and Shalom First Nations Dancers.\n\nThis year's event, the ninth, carried particular emotional weight because it paid tribute to Aunty Rhoda Roberts AO, the Bundjalung woman who founded DanceRites. A trailblazer in First Nations media and the arts, she served as the Opera House's Head of First Nations and became SBS's first Elder in Residence. Her son, Jack Roberts-Field, gave a speech and danced in her honour, later admitting that the tribute brought \"tears, just constant tears\".\n\nDanceRites began in 2015 as part of the Opera House's Homeground festival, and participation doubled within its first two years. Since 2018 it has been a standalone festival on the Opera House forecourt, giving communities, some of them from very remote parts of Australia, a prominent stage on which to share living cultural traditions. Its steady growth arguably reflects a wider appetite among audiences to engage with First Nations culture on its own terms.",
+      "b2": "A dance group from Wadeye, a remote community in the Northern Territory, has won the top prize at DanceRites 2026. DanceRites is a national First Nations dance competition held at the Sydney Opera House. Hundreds of performers from across Australia took part. Members of Tharnpa Dance Group said the win meant a lot to them and their families at home.\n\nThe competition lasted two days and had three categories: Song Cycle, Cultural Dance and Wild Card. The Sundowners Kalkutungu Dancers came second for the main cultural award, and Island Stars won the Wild Card prize.\n\nThis year's festival was especially emotional because it honoured Aunty Rhoda Roberts AO, the Bundjalung woman who started DanceRites. She was an important leader in First Nations media and the arts. She was the Opera House's Head of First Nations and SBS's first Elder in Residence. Her son, Jack Roberts-Field, gave a speech and danced for her. He said the tribute brought many tears.\n\nDanceRites started in 2015 as part of another festival at the Opera House. The number of groups doubled in its first two years, and since 2018 it has been its own festival. It gives communities, including very remote ones, a big stage to share their living culture.",
+      "vocab": [
+        {
+          "word": "claim the top prize",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "夺得最高奖",
+          "en": "to win first place in a competition",
+          "example": "A Melbourne café claimed the top prize at this year's coffee awards.",
+          "forms": [
+            "claimed the top prize"
+          ]
+        },
+        {
+          "word": "come out on top",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "胜出；名列第一",
+          "en": "to win after a contest or struggle",
+          "example": "After a long negotiation, the union came out on top.",
+          "forms": [
+            "came out on top"
+          ]
+        },
+        {
+          "word": "take out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（澳）赢得（奖项）",
+          "en": "to win a prize or competition (Australian usage)",
+          "example": "She took out best actress at the festival.",
+          "forms": [
+            "took out"
+          ]
+        },
+        {
+          "word": "carry weight",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有分量；意义重大",
+          "en": "to be important or influential",
+          "example": "Her opinion carries a lot of weight in the department.",
+          "forms": [
+            "carried particular emotional weight"
+          ]
+        },
+        {
+          "word": "pay tribute to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "向……致敬",
+          "en": "to publicly show respect or admiration for someone",
+          "example": "The prime minister paid tribute to the volunteers.",
+          "forms": [
+            "paid tribute to"
+          ]
+        },
+        {
+          "word": "trailblazer",
+          "pos": "n.",
+          "ipa": "/ˈtreɪlbleɪzə/",
+          "zh": "开拓者；先驱",
+          "en": "a person who is the first to do something new",
+          "example": "She was a trailblazer for women in engineering."
+        },
+        {
+          "word": "in someone's honour",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为纪念某人",
+          "en": "in order to show respect for someone",
+          "example": "The school planted a tree in his honour.",
+          "forms": [
+            "in her honour"
+          ]
+        },
+        {
+          "word": "standalone",
+          "pos": "adj.",
+          "ipa": "/ˈstændəˌləʊn/",
+          "zh": "独立的",
+          "en": "existing on its own, not part of something larger",
+          "example": "The podcast is now a standalone series."
+        },
+        {
+          "word": "on its own terms",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "按其自身的方式",
+          "en": "in the way it wants, without being judged by others' standards",
+          "example": "The film should be judged on its own terms, not compared with the book."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "DanceRites has been a standalone festival ever since it began in 2015.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说它 \"began in 2015 as part of the Opera House's Homeground festival\"，2018年才独立，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Tharnpa Dance Group plans to tour overseas next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到该舞团的海外巡演计划。"
+        },
+        {
+          "type": "tfng",
+          "q": "The winning group comes from a community in the Northern Territory.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"A dance group from Wadeye, a remote community in the Northern Territory\"，因此为真。"
+        },
+        {
+          "type": "mcq",
+          "q": "Who founded DanceRites?",
+          "options": [
+            "Jack Roberts-Field",
+            "Aunty Rhoda Roberts AO",
+            "The members of Tharnpa Dance Group",
+            "SBS's Elder in Residence programme"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Aunty Rhoda Roberts AO, the Bundjalung woman who founded DanceRites\"。"
+        }
+      ],
+      "discuss": "Why do you think competitions and festivals matter for keeping traditional cultures alive? Can a competition ever change the meaning of a cultural tradition?",
+      "sources": [
+        {
+          "name": "SBS NITV",
+          "url": "https://www.sbs.com.au/nitv/article/dancerites-2026-celebrates-first-nations-culture-and-aunty-rhodas-legacy/skwxx5cdk"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Crunch Time for a Group Assignment",
+    "titleZh": "小组作业的冲刺时刻",
+    "setting": "Two uni students, Mei and Callum, meet in the State Library to sort out a group presentation due on Friday.",
+    "settingZh": "两名大学生美和卡勒姆在州立图书馆碰面，商量周五要交的小组展示。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Sorry I'm late — the tram got stuck behind a broken-down truck on Swanston.",
+        "zh": "抱歉我迟到了——电车在斯旺斯顿街被一辆抛锚的卡车堵住了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "No stress, I've only just grabbed a table. This place fills up fast.",
+        "zh": "没事，我也刚占到桌子。这里很快就满了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "So, have we heard anything from Josh? He's gone completely quiet on the group chat.",
+        "zh": "那乔什有消息吗？他在群聊里完全没动静了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Not a peep. I reckon we should just divvy up his section between us.",
+        "zh": "一点声音都没有。我觉得我们干脆把他那部分分了吧。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough, but let's flag it with the tutor so we're covered.",
+        "zh": "也行，不过我们跟助教说一声，免得到时说不清。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Good call. Where are you at with the literature review, by the way?",
+        "zh": "好主意。对了，你的文献综述做到哪儿了？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "I've got a rough draft, but it's all over the place at the moment.",
+        "zh": "我有个草稿，不过现在还很乱。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Send it through tonight and I'll have a crack at tidying it up.",
+        "zh": "今晚发给我，我试着帮你整理一下。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "You're a lifesaver. Should we do a run-through before Friday as well?",
+        "zh": "你真是救星。我们周五前也要排练一遍吧？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Definitely. Thursday arvo suits me, unless you've got a shift.",
+        "zh": "当然。周四下午我可以，除非你要上班。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "I finish at three, so let's pencil in four o'clock here.",
+        "zh": "我三点下班，那就暂定四点在这儿吧。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Sweet. And if Josh rocks up last minute, he's doing the Q&A.",
+        "zh": "好嘞。要是乔什最后一刻冒出来，问答环节就交给他。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Ha, that'd serve him right. Right, let's get cracking on the slides.",
+        "zh": "哈，那是他活该。好了，我们开始做幻灯片吧。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "He hasn't said anything at all.",
+        "en": "Not a peep.",
+        "zh": "一点动静都没有（口语）"
+      },
+      {
+        "plain": "divide his part between us",
+        "en": "divvy up his section between us",
+        "zh": "divvy up：分摊（口语）"
+      },
+      {
+        "plain": "tell the tutor so we are protected",
+        "en": "flag it with the tutor so we're covered",
+        "zh": "flag：提出、报告；be covered：有保障"
+      },
+      {
+        "plain": "How much have you done?",
+        "en": "Where are you at with",
+        "zh": "询问进度的地道说法"
+      },
+      {
+        "plain": "It is very messy.",
+        "en": "it's all over the place",
+        "zh": "乱七八糟、没条理"
+      },
+      {
+        "plain": "I'll try to tidy it",
+        "en": "I'll have a crack at tidying it up",
+        "zh": "have a crack at：试一试（澳式口语）"
+      },
+      {
+        "plain": "Thursday afternoon is good for me",
+        "en": "Thursday arvo suits me",
+        "zh": "arvo：澳式口语“下午”"
+      },
+      {
+        "plain": "let's start working on the slides",
+        "en": "let's get cracking on the slides",
+        "zh": "get cracking：赶紧开始"
+      }
+    ]
+  }
+}
