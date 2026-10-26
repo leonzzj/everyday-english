@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-26T03:00:58.671Z",
+ "updatedAt": "2026-10-26T19:14:19.987Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "How Labor's losing the cost-of-living battle",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-labors-losing-the-costofliving-battle/107300406",
-   "audio": "https://traffic.megaphone.fm/TECO3153939463.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/dd6324e6-d086-11f1-b2e3-0348cb026f8c/image/05a852a18a114ed3ce77f3a0951c5efa.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-26",
+   "title": "What 'Woke 2.0' means for the midterms",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-woke-2-0-means-for-the-midterms/107310158",
+   "audio": "https://traffic.megaphone.fm/TECO3126040627.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/09f269f8-d150-11f1-99a7-8fa2034af14c/image/04ea739d279eb382c408ac3547f349a7.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-27",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Unemployment is on the rise, interest&nbsp;rates are up, the price of fuel is&nbsp;soaring and everything just costs more.&nbsp;&nbsp; Recent&nbsp;polling shows voters are blaming the Prime Minister and his Treasurer for the tough times with their popularity…"
+   "desc": "Did you know we are in the midst of a new&nbsp;'woke' era? It's being dubbed 'Woke&nbsp;2.0' and unlike 'Woke 1',&nbsp;it's thought to be winning over voters for the Democrats ahead of next week's midterm election. Today, staff writer at the Atlantic…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: Unlocking Your Power at Work: Kara Swisher on how to get what you want | from Fixable",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb86439522da114937cd6a/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1792771799335-9d71f2ce-0522-44af-aa5a-f7849aefb157.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-25",
-   "minutes": 36,
+   "title": "Unions for climate action! | Payton M. Wilkins (re-release)",
+   "url": "https://shows.acast.com/ttd/episodes/tid118893tid",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf6cc9a8783bd47557508f/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-27",
+   "minutes": 12,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "No matter where you fall on the corporate food chain, you have power at work—you just might not know how to use it. In this new series on Unlocking Your Power at Work, Anne and Frances dig into how to discover, build, and use your power, explore common power…"
+   "desc": "In the long term, shutting down a coal mine means cleaner air and a healthier environment — but in the short term, it can devastate a community or family that relied on the mine's paychecks to make ends meet. Environmental justice advocate Payton M. Wilkins…"
   },
   {
    "source": "SBS Learn English",
@@ -56,28 +56,28 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "One billion meals thrown away every day (Level 6)",
-   "url": "https://breakingnewsenglish.com/2610/261019-food-waste.html",
+   "title": "Mummy removed from exhibition over 'lack of consent' (Level 6)",
+   "url": "https://breakingnewsenglish.com/2610/261026-mummies-wokeness-consent.html",
    "audio": "",
    "image": "",
-   "date": "2026-10-19",
+   "date": "2026-10-26",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Oct 19, 2026. More than one billion meals are thrown away worldwide every day."
+   "desc": "Oct 26, 2026. A museum removed the remains of an ancient Egyptian mummy from a display due to a lack of consent."
   },
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Traction!",
-   "url": "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
+   "title": "How to build real peace",
+   "url": "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/44e36cdb-f3d7-45b0-8759-ba91f5eb550c/essay-friction.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-23",
+   "image": "https://images.aeonmedia.co/images/8fd10da1-aaf3-42db-bfbe-7a7fe5af1814/v1-essay-gettyimages-1076552638.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-26",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Tribologists study friction: what happens when things rub together. It’s indispensable, from the wheel to the paths of stars - by Jennifer R Vail Read on Aeon"
+   "desc": "From Colombia to Syria, I’ve seen that capitalist logic can’t help to rebuild postwar countries but cooperatives can - by Azize Aslan Read on Aeon"
   }
  ]
 }
