@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-27T06:54:24+11:00",
+  "updatedAt": "2026-10-28T06:55:01+11:00",
   "issues": [
+    {
+      "date": "2026-10-28",
+      "issueNo": 13,
+      "title": "Israel's tight election, sleeping spiders and Anthropic's huge IPO",
+      "headlines": [
+        "Israel votes in a tight election that could decide Netanyahu's future",
+        "Australian jumping spiders filmed in a REM-like sleep state",
+        "Anthropic files for what could be the biggest IPO in history",
+        "Geelong's smelly 167-year-old ginkgo named Victoria's Tree of the Year"
+      ]
+    },
     {
       "date": "2026-10-27",
       "issueNo": 12,

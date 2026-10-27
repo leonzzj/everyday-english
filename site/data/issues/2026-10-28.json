@@ -1,0 +1,732 @@
+{
+  "date": "2026-10-28",
+  "issueNo": 13,
+  "title": "Israel's tight election, sleeping spiders and Anthropic's huge IPO",
+  "createdAt": "2026-10-28T06:55:01+11:00",
+  "stories": [
+    {
+      "id": "israel-election",
+      "category": "World",
+      "headline": "Israel votes in a tight election that could decide Netanyahu's future",
+      "headlineZh": "以色列举行势均力敌的大选，内塔尼亚胡前途未卜",
+      "summaryZh": "这是2023年10月7日袭击后的首次大选，民调显示两大阵营都难以拿下61席。",
+      "c1": "Israelis voted on Tuesday, 27 October, in what many observers regard as one of the most consequential elections in the country's history. It is the first general election since the Hamas-led attack of 7 October 2023 and the wars that followed, and it pits Prime Minister Benjamin Netanyahu, Israel's longest-serving leader, against an opposition bloc headed by Gadi Eisenkot, a former military chief. Around 7.3 million citizens were eligible to vote, including roughly 1.2 million Palestinian citizens of Israel.\n\nIsrael's 120-seat parliament, the Knesset, is elected by proportional representation, and parties must win at least 3.25 per cent of the vote to gain seats. Since no party has ever secured an outright majority of 61, governments are invariably coalitions. Final polls, published before a ban on new surveys took effect on Friday, suggested that neither bloc was on course to reach that magic number, raising the prospect of protracted negotiations, a minority government or even another election.\n\nThe stakes are particularly high for Netanyahu, who is on trial for corruption, which he denies, and faces an International Criminal Court arrest warrant over alleged war crimes. Yet commentators quoted by Al Jazeera caution that the contest is hardly a clash of opposites: the main opposition parties have also adopted a stance that is broadly right-wing, and none has offered to govern with Arab-led parties.\n\nVoters were weighing a wide range of grievances, from accountability for the security failures before October 2023 to anger over military exemptions for ultra-Orthodox men and a contentious overhaul of the judiciary. The final tally is expected by Friday. After that, President Isaac Herzog will consult party leaders and nominate the candidate he judges most likely to form a government, who will then have up to 42 days to do so.",
+      "b2": "Israelis voted in a general election on Tuesday, 27 October. It is the first election since the Hamas-led attack of 7 October 2023 and the wars that followed. Prime Minister Benjamin Netanyahu, who has led Israel for longer than anyone else, faced an opposition group led by Gadi Eisenkot, a former army chief. About 7.3 million people were allowed to vote.\n\nIsrael's parliament, the Knesset, has 120 seats. A party needs at least 3.25 per cent of the vote to enter it, and a government needs 61 seats. No party has ever won that many on its own, so parties must work together in coalitions. The last polls suggested that neither side would reach 61 seats.\n\nThe result matters a lot for Netanyahu. He is on trial for corruption, which he denies, and the International Criminal Court has issued a warrant for his arrest. However, some experts say the main opposition parties are also quite right-wing, and none of them has offered to govern with Arab-led parties.\n\nVoters care about many issues, including security failures before October 2023, military service for ultra-Orthodox men and changes to the courts. The final count is expected by Friday. Then President Isaac Herzog will choose a leader, who will have up to 42 days to form a government.",
+      "vocab": [
+        {
+          "word": "consequential",
+          "pos": "adj.",
+          "ipa": "/ˌkɒnsɪˈkwenʃəl/",
+          "zh": "影响深远的；重大的",
+          "en": "having important results or effects",
+          "example": "Choosing a university is one of the most consequential decisions a teenager makes."
+        },
+        {
+          "word": "outright majority",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "绝对多数",
+          "en": "more than half of all the seats or votes",
+          "example": "No party won an outright majority, so they had to negotiate with the independents."
+        },
+        {
+          "word": "invariably",
+          "pos": "adv.",
+          "ipa": "/ɪnˈveəriəbli/",
+          "zh": "总是；一贯地",
+          "en": "always, without exception",
+          "example": "Whenever we plan a picnic, it invariably rains."
+        },
+        {
+          "word": "magic number",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "关键数字；达标数",
+          "en": "the exact number needed to achieve something",
+          "example": "Ten thousand signatures is the magic number for a petition to be debated."
+        },
+        {
+          "word": "protracted negotiations",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "旷日持久的谈判",
+          "en": "talks that last much longer than expected",
+          "example": "After protracted negotiations, the union finally accepted the pay offer."
+        },
+        {
+          "word": "caution",
+          "pos": "v.",
+          "ipa": "/ˈkɔːʃən/",
+          "zh": "告诫；提醒注意",
+          "en": "to warn someone to be careful about something",
+          "example": "Doctors caution that the new diet may not suit everyone."
+        },
+        {
+          "word": "adopt a stance",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "采取某种立场",
+          "en": "to take a particular position or attitude on an issue",
+          "example": "The council adopted a firm stance against new gambling venues.",
+          "forms": [
+            "adopted a stance"
+          ]
+        },
+        {
+          "word": "grievance",
+          "pos": "n.",
+          "ipa": "/ˈɡriːvəns/",
+          "zh": "不满；委屈",
+          "en": "a feeling or complaint that you have been treated unfairly",
+          "example": "Staff were invited to raise any grievances with HR in private."
+        },
+        {
+          "word": "contentious",
+          "pos": "adj.",
+          "ipa": "/kənˈtenʃəs/",
+          "zh": "有争议的",
+          "en": "likely to cause disagreement or argument",
+          "example": "Housing density remains a contentious issue in many suburbs."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Israelis living overseas were able to vote by post.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只提到约730万公民有投票资格，没有提到海外选民或邮寄投票，因此无法判断。"
+        },
+        {
+          "type": "tfng",
+          "q": "Final polls indicated that Netanyahu's bloc would win a clear majority.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"neither bloc was on course to reach that magic number\"，即两大阵营都难以过半，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The candidate nominated by the president will have a maximum of 42 days to form a government.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说被提名者 \"will then have up to 42 days to do so\"，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, why are Israeli governments always coalitions?",
+          "options": [
+            "The law does not allow a single party to govern alone.",
+            "No party has ever won an outright majority of 61 seats.",
+            "The president must include Arab-led parties in every government.",
+            "Most parties fail to reach the 3.25 per cent threshold."
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Since no party has ever secured an outright majority of 61, governments are invariably coalitions\"。"
+        }
+      ],
+      "discuss": "Why do you think so many democracies end up with coalition governments? Are coalitions better or worse at making difficult decisions than single-party governments?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next"
+        }
+      ]
+    },
+    {
+      "id": "spider-rem-sleep",
+      "category": "Science",
+      "headline": "Australian jumping spiders filmed in a REM-like sleep state",
+      "headlineZh": "澳大利亚跳蛛被拍到类似快速眼动睡眠的状态",
+      "summaryZh": "德国波恩大学研究发现，流苏跳蛛的睡眠至少分两个阶段，其中一个类似人类的快速眼动睡眠。",
+      "c1": "Anyone who has watched a dog twitch in its sleep has probably wondered what is going on in its head. Now researchers have filmed strikingly similar behaviour in a far less cuddly creature: the fringed jumping spider, Portia fimbriata, which is found across northern Australia and grows to about 10 millimetres. In a study published in the Proceedings of the National Academy of Sciences, a team from the University of Bonn reports that these spiders pass through at least two distinct stages of sleep.\n\nThe researchers recorded the spiders overnight as they rested upside down in small webs, a habit that conveniently makes sleep easier to identify. In the first, 'quiescent' stage, the animals groomed themselves and their posture slowly drooped. The second stage was reminiscent of REM sleep in mammals, featuring curled legs, eye movements and twitching limbs.\n\nTo check that the spiders were genuinely asleep rather than merely still, the team startled them with a loud noise. Compared with awake spiders, resting ones were noticeably slower to react, and the delay was most pronounced during the REM-like phase, when some failed to respond at all. Thomas White, an entomologist at the University of Sydney who was not involved, described the work as \"far and away the most complete behavioural case for sleep in any arachnid\".\n\nStill, the findings come with an important caveat. The evidence is purely behavioural, so it does not prove that spider brains work like ours, let alone that spiders dream. Even so, given that spiders and vertebrates went their separate ways roughly 500 million years ago, the results raise intriguing questions about how ancient sleep might be. The researchers now plan fieldwork in northern Queensland and Western Australia to see how artificial light and habitat disturbance affect spider sleep in the wild.",
+      "b2": "Researchers have filmed a small Australian spider that seems to sleep in a way similar to mammals. The fringed jumping spider, Portia fimbriata, lives across northern Australia and grows to about 10 millimetres. A team from the University of Bonn published the study in the journal Proceedings of the National Academy of Sciences.\n\nThe team recorded the spiders at night while they rested upside down in small webs. They found two stages of sleep. In the first stage, the spiders cleaned themselves and slowly drooped. In the second, which looked like REM sleep, their legs curled, their eyes moved and their limbs twitched.\n\nTo test whether the spiders were really asleep, the scientists made a loud noise. Resting spiders reacted more slowly than awake ones, especially in the REM-like stage, and some did not react at all. An expert from the University of Sydney called it the most complete behavioural evidence of sleep in any arachnid.\n\nHowever, the study only looked at behaviour, so it cannot show that spiders dream. Spiders and animals with backbones separated about 500 million years ago, so the results raise interesting questions about the history of sleep. Next, the team will study spiders in the wild in northern Queensland and Western Australia, including the effects of artificial light.",
+      "vocab": [
+        {
+          "word": "pass through",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "经历（某阶段）",
+          "en": "to go through a stage or process",
+          "example": "Most start-ups pass through a difficult phase before they become profitable."
+        },
+        {
+          "word": "conveniently",
+          "pos": "adv.",
+          "ipa": "/kənˈviːniəntli/",
+          "zh": "方便地；恰好",
+          "en": "in a way that is useful or easy",
+          "example": "The hotel is conveniently located next to the train station."
+        },
+        {
+          "word": "reminiscent of",
+          "pos": "adj. phr.",
+          "ipa": "",
+          "zh": "令人联想到……的",
+          "en": "making you think of something similar",
+          "example": "The café's interior is reminiscent of an old Parisian bistro."
+        },
+        {
+          "word": "merely",
+          "pos": "adv.",
+          "ipa": "/ˈmɪəli/",
+          "zh": "仅仅；只不过",
+          "en": "only; nothing more than",
+          "example": "He wasn't angry; he was merely surprised by the news."
+        },
+        {
+          "word": "pronounced",
+          "pos": "adj.",
+          "ipa": "/prəˈnaʊnst/",
+          "zh": "明显的；显著的",
+          "en": "very noticeable or obvious",
+          "example": "The difference in quality was most pronounced in the cheaper models."
+        },
+        {
+          "word": "caveat",
+          "pos": "n.",
+          "ipa": "/ˈkæviæt/",
+          "zh": "附加说明；警告",
+          "en": "a warning that something is limited or needs care",
+          "example": "The offer sounds great, with one caveat: you must sign up for two years."
+        },
+        {
+          "word": "let alone",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更不用说",
+          "en": "used to say that something is even less likely than the thing before",
+          "example": "I can barely boil an egg, let alone cook a three-course dinner."
+        },
+        {
+          "word": "go their separate ways",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "分道扬镳",
+          "en": "to separate and develop or live independently",
+          "example": "After graduation, the band members went their separate ways.",
+          "forms": [
+            "went their separate ways"
+          ]
+        },
+        {
+          "word": "intriguing",
+          "pos": "adj.",
+          "ipa": "/ɪnˈtriːɡɪŋ/",
+          "zh": "引人入胜的；耐人寻味的",
+          "en": "very interesting because it is unusual or mysterious",
+          "example": "She made an intriguing point about how cities shape our habits."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The spiders in the study rested in small webs while hanging upside down.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"they rested upside down in small webs\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers measured the spiders' brain activity while they slept.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"The evidence is purely behavioural\"，即只观察了行为，并未测量大脑活动，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The REM-like stage lasted longer than the quiescent stage.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章描述了两个阶段的特征，但没有比较它们持续的时间，因此无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the researchers startle the spiders with a loud noise?",
+          "options": [
+            "To keep them awake for a sleep-deprivation test",
+            "To imitate the sound of a predator",
+            "To confirm they were truly asleep rather than just still",
+            "To find out how well spiders can hear"
+          ],
+          "answer": 2,
+          "explain": "原文说 \"To check that the spiders were genuinely asleep rather than merely still, the team startled them with a loud noise\"。"
+        }
+      ],
+      "discuss": "Why do you think scientists are so interested in whether animals sleep or dream? Should findings like this change the way we treat insects and spiders?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-10-27/jumping-spider-rem-sleep/107309370"
+        },
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-10-distinct-stages-emerge-spider-rem.html"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "category": "Business",
+      "headline": "Anthropic files for what could be the biggest IPO in history",
+      "headlineZh": "Anthropic申请上市，或成史上最大规模IPO",
+      "summaryZh": "Claude聊天机器人的开发商计划在纳斯达克上市，据报道拟融资约1000亿美元，市场看法分歧。",
+      "c1": "Anthropic, the company behind the Claude chatbot, has formally filed to go public, setting the stage for what could become the largest capital-markets fundraising in history. The company is reportedly seeking about US$100 billion and could list on the Nasdaq as early as next month under the ticker \"ANT\". That would eclipse the US$85.7 billion raised by SpaceX when it floated in June.\n\nThe figures disclosed so far underline both the scale of the opportunity and the size of the bet. According to ABC News, Anthropic's annualised revenue run rate topped US$65 billion at the end of July, roughly seven times its level at the end of 2025. Yet the company is also spending vast sums, including US$5.6 billion on computing power to run its models in the second quarter alone. Analysts had valued it at around US$2 trillion earlier this year, although a recent update put the figure closer to US$1.5 trillion.\n\nOpinions on the listing are sharply divided. Dan Ives of Yorkville called it a watershed event for the AI revolution, while conceding that investors will need to look beyond this year's numbers to justify the price. Fund manager Roger Montgomery was far more sceptical, arguing that the company is attempting a historic float just as the money flowing into AI is drying up. Others worry that heavy spending on data centres and chips may not be matched by demand.\n\nThe offering is also notable for its unusually candid risk disclosures. The filing warns that advanced AI could pose catastrophic or even existential risks if misused, citing cyberattacks and biological weapons among them. For Australians, the listing may be more accessible than most US floats: Macquarie Capital is acting as sub-underwriter and local coordinator, meaning investors here will be able to apply for shares.",
+      "b2": "Anthropic, the company that makes the Claude chatbot, has filed to sell its shares to the public. It could become the biggest share sale in history. The company is reportedly hoping to raise about US$100 billion and could list on the Nasdaq as soon as next month. In June, SpaceX raised US$85.7 billion when it listed.\n\nAnthropic is growing very fast. ABC News reports that its yearly revenue rate passed US$65 billion at the end of July, about seven times higher than at the end of 2025. But it is also spending enormous amounts, including US$5.6 billion on computing power in just three months. Earlier this year it was valued at around US$2 trillion, but a recent estimate is closer to US$1.5 trillion.\n\nExperts disagree about the sale. One analyst called it a turning point for artificial intelligence, but said investors need to look beyond this year's results. A fund manager was more doubtful and said that money for AI is running out. Others fear that demand may not keep up with spending on data centres and chips.\n\nIn its filing, Anthropic warns that advanced AI could cause catastrophic harm if it is misused, for example through cyberattacks or biological weapons. Australians will also be able to apply for shares, because Macquarie Capital is helping to organise the sale here.",
+      "vocab": [
+        {
+          "word": "go public",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（公司）上市",
+          "en": "to start selling shares in a company on a stock exchange",
+          "example": "The family business finally decided to go public after fifty years."
+        },
+        {
+          "word": "set the stage for",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "为……铺平道路",
+          "en": "to make it possible or likely for something to happen",
+          "example": "The peace talks set the stage for a new trade agreement.",
+          "forms": [
+            "setting the stage for"
+          ]
+        },
+        {
+          "word": "eclipse",
+          "pos": "v.",
+          "ipa": "/ɪˈklɪps/",
+          "zh": "超过；使相形见绌",
+          "en": "to be much bigger or more important than something else",
+          "example": "Her latest novel has eclipsed all her earlier work in sales."
+        },
+        {
+          "word": "float",
+          "pos": "v./n.",
+          "ipa": "/fləʊt/",
+          "zh": "（公司股票）上市；上市发行",
+          "en": "to start selling a company's shares to the public; such a sale",
+          "example": "The airline floated on the stock exchange in the 1990s."
+        },
+        {
+          "word": "vast sums",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "巨额资金",
+          "en": "very large amounts of money",
+          "example": "Governments spend vast sums on infrastructure every year."
+        },
+        {
+          "word": "sharply divided",
+          "pos": "adj. phr.",
+          "ipa": "",
+          "zh": "意见严重分歧的",
+          "en": "strongly disagreeing, split into opposing groups",
+          "example": "The community is sharply divided over the new road."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had some weaknesses.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "dry up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "枯竭；（资金）断流",
+          "en": "to stop being available",
+          "example": "Work dried up for many freelancers during the downturn.",
+          "forms": [
+            "drying up"
+          ]
+        },
+        {
+          "word": "candid",
+          "pos": "adj.",
+          "ipa": "/ˈkændɪd/",
+          "zh": "坦率的；直言不讳的",
+          "en": "honest and direct, even about difficult things",
+          "example": "Thanks for your candid feedback on my presentation."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The amount Anthropic is reportedly seeking is larger than the sum SpaceX raised in June.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 Anthropic 拟融资约 \"US$100 billion\"，并说这 \"would eclipse the US$85.7 billion raised by SpaceX\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Analysts' estimates of Anthropic's value have risen since earlier this year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说年初估值约 \"US$2 trillion\"，最近 \"closer to US$1.5 trillion\"，估值是下降的，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of Anthropic's revenue comes from business customers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章提到了收入规模，但没有说明收入来自哪类客户，因此无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "What was Roger Montgomery's main concern about the listing?",
+          "options": [
+            "The ticker \"ANT\" could confuse investors.",
+            "The risk disclosures were too frank.",
+            "The Nasdaq was the wrong exchange for the float.",
+            "Money flowing into AI is drying up."
+          ],
+          "answer": 3,
+          "explain": "原文说他认为公司 \"attempting a historic float just as the money flowing into AI is drying up\"。"
+        }
+      ],
+      "discuss": "Why do you think investors are willing to pay so much for companies that are still spending more than they earn? Would you feel comfortable investing in an AI company? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-27/anthropic-eyes-biggest-ever-ipo-as-ai-funding-dries-up/107312804"
+        },
+        {
+          "name": "ABC News (US)",
+          "url": "https://abcnews.com/Business/anthropic-formally-files-initial-public-stock-offering-major/story?id=137570700"
+        },
+        {
+          "name": "ABC News 4",
+          "url": "https://abcnews4.com/news/nation-world/anthropic-ipo-filing-warns-ai-could-pose-catastrophic-existential-risks-if-misused"
+        }
+      ]
+    },
+    {
+      "id": "geelong-ginkgo",
+      "category": "Australia",
+      "headline": "Geelong's smelly 167-year-old ginkgo named Victoria's Tree of the Year",
+      "headlineZh": "吉朗167岁银杏树当选维州年度之树",
+      "summaryZh": "这棵1859年种下的雌性银杏在公众投票中胜出，国民信托借机呼吁立法保护古树。",
+      "c1": "A 167-year-old ginkgo in the Geelong Botanic Gardens has been crowned Victoria's Tree of the Year, winning a public vote run by the National Trust of Australia. The tree attracted 27 per cent of the 4,435 votes cast during September and October, comfortably ahead of eight other finalists, including a smooth bark apple myrtle in Prahran and a myrtle beech at Maits Rest near Apollo Bay.\n\nPlanted in 1859, the tree predates the Melbourne Cup, and legend has it that the seed was brought by a ship's captain who called in at Geelong's port. Standing 20 metres tall, it is the largest ginkgo in Victoria and possibly in Australia. It is not, however, universally adored. As a female tree, it produces fruit with a notoriously pungent smell, which even the National Trust admits some people really dislike. Its trunk and branches are also hung with unusual woody, stalactite-like growths that tend to appear only on much older trees.\n\nGinkgos are often described as living fossils, since they belong to a plant group that thrived between about 174 and 161 million years ago. Once thought to have vanished from the wild, the species clung on in small populations in China, and ginkgo trees famously survived the atomic bombing of Hiroshima in 1945, becoming emblems of resilience.\n\nBeyond the accolade, the National Trust hopes the result will strengthen its long-running push to safeguard significant trees. Its Victorian branch has kept a Significant Tree Register for 44 years, created so that trees could be protected in the way historic buildings are, and it is calling for trees on that register and on council lists to be granted automatic legal protection. Mature trees, it argues, need protecting so that future generations can enjoy them too.",
+      "b2": "A 167-year-old ginkgo tree in the Geelong Botanic Gardens has been named Victoria's Tree of the Year. It won 27 per cent of the 4,435 votes in a public competition run by the National Trust of Australia. It beat eight other finalists from around the state.\n\nThe tree was planted in 1859. According to a local story, a ship's captain brought the seed to Geelong. At 20 metres tall, it is the largest ginkgo in Victoria. Not everyone loves it, though. It is a female tree, and its fruit has a strong smell that some people really dislike.\n\nGinkgos are sometimes called living fossils because their plant group was common more than 160 million years ago. People once believed they no longer grew in the wild, but some survived in China. Ginkgo trees also survived the atomic bombing of Hiroshima in 1945 and became symbols of strength.\n\nThe National Trust hopes the win will help protect important trees. Its Victorian branch has kept a register of significant trees for 44 years. It wants trees on this register and on council lists to receive automatic legal protection, so that future generations can enjoy them.",
+      "vocab": [
+        {
+          "word": "be crowned",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被评为；荣获（称号）",
+          "en": "to be officially named the best or the winner",
+          "example": "Our local bakery was crowned the best in the state.",
+          "forms": [
+            "been crowned"
+          ]
+        },
+        {
+          "word": "comfortably ahead of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "遥遥领先于",
+          "en": "clearly in front of others, with a safe margin",
+          "example": "Labor is comfortably ahead of its rivals in the latest poll."
+        },
+        {
+          "word": "predate",
+          "pos": "v.",
+          "ipa": "/ˌpriːˈdeɪt/",
+          "zh": "早于（某事物）存在",
+          "en": "to exist or happen before something else",
+          "example": "The church predates most of the buildings in the town."
+        },
+        {
+          "word": "legend has it",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "据传说",
+          "en": "people say (a story that may not be true)",
+          "example": "Legend has it that the pub was once a hideout for bushrangers."
+        },
+        {
+          "word": "call in at",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（途中）短暂停靠；顺路拜访",
+          "en": "to visit a place briefly, usually on the way somewhere else",
+          "example": "We called in at my aunt's place on the drive to Sydney.",
+          "forms": [
+            "called in at"
+          ]
+        },
+        {
+          "word": "pungent",
+          "pos": "adj.",
+          "ipa": "/ˈpʌndʒənt/",
+          "zh": "（气味）刺鼻的",
+          "en": "having a very strong smell or taste",
+          "example": "The market was full of the pungent smell of fish and spices."
+        },
+        {
+          "word": "cling on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "顽强地存活；坚持住",
+          "en": "to manage to survive or continue in a difficult situation",
+          "example": "The small bookshop clung on despite competition from online sellers.",
+          "forms": [
+            "clung on"
+          ]
+        },
+        {
+          "word": "accolade",
+          "pos": "n.",
+          "ipa": "/ˈækəleɪd/",
+          "zh": "荣誉；赞誉",
+          "en": "praise or an award for an achievement",
+          "example": "The film received every major accolade at the festival."
+        },
+        {
+          "word": "safeguard",
+          "pos": "v.",
+          "ipa": "/ˈseɪfɡɑːd/",
+          "zh": "保护；捍卫",
+          "en": "to protect something from harm or loss",
+          "example": "New rules aim to safeguard customers' personal data."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The Geelong ginkgo received more than half of all the votes cast.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说它获得 \"27 per cent of the 4,435 votes\"，远不到一半，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The tree was planted before the first Melbourne Cup was run.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"the tree predates the Melbourne Cup\"，即种树时墨尔本杯还未举办，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Geelong Botanic Gardens plans to build a fence around the tree to protect it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章提到国民信托呼吁立法保护古树，但没有提到植物园要修围栏，因此无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the National Trust want to happen to trees on significant tree registers?",
+          "options": [
+            "They should be moved into botanic gardens.",
+            "They should automatically receive legal protection.",
+            "They should be entered into the Tree of the Year competition.",
+            "They should be replaced with younger trees."
+          ],
+          "answer": 1,
+          "explain": "原文说国民信托呼吁 \"trees on that register and on council lists to be granted automatic legal protection\"。"
+        }
+      ],
+      "discuss": "Why do you think people become so attached to old trees and other local landmarks? Should old trees be protected by law in the same way as historic buildings?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-28/geelong-s-167-year-old-gingko-biloba-tree-wins-tree-of-the-year/107314130"
+        },
+        {
+          "name": "Geelong Independent",
+          "url": "https://geelongindy.com.au/news/27-10-2026/gingko-named-vics-top-tree/"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Day Trip to Geelong",
+    "titleZh": "吉朗一日游",
+    "setting": "Two housemates in Northcote chat over breakfast about their plans for Saturday.",
+    "settingZh": "住在诺斯科特的两位室友边吃早餐边聊周六的计划。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Any plans for Saturday? I'm desperate to get out of Melbourne for a day.",
+        "zh": "周六有什么安排吗？我特别想离开墨尔本出去待一天。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Funny you should ask. I was toying with the idea of heading down to Geelong.",
+        "zh": "你问得正巧。我正琢磨着要不要去吉朗。"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Geelong? What's the drawcard, apart from the waterfront and fish and chips?",
+        "zh": "吉朗？除了海滨和炸鱼薯条，那儿还有什么吸引人的？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Did you see that ginkgo in the Botanic Gardens just won Tree of the Year?",
+        "zh": "你看到没，植物园里那棵银杏刚被评为年度之树？"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Hang on, people actually vote for trees now? That's so wholesome, I love it.",
+        "zh": "等等，现在大家还给树投票？太暖心了，我喜欢。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Apparently it's a hundred and sixty-seven years old. I reckon it's worth a look.",
+        "zh": "听说它已经167岁了。我觉得值得去看看。"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Fair enough. Should we take the V/Line or borrow my sister's car?",
+        "zh": "有道理。我们坐V/Line火车，还是借我姐姐的车？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "The train's easier. We won't have to worry about parking or who's driving home.",
+        "zh": "坐火车省事，不用操心停车，也不用纠结谁开车回来。"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Good call. Let's aim for a mid-morning train so we're not rushing around.",
+        "zh": "好主意。我们就坐上午十点左右的车吧，这样不用手忙脚乱。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Sounds like a plan. We could grab lunch and wander along the foreshore afterwards.",
+        "zh": "就这么定了。我们可以吃个午饭，然后沿着海滨散散步。"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Just a heads-up, though: I read its fruit really stinks, so don't stand too close.",
+        "zh": "不过先提醒你：我看报道说它的果实特别臭，别站太近。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Ha! I'll take my chances. It'll make a great photo, smell or no smell.",
+        "zh": "哈！我愿意冒这个险。不管臭不臭，拍照肯定好看。"
+      },
+      {
+        "s": "A",
+        "name": "Hana",
+        "en": "Alright, I'm in. I'll check the timetable tonight and text you the details.",
+        "zh": "好吧，算我一个。我今晚查一下时刻表，再把细节发给你。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I really want to leave Melbourne",
+        "en": "I'm desperate to get out of Melbourne",
+        "zh": "迫切想离开某地，口语常用"
+      },
+      {
+        "plain": "I was thinking about going",
+        "en": "I was toying with the idea of",
+        "zh": "还在随便考虑，尚未决定"
+      },
+      {
+        "plain": "What is the attraction?",
+        "en": "What's the drawcard",
+        "zh": "澳式说法：吸引人的地方"
+      },
+      {
+        "plain": "I think we should see it",
+        "en": "I reckon it's worth a look",
+        "zh": "值得一看；reckon=think"
+      },
+      {
+        "plain": "That's a good idea",
+        "en": "Good call",
+        "zh": "肯定对方的决定"
+      },
+      {
+        "plain": "OK, let's do that",
+        "en": "Sounds like a plan",
+        "zh": "同意安排"
+      },
+      {
+        "plain": "I want to warn you",
+        "en": "Just a heads-up",
+        "zh": "友好地提前提醒"
+      },
+      {
+        "plain": "I will accept the risk",
+        "en": "I'll take my chances",
+        "zh": "愿意冒险试试"
+      }
+    ]
+  }
+}
