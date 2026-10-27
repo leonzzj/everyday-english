@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-27T02:59:47.222Z",
+ "updatedAt": "2026-10-27T19:13:02.350Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "What 'Woke 2.0' means for the midterms",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-woke-2-0-means-for-the-midterms/107310158",
-   "audio": "https://traffic.megaphone.fm/TECO3126040627.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/09f269f8-d150-11f1-99a7-8fa2034af14c/image/04ea739d279eb382c408ac3547f349a7.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-27",
-   "minutes": 17,
+   "title": "Will Trump 'finish off' Iran after the midterms?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-trump-finish-off-iran-after-the-midterms/107314922",
+   "audio": "https://traffic.megaphone.fm/TECO3938708075.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/337c8dca-d219-11f1-a521-0b0fe0d2ce25/image/20d7317b141d96b1e5b2a78f36ce3bdf.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-28",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Did you know we are in the midst of a new&nbsp;'woke' era? It's being dubbed 'Woke&nbsp;2.0' and unlike 'Woke 1',&nbsp;it's thought to be winning over voters for the Democrats ahead of next week's midterm election. Today, staff writer at the Atlantic…"
+   "desc": "Is Donald Trump about restart the fighting with Iran?&nbsp;&nbsp; Ahead of the midterm elections next week, the US&nbsp;President has been raising the prospect of renewed attacks that could begin after Americans vote. &nbsp; Today, Cole Bucy, former CIA…"
   },
   {
    "source": "Conversations",
@@ -30,28 +30,28 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Unions for climate action! | Payton M. Wilkins (re-release)",
-   "url": "https://shows.acast.com/ttd/episodes/tid118893tid",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf6cc9a8783bd47557508f/media.mp3",
+   "title": "How video games can power up your parenting | Hannah Boquet (re-release)",
+   "url": "http://go.ted.com/hannahbouquet",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf721fa8783bd475575090/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-27",
-   "minutes": 12,
+   "date": "2026-10-28",
+   "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "In the long term, shutting down a coal mine means cleaner air and a healthier environment — but in the short term, it can devastate a community or family that relied on the mine's paychecks to make ends meet. Environmental justice advocate Payton M. Wilkins…"
+   "desc": "Parenting an eye-rolling teenager glued to a gaming system is not a simple feat, but what if you could turn screen time into an opportunity for connection? Hannah Boquet shares how she decided to play video games with her kids and discovered the power of…"
   },
   {
    "source": "SBS Learn English",
    "kind": "listen",
-   "title": "#121 Picking up a prescription",
-   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/121-picking-up-a-prescription/940467f5s",
-   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261014060314_114650-english-61ae5b72-6a97-468a-8ab4-0bbab2a7c44e.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a0-ccc9-d59b-a7e9-dddfee2f0000&dur_cat=3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261014060320_283545-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-14",
-   "minutes": 9,
+   "title": "#122 Asking someone to take your photo",
+   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/122-asking-someone-to-take-your-photo-med/ruwem5ylo",
+   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261028060412_839295-english-73bab353-73a7-4a51-85b1-7c7123d26a3f.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a1-564d-db6e-a1ad-deef29a00000&dur_cat=2",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261028060416_361075-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-28",
+   "minutes": 8,
    "level": "B1–B2",
    "accent": "AU",
-   "desc": "Learn English useful for picking up prescription medicine. Practise phrases for filling a prescription, asking how to take medicine, understanding the instructions on a medicine label, and checking possible side effects and interactions with other medicines.…"
+   "desc": "Learn English useful for asking stranger for a little help, including asking someone to take a photo, give directions or help with a bag. Keep practising the phrases from this episode and test what you’ve learned with our quiz here. #sbsaudiopodcast"
   },
   {
    "source": "Breaking News English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "How to build real peace",
-   "url": "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like",
+   "title": "Love with nowhere to go",
+   "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/8fd10da1-aaf3-42db-bfbe-7a7fe5af1814/v1-essay-gettyimages-1076552638.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-26",
+   "image": "https://images.aeonmedia.co/images/e4ffcd43-fc58-49e0-9596-99b6020acfca/essay-v2-nyc117497.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-27",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "From Colombia to Syria, I’ve seen that capitalist logic can’t help to rebuild postwar countries but cooperatives can - by Azize Aslan Read on Aeon"
+   "desc": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves - by Derek van Zoonen Read on Aeon"
   }
  ]
 }
