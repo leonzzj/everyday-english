@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T19:14:19.987Z",
+ "updatedAt": "2026-10-27T02:59:47.222Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Zoe Terakes and the mythic tales of gods, sex and magical transformations",
-   "url": "https://www.abc.net.au/listen/programs/conversations/crete-mythology-transformations-ancient-world-zoe-terakes/107292778",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pp/Z/rd.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F33d8c6e19785e20522dcc17983f0d855.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-26",
-   "minutes": 53,
+   "title": "Encore: Bonnie Garmus on the spark of anger which began a whole new life, in her 60s",
+   "url": "https://www.abc.net.au/listen/programs/conversations/bonnie-garmus-on-her-success-with-lessons-in-chemistry/107299856",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pr/Z/1f.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F9731006d94b1cd873ec118336019dd6d.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-27",
+   "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "Zoe Terakes is a writer and actor with deep family connections to the island of Crete, where their great-grandparents migrated to Australia from. This island is the site of Europe’s first ancient civilisation. Bronze Age Crete had palaces, temples, art…"
+   "desc": "When author Bonnie Garmus tried to sell her first novel, it was rejected 98 times, but then at 66, she wrote a novel called Lessons in Chemistry, which sold four million copies around the world. Bonnie had wanted to be a novelist since she was five years old.…"
   },
   {
    "source": "TED Talks Daily",
