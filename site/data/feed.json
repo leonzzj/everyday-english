@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-28T03:07:23.817Z",
+ "updatedAt": "2026-10-28T19:20:30.440Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Will Trump 'finish off' Iran after the midterms?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-trump-finish-off-iran-after-the-midterms/107314922",
-   "audio": "https://traffic.megaphone.fm/TECO3938708075.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/337c8dca-d219-11f1-a521-0b0fe0d2ce25/image/20d7317b141d96b1e5b2a78f36ce3bdf.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "title": "Will Netanyahu cling to power?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-netanyahu-cling-to-power/107318972",
+   "audio": "https://traffic.megaphone.fm/TECO5076408063.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/8bfd667a-d28e-11f1-ae94-8f8ea64c0b3a/image/5be2c3da1fd1ef77d34e0ac40d2d8d78.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
    "date": "2026-10-28",
    "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Is Donald Trump about restart the fighting with Iran?&nbsp;&nbsp; Ahead of the midterm elections next week, the US&nbsp;President has been raising the prospect of renewed attacks that could begin after Americans vote. &nbsp; Today, Cole Bucy, former CIA…"
+   "desc": "Israelis came out in record numbers to vote but as the polls closed it was too close to call.&nbsp;&nbsp; Although that didn't stop Prime Minister Benjamin Netanyahu and his main rival Gadi Eisenkot both claiming success.&nbsp;&nbsp; Today, Dov Waxman…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How video games can power up your parenting | Hannah Boquet (re-release)",
-   "url": "http://go.ted.com/hannahbouquet",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf721fa8783bd475575090/media.mp3",
+   "title": "How people are using AI to grieve, love and connect | Jennifer Cearns",
+   "url": "http://go.ted.com/jennifercearns",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb8f7a52428fc30bf6f9ca/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Parenting an eye-rolling teenager glued to a gaming system is not a simple feat, but what if you could turn screen time into an opportunity for connection? Hannah Boquet shares how she decided to play video games with her kids and discovered the power of…"
+   "desc": "Many people fear AI is eroding our humanity, replacing real relationships with synthetic ones that leave us lonelier than ever. Digital anthropologist Jennifer Cearns believes the opposite may be true. After talking to hundreds of people who turn to AI for…"
   },
   {
    "source": "SBS Learn English",
