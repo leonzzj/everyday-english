@@ -1,0 +1,720 @@
+{
+  "date": "2026-10-29",
+  "issueNo": 14,
+  "title": "Spain's rail tragedy, Tasmania's eel gathering and a big-tech ombudsman",
+  "createdAt": "2026-10-29T06:54:40+11:00",
+  "stories": [
+    {
+      "id": "spain-train-crash",
+      "category": "World",
+      "headline": "Dozens killed as high-speed trains collide in central Spain",
+      "headlineZh": "西班牙中部高铁追尾事故致数十人遇难",
+      "summaryZh": "马德里至塞维利亚线路上一列高铁撞上停驶列车，60多人遇难，全国哀悼三天。",
+      "c1": "Spain is in mourning after a high-speed train ploughed into the back of a stationary train near the village of Urda, in Toledo province, early on Wednesday, 28 October. Both trains were travelling in the same direction on the line linking Madrid and Seville, and the impact derailed two carriages. More than 60 people were killed and dozens more were injured, many of them seriously, making it one of the deadliest rail disasters in the country's recent history.\n\nOne of the trains was a Renfe AVE service bound for Seville with 397 passengers on board, while the other, run by the private operator Iryo, was carrying 147 people. According to Transport Minister Óscar Puente, a train control system broke down shortly before the collision across a 63-kilometre stretch of track. Control was then handed to a post in Madrid, and the Renfe train was allowed to continue even though the system had not been restored, a decision Puente described as \"inexplicable\".\n\nPrime Minister Pedro Sánchez declared three days of official mourning and vowed that any negligence would be exposed and met with a firm response. More than 200 members of the army's emergency unit were sent to the site, and high-speed services between Madrid and Andalusia were suspended while a Civil Guard investigation team began its work.\n\nWhat makes the tragedy all the more painful is that only nine months ago an earlier crash on the same line, involving trains from the same two operators, claimed the lives of 46 people. Although Sánchez maintains that the two accidents appear to be unrelated, the government had promised to check rail lines across the country at the time. With an election due in little more than a month, questions about accountability are unlikely to fade quickly.",
+      "b2": "A high-speed train crashed into the back of a train that had stopped near the village of Urda, south of Madrid, early on Wednesday, 28 October. Both trains were going in the same direction on the line between Madrid and Seville. Two carriages came off the tracks. More than 60 people died and many others were hurt.\n\nOne train was run by Renfe, Spain's state rail company, and had 397 passengers on board. The other belonged to a private company, Iryo, and was carrying 147 people. The transport minister said a system that controls trains stopped working on part of the line shortly before the crash. He said it was hard to understand why the Renfe train was then allowed to keep going.\n\nPrime Minister Pedro Sánchez announced three days of official mourning and promised that anyone responsible for mistakes would face serious consequences. Emergency teams rushed to the area, and high-speed trains between Madrid and southern Spain were stopped.\n\nThe crash is especially painful because a similar accident on the same line killed 46 people only nine months ago. The government says the two crashes do not seem to be connected. However, with an election coming soon, the pressure for clear answers is likely to grow.",
+      "vocab": [
+        {
+          "word": "in mourning",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "处于哀悼中",
+          "en": "feeling or showing deep sadness after a death",
+          "example": "The whole town was in mourning after the much-loved coach passed away."
+        },
+        {
+          "word": "plough into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "猛撞上",
+          "en": "to crash into something with great force",
+          "example": "A delivery van ploughed into a row of parked cars during the storm.",
+          "forms": [
+            "ploughed into"
+          ]
+        },
+        {
+          "word": "bound for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "开往；前往",
+          "en": "travelling towards a particular place",
+          "example": "We boarded a ferry bound for Tasmania just after sunset."
+        },
+        {
+          "word": "break down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（机器、系统）出故障",
+          "en": "to stop working because of a fault",
+          "example": "Our heating broke down in the middle of July, of all times.",
+          "forms": [
+            "broke down"
+          ]
+        },
+        {
+          "word": "vow",
+          "pos": "v.",
+          "ipa": "/vaʊ/",
+          "zh": "郑重承诺；发誓",
+          "en": "to promise firmly and publicly",
+          "example": "The new manager vowed to cut waiting times by half."
+        },
+        {
+          "word": "suspend",
+          "pos": "v.",
+          "ipa": "/səˈspend/",
+          "zh": "暂停；中止",
+          "en": "to stop something for a period of time",
+          "example": "The council suspended the free bus service while the bridge was repaired."
+        },
+        {
+          "word": "all the more",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更加；愈发",
+          "en": "even more, because of a particular reason",
+          "example": "Her success is all the more impressive given how little support she had."
+        },
+        {
+          "word": "claim the lives of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "夺去……的生命",
+          "en": "to cause the death of people",
+          "example": "The heatwave claimed the lives of several elderly residents.",
+          "forms": [
+            "claimed the lives of"
+          ]
+        },
+        {
+          "word": "accountability",
+          "pos": "n.",
+          "ipa": "/əˌkaʊntəˈbɪləti/",
+          "zh": "问责；责任",
+          "en": "the duty to explain and accept responsibility for one's actions",
+          "example": "Voters are demanding greater accountability from the people who run public services."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Both trains were heading towards Madrid when the collision happened.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说两车 \"travelling in the same direction\"，且 Renfe 列车 \"bound for Seville\"（开往塞维利亚），因此并非驶向马德里，答案为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "According to the minister, the Renfe train was allowed to continue before the control system had been fixed.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"allowed to continue even though the system had not been restored\"，与题干一致，答案为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Investigators have already confirmed that the Renfe driver was to blame for the crash.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到调查刚刚开始（\"began its work\"），没有说明司机是否有责任，答案为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are questions about accountability likely to continue?",
+          "options": [
+            "Foreign leaders have demanded an international inquiry.",
+            "A similar crash happened on the same line recently, and an election is coming.",
+            "The private operator has refused to cooperate with investigators.",
+            "Officials have admitted that the trains were dangerously overcrowded."
+          ],
+          "answer": 1,
+          "explain": "最后一段提到九个月前同一线路曾发生事故（\"only nine months ago an earlier crash on the same line\"），且 \"an election due in little more than a month\"，故选 B。"
+        }
+      ],
+      "discuss": "When a major public transport accident happens, who do you think should be held responsible: the operators, the engineers or the government? Why?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain"
+        }
+      ]
+    },
+    {
+      "id": "tasmania-eel-gathering",
+      "category": "Environment",
+      "headline": "Scientists count 2.8 million eels gathering off Tasmania to spawn",
+      "headlineZh": "科学家估算约280万条鳗鱼在塔斯马尼亚近海聚集产卵",
+      "summaryZh": "CSIRO研究发现，深海筐纹鳗每年在一座海底山附近大规模聚集，为全球唯一已知案例。",
+      "c1": "Deep beneath the waters off southern Tasmania, scientists have confirmed what may be one of the ocean's most remarkable gatherings. A study led by CSIRO and published in the journal Royal Society Open Science estimates that around 2.8 million basketwork eels, weighing roughly 3,500 tonnes in total, congregate each year near Patience Seamount, an underwater mountain in the Huon Marine Park. It is the only known spawning aggregation of purely oceanic eels anywhere in the world.\n\nThe site's existence was hardly a secret. Since the 1980s, fishers chasing orange roughy had hauled up the eels as bycatch, nicknaming the spot \"Eel Hill\". However, it was not until surveys carried out between 2023 and 2025 that researchers could put a figure on the population. Using the research vessel Investigator, they combined cameras with hydro-acoustic technology, which sends sound into the water and reads the returning echoes. The eels show up particularly well because of their large, gas-filled swim bladders.\n\nThe aggregation lies about 1,000 metres down and stretches across an area of roughly two by three kilometres. The eels start arriving in December, reach peak numbers between May and August and have dispersed by October. Tellingly, those that were caught had empty stomachs, and most females were close to spawning, which suggests the animals come to breed rather than to feed.\n\nThe findings matter because the species is listed as vulnerable on the IUCN Red List, largely as a result of bycatch. On one New Zealand continental slope, a population has declined by 85 per cent over four decades. Whether the Tasmanian group has suffered comparable losses remains unclear, but Parks Australia says the study offers a valuable baseline, and the seamount is now protected from bottom trawling.",
+      "b2": "Scientists have found that a huge number of eels gather every year near an underwater mountain off southern Tasmania. A study led by CSIRO estimates that about 2.8 million basketwork eels, weighing around 3,500 tonnes, meet near Patience Seamount in the Huon Marine Park. It is the only known place in the world where purely ocean-living eels gather to breed.\n\nPeople have known about the spot for a long time. Since the 1980s, fishers catching orange roughy have accidentally pulled up eels there, and they called it \"Eel Hill\". Between 2023 and 2025, researchers finally counted the eels. They used cameras and sound technology, which sends sound into the water and listens for the echoes.\n\nThe eels live about 1,000 metres below the surface, in an area about two by three kilometres wide. They begin arriving in December, are most numerous from May to August, and have left by October. The eels that were caught had empty stomachs, and most females were ready to spawn.\n\nThe species is listed as vulnerable, mainly because eels are caught by accident. In New Zealand, one population has fallen by 85 per cent in 40 years. Experts say the study will help them measure future changes, and the area is now protected from bottom trawling.",
+      "vocab": [
+        {
+          "word": "congregate",
+          "pos": "v.",
+          "ipa": "/ˈkɒŋɡrɪɡeɪt/",
+          "zh": "聚集；集合",
+          "en": "to come together in a large group",
+          "example": "Fans began to congregate outside the stadium hours before the match."
+        },
+        {
+          "word": "hardly a secret",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "几乎人人皆知",
+          "en": "something that many people already know",
+          "example": "It's hardly a secret that the old library needs a major upgrade."
+        },
+        {
+          "word": "haul up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（用力）拉起；拖上来",
+          "en": "to pull something heavy upwards, often out of water",
+          "example": "The volunteers hauled up an old shopping trolley from the creek.",
+          "forms": [
+            "hauled up"
+          ]
+        },
+        {
+          "word": "put a figure on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给出具体数字",
+          "en": "to state an exact number or amount for something",
+          "example": "It's hard to put a figure on how many people will attend the festival."
+        },
+        {
+          "word": "show up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "显现；清楚地显示出来",
+          "en": "to be clearly visible or detectable",
+          "example": "Fine scratches show up much more under bright light."
+        },
+        {
+          "word": "disperse",
+          "pos": "v.",
+          "ipa": "/dɪˈspɜːs/",
+          "zh": "散开；分散",
+          "en": "to spread out and move away in different directions",
+          "example": "The crowd dispersed quickly once the rain started."
+        },
+        {
+          "word": "tellingly",
+          "pos": "adv.",
+          "ipa": "/ˈtelɪŋli/",
+          "zh": "耐人寻味地；说明问题地",
+          "en": "in a way that reveals something important",
+          "example": "Tellingly, none of the senior staff volunteered to test the new system."
+        },
+        {
+          "word": "comparable",
+          "pos": "adj.",
+          "ipa": "/ˈkɒmpərəbl/",
+          "zh": "可比的；相当的",
+          "en": "similar in size, amount or quality",
+          "example": "Rents in the two suburbs are roughly comparable."
+        },
+        {
+          "word": "baseline",
+          "pos": "n.",
+          "ipa": "/ˈbeɪslaɪn/",
+          "zh": "基准线；参照标准",
+          "en": "a starting point used for later comparisons",
+          "example": "The first survey gives us a baseline for tracking progress over time."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Fishers knew the eels were at the site long before the recent surveys.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"Since the 1980s, fishers ... had hauled up the eels as bycatch\"，说明渔民早已知道，答案为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The eels remain at the seamount throughout the year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说鳗鱼12月开始到达，\"have dispersed by October\"，并非全年停留，答案为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The eel gathering also attracts large numbers of sharks.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提及鲨鱼，答案为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "How did researchers estimate the size of the population?",
+          "options": [
+            "By attaching trackers to individual eels",
+            "By counting eels caught by fishing boats",
+            "By combining cameras with sound-based technology",
+            "By studying satellite images of the area"
+          ],
+          "answer": 2,
+          "explain": "文中说研究人员 \"combined cameras with hydro-acoustic technology\"，故选 C。"
+        }
+      ],
+      "discuss": "Why do you think it matters to protect deep-sea animals that most people will never see? Should fishing in such areas be more strictly limited?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-10-28/australia-biggest-eel-ball-2-8-million-off-tasmania/107309716"
+        }
+      ]
+    },
+    {
+      "id": "big-tech-ombudsman",
+      "category": "Tech",
+      "headline": "Crossbench pushes for a free ombudsman to take on big tech",
+      "headlineZh": "独立议员推动设立免费监察机构，应对科技巨头投诉",
+      "summaryZh": "独立议员斯坎普斯提出修正案，拟设在线服务监察员，让用户可在平台之外申诉。",
+      "c1": "Australians who find themselves locked out of a social media account, or unable to get harmful content taken down, could soon have somewhere independent to turn. Independent MP Sophie Scamps planned to move an amendment on Wednesday, 28 October, to Labor's proposed digital duty of care, which was expected to pass the House of Representatives that day. Her proposal would set up a free, industry-funded online services ombudsman within the existing Telecommunications Industry Ombudsman.\n\nThe government's bill would require platforms such as Facebook, TikTok and Instagram to take reasonable steps to prevent harm. For children, that includes bullying, misogyny and content promoting eating disorders; for adults, it covers serious harms such as stalking, threats of violence and the non-consensual sharing of intimate images. People aged 16 and over would also be able to switch off algorithm-driven feeds and see only posts from accounts they follow.\n\nScamps concedes that the bill strengthens platforms' internal complaints processes, but argues that these alone fall short. The Telecommunications Industry Ombudsman regards an external avenue as the element missing from the government's digital agenda and says it is ready to take on the role. The Greens, whose votes Labor will need in the Senate, also favour an ombudsman, and want tougher fines and a right to sue big tech companies.\n\nCommunications Minister Anika Wells acknowledges the frustration of complaints that go unanswered, yet maintains that the priority is to give the eSafety Commissioner power to create enforceable standards first. The Coalition, meanwhile, intends to oppose the bill outright, calling its definitions \"dangerously vague\". With the Senate vote expected next month, the ombudsman could well become a crucial bargaining chip.",
+      "b2": "Australians who are locked out of a social media account, or who cannot get harmful posts removed, may soon have an independent place to complain. On Wednesday, 28 October, independent MP Sophie Scamps planned to suggest a change to Labor's digital duty of care bill. Her idea is a free online services ombudsman, paid for by the industry and run inside the Telecommunications Industry Ombudsman.\n\nThe government's bill would make platforms such as Facebook, TikTok and Instagram take reasonable steps to prevent harm. For children, this includes bullying and content that promotes eating disorders. For adults, it covers serious harms such as stalking and threats of violence. People aged 16 and over could also turn off feeds chosen by algorithms.\n\nScamps agrees that the bill improves the platforms' own complaints systems, but she says this is not enough. The Greens, whose support Labor needs in the Senate, also want an ombudsman, as well as bigger fines.\n\nCommunications Minister Anika Wells says she understands why people are frustrated. However, she believes the first step should be giving the eSafety Commissioner the power to set rules that can be enforced. The Coalition plans to vote against the bill. The Senate is expected to vote on it next month.",
+      "vocab": [
+        {
+          "word": "take down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "删除（网上内容）；撤下",
+          "en": "to remove something from a website or platform",
+          "example": "The company took down the video after hundreds of complaints.",
+          "forms": [
+            "taken down"
+          ]
+        },
+        {
+          "word": "move an amendment",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "提出修正案",
+          "en": "to formally propose a change to a law or motion",
+          "example": "A senator moved an amendment to protect small businesses."
+        },
+        {
+          "word": "set up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "设立；建立",
+          "en": "to create an organisation or system",
+          "example": "The uni set up a hotline for students struggling with rent."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often reluctantly",
+          "example": "He conceded that the plan had some weaknesses."
+        },
+        {
+          "word": "fall short",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "不足；达不到要求",
+          "en": "to fail to reach a required standard",
+          "example": "The new timetable falls short of what commuters were promised."
+        },
+        {
+          "word": "take on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "承担（职责、角色）",
+          "en": "to accept a responsibility or role",
+          "example": "She agreed to take on the role of team captain this season."
+        },
+        {
+          "word": "enforceable",
+          "pos": "adj.",
+          "ipa": "/ɪnˈfɔːsəbl/",
+          "zh": "可强制执行的",
+          "en": "able to be made to apply by law",
+          "example": "Without enforceable rules, the agreement is little more than a promise."
+        },
+        {
+          "word": "outright",
+          "pos": "adv.",
+          "ipa": "/ˈaʊtraɪt/",
+          "zh": "完全地；彻底地",
+          "en": "completely and openly",
+          "example": "The committee rejected the proposal outright."
+        },
+        {
+          "word": "bargaining chip",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "谈判筹码",
+          "en": "something used to gain an advantage in negotiations",
+          "example": "The union used the deadline as a bargaining chip in pay talks."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Most Australians say they would use an online ombudsman if one were created.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到公众调查或大多数人的意愿，答案为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Coalition has said it will support the bill if the amendment is accepted.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说联盟党 \"intends to oppose the bill outright\"，与题干矛盾，答案为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Under the bill, people aged 16 and over could choose to turn off algorithm-driven feeds.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"People aged 16 and over would also be able to switch off algorithm-driven feeds\"，答案为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the minister see as the first priority?",
+          "options": [
+            "Giving the eSafety Commissioner power to create enforceable standards",
+            "Setting up an online ombudsman straight away",
+            "Banning algorithm-driven feeds for all users",
+            "Giving people the right to sue big tech companies"
+          ],
+          "answer": 0,
+          "explain": "文中说部长认为优先事项是 \"to give the eSafety Commissioner power to create enforceable standards first\"，故选 A。"
+        }
+      ],
+      "discuss": "Do you think tech companies can be trusted to handle complaints themselves, or is an independent body necessary? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-28/crossbench-push-for-labor-to-challenge-big-tech/107316400"
+        }
+      ]
+    },
+    {
+      "id": "poetry-slam-champions",
+      "category": "Culture",
+      "headline": "Twelve-year-old Newcastle student wins Australian Poetry Slam youth title",
+      "headlineZh": "纽卡斯尔12岁小学生夺得澳大利亚诗歌擂台赛青年组冠军",
+      "summaryZh": "六年级学生布莱克两个月前才接触诗歌擂台，成人组冠军则是爱丽斯泉诗人比沃。",
+      "c1": "A 12-year-old who had never performed poetry until a few months ago has been crowned the youth champion of the 2026 Australian Poetry Slam, with the national final taking place at the Sydney Opera House. Blake Mackenzie, a Year 6 student from Newcastle, was introduced to slam by his teacher only about two months earlier, before working his way through a local heat and the New South Wales state final.\n\nHis two poems tackled weighty themes for someone so young. \"I Love My Country\" addressed racism and inequality in Australia, while \"Dear ChatGPT\" explored how artificial intelligence is seeping into everyday life. The adult title went to Bivor, an environmental consultant based in Alice Springs who emigrated from Bangladesh three years ago. His entries included \"Politics Is Doing You\", a plea for greater political literacy. The pair will share a $20,000 prize package, which includes publishing opportunities and invitations to perform at writers' festivals at home and abroad.\n\nSlam emerged in Chicago in the 1980s and was brought to Australia in the 1990s by Miles Merrill, who now heads the organisation Words Travel. As he points out, slam is not really a genre at all: a poem can take any form, provided it is performed on stage as part of a competition. Contestants are given two minutes, lose points if they run over, and are scored by judges picked at random from the audience.\n\nArguably, that is precisely what gives slam its appeal. Because poets can bypass editors and publishers and speak directly to an audience, the format is regarded as unusually accessible. Judges reward literary flair, the quality of the performance and emotional weight, which means a confident newcomer can, in principle, hold their own against far more experienced writers.",
+      "b2": "A 12-year-old boy who first tried slam poetry only a couple of months ago has won the youth title at the 2026 Australian Poetry Slam. The national final was held at the Sydney Opera House. Blake Mackenzie, a Year 6 student from Newcastle, learned about slam from his teacher around two months earlier. He then won a local heat and the New South Wales state final.\n\nHis poems dealt with serious topics. \"I Love My Country\" was about racism and inequality in Australia, and \"Dear ChatGPT\" looked at how AI is changing everyday life. The adult winner was Bivor, an environmental consultant in Alice Springs who moved from Bangladesh three years ago. The two winners will share a prize package worth $20,000, including chances to publish their work and perform at writers' festivals.\n\nSlam began in Chicago in the 1980s, and Miles Merrill brought it to Australia in the 1990s. He says slam is not really a genre, because a poem can be in any style as long as it is performed on stage in a competition. Poets have two minutes, and the judges are chosen at random from the audience.\n\nMany people like slam because it is open to everyone. Poets do not need editors or publishers to reach an audience.",
+      "vocab": [
+        {
+          "word": "crown",
+          "pos": "v.",
+          "ipa": "/kraʊn/",
+          "zh": "授予……称号；加冕",
+          "en": "to officially make someone the winner of a competition",
+          "example": "She was crowned state champion after a nail-biting final.",
+          "forms": [
+            "crowned"
+          ]
+        },
+        {
+          "word": "work one's way through",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一步步通过；逐步完成",
+          "en": "to progress gradually through a series of stages",
+          "example": "The team worked their way through the qualifiers without losing a game.",
+          "forms": [
+            "working his way through"
+          ]
+        },
+        {
+          "word": "tackle",
+          "pos": "v.",
+          "ipa": "/ˈtækl/",
+          "zh": "探讨；处理（难题）",
+          "en": "to deal with a difficult subject or problem",
+          "example": "The documentary tackles the issue of loneliness among older people.",
+          "forms": [
+            "tackled"
+          ]
+        },
+        {
+          "word": "weighty",
+          "pos": "adj.",
+          "ipa": "/ˈweɪti/",
+          "zh": "严肃的；重大的",
+          "en": "serious and important",
+          "example": "It's a weighty decision, so don't rush it."
+        },
+        {
+          "word": "seep into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "渗入；逐渐影响",
+          "en": "to gradually spread into something",
+          "example": "Work stress can easily seep into your personal life.",
+          "forms": [
+            "seeping into"
+          ]
+        },
+        {
+          "word": "plea",
+          "pos": "n.",
+          "ipa": "/pliː/",
+          "zh": "恳求；呼吁",
+          "en": "an urgent or emotional request",
+          "example": "The charity made a plea for more volunteers over the holidays."
+        },
+        {
+          "word": "bypass",
+          "pos": "v.",
+          "ipa": "/ˈbaɪpɑːs/",
+          "zh": "绕过；越过",
+          "en": "to avoid going through the usual people or process",
+          "example": "Some musicians bypass record labels and release songs online themselves."
+        },
+        {
+          "word": "flair",
+          "pos": "n.",
+          "ipa": "/fleə(r)/",
+          "zh": "天赋；才华",
+          "en": "a natural ability to do something well and with style",
+          "example": "He's got a real flair for making complicated ideas sound simple."
+        },
+        {
+          "word": "hold one's own",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "不落下风；表现不逊色",
+          "en": "to perform as well as others, especially stronger ones",
+          "example": "As a first-year, she held her own in a debate against final-year students.",
+          "forms": [
+            "hold their own"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Blake Mackenzie had to succeed in earlier rounds before reaching the national final.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说他 \"working his way through a local heat and the New South Wales state final\"，答案为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Bivor had won several poetry competitions in Bangladesh before moving to Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说他三年前从孟加拉国移民，没有提到他此前的比赛经历，答案为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Slam judges are experienced poets selected by the organisers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说评委是 \"picked at random from the audience\"，与题干矛盾，答案为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, why is slam regarded as accessible?",
+          "options": [
+            "Entry to every competition is free.",
+            "Poems must follow a simple rhyming pattern.",
+            "It is performed mainly in schools.",
+            "Poets can reach audiences without going through editors and publishers."
+          ],
+          "answer": 3,
+          "explain": "文中说 \"poets can bypass editors and publishers and speak directly to an audience\"，故选 D。"
+        }
+      ],
+      "discuss": "Why do you think performance poetry appeals to young people today? Could it become more popular than traditional printed poetry?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-28/australian-poetry-slam-champion-blake-mackenzie-bivor/107288572"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Interview Prep Over Coffee",
+    "titleZh": "咖啡馆里的面试演练",
+    "setting": "Two friends, Priya and Tom, rehearse interview questions in a Carlton café the evening before Tom's interview for a graduate role.",
+    "settingZh": "普丽娅和汤姆在卡尔顿的一家咖啡馆里，为汤姆第二天的毕业生岗位面试做演练。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Right, coffee's here. Shall we run through a few questions before you lose your nerve?",
+        "zh": "好，咖啡来了。趁你还没打退堂鼓，我们先练几道题？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Go on, then. Just don't go too hard on me, I'm already a bit rattled.",
+        "zh": "来吧。不过别对我太狠，我已经有点慌了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Okay, classic opener: tell me a bit about yourself and why you've applied.",
+        "zh": "好，经典开场题：简单介绍一下你自己，以及你为什么申请。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Um, I studied commerce at Monash, and I've always been into data, so...",
+        "zh": "嗯，我在莫纳什大学读商科，一直对数据很感兴趣，所以……"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Not bad, but you're underselling yourself. Mention the internship, it's your strongest card.",
+        "zh": "还行，但你太低估自己了。提一下实习，那是你最大的王牌。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Fair point. I tend to downplay it because it was only three months.",
+        "zh": "有道理。我总是轻描淡写，因为只实习了三个月。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Three months is plenty if you can point to something you actually achieved.",
+        "zh": "只要你能拿出实际成果，三个月完全够了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Well, I did streamline their reporting, which saved the team a few hours a week.",
+        "zh": "嗯，我确实简化了他们的报表流程，每周为团队省下好几个小时。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "There you go! Lead with that. Now, what's your biggest weakness?",
+        "zh": "这就对了！一开始就讲这个。下一题，你最大的缺点是什么？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "I hate that one. Can I just say I'm a perfectionist and leave it at that?",
+        "zh": "我最怕这题。我能不能就说自己是完美主义者，然后到此为止？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Honestly, panels see straight through that. Pick something real and show how you're working on it.",
+        "zh": "说实话，面试官一眼就能看穿。选个真实的缺点，再说说你怎么改进。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Okay, I sometimes struggle to say no, so I've started blocking out time for priorities.",
+        "zh": "好吧，我有时不太会拒绝别人，所以开始给重要的事预留专门的时间。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Much better. You've got this, just take a breath and don't rush your answers.",
+        "zh": "好多了。你没问题的，深呼吸，回答别急。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Thanks, Priya. I owe you one, and the next round's on me if I get it.",
+        "zh": "谢了，普丽娅。欠你个人情，要是拿到offer，下次喝酒我请。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Let's practise some questions",
+        "en": "run through a few questions",
+        "zh": "快速过一遍、演练"
+      },
+      {
+        "plain": "before you get too scared to do it",
+        "en": "lose your nerve",
+        "zh": "失去勇气、临阵退缩"
+      },
+      {
+        "plain": "don't be too strict with me",
+        "en": "don't go too hard on me",
+        "zh": "别对我太苛刻"
+      },
+      {
+        "plain": "you're not showing how good you are",
+        "en": "you're underselling yourself",
+        "zh": "低估、贬低自己"
+      },
+      {
+        "plain": "your best advantage",
+        "en": "your strongest card",
+        "zh": "最大的优势、王牌"
+      },
+      {
+        "plain": "I make it sound less important",
+        "en": "downplay it",
+        "zh": "淡化、轻描淡写"
+      },
+      {
+        "plain": "they can easily tell it isn't true",
+        "en": "see straight through that",
+        "zh": "一眼看穿"
+      },
+      {
+        "plain": "Thank you very much for helping me",
+        "en": "I owe you one",
+        "zh": "欠你一个人情"
+      }
+    ]
+  }
+}
