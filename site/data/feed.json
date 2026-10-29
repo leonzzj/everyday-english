@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-10-29T03:09:14.115Z",
+ "updatedAt": "2026-10-29T19:22:07.923Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Will Netanyahu cling to power?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-netanyahu-cling-to-power/107318972",
-   "audio": "https://traffic.megaphone.fm/TECO5076408063.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/8bfd667a-d28e-11f1-ae94-8f8ea64c0b3a/image/5be2c3da1fd1ef77d34e0ac40d2d8d78.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-28",
-   "minutes": 16,
+   "title": "Trump and Obama's fight for Michigan",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/trump-and-obama-s-fight-for-michigan/107324636",
+   "audio": "https://traffic.megaphone.fm/TECO8024221292.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/8c92fabe-d3ab-11f1-b77f-8bcb189020d6/image/ab60f1f498808015dccb30e4165782e6.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-10-30",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Israelis came out in record numbers to vote but as the polls closed it was too close to call.&nbsp;&nbsp; Although that didn't stop Prime Minister Benjamin Netanyahu and his main rival Gadi Eisenkot both claiming success.&nbsp;&nbsp; Today, Dov Waxman…"
+   "desc": "Michigan is shaping up as one of the biggest battlegrounds in the US midterm elections. So much so that both Donald Trump and Barack Obama have hit the campaign trail there.&nbsp; The Senate race is a contest between progressive Abdul El-Sayed and…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How people are using AI to grieve, love and connect | Jennifer Cearns",
-   "url": "http://go.ted.com/jennifercearns",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adb8f7a52428fc30bf6f9ca/media.mp3",
+   "title": "How fossil fuel companies keep your energy costs high | Jon Powers",
+   "url": "http://go.ted.com/jonpowers",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae35ff72ce0a6edbe8a84d3/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-29",
-   "minutes": 17,
+   "date": "2026-10-30",
+   "minutes": 12,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Many people fear AI is eroding our humanity, replacing real relationships with synthetic ones that leave us lonelier than ever. Digital anthropologist Jennifer Cearns believes the opposite may be true. After talking to hundreds of people who turn to AI for…"
+   "desc": "Solar energy and storage are the fastest, cheapest ways to add electricity to the grid. So why are small towns across the US pausing or banning these projects? Clean energy entrepreneur Jon Powers shows how fossil fuel companies are waging disinformation…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Love with nowhere to go",
-   "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
+   "title": "The physics of getting fired",
+   "url": "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/e4ffcd43-fc58-49e0-9596-99b6020acfca/essay-v2-nyc117497.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-27",
+   "image": "https://images.aeonmedia.co/images/afb6d18f-037c-451b-a48b-e7420fcaa8b4/essay-v1-test-v1-jiran-family-4srj_3nontc-unsplash.jpg?width=480&quality=75&format=auto",
+   "date": "2026-10-29",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves - by Derek van Zoonen Read on Aeon"
+   "desc": "Physics offered me a sense of order and purpose. But when life got messy I realised it had a much deeper insight to give - by Zahaan Bharmal Read on Aeon"
   }
  ]
 }
