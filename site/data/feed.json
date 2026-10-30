@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T19:22:07.923Z",
+ "updatedAt": "2026-10-30T03:10:31.500Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: the teacher who turned non-readers into literacy superstars",
-   "url": "https://www.abc.net.au/listen/programs/conversations/manisha-gazula-educator-school-principal-reading-respect/107305334",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/ps/Z/i9.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fde72d793a80a34ac7b32929d17dffbe6.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-29",
+   "title": "Jon Ronson investigates the men looking for purpose in strange, dark places",
+   "url": "https://www.abc.net.au/listen/programs/conversations/jon-ronson-the-castle-manosphere-unravelling-men-manhood/107307072",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pu/Z/fg.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fcf46e22c33dad7d0acb4defc039a7c99.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-10-30",
    "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "When school principal Manisha Gazula changed how her students were learning to read, she began an entirely new system which made her an icon of literacy learning. Manisha Gazula is the principal of Marsden Road Public School in the outer south-western suburbs…"
+   "desc": "When journalist Jon Ronson visited castle owned by a digital tycoon, it became a portal into a world of disaffected men, grasping for purpose online in a world where traditional institutions are collapsing. He had received a series of texts from his son Joel…"
   },
   {
    "source": "TED Talks Daily",
