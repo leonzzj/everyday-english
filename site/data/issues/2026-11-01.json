@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-01",
+  "issueNo": 15,
+  "title": "Canada's EU pivot, a quiet cyclone season and a data centre fight",
+  "createdAt": "2026-11-01T06:54:48+11:00",
+  "stories": [
+    {
+      "id": "canada-eu-associate",
+      "category": "World",
+      "headline": "Canada aims to become the EU's first associate member",
+      "headlineZh": "加拿大力争成为欧盟首个“联系成员”",
+      "summaryZh": "受美国贸易战推动，卡尼称加拿大有望明年六月前与欧盟达成前所未有的联系成员协议。",
+      "c1": "Canada is edging closer to Europe than at any point in its history. After a two-day summit with European Union leaders in Montreal, Prime Minister Mark Carney said he expects to finalise a deal by next June that would make Canada the bloc's first-ever associate member. He described the arrangement as unprecedented, and European Council President António Costa confirmed Carney's invitation to the Council's June meetings, where negotiations are due to be wrapped up.\n\nThe driving force behind the shift is hardly a secret. Donald Trump's trade war and repeated threats have prompted both Canada and Europe to reduce their reliance on Washington. The scale of that dependence is striking: in 2025, the United States bought 71.7 per cent of Canada's merchandise exports, and Carney wants to double exports to other markets within a decade. European Commission President Ursula von der Leyen suggested the change was here to stay, warning that \"these headwinds won't stop blowing\".\n\nAlongside the membership plan, the two sides launched what they call an Alliance for the Future, covering digital trade, critical minerals and artificial intelligence. They also agreed to let the European Investment Bank finance Canadian mining projects, to bring Canada into a European supercomputing initiative, and to study shipping Canadian liquefied natural gas across the Atlantic. A new border security arrangement promises closer cooperation on defence, cybersecurity and the Arctic.\n\nCarney insisted the deal was not aimed at the US, framing it as a partnership built for something rather than against anyone. Even so, Trump has threatened Europe with tariffs if he regards the arrangement as unfriendly, so the road ahead may not be entirely smooth. Whether other like-minded countries eventually join remains an open question, but it signals a notable realignment among long-standing allies.",
+      "b2": "Canada wants to move much closer to Europe. After a two-day meeting with European Union leaders in Montreal, Prime Minister Mark Carney said he hopes to complete a deal by next June. It would make Canada the first associate member of the EU. Carney said nothing like this had ever been done before.\n\nThe main reason for the change is the United States. Donald Trump's trade war and threats have pushed Canada and Europe to depend less on Washington. In 2025, the US bought 71.7 per cent of the goods that Canada sold overseas. Carney now wants to double exports to other countries over the next ten years.\n\nThe leaders also started a new partnership called the Alliance for the Future. It covers digital trade, important minerals and artificial intelligence. Europe's investment bank will be able to fund Canadian mining projects, and Canada will join a European supercomputing project. The two sides will also work more closely on defence and border security.\n\nCarney said the deal was not designed to work against the US. However, Trump has threatened to put tariffs on Europe if he sees the plan as unfriendly. Other countries with similar values may join the alliance in the future, but nothing has been decided yet.",
+      "vocab": [
+        {
+          "word": "edge closer",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "逐步靠近",
+          "en": "to move gradually nearer to something",
+          "example": "The two companies are edging closer to a merger after months of talks.",
+          "forms": [
+            "edging closer"
+          ]
+        },
+        {
+          "word": "unprecedented",
+          "pos": "adj.",
+          "ipa": "/ʌnˈpresɪdentɪd/",
+          "zh": "前所未有的",
+          "en": "never having happened or existed before",
+          "example": "The city faced unprecedented demand for public transport during the festival."
+        },
+        {
+          "word": "wrap up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "完成；结束（谈判、会议等）",
+          "en": "to finish or complete something",
+          "example": "Let's wrap up the meeting by five so everyone can catch the train.",
+          "forms": [
+            "wrapped up"
+          ]
+        },
+        {
+          "word": "driving force",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "推动力；主要动因",
+          "en": "the main thing that causes something to happen",
+          "example": "Rising rents have been the driving force behind the move to the suburbs."
+        },
+        {
+          "word": "reliance on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "对……的依赖",
+          "en": "the state of depending on someone or something",
+          "example": "The café is trying to reduce its reliance on single-use plastic."
+        },
+        {
+          "word": "striking",
+          "pos": "adj.",
+          "ipa": "/ˈstraɪkɪŋ/",
+          "zh": "显著的；惊人的",
+          "en": "very noticeable or unusual",
+          "example": "There's a striking difference between the two cities' housing prices."
+        },
+        {
+          "word": "here to stay",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "将长期存在",
+          "en": "likely to continue and become permanent",
+          "example": "Whether we like it or not, working from home is here to stay."
+        },
+        {
+          "word": "like-minded",
+          "pos": "adj.",
+          "ipa": "/ˌlaɪk ˈmaɪndɪd/",
+          "zh": "志同道合的",
+          "en": "having similar opinions and interests",
+          "example": "She started a book club to meet like-minded people in her new suburb."
+        },
+        {
+          "word": "realignment",
+          "pos": "n.",
+          "ipa": "/ˌriːəˈlaɪnmənt/",
+          "zh": "重新组合；重新调整",
+          "en": "a change in the relationships or positions of groups or countries",
+          "example": "The election result led to a major realignment in local politics."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Canada has already become an associate member of the EU.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。文中说卡尼“expects to finalise a deal by next June”，说明协议尚未完成。"
+        },
+        {
+          "type": "tfng",
+          "q": "In 2025, most of Canada's merchandise exports went to the United States.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。文中提到“the United States bought 71.7 per cent of Canada's merchandise exports”，超过一半。"
+        },
+        {
+          "type": "tfng",
+          "q": "Canadians will vote in a referendum on the associate membership deal.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章没有提到任何关于公投（referendum）的计划。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following was NOT mentioned as part of the agreements in Montreal?",
+          "options": [
+            "Funding for Canadian mining projects from the European Investment Bank",
+            "Canada joining a European supercomputing initiative",
+            "A shared currency for Canada and the EU",
+            "Studying exports of Canadian liquefied natural gas to Europe"
+          ],
+          "answer": 2,
+          "explain": "文中提到了“finance Canadian mining projects”“supercomputing initiative”和“liquefied natural gas”，但没有提到共同货币。"
+        }
+      ],
+      "discuss": "Why do you think countries are looking for new partners instead of relying on one powerful ally? Is this a good long-term strategy?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-31/canada-eyeing-eu-associate-membership-by-june/107332384"
+        }
+      ]
+    },
+    {
+      "id": "quiet-cyclone-season",
+      "category": "Environment",
+      "headline": "El Niño could bring one of Australia's quietest cyclone seasons",
+      "headlineZh": "受厄尔尼诺影响，澳大利亚或迎来最平静的气旋季之一",
+      "summaryZh": "模型预测本季仅5至8个命名风暴，但强气旋比例上升，危险并未减少。",
+      "c1": "Australia's tropical cyclone season officially began on 1 November, and for once the outlook is reassuring. Modelling from the European Centre for Medium-Range Weather Forecasts suggests that the 2026/27 season, which runs until 30 April, could turn out to be one of the quietest on record, with somewhere between five and eight named storms expected, compared with a long-term average of 11.\n\nThe main reason is El Niño. Although the climate pattern is usually associated with drought and other extremes, it tends to suppress cyclone activity around Australia by bringing cooler waters to the north of the continent, less moisture, a weaker monsoon and reduced convection. Since 1970, El Niño years have produced seven or eight cyclones on average, compared with 12 during La Niña years.\n\nThat said, the forecast should be treated with caution. It is based on a single model, run 51 times from slightly different starting points, and the Bureau of Meteorology no longer issues an official seasonal outlook, partly because climate change has undermined the reliability of older statistical methods. The expected drop is also uneven: it is most pronounced off Western Australia and in the central Coral Sea, while waters near the Queensland coast and the Gulf of Carpentaria could see close to normal activity.\n\nPerhaps the most important point is that fewer storms do not necessarily mean less danger. Cyclone numbers have fallen since 2000, yet a higher proportion of systems now reach Category 4 or 5. Combined with rising sea levels and storm surges, this means a single cyclone can still cause serious damage, so residents in cyclone-prone areas are urged to prepare well before one forms.",
+      "b2": "Australia's cyclone season started on 1 November, and this year the news looks good. A computer model from a European weather centre suggests the season, which lasts until 30 April, could be one of the quietest ever recorded. It predicts between five and eight named storms. The long-term average is 11.\n\nThe main reason is El Niño. This climate pattern is often linked to drought, but it also makes cyclones less likely near Australia. It brings cooler water to the north of the country, less moisture and a weaker monsoon. Since 1970, El Niño years have had seven or eight cyclones on average, while La Niña years have had 12.\n\nThe forecast should be treated carefully, however. It comes from only one model, and the Bureau of Meteorology no longer publishes its own seasonal outlook. The fall in storm numbers is also not the same everywhere. Areas near the Queensland coast may still have a fairly normal season.\n\nFewer storms do not always mean less danger. Since 2000, the number of cyclones has dropped, but more of them are now very strong, reaching Category 4 or 5. With rising sea levels, one storm can still cause serious damage, so people living in at-risk areas should prepare early.",
+      "vocab": [
+        {
+          "word": "reassuring",
+          "pos": "adj.",
+          "ipa": "/ˌriːəˈʃʊərɪŋ/",
+          "zh": "令人安心的",
+          "en": "making you feel less worried",
+          "example": "It was reassuring to hear that the flight would leave on time."
+        },
+        {
+          "word": "turn out to be",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "结果是；原来是",
+          "en": "to be discovered to be, in the end",
+          "example": "The 'quick chat' turned out to be a two-hour meeting."
+        },
+        {
+          "word": "associated with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与……有关联",
+          "en": "connected with something in people's minds or in fact",
+          "example": "Long working hours are often associated with poor sleep."
+        },
+        {
+          "word": "suppress",
+          "pos": "v.",
+          "ipa": "/səˈpres/",
+          "zh": "抑制；压制",
+          "en": "to stop something from developing or happening",
+          "example": "Some medicines suppress your appetite for a few hours."
+        },
+        {
+          "word": "treat with caution",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "谨慎对待",
+          "en": "to not fully trust or rely on something",
+          "example": "Online reviews should be treated with caution, as some are fake.",
+          "forms": [
+            "treated with caution"
+          ]
+        },
+        {
+          "word": "undermine",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈmaɪn/",
+          "zh": "削弱；破坏",
+          "en": "to gradually make something weaker or less effective",
+          "example": "Constant criticism can undermine a person's confidence.",
+          "forms": [
+            "undermined"
+          ]
+        },
+        {
+          "word": "pronounced",
+          "pos": "adj.",
+          "ipa": "/prəˈnaʊnst/",
+          "zh": "明显的；显著的",
+          "en": "very noticeable",
+          "example": "The change in the weather was most pronounced in the hills."
+        },
+        {
+          "word": "not necessarily",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "不一定",
+          "en": "used to say something is not always true",
+          "example": "A more expensive phone is not necessarily a better one."
+        },
+        {
+          "word": "cyclone-prone",
+          "pos": "adj.",
+          "ipa": "/ˈsaɪkləʊn prəʊn/",
+          "zh": "易受气旋侵袭的",
+          "en": "likely to be affected by cyclones",
+          "example": "Houses in cyclone-prone towns must meet strict building rules."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Since 1970, El Niño years have, on average, had fewer cyclones than La Niña years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。文中说“El Niño years have produced seven or eight cyclones on average, compared with 12 during La Niña years”。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most people in northern Australia have already prepared their homes for this season.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章只说居民“are urged to prepare”，没有说明大多数人是否已经准备好。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Bureau of Meteorology has released its own official outlook for this cyclone season.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。文中明确说“the Bureau of Meteorology no longer issues an official seasonal outlook”。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the writer say that fewer storms do not necessarily mean less danger?",
+          "options": [
+            "Because the European model is known to be wrong",
+            "Because a larger share of cyclones now become very intense",
+            "Because most cyclones will hit the Queensland coast",
+            "Because El Niño is about to end"
+          ],
+          "answer": 1,
+          "explain": "文中说“a higher proportion of systems now reach Category 4 or 5”，再加上海平面上升，一个气旋仍可能造成严重破坏。"
+        }
+      ],
+      "discuss": "Why do you think people sometimes relax when they hear good news about the weather? How should governments communicate risk to the public?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238"
+        }
+      ]
+    },
+    {
+      "id": "adelaide-hills-data-centre",
+      "category": "Tech",
+      "headline": "Adelaide Hills locals rally against a giant AI data centre",
+      "headlineZh": "阿德莱德山区居民集会反对大型AI数据中心",
+      "summaryZh": "Tungkillo拟建1200兆瓦数据中心，居民担心用地、用水与光污染，多个政党表态支持。",
+      "c1": "Residents of a rural community in the Adelaide Hills are digging in their heels against a plan to build a giant artificial intelligence data centre on their doorstep. On Saturday, locals rallied in the town of Mannum, two days after a protest in Tungkillo, where the company Quantum DC hopes to build a 1,200-megawatt facility. The site would cover about 120 hectares, and construction of the first stage is slated to begin in 2028.\n\nThe objections range from land use and water supply to noise and light pollution, with a nearby dark sky reserve adding weight to the last concern. One organiser, Magdalene Lippett, stressed that the community is not opposed to development as such, pointing to a battery storage project at the nearby substation. Nevertheless, she said residents would pursue every legal avenue to stop the data centre, questioning the risks it poses to farming and local ways of life.\n\nQuantum DC has tried to allay those fears. Its chief executive, Alby Tomassi, said around 80 per cent of the site's electricity would be supplied through solar and wind contracts, backed up by an on-site gas-fired power station, and that captured rainwater would be recirculated rather than drawn from the River Murray or groundwater. The company has postponed its own consultation sessions to 20 and 21 November, citing safety concerns, and has yet to lodge a formal application.\n\nThe dispute has quickly taken on a political dimension. The Liberal Party, the Greens and One Nation all backed the residents at the rally, with the Greens calling for a moratorium on new data centres, while the state's planning minister has said any proposal will go through a rigorous assessment. As demand for computing power grows, clashes like this seem likely to become more common.",
+      "b2": "People living near Tungkillo, in the Adelaide Hills, are fighting a plan to build a huge artificial intelligence data centre close to their homes. On Saturday, locals held a rally in the town of Mannum, two days after a protest in Tungkillo. The company Quantum DC wants to build a 1,200-megawatt centre on about 120 hectares of land, with the first stage starting in 2028.\n\nResidents are worried about land use, water, noise and light pollution. Light is a special concern because there is a dark sky reserve nearby. Organiser Magdalene Lippett said locals are not against all development, but they will use every legal option to stop this project.\n\nThe company's chief executive, Alby Tomassi, said about 80 per cent of the electricity would come from solar and wind. He also said the centre would collect and reuse rainwater instead of taking water from the River Murray. The company has moved its community meetings to 20 and 21 November because of safety concerns, and it has not yet sent a formal application to the government.\n\nSeveral political parties, including the Liberals, the Greens and One Nation, supported the residents. The state's planning minister said any proposal would be checked carefully.",
+      "vocab": [
+        {
+          "word": "dig in one's heels",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "坚决不让步",
+          "en": "to refuse firmly to change your opinion or plans",
+          "example": "The kids dug in their heels and refused to leave the beach.",
+          "forms": [
+            "digging in their heels"
+          ]
+        },
+        {
+          "word": "on one's doorstep",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "就在家门口",
+          "en": "very close to where you live",
+          "example": "We're lucky to have a great park right on our doorstep.",
+          "forms": [
+            "on their doorstep"
+          ]
+        },
+        {
+          "word": "slated to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "预定；计划于",
+          "en": "planned or expected to happen",
+          "example": "The new library is slated to open next spring."
+        },
+        {
+          "word": "add weight to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "增加……的分量；使更有说服力",
+          "en": "to make an argument or concern stronger",
+          "example": "The new data adds weight to calls for a later school start.",
+          "forms": [
+            "adding weight to"
+          ]
+        },
+        {
+          "word": "as such",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "本身；就其本身而言",
+          "en": "in the exact sense of the word; in itself",
+          "example": "I'm not against social media as such, just the way it's often used."
+        },
+        {
+          "word": "pursue every legal avenue",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "寻求一切法律途径",
+          "en": "to try every possible legal method",
+          "example": "The family said they would pursue every legal avenue to get compensation."
+        },
+        {
+          "word": "allay fears",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "消除担忧",
+          "en": "to make people feel less worried",
+          "example": "The airline tried to allay fears after the engine problem.",
+          "forms": [
+            "allay those fears"
+          ]
+        },
+        {
+          "word": "lodge",
+          "pos": "v.",
+          "ipa": "/lɒdʒ/",
+          "zh": "正式提交（申请、投诉）",
+          "en": "to formally submit an application or complaint",
+          "example": "You need to lodge your tax return by the end of October."
+        },
+        {
+          "word": "moratorium",
+          "pos": "n.",
+          "ipa": "/ˌmɒrəˈtɔːriəm/",
+          "zh": "暂停令；暂缓执行",
+          "en": "an official temporary stop on an activity",
+          "example": "The council announced a moratorium on new apartment towers."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Quantum DC has already lodged a formal application with planning authorities.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。文中说公司“has yet to lodge a formal application”，即尚未提交。"
+        },
+        {
+          "type": "tfng",
+          "q": "A majority of people in Mannum signed a petition against the data centre.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章提到集会和抗议，但没有提到请愿书或签名人数。"
+        },
+        {
+          "type": "tfng",
+          "q": "The company has delayed its consultation sessions until late November.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。文中说公司“has postponed its own consultation sessions to 20 and 21 November”。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which concern is linked to the nearby dark sky reserve?",
+          "options": [
+            "Light pollution",
+            "Noise",
+            "Water supply",
+            "Land prices"
+          ],
+          "answer": 0,
+          "explain": "文中说“a nearby dark sky reserve adding weight to the last concern”，而列举的最后一项是“light pollution”。"
+        }
+      ],
+      "discuss": "Why do you think local communities often oppose big projects even when they support development in general? How should the benefits and costs be balanced?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-31/ai-data-centre-protest-adelaide-hills/107332222"
+        }
+      ]
+    },
+    {
+      "id": "healthy-kids-check",
+      "category": "Health",
+      "headline": "Three-year-olds can now get a Medicare developmental check",
+      "headlineZh": "澳大利亚三岁儿童现可享受医保发育检查",
+      "summaryZh": "11月1日起全科医生为三岁儿童提供一次性发育筛查，但医生短缺等问题引发担忧。",
+      "c1": "From 1 November, families across Australia can take their three-year-olds to a GP for a new Medicare-subsidised developmental screening, known as the Medicare Healthy Kids Check. The one-off appointment forms part of the government's Thriving Kids program, which aims to identify children's needs earlier and, in part, to keep some of them out of the National Disability Insurance Scheme by steering them towards simpler forms of support.\n\nDuring the check, a GP reviews a child's medical history, behaviour, relationships, toileting, sleep and lifestyle, comparing them against typical developmental milestones. Depending on the results, the doctor may refer the child to services ranging from speech therapy to playgroups. The Royal Australian College of General Practitioners has welcomed the move, which comes more than a decade after a similar check for four-year-olds was scrapped in 2015.\n\nThe choice of age is deliberate. Most key milestones are expected within a child's first three years, and according to the college, more than one in five children already have at least one developmental vulnerability by that age. Dr Tim Jones, who helped design the check, argues that problems left unaddressed can snowball, placing extra strain on families as well as on the health and education systems.\n\nNot everyone is convinced the system is ready, however. Paediatrician and independent MP Monique Ryan has pointed to GP shortages in many areas and noted that bulk billing is not guaranteed, while experts had wanted nurses and allied health workers to be able to deliver the check too. Others warn that spotting a concern is only half the battle, since many state-run support services are not expected to be operating until January 2028.",
+      "b2": "From 1 November, parents in Australia can take their three-year-old children to a GP for a new check that is partly paid for by Medicare. It is called the Medicare Healthy Kids Check, and each child can have it only once. It is part of a government program called Thriving Kids, which wants to find children's needs early.\n\nThe GP looks at the child's medical history, behaviour, relationships, toilet habits, sleep and lifestyle. The doctor then compares these with what most children can do at that age. If needed, the child can be sent to services such as speech therapy or playgroups. A group representing GPs has welcomed the check. A similar check for four-year-olds was stopped in 2015.\n\nAge three was chosen because most important development happens in the first three years. By that age, more than one in five children are behind in at least one area. Dr Tim Jones, who helped design the check, says small problems can grow bigger if nobody deals with them.\n\nSome experts are worried, though. Independent MP Monique Ryan, a children's doctor, says there are not enough GPs in many areas, and bulk billing is not guaranteed. Many extra support services will not start until January 2028.",
+      "vocab": [
+        {
+          "word": "one-off",
+          "pos": "adj.",
+          "ipa": "/ˌwʌn ˈɒf/",
+          "zh": "一次性的",
+          "en": "happening or done only once",
+          "example": "The government gave households a one-off payment to help with energy bills."
+        },
+        {
+          "word": "steer towards",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "引导……走向",
+          "en": "to guide someone in a particular direction",
+          "example": "Her teacher steered her towards a career in science.",
+          "forms": [
+            "steering them towards"
+          ]
+        },
+        {
+          "word": "milestone",
+          "pos": "n.",
+          "ipa": "/ˈmaɪlstəʊn/",
+          "zh": "里程碑；重要发展阶段",
+          "en": "an important stage in development or progress",
+          "example": "Getting her driver's licence was a big milestone for Ana."
+        },
+        {
+          "word": "scrap",
+          "pos": "v.",
+          "ipa": "/skræp/",
+          "zh": "废除；取消",
+          "en": "to get rid of a plan, system or rule",
+          "example": "The council scrapped the plan after strong opposition from residents.",
+          "forms": [
+            "scrapped"
+          ]
+        },
+        {
+          "word": "deliberate",
+          "pos": "adj.",
+          "ipa": "/dɪˈlɪbərət/",
+          "zh": "故意的；经过深思熟虑的",
+          "en": "done on purpose, after careful thought",
+          "example": "Leaving the last page blank was a deliberate choice by the designer."
+        },
+        {
+          "word": "vulnerability",
+          "pos": "n.",
+          "ipa": "/ˌvʌlnərəˈbɪləti/",
+          "zh": "脆弱性；易受影响之处",
+          "en": "a weakness that makes someone more likely to be harmed",
+          "example": "The report highlighted the vulnerability of older people living alone."
+        },
+        {
+          "word": "snowball",
+          "pos": "v.",
+          "ipa": "/ˈsnəʊbɔːl/",
+          "zh": "滚雪球般迅速扩大",
+          "en": "to grow quickly in size or importance",
+          "example": "What started as a small complaint snowballed into a national debate."
+        },
+        {
+          "word": "place strain on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给……带来压力",
+          "en": "to cause difficulties or pressure for someone or something",
+          "example": "The heatwave placed enormous strain on the power network.",
+          "forms": [
+            "placing extra strain on"
+          ]
+        },
+        {
+          "word": "half the battle",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "成功了一半；只是第一步",
+          "en": "an important part of achieving something, but not all of it",
+          "example": "Getting the kids out of bed is half the battle on school mornings."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "A child can have the new check several times before starting school.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。文中称其为“The one-off appointment”，即只能做一次。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most GPs have already completed special training to deliver the check.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章没有说明GP是否接受过专门培训。"
+        },
+        {
+          "type": "tfng",
+          "q": "A Medicare check for four-year-olds existed in the past.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。文中提到“a similar check for four-year-olds was scrapped in 2015”，说明以前存在过。"
+        },
+        {
+          "type": "mcq",
+          "q": "What concern does Monique Ryan raise about the new check?",
+          "options": [
+            "Three is too young for any kind of screening",
+            "The check will replace the NDIS completely",
+            "The appointment is too short to be useful",
+            "There are GP shortages and bulk billing is not guaranteed"
+          ],
+          "answer": 3,
+          "explain": "文中说Monique Ryan“pointed to GP shortages in many areas and noted that bulk billing is not guaranteed”。"
+        }
+      ],
+      "discuss": "Why do you think early support for young children is often seen as a good investment? Should governments spend more on prevention than on treatment?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-01/three-year-old-medicare-developmental-check-thriving-kids/107274292"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Weighing Up a Flat in Brunswick",
+    "titleZh": "在布伦瑞克看房",
+    "setting": "Mei and Callum, two uni friends planning to share a flat, walk out of a Saturday-morning rental inspection in Brunswick.",
+    "settingZh": "两位打算合租的大学朋友Mei和Callum周六上午在布伦瑞克看完一套出租公寓后边走边聊。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Okay, so that was the place. Bit smaller than the photos made it look, wasn't it?",
+        "zh": "好吧，就是这套了。比照片上看起来小了点，对吧？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Yeah, they must've used a wide-angle lens. Classic real estate trick, honestly.",
+        "zh": "是啊，他们肯定用了广角镜头。说实话，这是房产中介的老套路了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "The natural light's lovely, though. I could see myself studying in that front room.",
+        "zh": "不过自然光真的很好。我能想象自己在前面那间屋里学习。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "True, but did you check out the bedroom window? There's mould creeping up in the corner.",
+        "zh": "没错，但你看卧室窗户了吗？角落里有霉菌在往上长。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Ugh, good spot. We should ask the agent if they'd sort that out before we move in.",
+        "zh": "呃，眼尖。我们应该问问中介，入住前他们能不能处理好。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "And the rent's already a bit of a stretch for us. I don't want any nasty surprises.",
+        "zh": "而且房租对我们来说已经有点吃力了。我可不想有什么糟糕的意外。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough. Did you notice how close it is to the tram stop on Sydney Road, though?",
+        "zh": "说得也是。不过你注意到它离Sydney Road的电车站有多近了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "That's a massive plus. I'd be at uni in twenty minutes, tops.",
+        "zh": "那可是个大优点。我最多二十分钟就能到学校。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "There were heaps of people there, though. We'll need to get our application in quickly.",
+        "zh": "不过来看房的人特别多。我们得赶快把申请交上去。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Let's not jump the gun. I'd rather sleep on it than sign a lease on a dud.",
+        "zh": "别操之过急。我宁愿考虑一晚，也不想签下一套烂房子。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Okay, but if we drag our feet, someone else will snap it up by Monday.",
+        "zh": "好吧，但如果我们拖拖拉拉，周一之前就会被别人抢走了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Fair point. How about we ring the agent tonight and ask about the mould first?",
+        "zh": "有道理。要不我们今晚先给中介打电话问问霉菌的事？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Deal. And if they're cagey about it, we'll take that as a red flag.",
+        "zh": "成交。如果他们支支吾吾的，我们就把这当作危险信号。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Sounds like a plan. Shall we grab a coffee and weigh up the pros and cons?",
+        "zh": "就这么办。我们去喝杯咖啡，权衡一下利弊吧？"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "You noticed that, well done",
+        "en": "good spot",
+        "zh": "眼尖；发现得好"
+      },
+      {
+        "plain": "fix the problem",
+        "en": "sort that out",
+        "zh": "解决、处理好"
+      },
+      {
+        "plain": "almost too expensive for us",
+        "en": "a bit of a stretch",
+        "zh": "有点超出承受能力"
+      },
+      {
+        "plain": "Let's not decide too early",
+        "en": "Let's not jump the gun",
+        "zh": "别操之过急"
+      },
+      {
+        "plain": "think about it until tomorrow",
+        "en": "sleep on it",
+        "zh": "考虑一晚再决定"
+      },
+      {
+        "plain": "if we are too slow",
+        "en": "if we drag our feet",
+        "zh": "拖拖拉拉、迟迟不行动"
+      },
+      {
+        "plain": "someone else will quickly take it",
+        "en": "someone else will snap it up",
+        "zh": "抢购、迅速拿下"
+      },
+      {
+        "plain": "compare the good and bad points",
+        "en": "weigh up the pros and cons",
+        "zh": "权衡利弊"
+      }
+    ]
+  }
+}
