@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T03:09:10.534Z",
+ "updatedAt": "2026-10-31T19:12:28.671Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to make friends (and keep them) | Sheridan Voysey",
-   "url": "http://go.ted.com/sheridanvoysey",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae36e30e9e95f232bb6df41/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-31",
-   "minutes": 16,
+   "title": "The haunting truth of ghost stories | Coya Paz Brownrigg (re-release)",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad66bf798b58b8b524628f0/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793289487422-faa59ce9-11fc-43b2-b5a1-6e5c4a792b85.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-01",
+   "minutes": 14,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Who could you call at 2am when everything’s gone wrong? Friendship expert Sheridan Voysey believes we’re in a friendship recession, with many of us forgetting how to foster meaningful relationships. He explores three hidden barriers keeping us apart, why it…"
+   "desc": "Ghost stories reveal much more than the ghouls and spirits that haunt them. Settle in for a spooky delight as theater educator Coya Paz Brownrigg lays out three types of bone-chilling tales and exhumes the grave truths they hold about longing, meaning and the…"
   },
   {
    "source": "SBS Learn English",
