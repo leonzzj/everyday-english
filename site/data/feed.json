@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-01T03:10:11.900Z",
+ "updatedAt": "2026-11-01T19:12:36.676Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Trump and Obama's fight for Michigan",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/trump-and-obama-s-fight-for-michigan/107324636",
-   "audio": "https://traffic.megaphone.fm/TECO8024221292.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/8c92fabe-d3ab-11f1-b77f-8bcb189020d6/image/ab60f1f498808015dccb30e4165782e6.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-10-30",
-   "minutes": 17,
+   "title": "Can Trump defy the polls again?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/can-trump-defy-the-polls-again/107327712",
+   "audio": "https://traffic.megaphone.fm/TECO4514070535.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/090ce638-d607-11f1-b813-5b6c0d8ef6d6/image/baa1bb0417eece9ea55913cf89aa0ea1.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-02",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Michigan is shaping up as one of the biggest battlegrounds in the US midterm elections. So much so that both Donald Trump and Barack Obama have hit the campaign trail there.&nbsp; The Senate race is a contest between progressive Abdul El-Sayed and…"
+   "desc": "Opinion polls suggest Republicans are heading for significant losses in this week's US midterm elections.&nbsp; Democrats are heavily favoured to win back the House of Representatives, and the battle for the Senate is increasingly tighter.&nbsp; But could…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The haunting truth of ghost stories | Coya Paz Brownrigg (re-release)",
+   "title": "Sunday Pick: Do all my friends secretly hate me? | from Corner Piece",
    "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad66bf798b58b8b524628f0/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793289487422-faa59ce9-11fc-43b2-b5a1-6e5c4a792b85.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae36eb4be038592d36d3fb4/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793290004956-dc0253fa-f529-4090-91eb-4c0a2de7f8c8.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-01",
-   "minutes": 14,
+   "minutes": 41,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Ghost stories reveal much more than the ghouls and spirits that haunt them. Settle in for a spooky delight as theater educator Coya Paz Brownrigg lays out three types of bone-chilling tales and exhumes the grave truths they hold about longing, meaning and the…"
+   "desc": "Why does making friends as an adult feel like mission impossible? In today’s Sunday Pick, Corner Piece , host Melissa Fernandes explores what it means to be a friend while grappling with a friendship break up. Along the way, she interviews Anna Goldfarb…"
   },
   {
    "source": "SBS Learn English",
@@ -56,15 +56,15 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Mummy removed from exhibition over 'lack of consent' (Level 6)",
-   "url": "https://breakingnewsenglish.com/2610/261026-mummies-wokeness-consent.html",
+   "title": "Study finds majority of pilots nod off mid-flight (Level 6)",
+   "url": "https://breakingnewsenglish.com/2611/261102-pilot-fatigue.html",
    "audio": "",
    "image": "",
-   "date": "2026-10-26",
+   "date": "2026-11-02",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Oct 26, 2026. A museum removed the remains of an ancient Egyptian mummy from a display due to a lack of consent."
+   "desc": "Nov 02, 2026. A new report has raised serious concerns about pilot fatigue."
   },
   {
    "source": "Aeon",
