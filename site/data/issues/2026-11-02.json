@@ -1,0 +1,729 @@
+{
+  "date": "2026-11-02",
+  "issueNo": 16,
+  "title": "Black Sea shipping, a shark die-off and kerbside EV chargers",
+  "createdAt": "2026-11-02T06:53:10+11:00",
+  "stories": [
+    {
+      "id": "black-sea-shipping",
+      "category": "World",
+      "headline": "Türkiye urges Russia and Ukraine to stop Black Sea shipping attacks",
+      "headlineZh": "土耳其敦促俄乌停止袭击黑海船只",
+      "summaryZh": "埃尔多安与泽连斯基在伊斯坦布尔会面，同意推动新的黑海粮食走廊，美国也关注有限停火方案。",
+      "c1": "Turkish President Recep Tayyip Erdogan has called on both Russia and Ukraine to stop attacking civilian vessels in the Black Sea, a waterway that remains vital to global food and energy supplies. Speaking at a joint news conference in Istanbul on Saturday alongside Ukrainian President Volodymyr Zelenskyy, he insisted that such strikes were unacceptable under any circumstances and urged all parties to act responsibly. The two leaders also agreed to work towards a new corridor for grain shipments through the sea.\n\nTürkiye occupies an unusual position in the conflict, maintaining working relationships with both Moscow and Kyiv, and it has grown increasingly frustrated by attacks on commercial shipping. Ankara has sent both sides a proposal to halt the strikes, although neither has yet acted on it. The risks were underlined on 28 October, when a Liberian-flagged container ship was hit by drones in Bulgaria's exclusive economic zone.\n\nThe diplomatic push appears to be gathering momentum beyond the region. On the same day, US Secretary of State Marco Rubio said there was growing international interest in a limited ceasefire at sea to protect grain and energy shipments, adding that Washington was reviewing proposals from Türkiye and India. He was candid about the limits of such a deal: \"It doesn't solve the war, but at least it solves a unique aspect of it.\"\n\nErdogan argued that an agreement on safe navigation could give fresh impetus to broader peace efforts, while Zelenskyy stressed that strong decisions would be needed to end the fighting. According to the Kremlin, the next round of talks between Russia, Ukraine and the United States is expected to take place in the United Arab Emirates this month. Whether a narrow maritime arrangement can pave the way for something more ambitious, however, remains far from certain.",
+      "b2": "Turkish President Recep Tayyip Erdogan has asked Russia and Ukraine to stop attacking civilian ships in the Black Sea. The sea is very important for moving food and energy around the world. Erdogan spoke at a news conference in Istanbul on Saturday with Ukrainian President Volodymyr Zelenskyy. He said the attacks could not be accepted, and the two leaders agreed to work on a new route for grain ships.\n\nTürkiye has good relations with both Moscow and Kyiv, and it is unhappy about attacks on commercial ships. It has sent both countries a plan to stop the attacks, but neither has acted on it yet. On 28 October, drones hit a container ship in waters belonging to Bulgaria.\n\nOn the same day, US Secretary of State Marco Rubio said more countries were interested in a limited ceasefire at sea to protect grain and energy shipments. He said the United States was studying plans from Türkiye and India. He admitted that such a deal would not end the war.\n\nErdogan said an agreement on safe shipping could help wider peace efforts. The Kremlin says the next talks between Russia, Ukraine and the US should happen in the United Arab Emirates this month. It is not clear yet whether a small deal at sea can lead to something bigger.",
+      "vocab": [
+        {
+          "word": "call on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "呼吁；号召",
+          "en": "to formally ask someone to do something",
+          "example": "The council has called on residents to save water during the heatwave.",
+          "forms": [
+            "called on"
+          ]
+        },
+        {
+          "word": "under any circumstances",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在任何情况下",
+          "en": "in any situation at all (usually used with a negative)",
+          "example": "Staff must not share their passwords under any circumstances."
+        },
+        {
+          "word": "work towards",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "努力实现；朝……努力",
+          "en": "to make efforts to achieve a goal over time",
+          "example": "Our team is working towards a fully paperless office by next year."
+        },
+        {
+          "word": "grow increasingly frustrated",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "越来越沮丧/不满",
+          "en": "to become more and more annoyed because something is not improving",
+          "example": "Commuters have grown increasingly frustrated with the constant train delays.",
+          "forms": [
+            "grown increasingly frustrated"
+          ]
+        },
+        {
+          "word": "underline",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈlaɪn/",
+          "zh": "凸显；强调",
+          "en": "to show clearly that something is important or true",
+          "example": "The outage underlined how much we depend on a single supplier.",
+          "forms": [
+            "underlined"
+          ]
+        },
+        {
+          "word": "gather momentum",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "势头增强",
+          "en": "to develop and become stronger or faster",
+          "example": "The campaign for a four-day week is slowly gathering momentum.",
+          "forms": [
+            "gathering momentum"
+          ]
+        },
+        {
+          "word": "be candid about",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "坦率地谈论",
+          "en": "to speak honestly and openly about something",
+          "example": "The manager was candid about the risks of launching so early.",
+          "forms": [
+            "was candid about"
+          ]
+        },
+        {
+          "word": "give fresh impetus to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……注入新动力",
+          "en": "to provide new energy or encouragement for something",
+          "example": "The new funding could give fresh impetus to cancer research."
+        },
+        {
+          "word": "pave the way for",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "为……铺平道路",
+          "en": "to create the conditions that make something possible",
+          "example": "The pilot program could pave the way for a national rollout."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Erdogan and Zelenskyy held their joint news conference in Ankara.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Speaking at a joint news conference in Istanbul\"，地点是伊斯坦布尔而非安卡拉，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Neither Russia nor Ukraine has yet acted on Türkiye's proposal to halt the strikes.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文明确写道 \"neither has yet acted on it\"，与题干一致，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "India has offered to send naval vessels to escort grain ships.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到美国正在审议 \"proposals from Türkiye and India\"，并未说明印度提出派遣军舰护航，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did Marco Rubio suggest about a limited ceasefire at sea?",
+          "options": [
+            "It would bring the war to a quick end.",
+            "It would deal with only one part of the conflict.",
+            "The United States had already rejected the idea.",
+            "Only Türkiye was interested in it."
+          ],
+          "answer": 1,
+          "explain": "Rubio 说 \"It doesn't solve the war, but at least it solves a unique aspect of it\"，即只能解决战争的一个方面，故选 B。"
+        }
+      ],
+      "discuss": "Why do you think limited agreements, such as protecting shipping routes, are sometimes easier to reach than a full peace deal? Can they really lead to lasting peace?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks"
+        }
+      ]
+    },
+    {
+      "id": "algal-bloom-sharks",
+      "category": "Environment",
+      "headline": "Algal bloom killed more than 8,000 sharks and rays in South Australia",
+      "headlineZh": "南澳有毒藻华致逾八千条鲨鱼和鳐鱼死亡",
+      "summaryZh": "基于公民科学数据的新报告显示，南澳藻华可能造成有记录以来最大规模的鲨鳐死亡事件。",
+      "c1": "South Australia's toxic algal bloom may have caused the largest mass die-off of sharks and rays ever recorded. A new report, drawing on thousands of observations logged by citizen scientists and compiled by the Great Southern Reef Foundation, found that more than 8,000 of these animals washed up dead along the state's coast. Among them were roughly 4,500 southern fiddler rays, 850 Port Jackson sharks and 670 wobbegongs, and because many deaths would have gone unreported, the true toll is almost certainly higher.\n\nFor Charlie Huveneers, a professor at Flinders University, the figures are sobering. His own tagging research offers little comfort: of the more than 150 sharks and rays he had tagged before the bloom, not a single one had returned a year later. Since these species mature slowly, breed infrequently and produce small litters, he expects any recovery to be painfully slow, although animals from unaffected areas may eventually move in.\n\nThe report also warns that some local populations may have collapsed. Particular concern surrounds two rare species with very small ranges that overlap heavily with the bloom: the pygmy thornback skate and the coastal stingaree, which is listed as endangered internationally. Neither, however, is listed as threatened by the federal government, and the environment department points to insufficient data on their population status.\n\nVeteran diver David Muirhead, who has completed around 2,000 dives in the state's waters, has noticed many common fish and invertebrates bouncing back. Rays are another matter: he has spotted only one since the bloom. Having photographed a pygmy thornback skate early on, he admits he may have been \"witnessing, perhaps, the end of one species.\"",
+      "b2": "South Australia's toxic algal bloom may have killed more sharks and rays than any event ever recorded. A new report used thousands of records from citizen scientists, collected by the Great Southern Reef Foundation. It found that more than 8,000 sharks and rays washed up dead on the coast. They included about 4,500 southern fiddler rays, 850 Port Jackson sharks and 670 wobbegongs. Many deaths were never reported, so the real number is probably higher.\n\nCharlie Huveneers, a professor at Flinders University, tagged more than 150 sharks and rays before the bloom. A year later, none of them had come back. These animals grow up slowly and have few young, so he thinks recovery will take a long time.\n\nThe report says some local populations may have disappeared. Experts are especially worried about two rare species, the pygmy thornback skate and the coastal stingaree, which live mainly in the affected area. The federal government does not list either species as threatened, saying there is not enough data.\n\nDiver David Muirhead has made about 2,000 dives in the state's waters. He says many common fish are returning, but he has seen only one ray since the bloom.",
+      "vocab": [
+        {
+          "word": "draw on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "利用；借鉴",
+          "en": "to use information or experience as a source",
+          "example": "The novel draws on the author's childhood in country Victoria.",
+          "forms": [
+            "drawing on"
+          ]
+        },
+        {
+          "word": "the true toll",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "真实的伤亡/损失数字",
+          "en": "the real number of deaths or amount of damage",
+          "example": "Officials warned that the true toll of the floods may never be known."
+        },
+        {
+          "word": "sobering",
+          "pos": "adj.",
+          "ipa": "/ˈsəʊbərɪŋ/",
+          "zh": "令人警醒的",
+          "en": "making you feel serious and think carefully",
+          "example": "It's a sobering thought that half the reef has been bleached."
+        },
+        {
+          "word": "offer little comfort",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "难以令人宽慰",
+          "en": "to do little to make a worrying situation feel better",
+          "example": "The small pay rise offers little comfort to renters facing higher costs.",
+          "forms": [
+            "offers little comfort"
+          ]
+        },
+        {
+          "word": "painfully slow",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "极其缓慢",
+          "en": "so slow that it is frustrating or worrying",
+          "example": "Progress on the new train line has been painfully slow."
+        },
+        {
+          "word": "overlap",
+          "pos": "v.",
+          "ipa": "/ˌəʊvəˈlæp/",
+          "zh": "重叠；交叉",
+          "en": "to cover part of the same area or time as something else",
+          "example": "My shift overlaps with yours on Thursday afternoons."
+        },
+        {
+          "word": "insufficient",
+          "pos": "adj.",
+          "ipa": "/ˌɪnsəˈfɪʃənt/",
+          "zh": "不足的",
+          "en": "not enough for a particular purpose",
+          "example": "The judge ruled that there was insufficient evidence to proceed."
+        },
+        {
+          "word": "bounce back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "恢复；反弹",
+          "en": "to recover quickly after a difficult period",
+          "example": "Local tourism bounced back faster than anyone expected.",
+          "forms": [
+            "bouncing back"
+          ]
+        },
+        {
+          "word": "another matter",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "另一回事",
+          "en": "used to say something is quite different or harder",
+          "example": "Writing the report is easy; getting everyone to read it is another matter."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The report's figure of more than 8,000 dead sharks and rays is likely to underestimate the real number.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"because many deaths would have gone unreported, the true toll is almost certainly higher\"，说明真实数字更高，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Several of the sharks and rays tagged by Huveneers before the bloom were later detected again.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"not a single one had returned a year later\"，与题干相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The algal bloom first appeared after an unusually hot summer.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到藻华出现的原因或时间（如 \"hot summer\"），因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does Huveneers expect recovery to be slow?",
+          "options": [
+            "Because the water is still toxic.",
+            "Because fishing in the area has increased.",
+            "Because these species mature slowly and have few young.",
+            "Because no animals live in nearby unaffected areas."
+          ],
+          "answer": 2,
+          "explain": "原文说这些物种 \"mature slowly, breed infrequently and produce small litters\"，所以恢复缓慢，故选 C。"
+        }
+      ],
+      "discuss": "Why do you think ordinary people are increasingly involved in collecting scientific data? What are the strengths and weaknesses of relying on citizen science?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-02/citizen-science-shows-8000-sharks-rays-killed-by-algal-bloom/107327852"
+        }
+      ]
+    },
+    {
+      "id": "kerbside-ev-chargers",
+      "category": "Tech",
+      "headline": "Thousands of kerbside EV chargers may sit idle without dedicated parking",
+      "headlineZh": "缺少专用车位，数千个路边电动车充电桩或遭闲置",
+      "summaryZh": "澳政府计划在电线杆上安装约1.4万个充电桩，但数据显示无专用车位的充电桩使用率极低。",
+      "c1": "From 2027, the federal government plans to bolt about 14,000 electric vehicle chargers onto power poles in densely populated urban areas, where many residents have nowhere to charge at home. On paper, the Accelerating EV Charging Program makes sense: roughly a quarter of motorists lack off-street parking. Yet an ABC investigation suggests that a large share of these chargers could end up barely used, because most will not come with parking reserved for electric cars.\n\nThe evidence from Sydney's eastern suburbs is striking. A dedicated charger on Ocean Street in North Bondi recorded 988 sessions in a year, whereas an undedicated one on a nearby street managed just 40, and another in Bondi only four. Anthony Weinberg, who runs the charging program for three local councils, estimates that undedicated spots are used at just 5 to 10 per cent of the rate of dedicated ones, and his councils now refuse to install chargers without dedicated parking.\n\nThis raises awkward questions about the program's projected benefits. The government's modelling assumes each charger will support 30 electric vehicles, but industry analyst Ross de Rango found that undedicated chargers in the area supported about three, implying the forecasts could be out by a factor of ten. He also predicts disputes, warning that people can \"absolutely expect grief over who gets to park.\"\n\nEven the energy market regulator found only limited reliable evidence that such chargers boost uptake, although it concluded that the likely benefits still outweigh the costs to consumers, estimated at up to $1.44 per household a year. For its part, the climate change department says it expects a mix of site types and that usage will grow as more drivers go electric.",
+      "b2": "From 2027, the federal government plans to put about 14,000 electric vehicle chargers on power poles in busy city areas. Many people there cannot charge at home, and about a quarter of drivers have no off-street parking. But an ABC investigation suggests that many of the new chargers may hardly be used, because most will not have parking spaces just for electric cars.\n\nData from Sydney's eastern suburbs shows the problem. A charger with its own parking space in North Bondi was used 988 times in a year. A charger without a special space on a nearby street was used only 40 times. Local councils there now refuse to install chargers without dedicated parking.\n\nThis matters for the government's plans. Its modelling expects each charger to support 30 electric cars. However, analyst Ross de Rango found that chargers without dedicated spaces supported only about three. He also expects arguments about parking.\n\nThe energy market regulator said there was limited evidence that these chargers help more people buy electric cars, but it still supports the plan. The cost could be up to $1.44 per household each year. The government says use will grow as more people switch to electric cars.",
+      "vocab": [
+        {
+          "word": "on paper",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "理论上；表面上",
+          "en": "in theory, though perhaps not in reality",
+          "example": "On paper, the new timetable looks faster, but trains are still late."
+        },
+        {
+          "word": "end up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "最终（成为/处于）",
+          "en": "to finally be in a situation you did not plan",
+          "example": "We ended up eating at home because every café was full."
+        },
+        {
+          "word": "a large share of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "很大一部分",
+          "en": "a big part or proportion of something",
+          "example": "A large share of the budget goes on rent."
+        },
+        {
+          "word": "striking",
+          "pos": "adj.",
+          "ipa": "/ˈstraɪkɪŋ/",
+          "zh": "显著的；引人注目的",
+          "en": "very noticeable or unusual",
+          "example": "There's a striking difference between the two survey results."
+        },
+        {
+          "word": "raise awkward questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发令人尴尬/棘手的问题",
+          "en": "to make people ask difficult questions that are hard to answer",
+          "example": "The leaked emails raise awkward questions for the company's board.",
+          "forms": [
+            "raises awkward questions"
+          ]
+        },
+        {
+          "word": "out by a factor of ten",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相差十倍",
+          "en": "wrong because the real figure is ten times bigger or smaller",
+          "example": "Our early estimate was out by a factor of ten."
+        },
+        {
+          "word": "boost uptake",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "提高采用率",
+          "en": "to increase the number of people who start using something",
+          "example": "Free trials are a proven way to boost uptake of new apps."
+        },
+        {
+          "word": "outweigh",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈweɪ/",
+          "zh": "超过；比……更重要",
+          "en": "to be greater or more important than something else",
+          "example": "For most people, the benefits of exercise far outweigh the risks."
+        },
+        {
+          "word": "go electric",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "改用电动车/电力",
+          "en": "to switch to an electric vehicle or electric power",
+          "example": "Rising petrol prices are pushing more families to go electric."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "About a quarter of motorists do not have off-street parking.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"roughly a quarter of motorists lack off-street parking\"，与题干一致，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Weinberg's councils still install chargers without dedicated parking when funding is available.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"his councils now refuse to install chargers without dedicated parking\"，与题干相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the new chargers will be installed in regional towns.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说充电桩将安装在 \"densely populated urban areas\"，即人口密集的城市地区，与题干相矛盾，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did Ross de Rango's analysis suggest?",
+          "options": [
+            "The government's forecasts may be far too optimistic.",
+            "Undedicated chargers are used more than dedicated ones.",
+            "Each charger will support more than 30 vehicles.",
+            "Drivers prefer charging at petrol stations."
+          ],
+          "answer": 0,
+          "explain": "他发现每个无专用车位的充电桩仅支持约三辆车，\"the forecasts could be out by a factor of ten\"，说明政府预测过于乐观，故选 A。"
+        }
+      ],
+      "discuss": "Why do you think governments sometimes push ahead with plans even when the evidence is uncertain? Should public infrastructure wait until the evidence is clear?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-11-02/kerbside-electric-vehicle-ev-charger-rollout/107301990"
+        }
+      ]
+    },
+    {
+      "id": "mckinnon-democracy-survey",
+      "category": "Society",
+      "headline": "More young men say violence for a cause can be justified",
+      "headlineZh": "调查：更多年轻男性认为可为某种诉求诉诸暴力",
+      "summaryZh": "麦金农指数显示，澳民众对政客信任下降，18至24岁男性中超过27%认为极端手段有时合理。",
+      "c1": "A growing minority of young Australian men believe that violence can sometimes be justified to advance a cause, according to the second McKinnon Index, a survey of more than 4,000 people carried out with Roy Morgan in June and July. Among men aged 18 to 24, over 27 per cent said such \"extreme measures\" could occasionally be warranted, compared with about one in ten across the population as a whole. More than three-quarters of Australians rejected the idea outright.\n\nThe findings point to a broader sense of disillusionment among young men. Their support for democracy has slipped to 54 per cent, and the share who feel people can freely express political opinions has plummeted by 23 points to around half. Nationally, almost three-quarters believe the country has become more divided over the past year, and fewer than half feel the political system gives people like them a say.\n\nThe picture is not uniformly bleak, though. More than three-quarters of respondents still regard democracy as preferable to any other form of government, and trust in institutions has held up well even as faith in politicians has eroded. The Australian Electoral Commission is trusted by over 70 per cent of people, while courts and regulators also score comparatively well. Dissatisfaction runs highest in inner regional areas and among those with less formal education.\n\nMcKinnon's interim executive chairman, former Victorian deputy premier John Thwaites, described supporters of violence as a minority, albeit a growing one. Not everyone reads the results so gloomily, however. Political scientist Aaron Martin cautioned that two years of data make it hard to identify a genuine trend, pointing out that other research showed satisfaction with democracy rising between 2019 and 2025.",
+      "b2": "A new survey suggests that more young Australian men now think violence can sometimes be acceptable to support a cause. The second McKinnon Index asked more than 4,000 people about democracy in June and July. More than 27 per cent of men aged 18 to 24 said \"extreme measures\" could sometimes be justified. Across the whole population, the figure was about one in ten.\n\nYoung men also seem less happy with the system. Only 54 per cent of them support democracy, and only about half think people can freely share political opinions. Almost three-quarters of all Australians think the country is more divided than a year ago.\n\nHowever, there is some good news. More than three-quarters of people still think democracy is the best system of government. Trust in politicians has fallen, but trust in institutions has stayed fairly strong. More than 70 per cent of people trust the Australian Electoral Commission.\n\nJohn Thwaites, the interim chair of the group behind the index, said people who support violence are a small but growing group. But political scientist Aaron Martin warned that two years of data are not enough to show a real trend.",
+      "vocab": [
+        {
+          "word": "a growing minority",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "越来越多的少数人",
+          "en": "a small group that is becoming bigger",
+          "example": "A growing minority of workers now refuse to answer emails after hours."
+        },
+        {
+          "word": "warranted",
+          "pos": "adj.",
+          "ipa": "/ˈwɒrəntɪd/",
+          "zh": "有正当理由的；合理的",
+          "en": "necessary or reasonable in the circumstances",
+          "example": "Given the storm warnings, cancelling the match was warranted."
+        },
+        {
+          "word": "reject outright",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "断然拒绝",
+          "en": "to refuse completely and immediately",
+          "example": "The union rejected the offer outright.",
+          "forms": [
+            "rejected the idea outright"
+          ]
+        },
+        {
+          "word": "disillusionment",
+          "pos": "n.",
+          "ipa": "/ˌdɪsɪˈluːʒnmənt/",
+          "zh": "幻灭；失望",
+          "en": "disappointment after discovering something is not as good as you believed",
+          "example": "There's growing disillusionment with the promises of social media."
+        },
+        {
+          "word": "plummet",
+          "pos": "v.",
+          "ipa": "/ˈplʌmɪt/",
+          "zh": "骤降；暴跌",
+          "en": "to fall suddenly and by a large amount",
+          "example": "Ticket sales plummeted after the bad reviews came out.",
+          "forms": [
+            "plummeted"
+          ]
+        },
+        {
+          "word": "have a say",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "有发言权",
+          "en": "to have the right to influence a decision",
+          "example": "Tenants should have a say in how the building is managed.",
+          "forms": [
+            "gives people like them a say"
+          ]
+        },
+        {
+          "word": "uniformly bleak",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一片暗淡",
+          "en": "negative or depressing in every way",
+          "example": "The forecast for the economy isn't uniformly bleak."
+        },
+        {
+          "word": "hold up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "保持稳定；经得起考验",
+          "en": "to remain strong or stable in a difficult situation",
+          "example": "Consumer spending has held up surprisingly well this year.",
+          "forms": [
+            "held up"
+          ]
+        },
+        {
+          "word": "albeit",
+          "pos": "conj.",
+          "ipa": "/ˌɔːlˈbiːɪt/",
+          "zh": "尽管；虽然",
+          "en": "although (used before a word or phrase, not a full clause)",
+          "example": "The plan worked, albeit more slowly than we'd hoped."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The survey was conducted in partnership with Roy Morgan.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说调查 \"carried out with Roy Morgan in June and July\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most Australians now believe another system of government would be better than democracy.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"More than three-quarters of respondents still regard democracy as preferable to any other form of government\"，与题干相反，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Young women were less likely than young men to support extreme measures.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只给出年轻男性和全体人口的数据，没有提到年轻女性 (\"young women\")，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why is Aaron Martin cautious about the results?",
+          "options": [
+            "He thinks the sample was too small.",
+            "He believes only two years of data cannot show a real trend.",
+            "He says trust in the electoral commission is falling.",
+            "He doubts the survey questions were fair."
+          ],
+          "answer": 1,
+          "explain": "原文说 Martin \"cautioned that two years of data make it hard to identify a genuine trend\"，故选 B。"
+        }
+      ],
+      "discuss": "Why do you think some young people are losing faith in democracy? What could governments or communities do to rebuild their trust?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-02/rise-in-young-men-open-to-extreme-measures-for-a-cause/107326932"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The Office Cup Sweep",
+    "titleZh": "办公室的墨尔本杯抽签",
+    "setting": "On the Monday before the Melbourne Cup, two colleagues chat in the office kitchen while waiting for the kettle to boil.",
+    "settingZh": "墨尔本杯前一天（周一），两位同事在办公室茶水间等水烧开时闲聊。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Morning! Have you put your name down for the Cup sweep yet?",
+        "zh": "早！你报名参加墨尔本杯的抽签了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Not yet. Honestly, I wouldn't know one horse from another.",
+        "zh": "还没。说实话，我根本分不清哪匹马是哪匹。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "That's the beauty of it — you just draw a name out of a hat.",
+        "zh": "这就是它的妙处——你只要从帽子里抽个名字就行。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Fair enough. How much are we chipping in this year?",
+        "zh": "有道理。今年每人要凑多少钱？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Five bucks a ticket. Whoever draws the winner takes the lot.",
+        "zh": "一张票五块钱。谁抽中冠军马，奖金全归谁。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Go on then, put me down for two. I'm feeling lucky.",
+        "zh": "那好吧，给我记两张。我感觉今天运气不错。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Are you doing anything for the public holiday tomorrow?",
+        "zh": "明天公众假期你有什么安排吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "A few mates are having a barbie, so I'll probably watch the race there.",
+        "zh": "几个朋友要办个烧烤，我大概会在那儿看比赛。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Sounds good. I'm planning to sleep in and keep a low profile.",
+        "zh": "听起来不错。我打算睡个懒觉，低调地过一天。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Not one for dressing up and heading to Flemington, then?",
+        "zh": "所以你不喜欢打扮一番去弗莱明顿赛马场？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "I went once. The crowds were way too much for me, to be honest.",
+        "zh": "我去过一次。说实话，人多得让我受不了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "I get that. Mind you, the fashion's half the fun for some people.",
+        "zh": "我理解。不过话说回来，对有些人来说，看穿搭就占了一半乐趣。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "True. Anyway, I'll let you know which horses you've drawn after lunch.",
+        "zh": "没错。总之，午饭后我告诉你抽到了哪两匹马。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Cheers. If I win, the next round of coffees is on me.",
+        "zh": "谢啦。如果我赢了，下一轮咖啡我请。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Have you signed up?",
+        "en": "put your name down",
+        "zh": "报名；登记"
+      },
+      {
+        "plain": "I can't tell the horses apart.",
+        "en": "I wouldn't know one horse from another",
+        "zh": "完全分不清"
+      },
+      {
+        "plain": "That's the good thing about it.",
+        "en": "That's the beauty of it",
+        "zh": "妙就妙在这里"
+      },
+      {
+        "plain": "How much money are we giving?",
+        "en": "How much are we chipping in",
+        "zh": "大家凑钱"
+      },
+      {
+        "plain": "The winner gets all the money.",
+        "en": "takes the lot",
+        "zh": "全部拿走"
+      },
+      {
+        "plain": "stay quiet and avoid attention",
+        "en": "keep a low profile",
+        "zh": "保持低调"
+      },
+      {
+        "plain": "You don't like dressing up?",
+        "en": "Not one for dressing up",
+        "zh": "不太喜欢……"
+      },
+      {
+        "plain": "I will pay for the coffees.",
+        "en": "the next round of coffees is on me",
+        "zh": "我请客"
+      }
+    ]
+  }
+}
