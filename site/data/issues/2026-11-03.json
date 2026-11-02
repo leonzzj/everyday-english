@@ -1,0 +1,734 @@
+{
+  "date": "2026-11-03",
+  "issueNo": 17,
+  "title": "Western Sahara's lost mission, hacked alert apps and F1's youngest champion",
+  "createdAt": "2026-11-03T06:53:55+11:00",
+  "stories": [
+    {
+      "id": "western-sahara-mission",
+      "category": "World",
+      "headline": "UN peacekeeping mission in Western Sahara ends after Russian veto",
+      "headlineZh": "俄罗斯否决后，联合国西撒哈拉维和任务终止",
+      "summaryZh": "安理会未能续签授权，运行约35年的西撒特派团结束，古特雷斯警告冲突升级风险。",
+      "c1": "A United Nations peacekeeping mission that has watched over Western Sahara for roughly 35 years has officially come to an end, after the Security Council failed to agree on renewing its mandate. The mission, known as MINURSO, was set up in 1991 to monitor a ceasefire and prepare a referendum on the territory's future. Secretary-General Antonio Guterres confirmed on Sunday that it had entered a liquidation phase, with its equipment being returned to the countries that had contributed troops.\n\nThe deadlock stems from a long-running dispute. Morocco has controlled the desert territory, which is roughly the size of Britain, since Spain withdrew in 1975, while the Algeria-backed Polisario Front is seeking an independent Sahrawi state. A US-drafted resolution would have extended the mission for a year but made Morocco's autonomy plan the sole basis for future negotiations. Although 11 of the 15 council members backed it, Russia used its veto, and a rival Russian draft was subsequently voted down.\n\nPredictably, reactions split along familiar lines. Morocco's royal palace welcomed the outcome as a significant development, whereas Algeria expressed deep regret and accused Washington of excessive bias towards Rabat. The US ambassador, Mike Waltz, described the veto as unfortunate and argued that the status quo was unacceptable, while his Russian counterpart, Vassily Nebenzia, insisted that the council could not predetermine questions of sovereignty.\n\nFor now, the most pressing concern is security on the ground. Guterres said he remained worried about the risk of hostilities escalating and urged all sides \"to exercise maximum restraint\". Without international monitors in place, it may well become harder to keep track of developments in the territory. Whether diplomacy can fill the gap left by the mission, however, remains an open question.",
+      "b2": "A United Nations peacekeeping mission in Western Sahara has ended after about 35 years. The UN Security Council could not agree to renew it. The mission, called MINURSO, started in 1991. Its job was to watch over a ceasefire and prepare a vote on the territory's future. On Sunday, UN chief Antonio Guterres confirmed that its equipment was being sent back to the countries that provided troops.\n\nThe problem is an old dispute. Morocco has controlled the desert territory since Spain left in 1975. The Polisario Front, which is supported by Algeria, wants an independent state. The United States wrote a plan that would have kept the mission going for another year. Eleven of the 15 council members supported it, but Russia used its veto. A different Russian plan was also rejected.\n\nMorocco welcomed the result, while Algeria said it deeply regretted it and accused the US of favouring Morocco. The US ambassador said the situation could not stay the same. Russia's ambassador said the council should not decide who owns the territory.\n\nGuterres said he was worried that fighting could get worse, and he asked all sides to stay calm. Without UN monitors, it may be harder to know what is happening there.",
+      "vocab": [
+        {
+          "word": "come to an end",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "结束；告终",
+          "en": "to finish or stop",
+          "example": "After three long years, the renovation project has finally come to an end."
+        },
+        {
+          "word": "set up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "建立；设立",
+          "en": "to create or establish an organisation or system",
+          "example": "The council set up a working group to look into the complaints."
+        },
+        {
+          "word": "stem from",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "源于；由……引起",
+          "en": "to be caused by something",
+          "example": "Much of their disagreement stems from a simple misunderstanding.",
+          "forms": [
+            "stems from"
+          ]
+        },
+        {
+          "word": "long-running",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋˈrʌnɪŋ/",
+          "zh": "长期的；持续已久的",
+          "en": "having continued for a long time",
+          "example": "The two neighbours finally settled their long-running argument about the fence."
+        },
+        {
+          "word": "split along familiar lines",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "按惯常立场分裂",
+          "en": "to divide into the same opposing groups as usual",
+          "example": "Opinions on the new tax split along familiar lines, with business groups for and unions against."
+        },
+        {
+          "word": "status quo",
+          "pos": "n.",
+          "ipa": "/ˌsteɪtəs ˈkwəʊ/",
+          "zh": "现状",
+          "en": "the existing state of affairs",
+          "example": "Many voters seem happy to keep the status quo rather than risk change."
+        },
+        {
+          "word": "predetermine",
+          "pos": "v.",
+          "ipa": "/ˌpriːdɪˈtɜːmɪn/",
+          "zh": "预先决定",
+          "en": "to decide something in advance",
+          "example": "The panel insisted it would not predetermine the outcome of the review."
+        },
+        {
+          "word": "pressing concern",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "紧迫的问题",
+          "en": "a problem that needs attention urgently",
+          "example": "Affordable housing is the most pressing concern for many young people in the city."
+        },
+        {
+          "word": "fill the gap",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "填补空缺",
+          "en": "to provide something that is missing",
+          "example": "Volunteers have stepped in to fill the gap left by the closure of the library."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "MINURSO was originally created to monitor a ceasefire and prepare a vote on the territory's future.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"set up in 1991 to monitor a ceasefire and prepare a referendum\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most Security Council members opposed the US-drafted resolution.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"11 of the 15 council members backed it\"，多数成员支持，因此题干错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "Algeria plans to send its own troops into the territory to replace the UN monitors.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到阿尔及利亚表示 \"deep regret\"，并未提到派兵计划。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the US-drafted resolution fail?",
+          "options": [
+            "Fewer than half of the council members supported it.",
+            "Russia used its veto against it.",
+            "Morocco formally rejected it.",
+            "The Polisario Front asked for it to be withdrawn."
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Russia used its veto\"，尽管多数成员支持，否决权使决议未能通过。"
+        }
+      ],
+      "discuss": "Why do you think international peacekeeping missions sometimes last for decades without solving the underlying conflict? Should there be a time limit on them?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-water-lab",
+      "category": "Science",
+      "headline": "Australia's first Indigenous-owned water testing lab opens in Bundaberg",
+      "headlineZh": "澳大利亚首个原住民所有的水质检测实验室在班达伯格开业",
+      "summaryZh": "昆士兰原住民机构开设水质实验室，样本不再送往布里斯班，也为原住民从事科学铺路。",
+      "c1": "An Aboriginal organisation in central Queensland has opened what is believed to be Australia's first Indigenous-owned water testing laboratory, a milestone that its founders hope will put scientific authority firmly in the hands of traditional owners. Built by the Gidarjil Development Corporation beside the Burnett River at Bundaberg Port, the lab is called Nyamgim Gung, which means \"looking at water\" in the Gurang language.\n\nUntil now, samples collected on country had to be sent to Brisbane, about 400 kilometres away, for analysis, which inevitably slowed things down. The new facility specialises in seawater but can also test river, fresh and brackish water, measuring nutrients, trace elements, hardness and alkalinity with the help of advanced automation. Lab manager Nirali Vadgama, an environmental scientist, has been working towards this moment since 2022, and in September the lab gained national and international accreditation.\n\nBeyond speeding up results, the project is fundamentally about self-determination. The lab was established on behalf of four traditional owner groups, and Gidarjil, a not-for-profit, can generate income by selling its testing services to other organisations. Chief executive Margaret Blackman has presented the venture as an example of thinking outside the box, and the corporation hopes to help other Aboriginal groups along the coast manage their own land and sea country.\n\nThere is also a long-term ambition: to attract more Indigenous people into scientific careers and, eventually, to have the lab run entirely by Indigenous staff. Alongside the opening, Gidarjil launched Dulba Muni, its first all-female ranger program, whose members help to collect and prepare samples. Admittedly, a single lab cannot transform regional science overnight, but it does suggest that high-level research need not be confined to big cities.",
+      "b2": "An Aboriginal organisation in Queensland has opened what is believed to be Australia's first Indigenous-owned water testing lab. The Gidarjil Development Corporation built it next to the Burnett River at Bundaberg Port. Its name, Nyamgim Gung, means \"looking at water\" in the Gurang language.\n\nIn the past, water samples had to be sent to Brisbane, about 400 kilometres away, so results took longer. The new lab mainly tests seawater, but it can also test river water and fresh water. It uses modern automated equipment. The lab manager, environmental scientist Nirali Vadgama, has worked on the project since 2022. In September, the lab received national and international accreditation.\n\nThe lab is also about giving traditional owners more control. It was built for four traditional owner groups. Gidarjil is a not-for-profit, and it can earn money by selling testing services to other organisations. It also wants to help other Aboriginal groups on the coast look after their land and sea.\n\nIn the long term, Gidarjil hopes more Indigenous people will choose careers in science, and that one day the lab will be run only by Indigenous staff. It has also started its first all-female ranger program.",
+      "vocab": [
+        {
+          "word": "milestone",
+          "pos": "n.",
+          "ipa": "/ˈmaɪlstəʊn/",
+          "zh": "里程碑；重要事件",
+          "en": "an important event in the development of something",
+          "example": "Finishing her first marathon was a real milestone for her."
+        },
+        {
+          "word": "in the hands of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "掌握在……手中",
+          "en": "controlled or owned by someone",
+          "example": "The final decision is now in the hands of the local council."
+        },
+        {
+          "word": "inevitably",
+          "pos": "adv.",
+          "ipa": "/ɪnˈevɪtəbli/",
+          "zh": "不可避免地",
+          "en": "in a way that cannot be avoided",
+          "example": "Moving to a new city inevitably involves some loneliness at first."
+        },
+        {
+          "word": "specialise in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "专门从事",
+          "en": "to concentrate on a particular area of work",
+          "example": "The clinic specialises in sports injuries.",
+          "forms": [
+            "specialises in"
+          ]
+        },
+        {
+          "word": "work towards",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "朝……努力",
+          "en": "to make efforts to achieve something",
+          "example": "We're working towards a more flexible timetable for staff.",
+          "forms": [
+            "working towards"
+          ]
+        },
+        {
+          "word": "self-determination",
+          "pos": "n.",
+          "ipa": "/ˌself dɪˌtɜːmɪˈneɪʃn/",
+          "zh": "自决；自主",
+          "en": "the right of a group to make its own decisions",
+          "example": "The treaty recognises the community's right to self-determination."
+        },
+        {
+          "word": "generate income",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "创造收入",
+          "en": "to earn money",
+          "example": "Renting out the spare room helps them generate income."
+        },
+        {
+          "word": "long-term ambition",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "长远目标",
+          "en": "a goal someone hopes to achieve in the distant future",
+          "example": "Her long-term ambition is to open a small bakery."
+        },
+        {
+          "word": "be confined to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "局限于",
+          "en": "to be limited to a particular place or group",
+          "example": "Good coffee is no longer confined to the inner city."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The lab is only able to test seawater.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说它 \"specialises in seawater but can also test river, fresh and brackish water\"，因此题干错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "The lab's construction was paid for by the Queensland government.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到建设资金来自哪里，属于未提及。"
+        },
+        {
+          "type": "tfng",
+          "q": "Before the lab opened, local water samples were analysed in Brisbane.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"samples collected on country had to be sent to Brisbane ... for analysis\"，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which long-term goal does the article mention?",
+          "options": [
+            "Replacing all water laboratories in Brisbane",
+            "Training rangers in other countries",
+            "Having the lab run entirely by Indigenous staff",
+            "Selling bottled seawater to tourists"
+          ],
+          "answer": 2,
+          "explain": "文中说目标是 \"to have the lab run entirely by Indigenous staff\"。"
+        }
+      ],
+      "discuss": "Why do you think it matters who owns and runs scientific facilities in a community? Could this model spread to other areas of research?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-02/australias-first-indigenous-owned-water-lab-opens-in-queensland/107327630"
+        }
+      ]
+    },
+    {
+      "id": "alert-apps-hacked",
+      "category": "Tech",
+      "headline": "Hackers send false nuclear warnings through Ukraine's air raid app",
+      "headlineZh": "黑客通过乌克兰防空警报应用发送虚假核威胁警告",
+      "summaryZh": "乌克兰防空警报应用遭入侵发出假核化警报，俄罗斯应急应用随后也称遭大规模网络攻击。",
+      "c1": "Ukraine's official air raid alert app was hacked on Sunday evening, briefly bombarding users with false warnings that Kyiv and surrounding areas faced nuclear and chemical threats, and even possible street fighting. One bogus message claimed that Russia had launched its Oreshnik hypersonic missile. The Ukrainian Air Force moved quickly to reassure the public, telling people there was no radiation threat and urging them to stay calm and rely on its official channel.\n\nHours later, Russia's Emergencies Ministry reported that its own warning app, which alerts people to incoming drone attacks, had been hit by what it called a massive cyberattack spreading false information. Ukraine's Centre for Strategic Communications pointed the finger at Moscow, citing Russian-language text in one of the fake alerts, whereas the Russian ministry did not say whom it held responsible. It remains unclear whether the two incidents were connected.\n\nThe timing was striking: the hack came just as a localised truce in the Russian-occupied part of the Kherson region ended. That pause, described as the longest of the war so far, had allowed hundreds of stranded residents to leave the town of Oleshky. Ukrainian officials said Russian attacks on Kherson resumed on Monday.\n\nAlthough sirens and other alert channels kept working throughout, the episode exposes a worrying vulnerability. In a country where people may have only minutes to find shelter from a ballistic missile, an app that cries wolf could erode public trust in warnings that are genuinely life-saving. It also serves as a reminder that, in modern conflicts, digital infrastructure has become very much part of the battlefield.",
+      "b2": "Ukraine's official air raid alert app was hacked on Sunday evening. For a short time, it sent false warnings that Kyiv and nearby areas faced nuclear and chemical threats. One fake message said Russia had fired a hypersonic missile. The Ukrainian Air Force quickly told people there was no radiation threat and asked them to stay calm.\n\nA few hours later, Russia said its own emergency app, which warns people about drone attacks, had also suffered a big cyberattack. A Ukrainian government centre blamed Russia, because one fake message was written in Russian. Russia did not say who it blamed. Nobody knows yet if the two attacks were connected.\n\nThe hack happened just as a local ceasefire in part of the Kherson region ended. This ceasefire was described as the longest of the war so far. It allowed hundreds of people who were stuck in the town of Oleshky to leave. Ukraine said Russia started attacking Kherson again on Monday.\n\nSirens and other warning systems kept working. However, the attack shows a serious weakness. People sometimes have only minutes to find shelter, so false alarms could make them trust real warnings less.",
+      "vocab": [
+        {
+          "word": "bombard",
+          "pos": "v.",
+          "ipa": "/bɒmˈbɑːd/",
+          "zh": "连续轰炸；（信息）狂轰滥炸",
+          "en": "to direct a large amount of something at someone",
+          "example": "Since I signed up, the shop has been bombarding me with emails.",
+          "forms": [
+            "bombarding"
+          ]
+        },
+        {
+          "word": "bogus",
+          "pos": "adj.",
+          "ipa": "/ˈbəʊɡəs/",
+          "zh": "假的；伪造的",
+          "en": "not genuine; fake",
+          "example": "Police warned residents about bogus charity collectors."
+        },
+        {
+          "word": "reassure",
+          "pos": "v.",
+          "ipa": "/ˌriːəˈʃʊə(r)/",
+          "zh": "使安心；打消疑虑",
+          "en": "to make someone feel less worried",
+          "example": "The pilot reassured passengers that the turbulence was nothing serious."
+        },
+        {
+          "word": "point the finger at",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "指责；归咎于",
+          "en": "to blame someone",
+          "example": "It's easy to point the finger at the government, but we all share responsibility.",
+          "forms": [
+            "pointed the finger at"
+          ]
+        },
+        {
+          "word": "hold responsible",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "追究责任；认为……负责",
+          "en": "to consider someone to blame for something",
+          "example": "Residents hold the developer responsible for the flooding.",
+          "forms": [
+            "held responsible"
+          ]
+        },
+        {
+          "word": "stranded",
+          "pos": "adj.",
+          "ipa": "/ˈstrændɪd/",
+          "zh": "被困的；滞留的",
+          "en": "unable to leave a place",
+          "example": "Hundreds of passengers were left stranded after the strike."
+        },
+        {
+          "word": "cry wolf",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "谎报险情；喊“狼来了”",
+          "en": "to raise a false alarm so often that people stop believing you",
+          "example": "If the smoke alarm keeps crying wolf, people will stop paying attention.",
+          "forms": [
+            "cries wolf"
+          ]
+        },
+        {
+          "word": "erode public trust",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "削弱公众信任",
+          "en": "to gradually weaken people's confidence in something",
+          "example": "Repeated broken promises can erode public trust in politicians."
+        },
+        {
+          "word": "serve as a reminder",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "起到提醒作用",
+          "en": "to make people remember something important",
+          "example": "The storm served as a reminder of how exposed the coast is.",
+          "forms": [
+            "serves as a reminder"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Russia's Emergencies Ministry accused Ukraine of hacking its warning app.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说俄方 \"did not say whom it held responsible\"，并未指责乌克兰，因此题干错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "One of the fake messages said Russia had launched a hypersonic missile.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"One bogus message claimed that Russia had launched its Oreshnik hypersonic missile\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "The hackers demanded money to restore Ukraine's app.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到黑客索要钱财，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "What happened around the time the Ukrainian app was hacked?",
+          "options": [
+            "A local truce in the Kherson region ended.",
+            "Kyiv launched a new city alert app.",
+            "Air raid sirens across Ukraine stopped working.",
+            "Russia agreed to extend the ceasefire."
+          ],
+          "answer": 0,
+          "explain": "文中说 \"the hack came just as a localised truce ... ended\"；而警报器一直正常 (\"sirens ... kept working\")。"
+        }
+      ],
+      "discuss": "Why do you think governments rely more and more on apps to warn citizens about danger? What are the risks, and how could they be reduced?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-02/ukraine-air-force-public-air-raid-alert-app-hacked-false-warning/107336062"
+        }
+      ]
+    },
+    {
+      "id": "antonelli-youngest-champion",
+      "category": "Culture",
+      "headline": "Kimi Antonelli, 20, becomes Formula 1's youngest ever champion",
+      "headlineZh": "20岁的安东内利成为史上最年轻F1世界冠军",
+      "summaryZh": "梅赛德斯车手安东内利在墨西哥城大奖赛获第三，提前四站锁定总冠军并打破维特尔纪录。",
+      "c1": "Kimi Antonelli has become the youngest world champion in Formula 1 history, sealing the title at the Mexico City Grand Prix at just 20 years and 68 days old. The Mercedes driver needed only to finish ninth or better, and he did considerably more than that, starting fourth and overtaking Charles Leclerc late in the race to take third place. \"It's a day I will remember forever,\" he said afterwards.\n\nHis triumph rewrites the record books. The previous youngest champion, Sebastian Vettel, was 23 years and 134 days old when he won in 2010, so Antonelli has broken the record by a remarkable margin. He is also the first Italian to claim the drivers' title since Alberto Ascari in 1953, ending a wait of more than seven decades for one of the sport's most passionate fan bases.\n\nThe race itself was far from straightforward. Max Verstappen, who started fifth, came through to win, with Lewis Hamilton second. The race was red-flagged on lap 44 of 71 when a wheel came off Valtteri Bottas's Cadillac under braking and he hit the wall, although he was able to walk away. Australia's Oscar Piastri, meanwhile, started 12th and finished seventh after a collision with Arvid Lindblad left his car damaged.\n\nWith four rounds still remaining, the championship was wrapped up unusually early, which arguably underlines how dominant Antonelli's season has been. His success will inevitably prompt debate about how quickly young drivers should be promoted to top teams. Still, few would dispute that, for someone of his age, he has handled intense pressure with impressive composure.",
+      "b2": "Kimi Antonelli is now the youngest world champion in Formula 1 history. The Mercedes driver won the title at the Mexico City Grand Prix when he was 20 years and 68 days old. He only needed to finish ninth, but he started fourth and passed Charles Leclerc near the end to finish third.\n\nThe record had belonged to Sebastian Vettel, who was 23 when he won in 2010. Antonelli is also the first Italian driver to win the title since Alberto Ascari in 1953. Italian fans had waited more than 70 years for this moment.\n\nThe race was exciting. Max Verstappen started fifth and won it, and Lewis Hamilton came second. The race was stopped on lap 44 after a wheel came off Valtteri Bottas's car and he hit the wall. Luckily, he was able to walk away. Australian driver Oscar Piastri started 12th and finished seventh after a crash with another car damaged his.\n\nThere are still four races left in the season, so Antonelli won the title very early. This shows how strong his season has been. Some people may now ask whether young drivers should join top teams so quickly, but most agree he has dealt with the pressure very well.",
+      "vocab": [
+        {
+          "word": "seal the title",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "锁定冠军",
+          "en": "to make a championship win certain",
+          "example": "A late goal helped the club seal the title with two games to spare.",
+          "forms": [
+            "sealing the title"
+          ]
+        },
+        {
+          "word": "rewrite the record books",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "改写纪录",
+          "en": "to set new records",
+          "example": "The young swimmer rewrote the record books at the national championships.",
+          "forms": [
+            "rewrites the record books"
+          ]
+        },
+        {
+          "word": "by a remarkable margin",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以显著的差距",
+          "en": "by a surprisingly large amount",
+          "example": "The new model outsold its rivals by a remarkable margin."
+        },
+        {
+          "word": "far from straightforward",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远非简单",
+          "en": "quite complicated or difficult",
+          "example": "Getting a visa turned out to be far from straightforward."
+        },
+        {
+          "word": "walk away",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "安然无恙地离开",
+          "en": "to escape from an accident without serious injury",
+          "example": "Both drivers were lucky to walk away from the crash."
+        },
+        {
+          "word": "wrap up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "圆满结束；搞定",
+          "en": "to finish or complete something",
+          "example": "Let's wrap up the meeting by five so everyone can catch their train.",
+          "forms": [
+            "wrapped up"
+          ]
+        },
+        {
+          "word": "underline",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈlaɪn/",
+          "zh": "突显；强调",
+          "en": "to show clearly that something is important or true",
+          "example": "The survey underlines the need for cheaper childcare.",
+          "forms": [
+            "underlines"
+          ]
+        },
+        {
+          "word": "prompt debate",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发讨论",
+          "en": "to cause people to discuss or argue about something",
+          "example": "The decision to close the pool has prompted debate in the community."
+        },
+        {
+          "word": "composure",
+          "pos": "n.",
+          "ipa": "/kəmˈpəʊʒə(r)/",
+          "zh": "镇定；沉着",
+          "en": "the state of being calm and in control",
+          "example": "She kept her composure even when the questions became hostile."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Antonelli won the Mexico City Grand Prix.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Verstappen \"came through to win\"，而 Antonelli 获得 \"third place\"，因此题干错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "Sebastian Vettel was over 23 years old when he became champion in 2010.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Vettel \"was 23 years and 134 days old when he won in 2010\"，即超过23岁。"
+        },
+        {
+          "type": "tfng",
+          "q": "Antonelli has signed a new contract to stay with Mercedes next season.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到他的合同情况，属于未提及。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why was the race stopped with a red flag?",
+          "options": [
+            "Piastri collided with Lindblad.",
+            "Heavy rain made the track unsafe.",
+            "Leclerc crashed while being overtaken.",
+            "A wheel came off Bottas's car and he hit the wall."
+          ],
+          "answer": 3,
+          "explain": "文中说 \"red-flagged on lap 44 of 71 when a wheel came off Valtteri Bottas's Cadillac\"。"
+        }
+      ],
+      "discuss": "Why do you think some athletes reach the top of their sport at a very young age? Is early success always a good thing for them?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-11-02/f1-live-mexico-city-grand-prix-oscar-piastri-kimi-antonelli/106998720"
+        },
+        {
+          "name": "Malay Mail",
+          "url": "https://www.malaymail.com/news/sports/2026/10/29/antonelli-on-brink-of-f1-history-as-youngest-champion-and-italys-first-in-73-years/241096"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck at Flinders Street",
+    "titleZh": "困在弗林德斯街站",
+    "setting": "On a weekday evening, two former uni classmates bump into each other on a crowded platform at Flinders Street Station while their train is delayed.",
+    "settingZh": "工作日傍晚，两位大学老同学在弗林德斯街站拥挤的站台上偶遇，他们的列车正在延误。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Hang on, is that you, Tom? I haven't seen you since graduation!",
+        "zh": "等等，是你吗，汤姆？毕业以后就没见过你了！"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Priya! Small world. Don't tell me you're on the Sandringham line too?",
+        "zh": "普丽娅！世界真小。别告诉我你也坐桑德灵厄姆线？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Afraid so. The board says twenty minutes, but I'll believe it when I see it.",
+        "zh": "恐怕是的。显示屏说二十分钟，但我得亲眼看到才信。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Apparently there's a signal fault near Richmond. Same old story, really.",
+        "zh": "听说里士满附近信号出了故障。老问题了，真的。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Typical. I was hoping to get home early and actually cook for once.",
+        "zh": "真是一贯如此。我本来想早点回家，难得自己做顿饭。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Ha, I'd pencilled in a run, but that's probably out the window now.",
+        "zh": "哈，我原本打算去跑步，现在估计泡汤了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "So what are you up to these days? Still doing the data stuff?",
+        "zh": "那你最近在忙什么？还在做数据那一块吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Sort of. I've moved into cyber security, which keeps me on my toes.",
+        "zh": "算是吧。我转做网络安全了，让我时刻保持警惕。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh, you must've seen that story about the hacked air raid app, then.",
+        "zh": "哦，那你肯定看到那条防空警报应用被黑的新闻了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Yeah, it's a nightmare scenario. If people stop trusting alerts, you're in real trouble.",
+        "zh": "是啊，这是最糟糕的情况。如果人们不再相信警报，那就真麻烦了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Makes you wonder how secure our own systems are, doesn't it?",
+        "zh": "让人不禁想，我们自己的系统有多安全，对吧？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Don't get me started. Anyway, it looks like our train's finally pulling in.",
+        "zh": "别让我开始说这个。总之，看起来我们的车终于进站了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Thank goodness. Let's grab a coffee properly some time and catch up.",
+        "zh": "谢天谢地。改天好好喝杯咖啡叙叙旧吧。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Definitely. I'll message you this week, and I mean it this time!",
+        "zh": "一定。我这周就给你发消息，这次是认真的！"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What a coincidence to meet you here!",
+        "en": "Small world.",
+        "zh": "偶遇熟人时的常用感叹"
+      },
+      {
+        "plain": "I don't really believe it.",
+        "en": "I'll believe it when I see it.",
+        "zh": "表示怀疑，要亲眼见到才信"
+      },
+      {
+        "plain": "This happens all the time.",
+        "en": "Same old story, really.",
+        "zh": "老一套，总是这样"
+      },
+      {
+        "plain": "I had planned a run.",
+        "en": "I'd pencilled in a run",
+        "zh": "暂定安排（pencil in）"
+      },
+      {
+        "plain": "That plan is cancelled now.",
+        "en": "that's probably out the window now",
+        "zh": "计划泡汤了"
+      },
+      {
+        "plain": "It makes me stay alert.",
+        "en": "keeps me on my toes",
+        "zh": "让人保持警觉"
+      },
+      {
+        "plain": "I have a lot to say about that.",
+        "en": "Don't get me started.",
+        "zh": "一说起来就停不下来"
+      },
+      {
+        "plain": "Let's meet and talk about our news.",
+        "en": "Let's grab a coffee properly some time and catch up.",
+        "zh": "约见面叙旧"
+      }
+    ]
+  }
+}

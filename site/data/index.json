@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-02T06:53:10+11:00",
+  "updatedAt": "2026-11-03T06:53:55+11:00",
   "issues": [
+    {
+      "date": "2026-11-03",
+      "issueNo": 17,
+      "title": "Western Sahara's lost mission, hacked alert apps and F1's youngest champion",
+      "headlines": [
+        "UN peacekeeping mission in Western Sahara ends after Russian veto",
+        "Australia's first Indigenous-owned water testing lab opens in Bundaberg",
+        "Hackers send false nuclear warnings through Ukraine's air raid app",
+        "Kimi Antonelli, 20, becomes Formula 1's youngest ever champion"
+      ]
+    },
     {
       "date": "2026-11-02",
       "issueNo": 16,
