@@ -1,44 +1,44 @@
 {
- "updatedAt": "2026-11-02T03:14:24.613Z",
+ "updatedAt": "2026-11-02T19:21:23.752Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Can Trump defy the polls again?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/can-trump-defy-the-polls-again/107327712",
-   "audio": "https://traffic.megaphone.fm/TECO4514070535.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/090ce638-d607-11f1-b813-5b6c0d8ef6d6/image/baa1bb0417eece9ea55913cf89aa0ea1.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-02",
+   "title": "How the peptide craze is turning deadly",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-the-peptide-craze-is-turning-deadly/107337632",
+   "audio": "https://traffic.megaphone.fm/TECO5417775786.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/32bba5a4-d6d0-11f1-b1d7-7b828fbff6dc/image/2d47abcc701a4a62282e37626d54ba0f.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-03",
    "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Opinion polls suggest Republicans are heading for significant losses in this week's US midterm elections.&nbsp; Democrats are heavily favoured to win back the House of Representatives, and the battle for the Senate is increasingly tighter.&nbsp; But could…"
+   "desc": "They promise everything from anti-ageing to weight loss, or even a glowing tan. &nbsp; But for a growing number of people, injectable peptides are delivering severe illnesses instead. Hospital presentations linked to their use are surging. &nbsp; Today, Dr…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Jon Ronson investigates the men looking for purpose in strange, dark places",
-   "url": "https://www.abc.net.au/listen/programs/conversations/jon-ronson-the-castle-manosphere-unravelling-men-manhood/107307072",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/pu/Z/fg.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fcf46e22c33dad7d0acb4defc039a7c99.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-30",
-   "minutes": 52,
+   "title": "Waleed Aly: finding real meaning, in the midst of global collapse",
+   "url": "https://www.abc.net.au/listen/programs/conversations/waleed-aly-reasoning-with-chaos-rationality-news-world/107321230",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q1/Z/41.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F22e82c4cc391f54f4eca52d62019bf0a.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-02",
+   "minutes": 53,
    "level": "C1",
    "accent": "AU",
-   "desc": "When journalist Jon Ronson visited castle owned by a digital tycoon, it became a portal into a world of disaffected men, grasping for purpose online in a world where traditional institutions are collapsing. He had received a series of texts from his son Joel…"
+   "desc": "As we're bombarded with the drumbeat of news that veers from the shocking to the unfathomable, Waleed Aly wants to know, how do we come to grips with this chaos? For years, that is exactly what Waleed Aly has done by writing a series of columns for…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: Do all my friends secretly hate me? | from Corner Piece",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae36eb4be038592d36d3fb4/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793290004956-dc0253fa-f529-4090-91eb-4c0a2de7f8c8.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-01",
-   "minutes": 41,
+   "title": "The couples therapists who nearly got divorced | Harville Hendrix",
+   "url": "http://go.ted.com/harvillehendrix",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae258f70a9b7b8b95b17566/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-03",
+   "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Why does making friends as an adult feel like mission impossible? In today’s Sunday Pick, Corner Piece , host Melissa Fernandes explores what it means to be a friend while grappling with a friendship break up. Along the way, she interviews Anna Goldfarb…"
+   "desc": "Couples therapists Harville Hendrix and Helen LaKelly Hunt spent decades teaching the world how to love well … even as their own marriage was falling apart. In this candid, funny talk, Hendrix recounts the yearlong experiment in listening that saved their…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "In praise of the dilettante",
-   "url": "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age",
+   "title": "The self-making world",
+   "url": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/b943b6cc-6d15-4809-b176-165891129bc0/essay-par17520.jpg?width=480&quality=75&format=auto",
-   "date": "2026-10-30",
+   "image": "https://images.aeonmedia.co/images/e7ea39c8-e023-47fb-820f-7a6d68ed3928/essay-humpbacks.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-02",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "A wayfaring cosmopolitan who never gets stuck, the dilettante is the right anti-hero for our hyper-specialised age - by Jay Miller Read on Aeon"
+   "desc": "Long mocked and misunderstood, Lamarck’s radical idea that organisms shape themselves and their world is making a comeback - by Jessica Riskin Read on Aeon"
   }
  ]
 }
