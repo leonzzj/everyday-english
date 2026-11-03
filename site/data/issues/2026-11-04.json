@@ -1,0 +1,728 @@
+{
+  "date": "2026-11-04",
+  "issueNo": 18,
+  "title": "US midterms, a weight-loss pill and the King's Cup winner",
+  "createdAt": "2026-11-04T06:53:15+11:00",
+  "stories": [
+    {
+      "id": "us-midterms",
+      "category": "World",
+      "headline": "Americans vote in midterms seen as a verdict on Trump",
+      "headlineZh": "美国中期选举投票，被视为对特朗普的信任投票",
+      "summaryZh": "众议院全部435席和参议院35席改选，提前投票超5000万人，民主党被看好夺回众议院。",
+      "c1": "Americans have been casting their ballots in midterm elections that are widely seen as a verdict on Donald Trump's second term. Every one of the 435 seats in the House of Representatives is up for grabs, along with 35 of the 100 seats in the Senate. Since Republicans currently control both chambers, even a modest swing could reshape the balance of power in Washington and determine how much of the President's agenda survives.\n\nTurnout appears to be unusually strong. More than 50 million people had voted early, putting overall participation on track to exceed the 2022 midterms, and early voting reportedly ran with relatively few problems. Polls point to a comfortable Democratic win in the House, while the Senate looks more finely balanced: Democrats would need a net gain of four seats to secure a majority. History is arguably on their side, as the president's party has lost an average of 27 House seats in midterms since 1934.\n\nSeveral contests have drawn national attention. In Texas, Democrat James Talarico has held a narrow lead over Republican Ken Paxton in most polls since September, even though Democrats have not won a Senate seat in the state for 33 years. Voters' priorities, meanwhile, seem to centre on everyday pressures; a Gallup survey found that the economy and healthcare topped the list, against a backdrop of high petrol prices, tariffs and the conflict with Iran.\n\nTrump, for his part, called it \"the most important midterm, I believe, in our lifetime\". Analysts nonetheless caution that polls can be wrong, and a late shift among undecided voters could make the Senate far tighter than expected. The first polls close at 10am on Wednesday, Melbourne time, although particularly close races may take days to call.",
+      "b2": "Americans are voting in the midterm elections, which many people see as a test of Donald Trump's second term. All 435 seats in the House of Representatives are being decided, as well as 35 of the 100 seats in the Senate. At the moment, Republicans control both houses of Congress.\n\nMany people have already voted. More than 50 million Americans voted early, and total turnout could be higher than in the 2022 midterms. Polls suggest that the Democrats will win the House easily. The Senate is closer. To win control, Democrats need to gain four more seats than they lose.\n\nSome races are getting a lot of attention. In Texas, Democrat James Talarico has been slightly ahead of Republican Ken Paxton in most polls since September. Democrats have not won a Senate seat there for 33 years. A Gallup survey found that the economy and healthcare are the issues voters care about most.\n\nTrump described this election as the most important midterm of his lifetime. However, experts warn that polls are sometimes wrong, and undecided voters could change the result. The first polls close at 10am on Wednesday, Melbourne time. Some very close races may take several days to decide.",
+      "vocab": [
+        {
+          "word": "up for grabs",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "可争夺的；尚无归属",
+          "en": "available for anyone to win",
+          "example": "With the captain retiring, the leadership role is now up for grabs."
+        },
+        {
+          "word": "balance of power",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "权力平衡",
+          "en": "the way power is shared between groups or parties",
+          "example": "A few independent MPs could hold the balance of power after the election."
+        },
+        {
+          "word": "on track to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有望；按进度将会",
+          "en": "likely to achieve a particular result",
+          "example": "The council is on track to finish the bike path by March."
+        },
+        {
+          "word": "finely balanced",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "势均力敌的；难分高下的",
+          "en": "so even that the outcome is hard to predict",
+          "example": "The debate over the new stadium is finely balanced."
+        },
+        {
+          "word": "net gain",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "净增长",
+          "en": "the amount gained after subtracting losses",
+          "example": "The company reported a net gain of 40 jobs this year."
+        },
+        {
+          "word": "centre on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "集中于；以……为中心",
+          "en": "to have something as the main focus",
+          "example": "Most of the complaints centre on the lack of parking."
+        },
+        {
+          "word": "against a backdrop of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……的背景下",
+          "en": "in a situation where something else is happening",
+          "example": "The festival went ahead against a backdrop of heavy rain."
+        },
+        {
+          "word": "for his part",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "就他而言",
+          "en": "used to introduce one person's view or action",
+          "example": "The coach, for his part, refused to blame the referee.",
+          "forms": [
+            "for his part"
+          ]
+        },
+        {
+          "word": "caution",
+          "pos": "v.",
+          "ipa": "/ˈkɔːʃn/",
+          "zh": "告诫；提醒注意",
+          "en": "to warn someone to be careful",
+          "example": "Doctors caution that the new treatment is not suitable for everyone."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Republicans currently control both the House and the Senate.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"Republicans currently control both chambers\"，即共和党目前控制参众两院，所以为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Early voting was disrupted by widespread problems.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 early voting \"ran with relatively few problems\"，与“问题普遍”相矛盾，所以为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "James Talarico has served in the Senate before.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说 Talarico 在民调中略微领先 Paxton，没有提到他是否曾任参议员，所以为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, what has usually happened to the president's party in midterms since 1934?",
+          "options": [
+            "It has gained about 27 House seats.",
+            "It has kept control of the Senate.",
+            "It has lost an average of 27 House seats.",
+            "It has won more early votes."
+          ],
+          "answer": 2,
+          "explain": "文中说 \"the president's party has lost an average of 27 House seats in midterms since 1934\"，所以选 C。"
+        }
+      ],
+      "discuss": "Why do you think midterm elections are often seen as a judgement on the sitting leader rather than on local candidates? Is this fair to voters and candidates?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/us-midterm-elections-2026-live-updates/107335552"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end"
+        }
+      ]
+    },
+    {
+      "id": "wegovy-tablet",
+      "category": "Health",
+      "headline": "Daily Wegovy weight-loss tablet approved for use in Australia",
+      "headlineZh": "每日服用的减重药 Wegovy 片剂获准在澳使用",
+      "summaryZh": "药管局批准首款口服GLP-1减重药，需凭处方，价格未定，预计圣诞前上市。",
+      "c1": "Australians prescribed weight-loss medication may soon be able to swap their weekly injections for a daily pill. On Tuesday, the Therapeutic Goods Administration (TGA) signed off on a tablet form of Wegovy, made by the Danish company Novo Nordisk, making it the first oral GLP-1 drug the regulator has approved. Until now, patients have only been able to take this class of medicine as an injection.\n\nThe approval covers four strengths, ranging from 1.5 mg to 25 mg, and applies to people living with obesity as well as those who need to lower their cardiovascular risk. A doctor's prescription will be required. Interestingly, each tablet contains more semaglutide, the active ingredient, than the injection, because the body absorbs the drug less efficiently when it is swallowed; a 25 mg tablet is understood to work in the same way as a 2.4 mg jab.\n\nThat said, the pill is not quite ready to reach pharmacy shelves. The TGA has yet to review the packaging and production processes to confirm they meet quality standards, although the drug is expected to be available before Christmas. Cost remains an open question: no Australian price has been set, and the Pharmaceutical Benefits Scheme currently subsidises weight-loss drugs only for people with type 2 diabetes.\n\nThe decision follows approvals in the US and Europe, where demand surged after launch; in the US, the pill reportedly attracted three million prescriptions in its first five months. Novo Nordisk has named Australia a priority market, but competition is looming, with Eli Lilly's own oral treatment still awaiting a TGA decision. Whether a more convenient format will genuinely widen access, or simply fuel demand, remains to be seen.",
+      "b2": "Australia's medicines regulator, the TGA, has approved a daily tablet version of the weight-loss drug Wegovy. It is made by the Danish company Novo Nordisk. The decision was made on Tuesday. It is the first GLP-1 drug in tablet form approved in Australia. Until now, patients could only take these drugs as weekly injections.\n\nThe tablet comes in four strengths, from 1.5 mg to 25 mg. It is approved for people with obesity and for people who need to reduce their risk of heart problems. Patients will need a prescription from a doctor. Each tablet contains more of the active ingredient than an injection, because the body absorbs less of it from a pill.\n\nThe tablet is not in pharmacies yet. The TGA still needs to check its packaging and production. It is expected to be available before Christmas. There is no Australian price yet, and the government only subsidises weight-loss drugs for people with type 2 diabetes.\n\nThe pill is already approved in the US and Europe, where it has been very popular. Novo Nordisk sees Australia as an important market. A rival company, Eli Lilly, is also waiting for a TGA decision on its own weight-loss pill.",
+      "vocab": [
+        {
+          "word": "sign off on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "批准；签字同意",
+          "en": "to give official approval to something",
+          "example": "The principal has signed off on the new uniform policy.",
+          "forms": [
+            "signed off on"
+          ]
+        },
+        {
+          "word": "swap",
+          "pos": "v.",
+          "ipa": "/swɒp/",
+          "zh": "以……替换",
+          "en": "to replace one thing with another",
+          "example": "I've swapped my morning coffee for green tea."
+        },
+        {
+          "word": "have yet to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚未",
+          "en": "have not done something so far, though it is expected",
+          "example": "The council has yet to announce a date for the meeting.",
+          "forms": [
+            "has yet to"
+          ]
+        },
+        {
+          "word": "open question",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "悬而未决的问题",
+          "en": "a matter that has not been decided or answered",
+          "example": "Whether the café will reopen is still an open question."
+        },
+        {
+          "word": "subsidise",
+          "pos": "v.",
+          "ipa": "/ˈsʌbsɪdaɪz/",
+          "zh": "补贴；资助",
+          "en": "to pay part of the cost of something",
+          "example": "The state subsidises public transport for students."
+        },
+        {
+          "word": "surge",
+          "pos": "v.",
+          "ipa": "/sɜːdʒ/",
+          "zh": "激增；猛涨",
+          "en": "to increase suddenly and strongly",
+          "example": "Ticket sales surged after the band announced its final tour."
+        },
+        {
+          "word": "loom",
+          "pos": "v.",
+          "ipa": "/luːm/",
+          "zh": "逼近；即将来临",
+          "en": "to seem likely to happen soon, often in a worrying way",
+          "example": "With exams looming, the library is packed every night."
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚待观察",
+          "en": "used when the result is not yet known",
+          "example": "It remains to be seen whether the new rules will work.",
+          "forms": [
+            "remains to be seen"
+          ]
+        },
+        {
+          "word": "that said",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "话虽如此",
+          "en": "used before a statement that contrasts with what came before",
+          "example": "The flat is tiny. That said, the location is perfect."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Each Wegovy tablet contains less semaglutide than the injection.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"each tablet contains more semaglutide ... than the injection\"，与题干相反，所以为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The tablet is the first oral GLP-1 drug approved by the TGA.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"making it the first oral GLP-1 drug the regulator has approved\"，所以为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Novo Nordisk will manufacture the tablet in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说澳大利亚是诺和诺德的 \"priority market\"，没有提到是否在澳生产，所以为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why is the tablet not yet available in pharmacies?",
+          "options": [
+            "The government has refused to subsidise it.",
+            "The TGA still has to review its packaging and production.",
+            "Novo Nordisk has not chosen a price.",
+            "Doctors have not been trained to prescribe it."
+          ],
+          "answer": 1,
+          "explain": "文中说 \"The TGA has yet to review the packaging and production processes\"，所以选 B。"
+        }
+      ],
+      "discuss": "Why do you think pills are often more popular than injections, even when they do the same job? Should governments help pay for weight-loss medicines? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/weight-loss-tablet-cleared-for-use-in-australia/107343340"
+        }
+      ]
+    },
+    {
+      "id": "cane-toad-barrier",
+      "category": "Environment",
+      "headline": "$28 million 'waterless barrier' planned to keep cane toads from Pilbara",
+      "headlineZh": "耗资2800万澳元打造“无水屏障”，阻止甘蔗蟾蜍入侵皮尔巴拉",
+      "summaryZh": "西澳计划切断六个牧场的人工水源，在布鲁姆以南形成7500平方公里屏障。",
+      "c1": "A $28 million project has been unveiled in a last-ditch attempt to stop cane toads from invading Western Australia's Pilbara region. The plan is to create a 7,500-square-kilometre \"waterless barrier\" south of Broome, where the estimated front line of the toads' advance now sits only about 100 kilometres from the town. Works are due to begin in 2027 and could take between two and five years to complete.\n\nThe idea hinges on a simple vulnerability: cane toads depend on water. On six pastoral stations, artificial water points such as dams and tanks will be modified so that the toads can no longer use them, in effect creating a dry corridor that they are unable to cross. On Anna Plains Station alone, which covers 3,600 square kilometres, around 100 water points would need to be altered.\n\nThe stakes are considerable. Since being introduced to Queensland in 1935, the toads have killed millions of native animals, including snakes, goannas and crocodiles. Curtin University biologist Ben Phillips described the losses as a national tragedy, arguing that the project offers the best chance of averting the worst outcome. A contribution from Rio Tinto and the Rhodes Ridge joint venture, spread over five years, more than doubles the roughly $12 million in earlier conservation funding.\n\nNotably, the scheme relies on collaboration between scientists, traditional owners and pastoralists. The Karajarri Traditional Lands Association says traditional owners were consulted throughout, and its rangers will help protect water holes of cultural significance. Station owner David Stoate admitted it took him time to come around to such a big job, describing it as merely a first step. Whether the barrier holds, however, will only become clear over many years.",
+      "b2": "A $28 million project aims to stop cane toads from reaching the Pilbara region in Western Australia. The plan is to build a \"waterless barrier\" of 7,500 square kilometres south of Broome. The toads are now only about 100 kilometres from the town. Work will start in 2027 and could take two to five years.\n\nThe plan works because cane toads need water. On six farming stations, man-made water sources such as dams and tanks will be changed so the toads cannot use them. This creates a dry area that the toads cannot cross. One station, Anna Plains, has around 100 water points that need to be changed.\n\nCane toads were brought to Queensland in 1935. Since then, they have killed millions of native animals, such as snakes, goannas and crocodiles. Biologist Ben Phillips from Curtin University called this a national tragedy. Mining company Rio Tinto and the Rhodes Ridge joint venture are paying for much of the project.\n\nScientists, traditional owners and farmers are working together. Traditional owners were asked for their views, and local rangers will help protect important water holes. One station owner said it took time to accept the idea because it is a big job.",
+      "vocab": [
+        {
+          "word": "last-ditch",
+          "pos": "adj.",
+          "ipa": "/ˌlɑːstˈdɪtʃ/",
+          "zh": "最后一搏的；孤注一掷的",
+          "en": "made as a final attempt to avoid failure",
+          "example": "The union made a last-ditch effort to stop the factory closing."
+        },
+        {
+          "word": "front line",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "前线；最前沿",
+          "en": "the most advanced position of something that is spreading or fighting",
+          "example": "Nurses were on the front line during the flu outbreak."
+        },
+        {
+          "word": "be due to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "预定；预计（做某事）",
+          "en": "be expected or planned to happen",
+          "example": "The new train line is due to open next spring.",
+          "forms": [
+            "are due to"
+          ]
+        },
+        {
+          "word": "hinge on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "取决于",
+          "en": "to depend completely on something",
+          "example": "Our holiday plans hinge on whether I get time off work.",
+          "forms": [
+            "hinges on"
+          ]
+        },
+        {
+          "word": "in effect",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "实际上；事实上",
+          "en": "in practice, even if not officially",
+          "example": "The new fee is, in effect, a tax on small businesses."
+        },
+        {
+          "word": "the stakes are",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "利害关系；风险",
+          "en": "used to say how much could be lost or gained",
+          "example": "The stakes are high for both teams in Saturday's final."
+        },
+        {
+          "word": "avert",
+          "pos": "v.",
+          "ipa": "/əˈvɜːt/",
+          "zh": "避免；防止",
+          "en": "to prevent something bad from happening",
+          "example": "Quick thinking by the driver averted a serious accident.",
+          "forms": [
+            "averting"
+          ]
+        },
+        {
+          "word": "come around to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "逐渐接受；转而同意",
+          "en": "to change your mind and accept an idea",
+          "example": "My parents eventually came around to the idea of me studying overseas."
+        },
+        {
+          "word": "of cultural significance",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "具有文化意义的",
+          "en": "important to the traditions or identity of a group",
+          "example": "The site is of cultural significance to the local community."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Construction of the waterless barrier has already started.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Works are due to begin in 2027\"，即尚未开工，所以为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Some pastoralists have refused to take part in the project.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到牧场主 David Stoate 花了时间才接受这个想法，并未提到有人拒绝参与，所以为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Cane toads were introduced to Queensland in 1935.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"Since being introduced to Queensland in 1935\"，所以为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "How will the barrier stop the toads?",
+          "options": [
+            "By building a long fence across the region",
+            "By releasing predators that eat toads",
+            "By modifying artificial water points so toads cannot use them",
+            "By draining natural rivers and lakes"
+          ],
+          "answer": 2,
+          "explain": "文中说 \"artificial water points ... will be modified so that the toads can no longer use them\"，所以选 C。"
+        }
+      ],
+      "discuss": "Why do you think introduced species are so hard to control once they spread? Who should pay to fix environmental problems like this: governments, companies or the public?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/bid-to-stop-cane-toads-entering-the-pilbara/107336504"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-cup-point-of-law",
+      "category": "Australia",
+      "headline": "Former royal horse Point of Law wins the Melbourne Cup",
+      "headlineZh": "曾属英王的赛马 Point of Law 夺得墨尔本杯",
+      "summaryZh": "驯马师马赫包揽前三名，创下墨尔本杯166届历史首例，骑师布朗首夺此杯。",
+      "c1": "A horse once owned by King Charles III and Queen Camilla has won the 166th Melbourne Cup at Flemington. Point of Law, who was sold by the King in July and started as the favourite after winning the Geelong Cup, came from the chasing pack in the closing stages to win by 3.75 lengths. Remarkably, it was only the sixth start of the horse's career.\n\nFor much of the race, however, the result looked far from certain. Royal Supremacy raced ahead early, at one stage leading by as many as 20 lengths, and was still 12 lengths clear with 400 metres to go. Jockey Ethan Brown then produced a powerful finishing burst, hitting the front with about 150 metres remaining and claiming his first Melbourne Cup.\n\nAbove all, though, the day belonged to trainer Ciaron Maher, who secured his second Cup and, in a feat unprecedented in the race's history, trained the first three horses home, with Zahrann second and Juja Kibo third. Maher said he was \"very proud\" of the result, while admitting he had not expected the leader to get so far ahead. Point of Law also became only the third Northern Hemisphere three-year-old to win the race.\n\nThere is a touch of irony in the story, too: the King parted with a horse that went on to win Australia's most famous race. Brown, for his part, told the presentation crowd that he had to pinch himself. Meanwhile, Maher's dominance of the event has inspired awe, although it has also prompted debate about whether a single stable now holds too much sway in Australian racing.",
+      "b2": "A horse that used to belong to King Charles III and Queen Camilla has won the 166th Melbourne Cup at Flemington. The King sold Point of Law in July. The horse was the favourite after winning the Geelong Cup, and it won the Melbourne Cup by 3.75 lengths. It was only the sixth race of its career.\n\nFor most of the race, another horse, Royal Supremacy, was far in front. At one point it was 20 lengths ahead, and it was still 12 lengths ahead with 400 metres left. Then jockey Ethan Brown pushed Point of Law forward very fast. They took the lead with about 150 metres to go. It was Brown's first Melbourne Cup win.\n\nIt was a big day for trainer Ciaron Maher. He won his second Melbourne Cup, and his horses also came second and third. No trainer had done this before in the history of the race. Maher said he was very proud.\n\nThe King sold a horse that later won Australia's most famous race. Brown said he could hardly believe it. Some people are now asking if Maher's stable has become too powerful in Australian racing.",
+      "vocab": [
+        {
+          "word": "chasing pack",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "追赶的群体；第二集团",
+          "en": "the group of competitors behind the leader",
+          "example": "The local runner broke away from the chasing pack in the last lap."
+        },
+        {
+          "word": "far from certain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远未确定",
+          "en": "very uncertain",
+          "example": "It is far from certain that the concert will go ahead."
+        },
+        {
+          "word": "finishing burst",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "冲刺爆发",
+          "en": "a sudden increase in speed at the end of a race",
+          "example": "Her finishing burst won her the gold medal."
+        },
+        {
+          "word": "hit the front",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "冲到最前面；取得领先",
+          "en": "to take the lead in a race",
+          "example": "The young cyclist hit the front just before the final bend.",
+          "forms": [
+            "hitting the front"
+          ]
+        },
+        {
+          "word": "unprecedented",
+          "pos": "adj.",
+          "ipa": "/ʌnˈpresɪdentɪd/",
+          "zh": "前所未有的",
+          "en": "never having happened before",
+          "example": "The city saw an unprecedented demand for rental housing."
+        },
+        {
+          "word": "part with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "放弃；舍弃（某物）",
+          "en": "to give away or sell something you would prefer to keep",
+          "example": "I couldn't bear to part with my old record collection.",
+          "forms": [
+            "parted with"
+          ]
+        },
+        {
+          "word": "go on to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "后来（做了某事）",
+          "en": "to do something later, after something else",
+          "example": "She started as a waitress and went on to run her own restaurant.",
+          "forms": [
+            "went on to"
+          ]
+        },
+        {
+          "word": "pinch yourself",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "（不敢相信）掐自己一下",
+          "en": "to check that something good is really happening",
+          "example": "When I got the job offer, I had to pinch myself.",
+          "forms": [
+            "pinch himself"
+          ]
+        },
+        {
+          "word": "hold sway",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "有支配力；占主导地位",
+          "en": "to have great power or influence",
+          "example": "Old traditions still hold sway in many country towns.",
+          "forms": [
+            "holds too much sway"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Royal Supremacy was in the lead for much of the race.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Royal Supremacy \"raced ahead early\"，在剩400米时仍领先12个身位，所以为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "King Charles watched the race in person at Flemington.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说国王在七月卖掉了这匹马，没有提到他是否到场观赛，所以为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "This was Ciaron Maher's first Melbourne Cup win as a trainer.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Maher \"secured his second Cup\"，所以为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What made Ciaron Maher's achievement unprecedented?",
+          "options": [
+            "He won the Cup with a horse he bought from the King.",
+            "He trained the horses that finished first, second and third.",
+            "He won the race for the second year in a row.",
+            "His horse won by the largest margin ever."
+          ],
+          "answer": 1,
+          "explain": "文中说 \"in a feat unprecedented in the race's history, trained the first three horses home\"，所以选 B。"
+        }
+      ],
+      "discuss": "Why do you think a horse race can 'stop the nation' in Australia? Is it a problem when one person or team dominates a major sport?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-04/melbourne-cup-analysis-ciaron-maher-dominance/107342712"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Inspecting a Flat in Brunswick",
+    "titleZh": "在布伦瑞克看房",
+    "setting": "On a Saturday morning, two friends who are hoping to move in together inspect a two-bedroom flat in Brunswick.",
+    "settingZh": "周六上午，两个打算合租的朋友在布伦瑞克看一套两居室公寓。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Wow, there must be thirty people here. Is it always this packed?",
+        "zh": "哇，这儿起码有三十个人。看房一直都这么多人吗？"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Pretty much. Anything near a tram line gets snapped up within days.",
+        "zh": "差不多吧。靠近电车线的房子几天之内就被抢光了。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Okay, first impressions: the living room's a decent size, and it gets heaps of light.",
+        "zh": "好，第一印象：客厅挺大，采光也特别好。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Yeah, but have a look at that corner near the window. Is that mould?",
+        "zh": "是，不过你看窗边那个角落，那是霉吗？"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Good spot. We should definitely raise that with the agent before we apply.",
+        "zh": "眼尖。申请之前我们一定得跟中介提一下。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "And the second bedroom's tiny. I'm not sure a double bed would even fit.",
+        "zh": "而且第二间卧室好小，我都不确定放不放得下一张双人床。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "I'd be happy to take the small one if I pay a bit less rent.",
+        "zh": "如果我少付点房租，我愿意住小的那间。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "That sounds fair. So what's the asking price again — six-fifty a week?",
+        "zh": "挺公平的。那租金是多少来着？每周六百五？"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Six-eighty, apparently. It's a bit steep, but it's in the ballpark for Brunswick.",
+        "zh": "听说是六百八。有点贵，但在布伦瑞克也算正常范围。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Fair enough. Mind you, with rates going up again, it'll probably only get worse.",
+        "zh": "也是。不过话说回来，利率又涨了，以后可能只会更贵。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Exactly. If we like it, I reckon we should put in an application today.",
+        "zh": "没错。如果我们喜欢，我觉得今天就该递申请。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Agreed. Let's ask about the mould first, though, so we know where we stand.",
+        "zh": "同意。不过先问问发霉的事，好心里有数。"
+      },
+      {
+        "s": "A",
+        "name": "Leila",
+        "en": "Deal. You grab the agent, and I'll check the water pressure in the shower.",
+        "zh": "就这么办。你去找中介，我去看看淋浴的水压。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "is rented very quickly",
+        "en": "gets snapped up",
+        "zh": "被迅速抢购/抢租一空"
+      },
+      {
+        "plain": "a lot of light",
+        "en": "heaps of light",
+        "zh": "澳式口语，heaps = 很多"
+      },
+      {
+        "plain": "You noticed well.",
+        "en": "Good spot.",
+        "zh": "眼尖；发现得好"
+      },
+      {
+        "plain": "tell the agent about",
+        "en": "raise that with the agent",
+        "zh": "向某人提出某个问题"
+      },
+      {
+        "plain": "It's quite expensive.",
+        "en": "It's a bit steep",
+        "zh": "（价格）有点高"
+      },
+      {
+        "plain": "a normal price",
+        "en": "in the ballpark",
+        "zh": "在大致合理的范围内"
+      },
+      {
+        "plain": "But remember",
+        "en": "Mind you",
+        "zh": "不过话说回来"
+      },
+      {
+        "plain": "know our situation",
+        "en": "know where we stand",
+        "zh": "清楚自己的处境/心里有数"
+      }
+    ]
+  }
+}
