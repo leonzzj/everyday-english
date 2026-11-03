@@ -1,23 +1,23 @@
 {
- "updatedAt": "2026-11-03T03:14:22.296Z",
+ "updatedAt": "2026-11-03T19:21:57.588Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "How the peptide craze is turning deadly",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-the-peptide-craze-is-turning-deadly/107337632",
-   "audio": "https://traffic.megaphone.fm/TECO5417775786.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/32bba5a4-d6d0-11f1-b1d7-7b828fbff6dc/image/2d47abcc701a4a62282e37626d54ba0f.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "title": "Will this be the last rate rise?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-this-be-the-last-rate-rise/107341918",
+   "audio": "https://traffic.megaphone.fm/TECO3168017261.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/8b5c9388-d745-11f1-9363-e36cc47157af/image/7f836c553a4c119ca38104c7b73084aa.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
    "date": "2026-11-03",
-   "minutes": 16,
+   "minutes": 22,
    "level": "C1",
    "accent": "AU",
-   "desc": "They promise everything from anti-ageing to weight loss, or even a glowing tan. &nbsp; But for a growing number of people, injectable peptides are delivering severe illnesses instead. Hospital presentations linked to their use are surging. &nbsp; Today, Dr…"
+   "desc": "Interest rates are up again, the fifth hike this year.&nbsp; It was almost&nbsp;an inevitable Melbourne Cup Day decision by the Reserve Bank, but could the government have done more to stop the pain?&nbsp; Today, chief economist at AMP Shane Oliver, on…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: An accidential midwife and the business of everyday miracles",
+   "title": "Encore: An accidental midwife and the business of everyday miracles",
    "url": "https://www.abc.net.au/listen/programs/conversations/lisa-peberdy-on-her-career-delivering-babies/107325838",
    "audio": "https://mediacore-live-production.akamaized.net/audio/02/q2/Z/69.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1b43c4fbfd578bb789d544ecd0431bd3.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The couples therapists who nearly got divorced | Harville Hendrix",
-   "url": "http://go.ted.com/harvillehendrix",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae258f70a9b7b8b95b17566/media.mp3",
+   "title": "What kids wish their parents knew about fun | Mila Rojas",
+   "url": "http://go.ted.com/milarojas",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae8b9cd008b613dfe44544a/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-03",
-   "minutes": 17,
+   "date": "2026-11-04",
+   "minutes": 9,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Couples therapists Harville Hendrix and Helen LaKelly Hunt spent decades teaching the world how to love well … even as their own marriage was falling apart. In this candid, funny talk, Hendrix recounts the yearlong experiment in listening that saved their…"
+   "desc": "When was the last time you played, just for fun? Eleven-year-old Mila Rojas has noticed that adults — buried under schedules, expectations and the pressure to be serious — often see play as unproductive. In this delightful talk, she shows why having fun is…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "The self-making world",
-   "url": "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck",
+   "title": "Believing and thinking",
+   "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/e7ea39c8-e023-47fb-820f-7a6d68ed3928/essay-humpbacks.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-02",
+   "image": "https://images.aeonmedia.co/images/40611a3c-3e4d-417a-b2a9-5d3ec4f128a0/essay-gettyimages-1431136250.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-03",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Long mocked and misunderstood, Lamarck’s radical idea that organisms shape themselves and their world is making a comeback - by Jessica Riskin Read on Aeon"
+   "desc": "The separation of church and state has an unspoken psychological basis: we choose what we believe, but not what we think - by Neil Van Leeuwen & Jacob Eisler Read on Aeon"
   }
  ]
 }
