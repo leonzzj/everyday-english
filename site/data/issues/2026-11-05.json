@@ -1,0 +1,744 @@
+{
+  "date": "2026-11-05",
+  "issueNo": 19,
+  "title": "COP31 in Antalya, Canva's restructure and California's hidden insects",
+  "createdAt": "2026-11-05T06:49:30+11:00",
+  "stories": [
+    {
+      "id": "cop31-antalya",
+      "category": "World",
+      "headline": "Climate talks open in Türkiye next week with Australia steering negotiations",
+      "headlineZh": "联合国气候大会下周在土耳其开幕，澳大利亚主导谈判",
+      "summaryZh": "COP31将于11月9日在安塔利亚开幕，化石燃料过渡路线图和气候资金预计是最大争议。",
+      "c1": "Delegates from around the world are preparing to descend on the Turkish resort city of Antalya, where the United Nations climate summit known as COP31 will run from 9 to 20 November. The meeting comes with an unusual twist: although Türkiye is the host and its minister Murat Kurum will serve as COP31 President, Australia's climate minister Chris Bowen has been given the role of President of Negotiations. The compromise was struck late last year, when Australia abandoned its bid to stage the summit in Adelaide.\n\nThe most contentious item on the agenda is likely to be a roadmap for transitioning away from fossil fuels. Such a plan was promised at last year's summit in Brazil but has yet to be finalised, and only days before the talks Brazil released a roadmap of its own, albeit a voluntary one. Whether governments can agree on anything binding remains, at best, an open question.\n\nMoney, as ever, will loom large. Countries have already agreed that at least $300 billion a year should flow to developing nations by 2035, and there is a separate pledge to at least triple adaptation finance by the same date. Kurum has said that closing the \"huge gap\" in climate finance will be one of his main priorities, while negotiators must also revisit a global goal on adaptation that they failed to settle at earlier talks in Bonn.\n\nAustralia's prominent role is not without its critics. Some campaigners point out that dozens of new fossil fuel projects have been approved in Australia since 2022, which, they argue, undermines its credibility as a broker. Even so, world leaders are expected to gather in Antalya on 11 and 12 November, and the outcome will be closely watched.",
+      "b2": "Delegates from many countries will soon travel to Antalya, a city in Türkiye, for the United Nations climate summit called COP31. It will run from 9 to 20 November. The arrangement is unusual. Türkiye is the host, and its minister Murat Kurum will be COP31 President. However, Australia's climate minister Chris Bowen will lead the negotiations. Australia agreed to this after it gave up its plan to hold the summit in Adelaide.\n\nThe hardest topic will probably be a plan to move away from fossil fuels. Countries promised this plan at last year's summit in Brazil, but it is still not finished. Just before the talks, Brazil published its own plan, but it is voluntary.\n\nMoney will also be a big issue. Countries have agreed that at least $300 billion a year should go to developing nations by 2035. They have also promised to at least triple money for adaptation by then. Kurum says closing the \"huge gap\" in climate finance is a main priority.\n\nSome people criticise Australia's role. Campaigners say Australia has approved many new fossil fuel projects since 2022, so it may not seem a fair leader. World leaders are expected in Antalya on 11 and 12 November.",
+      "vocab": [
+        {
+          "word": "descend on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（大批人）涌向某地",
+          "en": "to arrive at a place in large numbers",
+          "example": "Thousands of fans descended on the city for the grand final."
+        },
+        {
+          "word": "strike a compromise",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "达成妥协",
+          "en": "to reach an agreement in which each side gives up something",
+          "example": "After hours of debate, the two flatmates finally struck a compromise over the cleaning roster.",
+          "forms": [
+            "compromise was struck"
+          ]
+        },
+        {
+          "word": "contentious",
+          "pos": "adj.",
+          "ipa": "/kənˈtenʃəs/",
+          "zh": "有争议的",
+          "en": "likely to cause disagreement or argument",
+          "example": "Parking fees became a contentious issue at the council meeting."
+        },
+        {
+          "word": "albeit",
+          "pos": "conj.",
+          "ipa": "/ɔːlˈbiːɪt/",
+          "zh": "尽管；虽然",
+          "en": "although; used to add a limiting fact",
+          "example": "She finished the marathon, albeit much more slowly than she had hoped."
+        },
+        {
+          "word": "an open question",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "悬而未决的问题",
+          "en": "something that has not yet been decided or answered",
+          "example": "Whether the new café will survive the winter is still an open question."
+        },
+        {
+          "word": "loom large",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "显得突出；令人担忧",
+          "en": "to seem important or worrying, especially about something coming",
+          "example": "Exams loom large in every student's mind at this time of year."
+        },
+        {
+          "word": "not without its critics",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "也有人批评",
+          "en": "criticised by some people",
+          "example": "The new bike lane is popular, but it is not without its critics."
+        },
+        {
+          "word": "undermine its credibility",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "损害其可信度",
+          "en": "to make something less believable or trusted",
+          "example": "Repeated delays could undermine the company's credibility with customers.",
+          "forms": [
+            "undermines its credibility"
+          ]
+        },
+        {
+          "word": "broker",
+          "pos": "n.",
+          "ipa": "/ˈbrəʊkə/",
+          "zh": "调解人；中间人",
+          "en": "a person or country that helps others reach an agreement",
+          "example": "Norway has often acted as a peace broker in long-running conflicts."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Murat Kurum will lead the negotiations at COP31.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Kurum 担任 \"COP31 President\"，而 \"Chris Bowen has been given the role of President of Negotiations\"，主导谈判的是 Bowen。"
+        },
+        {
+          "type": "tfng",
+          "q": "Brazil's recently released fossil fuel roadmap is voluntary.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"Brazil released a roadmap of its own, albeit a voluntary one\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Fewer world leaders will attend COP31 than attended last year's summit.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说 \"world leaders are expected to gather in Antalya on 11 and 12 November\"，没有与往年人数比较。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why do some campaigners question Australia's role at the summit?",
+          "options": [
+            "Because Australia withdrew from the Paris Agreement",
+            "Because Australia has approved many new fossil fuel projects since 2022",
+            "Because Australia refused to host the summit in Adelaide",
+            "Because Australia opposes climate finance for developing nations"
+          ],
+          "answer": 1,
+          "explain": "原文：\"dozens of new fossil fuel projects have been approved in Australia since 2022, which, they argue, undermines its credibility as a broker\"。"
+        }
+      ],
+      "discuss": "Why do you think it is so difficult for countries to agree on moving away from fossil fuels? Should a country's own record affect its right to lead such talks?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2025-11-20/australia-withdraws-bid-to-host-cop31-in-adelaide/106031148"
+        },
+        {
+          "name": "United Nations University",
+          "url": "https://unu.edu/ehs/article/5-expectations-cop-31-antalya"
+        },
+        {
+          "name": "Resilience",
+          "url": "https://resilience.org/stories/2026-11-03/cop31-will-countries-finally-deliver-on-past-promises"
+        }
+      ]
+    },
+    {
+      "id": "california-insects",
+      "category": "Science",
+      "headline": "California may be home to over 60,000 insect species, study finds",
+      "headlineZh": "研究发现：加州或有超过六万种昆虫",
+      "summaryZh": "科学家对百万余份昆虫样本做DNA条形码分析，发现约三分之一的加州昆虫尚未被命名。",
+      "c1": "California's wild places appear to be teeming with far more life than anyone had realised. According to a study published on 4 November in the journal Ecography, the state is likely to be home to more than 60,000 species of insects, and only about two-thirds of them have been formally described by scientists. In other words, at least a third of California's insects have never been officially named.\n\nThe estimate is the product of an ambitious project known as the California Insect Barcode Initiative, led by researchers at the Natural History Museum of Los Angeles County together with several universities and museums. The team DNA-barcoded more than a million specimens, drawing on museum collections as well as fresh samples. Insect traps known as Malaise traps were set up in 72 ecoregions across the state, and expeditions visited a further 454 locations, while community volunteers helped keep the traps running week after week.\n\nPerhaps the most striking finding is just how distinct each area turned out to be. Almost every site supported its own insect community, and even regions with broadly similar climates and landscapes differed markedly. The Mojave Basin and Range, a desert region, had the highest species richness of all. As one researcher put it, \"every part of the state hosts a really different insect fauna.\"\n\nThe authors argue that the results carry real weight for conservation. Although insects are the most diverse group of land animals, they tend to be overlooked in large-scale assessments of biodiversity. If each region harbours a unique set of species, protecting a handful of showcase habitats may not be enough to safeguard them.",
+      "b2": "California may have far more wildlife than people thought. A study published on 4 November in the journal Ecography says the state probably has more than 60,000 kinds of insects. Scientists have officially described only about two-thirds of them, so at least one-third have never been named.\n\nThe number comes from a big project called the California Insect Barcode Initiative. It was led by the Natural History Museum of Los Angeles County, working with universities and other museums. The team used DNA to identify more than one million insects. They set traps in 72 different regions and visited 454 other places. Volunteers helped to check the traps every week.\n\nThe researchers were surprised by how different each area was. Almost every place had its own group of insects, even when the climate and land were similar. A desert area called the Mojave Basin and Range had the most species.\n\nThe scientists say this matters for protecting nature. Insects are the most varied group of land animals, but they are often left out of big studies of wildlife. If every region has different species, protecting only a few special places may not be enough.",
+      "vocab": [
+        {
+          "word": "be teeming with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "充满；到处都是",
+          "en": "to be full of living things or people",
+          "example": "On Saturday mornings the market is teeming with shoppers.",
+          "forms": [
+            "teeming with"
+          ]
+        },
+        {
+          "word": "formally described",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "（物种）被正式描述命名",
+          "en": "officially recorded and named in scientific literature",
+          "example": "The frog was only formally described last year, although locals had known about it for decades."
+        },
+        {
+          "word": "ambitious",
+          "pos": "adj.",
+          "ipa": "/æmˈbɪʃəs/",
+          "zh": "雄心勃勃的；规模宏大的",
+          "en": "needing a lot of effort, skill or time to succeed",
+          "example": "Rebuilding the whole website in a month is an ambitious plan."
+        },
+        {
+          "word": "draw on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "利用；借鉴",
+          "en": "to use information, experience or resources",
+          "example": "In her speech she drew on her years of working as a nurse.",
+          "forms": [
+            "drawing on"
+          ]
+        },
+        {
+          "word": "markedly",
+          "pos": "adv.",
+          "ipa": "/ˈmɑːkɪdli/",
+          "zh": "明显地",
+          "en": "in a way that is clear and noticeable",
+          "example": "Prices in the inner suburbs are markedly higher than in the outer ones."
+        },
+        {
+          "word": "carry real weight",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "具有重大意义；很有分量",
+          "en": "to be important or influential",
+          "example": "A recommendation from a former manager can carry real weight with employers."
+        },
+        {
+          "word": "overlooked",
+          "pos": "adj.",
+          "ipa": "/ˌəʊvəˈlʊkt/",
+          "zh": "被忽视的",
+          "en": "not noticed or given enough attention",
+          "example": "Small businesses are often overlooked when new policies are designed."
+        },
+        {
+          "word": "harbour",
+          "pos": "v.",
+          "ipa": "/ˈhɑːbə/",
+          "zh": "藏有；栖息着",
+          "en": "to contain or provide a home for something",
+          "example": "Old wooden furniture can harbour termites for years without anyone noticing.",
+          "forms": [
+            "harbours"
+          ]
+        },
+        {
+          "word": "safeguard",
+          "pos": "v.",
+          "ipa": "/ˈseɪfɡɑːd/",
+          "zh": "保护；捍卫",
+          "en": "to protect something from harm or loss",
+          "example": "Strong passwords help safeguard your personal information."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Scientists have already named about two-thirds of California's insect species.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"only about two-thirds of them have been formally described by scientists\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Regions with similar climates were found to have almost identical insect communities.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：\"even regions with broadly similar climates and landscapes differed markedly\"，与题干相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "Insect numbers in California have fallen sharply over the past decade.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章讨论的是物种数量和分布差异，没有提到 \"fallen sharply\" 之类的数量变化。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which area had the greatest number of insect species?",
+          "options": [
+            "The Sierra Nevada",
+            "Southern California's coastal cities",
+            "The Mojave Basin and Range",
+            "Northern California's mountains"
+          ],
+          "answer": 2,
+          "explain": "原文：\"The Mojave Basin and Range, a desert region, had the highest species richness of all.\""
+        }
+      ],
+      "discuss": "Why do you think insects receive less attention than larger animals in conservation? Should governments spend more money on discovering new species?",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-scientists-bugs-california-thought.html"
+        }
+      ]
+    },
+    {
+      "id": "canva-restructure",
+      "category": "Tech",
+      "headline": "Canva restructure to affect 22 per cent of its global workforce",
+      "headlineZh": "Canva宣布重组，影响全球22%员工",
+      "summaryZh": "十年来首次增长放缓，Canva约1270个岗位将被裁撤、调整或迁移，悉尼成产品团队主基地。",
+      "c1": "Canva, the Australian design platform that grew from a Perth start-up into a global giant, has announced a sweeping restructure affecting about 1,270 people, or roughly 22 per cent of its worldwide workforce. In a memo to staff, co-founder and chief executive Melanie Perkins described it as the \"hardest moment in our 13-year history\". Not everyone affected will lose their job, however: some employees will move into new roles, while others may be asked to relocate.\n\nThe company has pointed to two main reasons. Its growth has slowed for the first time in a decade, and \"new technology\" is reshaping the way people create and use its products. Notably, the announcement did not mention artificial intelligence by name, although reports suggest that the cost of running AI features has weighed on the business. Perkins argued that small adjustments would not be enough to set the company up for its next chapter.\n\nAs part of the overhaul, Sydney will become the main base for Canva's product teams, and from January most hybrid workers will be expected in the office two to three days a week. Departing staff will receive at least six months' salary, and a new fund will offer US$10,000 grants to those who want to launch a business or a community project.\n\nCanva is by no means alone. Atlassian shed around 1,600 jobs earlier this year, nearly 500 of them in Australia, citing AI as a reason it could operate with fewer people. Taken together, these moves raise uncomfortable questions about whether the local tech sector's long hiring boom has come to an end.",
+      "b2": "Canva, the Australian design company that started as a small business in Perth, has announced a big restructure. It will affect about 1,270 people, or around 22 per cent of its staff around the world. Chief executive Melanie Perkins told staff it was the \"hardest moment in our 13-year history\". Not everyone will lose their job. Some people will get new roles, and others may need to move.\n\nCanva gave two main reasons. Its growth has slowed for the first time in ten years, and new technology is changing how people use its products. The company did not mention AI directly. Perkins said small changes would not be enough for the company's future.\n\nSydney will become the main home for Canva's product teams. From January, most staff who work in a hybrid way will need to be in the office two to three days a week. People who leave will get at least six months' pay. They can also apply for a US$10,000 grant to start a business or community project.\n\nOther tech companies are also cutting jobs. Earlier this year, Atlassian cut about 1,600 jobs, including nearly 500 in Australia.",
+      "vocab": [
+        {
+          "word": "sweeping",
+          "pos": "adj.",
+          "ipa": "/ˈswiːpɪŋ/",
+          "zh": "大范围的；全面的",
+          "en": "affecting many things or people in a big way",
+          "example": "The new government promised sweeping changes to the health system."
+        },
+        {
+          "word": "relocate",
+          "pos": "v.",
+          "ipa": "/ˌriːləʊˈkeɪt/",
+          "zh": "搬迁；调往别处",
+          "en": "to move to a new place to live or work",
+          "example": "Her firm asked her to relocate to Brisbane for two years."
+        },
+        {
+          "word": "weigh on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "拖累；使承受压力",
+          "en": "to have a negative effect on something or someone",
+          "example": "Rising rents are weighing on young people's savings.",
+          "forms": [
+            "weighed on"
+          ]
+        },
+        {
+          "word": "set something up for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "为……做好准备",
+          "en": "to put someone or something in a good position for the future",
+          "example": "A good night's sleep sets you up for a productive day.",
+          "forms": [
+            "set the company up for"
+          ]
+        },
+        {
+          "word": "overhaul",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəhɔːl/",
+          "zh": "全面改革；彻底检修",
+          "en": "a complete change or repair of a system",
+          "example": "The school timetable is due for a major overhaul next year."
+        },
+        {
+          "word": "by no means",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝不；一点也不",
+          "en": "not at all; certainly not",
+          "example": "The exam was by no means easy, but most of us passed."
+        },
+        {
+          "word": "shed jobs",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "裁员",
+          "en": "to reduce the number of employees",
+          "example": "The car maker plans to shed jobs as sales continue to fall.",
+          "forms": [
+            "shed around 1,600 jobs"
+          ]
+        },
+        {
+          "word": "raise questions about",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发对……的疑问",
+          "en": "to make people doubt or wonder about something",
+          "example": "The delays raise questions about whether the project is properly managed.",
+          "forms": [
+            "raise uncomfortable questions about"
+          ]
+        },
+        {
+          "word": "come to an end",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "结束；告终",
+          "en": "to finish",
+          "example": "All good holidays must come to an end eventually."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All 1,270 people affected by the restructure will lose their jobs.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：\"Not everyone affected will lose their job\"，有人会换岗或迁移。"
+        },
+        {
+          "type": "tfng",
+          "q": "Canva's announcement explicitly named artificial intelligence as a cause of the changes.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：\"the announcement did not mention artificial intelligence by name\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Departing staff will receive at least six months' salary.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"Departing staff will receive at least six months' salary\"。"
+        },
+        {
+          "type": "mcq",
+          "q": "What will change for most of Canva's hybrid workers from January?",
+          "options": [
+            "They will have to move to Perth",
+            "They will work fully from home",
+            "They will be expected in the office two to three days a week",
+            "They will receive a US$10,000 bonus"
+          ],
+          "answer": 2,
+          "explain": "原文：\"from January most hybrid workers will be expected in the office two to three days a week\"。"
+        }
+      ],
+      "discuss": "Why do you think successful tech companies are cutting staff even while they keep growing? How might technology change the kinds of jobs available in the next ten years?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce"
+        }
+      ]
+    },
+    {
+      "id": "social-cohesion-survey",
+      "category": "Society",
+      "headline": "Survey finds Australians more pessimistic and divided over immigration",
+      "headlineZh": "调查显示澳大利亚人更加悲观，在移民问题上分歧加深",
+      "summaryZh": "斯坎伦基金会调查显示，59%受访者认为移民过多，三分之一的人对未来感到焦虑。",
+      "c1": "Australians are growing gloomier about the future and more divided on immigration, according to the latest Mapping Social Cohesion report from the Scanlon Foundation. Now in its 20th year, the study surveyed 10,000 adults on everything from life satisfaction to household finances. One in three respondents expect their lives to be somewhat or much worse in three to four years, a figure three times higher than in the first survey in 2006.\n\nFinancial strain appears to be a major driver of that unease. About one in five people said they had been unable to afford medicine or healthcare, and almost as many had struggled to pay for heating and cooling. Young and middle-aged adults, women and single-income households were the most likely to be doing it tough. Faith in institutions has also eroded: 48 per cent believe the system of government needs major change or should be replaced, the highest share since the question was introduced in 2014.\n\nAttitudes to immigration have shifted noticeably. A record 59 per cent now say immigration levels are too high, and 38 per cent agree that immigrants take jobs, also a record. Nevertheless, a clear majority, 64 per cent, still believe that accepting immigrants makes Australia stronger, even if that figure has dropped from 78 per cent in 2022.\n\nInterestingly, although 62 per cent feel that social cohesion is deteriorating, the report's own index of cohesion has remained largely flat in recent years. The foundation's chief executive, Anthea Hancocks, suggested that financial pressure can make people more inward-looking, yet she also insisted that \"Australia's social cohesion is very resilient\".",
+      "b2": "Australians are feeling more negative about the future and more divided about immigration, says a new report from the Scanlon Foundation. The study is in its 20th year and asked 10,000 adults about their lives and money. One in three people think their lives will be worse in three to four years. That is three times more than in the first survey in 2006.\n\nMoney problems seem to be a big reason. About one in five people could not pay for medicine or healthcare, and many could not pay for heating and cooling. Young and middle-aged adults, women and families with one income had the most trouble. Also, 48 per cent of people think the system of government needs big changes or should be replaced. This is the highest number since 2014.\n\nViews on immigration have changed. A record 59 per cent say immigration is too high. However, 64 per cent still think immigrants make Australia stronger, though this was 78 per cent in 2022.\n\nAlthough 62 per cent think social cohesion is getting worse, the report's own measure has stayed about the same. The foundation's chief executive, Anthea Hancocks, said Australia's social cohesion is \"very resilient\".",
+      "vocab": [
+        {
+          "word": "gloomy",
+          "pos": "adj.",
+          "ipa": "/ˈɡluːmi/",
+          "zh": "悲观的；沮丧的",
+          "en": "feeling that things will not get better",
+          "example": "Economists are gloomy about the outlook for next year.",
+          "forms": [
+            "gloomier"
+          ]
+        },
+        {
+          "word": "a major driver of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "……的主要推动因素",
+          "en": "one of the main causes of something",
+          "example": "Housing costs are a major driver of stress for young renters."
+        },
+        {
+          "word": "unease",
+          "pos": "n.",
+          "ipa": "/ʌnˈiːz/",
+          "zh": "不安；忧虑",
+          "en": "a feeling of worry or discomfort",
+          "example": "There was a sense of unease in the office after the announcement."
+        },
+        {
+          "word": "do it tough",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "（澳式）日子难过",
+          "en": "(Australian) to experience financial or personal hardship",
+          "example": "A lot of farmers are doing it tough after two dry seasons.",
+          "forms": [
+            "doing it tough"
+          ]
+        },
+        {
+          "word": "erode",
+          "pos": "v.",
+          "ipa": "/ɪˈrəʊd/",
+          "zh": "逐渐削弱；侵蚀",
+          "en": "to gradually reduce or weaken something",
+          "example": "Constant broken promises can erode voters' trust.",
+          "forms": [
+            "eroded"
+          ]
+        },
+        {
+          "word": "shift noticeably",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "明显转变",
+          "en": "to change in a way people can clearly see",
+          "example": "Public opinion on working from home has shifted noticeably since 2020.",
+          "forms": [
+            "shifted noticeably"
+          ]
+        },
+        {
+          "word": "deteriorate",
+          "pos": "v.",
+          "ipa": "/dɪˈtɪəriəreɪt/",
+          "zh": "恶化；变坏",
+          "en": "to become worse",
+          "example": "His health began to deteriorate during the long winter.",
+          "forms": [
+            "deteriorating"
+          ]
+        },
+        {
+          "word": "inward-looking",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "内向的；只顾自身的",
+          "en": "focused on yourself or your own group, not others",
+          "example": "Small towns can become inward-looking when young people move away."
+        },
+        {
+          "word": "resilient",
+          "pos": "adj.",
+          "ipa": "/rɪˈzɪliənt/",
+          "zh": "有韧性的；能迅速恢复的",
+          "en": "able to recover quickly from difficulties",
+          "example": "Children are often more resilient than adults expect."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The share of people expecting their lives to get worse has tripled since 2006.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"a figure three times higher than in the first survey in 2006\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most respondents no longer believe immigrants make Australia stronger.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：\"a clear majority, 64 per cent, still believe that accepting immigrants makes Australia stronger\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Respondents in regional areas were more pessimistic than those in cities.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有比较 regional areas 和 cities 的受访者。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the report's own social cohesion index show?",
+          "options": [
+            "A sharp fall in recent years",
+            "A record high this year",
+            "Little change in recent years",
+            "A steady rise since 2022"
+          ],
+          "answer": 2,
+          "explain": "原文：\"the report's own index of cohesion has remained largely flat in recent years\"。"
+        }
+      ],
+      "discuss": "Why do you think people's sense of the economy affects how they feel about newcomers? What could communities do to build stronger connections?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-05/scanlon-foundation-social-cohesion-survey/107342800"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck on a Delayed Train",
+    "titleZh": "被困在晚点的火车上",
+    "setting": "On a weekday morning, two colleagues bump into each other on a crowded Craigieburn line train that has stopped between stations.",
+    "settingZh": "工作日早上，两位同事在一列停在两站之间、拥挤的Craigieburn线火车上偶遇。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Marcus! Fancy seeing you here. Have they said why we've stopped?",
+        "zh": "Marcus！真巧在这儿碰到你。他们说为什么停车了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Something about a signal fault up ahead. Apparently it could be a while.",
+        "zh": "好像是前面信号故障。据说可能要等一阵子。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Great, just what I needed. I've got a client meeting at nine.",
+        "zh": "太好了，正是我需要的。我九点要见客户。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Ouch. Maybe flick them a message now, just to be on the safe side?",
+        "zh": "哎呀。要不现在给他们发个消息，以防万一？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Yeah, good call. I'll say I'm running late but still on my way.",
+        "zh": "对，好主意。我就说我会晚点，但已经在路上了。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Honestly, this line's been hit and miss all week. It's doing my head in.",
+        "zh": "说真的，这条线整个星期都时好时坏，快把我逼疯了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Tell me about it. I've half a mind to start riding my bike again.",
+        "zh": "可不是嘛。我都有点想重新骑车上班了。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "From Coburg? That's a fair hike, especially once summer properly kicks in.",
+        "zh": "从Coburg骑？那可挺远的，尤其是真正入夏以后。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "True, but at least I'd know exactly when I'd get there.",
+        "zh": "没错，但至少我能确切知道什么时候到。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Fair point. Did you catch the news about Canva this morning, by the way?",
+        "zh": "有道理。对了，你今天早上看到Canva的新闻了吗？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "I did. My cousin works there, so she's pretty anxious about it.",
+        "zh": "看到了。我表姐在那儿工作，所以她挺焦虑的。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "I bet. Hopefully she lands on her feet, whatever happens.",
+        "zh": "可想而知。希望不管怎样她都能顺利度过。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh, we're moving! Fingers crossed we don't grind to a halt again.",
+        "zh": "哦，车动了！但愿别再停下来了。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Don't jinx it! Let's just enjoy it while it lasts.",
+        "zh": "别乌鸦嘴！趁还在走就好好享受吧。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What a surprise to meet you here!",
+        "en": "Fancy seeing you here.",
+        "zh": "偶遇熟人时的口语说法"
+      },
+      {
+        "plain": "send them a message",
+        "en": "flick them a message",
+        "zh": "澳式口语：随手发个消息"
+      },
+      {
+        "plain": "to be careful, just in case",
+        "en": "just to be on the safe side",
+        "zh": "以防万一"
+      },
+      {
+        "plain": "It's unreliable.",
+        "en": "been hit and miss",
+        "zh": "时好时坏，不稳定"
+      },
+      {
+        "plain": "It's making me very annoyed.",
+        "en": "It's doing my head in.",
+        "zh": "英澳口语：让人烦透了"
+      },
+      {
+        "plain": "I'm thinking about",
+        "en": "I've half a mind to",
+        "zh": "有点想要（做某事）"
+      },
+      {
+        "plain": "That's quite a long way.",
+        "en": "That's a fair hike",
+        "zh": "路途挺远的"
+      },
+      {
+        "plain": "I hope she will be OK.",
+        "en": "Hopefully she lands on her feet",
+        "zh": "希望她能渡过难关"
+      }
+    ]
+  }
+}
