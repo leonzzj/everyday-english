@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T19:21:57.588Z",
+ "updatedAt": "2026-11-04T03:14:26.478Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: An accidental midwife and the business of everyday miracles",
-   "url": "https://www.abc.net.au/listen/programs/conversations/lisa-peberdy-on-her-career-delivering-babies/107325838",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q2/Z/69.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1b43c4fbfd578bb789d544ecd0431bd3.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-03",
-   "minutes": 46,
+   "title": "Hags, bears and magic — what fairytales can teach us about modern life",
+   "url": "https://www.abc.net.au/listen/programs/conversations/sharon-blackie-fairytales-hags-women-nature/107329354",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q2/Z/jr.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fa037c4f5b64e578f7187070fe8168357.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-04",
+   "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "Lisa Peberdy has been delivering babies for over 40 years, in hospitals and homes, in cities and remote locations and she still cries with joy at every birth. During Lisa's first career as a nurse, she was physically repelled by the notion of childbirth. When…"
+   "desc": "Instructions on how to forge a path through a darkening world, according to former neuroscientist and psychoanalyst, Dr Sharon Blackie. Sharon grew up in what she calls the edge lands — on a council estate, near marshes full of migrating birds, next to the…"
   },
   {
    "source": "TED Talks Daily",
