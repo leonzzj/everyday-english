@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-04T03:14:26.478Z",
+ "updatedAt": "2026-11-04T19:26:04.566Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Will this be the last rate rise?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-this-be-the-last-rate-rise/107341918",
-   "audio": "https://traffic.megaphone.fm/TECO3168017261.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/8b5c9388-d745-11f1-9363-e36cc47157af/image/7f836c553a4c119ca38104c7b73084aa.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-03",
-   "minutes": 22,
+   "title": "A midterm reckoning for Donald Trump",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/a-midterm-reckoning-for-donald-trump/107344702",
+   "audio": "https://traffic.megaphone.fm/TECO8754866201.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/fe4c052a-d814-11f1-a047-13b96dafad58/image/81eb3ae5ce447ecf379812489e673d14.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-04",
+   "minutes": 18,
    "level": "C1",
    "accent": "AU",
-   "desc": "Interest rates are up again, the fifth hike this year.&nbsp; It was almost&nbsp;an inevitable Melbourne Cup Day decision by the Reserve Bank, but could the government have done more to stop the pain?&nbsp; Today, chief economist at AMP Shane Oliver, on…"
+   "desc": "As the polls closed in the US midterm elections, the result became clear early on. It was a wipeout for the Republicans.&nbsp; Voters across the country delivered a scathing assessment of Donald Trump's first two years of his second term,&nbsp;resulting in a…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "What kids wish their parents knew about fun | Mila Rojas",
-   "url": "http://go.ted.com/milarojas",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae8b9cd008b613dfe44544a/media.mp3",
+   "title": "5 ideas for better government in the US | Jeff Maurer",
+   "url": "http://go.ted.com/jeffmaurer",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae8b9dc008b613dfe44544b/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-04",
-   "minutes": 9,
+   "date": "2026-11-05",
+   "minutes": 16,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "When was the last time you played, just for fun? Eleven-year-old Mila Rojas has noticed that adults — buried under schedules, expectations and the pressure to be serious — often see play as unproductive. In this delightful talk, she shows why having fun is…"
+   "desc": "Should the US Constitution protect your DNA? Your voice? Your data? Entrepreneur Jeff Maurer spent his youth fighting fires alongside World War II veterans, and he thinks the spirit that united them can power America's next 250 years. He proposes five new…"
   },
   {
    "source": "SBS Learn English",
