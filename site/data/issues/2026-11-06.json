@@ -1,0 +1,731 @@
+{
+  "date": "2026-11-06",
+  "issueNo": 20,
+  "title": "Paraguay's bank crisis, David Jones and chlamydia-free koalas",
+  "createdAt": "2026-11-06T06:53:34+11:00",
+  "stories": [
+    {
+      "id": "paraguay-bank-collapse",
+      "category": "World",
+      "headline": "Paraguay's president resigns after a major bank collapses",
+      "headlineZh": "大型银行倒闭，巴拉圭总统辞职",
+      "summaryZh": "Ueno银行被央行接管、约三百万客户无法取款，总统佩尼亚在弹劾辩论中宣布辞职。",
+      "c1": "Paraguay's president, Santiago Peña, resigned on Thursday, bowing to mounting pressure over the collapse of Ueno Bank, a lender that had grown from an obscure finance company into one of the country's best-known brands. He stepped down while the Chamber of Deputies was debating whether to impeach him, and announced his decision in a video posted to X, in which he apologised but stopped short of accepting responsibility for the crisis. Vice-President Pedro Alliana is reportedly set to take over.\n\nThe bank's downfall was remarkably swift. On Tuesday the central bank seized Ueno, citing a severe capital shortfall, after inspectors uncovered poorly documented loans and expenses that had been wrongly booked as assets. Once the books were corrected, its capital fell by half, well below the legal minimum. Almost overnight, the bank's app, cards and transfers stopped working and its branches shut, leaving roughly three million customers unable to reach their money.\n\nWhat has turned a financial failure into a political one is the web of connections between the bank and the government. Peña held a stake in Ueno's holding company until last year, and he had appointed a former head of the group's finance arm to lead the very central bank responsible for supervising it. Public bodies, including state pension and health funds, had also deposited about US$800 million with the lender.\n\nLarge crowds have taken to the streets of the capital, Asunción, and many depositors say they feel betrayed. Critics argue that the crisis exposes how closely the long-ruling Colorado Party is intertwined with regulators and business elites. Whether a change of leader will be enough to restore public trust, however, remains far from certain.",
+      "b2": "Paraguay's president, Santiago Peña, resigned on Thursday after the collapse of Ueno Bank, one of the country's best-known banks. He stepped down while lawmakers were debating whether to impeach him. In a video posted to X, he apologised, but he did not accept responsibility for the crisis. Vice-President Pedro Alliana is reportedly set to replace him.\n\nThe bank failed very quickly. On Tuesday, the central bank took control of Ueno because it did not have enough capital. Inspectors found badly documented loans and some expenses that had been recorded as assets. After these mistakes were fixed, the bank's capital fell by half, below the legal minimum. Its app, cards and transfers stopped working, and its branches closed. About three million customers could not get their money.\n\nThe crisis became political because of the close links between the bank and the government. Peña owned part of the bank's holding company until last year. He had also chosen a former manager from the same group to run the central bank, which supervises banks. State pension and health funds had put about US$800 million into Ueno.\n\nLarge crowds have protested in Asunción, the capital, and many feel betrayed. Critics say the long-ruling Colorado Party is too close to regulators and business leaders. It is unclear whether a new leader can win back trust.",
+      "vocab": [
+        {
+          "word": "mounting pressure",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "日益增大的压力",
+          "en": "pressure that is steadily increasing",
+          "example": "The minister finally resigned under mounting pressure from her own party."
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "没有走到…的地步",
+          "en": "to almost do something but decide not to",
+          "example": "The report stopped short of blaming the council directly.",
+          "forms": [
+            "stopped short of"
+          ]
+        },
+        {
+          "word": "capital shortfall",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "资本金缺口",
+          "en": "a situation where a bank or company has less capital than it needs",
+          "example": "Regulators gave the lender six months to fix its capital shortfall."
+        },
+        {
+          "word": "almost overnight",
+          "pos": "adv. phr.",
+          "ipa": "",
+          "zh": "几乎一夜之间",
+          "en": "very suddenly, in a very short time",
+          "example": "The café became popular almost overnight after a viral video."
+        },
+        {
+          "word": "web of connections",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "错综复杂的关系网",
+          "en": "a complicated set of links between people or organisations",
+          "example": "Journalists spent months untangling the web of connections between the two firms."
+        },
+        {
+          "word": "take to the streets",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "走上街头（抗议）",
+          "en": "to go out in public in large numbers to protest",
+          "example": "Thousands of students took to the streets to demand action on climate change.",
+          "forms": [
+            "taken to the streets"
+          ]
+        },
+        {
+          "word": "intertwined",
+          "pos": "adj.",
+          "ipa": "/ˌɪntəˈtwaɪnd/",
+          "zh": "紧密交织的",
+          "en": "closely connected so that one affects the other",
+          "example": "In many towns, the local economy is intertwined with tourism."
+        },
+        {
+          "word": "restore public trust",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "恢复公众信任",
+          "en": "to make people believe in an institution again",
+          "example": "The new chief executive promised to restore public trust after the scandal."
+        },
+        {
+          "word": "far from certain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远未确定",
+          "en": "not at all sure or definite",
+          "example": "It's far from certain that the project will be finished on time."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Peña accepted full responsibility for the bank's collapse in his video.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说他道歉但 \"stopped short of accepting responsibility for the crisis\"，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Inspectors found that some of Ueno's expenses had been wrongly booked as assets.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文明确提到 \"expenses that had been wrongly booked as assets\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Ueno Bank was originally founded by members of Peña's family.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说 Peña \"held a stake in Ueno's holding company\"，并未提到银行由谁创立，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, what turned the bank's failure into a political crisis?",
+          "options": [
+            "The bank sponsored the national football team",
+            "Customers queued outside branches for two days",
+            "Close links between the bank and the government",
+            "The president refused to leave office"
+          ],
+          "answer": 2,
+          "explain": "文中说 \"the web of connections between the bank and the government\" 使金融失败变成了政治危机。"
+        }
+      ],
+      "discuss": "Why do you think a bank collapse can damage trust in a whole political system? What should governments do to prevent conflicts of interest like this?",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/05/paraguayan-president-resigns-amid-bank-collapse-leaving-3m-people-without-access-to-bank-a"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/05/americas/president-paraguay-resigns-latam-intl"
+        }
+      ]
+    },
+    {
+      "id": "swift-telescope-reentry",
+      "category": "Science",
+      "headline": "NASA's Swift telescope falls to Earth after a failed rescue",
+      "headlineZh": "救援失败，NASA雨燕望远镜坠入大气层",
+      "summaryZh": "服役二十多年的雨燕天文台在印尼苏门答腊附近再入大气层，原定任务仅两年。",
+      "c1": "After more than two decades scanning the skies, NASA's Swift observatory has come to a fiery end. The US Space Force confirmed that the spacecraft re-entered Earth's atmosphere near Sumatra, Indonesia, at 11:39pm AEDT on 4 November. Weighing about 1.5 tonnes and roughly the size of a minibus, Swift was not expected to burn up entirely, although NASA has yet to confirm how much of it survived the descent.\n\nLaunched in 2004, the telescope was originally designed for a two-year study of gamma-ray bursts and exploding stars. In the event, it kept working for about 11 times longer than planned, observing thousands of these violent cosmic events. Much of its value lay in its speed: it acted as a kind of first responder, alerting other telescopes so that they could study each event in greater depth.\n\nIts demise was not for want of trying. Intense solar activity had caused its orbit to decay, so NASA hired a company called Katalyst Space to boost it higher. However, Katalyst's three-armed robotic craft ran into trouble after its launch in July and crashed in September, less than three months before the ageing observatory finally fell back to Earth.\n\nThe episode has inevitably prompted questions about the Hubble Space Telescope, which has been in orbit since 1990 and is expected to re-enter by the mid-2030s. NASA is now seeking ideas from private industry, with any intervention needing to happen by 2032. Its administrator, Jared Isaacman, insists that Hubble \"still has important science ahead of it\", suggesting the agency is keen to avoid a repeat.",
+      "b2": "NASA's Swift observatory, which studied space for more than 20 years, has fallen back to Earth. The US Space Force said it re-entered the atmosphere near Sumatra, Indonesia, at 11:39pm AEDT on 4 November. Swift weighed about 1.5 tonnes and was about the size of a minibus. Some parts were expected to survive, but NASA has not yet said how much did.\n\nSwift was launched in 2004. It was designed for a two-year mission to study gamma-ray bursts and exploding stars. In the end, it worked about 11 times longer than planned and observed thousands of these events. It was useful because it was fast. It quickly warned other telescopes, so they could study each event in more detail.\n\nNASA did try to save it. Strong solar activity had made Swift's orbit drop, so NASA paid a company called Katalyst Space to push it higher. But Katalyst's robotic spacecraft had problems after its launch in July and crashed in September.\n\nNow people are asking about the Hubble Space Telescope, which has been in orbit since 1990. It is expected to come down by the mid-2030s. NASA wants ideas from private companies, and any action must happen by 2032. NASA's head, Jared Isaacman, says Hubble still has important work to do.",
+      "vocab": [
+        {
+          "word": "scan the skies",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "扫视天空；巡天观测",
+          "en": "to search the sky carefully, especially with instruments",
+          "example": "Amateur astronomers scan the skies every night for new comets.",
+          "forms": [
+            "scanning the skies"
+          ]
+        },
+        {
+          "word": "come to a fiery end",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "以火光收场；轰轰烈烈地结束",
+          "en": "to end dramatically by burning or exploding",
+          "example": "The old rocket stage came to a fiery end over the Pacific.",
+          "forms": [
+            "come to a fiery end"
+          ]
+        },
+        {
+          "word": "in the event",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "结果；实际上",
+          "en": "as things actually turned out",
+          "example": "We expected a huge crowd but, in the event, only fifty people came."
+        },
+        {
+          "word": "first responder",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "第一响应者",
+          "en": "someone or something that acts first in an emergency",
+          "example": "In that suburb, volunteers are often the first responders to bushfires.",
+          "forms": [
+            "first responder"
+          ]
+        },
+        {
+          "word": "in greater depth",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更深入地",
+          "en": "in more detail and more thoroughly",
+          "example": "We'll look at this topic in greater depth next week."
+        },
+        {
+          "word": "demise",
+          "pos": "n.",
+          "ipa": "/dɪˈmaɪz/",
+          "zh": "消亡；终结",
+          "en": "the end or failure of something",
+          "example": "The demise of the local cinema upset many residents."
+        },
+        {
+          "word": "not for want of trying",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "并非没有努力",
+          "en": "used to say someone tried hard even though they failed",
+          "example": "He didn't get the job, but it wasn't for want of trying.",
+          "forms": [
+            "not for want of trying"
+          ]
+        },
+        {
+          "word": "decay",
+          "pos": "v.",
+          "ipa": "/dɪˈkeɪ/",
+          "zh": "（轨道）衰减；衰败",
+          "en": "(of an orbit) to become gradually lower",
+          "example": "Without regular boosts, the satellite's orbit will slowly decay."
+        },
+        {
+          "word": "ageing",
+          "pos": "adj.",
+          "ipa": "/ˈeɪdʒɪŋ/",
+          "zh": "老化的",
+          "en": "becoming old",
+          "example": "The city needs to replace its ageing water pipes."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Swift was originally designed to operate for only two years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说望远镜 \"originally designed for a two-year study\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Katalyst Space has offered to build a replacement telescope for NASA.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只提到 Katalyst 被雇来提升 Swift 的轨道，没有提到建造替代望远镜，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "NASA has confirmed that the whole of Swift burned up during re-entry.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Swift \"was not expected to burn up entirely\"，且 NASA \"has yet to confirm\" 残骸情况，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did Swift's orbit become lower over time?",
+          "options": [
+            "Intense solar activity",
+            "A collision with a robotic craft",
+            "A deliberate decision by NASA",
+            "Damage from a gamma-ray burst"
+          ],
+          "answer": 0,
+          "explain": "原文：\"Intense solar activity had caused its orbit to decay\"。"
+        }
+      ],
+      "discuss": "Do you think space agencies should spend money rescuing old telescopes, or invest in new ones instead? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-05/nasa-telescope-plummets-to-earth-after-decades-long-mission/107348488"
+        }
+      ]
+    },
+    {
+      "id": "david-jones-administration",
+      "category": "Business",
+      "headline": "Department store David Jones enters voluntary administration",
+      "headlineZh": "百年百货公司David Jones进入自愿托管",
+      "summaryZh": "与最大房东西田谈判破裂后，188年历史的David Jones进入托管，门店照常营业但或将关店裁员。",
+      "c1": "David Jones, the 188-year-old department store long regarded as an Australian retail institution, has been placed into voluntary administration after negotiations with its key landlord, Westfield, broke down. The company had fallen behind on rent, and its owner, the private equity firm Anchorage Capital Partners, was unable to strike a deal. Insolvency firm McGrathNicol has been appointed as administrator, while Hilco, one of the retailer's lenders, has installed receivers from FTI Consulting.\n\nFor now, it is business as usual on the shop floor. Both physical and online stores will keep trading while the receivers review operations, and staff will continue to be paid. Nevertheless, some downsizing appears all but inevitable. David Jones operates 38 sites nationally, and several loss-making stores in Westfield centres, including Southland in Melbourne, have reportedly been earmarked for closure. Job cuts are described as \"likely\" in the near term.\n\nThe receivers have blamed a tough trading environment, rising costs, supply chain problems and a store footprint that is both outdated and oversized. A retail analyst at Macquarie University argued that the problems had been building for years, suggesting that cutting costs to compete on price had eroded the very customer service that once distinguished the brand.\n\nBusiness groups have seized on the collapse as evidence that retailers are being squeezed by costs and interest rates, describing it as a signal policymakers cannot afford to overlook. The administrators could restructure the business, sell it or wind it up altogether. If it does survive, analysts expect a leaner David Jones, with outer-suburban stores closing and its upmarket offering focused on wealthier areas.",
+      "b2": "David Jones, a famous Australian department store that is 188 years old, has gone into voluntary administration. This happened after talks with its main landlord, Westfield, failed. The company was behind on its rent, and its owner, Anchorage Capital Partners, could not reach an agreement. McGrathNicol has been appointed as administrator, and one of its lenders, Hilco, has appointed receivers.\n\nFor now, the shops are still open. Stores and the online shop will keep trading while the business is reviewed, and staff will still be paid. However, some changes seem very likely. David Jones has 38 sites in Australia, and several stores in Westfield centres that lose money, including Southland in Melbourne, may close. Job cuts are expected soon.\n\nThe receivers blamed difficult trading conditions, higher costs, supply chain problems and stores that are too old and too big. A retail expert from Macquarie University said the problems had been growing for years. He believes that cutting costs to compete on price damaged the store's customer service.\n\nBusiness groups say the collapse shows that costs and interest rates are hurting retailers. The administrators could restructure the business, sell it or close it. If it survives, experts expect a smaller David Jones, with stores mainly in wealthier areas.",
+      "vocab": [
+        {
+          "word": "fall behind on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "拖欠；未能按时支付",
+          "en": "to fail to pay something at the time you should",
+          "example": "Many tenants fell behind on their rent during the crisis.",
+          "forms": [
+            "fallen behind on"
+          ]
+        },
+        {
+          "word": "strike a deal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "达成协议",
+          "en": "to reach an agreement after negotiating",
+          "example": "The union and management finally struck a deal late on Friday."
+        },
+        {
+          "word": "business as usual",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "一切照常",
+          "en": "a situation where things continue normally despite problems",
+          "example": "Despite the roadworks, it's business as usual at the bakery."
+        },
+        {
+          "word": "all but inevitable",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "几乎不可避免",
+          "en": "almost certain to happen",
+          "example": "With so many players injured, a loss looked all but inevitable."
+        },
+        {
+          "word": "earmark",
+          "pos": "v.",
+          "ipa": "/ˈɪəmɑːk/",
+          "zh": "指定（用于某用途）",
+          "en": "to choose something for a particular purpose",
+          "example": "The old school building has been earmarked for demolition.",
+          "forms": [
+            "earmarked"
+          ]
+        },
+        {
+          "word": "loss-making",
+          "pos": "adj.",
+          "ipa": "/ˈlɒsˌmeɪkɪŋ/",
+          "zh": "亏损的",
+          "en": "losing money rather than making a profit",
+          "example": "The airline cut several loss-making routes."
+        },
+        {
+          "word": "erode",
+          "pos": "v.",
+          "ipa": "/ɪˈrəʊd/",
+          "zh": "逐渐削弱",
+          "en": "to gradually reduce or damage something",
+          "example": "Constant delays have eroded passengers' confidence in the service.",
+          "forms": [
+            "eroded"
+          ]
+        },
+        {
+          "word": "seize on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "抓住（机会、借口）",
+          "en": "to quickly use something as an argument or opportunity",
+          "example": "The opposition seized on the figures as proof the policy had failed.",
+          "forms": [
+            "seized on"
+          ]
+        },
+        {
+          "word": "leaner",
+          "pos": "adj.",
+          "ipa": "/ˈliːnə/",
+          "zh": "更精简的",
+          "en": "(of an organisation) smaller and more efficient",
+          "example": "After the merger, management promised a leaner company."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Westfield has offered to reduce the rent David Jones pays.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说与 Westfield 的谈判 \"broke down\"，未提到 Westfield 提出降租，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "David Jones staff will stop being paid while the business is reviewed.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"staff will continue to be paid\"，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Some of the stores reportedly earmarked for closure are in Westfield centres.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"several loss-making stores in Westfield centres ... have reportedly been earmarked for closure\"，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did the Macquarie University analyst suggest about David Jones?",
+          "options": [
+            "Its online shop was badly designed",
+            "Its rent had always been too low",
+            "It should move all stores to the suburbs",
+            "Cutting costs had damaged its customer service"
+          ],
+          "answer": 3,
+          "explain": "分析人士认为 \"cutting costs to compete on price had eroded the very customer service\"。"
+        }
+      ],
+      "discuss": "Why do you think traditional department stores are struggling today? Will they still exist in twenty years?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878"
+        },
+        {
+          "name": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-david-jones-could-emerge-from-administration-a-very-different-retailer/xo0c8oa03"
+        }
+      ]
+    },
+    {
+      "id": "newcastle-koalas",
+      "category": "Environment",
+      "headline": "Thriving koala population near Newcastle may be chlamydia-free",
+      "headlineZh": "纽卡斯尔附近或发现无衣原体的考拉种群",
+      "summaryZh": "研究人员用热成像无人机调查发现，纽卡斯尔附近约2300只考拉可能未感染衣原体。",
+      "c1": "Scientists believe they may have found a thriving koala population near Newcastle that is free of chlamydia, a bacterial disease that poses a deadly threat to the species. The koalas live in the Sugarloaf-Stockrington State Conservation Area, an expanse of roughly 23,900 hectares about 35 minutes' drive from the city's CBD, which makes the discovery all the more remarkable.\n\nThe research, led by University of Newcastle conservation scientist Ryan Witt alongside Aboriginal lead Daryn McKenny, has relied on painstaking fieldwork. Since 2020, the team has spent more than 250 nights flying thermal-imaging drones over the area to locate koalas, then collecting fresh droppings for genetic and disease testing. Drone surveys and modelling now suggest the reserve may hold around 2,300 koalas, far more than the 292 confirmed in late 2025.\n\nCrucially, the tests found no evidence of chlamydia, and a review of local wildlife rescue and clinical records pointed the same way. That matters, because infection rates in wild populations vary enormously, from zero to almost 90 per cent. According to a University of Sydney expert, only three other koala populations in New South Wales appear to be free of the disease.\n\nEven so, the researchers are careful not to overstate their findings, stressing that the population's disease-free status cannot be guaranteed. Its long isolation may explain both its good health and its low genetic diversity, and koalas appear to be spreading west of the Pacific Highway, raising the risk of contact with infected animals. Witt's report to the NSW government calls for stronger habitat protection, wildlife fencing and long-term monitoring.",
+      "b2": "Scientists think they may have found a large koala population near Newcastle that does not have chlamydia, a disease that can kill koalas. The koalas live in the Sugarloaf-Stockrington State Conservation Area. It covers about 23,900 hectares and is only about 35 minutes' drive from the city centre.\n\nThe research is led by Ryan Witt, a scientist at the University of Newcastle, together with Aboriginal lead Daryn McKenny. Since 2020, the team has spent more than 250 nights flying drones with thermal cameras to find koalas. They then collected fresh droppings and tested them for genes and disease. The surveys suggest there may be about 2,300 koalas in the area, many more than the 292 confirmed in late 2025.\n\nThe tests found no sign of chlamydia, and local wildlife rescue records showed the same result. This is important because the disease is very common in some wild populations, but rare in others. An expert says only three other koala groups in New South Wales seem to be free of it.\n\nHowever, the scientists say they cannot be sure. The koalas have been isolated for a long time, so they have low genetic diversity. They also seem to be moving west, where they could meet sick animals. Witt wants more habitat protection, fencing and long-term monitoring.",
+      "vocab": [
+        {
+          "word": "thriving",
+          "pos": "adj.",
+          "ipa": "/ˈθraɪvɪŋ/",
+          "zh": "繁盛的；兴旺的",
+          "en": "growing or developing very well",
+          "example": "The town has a thriving arts scene."
+        },
+        {
+          "word": "pose a threat",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "构成威胁",
+          "en": "to be a possible danger to something",
+          "example": "Rising sea levels pose a serious threat to coastal homes.",
+          "forms": [
+            "poses a deadly threat"
+          ]
+        },
+        {
+          "word": "all the more",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更加；愈发",
+          "en": "even more, for a particular reason",
+          "example": "Her win was all the more impressive because she was injured."
+        },
+        {
+          "word": "painstaking",
+          "pos": "adj.",
+          "ipa": "/ˈpeɪnzˌteɪkɪŋ/",
+          "zh": "煞费苦心的；细致的",
+          "en": "done with great care and attention to detail",
+          "example": "Restoring the old painting took months of painstaking work."
+        },
+        {
+          "word": "point the same way",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "指向同一结论",
+          "en": "(of evidence) to suggest the same conclusion",
+          "example": "The survey results and the sales figures pointed the same way.",
+          "forms": [
+            "pointed the same way"
+          ]
+        },
+        {
+          "word": "vary enormously",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "差异极大",
+          "en": "to be very different in different cases",
+          "example": "House prices vary enormously from one suburb to another."
+        },
+        {
+          "word": "overstate",
+          "pos": "v.",
+          "ipa": "/ˌəʊvəˈsteɪt/",
+          "zh": "夸大",
+          "en": "to say something is more important or certain than it is",
+          "example": "It would be hard to overstate how much the new train line has helped commuters."
+        },
+        {
+          "word": "genetic diversity",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "遗传多样性",
+          "en": "the range of different genes within a population",
+          "example": "Small, isolated populations often lose genetic diversity over time."
+        },
+        {
+          "word": "raise the risk of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "增加…的风险",
+          "en": "to make something bad more likely",
+          "example": "Poor sleep can raise the risk of accidents at work.",
+          "forms": [
+            "raising the risk of"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The team used thermal-imaging drones to locate koalas.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：\"flying thermal-imaging drones over the area to locate koalas\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The koala population lives inside Newcastle's CBD.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说保护区在 \"about 35 minutes' drive from the city's CBD\"，并非在市中心内，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers plan to move some of the koalas to other reserves.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中提到的建议是 \"habitat protection, wildlife fencing and long-term monitoring\"，没有提到迁移考拉，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are the researchers cautious about their findings?",
+          "options": [
+            "The drones could not fly at night",
+            "The disease-free status cannot be guaranteed",
+            "Most of the droppings were too old to test",
+            "The government rejected their report"
+          ],
+          "answer": 1,
+          "explain": "原文：\"stressing that the population's disease-free status cannot be guaranteed\"。"
+        }
+      ],
+      "discuss": "Why do you think people care so much about protecting animals like koalas? Should cities limit development to protect wildlife nearby?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-05/chlamydia-free-koalas-discovered-newcastle/107344308"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Checking Out a Flat in Brunswick",
+    "titleZh": "在Brunswick看房",
+    "setting": "Two friends who plan to share a flat walk out of a Saturday-morning inspection in Brunswick and talk it over.",
+    "settingZh": "两位打算合租的朋友在周六上午看完Brunswick的一套公寓后，边走边商量。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Okay, be honest. What did you reckon? I can't make my mind up.",
+        "zh": "好吧，说实话，你觉得怎么样？我拿不定主意。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "The light was lovely, but that second bedroom was tiny. Like, shoebox tiny.",
+        "zh": "采光很好，但第二间卧室太小了，简直像个鞋盒。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Yeah, I noticed. Still, it's walking distance to the tram, which is a big plus.",
+        "zh": "是啊，我也注意到了。不过走路就能到电车站，这是个大优点。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "True. And the rent's not outrageous for Brunswick, to be fair.",
+        "zh": "没错。而且说句公道话，这租金在Brunswick不算离谱。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Did you see the mould in the bathroom, though? That's a bit of a red flag.",
+        "zh": "不过你看到浴室里的霉了吗？那可有点危险信号。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "I did. We could ask the agent if they'd sort it out before we move in.",
+        "zh": "看到了。我们可以问问中介，入住前能不能处理好。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good idea. I don't want to be stuck chasing repairs for months.",
+        "zh": "好主意。我可不想好几个月都在催修。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Fair enough. There were about twenty people there, so we'd have to move fast.",
+        "zh": "有道理。刚才来了大概二十个人，我们得抓紧。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Tell me about it. Should we just put in an application tonight and see?",
+        "zh": "可不是嘛。要不我们今晚就递申请，看看结果？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Let's sleep on it first. I'd rather not rush into a twelve-month lease.",
+        "zh": "先考虑一晚吧。我不想仓促签一年的租约。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Sure, but if we wait too long, someone else will snap it up.",
+        "zh": "行，但要是等太久，别人就抢先租走了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Alright, how about we decide by lunchtime tomorrow? Then no second-guessing.",
+        "zh": "好吧，明天中午前决定怎么样？之后就不再犹豫了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Deal. Now, coffee? There's a great little place just around the corner.",
+        "zh": "成交。现在去喝咖啡？拐角就有一家很棒的小店。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I can't decide.",
+        "en": "I can't make my mind up.",
+        "zh": "拿不定主意"
+      },
+      {
+        "plain": "close enough to walk to",
+        "en": "walking distance to",
+        "zh": "步行可达"
+      },
+      {
+        "plain": "a big advantage",
+        "en": "a big plus",
+        "zh": "一大优点"
+      },
+      {
+        "plain": "not too expensive",
+        "en": "not outrageous",
+        "zh": "不算离谱"
+      },
+      {
+        "plain": "a warning sign",
+        "en": "a bit of a red flag",
+        "zh": "危险信号"
+      },
+      {
+        "plain": "fix it",
+        "en": "sort it out",
+        "zh": "解决、处理"
+      },
+      {
+        "plain": "think about it overnight",
+        "en": "sleep on it",
+        "zh": "考虑一晚再定"
+      },
+      {
+        "plain": "take it quickly before us",
+        "en": "snap it up",
+        "zh": "抢先拿下"
+      }
+    ]
+  }
+}
