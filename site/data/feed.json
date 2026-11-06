@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T19:24:10.040Z",
+ "updatedAt": "2026-11-06T03:14:31.527Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: Bryce Courtenay's son on his father's many secrets",
-   "url": "https://www.abc.net.au/listen/programs/conversations/adam-courtenay-bryce-courtenay-father-mythology-lies/107332518",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q4/Z/p4.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fdfb13ec6d498674185097afc9634efd7.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-05",
-   "minutes": 50,
+   "title": "How Usman Khawaja changed Australian cricket",
+   "url": "https://www.abc.net.au/listen/programs/conversations/usman-khawaja-cricket-resilience-courage-character-sport/107334360",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q5/Z/sp.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Ff9b4544e68488c287b7f227a24bf0571.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-06",
+   "minutes": 53,
    "level": "C1",
    "accent": "AU",
-   "desc": "Growing up with brilliant writer as a father, Adam Courtenay slowly became aware of many gaps and untruths in his dad's life story. So he decided to set the record straight, once and for all. When Adam was growing up, he saw his Dad as a hero. Bryce worked in…"
+   "desc": "As the first brown immigrant and the first Muslim to enter the very white world of Australian cricket, Usman Khawaja overcame many setbacks while forging his extraordinary career in the sport. Born in Pakistan, Usman moved to Sydney with his family at four…"
   },
   {
    "source": "TED Talks Daily",
