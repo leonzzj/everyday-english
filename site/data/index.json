@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-06T06:53:34+11:00",
+  "updatedAt": "2026-11-08T06:54:10+11:00",
   "issues": [
+    {
+      "date": "2026-11-08",
+      "issueNo": 21,
+      "title": "New Zealand's knife-edge vote, Tesla's Cybertruck and Powerhouse Parramatta",
+      "headlines": [
+        "New Zealand faces weeks of uncertainty after a knife-edge election",
+        "Funding expands tumour DNA testing to 25,000 more cancer patients",
+        "Tesla to wind down Cybertruck production and focus on robotaxis",
+        "Powerhouse Parramatta opens as Sydney's biggest cultural build in decades"
+      ]
+    },
     {
       "date": "2026-11-06",
       "issueNo": 20,

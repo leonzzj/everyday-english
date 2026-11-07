@@ -1,0 +1,755 @@
+{
+  "date": "2026-11-08",
+  "issueNo": 21,
+  "title": "New Zealand's knife-edge vote, Tesla's Cybertruck and Powerhouse Parramatta",
+  "createdAt": "2026-11-08T06:54:10+11:00",
+  "stories": [
+    {
+      "id": "nz-election",
+      "category": "World",
+      "headline": "New Zealand faces weeks of uncertainty after a knife-edge election",
+      "headlineZh": "新西兰大选结果胶着，或需数周才能揭晓",
+      "summaryZh": "国家党与工党得票率仅差约0.15个百分点，约70万张特别选票仍待清点。",
+      "c1": "New Zealanders went to the polls on Saturday, but they may have to wait weeks to learn who will govern them. With every voting place counted in the preliminary tally, Prime Minister Christopher Luxon's National Party had edged ahead of Labour by the narrowest of margins, taking 29.37 per cent of the party vote to Labour's 29.22 per cent.\n\nOn those figures, the governing bloc of National, ACT and New Zealand First is projected to hold 67 of 131 seats, just one more than the 66 needed for a majority. Yet that slender lead is far from secure. Roughly 700,000 special votes, including ballots cast overseas, have yet to be processed, and the official result is not expected until late November. One political scientist suggested a new government might not be in place before Christmas.\n\nNeither leader was willing to claim victory outright. Luxon described the contest as too close to call, while conceding that negotiations and compromises lay ahead. Labour's Chris Hipkins, who did not concede, insisted that \"every vote must now be counted\". Meanwhile, some senior National figures who stood only on the party list, including deputy leader Nicola Willis, appear at risk of losing their places in parliament.\n\nThe smaller parties may ultimately prove decisive. The Greens recorded their strongest showing to date, and the centrist Opportunity party looks set to enter parliament for the first time, potentially as a kingmaker. Under New Zealand's proportional system, so-called overhang seats could also tip the balance. Whatever the final arithmetic, the next government will inherit an unresolved debate over the Treaty of Waitangi and Māori rights, alongside persistent concerns about the cost of living.",
+      "b2": "New Zealand held its general election on Saturday, but the final result may not be known for weeks. After all voting places were counted, the National Party of Prime Minister Christopher Luxon was only slightly ahead of Labour. National won 29.37 per cent of the party vote and Labour won 29.22 per cent.\n\nThese early numbers suggest that National, ACT and New Zealand First together would have 67 of the 131 seats. They need 66 for a majority, so their lead is very small. About 700,000 special votes, including votes from overseas, still have to be counted. Official results are expected in late November.\n\nLuxon said the election was too close to call and admitted that negotiations would be needed. Labour leader Chris Hipkins did not accept defeat. He said every vote must now be counted. Some important National ministers could also lose their seats in parliament.\n\nSmaller parties could play a key role. The Greens had their best result ever. The centrist Opportunity party is likely to win seats in parliament for the first time, and it could help decide who governs. The new government will also have to deal with debates about the Treaty of Waitangi, Māori rights and the cost of living.",
+      "vocab": [
+        {
+          "word": "go to the polls",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "去投票；举行选举",
+          "en": "to vote in an election",
+          "example": "Voters in the city will go to the polls again next spring.",
+          "forms": [
+            "went to the polls"
+          ]
+        },
+        {
+          "word": "edge ahead",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "微弱领先",
+          "en": "to move slightly in front of a rival",
+          "example": "After a slow start, the home team edged ahead in the second half.",
+          "forms": [
+            "edged ahead"
+          ]
+        },
+        {
+          "word": "by the narrowest of margins",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "以极其微弱的差距",
+          "en": "by the smallest possible difference",
+          "example": "The proposal was approved by the narrowest of margins."
+        },
+        {
+          "word": "slender",
+          "pos": "adj.",
+          "ipa": "/ˈslendə(r)/",
+          "zh": "微弱的；微小的",
+          "en": "small in amount or size",
+          "example": "The party has only a slender majority in the upper house."
+        },
+        {
+          "word": "too close to call",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "胜负难料",
+          "en": "so even that no one can predict the winner",
+          "example": "Pollsters say the mayoral race is still too close to call."
+        },
+        {
+          "word": "claim victory",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "宣布获胜",
+          "en": "to say publicly that you have won",
+          "example": "Both candidates claimed victory before the counting had finished."
+        },
+        {
+          "word": "prove decisive",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被证明起决定性作用",
+          "en": "to turn out to be the factor that decides a result",
+          "example": "Her local knowledge proved decisive in winning the contract."
+        },
+        {
+          "word": "kingmaker",
+          "pos": "n.",
+          "ipa": "/ˈkɪŋmeɪkə(r)/",
+          "zh": "左右大局者；造王者",
+          "en": "a person or group that decides who gains power",
+          "example": "With just three seats, the minor party has become an unlikely kingmaker."
+        },
+        {
+          "word": "tip the balance",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "打破平衡；起决定作用",
+          "en": "to be the factor that causes one outcome rather than another",
+          "example": "A strong reference could tip the balance in your favour."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Labour received a larger share of the party vote than National in the preliminary count.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 National \"had edged ahead of Labour\"，得票 29.37% 对 29.22%，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The governing bloc's projected seat total is above the number needed for a majority.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说该阵营预计获得 67 席，\"just one more than the 66 needed for a majority\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Turnout in this election was higher than in the previous one.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到投票率，也未与上届比较，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why might the Opportunity party be described as a possible \"kingmaker\"?",
+          "options": [
+            "It has already formed a coalition with Labour.",
+            "It may decide which side is able to govern.",
+            "Its leader is likely to become prime minister.",
+            "It won more seats than the Greens."
+          ],
+          "answer": 1,
+          "explain": "文中说小党 \"may ultimately prove decisive\"，Opportunity 可能以 \"kingmaker\" 身份进入议会，即可能决定哪一方执政，故选 B。"
+        }
+      ],
+      "discuss": "Is it better for a country to have a voting system that often produces coalition governments, or one that usually gives a single party a clear majority? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-08/new-zealand-election-results-key-takeaways/107359778"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-07/nz-election-2026-live-blog/107355448"
+        },
+        {
+          "name": "CNN",
+          "url": "https://www.cnn.com/2026/11/07/world/new-zealand-election-result-uncertain-intl-hnk"
+        }
+      ]
+    },
+    {
+      "id": "cancer-genomic-profiling",
+      "category": "Health",
+      "headline": "Funding expands tumour DNA testing to 25,000 more cancer patients",
+      "headlineZh": "新资金让另外2.5万名癌症患者可做肿瘤基因检测",
+      "summaryZh": "全面基因组分析帮助医生为患者匹配靶向药物，但新药昂贵、覆盖面仍有限。",
+      "c1": "An additional 25,000 Australians with cancer will be able to have their tumours genetically analysed, after the federal government committed fresh funding to a technique known as comprehensive genomic profiling. The test examines a tumour's DNA for changes in roughly 500 to 600 genes, helping doctors match patients with targeted drugs or clinical trials and steer them away from treatments that are unlikely to work.\n\nThe latest budget allocated $71 million to Omico, a not-for-profit organisation that provides the testing free of charge, allowing it to continue working with four laboratories nationwide for another three years. Omico says it has already supported more than 30,000 people and now receives a referral roughly every 15 minutes. Health Minister Mark Butler said the aim was for profiling to eventually become standard care.\n\nFor some patients, the results have been striking. Emily Capper was diagnosed with an aggressive brain tumour at 31 and told she might have as little as nine months to live. Nearly five years later, a drug matched to a mutation in her tumour has halted its growth, and she is still teaching. The oncologist who led her trial argues that matched treatment spares patients ineffective and toxic therapies, and that the evidence suggests it can double survival.\n\nNevertheless, significant hurdles remain. Omico can reach only about one in four people with an incurable solid tumour, and the public system is far from equipped to test everyone. Moreover, many emerging therapies are not subsidised under the PBS, leaving some patients facing bills of thousands of dollars a month. Experts warn that, with an ageing population, keeping new drugs affordable will be an increasingly pressing challenge.",
+      "b2": "The federal government has given new funding so that 25,000 more Australians with cancer can have their tumours tested. The test, called comprehensive genomic profiling, looks for changes in about 500 to 600 genes. This helps doctors choose targeted drugs or clinical trials, and avoid treatments that probably won't work.\n\nIn the latest budget, $71 million went to Omico, a not-for-profit group that offers the test for free. The money means it can keep working with four laboratories around the country for three more years. Omico has helped more than 30,000 people so far.\n\nThe results can make a big difference. Emily Capper was told at 31 that she had a serious brain tumour and might live only nine months. Almost five years later, a drug matched to her tumour has stopped it from growing, and she still works as a teacher. Her doctor says matched treatment can double survival.\n\nHowever, there are still problems. Omico can help only about one in four people with an incurable solid tumour. Many new medicines are not on the PBS, so some patients pay thousands of dollars a month. Experts say paying for new drugs will become harder as the population ages.",
+      "vocab": [
+        {
+          "word": "commit funding",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "承诺拨款",
+          "en": "to promise officially to provide money for something",
+          "example": "The council has committed funding to repair the old library.",
+          "forms": [
+            "committed fresh funding"
+          ]
+        },
+        {
+          "word": "steer away from",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "引导避开",
+          "en": "to guide someone so that they avoid something",
+          "example": "Good teachers steer students away from bad study habits.",
+          "forms": [
+            "steer them away from"
+          ]
+        },
+        {
+          "word": "allocate",
+          "pos": "v.",
+          "ipa": "/ˈæləkeɪt/",
+          "zh": "拨出；分配",
+          "en": "to give an amount of money or time for a particular purpose",
+          "example": "The school allocated extra time for revision before the holidays.",
+          "forms": [
+            "allocated"
+          ]
+        },
+        {
+          "word": "free of charge",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "免费",
+          "en": "without having to pay",
+          "example": "Tap water is provided free of charge at most cafés."
+        },
+        {
+          "word": "striking",
+          "pos": "adj.",
+          "ipa": "/ˈstraɪkɪŋ/",
+          "zh": "惊人的；显著的",
+          "en": "very noticeable or impressive",
+          "example": "There is a striking difference between the two photos."
+        },
+        {
+          "word": "halt",
+          "pos": "v.",
+          "ipa": "/hɔːlt/",
+          "zh": "使停止",
+          "en": "to stop something from continuing",
+          "example": "Heavy rain halted work on the new bridge.",
+          "forms": [
+            "halted"
+          ]
+        },
+        {
+          "word": "spare someone something",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使某人免受（痛苦等）",
+          "en": "to save someone from having to experience something unpleasant",
+          "example": "Booking online will spare you a long wait at the counter.",
+          "forms": [
+            "spares patients ineffective and toxic therapies"
+          ]
+        },
+        {
+          "word": "hurdle",
+          "pos": "n.",
+          "ipa": "/ˈhɜːdl/",
+          "zh": "障碍；难关",
+          "en": "a problem or difficulty that must be overcome",
+          "example": "Finding enough volunteers is the biggest hurdle for the festival.",
+          "forms": [
+            "hurdles"
+          ]
+        },
+        {
+          "word": "pressing",
+          "pos": "adj.",
+          "ipa": "/ˈpresɪŋ/",
+          "zh": "紧迫的",
+          "en": "needing to be dealt with immediately",
+          "example": "Housing is one of the most pressing issues for young people."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Omico charges patients a reduced fee for genomic profiling.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Omico \"provides the testing free of charge\"，即完全免费，与“收取较低费用”矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Emily Capper's drug was chosen because of a mutation found in her tumour.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"a drug matched to a mutation in her tumour has halted its growth\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the $71 million will be spent on building new laboratories.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说资金让 Omico 继续与四家实验室合作三年，没有说要建新实验室，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which problem does the final paragraph mention?",
+          "options": [
+            "Doctors are reluctant to use genomic profiling.",
+            "Patients rarely benefit from targeted drugs.",
+            "Many new therapies are not subsidised and can be very expensive.",
+            "The test examines too few genes to be useful."
+          ],
+          "answer": 2,
+          "explain": "最后一段提到 \"many emerging therapies are not subsidised under the PBS\"，患者每月可能要付数千澳元，故选 C。"
+        }
+      ],
+      "discuss": "If a new medicine is very expensive but helps only a small number of patients, should taxpayers pay for it? What factors should governments consider?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-06/cancer-treatment-genomic-profiling-funding/107248844"
+        }
+      ]
+    },
+    {
+      "id": "tesla-cybertruck",
+      "category": "Tech",
+      "headline": "Tesla to wind down Cybertruck production and focus on robotaxis",
+      "headlineZh": "特斯拉将逐步停产Cybertruck，转向自动驾驶出租车",
+      "summaryZh": "销量远低于预期，马斯克称明年年中停产，腾出产能制造无人驾驶的Cybercab。",
+      "c1": "Elon Musk has announced that Tesla will wind down production of its Cybertruck at its Texas factory in mid-2027, calling it the \"end of an era\". The decision is intended to free up capacity for the Cybercab, a two-seat robotaxi with no steering wheel, pedals or mirrors. Musk nonetheless praised the angular pickup as the best vehicle the company had ever made.\n\nThe truck never came close to the expectations set for it. When production began in 2023, Musk predicted annual sales of 250,000. According to Kelley Blue Book, however, just over 20,000 were sold in the United States in 2025, roughly half the previous year's figure. The model has also been dogged by problems: its 2019 unveiling was marred when two of its windows cracked during a demonstration, and it has been recalled 11 times since late 2023.\n\nAnalysts were largely unsurprised. One former car industry executive argued it made little sense to persist with a vehicle that was missing its targets, adding that its impact on Tesla's finances would be minor. Others pointed out that electric pickups from rival manufacturers have also struggled, and that the truck's sharp stainless-steel body makes approval in Europe difficult under pedestrian safety rules.\n\nThe shift underlines Tesla's broader pivot towards autonomy and robotics, which critics say has come at the expense of its core electric car business as Chinese competitors gain ground. Yet the Cybercab remains unproven. Paid rides began in a small Austin fleet only in September, and the US road safety regulator has opened an audit into whether the vehicle was properly certified. For now, it seems unlikely to make up for the lost sales any time soon.",
+      "b2": "Elon Musk says Tesla will slowly stop making the Cybertruck at its Texas factory by the middle of 2027. He called it the \"end of an era\". The company wants to use the space to build more Cybercabs, which are robotaxis with no steering wheel or pedals.\n\nThe Cybertruck did not sell as well as expected. In 2023, Musk said Tesla would sell 250,000 a year. But in 2025, only about 20,000 were sold in the United States, about half the number sold the year before. The truck also had many problems. At its launch in 2019, two of its windows cracked, and it has had 11 recalls since late 2023.\n\nExperts were not very surprised. One former car company boss said there was no point continuing with a vehicle that was missing its targets. Others said electric pickups from other companies have also had trouble, and that the truck's sharp steel body makes it hard to approve in Europe.\n\nThe decision shows that Tesla is moving towards self-driving technology and robots. Critics say this is hurting its main electric car business while Chinese rivals grow stronger. The Cybercab is still new. Paid rides started in Austin only in September, and US safety officials are checking whether it was properly certified.",
+      "vocab": [
+        {
+          "word": "wind down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "逐步结束；逐渐减少",
+          "en": "to gradually reduce an activity until it stops",
+          "example": "The charity will wind down its operations by the end of the year."
+        },
+        {
+          "word": "free up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "腾出（时间、空间等）",
+          "en": "to make something available for another use",
+          "example": "Working from home freed up two hours of my day."
+        },
+        {
+          "word": "come close to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "接近；差一点达到",
+          "en": "to almost reach or achieve something",
+          "example": "Ticket sales never came close to what the organisers had hoped.",
+          "forms": [
+            "came close to"
+          ]
+        },
+        {
+          "word": "be dogged by",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被（问题）困扰",
+          "en": "to be affected by problems for a long time",
+          "example": "The project has been dogged by delays since it began.",
+          "forms": [
+            "been dogged by"
+          ]
+        },
+        {
+          "word": "mar",
+          "pos": "v.",
+          "ipa": "/mɑː(r)/",
+          "zh": "损坏；破坏（气氛、效果）",
+          "en": "to spoil something that would otherwise be good",
+          "example": "Bad weather marred the opening day of the festival.",
+          "forms": [
+            "marred"
+          ]
+        },
+        {
+          "word": "persist with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "坚持（做某事）",
+          "en": "to continue doing something even though it is difficult or not working",
+          "example": "She persisted with her Spanish lessons despite a busy schedule."
+        },
+        {
+          "word": "pivot",
+          "pos": "n.",
+          "ipa": "/ˈpɪvət/",
+          "zh": "转向；转型",
+          "en": "a major change in strategy or direction",
+          "example": "The bookshop's pivot to online sales saved the business."
+        },
+        {
+          "word": "at the expense of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以……为代价",
+          "en": "in a way that causes harm or loss to something else",
+          "example": "He built his career at the expense of his health."
+        },
+        {
+          "word": "gain ground",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "取得进展；逐渐占上风",
+          "en": "to become more successful or popular",
+          "example": "Plant-based milks are gaining ground in Australian supermarkets.",
+          "forms": [
+            "gain ground"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Cybertruck sales in the US rose between 2024 and 2025.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 2025 年销量 \"roughly half the previous year's figure\"，即下降，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Musk still spoke highly of the Cybertruck when announcing the decision.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Musk \"praised the angular pickup as the best vehicle the company had ever made\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Tesla plans to sell the Cybercab in Europe from next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到 Cybertruck 在欧洲审批困难，没有说 Cybercab 的欧洲销售计划，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the final paragraph suggest about the Cybercab?",
+          "options": [
+            "It has already replaced the Cybertruck's lost sales.",
+            "It has been fully approved by US regulators.",
+            "It is still unproven and faces regulatory scrutiny.",
+            "It will be built in China rather than Texas."
+          ],
+          "answer": 2,
+          "explain": "最后一段说 \"the Cybercab remains unproven\"，且监管机构正在审查其认证，故选 C。"
+        }
+      ],
+      "discuss": "Would you feel comfortable riding in a taxi with no driver and no steering wheel? What would need to change before such vehicles are widely accepted?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-07/tesla-to-pull-the-plug-on-cybertruck/107359058"
+        }
+      ]
+    },
+    {
+      "id": "powerhouse-parramatta",
+      "category": "Culture",
+      "headline": "Powerhouse Parramatta opens as Sydney's biggest cultural build in decades",
+      "headlineZh": "帕拉马塔动力博物馆开幕，为悉尼歌剧院后最大文化工程",
+      "summaryZh": "耗资9.15亿澳元的新馆在西悉尼开放，五大展览中有四个免费参观。",
+      "c1": "After four years of construction involving more than 4,000 workers, Powerhouse Parramatta officially opened its doors on Saturday. Built at a cost of $915 million on the site of a former car park beside the Parramatta River, the museum of science, engineering, art and culture has been billed as the largest cultural project since the Sydney Opera House opened in 1973.\n\nThe opening program spans more than 18,000 square metres and features five major exhibitions drawing on over 3,000 objects, some of them on loan from overseas. Visitors can wander through a two-storey celebration of shopping centres, explore a First Nations-led exhibition on saltwater and freshwater systems, or step inside an immersive work by British artist Es Devlin, her first show in Australia. Younger visitors are catered for by a bedtime-story exhibit filled with items lent by local children.\n\nThe largest gallery is devoted to space and aviation, with suspended aircraft, student-built rockets and the spacesuit of Katherine Bennell-Pegg, Australia's first female astronaut. It is the only exhibition that charges an entry fee; admission to the rest of the museum is free. The venue is also intended to serve as an education hub, encouraging school students to take an interest in science and engineering.\n\nFor the state government, the project is as much about fairness as it is about culture. Arts Minister John Graham said the aim was to make the arts more accessible to communities across Western Sydney, many of whom have previously had to travel into the city centre for major exhibitions. The acting chief executive went further, predicting the museum would become a \"cultural backbone for Western Sydney\". Whether it lives up to that ambition will depend on how many people keep coming once the 23-day opening festival is over.",
+      "b2": "Powerhouse Parramatta, a new museum in Western Sydney, opened to the public on Saturday. It took four years and more than 4,000 workers to build, and it cost $915 million. It stands on an old car park next to the Parramatta River. It is being called the biggest cultural project since the Sydney Opera House opened in 1973.\n\nThe museum has five major exhibitions with more than 3,000 objects, and some come from overseas. One exhibition is about shopping centres, and another, led by First Nations people, is about water. There is also a show by British artist Es Devlin, and a children's exhibition about bedtime stories.\n\nThe biggest gallery is about space and flight. It includes aircraft hanging from the ceiling and the spacesuit of Katherine Bennell-Pegg, Australia's first female astronaut. This is the only exhibition that visitors must pay for. The rest of the museum is free. The museum also wants to help school students become interested in science and engineering.\n\nThe NSW government says the museum will make the arts easier to reach for people in Western Sydney. Its acting chief executive hopes it will become a \"cultural backbone for Western Sydney\". Its long-term success will depend on whether visitors keep coming after the opening festival.",
+      "vocab": [
+        {
+          "word": "open its doors",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "开门营业；开放",
+          "en": "to start operating or welcoming the public for the first time",
+          "example": "The new community library will open its doors in March.",
+          "forms": [
+            "opened its doors"
+          ]
+        },
+        {
+          "word": "be billed as",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被宣传为",
+          "en": "to be advertised or described in a particular way",
+          "example": "The concert was billed as the event of the year.",
+          "forms": [
+            "been billed as"
+          ]
+        },
+        {
+          "word": "draw on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "利用；借鉴",
+          "en": "to use something as a source of material or support",
+          "example": "The novel draws on the author's childhood in Darwin.",
+          "forms": [
+            "drawing on"
+          ]
+        },
+        {
+          "word": "on loan",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "借出的；借展的",
+          "en": "borrowed for a period of time",
+          "example": "The painting is on loan from a gallery in Paris."
+        },
+        {
+          "word": "immersive",
+          "pos": "adj.",
+          "ipa": "/ɪˈmɜːsɪv/",
+          "zh": "沉浸式的",
+          "en": "surrounding you so that you feel fully involved",
+          "example": "The game offers an immersive experience with realistic sound."
+        },
+        {
+          "word": "cater for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "满足……的需要",
+          "en": "to provide what a particular group of people needs",
+          "example": "The hotel caters for families with young children.",
+          "forms": [
+            "catered for"
+          ]
+        },
+        {
+          "word": "be devoted to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "专门用于",
+          "en": "to be used entirely for one purpose or subject",
+          "example": "The whole second floor is devoted to modern art.",
+          "forms": [
+            "is devoted to"
+          ]
+        },
+        {
+          "word": "be as much about A as B",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "既关乎A，也同样关乎B",
+          "en": "to concern one thing just as much as another",
+          "example": "Cooking is as much about patience as it is about skill.",
+          "forms": [
+            "is as much about fairness as it is about"
+          ]
+        },
+        {
+          "word": "live up to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "达到（期望）",
+          "en": "to be as good as people expected",
+          "example": "The sequel didn't live up to the original film.",
+          "forms": [
+            "lives up to"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The museum was built on land previously used as a car park.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说博物馆建在 \"the site of a former car park\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Visitors must pay to enter all five major exhibitions.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说太空与航空展 \"is the only exhibition that charges an entry fee\"，其余免费，与题干矛盾，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Es Devlin has previously held several exhibitions in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说这是 Es Devlin \"her first show in Australia\"，与“此前在澳举办过多场展览”矛盾，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the final paragraph, what will decide whether the museum fulfils its ambition?",
+          "options": [
+            "How much the next state budget gives it",
+            "Whether attendance remains strong after the opening festival",
+            "How many overseas objects it can borrow",
+            "Whether it attracts visitors from Sydney's east"
+          ],
+          "answer": 1,
+          "explain": "最后一段说成败 \"will depend on how many people keep coming once the 23-day opening festival is over\"，故选 B。"
+        }
+      ],
+      "discuss": "Should major museums and cultural venues be spread across a city's suburbs rather than concentrated in the centre? What are the benefits and drawbacks?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-07/what-to-see-nsw-parramatta-powerhouse-officially-opens/107357170"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck on a Delayed Train",
+    "titleZh": "被困在晚点的火车上",
+    "setting": "Two colleagues bump into each other on a stalled train outside Richmond on a Monday morning.",
+    "settingZh": "周一早上，两位同事在里士满站外一列停滞的火车上偶遇。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Marco? Fancy seeing you here. Have we actually moved in the last ten minutes?",
+        "zh": "Marco？真巧在这儿碰到你。我们这十分钟到底动过没有？"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "Not an inch. The driver said something about a signal fault up ahead.",
+        "zh": "一点都没动。司机说前面信号出了故障。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Typical. I've got a nine o'clock meeting and I'm cutting it fine already.",
+        "zh": "老样子。我九点有个会，本来时间就很紧了。"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "Same here. I'd message your manager now so it doesn't come out of the blue.",
+        "zh": "我也是。要是我就现在给你经理发个消息，免得太突然。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good call. I'll say I'm running late and dial in from the platform if I have to.",
+        "zh": "好主意。我就说我要晚点，实在不行就在站台上电话入会。"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "Honestly, this line's been hit and miss for weeks. I'm half tempted to start cycling.",
+        "zh": "说实话，这条线几周来时好时坏。我都有点想改骑车了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "In this weather? You'd turn up drenched, mate. I'd give it a miss.",
+        "zh": "这种天气？你到公司肯定浑身湿透。我劝你算了吧。"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "Fair point. Maybe I'll just leave half an hour earlier and bring a book.",
+        "zh": "有道理。也许我就提前半小时出门，再带本书。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Speaking of books, did you end up going to that author talk on Saturday?",
+        "zh": "说到书，你周六最后去那个作家讲座了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "I did, and it was well worth it. She was much funnier than I expected.",
+        "zh": "去了，非常值得。她比我想象的幽默多了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh, I'm kicking myself now. I bailed because I was wiped out after the week.",
+        "zh": "哎，我现在后悔死了。那周太累了，我就临时没去。"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "No dramas, she's doing another one next month. I'll send you the link.",
+        "zh": "没关系，她下个月还有一场。我把链接发给你。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Legend. Oh, hang on, we're moving! Fingers crossed it's not another false start.",
+        "zh": "你真够意思。哎，等等，车动了！希望别又是空欢喜一场。"
+      },
+      {
+        "s": "B",
+        "name": "Marco",
+        "en": "Let's hope so. If we're lucky, you'll make your meeting with a minute to spare.",
+        "zh": "但愿如此。运气好的话，你还能提前一分钟赶上会议。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What a surprise to see you",
+        "en": "Fancy seeing you here",
+        "zh": "真巧在这儿碰见你（口语）"
+      },
+      {
+        "plain": "I almost don't have enough time",
+        "en": "I'm cutting it fine",
+        "zh": "时间卡得很紧"
+      },
+      {
+        "plain": "suddenly, without warning",
+        "en": "come out of the blue",
+        "zh": "突如其来"
+      },
+      {
+        "plain": "sometimes good, sometimes bad",
+        "en": "hit and miss",
+        "zh": "时好时坏；靠运气"
+      },
+      {
+        "plain": "I wouldn't do it",
+        "en": "I'd give it a miss",
+        "zh": "我会选择不做/不去"
+      },
+      {
+        "plain": "I really regret it",
+        "en": "I'm kicking myself",
+        "zh": "我后悔死了"
+      },
+      {
+        "plain": "very tired",
+        "en": "wiped out",
+        "zh": "累坏了"
+      },
+      {
+        "plain": "It's no problem",
+        "en": "No dramas",
+        "zh": "没事儿（澳式口语）"
+      }
+    ]
+  }
+}
