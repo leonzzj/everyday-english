@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T03:13:35.020Z",
+ "updatedAt": "2026-11-07T19:13:48.338Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The surprising beauty of mosquitos | Felix Hol",
-   "url": "http://go.ted.com/felixhol",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aedf666225208a74da728d2/media.mp3",
+   "title": "How to build the next wave of clean energy | Jennifer Granholm, Ryan Panchadsaram",
+   "url": "http://go.ted.com/jennifergranholm",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aece3957cfe82faa47eb757/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-07",
-   "minutes": 32,
+   "date": "2026-11-08",
+   "minutes": 19,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Most people hate mosquitoes, but biotechnologist and TED Fellow Felix Hol thinks they're beautiful. He takes us inside his lab, where his team developed some unusual ways to study how these blood-sucking insects find us and feed so fast. He also explains why…"
+   "desc": "Jennifer Granholm steered Michigan through the auto industry's near-collapse and later ran the US Department of Energy during the largest clean energy investment in the country's history. In conversation with climate investor Ryan Panchadsaram, she explains…"
   },
   {
    "source": "SBS Learn English",
