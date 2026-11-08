@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-08T03:14:13.854Z",
+ "updatedAt": "2026-11-08T19:13:39.371Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Are the Democrats coming for Trump?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/are-the-democrats-coming-for-trump/107351282",
-   "audio": "https://traffic.megaphone.fm/TECO1751753088.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/b3c4ea5e-d92b-11f1-a498-4b11b76aee46/image/7bd774929eab3848276988e32209231a.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-06",
-   "minutes": 19,
+   "title": "Will AI bring an age of abundance?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-ai-bring-an-age-of-abundance/107355268",
+   "audio": "https://traffic.megaphone.fm/TECO7800758908.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/31bbd9b0-db87-11f1-9999-cbf9d63702a2/image/70f546cd6ae4d9fb346d8af92973c2e8.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-09",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "What's Donald Trump going to do next?&nbsp;&nbsp; After his crushing defeat in the midterms, the US President's attention turned almost immediately&nbsp;to the construction of his White House ballroom. But what about the Iran&nbsp;war or talk of an invasion…"
+   "desc": "Lately, we've heard a lot about the ways AI could destroy humanity.&nbsp; But what if there's also a case for hope? Could AI usher in an age of abundance, making us richer, healthier and improving our quality of life?&nbsp; Today, Andrew McAfee, MIT research…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to build the next wave of clean energy | Jennifer Granholm, Ryan Panchadsaram",
-   "url": "http://go.ted.com/jennifergranholm",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aece3957cfe82faa47eb757/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "title": "Sunday Pick: The science on improving your brain health with Dr. Ayesha and Dean Sherzai",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aee46b760a59de70fef4385/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1794000763062-56a79d09-52e5-4237-b85d-ecc79ddd1a69.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-08",
-   "minutes": 19,
+   "minutes": 34,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Jennifer Granholm steered Michigan through the auto industry's near-collapse and later ran the US Department of Energy during the largest clean energy investment in the country's history. In conversation with climate investor Ryan Panchadsaram, she explains…"
+   "desc": "When does normal aging end and something more concerning begins? In this episode Shoshana invites neurologist Drs. Ayesha and Dean Sherzai to discuss their studies on Alzheimer’s and Dementia. They debunk myths around Alzheimer, discuss what a brain-healthy…"
   },
   {
    "source": "SBS Learn English",
@@ -56,15 +56,15 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Study finds majority of pilots nod off mid-flight (Level 6)",
-   "url": "https://breakingnewsenglish.com/2611/261102-pilot-fatigue.html",
+   "title": "Chef fired for refusing to put pineapple on pizza (Level 6)",
+   "url": "https://breakingnewsenglish.com/2611/261109-pineapple-on-pizza.html",
    "audio": "",
    "image": "",
-   "date": "2026-11-02",
+   "date": "2026-11-09",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Nov 02, 2026. A new report has raised serious concerns about pilot fatigue."
+   "desc": "Nov 09, 2026. An Italian chef in Australia has been fired for refusing to put pineapple on pizzas."
   },
   {
    "source": "Aeon",
