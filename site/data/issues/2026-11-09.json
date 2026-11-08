@@ -1,0 +1,720 @@
+{
+  "date": "2026-11-09",
+  "issueNo": 22,
+  "title": "Israel's coalition test, human-cell mice and the EV surge",
+  "createdAt": "2026-11-09T06:53:51+11:00",
+  "stories": [
+    {
+      "id": "israel-eisenkot",
+      "category": "World",
+      "headline": "Netanyahu rival Gadi Eisenkot gets first chance to form Israel's government",
+      "headlineZh": "内塔尼亚胡劲敌艾森科特获授权组建以色列新政府",
+      "summaryZh": "67名议员推荐艾森科特，他须在28天内组建联合政府，阿拉伯政党的角色成最大争议。",
+      "c1": "Israel's President Isaac Herzog has given Gadi Eisenkot, a former military chief who leads the Yashar party, the first opportunity to form a new government, dealing a significant blow to his rival Benjamin Netanyahu. After taking the weekend for deliberation, Herzog's office said factions representing 67 members of the Knesset had recommended Eisenkot, compared with 46 who backed Netanyahu, the leader of Likud. One faction with seven members chose not to endorse anyone.\n\nEisenkot now has 28 days to assemble a coalition, a period the president may extend by a further 14 days if negotiations are still under way. Should he fail, Herzog could turn to Netanyahu instead, and if the deadlock drags on, Israelis may find themselves heading back to the polls in the new year.\n\nSecuring a workable majority will be far from straightforward. Arab-Israeli parties will hold a record 19 seats in the incoming parliament, and their role has become the main sticking point. Avigdor Liberman, who leads Yisrael Beiteinu, has ruled out sitting in any government that includes them. Without those parties, Eisenkot would need backing from the ultra-Orthodox factions of Netanyahu's former coalition, yet he campaigned on forcing ultra-Orthodox men to complete compulsory military service. Their exemptions were struck down by the Supreme Court in 2024.\n\nMeanwhile, Likud and other right-wing parties have accused their opponents of stealing the election and have alleged foreign interference. Police and the Shin Bet are investigating claims that foreign money was used to boost turnout in Arab-Israeli communities, although the head of the elections committee said the concerns were not serious enough to undermine the vote's integrity. Netanyahu, who has not been seen in public since polling day, has called for a unity government, an idea Herzog had already rejected.",
+      "b2": "Israel's President Isaac Herzog has chosen Gadi Eisenkot to try to form a new government. Eisenkot is a former head of the military, the leader of the Yashar party and a rival of Benjamin Netanyahu. Parties with 67 members of parliament recommended Eisenkot, while parties with 46 members supported Netanyahu.\n\nEisenkot has 28 days to build a coalition. The president can give him 14 more days if talks are continuing. If he does not succeed, Herzog can ask Netanyahu to try. If nobody can form a government, there could be another election next year.\n\nThe task will be difficult. Arab-Israeli parties will have a record 19 seats, and this is the biggest problem. Avigdor Liberman, the leader of Yisrael Beiteinu, says he will not join a government that includes them. Without them, Eisenkot would need help from ultra-Orthodox parties. However, he wants ultra-Orthodox men to do military service, which those parties oppose.\n\nLikud and other right-wing parties claim the election was stolen and say there was foreign interference. Police are investigating claims about foreign money, but the head of the elections committee says the result is still valid. Netanyahu has asked for a unity government, but Herzog has already said no.",
+      "vocab": [
+        {
+          "word": "deal a blow",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给予打击",
+          "en": "to cause serious harm or disappointment to someone",
+          "example": "The factory closure dealt a heavy blow to the small town.",
+          "forms": [
+            "dealing a significant blow"
+          ]
+        },
+        {
+          "word": "deliberation",
+          "pos": "n.",
+          "ipa": "/dɪˌlɪbəˈreɪʃən/",
+          "zh": "深思熟虑；审议",
+          "en": "long and careful thought before making a decision",
+          "example": "After much deliberation, she turned down the job offer."
+        },
+        {
+          "word": "assemble a coalition",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "组建联盟",
+          "en": "to bring different groups together to work or govern jointly",
+          "example": "Campaigners assembled a coalition of unions and charities to fight the plan."
+        },
+        {
+          "word": "deadlock",
+          "pos": "n.",
+          "ipa": "/ˈdedlɒk/",
+          "zh": "僵局",
+          "en": "a situation in which no progress can be made",
+          "example": "Talks between the two sides ended in deadlock."
+        },
+        {
+          "word": "far from straightforward",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝非易事",
+          "en": "much more complicated than it first appears",
+          "example": "Moving overseas with three kids was far from straightforward."
+        },
+        {
+          "word": "sticking point",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "症结；争议焦点",
+          "en": "an issue that stops people from reaching an agreement",
+          "example": "Pay remains the main sticking point in the negotiations."
+        },
+        {
+          "word": "rule out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "排除（可能性）",
+          "en": "to decide that something is not possible or will not happen",
+          "example": "The coach hasn't ruled out a return to the team next season.",
+          "forms": [
+            "ruled out"
+          ]
+        },
+        {
+          "word": "strike down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（法院）废除",
+          "en": "(of a court) to declare a law or rule invalid",
+          "example": "The court struck down the new parking rules as unfair.",
+          "forms": [
+            "struck down"
+          ]
+        },
+        {
+          "word": "undermine",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈmaɪn/",
+          "zh": "削弱；破坏",
+          "en": "to gradually make something weaker or less effective",
+          "example": "Constant criticism can undermine a person's confidence."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "More members of the Knesset recommended Eisenkot than Netanyahu.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 factions representing 67 members recommended Eisenkot, compared with 46 who backed Netanyahu，67多于46，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Avigdor Liberman is willing to join a government that includes Arab-Israeli parties.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Liberman has ruled out sitting in any government that includes them，与题干相反，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Eisenkot has held talks with the ultra-Orthodox parties since the election.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说他 would need backing from the ultra-Orthodox factions，并未提到他是否已与其会谈，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why might ultra-Orthodox parties be reluctant to support Eisenkot?",
+          "options": [
+            "He wants to reduce the number of seats in the Knesset",
+            "He campaigned on making ultra-Orthodox men do military service",
+            "He has promised to include Likud in his government",
+            "He was investigated for foreign interference"
+          ],
+          "answer": 1,
+          "explain": "原文：he campaigned on forcing ultra-Orthodox men to complete compulsory military service，而这些政党希望保留豁免。"
+        }
+      ],
+      "discuss": "When no party wins a clear majority, should leaders be willing to work with rivals they strongly disagree with? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"
+        }
+      ]
+    },
+    {
+      "id": "human-cell-mice",
+      "category": "Science",
+      "headline": "Human brain tissue grown inside mice could help study brain disorders",
+      "headlineZh": "人类脑组织在小鼠体内生长，助力脑疾病研究",
+      "summaryZh": "斯坦福团队将人类脑类器官植入缺失大脑皮层的小鼠，组织约占脑容量一半，引发伦理讨论。",
+      "c1": "Scientists at Stanford University have grown human brain tissue inside living mice, an achievement they hope will shed new light on conditions such as schizophrenia, cerebral palsy and dementia. The study, published in Nature and led by psychiatry professor Sergiu Pasca, set out to tackle a long-standing problem: ethical and safety constraints make living human brain tissue extremely difficult to study.\n\nThe team genetically engineered mice to develop without most of their cerebral cortex and hippocampus, regions involved in movement, learning and memory. When the animals were two days old, researchers implanted organoids, lab-grown clusters of roughly 100,000 cells derived from donors' stem cells. The procedure succeeded in 25 of 29 mice. Within three months, the human tissue had grown about fivefold, tapped into the animals' blood supply and accounted for around half of their brain volume.\n\nStrikingly, the mice walked and vocalised more or less normally, and in maze tests they outperformed mice lacking the human tissue, suggesting it contributed to cognition. Some cells even developed into von Economo neurons, rare cells found in highly social species such as humans, apes, whales and elephants. When deprived of oxygen, the mice showed brain damage and poor limb coordination, offering a possible model for cerebral palsy, which rodents seldom develop naturally.\n\nUnsurprisingly, the work raises thorny ethical questions. The researchers stress that this is not a brain transplant and that the animals do not think like humans; they also halted the experiments before any signs of consciousness appeared. John Evans, a sociologist who was not involved, argued that the study itself does not raise major ethical problems, but cautioned that the field lacks clear stopping points on the path towards primates. Calls for firmer oversight of organoid research are growing.",
+      "b2": "Researchers at Stanford University have grown human brain tissue inside living mice. They hope this will help scientists understand illnesses such as schizophrenia, cerebral palsy and dementia. The study was published in the journal Nature. Living human brain tissue is very hard to study for ethical and safety reasons.\n\nThe scientists changed the genes of mice so that they grew without most of the cerebral cortex and hippocampus. When the mice were two days old, the team added organoids, which are small groups of human cells grown in a lab. This worked in 25 of 29 mice. After three months, the human tissue made up about half of each mouse's brain.\n\nThe mice could walk and make sounds fairly normally. In maze tests, they did better than mice without human tissue. Some human cells also became rare von Economo neurons, which are found in very social animals such as humans and whales. The mice could also help scientists study cerebral palsy.\n\nThe research raises ethical questions. The scientists say the mice do not think like humans, and they stopped the experiments before any signs of consciousness. Some experts want clearer rules for this kind of research.",
+      "vocab": [
+        {
+          "word": "shed new light on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……提供新的认识",
+          "en": "to help explain something that was not well understood",
+          "example": "The letters shed new light on the writer's early life."
+        },
+        {
+          "word": "long-standing",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋˈstændɪŋ/",
+          "zh": "长期存在的",
+          "en": "having existed for a long time",
+          "example": "They finally settled a long-standing dispute over the fence."
+        },
+        {
+          "word": "constraint",
+          "pos": "n.",
+          "ipa": "/kənˈstreɪnt/",
+          "zh": "限制；约束",
+          "en": "something that limits what you can do",
+          "example": "Budget constraints mean we can't hire extra staff this year.",
+          "forms": [
+            "constraints"
+          ]
+        },
+        {
+          "word": "tap into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "接入；利用",
+          "en": "to connect to or make use of a supply or resource",
+          "example": "The new app taps into people's love of short videos.",
+          "forms": [
+            "tapped into"
+          ]
+        },
+        {
+          "word": "account for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "占（比例）",
+          "en": "to form a particular amount or part of something",
+          "example": "Students account for most of the café's customers.",
+          "forms": [
+            "accounted for"
+          ]
+        },
+        {
+          "word": "outperform",
+          "pos": "v.",
+          "ipa": "/ˌaʊtpəˈfɔːm/",
+          "zh": "表现优于",
+          "en": "to do better than someone or something else",
+          "example": "Small firms often outperform big ones when it comes to customer service.",
+          "forms": [
+            "outperformed"
+          ]
+        },
+        {
+          "word": "thorny",
+          "pos": "adj.",
+          "ipa": "/ˈθɔːni/",
+          "zh": "棘手的",
+          "en": "difficult to deal with and likely to cause disagreement",
+          "example": "Housing is one of the thorniest issues facing the city."
+        },
+        {
+          "word": "halt",
+          "pos": "v.",
+          "ipa": "/hɔːlt/",
+          "zh": "叫停；中止",
+          "en": "to stop something, often before it is finished",
+          "example": "Construction was halted after workers found ancient remains.",
+          "forms": [
+            "halted"
+          ]
+        },
+        {
+          "word": "oversight",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəsaɪt/",
+          "zh": "监管",
+          "en": "the process of watching and checking an activity to make sure it is done properly",
+          "example": "The committee provides independent oversight of police spending."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The organoid transplant worked in every mouse that received it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：The procedure succeeded in 25 of 29 mice，并非全部成功，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Mice with human tissue performed better in maze tests than mice without it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：in maze tests they outperformed mice lacking the human tissue，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers plan to repeat the experiment in monkeys.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到 Evans 警告该领域 lacks clear stopping points on the path towards primates，没有说研究人员计划用猴子做实验，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why could the mice be useful for studying cerebral palsy?",
+          "options": [
+            "They were born with the condition",
+            "Rodents seldom develop cerebral palsy naturally, but these mice showed similar damage",
+            "Human patients donated their brain tissue",
+            "They lost the ability to walk after the transplant"
+          ],
+          "answer": 1,
+          "explain": "原文：When deprived of oxygen, the mice showed brain damage and poor limb coordination ... which rodents seldom develop naturally。"
+        }
+      ],
+      "discuss": "Where do you think scientists should draw the line when mixing human and animal biology? Who should decide?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals"
+        }
+      ]
+    },
+    {
+      "id": "ev-surge-iran-war",
+      "category": "Environment",
+      "headline": "Iran war fuel shock speeds up the global switch to electric cars",
+      "headlineZh": "伊朗战争引发油价冲击，加速全球电动车转型",
+      "summaryZh": "油价飙升推动电动车销量大增，澳大利亚纯电车销量连续两月超过汽油车。",
+      "c1": "During the 1979 oil crisis, US president Jimmy Carter stood beside a solar hot water system at the White House and urged Americans to embrace clean energy. Experts now suggest another conflict involving Iran could prove a tipping point in the move away from fossil fuels. Since the US and Israel began bombing Iran in February, fuel prices have soared and sales of electric vehicles have risen sharply around the world.\n\nAustralia is a case in point. EVs now make up close to a quarter of new car sales, and in September and October battery electric cars outsold petrol models. Sales have reached record levels in Europe, hitting 37 per cent in Germany in October, while demand is gathering pace across South-East Asia, and Laos suspended imports of combustion-engine cars in May. One energy expert even described Donald Trump as the world's best salesperson for EVs. Ironically, the US is the only country where EV sales have fallen.\n\nThe economic argument is also becoming harder to dismiss. Before the crisis, the world was on track to spend about US$4 trillion a year on oil and gas, and one coalition forecasts that this year's bill could exceed US$5 trillion. By comparison, a net-zero energy transition is estimated to cost roughly US$3.5 trillion annually. An Ember report found that the world's electric cars saved around US$20 billion in crude oil costs in the six months after the war began.\n\nEven so, the shift still has a long way to go. EVs account for only about 5 per cent of cars on the road, and coal, oil and gas still supply around 60 per cent of the world's final energy. With COP31 taking place this week and electrification high on the agenda, the question is whether governments will seize the moment.",
+      "b2": "In 1979, during an oil crisis, US president Jimmy Carter asked Americans to use more solar energy. Now experts say a new war involving Iran could be a turning point in the move away from fossil fuels. Since the US and Israel started bombing Iran in February, fuel prices have gone up and people are buying electric cars.\n\nIn Australia, electric vehicles are now almost a quarter of new car sales. In September and October, more battery electric cars were sold than petrol cars. EV sales are also at record levels in Europe, and they are growing in South-East Asia. However, in the US, EV sales have actually fallen.\n\nMoney is a big part of the story. Before the war, the world was spending about US$4 trillion a year on oil and gas. This year, the cost could be more than US$5 trillion. Moving to net-zero energy would cost about US$3.5 trillion a year. Electric cars around the world saved about US$20 billion in oil in the first six months of the war.\n\nBut the change is not finished. Only about 5 per cent of cars on the road are electric, and fossil fuels still provide about 60 per cent of the world's final energy. The COP31 climate talks are taking place this week, and electrification is an important topic.",
+      "vocab": [
+        {
+          "word": "embrace",
+          "pos": "v.",
+          "ipa": "/ɪmˈbreɪs/",
+          "zh": "欣然接受",
+          "en": "to accept a new idea or change with enthusiasm",
+          "example": "Older workers have been quick to embrace remote work."
+        },
+        {
+          "word": "tipping point",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "临界点；转折点",
+          "en": "the moment when a series of small changes becomes significant enough to cause a larger change",
+          "example": "Rising rents reached a tipping point and people began leaving the city."
+        },
+        {
+          "word": "a case in point",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "恰当的例子",
+          "en": "a good example of what has just been said",
+          "example": "Public transport here is unreliable; last night's cancellations are a case in point."
+        },
+        {
+          "word": "gather pace",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "加速发展",
+          "en": "to start to happen faster or more strongly",
+          "example": "The campaign gathered pace after a celebrity shared it online.",
+          "forms": [
+            "gathering pace"
+          ]
+        },
+        {
+          "word": "on track to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有望；照目前趋势将",
+          "en": "likely to achieve or reach something if things continue in the same way",
+          "example": "The council is on track to finish the new library by March."
+        },
+        {
+          "word": "by comparison",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used when comparing one thing with another",
+          "example": "Sydney rents are huge; Adelaide, by comparison, seems affordable."
+        },
+        {
+          "word": "have a long way to go",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "任重道远",
+          "en": "to still need a lot of time or effort to reach a goal",
+          "example": "Gender equality in sport still has a long way to go.",
+          "forms": [
+            "has a long way to go"
+          ]
+        },
+        {
+          "word": "high on the agenda",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被列为优先事项",
+          "en": "treated as an important issue to deal with",
+          "example": "Mental health is high on the agenda at this year's conference."
+        },
+        {
+          "word": "seize the moment",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "抓住时机",
+          "en": "to act quickly to take advantage of an opportunity",
+          "example": "Interest rates fell, so they seized the moment and bought a house."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Most cars currently on the world's roads are electric.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：EVs account for only about 5 per cent of cars on the road，与题干相反，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Laos plans to lift its suspension of combustion-engine car imports next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 Laos suspended imports of combustion-engine cars in May，没有提到何时取消，故为Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "EV sales have dropped in the United States.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：the US is the only country where EV sales have fallen，故为True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, how does the cost of a net-zero transition compare with spending on oil and gas?",
+          "options": [
+            "It is about the same as this year's forecast oil and gas bill",
+            "It is more than double the cost of oil and gas",
+            "It is lower than what the world was already spending on oil and gas",
+            "It has never been estimated"
+          ],
+          "answer": 2,
+          "explain": "原文：net-zero transition is estimated to cost roughly US$3.5 trillion annually，低于战前每年约 US$4 trillion 的油气支出。"
+        }
+      ],
+      "discuss": "Do you think a crisis is the only thing that makes people and governments change their habits? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-09/iran-conflict-strengthens-case-or-electrification/107351224"
+        }
+      ]
+    },
+    {
+      "id": "victoria-prisons",
+      "category": "Australia",
+      "headline": "Experts warn Victoria's crowded prisons face pressure from tough election promises",
+      "headlineZh": "专家警告：维州监狱拥挤，选举中的强硬承诺将加剧压力",
+      "summaryZh": "维州监狱已达92%容量，两大党都主张严打犯罪，但都未说明新增监狱成本。",
+      "c1": "With Victorians heading to the polls on 28 November, experts are warning that the state's prisons may struggle to cope with the tough-on-crime promises of both major parties. At the start of November, Victoria's prisons were operating at 92 per cent capacity, holding 4,624 sentenced prisoners and 3,268 people on remand.\n\nPremier Ben Carroll is introducing tougher laws, while the Coalition under Jess Wilson has pledged a firmer approach, including 1,500 extra police recruits on top of the 1,500 Labor is seeking. Building prisons, however, does not come cheap: the maximum-security Western Plains prison near Lara cost $1.19 billion. Neither party directly answered questions about the additional cost of more prison space and corrections officers. Labor points to more than 1,200 extra beds and 1,200 extra officers it has already delivered, while Shadow Corrections Minister Brad Battin says a Coalition government would manage numbers within existing facilities.\n\nArie Freiberg, a former chair of the Sentencing Advisory Council, warned that more police and stricter rules would put pressure on prisons and could mean more people being held in police cells. \"Justice is not cheap,\" he said, arguing that investing in services for people with mental illness or drug and alcohol problems would be more cost-effective than locking them up.\n\nNot everyone shares that view. Swinburne law professor Mirko Bagaric blames lenient sentencing under Labor for the rise in crime and regards new prisons as a worthwhile investment, provided they focus on violent and sexual offenders. Notably, Victoria's prison population fell from 8,102 to 5,915 between 2019 and 2025, even as the crime rate rose, a statistic that is likely to fuel debate on both sides.",
+      "b2": "Victorians will vote in a state election on 28 November. Experts say the state's prisons may not be able to handle the tougher crime policies of both major parties. In early November, Victoria's prisons were at 92 per cent capacity.\n\nPremier Ben Carroll is bringing in tougher laws. The Coalition, led by Jess Wilson, also promises a tougher approach and 1,500 more police recruits. But prisons are very expensive. The Western Plains prison near Lara cost $1.19 billion. Neither party clearly explained how it would pay for more prison space and staff. Labor says it has already added more than 1,200 beds and 1,200 officers.\n\nArie Freiberg, who used to lead the Sentencing Advisory Council, says more police and stricter rules will put more pressure on prisons. He believes spending money on mental health and drug and alcohol services is better value than prisons.\n\nLaw professor Mirko Bagaric disagrees. He says light sentences have led to more crime, and he thinks new prisons are a good investment if they are used for violent and sexual offenders. Between 2019 and 2025, the number of prisoners in Victoria fell, but the crime rate went up.",
+      "vocab": [
+        {
+          "word": "struggle to cope",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "难以应付",
+          "en": "to find it very hard to deal with a situation or demand",
+          "example": "Hospitals are struggling to cope with the winter flu season."
+        },
+        {
+          "word": "tough-on-crime",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "严厉打击犯罪的",
+          "en": "favouring strict laws and harsh punishments for crime",
+          "example": "The candidate ran a tough-on-crime campaign in the outer suburbs."
+        },
+        {
+          "word": "on remand",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "候审羁押中",
+          "en": "kept in prison while waiting for a trial",
+          "example": "He spent three months on remand before the case was dropped."
+        },
+        {
+          "word": "pledge",
+          "pos": "v.",
+          "ipa": "/pledʒ/",
+          "zh": "承诺；保证",
+          "en": "to make a formal promise to do or give something",
+          "example": "The council has pledged to plant 10,000 trees by 2030.",
+          "forms": [
+            "pledged"
+          ]
+        },
+        {
+          "word": "not come cheap",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "代价不菲",
+          "en": "to be expensive",
+          "example": "Good legal advice doesn't come cheap.",
+          "forms": [
+            "does not come cheap"
+          ]
+        },
+        {
+          "word": "put pressure on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给……施加压力",
+          "en": "to cause difficulties or strain for a system or person",
+          "example": "Rising rents are putting pressure on young families."
+        },
+        {
+          "word": "cost-effective",
+          "pos": "adj.",
+          "ipa": "/ˌkɒst ɪˈfektɪv/",
+          "zh": "划算的；成本效益高的",
+          "en": "giving good results for the money spent",
+          "example": "Insulating your roof is a cost-effective way to cut energy bills."
+        },
+        {
+          "word": "lenient",
+          "pos": "adj.",
+          "ipa": "/ˈliːniənt/",
+          "zh": "宽大的；从轻的",
+          "en": "less strict or severe than expected",
+          "example": "Some parents think the school is too lenient about phones in class."
+        },
+        {
+          "word": "worthwhile",
+          "pos": "adj.",
+          "ipa": "/ˌwɜːθˈwaɪl/",
+          "zh": "值得的",
+          "en": "worth the time, money or effort spent",
+          "example": "Volunteering at the shelter was a really worthwhile experience."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Victoria's prisons were completely full at the start of November.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：prisons were operating at 92 per cent capacity，并未满员，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Mirko Bagaric has advised the Coalition on its justice policy.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只介绍了 Bagaric 的观点，没有提到他是否为联盟党提供建议，故为Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Freiberg thinks funding mental health and addiction services is better value than imprisonment.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：investing in services for people with mental illness or drug and alcohol problems would be more cost-effective than locking them up，故为True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What happened to Victoria's prison population between 2019 and 2025?",
+          "options": [
+            "It rose along with the crime rate",
+            "It stayed about the same",
+            "It doubled because of tougher laws",
+            "It fell while the crime rate rose"
+          ],
+          "answer": 3,
+          "explain": "原文：prison population fell from 8,102 to 5,915 ... even as the crime rate rose。"
+        }
+      ],
+      "discuss": "Is building more prisons the best way to make communities safer, or should money go elsewhere? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-09/calls-for-next-victorian-government-to-invest-in-prisons/107361304"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Catching Up Over Coffee",
+    "titleZh": "咖啡馆里叙旧",
+    "setting": "Two old uni friends meet at a café on Lygon Street on Monday morning and end up chatting about the news.",
+    "settingZh": "周一早上，两位大学老友在莱贡街的一家咖啡馆见面，聊起了新闻。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Sorry I'm late — the tram was crawling the whole way down Swanston.",
+        "zh": "抱歉我迟到了——电车一路在斯旺斯顿街上慢吞吞地爬。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "No worries, I've only just ordered. Flat white for you, as usual?",
+        "zh": "没关系，我也刚点完。还是老样子，给你来杯馥芮白？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "You know me too well. So, what's new? Still thinking about getting a car?",
+        "zh": "你太了解我了。最近怎么样？还在考虑买车吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Yeah, and with petrol prices through the roof, I'm leaning towards an EV.",
+        "zh": "是啊，油价贵得离谱，我比较倾向买电动车。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Makes sense. Apparently they outsold petrol cars here for the last two months.",
+        "zh": "有道理。听说过去两个月电动车的销量都超过汽油车了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Really? That's wild. Mind you, I'd still have to sort out charging at my flat.",
+        "zh": "真的吗？太夸张了。不过话说回来，我还得解决公寓的充电问题。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair point. Did you see that story about mice with human brain cells?",
+        "zh": "说得对。你看到那条关于小鼠体内有人类脑细胞的新闻了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "I did! Honestly, it's fascinating, but it also gives me the creeps a bit.",
+        "zh": "看到了！说实话，挺神奇的，但也让我有点发毛。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Same. I get why they're doing it, but where do you draw the line?",
+        "zh": "我也是。我理解他们为什么这么做，但界限该划在哪里呢？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Exactly. Anyway, are you across the state election? It's only a few weeks off.",
+        "zh": "没错。对了，你关注州选举了吗？只剩几周了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Sort of. Both sides keep banging on about crime, but nobody mentions the cost.",
+        "zh": "算是吧。两边都一直在念叨犯罪问题，却没人提成本。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Typical. I reckon I'll just read the policies properly before I make up my mind.",
+        "zh": "老一套了。我想还是先认真看看政策再做决定吧。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Good on you. Right, coffee's here — let's talk about something less heavy!",
+        "zh": "你真靠谱。好了，咖啡来了——咱们聊点轻松的吧！"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "The tram was very slow",
+        "en": "the tram was crawling",
+        "zh": "crawl 形容交通极慢"
+      },
+      {
+        "plain": "You know my habits",
+        "en": "You know me too well",
+        "zh": "你太了解我了"
+      },
+      {
+        "plain": "petrol prices are very high",
+        "en": "petrol prices through the roof",
+        "zh": "through the roof 价格飞涨"
+      },
+      {
+        "plain": "I prefer to buy",
+        "en": "I'm leaning towards",
+        "zh": "倾向于某个选择"
+      },
+      {
+        "plain": "However",
+        "en": "Mind you",
+        "zh": "口语中补充相反观点"
+      },
+      {
+        "plain": "it makes me feel uncomfortable",
+        "en": "it also gives me the creeps",
+        "zh": "让人毛骨悚然"
+      },
+      {
+        "plain": "do you know about",
+        "en": "are you across",
+        "zh": "澳式口语：是否了解某事"
+      },
+      {
+        "plain": "keep talking about",
+        "en": "keep banging on about",
+        "zh": "喋喋不休地谈论（略带不满）"
+      }
+    ]
+  }
+}
