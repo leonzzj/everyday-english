@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T19:13:39.371Z",
+ "updatedAt": "2026-11-09T03:12:36.502Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "How Usman Khawaja changed Australian cricket",
-   "url": "https://www.abc.net.au/listen/programs/conversations/usman-khawaja-cricket-resilience-courage-character-sport/107334360",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q5/Z/sp.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Ff9b4544e68488c287b7f227a24bf0571.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-06",
-   "minutes": 53,
+   "title": "Rocker, doctor, flight surgeon – the many lives of Radio Birdman's frontman",
+   "url": "https://www.abc.net.au/listen/programs/conversations/deniz-tek-radio-birdman-medicine-macadamias/107346818",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q8/Z/c6.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F0dea91fa3cab010435e2be061a1167cf.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-09",
+   "minutes": 54,
    "level": "C1",
    "accent": "AU",
-   "desc": "As the first brown immigrant and the first Muslim to enter the very white world of Australian cricket, Usman Khawaja overcame many setbacks while forging his extraordinary career in the sport. Born in Pakistan, Usman moved to Sydney with his family at four…"
+   "desc": "Deniz Tek has squeezed more than most into his life. From pioneering punk rock in Australia, to performing improvised neurosurgery aboard a naval ship, to retirement growing Macadamias in Hawaii. Deniz is a founding member of Radio Birdman, Australia’s…"
   },
   {
    "source": "TED Talks Daily",
