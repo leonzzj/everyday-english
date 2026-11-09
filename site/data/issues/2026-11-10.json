@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-10",
+  "issueNo": 23,
+  "title": "The Pope in Argentina, hacked fridges and a 100-year pitch drop",
+  "createdAt": "2026-11-10T06:49:00+11:00",
+  "stories": [
+    {
+      "id": "pope-argentina",
+      "category": "World",
+      "headline": "Pope Leo draws record Buenos Aires crowd and warns against austerity",
+      "headlineZh": "教皇良十四世在布宜诺斯艾利斯吸引创纪录人潮，并警示紧缩政策",
+      "summaryZh": "约250万人参加教皇露天弥撒，他敦促米莱政府不要以严厉紧缩惩罚穷人。",
+      "c1": "Pope Leo XIV has drawn what appears to be the largest crowd of his papacy, with Buenos Aires officials estimating that around 2.5 million people attended an open-air Mass at the Monumento de los Españoles on Monday. Some pilgrims had travelled more than 1,000 kilometres to be there, and many camped overnight along the capital's broad avenues in the hope of catching a glimpse of him.\n\nThe visit forms the second leg of a 12-day tour of Latin America and is the first by a pope to Argentina since 1987. Leo, who was born in Chicago, spent decades as a missionary in South America, so the region is familiar territory. In his sermon, he welcomed the turnout in a part of the world that has long been a Catholic stronghold but is losing ground to fast-growing evangelical churches.\n\nYet the trip has not been purely spiritual. A day before the Mass, the Pope urged Argentinians to protect their democracy and called on President Javier Milei's government not to punish the poor with harsh austerity. Milei, a libertarian, has come under fire for cutting subsidies, laying off public servants and scaling back welfare, including disability benefits. Leo also endorsed measures that create opportunities and encourage private initiative, provided that the benefits of growth reach the disadvantaged, a line that drew applause.\n\nThe issue surfaced again when he visited the Pequeño Cottolengo, a home for abandoned people with disabilities in the suburb of Claypole. He told residents and staff that people with disabilities are \"a blessing, not a burden\" on society, and suggested that a nation's progress can be measured by how it welcomes those with particular needs. Given the concerns raised by disability groups and Church leaders about cuts to assistance programs, his words touched a sensitive nerve.",
+      "b2": "Pope Leo XIV has attracted the biggest crowd of his time as pope so far. Buenos Aires officials say about 2.5 million people came to an outdoor Mass in the city on Monday. Some people travelled more than 1,000 kilometres, and many slept outside overnight to get a good view.\n\nArgentina is the second stop on the Pope's 12-day tour of Latin America. It is the first visit by a pope to the country since 1987. Leo was born in Chicago, but he worked as a missionary in South America for many years. In his sermon, he said he was happy to see so many Catholics in a region where evangelical churches are growing quickly.\n\nThe visit also had a political side. A day before the Mass, the Pope asked Argentinians to protect their democracy. He also asked President Javier Milei's government not to hurt poor people with strict spending cuts. Milei has been criticised for cutting subsidies, public sector jobs and welfare, including disability payments.\n\nLater, the Pope visited a home for people with disabilities in the suburb of Claypole. He said people with disabilities are a blessing for society, not a burden. Disability groups and Church leaders have been worried about cuts to support programs, so his words were important to many people.",
+      "vocab": [
+        {
+          "word": "catch a glimpse of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "瞥见；看一眼",
+          "en": "to see someone or something briefly",
+          "example": "Fans waited for hours outside the hotel to catch a glimpse of the band.",
+          "forms": [
+            "catching a glimpse of"
+          ]
+        },
+        {
+          "word": "familiar territory",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "熟悉的领域",
+          "en": "a situation or subject you already know well",
+          "example": "For a former nurse, writing about hospital life was familiar territory."
+        },
+        {
+          "word": "stronghold",
+          "pos": "n.",
+          "ipa": "/ˈstrɒŋhəʊld/",
+          "zh": "大本营；据点",
+          "en": "a place where a belief or group has strong support",
+          "example": "The inner suburbs have long been a stronghold for the Greens."
+        },
+        {
+          "word": "lose ground",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "失去优势；落后",
+          "en": "to become less popular, successful or powerful",
+          "example": "Print newspapers continue to lose ground to online news.",
+          "forms": [
+            "losing ground"
+          ]
+        },
+        {
+          "word": "come under fire",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "受到抨击",
+          "en": "to be strongly criticised",
+          "example": "The council came under fire for closing the local library.",
+          "forms": [
+            "come under fire"
+          ]
+        },
+        {
+          "word": "scale back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "缩减；削减",
+          "en": "to reduce the size or amount of something",
+          "example": "The company decided to scale back its expansion plans.",
+          "forms": [
+            "scaling back"
+          ]
+        },
+        {
+          "word": "austerity",
+          "pos": "n.",
+          "ipa": "/ɒˈsterəti/",
+          "zh": "紧缩政策",
+          "en": "strict cuts to government spending",
+          "example": "Years of austerity left many public hospitals short of staff."
+        },
+        {
+          "word": "provided that",
+          "pos": "conj.",
+          "ipa": "",
+          "zh": "只要；前提是",
+          "en": "only if a particular condition is met",
+          "example": "You can borrow my car, provided that you fill up the tank."
+        },
+        {
+          "word": "touch a nerve",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "触及敏感问题",
+          "en": "to mention something that upsets people because it matters to them",
+          "example": "Her comment about rent prices clearly touched a nerve with the audience.",
+          "forms": [
+            "touched a sensitive nerve"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Around 2.5 million people attended the Pope's Mass in Buenos Aires, according to city officials.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 Buenos Aires officials estimating that around 2.5 million people attended，与题干一致，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "This is the first time Pope Leo XIV has ever been to South America.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称他 spent decades as a missionary in South America，说明他早已在南美生活多年，与题干矛盾，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "President Milei personally attended the open-air Mass on Monday.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到教皇对米莱政府的呼吁，并未说明米莱是否出席弥撒，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the Pope's words at the Pequeño Cottolengo touch a sensitive nerve?",
+          "options": [
+            "Because the home had recently been closed by the government",
+            "Because there were concerns about cuts to assistance programs",
+            "Because he criticised evangelical churches",
+            "Because he refused to meet Church leaders"
+          ],
+          "answer": 1,
+          "explain": "原文称 Given the concerns raised by disability groups and Church leaders about cuts to assistance programs，故选B。"
+        }
+      ],
+      "discuss": "Should religious leaders comment on a government's economic policies, or should they stay out of politics? Why do you think so?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-10/pope-argentina-milei-crowd-record/107366696"
+        },
+        {
+          "name": "UPI",
+          "url": "https://www.upi.com/Top_News/World-News/2026/11/09/latam-argentina-pope-mass/8271794244018"
+        }
+      ]
+    },
+    {
+      "id": "france-iran-fridge-hack",
+      "category": "Tech",
+      "headline": "France blames Iran for hacking supermarket fridges and sparking fires",
+      "headlineZh": "法国指控伊朗黑客入侵超市冷柜并引发火灾",
+      "summaryZh": "法国称伊朗革命卫队网络部队远程调高冷柜温度，致食品变质、起火，将寻求欧洲制裁。",
+      "c1": "France has formally accused a cyber unit linked to Iran's Islamic Revolutionary Guard Corps of sabotaging refrigeration systems in hundreds of supermarkets, in what officials describe as an unprecedented attack on everyday infrastructure. Foreign Minister Jean-Noël Barrot said the Iranian ambassador had been summoned and that France would push for sanctions at a European level.\n\nAccording to investigators, the hackers gained access to internet-connected cooling systems overnight on 11 and 12 October and remotely raised temperatures to as high as 50°C. Retailers estimate that millions of euros' worth of food was spoiled, and in some stores the heat was intense enough to spark fires or melt equipment. Several major chains were caught up in the attack, among them Intermarché and Netto, which together had at least 300 stores affected, Coopérative U and Carrefour.\n\nThe Paris prosecutor's office has requested international arrest warrants for the leader of Shahid Kaveh, an offensive cyber unit tied to the Revolutionary Guards, and two of his deputies. Investigators reportedly traced the intrusion through the use of Farsi and IP addresses linked to devices in Iran. Barrot called it the first large-scale cyberattack for sabotage purposes on French soil.\n\nThe incident has raised uncomfortable questions about how vulnerable ordinary connected devices may be. On 2 November, supermarkets in Belgium, Estonia, Ireland, Luxembourg and Sweden also reported sudden overnight temperature spikes, affecting dozens of stores and a food distribution hub, although responsibility for those cases has yet to be established. Arguably, the episode shows that in an age of smart equipment, even a freezer aisle can become a target in a geopolitical conflict.",
+      "b2": "France says a cyber unit connected to Iran's Revolutionary Guards attacked the refrigeration systems of hundreds of supermarkets. Foreign Minister Jean-Noël Barrot said France had called in the Iranian ambassador and would ask for sanctions across Europe.\n\nInvestigators say the hackers got into internet-connected cooling systems on the nights of 11 and 12 October. They raised the temperatures to as high as 50°C. Shops say food worth millions of euros was ruined. In some stores, the heat caused fires or melted equipment. Big chains such as Intermarché, Netto, Coopérative U and Carrefour were affected.\n\nThe Paris prosecutor's office wants international arrest warrants for the leader of a cyber unit called Shahid Kaveh and two of his deputies. Investigators say the attackers used Farsi and IP addresses linked to devices in Iran. Barrot said it was the first large cyberattack aimed at sabotage in France.\n\nThe attack has made people worry about the safety of everyday connected machines. On 2 November, supermarkets in Belgium, Estonia, Ireland, Luxembourg and Sweden also had sudden temperature rises overnight. Dozens of stores and a food distribution centre were affected, but it is not yet clear who was behind those problems.",
+      "vocab": [
+        {
+          "word": "unprecedented",
+          "pos": "adj.",
+          "ipa": "/ʌnˈpresɪdentɪd/",
+          "zh": "前所未有的",
+          "en": "never having happened before",
+          "example": "The city faced unprecedented demand for public housing last winter."
+        },
+        {
+          "word": "push for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "争取；极力要求",
+          "en": "to try hard to make something happen",
+          "example": "Residents are pushing for a new bus route to the hospital."
+        },
+        {
+          "word": "gain access to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "获得进入（权限）",
+          "en": "to manage to enter a place or system",
+          "example": "Scammers gained access to her email account through a fake link.",
+          "forms": [
+            "gained access to"
+          ]
+        },
+        {
+          "word": "spark",
+          "pos": "v.",
+          "ipa": "/spɑːk/",
+          "zh": "引发；触发",
+          "en": "to cause something to start suddenly",
+          "example": "The new parking rules sparked angry protests from local traders."
+        },
+        {
+          "word": "caught up in",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被卷入",
+          "en": "involved in a situation without wanting to be",
+          "example": "Thousands of travellers were caught up in the airport strike."
+        },
+        {
+          "word": "trace",
+          "pos": "v.",
+          "ipa": "/treɪs/",
+          "zh": "追查；追溯",
+          "en": "to find the origin of something by careful investigation",
+          "example": "Police traced the call to a phone box in Geelong.",
+          "forms": [
+            "traced"
+          ]
+        },
+        {
+          "word": "raise uncomfortable questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发令人不安的疑问",
+          "en": "to make people think about difficult or worrying issues",
+          "example": "The report raises uncomfortable questions about how the money was spent.",
+          "forms": [
+            "raised uncomfortable questions"
+          ]
+        },
+        {
+          "word": "yet to be established",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚未确定",
+          "en": "not proven or confirmed so far",
+          "example": "The cause of the outage is yet to be established."
+        },
+        {
+          "word": "arguably",
+          "pos": "adv.",
+          "ipa": "/ˈɑːɡjuəbli/",
+          "zh": "可以说",
+          "en": "used when giving an opinion you think can be supported",
+          "example": "She is arguably the best coach the club has ever had."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The hackers raised the temperature inside the cooling systems to as high as 50°C.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 remotely raised temperatures to as high as 50°C，与题干一致，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Investigators have confirmed that the same Iranian unit was behind the problems in Belgium and Sweden.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称 responsibility for those cases has yet to be established，即尚未确定，与题干“已确认”矛盾，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Iran has denied any involvement in the supermarket attacks.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到伊朗是否否认参与，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What action has the Paris prosecutor's office taken?",
+          "options": [
+            "It has closed the affected supermarkets",
+            "It has fined the Iranian ambassador",
+            "It has requested international arrest warrants",
+            "It has banned internet-connected fridges"
+          ],
+          "answer": 2,
+          "explain": "原文称 The Paris prosecutor's office has requested international arrest warrants，故选C。"
+        }
+      ],
+      "discuss": "As more household and business devices connect to the internet, are the benefits worth the security risks? How should governments and companies respond?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges"
+        },
+        {
+          "name": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-09-french-officials-blame-iran-for-refrigerator-hacks-vow-retaliation/"
+        }
+      ]
+    },
+    {
+      "id": "pitch-drop-centenary",
+      "category": "Science",
+      "headline": "World's longest-running science experiment nears its 100th birthday",
+      "headlineZh": "世界上持续时间最长的科学实验即将迎来一百周年",
+      "summaryZh": "昆士兰大学沥青滴落实验将满百年，九滴沥青落下却无人亲眼见证，第十滴或在几年内落下。",
+      "c1": "Tucked behind glass outside a lecture theatre at the University of Queensland, a lump of black pitch is approaching a remarkable milestone. Officially the world's longest-running science experiment, the pitch drop experiment will turn 100 in 2027, and in all that time not a single falling drop has been seen by human eyes.\n\nThe experiment was set up by Thomas Parnell, the university's first professor of physics, to demonstrate the unusual properties of pitch, a substance then widely used to waterproof boats and household containers. In 1927 he heated a batch, sealed it in a glass funnel and left it to cool. Three years later he cut off the bottom of the funnel, and the pitch began to flow at an almost imperceptible pace.\n\nAccording to its current custodian, Professor Andrew White, pitch looks like a solid but behaves like a liquid, rather like toothpaste, only billions of times more viscous. He estimates it moves at roughly an atom per second, more than 10 times slower than continental drift. Nine drops have fallen since 1930, yet each has managed to slip past its observers. In 1979, his predecessor John Mainstone stayed on campus over a weekend, only for a drop to fall after he had gone home; a power cut later foiled an attempt to capture one on camera.\n\nThe most recent drop, in 2014, never fell cleanly because the beaker beneath was already crowded with earlier pitch, so it spent about eight years slowly sagging. A fresh beaker is now in place, and White expects the tenth drop within the next couple of years. He would love to witness it, he admits, but would settle for a really good recording.",
+      "b2": "At the University of Queensland, a piece of black pitch sits behind glass outside a lecture theatre. It is officially the world's longest-running science experiment, and it will turn 100 in 2027. In all that time, nobody has ever seen a drop fall.\n\nThomas Parnell, the university's first professor of physics, started the experiment to show how strange pitch is. In 1927 he heated some pitch, put it in a glass funnel and let it cool. Three years later he cut off the bottom of the funnel, and the pitch slowly started to flow.\n\nProfessor Andrew White now looks after the experiment. He says pitch looks solid but acts like a liquid, a bit like toothpaste, but billions of times thicker. It moves about an atom per second. Nine drops have fallen since 1930, but nobody has seen one. In 1979, John Mainstone waited at the university all weekend, but the drop fell after he went home.\n\nThe last drop, in 2014, did not fall properly because the beaker underneath was full of old pitch. Now there is a new, empty beaker, and White thinks the tenth drop will fall in the next few years. He would be happy with a good video of it.",
+      "vocab": [
+        {
+          "word": "milestone",
+          "pos": "n.",
+          "ipa": "/ˈmaɪlstəʊn/",
+          "zh": "里程碑",
+          "en": "an important stage or event in development",
+          "example": "Reaching 10,000 subscribers was a major milestone for her podcast."
+        },
+        {
+          "word": "set up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "建立；设立",
+          "en": "to start or establish something",
+          "example": "They set up a small business selling handmade candles."
+        },
+        {
+          "word": "imperceptible",
+          "pos": "adj.",
+          "ipa": "/ˌɪmpəˈseptəbl/",
+          "zh": "难以察觉的",
+          "en": "so slight or slow that it can hardly be noticed",
+          "example": "There was an almost imperceptible change in his tone of voice."
+        },
+        {
+          "word": "custodian",
+          "pos": "n.",
+          "ipa": "/kʌˈstəʊdiən/",
+          "zh": "保管人；守护者",
+          "en": "a person responsible for looking after something",
+          "example": "The museum sees itself as the custodian of the city's history."
+        },
+        {
+          "word": "viscous",
+          "pos": "adj.",
+          "ipa": "/ˈvɪskəs/",
+          "zh": "黏稠的",
+          "en": "thick and sticky, so it flows slowly",
+          "example": "Honey becomes more viscous when it is stored in the fridge."
+        },
+        {
+          "word": "slip past",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "悄悄溜过；被错过",
+          "en": "to pass without being noticed or caught",
+          "example": "The deadline slipped past while we were busy with other projects."
+        },
+        {
+          "word": "predecessor",
+          "pos": "n.",
+          "ipa": "/ˈpriːdɪsesə/",
+          "zh": "前任",
+          "en": "a person who held a job or position before someone else",
+          "example": "The new manager is far more relaxed than her predecessor."
+        },
+        {
+          "word": "foil",
+          "pos": "v.",
+          "ipa": "/fɔɪl/",
+          "zh": "挫败；阻止",
+          "en": "to stop something from succeeding",
+          "example": "Heavy rain foiled our plans for a picnic.",
+          "forms": [
+            "foiled"
+          ]
+        },
+        {
+          "word": "settle for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "退而求其次；勉强接受",
+          "en": "to accept something less than you hoped for",
+          "example": "We wanted a house with a garden but had to settle for a flat."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Thomas Parnell cut the bottom off the funnel three years after sealing the pitch inside it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 In 1927 he heated a batch... Three years later he cut off the bottom of the funnel，与题干一致，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "John Mainstone finally saw a drop fall in 1979.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称 only for a drop to fall after he had gone home，说明他错过了，与题干矛盾，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The university plans to install cameras from several different angles to capture the tenth drop.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 White would settle for a really good recording，并未提到多角度摄像机计划，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the 2014 drop not fall cleanly?",
+          "options": [
+            "The air conditioning was switched off",
+            "The funnel had cracked",
+            "The beaker below was already crowded with earlier pitch",
+            "A power cut stopped the experiment"
+          ],
+          "answer": 2,
+          "explain": "原文称 the beaker beneath was already crowded with earlier pitch，故选C。"
+        }
+      ],
+      "discuss": "Why do you think people are so fascinated by slow, long-term experiments like this one? Are projects without quick results still worth funding today?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-08/queensland-pitch-drop-experiment/107337784"
+        }
+      ]
+    },
+    {
+      "id": "schools-digital-detox",
+      "category": "Society",
+      "headline": "Australian schools head for a digital detox with less screen time",
+      "headlineZh": "澳大利亚学校将推行“数字排毒”，减少屏幕时间",
+      "summaryZh": "各级教育部长同意成立专责小组，限制屏幕使用和小学生成式AI，引发对教学方式的讨论。",
+      "c1": "After decades in which laptops and tablets steadily colonised Australian classrooms, the tide appears to be turning. Federal, state and territory education ministers have agreed to consider national limits on screen use in schools, prompted by a federal report warning that digital technology, including artificial intelligence, could undermine children's critical thinking, concentration and problem-solving.\n\nUnder the plan, generative AI will be restricted in primary schools and in high school assessments, and some Year 5 NAPLAN tests, which are currently all completed online, will return to pen and paper. A new taskforce on digital detoxing will report to ministers three times next year. The move builds on screen time limits already flagged in NSW and Victoria and follows similar steps in Norway and New York. Education Minister Jason Clare has insisted he is not out to scrap iPads, but sees a strong case for more pen and paper and less tech.\n\nWriting in The Conversation, educational psychologist Jason Lodge describes the report as a step in the right direction, while cautioning that more planning is needed. The research, he notes, is far from clear-cut. The OECD has found that 15-year-olds who use devices moderately for learning outperform both heavy users and non-users, and countries that poured money into school computers saw no meaningful gains in reading, maths or science. Technology tends to help, he argues, when it is used for specific purposes, such as targeted practice or precise feedback.\n\nLodge also points out that there is no comprehensive national data on how long students spend on devices at school, and that rules vary widely from school to school. With AI almost unavoidable in daily life, the taskforce's real challenge will be deciding when, rather than whether, technology belongs in the classroom.",
+      "b2": "For many years, laptops and tablets have become more and more common in Australian classrooms. Now that may change. Education ministers from the federal government and the states and territories have agreed to consider national limits on screen use in schools. A federal report warned that technology, including AI, could harm children's thinking, concentration and problem-solving.\n\nUnder the plan, generative AI will be limited in primary schools and in high school tests. Some Year 5 NAPLAN tests will go back to pen and paper. A new taskforce will report to ministers three times next year. NSW and Victoria have already talked about screen limits. Education Minister Jason Clare says he does not want to get rid of iPads, but he wants more pen and paper.\n\nEducation expert Jason Lodge says the report is a good start, but more planning is needed. He says the research is mixed. Students who use devices a moderate amount for learning do better than heavy users and non-users. Technology helps most when it has a clear purpose, such as practice or feedback.\n\nLodge also says there is no national data on how much time students spend on devices at school. Rules are also different in each school. He thinks the main question is when technology should be used in class.",
+      "vocab": [
+        {
+          "word": "the tide is turning",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "形势正在转变",
+          "en": "a situation or trend is starting to change",
+          "example": "After years of decline, the tide is turning for local bookshops.",
+          "forms": [
+            "the tide appears to be turning"
+          ]
+        },
+        {
+          "word": "undermine",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈmaɪn/",
+          "zh": "削弱；破坏",
+          "en": "to gradually make something weaker or less effective",
+          "example": "Constant interruptions can undermine your confidence in meetings."
+        },
+        {
+          "word": "build on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "在…基础上发展",
+          "en": "to use an earlier success as a base for further progress",
+          "example": "The new program builds on what students learned last year.",
+          "forms": [
+            "builds on"
+          ]
+        },
+        {
+          "word": "make a case for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为…提出理由",
+          "en": "to give reasons why something is a good idea",
+          "example": "She made a strong case for working from home two days a week.",
+          "forms": [
+            "sees a strong case for"
+          ]
+        },
+        {
+          "word": "a step in the right direction",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "朝正确方向迈出的一步",
+          "en": "an action that helps, though more is needed",
+          "example": "The new bike lanes are a step in the right direction for the city."
+        },
+        {
+          "word": "clear-cut",
+          "pos": "adj.",
+          "ipa": "/ˌklɪəˈkʌt/",
+          "zh": "明确的；清晰的",
+          "en": "simple and certain, with no doubt",
+          "example": "The choice between the two jobs wasn't as clear-cut as I'd hoped."
+        },
+        {
+          "word": "pour money into",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "大量投入资金",
+          "en": "to spend a lot of money on something",
+          "example": "The council has poured money into the new sports centre.",
+          "forms": [
+            "poured money into"
+          ]
+        },
+        {
+          "word": "outperform",
+          "pos": "v.",
+          "ipa": "/ˌaʊtpəˈfɔːm/",
+          "zh": "表现优于",
+          "en": "to do better than others",
+          "example": "Small investors sometimes outperform professional fund managers."
+        },
+        {
+          "word": "comprehensive",
+          "pos": "adj.",
+          "ipa": "/ˌkɒmprɪˈhensɪv/",
+          "zh": "全面的",
+          "en": "including all or nearly all details",
+          "example": "The guide gives a comprehensive overview of renting in Melbourne."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All Year 5 NAPLAN tests are currently completed online.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 some Year 5 NAPLAN tests, which are currently all completed online，说明目前全部在线完成，故为True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Jason Clare wants to remove iPads from all classrooms.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称 he is not out to scrap iPads，与题干矛盾，故为False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most parents surveyed support the new screen time limits.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提及家长调查或家长支持率，故为Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Jason Lodge, when is technology most likely to help learning?",
+          "options": [
+            "When students use it for as long as possible",
+            "When it replaces teachers in primary schools",
+            "When it is used for specific purposes such as targeted practice",
+            "When schools stop using pen and paper"
+          ],
+          "answer": 2,
+          "explain": "原文称 Technology tends to help... when it is used for specific purposes, such as targeted practice or precise feedback，故选C。"
+        }
+      ],
+      "discuss": "Do you think reducing technology in classrooms will help students learn better? How might schools balance traditional skills with preparing students for a digital world?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-09/classrooms-are-getting-a-digital-detox/107359784"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-05/education-ministers-agree-to-biggest-shake-up-in-years-of-school/107348312"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Prepping for the Big Interview",
+    "titleZh": "为重要面试做准备",
+    "setting": "Two housemates in Footscray run through practice questions the night before one of them has a job interview.",
+    "settingZh": "两位住在Footscray的室友在面试前一晚一起练习面试问题。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Thanks for doing this, Declan. I'm honestly a bundle of nerves about tomorrow.",
+        "zh": "谢谢你帮我，Declan。说实话，我对明天紧张得要命。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Happy to help. Right, let's kick off with the classic: tell me about yourself.",
+        "zh": "乐意帮忙。好，咱们从经典问题开始：介绍一下你自己。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Okay, so I've got three years in marketing, mostly working on social media campaigns.",
+        "zh": "好的，我有三年市场营销经验，主要做社交媒体推广活动。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Not bad, but you're underselling yourself. Mention the campaign that went viral last year.",
+        "zh": "还不错，但你太低估自己了。提一下去年那个爆红的推广活动。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Fair point. I always feel like I'm blowing my own trumpet when I bring that up.",
+        "zh": "有道理。每次提那个我都觉得自己在自吹自擂。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "That's literally the point of an interview. Own it — they want to hear the wins.",
+        "zh": "面试本来就是干这个的。大方承认吧——他们就想听你的成绩。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Alright. What if they ask about my biggest weakness? I always draw a blank.",
+        "zh": "好吧。要是他们问我最大的缺点呢？我每次都脑子一片空白。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Pick something real but fixable, then explain what you're doing to work on it.",
+        "zh": "选一个真实但能改进的缺点，再说说你在怎么改。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Maybe that I tend to take on too much and struggle to say no?",
+        "zh": "也许可以说我常常揽太多活，不太会拒绝？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Perfect, as long as you follow it up with how you've learnt to prioritise.",
+        "zh": "很好，只要你接着说说你是怎么学会分清轻重缓急的。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Got it. And should I ask them anything at the end, or just wrap things up?",
+        "zh": "明白了。最后我应该问他们问题吗，还是直接结束？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Definitely ask something. Ask what success looks like in the first six months.",
+        "zh": "一定要问。问问他们入职头六个月怎样算做得好。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Ooh, that's a good one. I'm starting to feel a lot less rattled now.",
+        "zh": "哦，这个问题好。我现在感觉没那么慌了。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "You'll smash it. Just get a decent night's sleep and don't overthink it.",
+        "zh": "你肯定没问题。好好睡一觉，别想太多。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I'm very nervous",
+        "en": "I'm honestly a bundle of nerves",
+        "zh": "a bundle of nerves 形容非常紧张"
+      },
+      {
+        "plain": "let's start with",
+        "en": "let's kick off with",
+        "zh": "kick off 开始，口语常用"
+      },
+      {
+        "plain": "you don't describe yourself well enough",
+        "en": "you're underselling yourself",
+        "zh": "undersell oneself 低估、少说自己的优点"
+      },
+      {
+        "plain": "I feel like I'm boasting",
+        "en": "I'm blowing my own trumpet",
+        "zh": "blow one's own trumpet 自吹自擂"
+      },
+      {
+        "plain": "I can't think of anything",
+        "en": "I always draw a blank",
+        "zh": "draw a blank 脑子一片空白"
+      },
+      {
+        "plain": "finish",
+        "en": "wrap things up",
+        "zh": "wrap up 收尾、结束"
+      },
+      {
+        "plain": "less nervous",
+        "en": "a lot less rattled",
+        "zh": "rattled 慌乱、不安"
+      },
+      {
+        "plain": "You'll do very well",
+        "en": "You'll smash it",
+        "zh": "smash it 澳式口语：表现出色"
+      }
+    ]
+  }
+}

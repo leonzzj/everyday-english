@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-09T06:53:51+11:00",
+  "updatedAt": "2026-11-10T06:49:00+11:00",
   "issues": [
+    {
+      "date": "2026-11-10",
+      "issueNo": 23,
+      "title": "The Pope in Argentina, hacked fridges and a 100-year pitch drop",
+      "headlines": [
+        "Pope Leo draws record Buenos Aires crowd and warns against austerity",
+        "France blames Iran for hacking supermarket fridges and sparking fires",
+        "World's longest-running science experiment nears its 100th birthday",
+        "Australian schools head for a digital detox with less screen time"
+      ]
+    },
     {
       "date": "2026-11-09",
       "issueNo": 22,
