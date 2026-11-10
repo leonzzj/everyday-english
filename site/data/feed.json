@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-10T10:08:31.521Z",
+ "updatedAt": "2026-11-10T23:36:48.016Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Will Stephen Miller make Trump 'Trumpier'?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-stephen-miller-make-trump-trumpier/107365040",
-   "audio": "https://traffic.megaphone.fm/TECO9184124517.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/5bb4ce56-dc50-11f1-ba64-afcd4af59443/image/47283c8504231677b645e927573dbfbe.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-10",
-   "minutes": 17,
+   "title": "How many more Russell Brands are out there?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/are-there-more-russell-brands-out-there/107369874",
+   "audio": "https://traffic.megaphone.fm/TECO4608815719.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/85fdae5c-dd19-11f1-a14e-172163fcb4ef/image/3f543f346c8929dbd985a0604f0640b1.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-11",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "Since the crushing defeat of the Republicans in the midterm elections, Donald Trump has been widely labelled as a lame duck.&nbsp;&nbsp; But is he, or will he be more Trumpian than ever?&nbsp;&nbsp; Today, Michael Green&nbsp;from the United States Studies…"
+   "desc": "For years, his outrageous persona made him almost untouchable. But Russell Brand is now behind bars after being sentenced to&nbsp;10 years and six months&nbsp;in jail for rape and multiple sexual assaults.&nbsp;He also remains under investigation over two…"
   },
   {
    "source": "Conversations",
@@ -30,28 +30,28 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to rewire your brain — and find your flow | Heather Berlin",
-   "url": "http://go.ted.com/heatherberlin",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af1eb82e0d89bd85412a56b/media.mp3",
+   "title": "Your phone is disgusting. Here's how to clean it | Lotti Tajouri",
+   "url": "http://go.ted.com/lottitajouri",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af23934e1219d878fcb3b47/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "When life gets uncertain, do you grip a little tighter? Neuroscientist Heather Berlin explores a surprising paradox: the harder you try to control everything, the more likely you are to get in your own way. Drawing on brain research and her own struggles with…"
+   "desc": "What’s dirtier: your phone or your hands? Molecular biologist Lotti Tajouri says there’s a gaping hole in our hygiene routine. We scrub our hands clean, then reach right for the phone — a warm, humid and mobile home for bacteria and viruses. He explores the…"
   },
   {
    "source": "SBS Learn English",
    "kind": "listen",
-   "title": "#122 Asking someone to take your photo",
-   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/122-asking-someone-to-take-your-photo-med/ruwem5ylo",
-   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261028060412_839295-english-73bab353-73a7-4a51-85b1-7c7123d26a3f.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a1-564d-db6e-a1ad-deef29a00000&dur_cat=2",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261028060416_361075-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-10-28",
+   "title": "#123 Talking about a big night",
+   "url": "https://www.sbs.com.au/language/english/en/podcast-episode/123-talking-about-a-big-night-med/f9f4pj4fi",
+   "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261111080434_495643-english-e0a289d3-e477-497d-a7a0-41ca4696e4e7.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a1-567f-d2b3-adad-77ff0e720000&dur_cat=2",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261111082847_466849-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-11",
    "minutes": 8,
    "level": "B1–B2",
    "accent": "AU",
-   "desc": "Learn English useful for asking stranger for a little help, including asking someone to take a photo, give directions or help with a bag. Keep practising the phrases from this episode and test what you’ve learned with our quiz here. #sbsaudiopodcast"
+   "desc": "Learn everyday English for talking about a big night out, sharing or responding to gossip, and describing something that may have happened. Keep practising the phrases from this episode and test what you’ve learned with our quiz here. #sbsaudiopodcast"
   },
   {
    "source": "Breaking News English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Equality talk",
-   "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
+   "title": "The wholehearted life",
+   "url": "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/f220e1d9-d115-41d2-8d6b-19080731b06a/essay-par161210.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-09",
+   "image": "https://images.aeonmedia.co/images/1f0bf1c6-e0ad-490d-b4c1-685617a95d62/essay-from-kodo-dsc02003.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-10",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "In the summer of 1646, the idea of equality gained new and profound depths. We are still catching up with the consequences - by Teresa M Bejan Read on Aeon"
+   "desc": "Roshi Joan Halifax is an original, generous, gritty and profound Buddhist teacher. How does she look back on her life? - by Ben Daitz Read on Aeon"
   }
  ]
 }
