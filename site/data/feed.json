@@ -1,44 +1,44 @@
 {
- "updatedAt": "2026-11-09T03:12:36.502Z",
+ "updatedAt": "2026-11-10T01:42:00.081Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Will AI bring an age of abundance?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-ai-bring-an-age-of-abundance/107355268",
-   "audio": "https://traffic.megaphone.fm/TECO7800758908.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/31bbd9b0-db87-11f1-9999-cbf9d63702a2/image/70f546cd6ae4d9fb346d8af92973c2e8.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-09",
+   "title": "Will Stephen Miller make Trump 'Trumpier'?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-stephen-miller-make-trump-trumpier/107365040",
+   "audio": "https://traffic.megaphone.fm/TECO9184124517.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/5bb4ce56-dc50-11f1-ba64-afcd4af59443/image/47283c8504231677b645e927573dbfbe.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-10",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Lately, we've heard a lot about the ways AI could destroy humanity.&nbsp; But what if there's also a case for hope? Could AI usher in an age of abundance, making us richer, healthier and improving our quality of life?&nbsp; Today, Andrew McAfee, MIT research…"
+   "desc": "Since the crushing defeat of the Republicans in the midterm elections, Donald Trump has been widely labelled as a lame duck.&nbsp;&nbsp; But is he, or will he be more Trumpian than ever?&nbsp;&nbsp; Today, Michael Green&nbsp;from the United States Studies…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Rocker, doctor, flight surgeon – the many lives of Radio Birdman's frontman",
-   "url": "https://www.abc.net.au/listen/programs/conversations/deniz-tek-radio-birdman-medicine-macadamias/107346818",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q8/Z/c6.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F0dea91fa3cab010435e2be061a1167cf.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-09",
-   "minutes": 54,
+   "title": "Encore: The detective who led the hunt to find Ivan Milat",
+   "url": "https://www.abc.net.au/listen/programs/conversations/the-late-clive-small-on-solving-the-backpacker-murders/107349680",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q9/Z/ee.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1c735dae2194a041c7beb872d872b352.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-10",
+   "minutes": 50,
    "level": "C1",
    "accent": "AU",
-   "desc": "Deniz Tek has squeezed more than most into his life. From pioneering punk rock in Australia, to performing improvised neurosurgery aboard a naval ship, to retirement growing Macadamias in Hawaii. Deniz is a founding member of Radio Birdman, Australia’s…"
+   "desc": "The late Clive Small ran the NSW Police task force which helped to put one of Australia’s worst serial killers behind bars In the 1990s, a series of young people’s bodies were found in makeshift graves in the Belanglo State Forest. After many false leads…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: The science on improving your brain health with Dr. Ayesha and Dean Sherzai",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aee46b760a59de70fef4385/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1794000763062-56a79d09-52e5-4237-b85d-ecc79ddd1a69.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-08",
-   "minutes": 34,
+   "title": "How to rewire your brain — and find your flow | Heather Berlin",
+   "url": "http://go.ted.com/heatherberlin",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af1eb82e0d89bd85412a56b/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-10",
+   "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "When does normal aging end and something more concerning begins? In this episode Shoshana invites neurologist Drs. Ayesha and Dean Sherzai to discuss their studies on Alzheimer’s and Dementia. They debunk myths around Alzheimer, discuss what a brain-healthy…"
+   "desc": "When life gets uncertain, do you grip a little tighter? Neuroscientist Heather Berlin explores a surprising paradox: the harder you try to control everything, the more likely you are to get in your own way. Drawing on brain research and her own struggles with…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Celestial nuisance",
-   "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
+   "title": "Equality talk",
+   "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/7129c5df-be79-48ee-bcbd-f31854ec3aa3/essay-weic2425c.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-06",
+   "image": "https://images.aeonmedia.co/images/f220e1d9-d115-41d2-8d6b-19080731b06a/essay-par161210.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-09",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "The cosmos has become a lab for the Big Questions in physics. Along the way, we’ve lost sight of its glorious messiness - by Dylan Jow Read on Aeon"
+   "desc": "In the summer of 1646, the idea of equality gained new and profound depths. We are still catching up with the consequences - by Teresa M Bejan Read on Aeon"
   }
  ]
 }
