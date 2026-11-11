@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T23:36:48.016Z",
+ "updatedAt": "2026-11-11T09:39:51.541Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: The detective who led the hunt for Ivan Milat",
-   "url": "https://www.abc.net.au/listen/programs/conversations/the-late-clive-small-on-solving-the-backpacker-murders/107349680",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/q9/Z/ee.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1c735dae2194a041c7beb872d872b352.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-10",
-   "minutes": 50,
+   "title": "Fighting for Country, not King: the real story of Australia's first Indigenous army officer",
+   "url": "https://www.abc.net.au/listen/programs/conversations/reg-saunders-indigenous-australian-commissioned-officer-army/107358390",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qa/Z/jt.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F25a0cc9f1a4e5859a76b58bb8e60ade5.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-11",
+   "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "The late Clive Small on how he led the NSW Police task force which helped to put one of Australia’s worst serial killers behind bars. In the 1990s, a series of young people’s bodies were found in makeshift graves in the Belanglo State Forest. After many false…"
+   "desc": "Captain Reg Saunders was the first Indigenous Australian to become a commissioned officer in the Australian Army. He was following a warrior tradition stretching generations back, fighting not for king but for country. He didn't have citizenship in Australia…"
   },
   {
    "source": "TED Talks Daily",
@@ -46,7 +46,7 @@
    "title": "#123 Talking about a big night",
    "url": "https://www.sbs.com.au/language/english/en/podcast-episode/123-talking-about-a-big-night-med/f9f4pj4fi",
    "audio": "https://sbs-podcast.streamguys1.com/sbs-learn-english/20261111080434_495643-english-e0a289d3-e477-497d-a7a0-41ca4696e4e7.mp3?awCollectionId=sbs-learn-english&awGenre=EDUCATION&awEpisodeId=000001a1-567f-d2b3-adad-77ff0e720000&dur_cat=2",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261111082847_466849-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fsbs-rss.streamguys1.com%2Fsbs-learn-english%2F20261111161040_682210-sbs-podcasts-learnenglish-3000x3000px-final.jpg&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-11",
    "minutes": 8,
    "level": "B1–B2",
