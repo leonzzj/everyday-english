@@ -1,0 +1,739 @@
+{
+  "date": "2026-11-12",
+  "issueNo": 25,
+  "title": "Congo's Ebola milestone, a giant coral and AI rip spotting",
+  "createdAt": "2026-11-12T06:54:19+11:00",
+  "stories": [
+    {
+      "id": "congo-ebola-11000",
+      "category": "World",
+      "headline": "Congo's Ebola outbreak passes 11,000 cases with no approved vaccine",
+      "headlineZh": "刚果（金）埃博拉病例突破1.1万，仍无获批疫苗",
+      "summaryZh": "刚果（金）埃博拉疫情感染人数超过11,042人，近半数死亡，冲突与不信任阻碍防控。",
+      "c1": "The Ebola outbreak in the Democratic Republic of the Congo has passed another grim milestone. According to government figures released on Wednesday, 11,042 people have now been infected and 5,387 have died, meaning that close to half of those who caught the virus did not survive. It is already the deadliest outbreak in the country's history, and there is little sign that it has peaked.\n\nWhat makes this outbreak particularly hard to contain is the strain involved. It is caused by the Bundibugyo virus, a rare form of Ebola for which there is no approved vaccine or treatment. Doctors are therefore largely limited to supportive care, isolating patients and tracing the people they have been in contact with, measures that depend heavily on communities trusting health workers.\n\nThat trust, however, is in short supply. The virus has spread to eight of Congo's 26 provinces, and the response has been hampered by armed conflict, a struggling health system and poor roads. Health teams have also faced violence from some residents, fuelled by mistrust and misinformation, while attacks on health facilities in North Kivu have reportedly disrupted efforts to stop transmission. Cases have been confirmed beyond Congo's borders as well, including in Kenya and Nigeria.\n\nThere is, admittedly, a glimmer of hope. A clinical trial of candidate vaccines, known as Tumaini, began on 23 October, with the first participants enrolled in the city of Bunia. The World Health Organization has since recommended adding two further vaccines, one developed by Oxford and the Serum Institute and another by Moderna. Even so, it may be months before any of them can be deployed at scale, and in the meantime the burden falls on overstretched frontline workers.",
+      "b2": "Congo's Ebola outbreak has reached a new and worrying point. Government figures released on Wednesday show that 11,042 people have been infected and 5,387 have died. That means almost half of the people who caught the virus have lost their lives. It is the worst Ebola outbreak in the country's history.\n\nThis outbreak is caused by the Bundibugyo virus, a rare type of Ebola. There is no approved vaccine or medicine for it. As a result, doctors mainly care for patients, keep them away from other people and find the people they have been in contact with.\n\nThis is difficult. The virus has spread to eight of Congo's 26 provinces. Fighting, a weak health system and bad roads have slowed the response. Some residents believe false information and do not trust health workers, and some health teams and clinics have been attacked. Cases have also been found in other countries, such as Kenya and Nigeria.\n\nThere is some good news. A trial of possible vaccines began on 23 October in the city of Bunia. The World Health Organization has also recommended testing two more vaccines, from Oxford and the Serum Institute and from Moderna. However, it could take months before vaccines are widely available, so health workers are still under great pressure.",
+      "vocab": [
+        {
+          "word": "grim milestone",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "令人沮丧的里程碑",
+          "en": "a point reached that marks something bad getting worse",
+          "example": "The country passed a grim milestone when unemployment hit ten per cent."
+        },
+        {
+          "word": "peak",
+          "pos": "v.",
+          "ipa": "/piːk/",
+          "zh": "达到顶峰",
+          "en": "to reach the highest level before falling",
+          "example": "Experts expect house prices to peak early next year.",
+          "forms": [
+            "peaked"
+          ]
+        },
+        {
+          "word": "contain",
+          "pos": "v.",
+          "ipa": "/kənˈteɪn/",
+          "zh": "控制；遏制（扩散）",
+          "en": "to stop something harmful from spreading",
+          "example": "Firefighters worked through the night to contain the blaze."
+        },
+        {
+          "word": "in short supply",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "供不应求；匮乏",
+          "en": "scarce; not available in large amounts",
+          "example": "Patience was in short supply by the end of the four-hour meeting."
+        },
+        {
+          "word": "hamper",
+          "pos": "v.",
+          "ipa": "/ˈhæmpə(r)/",
+          "zh": "阻碍；妨碍",
+          "en": "to make it harder for something to happen or progress",
+          "example": "Heavy rain hampered the search for the missing hikers.",
+          "forms": [
+            "hampered"
+          ]
+        },
+        {
+          "word": "fuelled by",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "由……助长",
+          "en": "made stronger or worse by something",
+          "example": "The rumours were fuelled by a single misleading post online."
+        },
+        {
+          "word": "a glimmer of hope",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "一线希望",
+          "en": "a small sign that things may improve",
+          "example": "The new data offered a glimmer of hope to struggling farmers."
+        },
+        {
+          "word": "at scale",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "大规模地",
+          "en": "in large amounts or across a wide area",
+          "example": "The start-up now needs to prove its idea can work at scale."
+        },
+        {
+          "word": "overstretched",
+          "pos": "adj.",
+          "ipa": "/ˌəʊvəˈstretʃt/",
+          "zh": "不堪重负的",
+          "en": "having too much work and too few resources",
+          "example": "Overstretched teachers say they have no time to plan lessons properly."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Most of the new cases reported this week were recorded in Kenya.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说病例已在 \"Kenya and Nigeria\" 得到确认，没有说明本周新增病例主要出现在哪里，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Close to half of the people infected in the outbreak have died.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"close to half of those who caught the virus did not survive\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "A licensed vaccine against the Bundibugyo virus is already in wide use in Congo.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称该病毒 \"there is no approved vaccine or treatment\"，疫苗仍在试验中，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT mentioned as an obstacle to the Ebola response?",
+          "options": [
+            "Armed conflict",
+            "Poor roads",
+            "A shortage of hospital beds",
+            "Mistrust and misinformation"
+          ],
+          "answer": 2,
+          "explain": "文中提到 \"armed conflict\"、\"poor roads\" 和 \"mistrust and misinformation\"，没有提到病床短缺。"
+        }
+      ],
+      "discuss": "Why do you think misinformation spreads so easily during a health emergency? What could governments do to build public trust before the next outbreak?",
+      "sources": [
+        {
+          "name": "ABC News (US) / AP",
+          "url": "https://abcnews.com/Health/wireStory/ebola-tops-11000-cases-congos-deadliest-outbreak-138037546"
+        },
+        {
+          "name": "WHO Disease Outbreak News",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625"
+        },
+        {
+          "name": "Tech Times",
+          "url": "https://www.techtimes.com/articles/330415/20261110/three-ebola-clinics-torched-hundreds-patients-scattered-drc-outbreak-hits-10990-response.htm"
+        }
+      ]
+    },
+    {
+      "id": "cocos-giant-coral",
+      "category": "Environment",
+      "headline": "Divers help map a rose coral colony over 1.5 km long",
+      "headlineZh": "科科斯群岛发现长逾1.5公里的巨型玫瑰珊瑚群",
+      "summaryZh": "科科斯（基林）群岛外海一处玫瑰珊瑚群长约1.56公里，是有记录以来最大的珊瑚群之一。",
+      "c1": "Divers off the Cocos (Keeling) Islands, Australia's most remote inhabited territory, have helped scientists map what is believed to be one of the largest coral colonies ever recorded. The rose coral stretches for about 1.56 kilometres along the outer reef slope, roughly the length of 100 buses parked end to end, and covers an area more than three times the size of the MCG's playing surface.\n\nRemarkably, the colony was not entirely unknown. Local dive operator Dieter Gerhard first came across parts of it more than 30 years ago, but nobody had grasped quite how far it extended. Once he alerted researchers, the marine biologist Dr JP Hobbs, of Adelaide University, set out to measure it. His team began with tape measures, working centimetre by centimetre, but soon turned to GPS tracking after repeatedly running out of air before reaching the end. In total, it took 12 dives to map its full extent.\n\nThe coral grows at depths of between 14 and 65 metres, and that may prove significant. Hobbs hopes the research will shed light on whether deeper waters can act as a refuge for shallow-water corals, which can be badly damaged by bleaching events and cyclones.\n\nOne key question remains unresolved, though. Researchers have collected around 50 samples, and genetic testing with Queensland Museum and James Cook University should reveal whether the formation is a single giant organism or many distinct colonies that have fused over time. Either way, the discovery underlines the scientific value of the islands, whose surrounding waters were declared marine parks in 2022.",
+      "b2": "Scientists have mapped one of the largest coral colonies ever recorded in the waters off the Cocos (Keeling) Islands, Australia's most remote inhabited territory. The rose coral is about 1.56 kilometres long. That is about the length of 100 buses in a line, and it covers more than three times the area of the MCG's playing field.\n\nThe coral was not completely new. A local dive operator, Dieter Gerhard, first saw parts of it more than 30 years ago, but nobody knew how big it really was. Marine biologist Dr JP Hobbs from Adelaide University and his team started measuring it with tape measures. The divers kept running out of air before they reached the end, so they changed to GPS. It took 12 dives to map the whole colony.\n\nThe coral grows between 14 and 65 metres below the surface. Hobbs hopes the study will show whether deeper water can be a safe place for corals that live in shallow water, which can be badly damaged by bleaching and cyclones.\n\nScientists still have one big question. They have collected about 50 samples. Genetic tests will show whether the coral is one giant organism or many colonies that have joined together over time. The waters around the islands became marine parks in 2022.",
+      "vocab": [
+        {
+          "word": "come across",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "偶然发现",
+          "en": "to find or meet something by chance",
+          "example": "I came across some old photos while cleaning out the garage.",
+          "forms": [
+            "came across"
+          ]
+        },
+        {
+          "word": "grasp",
+          "pos": "v.",
+          "ipa": "/ɡrɑːsp/",
+          "zh": "领会；理解",
+          "en": "to understand something fully",
+          "example": "It took me a while to grasp how serious the problem was.",
+          "forms": [
+            "grasped"
+          ]
+        },
+        {
+          "word": "set out to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "着手；开始努力做",
+          "en": "to start trying to achieve something",
+          "example": "The council set out to halve the town's waste within five years."
+        },
+        {
+          "word": "full extent",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "全部范围；全貌",
+          "en": "the whole size or scale of something",
+          "example": "The full extent of the damage only became clear the next morning."
+        },
+        {
+          "word": "shed light on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "阐明；揭示",
+          "en": "to help explain something that was unclear",
+          "example": "The new letters shed light on the author's early life."
+        },
+        {
+          "word": "refuge",
+          "pos": "n.",
+          "ipa": "/ˈrefjuːdʒ/",
+          "zh": "避难所；庇护所",
+          "en": "a place that gives protection from danger",
+          "example": "The library became a quiet refuge during the exam period."
+        },
+        {
+          "word": "remain unresolved",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "仍未解决",
+          "en": "to still have no answer or solution",
+          "example": "Several questions about the project's funding remain unresolved.",
+          "forms": [
+            "remains unresolved"
+          ]
+        },
+        {
+          "word": "fuse",
+          "pos": "v.",
+          "ipa": "/fjuːz/",
+          "zh": "融合；结合",
+          "en": "to join together to form one thing",
+          "example": "The band's sound fuses jazz with traditional folk music.",
+          "forms": [
+            "fused"
+          ]
+        },
+        {
+          "word": "underline",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈlaɪn/",
+          "zh": "突显；强调",
+          "en": "to show clearly how important something is",
+          "example": "The report underlines the need for better public transport.",
+          "forms": [
+            "underlines"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The coral colony was completely unknown until researchers began mapping it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Dieter Gerhard \"first came across parts of it more than 30 years ago\"，并非完全不为人知。"
+        },
+        {
+          "type": "tfng",
+          "q": "The colony is estimated to be more than 1,000 years old.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到珊瑚群的年龄，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The team switched from tape measures to GPS partly because divers kept running out of air.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"turned to GPS tracking after repeatedly running out of air before reaching the end\"，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is the genetic testing expected to reveal?",
+          "options": [
+            "How old the coral is",
+            "Whether the coral is one organism or several fused colonies",
+            "Whether the coral has been damaged by bleaching",
+            "How deep the coral can grow"
+          ],
+          "answer": 1,
+          "explain": "原文 \"whether the formation is a single giant organism or many distinct colonies that have fused over time\"。"
+        }
+      ],
+      "discuss": "Why do you think people are so fascinated by record-breaking discoveries in nature? Should remote places like the Cocos Islands be reserved mainly for scientists, or opened up to more tourists?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-11/massive-coral-colony-found-off-the-cocos-keeling-islands/107367586"
+        },
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html"
+        }
+      ]
+    },
+    {
+      "id": "ripeye-ai-trial",
+      "category": "Tech",
+      "headline": "Lifesavers to trial an AI app that spots rip currents",
+      "headlineZh": "救生员将试用能识别离岸流的AI应用",
+      "summaryZh": "新南威尔士大学开发的RipEye能从海滩照片中识别离岸流，今夏将在新州部分海滩试用。",
+      "c1": "Surf lifesavers at a number of New South Wales beaches will trial an artificial intelligence tool this summer that is designed to spot one of the coast's most dangerous hazards: rip currents. Developed by researchers at the University of New South Wales, the tool, called RipEye, has learnt from thousands of beach photographs annotated by an expert team, and its creators say it correctly identifies a rip around 80 per cent of the time.\n\nThe idea is strikingly simple. A beachgoer takes a photo of the surf on their phone, and the app highlights where potential rips may be lurking. It is available in 11 languages and was designed with higher-risk groups in mind, including young men, people from culturally and linguistically diverse communities and international visitors. There is even a game in which users mark what they think are rips and compare their answers with the AI's.\n\nThe need for such a tool is hard to dispute. According to Surf Life Saving Australia's latest National Drowning Report, there were 66 beach drowning deaths between July 2025 and July 2026, and rips played a part in almost half of them. Perhaps more tellingly, the organisation's research suggests that while one in two Australians are confident they can spot a rip, only one in seven actually can. As its national research manager, Dr Jaz Lawes, put it, rips are \"notoriously difficult to identify\".\n\nSurf Life Saving Australia is still deciding which clubs will take part. Beyond educating the public, it hopes the technology could help patrols decide where to position the flags, and it may eventually reach inland communities through the Beach to Bush program. Nevertheless, the app's developers are careful to stress that it is no substitute for a lifeguard.",
+      "b2": "Surf lifesavers at some NSW beaches will test an AI tool this summer that can find rip currents. The tool is called RipEye and was made by researchers at the University of New South Wales. It learnt from thousands of beach photos marked by experts, and the researchers say it finds a rip about 80 per cent of the time.\n\nYou take a photo of the waves with your phone, and the app shows where rips might be. It works in 11 languages and was made for groups at higher risk, such as young men, people from diverse cultural backgrounds and overseas visitors. It also has a game where users try to find rips and compare their answers with the AI.\n\nThere is a real need for it. Between July 2025 and July 2026, there were 66 beach drowning deaths in Australia, and rips were part of the reason in almost half of them. Research shows that one in two Australians think they can spot a rip, but only one in seven really can.\n\nSurf Life Saving Australia has not yet chosen which clubs will take part. It hopes the tool could help lifesavers decide where to put the flags, and it may later be used in inland communities. However, the developers say the app cannot replace a lifeguard.",
+      "vocab": [
+        {
+          "word": "trial",
+          "pos": "v.",
+          "ipa": "/ˈtraɪəl/",
+          "zh": "试用；试行",
+          "en": "to test something for a period to see how well it works",
+          "example": "The school will trial a four-day week next term."
+        },
+        {
+          "word": "annotate",
+          "pos": "v.",
+          "ipa": "/ˈænəteɪt/",
+          "zh": "注释；标注",
+          "en": "to add notes or labels to a text or image",
+          "example": "Students annotated the poem with their own comments.",
+          "forms": [
+            "annotated"
+          ]
+        },
+        {
+          "word": "strikingly",
+          "pos": "adv.",
+          "ipa": "/ˈstraɪkɪŋli/",
+          "zh": "引人注目地；显著地",
+          "en": "in a way that is very noticeable",
+          "example": "The two cities are strikingly different in atmosphere."
+        },
+        {
+          "word": "lurk",
+          "pos": "v.",
+          "ipa": "/lɜːk/",
+          "zh": "潜伏；暗藏",
+          "en": "to exist unseen, often as a hidden danger",
+          "example": "Hidden fees often lurk in the fine print of phone contracts.",
+          "forms": [
+            "lurking"
+          ]
+        },
+        {
+          "word": "hard to dispute",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "难以否认",
+          "en": "so clearly true that people cannot really argue with it",
+          "example": "The benefits of regular exercise are hard to dispute."
+        },
+        {
+          "word": "play a part in",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……中起作用",
+          "en": "to be one of the causes or factors in something",
+          "example": "Luck played a part in her success, but so did hard work.",
+          "forms": [
+            "played a part in"
+          ]
+        },
+        {
+          "word": "tellingly",
+          "pos": "adv.",
+          "ipa": "/ˈtelɪŋli/",
+          "zh": "说明问题地；耐人寻味地",
+          "en": "in a way that reveals something important",
+          "example": "Tellingly, none of the managers wanted to answer the question."
+        },
+        {
+          "word": "notoriously",
+          "pos": "adv.",
+          "ipa": "/nəʊˈtɔːriəsli/",
+          "zh": "出了名地",
+          "en": "in a way that is well known for being bad or difficult",
+          "example": "Melbourne's weather is notoriously hard to predict."
+        },
+        {
+          "word": "no substitute for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "无法替代",
+          "en": "not able to replace something properly",
+          "example": "Online videos are no substitute for practising with a real teacher."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The RipEye app can be used in more than ten languages.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"It is available in 11 languages\"，多于十种，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "RipEye was developed by Surf Life Saving Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说该工具 \"Developed by researchers at the University of New South Wales\"，并非救生协会开发。"
+        },
+        {
+          "type": "tfng",
+          "q": "The trial will begin at Bondi Beach in December.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 \"still deciding which clubs will take part\"，未提到具体海滩或日期。"
+        },
+        {
+          "type": "mcq",
+          "q": "Roughly what share of the 66 beach drowning deaths involved rip currents?",
+          "options": [
+            "About one in seven",
+            "About a quarter",
+            "Nearly all of them",
+            "Almost half"
+          ],
+          "answer": 3,
+          "explain": "原文 \"rips played a part in almost half of them\"；\"one in seven\" 指能真正识别离岸流的人的比例。"
+        }
+      ],
+      "discuss": "Do you think apps like RipEye make people safer, or could they make some people overconfident? In what other everyday situations could AI help keep the public safe?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710"
+        },
+        {
+          "name": "Eden Magnet (AAP)",
+          "url": "https://www.edenmagnet.com.au/story/9389459/ai-detecting-dangers-where-millions-of-people-splash/"
+        }
+      ]
+    },
+    {
+      "id": "donor-sibling-cancer-warning",
+      "category": "Society",
+      "headline": "Donor-conceived woman's cancer warning poses an ethical dilemma for SA",
+      "headlineZh": "捐精所生女子欲警示同父异母姐妹癌症风险，南澳陷伦理两难",
+      "summaryZh": "一名捐精所生女子想提醒未知的半血亲姐妹肠癌风险，南澳卫生部长称这是最棘手的伦理难题。",
+      "c1": "South Australia's health minister has described it as the trickiest ethical problem of his time in office. Katherine Vine, a donor-conceived woman with more than 50 confirmed half-siblings from the same donor, has uncovered through family-tree research an elevated risk of bowel cancer, which she says is a condition known as serrated polyposis syndrome. People who have it need preventative checks such as colonoscopies much earlier than usual.\n\nThe difficulty centres on one particular half-sibling. Vine's half-sister, who is 35 and a year younger than Vine, may not know she was donor-conceived, or she may know and have chosen not to join the state's donor conception register, which grew out of reforms to South Australia's laws in 2024. Either way, contacting her directly could reveal something deeply personal without warning.\n\nWhen Vine asked the government to pass on the warning, officials initially refused on privacy grounds, concluding that the potential harm to the woman's wellbeing outweighed the benefit of the health information. Health Minister Blair Boyer argued that it was \"not really government's place\" to reveal someone's donor conception, though he admitted he was troubled by the prospect of her developing cancer unawares and passing the risk on to any children she may have.\n\nThe government has now proposed what it calls a third way: contacting the half-sister's mother, who already knows her daughter was donor-conceived, and asking her to pass on the advice. Boyer concedes this is far from foolproof, not least because the mother may no longer be alive. Vine says she is grateful, but she remains anxious for the message to get through quickly, and she has urged parents who used donors to tell their children.",
+      "b2": "Katherine Vine was conceived using a donor, and she has more than 50 confirmed half-siblings from the same donor. Through family-tree research, she found that her family has a higher risk of bowel cancer. She says the cause is a condition called serrated polyposis syndrome. People with it need checks such as colonoscopies much earlier than usual.\n\nThe problem is one half-sister, who is 35 and one year younger than Vine. She may not know she was donor-conceived. Or she may know but have chosen not to join South Australia's donor register, which came after law changes in 2024. Contacting her directly could tell her something personal without warning.\n\nVine asked the government to pass on the warning, but officials first said no for privacy reasons. Health Minister Blair Boyer said it was not really the government's job to reveal that information. He called it the hardest ethical problem of his time as a minister, but he was worried she could get cancer without knowing the risk.\n\nThe government plans to contact the half-sister's mother, who already knows, and ask her to share the advice. Boyer admits this may not work, because the mother may have died. Vine is grateful, but she wants the message passed on quickly. She has asked parents who used donors to tell their children.",
+      "vocab": [
+        {
+          "word": "uncover",
+          "pos": "v.",
+          "ipa": "/ʌnˈkʌvə(r)/",
+          "zh": "发现；揭露",
+          "en": "to discover something that was hidden or unknown",
+          "example": "The audit uncovered several serious errors in the accounts.",
+          "forms": [
+            "uncovered"
+          ]
+        },
+        {
+          "word": "elevated",
+          "pos": "adj.",
+          "ipa": "/ˈelɪveɪtɪd/",
+          "zh": "偏高的；升高的",
+          "en": "higher than normal",
+          "example": "Smokers have an elevated risk of heart disease."
+        },
+        {
+          "word": "centre on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "以……为中心；集中于",
+          "en": "to have something as the main subject or focus",
+          "example": "The debate centred on how to pay for the new hospital.",
+          "forms": [
+            "centres on"
+          ]
+        },
+        {
+          "word": "on privacy grounds",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以隐私为由",
+          "en": "for reasons related to protecting personal information",
+          "example": "The hospital declined to name the patient on privacy grounds."
+        },
+        {
+          "word": "outweigh",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈweɪ/",
+          "zh": "超过；比……更重要",
+          "en": "to be greater or more important than something else",
+          "example": "For most people, the benefits of the vaccine far outweigh the risks.",
+          "forms": [
+            "outweighed"
+          ]
+        },
+        {
+          "word": "unawares",
+          "pos": "adv.",
+          "ipa": "/ˌʌnəˈweəz/",
+          "zh": "不知不觉地",
+          "en": "without knowing or realising",
+          "example": "Many tenants were caught unawares by the sudden rent rise."
+        },
+        {
+          "word": "pass on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "转告；传递",
+          "en": "to give information or something else to another person",
+          "example": "Could you pass on my thanks to the whole team?"
+        },
+        {
+          "word": "foolproof",
+          "pos": "adj.",
+          "ipa": "/ˈfuːlpruːf/",
+          "zh": "万无一失的",
+          "en": "so simple or reliable that it cannot fail",
+          "example": "There's no foolproof way to predict the stock market."
+        },
+        {
+          "word": "not least because",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尤其是因为",
+          "en": "used to introduce a particularly important reason",
+          "example": "The plan is risky, not least because nobody has tested it before."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The government agreed to Vine's request as soon as she made it.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 \"officials initially refused on privacy grounds\"，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Vine's half-sister is younger than Vine.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 \"who is 35 and a year younger than Vine\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The half-sister already has children of her own.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 \"any children she may have\"，并未说明她是否有孩子，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is the government's proposed \"third way\"?",
+          "options": [
+            "Asking the half-sister's mother to pass on the health advice",
+            "Publishing the warning on the donor conception register",
+            "Contacting the half-sister directly by letter",
+            "Asking the donor to contact all of his children"
+          ],
+          "answer": 0,
+          "explain": "原文 \"contacting the half-sister's mother ... and asking her to pass on the advice\"。"
+        }
+      ],
+      "discuss": "Should the right to know about a health risk ever outweigh a person's right to privacy? How do you think technology such as DNA testing is changing ideas about family secrets?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-11/donor-conceived-woman-push-to-alert-half-sister-to-cancer-risk/107371778"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Inspecting a Flat in Brunswick",
+    "titleZh": "在布伦瑞克看房",
+    "setting": "Two friends inspect a two-bedroom flat in Brunswick on a Saturday morning, with a dozen other people crowding the hallway.",
+    "settingZh": "周六上午，两个朋友去布伦瑞克看一套两居室公寓，走廊里还挤着十几个看房的人。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Wow, there must be twenty people here. Did half of Melbourne see the same listing?",
+        "zh": "哇，这儿得有二十个人吧。难道半个墨尔本都看到这条房源了？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Pretty much. Anything under six hundred a week gets snapped up in days.",
+        "zh": "差不多吧。周租六百以下的房子几天就被抢光了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Okay, the photos online were definitely taken with a wide-angle lens.",
+        "zh": "好吧，网上那些照片肯定是用广角镜头拍的。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Ha, yeah. The second bedroom's more of a glorified cupboard, isn't it?",
+        "zh": "哈，是啊。第二间卧室说白了就是个大点儿的柜子，对吧？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "It's cosy, but I could fit a single bed and a desk if I'm clever.",
+        "zh": "是挺小的，不过我巧妙安排一下，也能放下一张单人床和一张书桌。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Check out the window frames, though. There's mould creeping along the bottom.",
+        "zh": "不过你看看窗框，底部已经长了一圈霉。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Good spot. We should ask the agent whether they'll sort that out before we move in.",
+        "zh": "眼尖。我们应该问问中介，入住前他们会不会处理。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Definitely. And let's run the taps, because the last place had terrible water pressure.",
+        "zh": "一定要问。还有，我们试试水龙头，上一套房子的水压太差了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "On the plus side, it's a five-minute walk to Sydney Road and the tram.",
+        "zh": "好的一面是，走到悉尼路和电车站只要五分钟。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "True, location-wise you can't really fault it. That's a huge selling point.",
+        "zh": "没错，就位置来说真挑不出毛病，这是个很大的卖点。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "So, do we put in an application, or are we just setting ourselves up for disappointment?",
+        "zh": "那我们要不要递申请？还是说只是自讨失望？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Let's go for it. Worst case, they say no and we keep looking.",
+        "zh": "试试吧。最坏的结果就是被拒，我们接着找。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough. I'll get our references together tonight so we're not caught on the back foot.",
+        "zh": "有道理。我今晚就把推荐信整理好，免得到时手忙脚乱。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "is rented very quickly",
+        "en": "gets snapped up",
+        "zh": "被抢购一空；很快被抢走"
+      },
+      {
+        "plain": "a very small room",
+        "en": "a glorified cupboard",
+        "zh": "美其名曰……其实就是个柜子（调侃）"
+      },
+      {
+        "plain": "You noticed that well.",
+        "en": "Good spot.",
+        "zh": "眼尖；发现得好"
+      },
+      {
+        "plain": "fix that problem",
+        "en": "sort that out",
+        "zh": "把问题解决掉"
+      },
+      {
+        "plain": "there's nothing wrong with it",
+        "en": "you can't really fault it",
+        "zh": "挑不出毛病"
+      },
+      {
+        "plain": "a big advantage",
+        "en": "a huge selling point",
+        "zh": "一大卖点"
+      },
+      {
+        "plain": "let's try it",
+        "en": "Let's go for it.",
+        "zh": "试试吧；放手去做"
+      },
+      {
+        "plain": "unprepared",
+        "en": "caught on the back foot",
+        "zh": "措手不及；陷入被动"
+      }
+    ]
+  }
+}
