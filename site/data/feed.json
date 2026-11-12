@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-11T09:39:51.541Z",
+ "updatedAt": "2026-11-12T00:54:19.673Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "How many more Russell Brands are out there?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/are-there-more-russell-brands-out-there/107369874",
-   "audio": "https://traffic.megaphone.fm/TECO4608815719.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/85fdae5c-dd19-11f1-a14e-172163fcb4ef/image/3f543f346c8929dbd985a0604f0640b1.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-11",
-   "minutes": 16,
+   "title": "What Trump knew about the Nvidia spy",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-trump-knew-about-the-nvidia-spy/107374182",
+   "audio": "https://traffic.megaphone.fm/TECO2404302136.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/b17a049e-dde2-11f1-8777-ab97faff355e/image/9c7ad673cf20f2c3842e6afd97bc6681.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-12",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "For years, his outrageous persona made him almost untouchable. But Russell Brand is now behind bars after being sentenced to&nbsp;10 years and six months&nbsp;in jail for rape and multiple sexual assaults.&nbsp;He also remains under investigation over two…"
+   "desc": "It's being dubbed the 'Nvidia affair' and it could be the script for a Hollywood thriller. &nbsp;&nbsp; The head of US AI&nbsp;chip maker Nvidia,&nbsp;Jensen Huang has admitted to&nbsp;having an&nbsp;affair with a woman who&nbsp;US intelligence determined was…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Your phone is disgusting. Here's how to clean it | Lotti Tajouri",
-   "url": "http://go.ted.com/lottitajouri",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af23934e1219d878fcb3b47/media.mp3",
+   "title": "How to repair harm — in relationships and nations | Aria Florant",
+   "url": "http://go.ted.com/ariaflorant",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af38974ac84158342c9ed3d/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "What’s dirtier: your phone or your hands? Molecular biologist Lotti Tajouri says there’s a gaping hole in our hygiene routine. We scrub our hands clean, then reach right for the phone — a warm, humid and mobile home for bacteria and viruses. He explores the…"
+   "desc": "Aria Florant cofounded a nonprofit to help accelerate the reparations movement in the US … but less than a year in, her partnership with her own cofounder fell apart. Drawing on what brought the two of them back together — plus lessons from South Africa…"
   },
   {
    "source": "SBS Learn English",
