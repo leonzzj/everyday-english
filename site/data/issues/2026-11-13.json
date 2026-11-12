@@ -1,0 +1,739 @@
+{
+  "date": "2026-11-13",
+  "issueNo": 26,
+  "title": "Iran's warning, a Q fever vaccine gap and Qantas job cuts",
+  "createdAt": "2026-11-13T06:53:39+11:00",
+  "stories": [
+    {
+      "id": "iran-israel-tensions",
+      "category": "World",
+      "headline": "Iran warns of wider war as Israel reportedly readies an attack",
+      "headlineZh": "以色列据报准备袭击，伊朗警告将扩大战事",
+      "summaryZh": "以色列安全内阁据报下令加紧备战，伊朗警告从西亚到欧洲的相关基地都将成为目标。",
+      "c1": "Tensions between Israel and Iran ratcheted up again this week after Israeli media reported that the country's security cabinet, chaired by Prime Minister Benjamin Netanyahu, had ordered the military to step up preparations for a possible strike on Iran. According to the public broadcaster KAN, the directives could lead to activities capable of triggering a war and left the region further on edge.\n\nTehran's response was swift and uncompromising. Mohsen Rezaei, secretary of Iran's Supreme National Security Council, warned that every military base involved in any new US attack, from West Asia to Europe, would be regarded as a legitimate target. Lead negotiator Mohammad Bagher Ghalibaf struck a slightly different tone, insisting that the ball was now in the American court, although he conceded that a lack of trust in Washington stood in the way of an agreement.\n\nThe timing is politically charged. Netanyahu is serving as caretaker prime minister after his coalition lost its parliamentary majority in October's election, and opposition leader Gadi Eisenkot, who has been offered the chance to form a government, had urged him not to deploy the military without an immediate threat. The cabinet's decision is therefore likely to come under intense scrutiny at home, though Netanyahu insists the war will continue until Tehran's government collapses.\n\nWashington, meanwhile, has sent mixed signals. President Donald Trump said he was prepared to resume the war if a diplomatic track offered by Qatar failed to produce a deal, yet Secretary of State Marco Rubio argued that economic pressure on Iran was so effective that renewed large-scale military action was unnecessary. Markets, at least, took the threat seriously: oil prices rose about 1 per cent on Wednesday after Tehran rejected a US proposal to transfer its stockpile of enriched uranium to a third country.",
+      "b2": "Tensions between Israel and Iran rose again this week. Israeli media reported that the security cabinet, led by Prime Minister Benjamin Netanyahu, told the military to prepare more actively for a possible attack on Iran. KAN said the orders could lead to war.\n\nIran reacted quickly and strongly. Mohsen Rezaei, a senior security official, said any military base used in a new US attack, from West Asia to Europe, could be a target. Iran's main negotiator, Mohammad Bagher Ghalibaf, was calmer. He said it was now up to the Americans to act, but he added that Iran does not trust Washington.\n\nThe situation is also sensitive inside Israel. Netanyahu is only a caretaker leader because his coalition lost its majority in October's election. Opposition leader Gadi Eisenkot, who has been given the chance to form a government, asked him not to use the military unless there is an immediate threat.\n\nThe United States has given mixed messages. President Donald Trump said he could restart the war if talks offered by Qatar fail. However, Secretary of State Marco Rubio said economic pressure on Iran is working, so a big new military campaign is not needed. Oil prices rose about 1 per cent on Wednesday after Iran rejected a US plan to move its enriched uranium to another country.",
+      "vocab": [
+        {
+          "word": "ratchet up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "逐步加剧；升级",
+          "en": "to increase something step by step, especially tension or pressure",
+          "example": "The new tariffs ratcheted up pressure on both governments to negotiate.",
+          "forms": [
+            "ratcheted up"
+          ]
+        },
+        {
+          "word": "step up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "加紧；加强",
+          "en": "to increase the amount, speed or intensity of an activity",
+          "example": "The council has stepped up efforts to clean the beaches before summer."
+        },
+        {
+          "word": "on edge",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "紧张不安",
+          "en": "nervous, anxious and unable to relax",
+          "example": "Everyone in the office was on edge while we waited for the results."
+        },
+        {
+          "word": "uncompromising",
+          "pos": "adj.",
+          "ipa": "/ʌnˈkɒmprəmaɪzɪŋ/",
+          "zh": "毫不妥协的",
+          "en": "unwilling to change your opinions or demands",
+          "example": "Her uncompromising stance on safety made her popular with staff."
+        },
+        {
+          "word": "strike a different tone",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "换一种语气；态度不同",
+          "en": "to speak in a noticeably different manner or attitude",
+          "example": "After the meeting, the minister struck a different tone and praised the union.",
+          "forms": [
+            "struck a slightly different tone"
+          ]
+        },
+        {
+          "word": "the ball is in someone's court",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "轮到某人采取行动",
+          "en": "it is now someone else's turn to act or decide",
+          "example": "I've sent my offer, so the ball is in their court now.",
+          "forms": [
+            "the ball was now in the American court"
+          ]
+        },
+        {
+          "word": "politically charged",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "政治敏感的",
+          "en": "likely to cause strong political feelings or controversy",
+          "example": "Housing has become a politically charged issue in Melbourne."
+        },
+        {
+          "word": "come under scrutiny",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "受到审视；受到严格检查",
+          "en": "to be examined closely and critically",
+          "example": "The company's spending will come under scrutiny at the next board meeting.",
+          "forms": [
+            "come under intense scrutiny"
+          ]
+        },
+        {
+          "word": "send mixed signals",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "传递矛盾的信息",
+          "en": "to communicate in a way that is unclear or contradictory",
+          "example": "If you praise the plan and then criticise it, you're sending mixed signals.",
+          "forms": [
+            "sent mixed signals"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The instruction to step up military preparations was reported by Israeli media.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“after Israeli media reported that the country's security cabinet ... had ordered the military to step up preparations”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Qatar has set a deadline for the United States and Iran to reach a deal.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到 “a diplomatic track offered by Qatar”，未提及任何期限。"
+        },
+        {
+          "type": "tfng",
+          "q": "Marco Rubio said renewed large-scale military action against Iran was necessary.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：Rubio argued that “renewed large-scale military action was unnecessary”，与题干相反。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did oil prices rise on Wednesday?",
+          "options": [
+            "Israel launched a strike on Iranian oil facilities",
+            "Qatar withdrew from the diplomatic talks",
+            "Iran rejected a US proposal to move its enriched uranium abroad",
+            "The US lifted its economic pressure on Iran"
+          ],
+          "answer": 2,
+          "explain": "原文：oil prices rose “after Tehran rejected a US proposal to transfer its stockpile of enriched uranium to a third country”。"
+        }
+      ],
+      "discuss": "Why do you think leaders sometimes send mixed signals during international crises? Can this ever be a useful strategy?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack"
+        }
+      ]
+    },
+    {
+      "id": "q-fever-vaccine-shortage",
+      "category": "Health",
+      "headline": "Australia runs out of Q fever vaccine until late December",
+      "headlineZh": "澳大利亚Q热疫苗告罄，预计12月底才恢复供应",
+      "summaryZh": "因原料短缺和设备故障，澳洲唯一的Q热疫苗断货，农民和剪毛工面临感染风险。",
+      "c1": "Australia is expected to run out of its Q fever vaccine this week, leaving rural workers unprotected against a disease that is notoriously easy to catch. Q fever is a bacterial infection spread by animals such as sheep and cattle, and it typically causes severe flu-like symptoms. In some cases, however, it becomes chronic and can lead to serious cardiovascular complications.\n\nThe vaccine, Q-VAX, is made by the Australian manufacturer CSL Seqirus under a contract with the federal Department of Health. The company has blamed raw material supply problems and unexpected faults on its filling lines, which meant that three or four batches could not be released. Each batch takes around nine months to produce, so lost stock cannot simply be replaced overnight. Two batches have been fast-tracked and are expected to be available in late December.\n\nFor those on the ground, the stock-out is the latest chapter in a long-running problem. A Victorian dairy owner told the ABC she had been unable to vaccinate her staff since March, having already seen two employees and her young grandson fall ill with the disease. A nurse who also works as a shearer said she had waited five years for the jab after starting work in the sheds in 2020.\n\nThe bacteria are highly contagious: they travel in dust, can linger on clothing and may even be stirred up when lawns are mowed, which is why some argue Q fever should be treated as a public health issue rather than a purely agricultural one. Last year Australia recorded 991 cases, the highest number since national monitoring began in 1991. CSL Seqirus has apologised and says stabilising supply is its highest priority, but for many rural communities, apologies may offer little comfort.",
+      "b2": "Australia is expected to run out of its Q fever vaccine this week. Q fever is an infection that people catch from animals such as sheep and cattle. It usually causes a bad flu-like illness, but sometimes it becomes long-term and can damage the heart.\n\nThe vaccine, called Q-VAX, is made by the Australian company CSL Seqirus. The company says there were problems getting raw materials and unexpected faults with its equipment, so three or four batches could not be released. Each batch takes about nine months to make, so the problem cannot be fixed quickly. Two new batches should be ready in late December.\n\nRural workers say this is not a new problem. A Victorian dairy owner said she has not been able to vaccinate her staff since March. Two of her workers and her young grandson have had the disease. A nurse and shearer waited five years for the vaccine.\n\nThe bacteria spread very easily. They can travel in dust and stay on clothes, so some people say Q fever is a public health issue, not just a farming one. Last year Australia had 991 cases, the most since records began in 1991. CSL Seqirus has apologised and says fixing supply is its top priority.",
+      "vocab": [
+        {
+          "word": "notoriously",
+          "pos": "adv.",
+          "ipa": "/nəʊˈtɔːriəsli/",
+          "zh": "出了名地（多指坏的方面）",
+          "en": "in a way that is well known for being bad or difficult",
+          "example": "Parking near the stadium is notoriously difficult on game days."
+        },
+        {
+          "word": "chronic",
+          "pos": "adj.",
+          "ipa": "/ˈkrɒnɪk/",
+          "zh": "慢性的；长期的",
+          "en": "lasting for a long time or recurring often",
+          "example": "She has suffered from chronic back pain since the accident."
+        },
+        {
+          "word": "fast-track",
+          "pos": "v.",
+          "ipa": "/ˈfɑːst træk/",
+          "zh": "加快处理",
+          "en": "to make something happen faster than usual",
+          "example": "The council fast-tracked the approval of the new bike lanes.",
+          "forms": [
+            "fast-tracked"
+          ]
+        },
+        {
+          "word": "on the ground",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "在第一线；在现场",
+          "en": "in the place where things are actually happening",
+          "example": "Policies sound good in Canberra, but people on the ground see the real effects."
+        },
+        {
+          "word": "long-running",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋ ˈrʌnɪŋ/",
+          "zh": "长期存在的；持续已久的",
+          "en": "having continued for a long time",
+          "example": "The two neighbours finally settled their long-running dispute over the fence."
+        },
+        {
+          "word": "fall ill",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "生病",
+          "en": "to become sick",
+          "example": "Half the team fell ill after the work Christmas party."
+        },
+        {
+          "word": "linger",
+          "pos": "v.",
+          "ipa": "/ˈlɪŋɡə(r)/",
+          "zh": "徘徊；久久不散",
+          "en": "to stay somewhere for longer than expected",
+          "example": "The smell of smoke lingered in the house for days."
+        },
+        {
+          "word": "stir up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "扬起；激起",
+          "en": "to cause something to rise and move around, or to provoke feelings",
+          "example": "The strong wind stirred up so much dust that we couldn't see the road.",
+          "forms": [
+            "stirred up"
+          ]
+        },
+        {
+          "word": "offer little comfort",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "难以给人安慰",
+          "en": "to make someone feel only slightly better, if at all",
+          "example": "Knowing the delay was nobody's fault offered little comfort to stranded passengers."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Australia recorded fewer Q fever cases last year than in any year since 1991.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：“991 cases, the highest number since national monitoring began in 1991”，是最多而非最少。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Department of Health plans to import vaccines from overseas to cover the shortage.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说疫苗由 CSL Seqirus 根据合同生产，并未提及从海外进口。"
+        },
+        {
+          "type": "tfng",
+          "q": "The vaccine cannot be replaced quickly partly because each batch takes about nine months to make.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“each batch takes around nine months to produce, so lost stock cannot simply be replaced overnight”。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following does CSL Seqirus give as a cause of the shortage?",
+          "options": [
+            "A fire at its Melbourne factory",
+            "Faults on its filling lines",
+            "A lack of trained staff",
+            "A sudden rise in demand from overseas"
+          ],
+          "answer": 1,
+          "explain": "原文：the company blamed raw material problems and “unexpected faults on its filling lines”。"
+        }
+      ],
+      "discuss": "Should essential vaccines be made by a single local company, or is it safer to rely on several suppliers? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-12/q-fever-vaccine-shortage-in-australia/107374986"
+        }
+      ]
+    },
+    {
+      "id": "qantas-accenture-jobs",
+      "category": "Business",
+      "headline": "Qantas to cut 850 corporate jobs in Accenture outsourcing deal",
+      "headlineZh": "澳航与埃森哲签外包协议，将裁减850个职位",
+      "summaryZh": "澳航将把大量后台工作外包给主要位于印度的埃森哲团队，工会强烈不满。",
+      "c1": "Qantas has announced plans to cut about 850 corporate roles, roughly 3 per cent of its Australian workforce of around 28,000, as part of a seven-year partnership with the consulting firm Accenture. Under the arrangement, much of the airline's back-office work will be handed over to Accenture teams based mainly in India, although some of it will stay in Australia. The first wave of cuts, expected by mid-2027, will hit functions such as finance, procurement, human resources and marketing.\n\nChief executive Vanessa Hudson has framed the move as a necessary overhaul rather than a straightforward cost-cutting exercise. The airline says it currently runs on more than 1,000 legacy applications that were \"never designed to work together\", and that the partnership is about modernising its technology and making greater use of artificial intelligence. Pilots and flight attendants are reportedly unlikely to be affected, and Qantas has said it will consult the employees whose jobs are at stake.\n\nUnions, however, have reacted angrily. The Australian Services Union claims Qantas had previously told it there were no plans to send Australian jobs offshore, an account the airline flatly denies. The Transport Workers' Union also weighed in, pointing to the carrier's decision in 2020 to outsource ground-handling work at 10 airports, an episode many workers have clearly not forgotten.\n\nInvestors, by contrast, appeared to welcome the news, with Qantas shares rising on the day of the announcement. The deal highlights a dilemma facing many large Australian companies: offshoring and automation may deliver efficiency gains, but they also raise awkward questions about loyalty to local staff and the kind of work that will remain at home. Exactly how many roles will move to India, and how many will be replaced by AI, has yet to be made clear.",
+      "b2": "Qantas plans to cut about 850 corporate jobs. That is roughly 3 per cent of its Australian workforce. The cuts are part of a seven-year deal with the consulting company Accenture. Much of the airline's office work will move to Accenture teams, mostly in India. The first cuts are expected by mid-2027 in areas such as finance, human resources and marketing.\n\nChief executive Vanessa Hudson says the change is about updating the business, not only saving money. Qantas says it uses more than 1,000 old computer systems that do not work well together. It wants to modernise its technology and use more artificial intelligence. Pilots and flight attendants are reportedly unlikely to lose their jobs.\n\nUnions are angry. The Australian Services Union says Qantas told it earlier that no jobs would go overseas, but Qantas says it never made that promise. The Transport Workers' Union also criticised the airline and mentioned its decision in 2020 to outsource ground work at 10 airports.\n\nInvestors seemed happy, and Qantas shares went up on the day of the announcement. The deal shows a difficult choice for big companies: sending work overseas and using automation can save money, but it can hurt local workers. It is still not clear how many jobs will go to India and how many will be replaced by AI.",
+      "vocab": [
+        {
+          "word": "hand over",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "移交；交给",
+          "en": "to give responsibility or control to someone else",
+          "example": "The project will be handed over to a new team next month.",
+          "forms": [
+            "handed over"
+          ]
+        },
+        {
+          "word": "first wave",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "第一批；第一轮",
+          "en": "the first of several groups or stages of something",
+          "example": "The first wave of students will move into the new building in March."
+        },
+        {
+          "word": "frame",
+          "pos": "v.",
+          "ipa": "/freɪm/",
+          "zh": "把……表述为",
+          "en": "to present an issue in a particular way",
+          "example": "The government framed the tax rise as an investment in schools.",
+          "forms": [
+            "framed"
+          ]
+        },
+        {
+          "word": "overhaul",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəhɔːl/",
+          "zh": "全面改革；彻底检修",
+          "en": "a complete change or repair to improve something",
+          "example": "The website needs a complete overhaul before the launch."
+        },
+        {
+          "word": "legacy",
+          "pos": "adj.",
+          "ipa": "/ˈleɡəsi/",
+          "zh": "（技术）老旧遗留的",
+          "en": "old but still in use, often hard to replace",
+          "example": "Many banks still rely on legacy software written decades ago."
+        },
+        {
+          "word": "at stake",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "面临风险；利害攸关",
+          "en": "at risk of being lost or affected",
+          "example": "With the championship at stake, both teams played cautiously."
+        },
+        {
+          "word": "flatly deny",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "断然否认",
+          "en": "to deny something completely and firmly",
+          "example": "The minister flatly denied that he had seen the report.",
+          "forms": [
+            "flatly denies"
+          ]
+        },
+        {
+          "word": "weigh in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "发表意见；参与讨论",
+          "en": "to join a discussion and give your opinion",
+          "example": "Several experts weighed in on the debate about school phones.",
+          "forms": [
+            "weighed in"
+          ]
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show a clear difference between two things",
+          "example": "Sydney was wet all week; Perth, by contrast, was sunny."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Qantas shares fell sharply after the job cuts were announced.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：“with Qantas shares rising on the day of the announcement”，股价是上涨。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the outsourced work will be carried out by Accenture teams in India.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：back-office work “will be handed over to Accenture teams based mainly in India”。"
+        },
+        {
+          "type": "tfng",
+          "q": "Accenture has agreed to employ some of the Qantas staff who lose their jobs.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到埃森哲会雇用被裁员工。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is the disagreement between Qantas and the Australian Services Union?",
+          "options": [
+            "Whether pilots will lose their jobs",
+            "How many legacy applications Qantas uses",
+            "When the first cuts will take place",
+            "Whether Qantas promised not to move jobs offshore"
+          ],
+          "answer": 3,
+          "explain": "原文：工会称澳航曾表示 “there were no plans to send Australian jobs offshore”，而澳航 “flatly denies” 这一说法。"
+        }
+      ],
+      "discuss": "Why do you think companies are moving office work overseas or handing it to AI? Will this trend be good or bad for workers in the long run?",
+      "sources": [
+        {
+          "name": "Newcastle Herald (AAP)",
+          "url": "https://www.newcastleherald.com.au/story/9389413/qantas-to-cut-850-corporate-jobs-in-outsourcing-overhaul/"
+        },
+        {
+          "name": "BusinessDay (Reuters)",
+          "url": "https://www.businessday.co.za/business-times/business/2026-11-10-australias-qantas-to-cut-850-jobs-in-accenture-offshoring-move/"
+        }
+      ]
+    },
+    {
+      "id": "macquarie-harbour-salmon",
+      "category": "Environment",
+      "headline": "Almost 2,000 tonnes of farmed salmon died in Tasmanian harbour",
+      "headlineZh": "塔斯马尼亚港湾近2000吨养殖三文鱼死亡",
+      "summaryZh": "新公开数据显示麦夸里港15个月内死亡养殖三文鱼达1907吨，濒危鳐鱼栖息地引发关注。",
+      "c1": "Newly released figures show that almost 2,000 tonnes of farmed salmon died in Macquarie Harbour, on Tasmania's west coast, over a 15-month period between October 2024 and December 2025. The data, which puts the total at 1,907 tonnes, was obtained by the conservation group Environment Tasmania through a Right to Information request lodged late last year. Its publication was delayed because salmon companies exercised their right to seek a review of the decision to release it.\n\nEnvironment Tasmania described the death rates as eye-watering, noting that they came from a year without a super El Niño. By its calculations, the losses amount to roughly 15 per cent of the maximum annual haul of about 9,500 tonnes. The industry body, Salmon Tasmania, disputes that framing, arguing that mortality is measured by counting fish rather than by weight, and that fewer than 8 per cent of the fish held in the harbour died during the period.\n\nSalmon Tasmania's chief executive, John Whittington, acknowledged that deaths are, unfortunately, part of all livestock farming, and said companies were protecting fish health through selective breeding, vaccination and specialised diets. Yet the figures shed no light on what actually killed the fish, and harbour-specific data is not routinely made public, which campaigners say reflects a broader lack of transparency.\n\nThe stakes extend well beyond the industry. Macquarie Harbour is believed to be the only home of the endangered Maugean skate, and the state's environment department is weighing up whether to declare the harbour critical habitat for the species. Scientific advisers have identified several intersecting threats, including declining oxygen levels in the water and the impacts of aquaculture. Meanwhile, the three companies operating there continue to farm under licences that expired almost a year ago, because their renewal applications are still being assessed.",
+      "b2": "New figures show that almost 2,000 tonnes of farmed salmon died in Macquarie Harbour, on Tasmania's west coast, between October 2024 and December 2025. The exact total was 1,907 tonnes. The conservation group Environment Tasmania asked for the data under Right to Information laws. Its release was delayed because salmon companies asked for a review.\n\nEnvironment Tasmania said the number of deaths was shocking. It said the losses were about 15 per cent of the maximum amount of salmon that can be farmed there in a year, about 9,500 tonnes. The industry group Salmon Tasmania disagrees. It says deaths should be measured by counting fish, not by weight, and that fewer than 8 per cent of the fish died.\n\nSalmon Tasmania's chief executive, John Whittington, said deaths are a normal part of all livestock farming. He said companies use breeding, vaccines and special diets to keep fish healthy. However, the data does not explain why the fish died.\n\nThe harbour is also believed to be the only home of the endangered Maugean skate. The state government is considering protecting the harbour as critical habitat for this species. Threats to the skate include low oxygen in the water and fish farming. The three salmon companies there are still operating, even though their licences expired almost a year ago.",
+      "vocab": [
+        {
+          "word": "lodge",
+          "pos": "v.",
+          "ipa": "/lɒdʒ/",
+          "zh": "正式提出（申请、投诉等）",
+          "en": "to formally submit a request, complaint or application",
+          "example": "You have 30 days to lodge an appeal against the fine.",
+          "forms": [
+            "lodged"
+          ]
+        },
+        {
+          "word": "exercise a right",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "行使权利",
+          "en": "to use a right that you legally have",
+          "example": "Every citizen should exercise their right to vote.",
+          "forms": [
+            "exercised their right"
+          ]
+        },
+        {
+          "word": "eye-watering",
+          "pos": "adj.",
+          "ipa": "/ˈaɪ wɔːtərɪŋ/",
+          "zh": "高得惊人的",
+          "en": "extremely high, especially of an amount or price",
+          "example": "Rents in the inner city have reached eye-watering levels."
+        },
+        {
+          "word": "dispute",
+          "pos": "v.",
+          "ipa": "/dɪˈspjuːt/",
+          "zh": "对……提出异议",
+          "en": "to say that something is not true or correct",
+          "example": "The landlord disputed the tenant's claim that the heater was broken.",
+          "forms": [
+            "disputes"
+          ]
+        },
+        {
+          "word": "shed light on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "阐明；使清楚",
+          "en": "to help explain or make something clearer",
+          "example": "The new letters shed light on the writer's early life.",
+          "forms": [
+            "shed no light on"
+          ]
+        },
+        {
+          "word": "transparency",
+          "pos": "n.",
+          "ipa": "/trænsˈpærənsi/",
+          "zh": "透明度",
+          "en": "openness about decisions and information",
+          "example": "Voters are demanding more transparency about political donations."
+        },
+        {
+          "word": "the stakes",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "利害关系；风险",
+          "en": "what can be gained or lost in a situation",
+          "example": "The stakes are high for the team in Saturday's final.",
+          "forms": [
+            "The stakes"
+          ]
+        },
+        {
+          "word": "weigh up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "权衡；斟酌",
+          "en": "to consider carefully before making a decision",
+          "example": "She's still weighing up whether to accept the job in Brisbane.",
+          "forms": [
+            "weighing up"
+          ]
+        },
+        {
+          "word": "critical habitat",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "关键栖息地",
+          "en": "an area that is essential for the survival of a species",
+          "example": "Logging has been banned in the forest because it is critical habitat for owls."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Salmon Tasmania argues that mortality should be measured by counting fish rather than by weight.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：“arguing that mortality is measured by counting fish rather than by weight”。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Maugean skate population has halved over the past decade.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说该鳐鱼濒危且可能只生活在此港湾，未提供数量变化数据。"
+        },
+        {
+          "type": "tfng",
+          "q": "The released data shows that disease was the main cause of the salmon deaths.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：“the figures shed no light on what actually killed the fish”，数据并未说明死因。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are the salmon companies still allowed to operate in the harbour?",
+          "options": [
+            "Their renewal applications are still being assessed",
+            "Their licences were extended for ten years",
+            "The government has declared the harbour critical habitat",
+            "They added more oxygen to the water"
+          ],
+          "answer": 0,
+          "explain": "原文：they continue to farm under expired licences “because their renewal applications are still being assessed”。"
+        }
+      ],
+      "discuss": "How should governments balance jobs in industries like fish farming against the protection of endangered species? Who should have the final say?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-11-13/salmon-deaths-macquarie-harbour-tasmania-rti/107379706"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Coffee Break Between Seminars",
+    "titleZh": "研讨课间的咖啡时间",
+    "setting": "Two postgraduate classmates chat in a corridor at the University of Melbourne during a break in a long seminar.",
+    "settingZh": "墨尔本大学两名研究生同学在一节漫长研讨课的休息时间里在走廊聊天。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Phew, that first half really dragged. Do you reckon he'll let us out on time?",
+        "zh": "呼，上半节真是拖沓。你觉得他会准时下课吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Not a chance. He's got another forty slides to get through, easily.",
+        "zh": "不可能。他至少还有四十张幻灯片要讲。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Great. Anyway, while I've got you, have you made a start on the group report?",
+        "zh": "太好了。对了，趁现在碰到你，小组报告你开始写了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Sort of. I've jotted down a few ideas, but nothing I'd want anyone to see yet.",
+        "zh": "算是吧。我随手记了几个想法，但还没到能给人看的程度。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Same here, to be honest. We should probably divvy up the sections this week.",
+        "zh": "说实话我也一样。我们这周大概该把各部分分一下了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Makes sense. I'm happy to take the literature review if you're across the data.",
+        "zh": "有道理。如果你对数据比较熟，我来负责文献综述。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Deal. Although Sam hasn't replied in the group chat for about a week.",
+        "zh": "成交。不过 Sam 已经快一个星期没在群里回复了。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Yeah, I noticed that. Maybe something's come up and they're just snowed under.",
+        "zh": "是啊，我也注意到了。可能是有什么事，他们忙得不可开交。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Could be. I'll give them the benefit of the doubt and message them tonight.",
+        "zh": "有可能。我就先相信他们，今晚给他们发个消息。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Good call. No point getting worked up before we know what's going on.",
+        "zh": "好主意。在弄清楚情况之前没必要着急上火。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "True. Oh, people are heading back in. Want to grab a proper coffee afterwards?",
+        "zh": "没错。哦，大家都回去了。下课后要不要去喝杯像样的咖啡？"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Definitely. I'll need one to get through the second half, let alone the reading.",
+        "zh": "当然。撑过下半节就得来一杯，更别说还有阅读任务了。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Ha, tell me about it. Let's sit near the back so we can slip out quickly.",
+        "zh": "哈，可不是嘛。我们坐后面吧，这样能快点溜出去。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "was very slow and boring",
+        "en": "really dragged",
+        "zh": "drag：（时间）过得慢、拖沓"
+      },
+      {
+        "plain": "have you started",
+        "en": "made a start on",
+        "zh": "开始着手做某事"
+      },
+      {
+        "plain": "wrote some quick notes",
+        "en": "jotted down",
+        "zh": "匆匆记下"
+      },
+      {
+        "plain": "share out / divide",
+        "en": "divvy up",
+        "zh": "口语：分配、瓜分"
+      },
+      {
+        "plain": "if you know the data well",
+        "en": "if you're across the data",
+        "zh": "澳式口语：熟悉、掌握情况"
+      },
+      {
+        "plain": "very busy",
+        "en": "snowed under",
+        "zh": "忙得不可开交"
+      },
+      {
+        "plain": "believe them for now",
+        "en": "give them the benefit of the doubt",
+        "zh": "姑且相信某人"
+      },
+      {
+        "plain": "I agree, it's true for me too",
+        "en": "tell me about it",
+        "zh": "可不是嘛（表示深有同感）"
+      }
+    ]
+  }
+}
