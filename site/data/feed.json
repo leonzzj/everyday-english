@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-12T09:59:22.399Z",
+ "updatedAt": "2026-11-12T23:43:58.799Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "What Trump knew about the Nvidia spy",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-trump-knew-about-the-nvidia-spy/107374182",
-   "audio": "https://traffic.megaphone.fm/TECO2404302136.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/b17a049e-dde2-11f1-8777-ab97faff355e/image/9c7ad673cf20f2c3842e6afd97bc6681.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-12",
+   "title": "AI killed Qantas jobs. Who's next?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/ai-killed-qantas-jobs-who-s-next/107377732",
+   "audio": "https://traffic.megaphone.fm/TECO2774685206.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/dca611c0-deab-11f1-bdad-37d4e2bb6e3b/image/f2bea2c7bdf215c7fa16ae97567ad415.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-13",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "It's being dubbed the 'Nvidia affair' and it could be the script for a Hollywood thriller. &nbsp;&nbsp; The head of US AI&nbsp;chip maker Nvidia,&nbsp;Jensen Huang has admitted to&nbsp;having an&nbsp;affair with a woman who&nbsp;US intelligence determined was…"
+   "desc": "How does a company get rid of jobs so they can be replaced with AI? Well,&nbsp;this week Qantas revealed a corporate playbook: move the jobs offshore, develop the tech, then get rid of the human. Today, James Thomson, a columnist at the&nbsp;Australian…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How to repair harm — in relationships and nations | Aria Florant",
-   "url": "http://go.ted.com/ariaflorant",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af38974ac84158342c9ed3d/media.mp3",
+   "title": "How we’ll actually ditch fossil fuels — by the numbers | Michael Liebreich",
+   "url": "http://go.ted.com/michaelliebreich",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5e8e843d8776fbbb21b34/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-12",
-   "minutes": 17,
+   "date": "2026-11-13",
+   "minutes": 15,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Aria Florant cofounded a nonprofit to help accelerate the reparations movement in the US … but less than a year in, her partnership with her own cofounder fell apart. Drawing on what brought the two of them back together — plus lessons from South Africa…"
+   "desc": "Have you heard the clean energy transition is failing? Energy analyst Michael Liebreich says to look again. Using a four-line spreadsheet model of the global energy system, he shows why fossil fuels will inevitably get squeezed out over time — with no bans…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "The wholehearted life",
-   "url": "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life",
+   "title": "Why anything exists",
+   "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/1f0bf1c6-e0ad-490d-b4c1-685617a95d62/essay-from-kodo-dsc02003.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-10",
+   "image": "https://images.aeonmedia.co/images/72b5e07e-102f-40ec-b0e7-0f8234e7ae07/essay-v1-dp279306.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-12",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Roshi Joan Halifax is an original, generous, gritty and profound Buddhist teacher. How does she look back on her life? - by Ben Daitz Read on Aeon"
+   "desc": "Here’s a new answer to the old question ‘why is there something rather than nothing?’ (It’s neither simple nor easy) - by Andrew T Brenner Read on Aeon"
   }
  ]
 }
