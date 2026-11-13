@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T23:43:58.799Z",
+ "updatedAt": "2026-11-13T09:47:42.217Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: The child bride who escaped her violent husband to begin an extraordinary new life",
-   "url": "https://www.abc.net.au/listen/programs/conversations/hana-assafiri-violence-forced-marriage-freedom-reinvention/107359910",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qb/Z/tu.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F05e90696033b3720cfe9d00cf45bc9b1.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-12",
-   "minutes": 52,
+   "title": "Rebecca Solnit on why things are much better than we think",
+   "url": "https://www.abc.net.au/listen/programs/conversations/rebecca-solnit-on-the-beginning-comes-after-the-end/107361546",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qd/Z/44.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F6d4580a8f39942cbace1f4c011dbd2eb.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-13",
+   "minutes": 49,
    "level": "C1",
    "accent": "AU",
-   "desc": "Hana Assafiri was married off at 15 to a controlling and abusive man. Within four years she'd escaped, to begin her remarkable reinvention. Hana was born in Melbourne and lived in Lebanon with her family for much of her childhood. In 1976, her family returned…"
+   "desc": "The American writer discusses the historic US midterm elections, the decline of Trump and how you can find hope by looking to the past. It’s easy to feel like everything is getting worse. Politics full of rage and violence, the threats posed by AI, the rise…"
   },
   {
    "source": "TED Talks Daily",
