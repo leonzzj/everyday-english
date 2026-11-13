@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T09:47:42.217Z",
+ "updatedAt": "2026-11-13T23:45:15.514Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "How we’ll actually ditch fossil fuels — by the numbers | Michael Liebreich",
-   "url": "http://go.ted.com/michaelliebreich",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5e8e843d8776fbbb21b34/media.mp3",
+   "title": "Could this ancient Greek idea make us better citizens? | Scott Reich",
+   "url": "http://go.ted.com/ScottReich",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5f82c43d8776fbbb21b35/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-13",
-   "minutes": 15,
+   "date": "2026-11-14",
+   "minutes": 12,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Have you heard the clean energy transition is failing? Energy analyst Michael Liebreich says to look again. Using a four-line spreadsheet model of the global energy system, he shows why fossil fuels will inevitably get squeezed out over time — with no bans…"
+   "desc": "More than 2,000 years ago in ancient Athens, young citizens were required to complete “ephebeia,” a two-year civic service program that taught them the laws of the city and how to defend their democracy. Author and historian Scott Reich believes this practice…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Why anything exists",
-   "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
+   "title": "Fugitive imagination",
+   "url": "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/72b5e07e-102f-40ec-b0e7-0f8234e7ae07/essay-v1-dp279306.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-12",
+   "image": "https://images.aeonmedia.co/images/250df91b-cb37-49ba-b1b1-4c14f75bb40e/essay-panos_00206717.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-13",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Here’s a new answer to the old question ‘why is there something rather than nothing?’ (It’s neither simple nor easy) - by Andrew T Brenner Read on Aeon"
+   "desc": "Wherever people are confined, displaced, silenced or made disposable, fugitive forms of knowledge and imagination emerge - by Shahram Khosravi Read on Aeon"
   }
  ]
 }
