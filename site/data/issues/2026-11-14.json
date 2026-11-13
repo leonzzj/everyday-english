@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-14",
+  "issueNo": 27,
+  "title": "Microsoft's meltdown, a Türkiye–Qatar pact and a self-destructing weed",
+  "createdAt": "2026-11-14T06:49:37+11:00",
+  "stories": [
+    {
+      "id": "turkiye-qatar-pact",
+      "category": "World",
+      "headline": "Türkiye and Qatar sign mutual defence pact amid Gulf tensions",
+      "headlineZh": "海湾局势紧张之际，土耳其与卡塔尔签署共同防御协定",
+      "summaryZh": "埃尔多安与卡塔尔埃米尔在伊斯坦布尔会晤后签署共同防御协定，分析人士认为海湾国家对美国安全保障信心下降。",
+      "c1": "Türkiye and Qatar have deepened an already close relationship by signing a mutual defence agreement in Istanbul on Friday, following talks between Turkish President Recep Tayyip Erdogan and Qatar's Emir, Sheikh Tamim bin Hamad Al Thani. Although the precise terms of the pact were not made public, Erdogan's office said it would add a new dimension to ties between the two countries, while the Emir framed it as a strategic partnership. Several other agreements were signed at the same time, including a memorandum of understanding on peace, reconciliation and conflict resolution.\n\nThe timing is hardly coincidental. The deal comes as the US-Israeli war on Iran continues to unsettle the Gulf, with Washington and Tehran trading competing claims this week over drone and radar strikes in Bahrain. Erdogan said the two nations would keep working to prevent a renewed war in the region and to lay the groundwork for dialogue, a message that sits comfortably with Qatar's long-standing role as a mediator.\n\nSecurity analyst Yusuf Alabarda offered a blunter reading. He told Al Jazeera that no one in the region feels secure and that Gulf states, Qatar in particular, have concluded that American security guarantees are not working as intended. In his view, the agreement could pave the way for Turkish weapons and air defence systems to be deployed to Qatar, where Turkish troops are already stationed.\n\nThe pact also fits a broader pattern of shifting alliances. In August, Türkiye, Saudi Arabia and Pakistan signed a regional pact pledging to come to one another's aid if attacked, which the Turkish parliament ratified last week. Ankara insists that arrangement is not aimed at any other country and remains open to new members. Whether such deals will genuinely stabilise the region, or simply add another layer of complexity, remains to be seen.",
+      "b2": "Türkiye and Qatar signed a mutual defence agreement in Istanbul on Friday. The deal followed a meeting between Turkish President Recep Tayyip Erdogan and Qatar's Emir, Sheikh Tamim bin Hamad Al Thani. The exact details were not published, but both sides described it as an important step. The Emir called it a strategic partnership.\n\nThe agreement comes at a tense time. The war involving the US, Israel and Iran is still affecting the Gulf, and this week the US and Iran made different claims about strikes in Bahrain. Erdogan said both countries would work to prevent a new war in the region and to support dialogue.\n\nA security analyst, Yusuf Alabarda, told Al Jazeera that nobody in the region feels safe. He said Gulf states, especially Qatar, believe that American security promises are not working well. He thinks the deal could lead to Turkish weapons and air defences being sent to Qatar, where Turkish troops are already based.\n\nThe deal is part of a wider trend. In August, Türkiye, Saudi Arabia and Pakistan agreed to help each other if any of them is attacked, and Türkiye's parliament approved that pact last week. It is not yet clear whether these new alliances will make the region safer or simply more complicated.",
+      "vocab": [
+        {
+          "word": "hardly coincidental",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝非巧合",
+          "en": "clearly not happening by chance",
+          "example": "The new café opening next to the station is hardly coincidental."
+        },
+        {
+          "word": "unsettle",
+          "pos": "v.",
+          "ipa": "/ʌnˈsetl/",
+          "zh": "使不安；扰乱",
+          "en": "to make a situation or people less stable or calm",
+          "example": "Sudden changes in management can unsettle staff for months."
+        },
+        {
+          "word": "lay the groundwork",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "打下基础",
+          "en": "to do the early work that makes later progress possible",
+          "example": "These meetings will lay the groundwork for a formal agreement next year."
+        },
+        {
+          "word": "sit comfortably with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与……相符",
+          "en": "to fit well with an idea, value or situation",
+          "example": "Cutting the library budget doesn't sit comfortably with the council's promises.",
+          "forms": [
+            "sits comfortably with"
+          ]
+        },
+        {
+          "word": "long-standing",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋˈstændɪŋ/",
+          "zh": "长期存在的",
+          "en": "having existed for a long time",
+          "example": "The two families have a long-standing tradition of sharing Christmas lunch."
+        },
+        {
+          "word": "pave the way for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……铺平道路",
+          "en": "to make it easier for something to happen later",
+          "example": "The pilot program could pave the way for free public transport."
+        },
+        {
+          "word": "shifting alliances",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "不断变化的联盟关系",
+          "en": "partnerships between groups that keep changing",
+          "example": "Office politics can be exhausting because of all the shifting alliances."
+        },
+        {
+          "word": "come to one another's aid",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "互相援助",
+          "en": "to help each other when one is in trouble",
+          "example": "Neighbours came to one another's aid during the floods."
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚待观察",
+          "en": "to be still unknown or uncertain",
+          "example": "Whether the new rules will work remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The full terms of the agreement were published after the signing.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"the precise terms of the pact were not made public\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Turkish troops are already stationed in Qatar.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中提到 \"where Turkish troops are already stationed\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Egypt has formally applied to join the pact signed by Türkiye, Saudi Arabia and Pakistan.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说该协定 \"remains open to new members\"，并未提到埃及申请加入，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Yusuf Alabarda, why might Gulf states like Qatar be looking for new defence partners?",
+          "options": [
+            "They feel American security guarantees are not working as intended.",
+            "They want to reduce their military spending.",
+            "They are planning to join NATO.",
+            "They have settled their disputes with Iran."
+          ],
+          "answer": 0,
+          "explain": "分析人士称海湾国家认为 \"American security guarantees are not working as intended\"，故选第一项。"
+        }
+      ],
+      "discuss": "Why do you think smaller countries often build defence ties with several partners instead of relying on one powerful ally? Could this make conflicts more or less likely?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        }
+      ]
+    },
+    {
+      "id": "red-witchweed",
+      "category": "Science",
+      "headline": "Queensland tricks invasive red witchweed into destroying itself",
+      "headlineZh": "昆州用“假作物”诱使入侵杂草红独脚金自我毁灭",
+      "summaryZh": "昆州生物安全部门用大豆诱使红独脚金种子萌发后饿死，预计三年内可根除。",
+      "c1": "Biosecurity officials in Queensland believe they may be able to eliminate one of Australia's most troublesome invasive weeds within three years, thanks to a strategy that essentially tricks the plant into destroying itself. Red witchweed is a parasitic plant that latches onto its hosts and siphons off their water and nutrients. It was first detected on sugar cane land at Habana, just north of Mackay, in 2013.\n\nThe discovery caused considerable alarm. The weed can cause significant yield losses in crops such as sorghum, maize, rice and sugar cane, and officials feared that if it spread, it could inflict serious damage on Australia's grain industry. Because it was the only known infestation in the country, the outbreak became the focus of a long-running containment and eradication effort.\n\nThe latest approach relies on so-called false crops. According to Michelle Smith from Biosecurity Queensland, soybeans planted in infested areas release chemicals that prompt witchweed seeds in the soil to germinate. Yet soybeans cannot supply the nutrients the seedlings need to survive, so the young weeds wither and die. Scientists sometimes describe this as suicidal germination, and over time it steadily depletes the bank of seeds lying in the ground.\n\nThe method is not used in isolation. Earlier trials combined false hosts with herbicides and soil fumigation, and some of these treatments reduced the viability of the seed bank to almost zero. Even so, officials are likely to remain cautious. Declaring a weed eradicated typically requires a long period without a single detection, so landholders around Habana may need to stay vigilant well after the last plant has been seen.",
+      "b2": "Biosecurity officials in Queensland think they could get rid of a dangerous invasive weed within three years. Their method tricks the plant into killing itself. Red witchweed is a parasite that takes water and nutrients from other plants. It was first found in 2013 on sugar cane land at Habana, north of Mackay.\n\nThe discovery worried officials. The weed can greatly reduce harvests of crops such as sorghum, maize, rice and sugar cane. Officials feared it could spread and damage Australia's grain industry. This was the only known outbreak in the country, so a long eradication program began.\n\nThe newest method uses \"false crops\". Michelle Smith from Biosecurity Queensland explained that soybeans release chemicals that make witchweed seeds start to grow. However, soybeans cannot give the young weeds the nutrients they need, so the seedlings die. Over time, this reduces the number of seeds in the soil.\n\nOfficials also use other tools, such as herbicides and treating the soil with gas. In earlier trials, some of these methods almost completely destroyed the seeds in the soil. Even so, a weed can only be declared gone after a long time with no new plants, so people in the area will need to keep checking their land.",
+      "vocab": [
+        {
+          "word": "invasive",
+          "pos": "adj.",
+          "ipa": "/ɪnˈveɪsɪv/",
+          "zh": "入侵性的",
+          "en": "spreading quickly into places where it is not native and causing harm",
+          "example": "Lantana is an invasive plant that is hard to remove from bushland."
+        },
+        {
+          "word": "latch onto",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "紧紧附着；抓住",
+          "en": "to attach firmly to something",
+          "example": "Ticks latch onto dogs that run through long grass.",
+          "forms": [
+            "latches onto"
+          ]
+        },
+        {
+          "word": "siphon off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "抽走；吸走（资源）",
+          "en": "to take resources away from where they are meant to go",
+          "example": "Hidden fees siphon off a surprising amount of your savings.",
+          "forms": [
+            "siphons off"
+          ]
+        },
+        {
+          "word": "yield losses",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "减产",
+          "en": "reductions in the amount a crop produces",
+          "example": "The drought led to heavy yield losses for wheat farmers."
+        },
+        {
+          "word": "inflict damage on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "对……造成损害",
+          "en": "to cause harm to something or someone",
+          "example": "The storm inflicted serious damage on the town's power lines.",
+          "forms": [
+            "inflict serious damage on"
+          ]
+        },
+        {
+          "word": "containment",
+          "pos": "n.",
+          "ipa": "/kənˈteɪnmənt/",
+          "zh": "控制；遏制",
+          "en": "the act of stopping something harmful from spreading",
+          "example": "Firefighters focused on containment before the wind picked up."
+        },
+        {
+          "word": "deplete",
+          "pos": "v.",
+          "ipa": "/dɪˈpliːt/",
+          "zh": "耗尽；大量减少",
+          "en": "to reduce the amount of something until little is left",
+          "example": "Long working hours can deplete your energy faster than you expect."
+        },
+        {
+          "word": "in isolation",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "单独地；孤立地",
+          "en": "alone, without other things or factors",
+          "example": "Exam results shouldn't be judged in isolation from a student's coursework."
+        },
+        {
+          "word": "stay vigilant",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "保持警惕",
+          "en": "to keep watching carefully for danger or problems",
+          "example": "Shoppers should stay vigilant about fake delivery texts."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Red witchweed was first detected near Mackay in 2013.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道 \"first detected on sugar cane land at Habana, just north of Mackay, in 2013\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Soybeans give witchweed seedlings the nutrients they need to grow.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"soybeans cannot supply the nutrients the seedlings need to survive\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The eradication program is paid for mainly by sugar cane growers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到项目经费来源，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are soybeans planted in areas where witchweed has been found?",
+          "options": [
+            "To provide food for local livestock",
+            "To shade out the weed and block sunlight",
+            "To replace sugar cane as the main crop",
+            "To make witchweed seeds germinate and then die"
+          ],
+          "answer": 3,
+          "explain": "大豆释放化学物质 \"prompt witchweed seeds ... to germinate\"，但无法提供养分，幼苗 \"wither and die\"，故选最后一项。"
+        }
+      ],
+      "discuss": "Why do you think scientists increasingly try to use nature against itself, rather than relying only on chemicals? What risks might these methods carry?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-13/tropical-north-queensland-local-news-briefing/107381190"
+        },
+        {
+          "name": "Plant Health Australia",
+          "url": "https://www.planthealthaustralia.com.au/eradication-of-red-witchweed-on-track/"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-outage",
+      "category": "Tech",
+      "headline": "Global Microsoft outage knocks out Outlook and disrupts Teams",
+      "headlineZh": "微软全球大规模故障，Outlook瘫痪、Teams受扰",
+      "summaryZh": "微软故障持续近一天，影响全球邮件和办公服务，专家呼吁企业准备备用方案。",
+      "c1": "Users around the world found themselves locked out of their inboxes on Friday when a major Microsoft outage knocked out Outlook and disrupted Teams, Copilot and other Microsoft 365 services. In Australia, problems began at about 3:15am AEDT, and reports to the tracking site Downdetector soon climbed to nearly 140,000 worldwide. Almost a full day later, the company said email queues were approaching normal levels, although some users could still face intermittent problems.\n\nMicrosoft said a process that establishes secure connections on affected servers had become overwhelmed, causing them to stop handling requests, and it moved to roll back a recent network configuration change that coincided with the start of the disruption. Crucially, the company said there was no indication of malicious activity, a view echoed by Home Affairs Minister Tony Burke, who also activated a digital resilience agreement with Microsoft to prioritise Australian interests.\n\nFor businesses, the costs mounted quickly. Ashwin Pal, a partner at RSM Australia, estimated that professional services firms lose more than $100,000 an hour during an outage like this, and warned that for small businesses already operating on thin margins, it could be the final straw. Elsewhere, a NSW virtual bail court was disrupted and England's NHS activated contingency plans, although Australian health services reported no known clinical impacts.\n\nExperts argue the episode exposes an uncomfortable reality: many organisations have put all their eggs in one basket. UNSW's Richard Buckland noted that workarounds had not been prioritised since the CrowdStrike outage of July 2024, insisting that \"Everyone needs a Plan B.\" Others stopped short of urging firms to abandon the cloud, suggesting instead that they identify essential functions and test alternatives from a different provider. Banks, meanwhile, warned customers to beware of scammers posing as IT helpers.",
+      "b2": "On Friday, a major Microsoft outage stopped many people around the world from using Outlook. Teams, Copilot and other Microsoft 365 services were also affected. In Australia, the problems started at about 3:15am AEDT, and nearly 140,000 reports were made worldwide on the website Downdetector. Almost a day later, Microsoft said email was close to normal again, although some users might still have problems.\n\nMicrosoft said part of its system that creates secure connections became overloaded, so servers stopped working properly. The company reversed a recent network change. It said there was no sign of a cyber attack. Home Affairs Minister Tony Burke agreed, and he used a special agreement with Microsoft to make Australia a priority.\n\nThe outage was costly for businesses. Ashwin Pal from RSM Australia said professional services firms can lose more than $100,000 an hour. He warned that some small businesses might not survive the loss. A virtual bail court in NSW was also affected, and England's NHS used emergency plans.\n\nExperts say many organisations depend too much on one company. Richard Buckland from UNSW said that every business needs a backup plan. Other experts said firms should not stop using the cloud, but should test other options. Banks also warned customers to watch out for scammers pretending to offer IT help.",
+      "vocab": [
+        {
+          "word": "locked out of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被拒于……之外；无法进入",
+          "en": "unable to get into a place, account or system",
+          "example": "I was locked out of my bank account after too many wrong passwords."
+        },
+        {
+          "word": "knock out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "使瘫痪；使停止运作",
+          "en": "to stop something from working, often suddenly",
+          "example": "The storm knocked out power to half the suburb.",
+          "forms": [
+            "knocked out"
+          ]
+        },
+        {
+          "word": "intermittent",
+          "pos": "adj.",
+          "ipa": "/ˌɪntəˈmɪtənt/",
+          "zh": "断断续续的",
+          "en": "stopping and starting, not continuous",
+          "example": "We've had intermittent Wi-Fi all week, which makes video calls painful."
+        },
+        {
+          "word": "roll back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "撤回；恢复到之前状态",
+          "en": "to undo a change and return to an earlier version",
+          "example": "The app developers rolled back the update after users complained."
+        },
+        {
+          "word": "coincide with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "与……同时发生",
+          "en": "to happen at the same time as something else",
+          "example": "The festival coincides with the school holidays this year.",
+          "forms": [
+            "coincided with"
+          ]
+        },
+        {
+          "word": "operate on thin margins",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "利润微薄地经营",
+          "en": "to run a business that makes very little profit",
+          "example": "Most independent bookshops operate on thin margins.",
+          "forms": [
+            "operating on thin margins"
+          ]
+        },
+        {
+          "word": "the final straw",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "压垮骆驼的最后一根稻草",
+          "en": "the last of a series of problems that makes a situation unbearable",
+          "example": "When the landlord raised the rent again, it was the final straw."
+        },
+        {
+          "word": "put all your eggs in one basket",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "把所有鸡蛋放在一个篮子里",
+          "en": "to depend completely on one thing or plan",
+          "example": "Apply to several unis so you don't put all your eggs in one basket.",
+          "forms": [
+            "put all their eggs in one basket"
+          ]
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "差一点就……；没有走到……的地步",
+          "en": "to come close to doing something but not actually do it",
+          "example": "The minister criticised the plan but stopped short of calling for it to be scrapped.",
+          "forms": [
+            "stopped short of"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Microsoft said the outage was caused by a cyber attack.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"there was no indication of malicious activity\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Microsoft has offered compensation to affected business customers.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到任何赔偿，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "In Australia, the problems began at about 3:15am AEDT.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道 \"problems began at about 3:15am AEDT\"，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Richard Buckland, what have organisations failed to do since July 2024?",
+          "options": [
+            "Pay for faster internet connections",
+            "Train staff to recognise phishing emails",
+            "Make workarounds for outages a priority",
+            "Move their systems away from the cloud"
+          ],
+          "answer": 2,
+          "explain": "Buckland 指出 \"workarounds had not been prioritised since the CrowdStrike outage of July 2024\"，故选第三项。"
+        }
+      ],
+      "discuss": "Why do you think so many organisations rely on a single technology provider? Should governments require businesses to have backup systems?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affects-users-worldwide/107381050"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users"
+        }
+      ]
+    },
+    {
+      "id": "victoria-treaty-un",
+      "category": "Australia",
+      "headline": "UN official criticises Victorian opposition's plan to scrap Treaty",
+      "headlineZh": "联合国特别报告员批评维州反对党废除原住民条约计划",
+      "summaryZh": "维州大选临近，联合国原住民权利特别报告员称基本权利不应取决于选举结果。",
+      "c1": "A senior United Nations official has waded into Victoria's election campaign, criticising the state opposition's plan to dismantle the Treaty with the state's First Peoples. Albert Barume, the UN Special Rapporteur on the rights of Indigenous peoples, spoke at the end of a two-week visit to Australia. \"Fundamental rights cannot be made contingent on electoral outcomes,\" he warned, adding that they should not depend on the priorities of successive governments either.\n\nOpposition leader Jess Wilson has pledged that a Coalition government would repeal the laws underpinning the Treaty within its first 100 days, abolishing Gellung Warl, the elected Indigenous body it created, and returning Indigenous affairs to a government department reporting to a minister. The Parliamentary Budget Office estimates the move would return roughly $948 million to the budget over a decade. One Nation has made a similar pledge, while the Greens support keeping the Treaty.\n\nSigned by the Labor government in 2025, the agreement was the first modern treaty of its kind in Australia. Gellung Warl can advocate on behalf of First Peoples, be consulted on policy and evaluate progress on closing the gap, but it has no power to veto state laws. New bills must also include a statement explaining how they align with Treaty principles and whether the First Peoples' Assembly was consulted.\n\nBarume described the opposition's stance as part of a troubling national pattern in which Indigenous rights become a political target, arguing that such reversals erode trust in public institutions. Aboriginal leaders in Victoria have voiced deep disappointment, saying their communities are being treated as a political football. The question will ultimately be settled at the ballot box, with Victorians heading to the polls on 28 November.",
+      "b2": "A United Nations official has criticised the Victorian opposition's plan to scrap the state's Treaty with First Peoples. Albert Barume, the UN Special Rapporteur on the rights of Indigenous peoples, spoke after a two-week visit to Australia. He said basic rights should not depend on who wins an election or on what each new government wants.\n\nOpposition leader Jess Wilson says a Coalition government would cancel the Treaty laws in its first 100 days. It would also close Gellung Warl, the elected Indigenous body, and give Indigenous affairs back to a government department. The Parliamentary Budget Office says this would return about $948 million to the budget over ten years. One Nation also wants to scrap the Treaty, but the Greens want to keep it.\n\nThe Labor government signed the Treaty in 2025. It was the first modern treaty of its kind in Australia. Gellung Warl can speak up for First Peoples, be consulted on policy and check progress on closing the gap. However, it cannot block state laws.\n\nBarume said attacks on Indigenous rights were part of a worrying pattern across Australia, and that these changes damage trust in public institutions. Aboriginal leaders in Victoria said they were deeply disappointed and felt their communities were being used as a political football. Victorians vote on 28 November.",
+      "vocab": [
+        {
+          "word": "wade into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "介入（争论等）",
+          "en": "to become involved in a debate or difficult situation",
+          "example": "My uncle always wades into arguments about politics at dinner.",
+          "forms": [
+            "waded into"
+          ]
+        },
+        {
+          "word": "dismantle",
+          "pos": "v.",
+          "ipa": "/dɪsˈmæntl/",
+          "zh": "废除；拆除",
+          "en": "to end a system or organisation gradually or completely",
+          "example": "The new manager wants to dismantle the old bonus scheme."
+        },
+        {
+          "word": "contingent on",
+          "pos": "adj. phr.",
+          "ipa": "",
+          "zh": "取决于……的",
+          "en": "depending on something else happening",
+          "example": "The job offer is contingent on a police check."
+        },
+        {
+          "word": "successive",
+          "pos": "adj.",
+          "ipa": "/səkˈsesɪv/",
+          "zh": "接连的；历届的",
+          "en": "following one after another",
+          "example": "Successive governments have promised to fix housing affordability."
+        },
+        {
+          "word": "underpin",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈpɪn/",
+          "zh": "支撑；构成……的基础",
+          "en": "to give support or a basis to something",
+          "example": "Strong data underpins every recommendation in the report.",
+          "forms": [
+            "underpinning"
+          ]
+        },
+        {
+          "word": "align with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "与……一致",
+          "en": "to match or fit with a set of principles or aims",
+          "example": "Our new hiring policy needs to align with the company's values."
+        },
+        {
+          "word": "erode trust",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "削弱信任",
+          "en": "to gradually reduce people's confidence in someone or something",
+          "example": "Broken promises can erode trust between a team and its manager."
+        },
+        {
+          "word": "political football",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "政治皮球（被各方利用的议题）",
+          "en": "an issue that politicians argue over for their own advantage",
+          "example": "Public transport funding has become a political football in this state."
+        },
+        {
+          "word": "voice disappointment",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "表达失望",
+          "en": "to say openly that you are disappointed",
+          "example": "Fans voiced their disappointment when the concert was cancelled.",
+          "forms": [
+            "voiced deep disappointment"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Gellung Warl has the power to veto laws passed by the Victorian parliament.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中明确说 \"it has no power to veto state laws\"，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Albert Barume made his comments after spending two weeks in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说他 \"spoke at the end of a two-week visit to Australia\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most Victorian voters support keeping the Treaty.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到民意调查或多数选民的态度，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the Parliamentary Budget Office, what would scrapping the Treaty do?",
+          "options": [
+            "Cost the state about $948 million over a decade",
+            "Return roughly $948 million to the budget over a decade",
+            "Have no measurable effect on the budget",
+            "Add $65 million to Indigenous funding"
+          ],
+          "answer": 1,
+          "explain": "文中写道 \"return roughly $948 million to the budget over a decade\"，故选第二项。"
+        }
+      ],
+      "discuss": "Should important rights and agreements be protected from changes of government? Why might this be difficult in a democracy?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-13/victoria-election-campaign-live-blog-november-13/107381434"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The Day the Emails Stopped",
+    "titleZh": "邮件停摆的那一天",
+    "setting": "Two flatmates chat over breakfast in their Richmond kitchen on Saturday morning about the Microsoft outage that wrecked one of their Fridays.",
+    "settingZh": "周六早上，两位室友在里士满的公寓厨房吃早餐，聊起让其中一人周五一团糟的微软故障。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Morning! You look like you actually slept, unlike yesterday when you were tearing your hair out.",
+        "zh": "早！你看起来终于睡了个好觉，不像昨天急得抓狂。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Don't remind me. I couldn't get into Outlook for most of the day.",
+        "zh": "别提了。我几乎一整天都登不上Outlook。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Was it really that bad? I just assumed you were being a bit dramatic.",
+        "zh": "真有那么糟吗？我还以为你有点夸张呢。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Honestly, it was chaos. Half the team couldn't even join the client call.",
+        "zh": "说真的，简直一团乱。团队一半人连客户电话会议都进不去。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "So what did you do? Just twiddle your thumbs until it came back?",
+        "zh": "那你们怎么办？就干坐着等它恢复？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Pretty much. In the end, my manager let us knock off early.",
+        "zh": "差不多吧。最后经理让我们提前下班了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Lucky you! I'd have killed for an early mark on a Friday.",
+        "zh": "真走运！周五能早退，我做梦都想。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "It wasn't that fun. There's a mountain of emails waiting for me on Monday.",
+        "zh": "其实没那么爽。周一还有一大堆邮件等着我。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Fair enough. Did anyone actually figure out what went wrong?",
+        "zh": "也是。到底有人搞清楚出了什么问题吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Microsoft reckons it was a network change, not hackers, thank goodness.",
+        "zh": "微软说是网络配置改动导致的，不是黑客，谢天谢地。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "That's something, I suppose. Still, it's scary how much we rely on one company.",
+        "zh": "那还算好吧。不过我们这么依赖一家公司，还挺吓人的。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Tell me about it. Our IT guy's been banging on about having a Plan B.",
+        "zh": "可不是嘛。我们公司的IT一直念叨要有备用方案。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Well, he's got a point. Just don't click on any dodgy 'outage fix' emails.",
+        "zh": "他说得有道理。你可千万别点那些可疑的“故障修复”邮件。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Ha, don't worry. I'm not falling for that one.",
+        "zh": "哈，放心吧，我才不会上当。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "be extremely stressed",
+        "en": "tearing your hair out",
+        "zh": "急得抓狂"
+      },
+      {
+        "plain": "wait and do nothing",
+        "en": "twiddle your thumbs",
+        "zh": "无所事事地干等"
+      },
+      {
+        "plain": "leave work",
+        "en": "knock off early",
+        "zh": "提前下班（口语）"
+      },
+      {
+        "plain": "permission to leave early",
+        "en": "an early mark",
+        "zh": "澳式口语：提前放学/下班"
+      },
+      {
+        "plain": "a lot of emails",
+        "en": "a mountain of emails",
+        "zh": "堆积如山的邮件"
+      },
+      {
+        "plain": "I agree completely",
+        "en": "Tell me about it",
+        "zh": "可不是嘛（表示深有同感）"
+      },
+      {
+        "plain": "keeps talking about",
+        "en": "banging on about",
+        "zh": "喋喋不休地说"
+      },
+      {
+        "plain": "suspicious",
+        "en": "dodgy",
+        "zh": "可疑的、不靠谱的"
+      }
+    ]
+  }
+}
