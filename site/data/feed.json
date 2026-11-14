@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T23:45:15.514Z",
+ "updatedAt": "2026-11-14T09:11:14.351Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Could this ancient Greek idea make us better citizens? | Scott Reich",
-   "url": "http://go.ted.com/ScottReich",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5f82c43d8776fbbb21b35/media.mp3",
+   "title": "The digital detectives preserving the truth of war | Hadi Al Khatib",
+   "url": "http://go.ted.com/hadialkhatib",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5f8aa43d8776fbbb21b36/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-14",
-   "minutes": 12,
+   "minutes": 42,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "More than 2,000 years ago in ancient Athens, young citizens were required to complete “ephebeia,” a two-year civic service program that taught them the laws of the city and how to defend their democracy. Author and historian Scott Reich believes this practice…"
+   "desc": "A lot of today’s war footage is shot on phones and posted to platforms that were never meant to permanently store it. Digital archivist and TED Fellow Hadi Al Khatib founded Mnemonic to save these photos and videos before they vanish. Learn how his team is…"
   },
   {
    "source": "SBS Learn English",
