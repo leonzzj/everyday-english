@@ -1,0 +1,745 @@
+{
+  "date": "2026-11-15",
+  "issueNo": 28,
+  "title": "Portugal's housing marches, America's measles setback and grounded flights",
+  "createdAt": "2026-11-15T06:54:02+11:00",
+  "stories": [
+    {
+      "id": "portugal-housing-protests",
+      "category": "World",
+      "headline": "Tens of thousands march across Portugal over soaring housing costs",
+      "headlineZh": "葡萄牙数万人上街游行，抗议住房成本飙升",
+      "summaryZh": "葡萄牙30多个城镇爆发全国性住房抗议，民众要求限制租金上涨、加强租户保护。",
+      "c1": "Tens of thousands of people took to the streets of more than 30 Portuguese towns and cities on Saturday, in what organisers described as the largest nationwide demonstration since their housing movement emerged only weeks ago. Marchers in Lisbon, Porto, Faro, Coimbra and Braga, ranging from teenagers to retirees, rallied under the banner of Casa Para Viver, or \"A Home to Live In\", a coalition of roughly 100 housing associations and grassroots groups.\n\nTheir grievances are rooted in a dramatic surge in costs. According to Eurostat, Portugal recorded the steepest rise in the European Union in house prices relative to incomes between 2015 and 2025, at 61 per cent, well ahead of the Netherlands in second place. The government acknowledges that rents have climbed 68 per cent since 2020, while property prices rose almost 20 per cent in the year to early 2026. Much of this has been attributed to foreign buyers and investment funds, as well as remote workers and retirees drawn by the mild coastal climate.\n\nThe immediate trigger, however, is legislation recently approved by parliament that makes rental contracts more flexible and speeds up evictions. Campaigners argue that the reforms will erode tenant protections at precisely the moment when housing is becoming scarcer. They are calling for caps on rent increases, stronger safeguards against eviction and tighter regulation of short-term tourist lets and vacant properties.\n\nTo be fair, the government has not been idle: it has cut taxes on new construction, restricted short-term rentals and pledged to build 145,000 homes, while conceding that the benefits will take time to materialise. Organisers have urged Prime Minister Luís Montenegro to meet them in person. The protests follow similar marches in neighbouring Spain in October, suggesting that housing may be becoming a defining issue for younger Europeans.",
+      "b2": "On Saturday, tens of thousands of people marched in more than 30 towns and cities across Portugal. Organisers said it was the biggest national protest since their housing movement began a few weeks ago. People of all ages, from teenagers to retirees, joined marches in cities such as Lisbon, Porto and Coimbra. The protests were organised by Casa Para Viver, a group of about 100 housing organisations.\n\nThe main problem is cost. Eurostat figures show that between 2015 and 2025, house prices compared with incomes rose by 61 per cent in Portugal, the biggest increase in the EU. The government says rents have gone up 68 per cent since 2020. Foreign buyers, investment funds, remote workers and retirees are blamed for much of the rise.\n\nThe protests were also sparked by a new law passed by parliament. It makes rental contracts more flexible and makes evictions faster. Campaigners fear tenants will lose protection. They want limits on rent rises, more protection from eviction and stricter rules on holiday rentals and empty homes.\n\nThe government has lowered taxes on new buildings, limited short-term rentals and promised 145,000 new homes. However, it admits that these changes will take time. Similar protests happened in Spain in October.",
+      "vocab": [
+        {
+          "word": "take to the streets",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "上街抗议",
+          "en": "to go out in public to protest",
+          "example": "Students took to the streets to demand cheaper public transport.",
+          "forms": [
+            "took to the streets"
+          ]
+        },
+        {
+          "word": "grassroots",
+          "pos": "adj.",
+          "ipa": "/ˈɡrɑːsruːts/",
+          "zh": "基层的；草根的",
+          "en": "organised by ordinary people rather than leaders",
+          "example": "The campaign began as a small grassroots effort in one suburb."
+        },
+        {
+          "word": "be rooted in",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "根源在于",
+          "en": "to have its origin or cause in something",
+          "example": "Her fear of dogs is rooted in a bad experience as a child.",
+          "forms": [
+            "are rooted in"
+          ]
+        },
+        {
+          "word": "attribute to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "to say that something is caused by something else",
+          "example": "The doctor attributed his tiredness to stress and poor sleep.",
+          "forms": [
+            "attributed to"
+          ]
+        },
+        {
+          "word": "trigger",
+          "pos": "n.",
+          "ipa": "/ˈtrɪɡə/",
+          "zh": "导火索；诱因",
+          "en": "an event that causes something to start",
+          "example": "A small pay cut was the trigger for the strike."
+        },
+        {
+          "word": "erode",
+          "pos": "v.",
+          "ipa": "/ɪˈrəʊd/",
+          "zh": "逐渐削弱",
+          "en": "to gradually weaken or reduce something",
+          "example": "Constant broken promises can erode trust in a relationship."
+        },
+        {
+          "word": "safeguard",
+          "pos": "n.",
+          "ipa": "/ˈseɪfɡɑːd/",
+          "zh": "保障措施",
+          "en": "a rule or measure that protects someone",
+          "example": "The new app has strong safeguards to protect users' privacy."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "承认（通常不情愿地）",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that his plan had a few weak points.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "materialise",
+          "pos": "v.",
+          "ipa": "/məˈtɪəriəlaɪz/",
+          "zh": "实现；变成现实",
+          "en": "to actually happen or appear as expected",
+          "example": "The promised pay rise never materialised."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The protests took place in fewer than 30 towns and cities.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"more than 30 Portuguese towns and cities\"，与题干\"少于30个\"相矛盾，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Prime Minister Luís Montenegro agreed to meet the organisers in person.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说组织者 \"have urged Prime Minister Luís Montenegro to meet them in person\"，没有提到总理是否同意，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "According to Eurostat, the Netherlands had the second-largest rise in house prices relative to incomes in the EU.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"well ahead of the Netherlands in second place\"，说明荷兰排名第二，因此为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the article describe as the immediate trigger for the protests?",
+          "options": [
+            "A sudden fall in the number of tourists",
+            "A 20 per cent rise in property taxes",
+            "A new law making rental contracts more flexible and evictions faster",
+            "The government's decision to stop building new homes"
+          ],
+          "answer": 2,
+          "explain": "原文说 \"The immediate trigger... is legislation recently approved by parliament that makes rental contracts more flexible and speeds up evictions\"，故选 C。"
+        }
+      ],
+      "discuss": "Why do you think housing costs have become such a powerful issue for young people in many countries? What do you think governments should do first to make housing more affordable?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests"
+        }
+      ]
+    },
+    {
+      "id": "us-measles-status",
+      "category": "Health",
+      "headline": "US loses measles-free status as cases more than double",
+      "headlineZh": "病例翻倍，美国失去“消除麻疹”地位",
+      "summaryZh": "泛美卫生组织取消美国的消除麻疹认证，今年确诊病例逾5400例，疫苗接种率持续下滑。",
+      "c1": "The United States has lost its measles-free status, 26 years after the disease was declared eliminated there in 2000. The decision was made by the Pan American Health Organization (PAHO), the World Health Organization's regional branch for the Americas, which revokes the status once measles has circulated without interruption for more than 12 months. Although Washington has withdrawn from the WHO, it remains a member of PAHO. The US thus joins Canada, Spain and the UK, all of which have recently been stripped of the same status.\n\nMore than 5,400 confirmed cases have been recorded so far this year, more than double the 2,289 reported in 2025. Two further deaths, in Pennsylvania and Wisconsin, were announced on Friday, the latter involving an infant, bringing the number of measles-associated deaths this year to 10, according to Al Jazeera's count.\n\nEven the death toll has become contested. Health Secretary Robert F. Kennedy Jr., who has long cast doubt on the safety of the measles vaccine, asked the director of the Centers for Disease Control and Prevention to leave such deaths out of the official tally, arguing there was no evidence linking them to measles. Pennsylvania's governor, Josh Shapiro, has clashed with him over the issue, and epidemiologists point out that counting measles-associated deaths is long-standing practice.\n\nUnderlying the resurgence is a gradual slide in vaccination. Coverage among kindergarten children has fallen from 95.2 per cent in 2019-20 to 92.4 per cent, a seemingly modest drop that nonetheless leaves room for a highly contagious virus to spread. Two doses of the MMR vaccine offer about 97 per cent protection, and health departments have stepped up their vaccination efforts, but rebuilding public trust may prove far harder than restoring the numbers.",
+      "b2": "The United States is no longer officially free of measles. The disease was declared eliminated in the country in 2000. Now the Pan American Health Organization (PAHO) has removed this status because measles has spread continuously for more than a year. The US has left the World Health Organization, but it is still a member of PAHO. Canada, Spain and the UK have also lost the same status recently.\n\nThis year the US has recorded more than 5,400 confirmed cases, more than twice the number in 2025. On Friday, two more deaths were announced, one in Pennsylvania and one in Wisconsin. One of them was a baby. Al Jazeera counts 10 measles-related deaths in the US this year.\n\nThere is also an argument about the numbers. Health Secretary Robert F. Kennedy Jr., who has questioned the vaccine's safety for years, asked the CDC not to include these deaths in the official count. Pennsylvania's governor disagrees with him. Experts say counting such deaths is normal practice.\n\nFewer children are being vaccinated. Among kindergarten children, the rate has dropped from 95.2 per cent to 92.4 per cent. Two doses of the MMR vaccine give about 97 per cent protection, and health departments are working harder to encourage vaccination.",
+      "vocab": [
+        {
+          "word": "strip of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "剥夺（称号、权利等）",
+          "en": "to officially take something away from someone",
+          "example": "The athlete was stripped of his medal after failing a drug test.",
+          "forms": [
+            "stripped of"
+          ]
+        },
+        {
+          "word": "contested",
+          "pos": "adj.",
+          "ipa": "/kənˈtestɪd/",
+          "zh": "有争议的",
+          "en": "argued about; not accepted by everyone",
+          "example": "The results of the survey remain highly contested."
+        },
+        {
+          "word": "cast doubt on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "使人怀疑",
+          "en": "to make people less sure about something",
+          "example": "New evidence has cast doubt on the witness's story."
+        },
+        {
+          "word": "clash with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "与……发生冲突",
+          "en": "to disagree strongly with someone",
+          "example": "The coach often clashed with players over training methods.",
+          "forms": [
+            "clashed with"
+          ]
+        },
+        {
+          "word": "long-standing",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋˈstændɪŋ/",
+          "zh": "长期存在的",
+          "en": "having existed for a long time",
+          "example": "The two companies have a long-standing partnership."
+        },
+        {
+          "word": "resurgence",
+          "pos": "n.",
+          "ipa": "/rɪˈsɜːdʒəns/",
+          "zh": "复苏；再度兴起",
+          "en": "the return and growth of something after a decline",
+          "example": "There has been a resurgence of interest in vinyl records."
+        },
+        {
+          "word": "leave room for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……留下空间",
+          "en": "to make something possible",
+          "example": "The vague contract leaves room for misunderstanding.",
+          "forms": [
+            "leaves room for"
+          ]
+        },
+        {
+          "word": "highly contagious",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "传染性极强的",
+          "en": "spreading very easily from person to person",
+          "example": "Chickenpox is highly contagious, so he stayed home from school."
+        },
+        {
+          "word": "step up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "加强；加大",
+          "en": "to increase the amount or speed of an activity",
+          "example": "Police have stepped up patrols around the stadium.",
+          "forms": [
+            "stepped up"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "PAHO removes measles-free status once the disease has spread continuously for more than 12 months.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 PAHO \"revokes the status once measles has circulated without interruption for more than 12 months\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of this year's measles cases in the US involved unvaccinated adults.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有说明今年病例主要是哪类人群，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "After leaving the WHO, the US also gave up its membership of PAHO.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Although Washington has withdrawn from the WHO, it remains a member of PAHO\"，与题干矛盾，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What has happened to vaccination coverage among US kindergarten children?",
+          "options": [
+            "It has fallen from 95.2 per cent to 92.4 per cent",
+            "It has risen to about 97 per cent",
+            "It has remained stable since 2019-20",
+            "It has dropped below 90 per cent for the first time"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"Coverage among kindergarten children has fallen from 95.2 per cent in 2019-20 to 92.4 per cent\"，故选 A；97% 是两剂疫苗的保护率。"
+        }
+      ],
+      "discuss": "Why do you think some people lose trust in vaccines even when diseases like measles return? How could health authorities rebuild that trust?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported"
+        }
+      ]
+    },
+    {
+      "id": "us-flights-ground-stop",
+      "category": "Tech",
+      "headline": "US flights grounded nationwide for over four hours after telecoms failure",
+      "headlineZh": "通信故障致美国全国航班停飞逾四小时",
+      "summaryZh": "美国空管通信系统故障，联邦航空局下令全国停飞，数千航班取消，官员称升级改造导致旧设备过载。",
+      "c1": "Air travel across the United States was thrown into disarray on Friday when the Federal Aviation Administration ordered a nationwide ground stop, halting departures for more than four hours. The order was issued at 3:54pm Eastern Time after a telecommunications outage hit the centres that manage aircraft along air routes, and airspace was not reopened until 8:15pm. Planes already in the air were allowed to land, while international flights were dealt with case by case.\n\nThe knock-on effects were enormous. Data from FlightRadar24 showed that more than 4,700 flights were cancelled and around 10,000 delayed on Friday, with roughly 700 more cancellations for Saturday. By early evening, at least 827 flights had been diverted, most of them returning to the airports they had departed from. It was described as the longest ground stop in 25 years.\n\nIronically, the root cause appears to have been modernisation itself. Transportation Secretary Sean Duffy said switches and routers became overloaded with data and went down, and officials acknowledged that new technology being added to the system had overwhelmed older components, causing intermittent gaps in communications and radar. Homeland Security Secretary Markwayne Mullin ruled out a cyberattack. Critics note that a government report published in September had warned about ageing copper cables dating back to the 1960s and poorly scheduled upgrades.\n\nDuffy insisted it was \"safe to fly\" but admitted that recovery would be slow, as airlines must reposition aircraft and crews across interconnected hubs. He expects normal operations to resume before the Thanksgiving travel peak and has called for $50 billion to upgrade air traffic control. Whether that money materialises, and whether contingency plans improve, will largely determine how resilient the system proves to be.",
+      "b2": "On Friday, the Federal Aviation Administration stopped all flights from taking off across the United States for more than four hours. The order came at 3:54pm Eastern Time, after a telecommunications problem affected air traffic control centres. Airspace reopened at 8:15pm. Planes that were already flying were allowed to land.\n\nThe disruption was huge. According to FlightRadar24, more than 4,700 flights were cancelled and about 10,000 were delayed on Friday. Around 700 more flights were cancelled for Saturday. At least 827 flights were diverted. It was described as the longest ground stop in 25 years.\n\nOfficials said the problem was caused by new technology. Transportation Secretary Sean Duffy explained that switches and routers were overloaded with data and stopped working. The new equipment had put too much pressure on older parts of the system. Officials said it was not a cyberattack. A government report in September had already warned about old copper cables from the 1960s.\n\nDuffy said flying was safe, but he admitted it would take time for airlines to recover. He expects normal operations before the busy Thanksgiving holiday and wants $50 billion to upgrade air traffic control.",
+      "vocab": [
+        {
+          "word": "throw into disarray",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "使陷入混乱",
+          "en": "to cause great confusion and disorder",
+          "example": "The sudden storm threw the outdoor festival into disarray.",
+          "forms": [
+            "thrown into disarray"
+          ]
+        },
+        {
+          "word": "case by case",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "逐案处理地",
+          "en": "considering each situation separately",
+          "example": "Requests for extra leave are decided case by case."
+        },
+        {
+          "word": "knock-on effect",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "连锁反应",
+          "en": "an indirect result of an event",
+          "example": "The train strike had a knock-on effect on city traffic.",
+          "forms": [
+            "knock-on effects"
+          ]
+        },
+        {
+          "word": "root cause",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "根本原因",
+          "en": "the basic reason why a problem happens",
+          "example": "Poor communication was the root cause of the team's failure."
+        },
+        {
+          "word": "overwhelm",
+          "pos": "v.",
+          "ipa": "/ˌəʊvəˈwelm/",
+          "zh": "使不堪重负",
+          "en": "to be too much for something or someone to deal with",
+          "example": "Thousands of orders overwhelmed the small online shop.",
+          "forms": [
+            "overwhelmed"
+          ]
+        },
+        {
+          "word": "intermittent",
+          "pos": "adj.",
+          "ipa": "/ˌɪntəˈmɪtənt/",
+          "zh": "时断时续的",
+          "en": "stopping and starting repeatedly",
+          "example": "We had intermittent Wi-Fi all weekend."
+        },
+        {
+          "word": "rule out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "排除",
+          "en": "to decide that something is not possible",
+          "example": "Police have ruled out foul play in the incident.",
+          "forms": [
+            "ruled out"
+          ]
+        },
+        {
+          "word": "contingency plan",
+          "pos": "n.",
+          "ipa": "/kənˈtɪndʒənsi plæn/",
+          "zh": "应急预案",
+          "en": "a plan for what to do if something goes wrong",
+          "example": "Every event needs a contingency plan in case it rains.",
+          "forms": [
+            "contingency plans"
+          ]
+        },
+        {
+          "word": "resilient",
+          "pos": "adj.",
+          "ipa": "/rɪˈzɪliənt/",
+          "zh": "有韧性的；能迅速恢复的",
+          "en": "able to recover quickly from problems",
+          "example": "Small businesses proved surprisingly resilient during the downturn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "A government report had warned about weaknesses in the system before the outage.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"a government report published in September had warned about ageing copper cables... and poorly scheduled upgrades\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The ground stop lasted less than two hours.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"halting departures for more than four hours\"，与题干矛盾，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Congress has already approved the $50 billion Duffy asked for.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 Duffy \"has called for $50 billion\"，并未提及国会是否批准，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to officials, what caused the outage?",
+          "options": [
+            "A cyberattack on air traffic control",
+            "A severe storm damaging copper cables",
+            "A strike by air traffic controllers",
+            "New technology overloading older parts of the system"
+          ],
+          "answer": 3,
+          "explain": "原文说 \"new technology being added to the system had overwhelmed older components\"，且官员 \"ruled out a cyberattack\"，故选 D。"
+        }
+      ],
+      "discuss": "Why do you think upgrading essential systems like air traffic control is so difficult? Should governments spend more on maintaining old infrastructure or on building new systems?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel"
+        }
+      ]
+    },
+    {
+      "id": "algae-cattle-methane",
+      "category": "Environment",
+      "headline": "Queensland start-up says algae supplement cuts cattle methane by 65%",
+      "headlineZh": "昆士兰初创公司称藻类饲料添加剂可减少牛甲烷排放65%",
+      "summaryZh": "努萨一家公司用红藻制成低成本饲料添加剂，称可大幅减少牛打嗝排放的甲烷，但仍缺独立研究验证。",
+      "c1": "A start-up based near Noosa on Queensland's Sunshine Coast believes it has found an affordable way to curb one of agriculture's most stubborn sources of emissions: the methane cattle release when they burp. Provectus Algae, founded eight years ago, grows red algae in a factory near Noosa and turns it into granular and liquid feed supplements for feedlots, dairy farms and grazing properties. The company claims its product cuts methane from burps by about 65 per cent.\n\nThe idea builds on a 2011 CSIRO finding that a native seaweed, Asparagopsis, could substantially reduce livestock methane. That approach ran into problems, however: a 2024 Murdoch University study found that cattle avoided feed containing high concentrations of the seaweed and showed signs of stomach ulcers and inflammation. Provectus replaced it with other algae and photosynthetic microbes, producing what chief executive Nusqe Spanton describes as a chemically similar product that targets methane-producing microbes without harming those that digest feed.\n\nPilot trials have involved more than 3,000 cattle, including at feedlots on the Darling Downs, and the Queensland government has contributed a $3.8 million grant to help bring the product to market. Spanton puts the average cost at about eight cents per animal per day. It is worth stressing, though, that these claims come from the company itself, and no independent peer-reviewed results were cited.\n\nThe stakes are considerable. CSIRO estimates that ruminant livestock account for more than 10 per cent of Australia's greenhouse gas emissions. University of Melbourne professor Richard Eckard says additives must cost less than 10 cents per animal per day to earn carbon-credit value, and that they work best in feedlots, where feed is eaten consistently. For the vast northern grazing sector, he argues, other solutions will still be needed.",
+      "b2": "A company near Noosa in Queensland says it has found a cheap way to reduce the methane that cattle produce when they burp. Provectus Algae grows red algae in a factory and turns it into feed supplements for feedlots and farms. The company says its product reduces methane from burps by about 65 per cent.\n\nThe idea comes from a 2011 CSIRO discovery that a native seaweed called Asparagopsis could reduce methane from livestock. However, a 2024 study found that cattle avoided feed with a lot of this seaweed, and some had stomach problems. Provectus uses other algae and microbes instead. Its chief executive, Nusqe Spanton, says the product works in a similar way.\n\nMore than 3,000 cattle have been part of trials. The Queensland government has given the company a $3.8 million grant. The supplement costs about eight cents per animal per day. However, these results come from the company, not from independent research.\n\nThis matters because cattle and similar animals produce more than 10 per cent of Australia's greenhouse gas emissions. Professor Richard Eckard says the cost must stay under 10 cents a day. He also says additives work best in feedlots, so other solutions are needed for northern grazing land.",
+      "vocab": [
+        {
+          "word": "curb",
+          "pos": "v.",
+          "ipa": "/kɜːb/",
+          "zh": "抑制；控制",
+          "en": "to control or limit something harmful",
+          "example": "The city introduced new rules to curb noise at night."
+        },
+        {
+          "word": "stubborn",
+          "pos": "adj.",
+          "ipa": "/ˈstʌbən/",
+          "zh": "顽固的；难以解决的",
+          "en": "difficult to remove, change or deal with",
+          "example": "I've had a stubborn cough for weeks."
+        },
+        {
+          "word": "build on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "在……基础上发展",
+          "en": "to use something as a base for further progress",
+          "example": "This year's course builds on what you learnt last semester.",
+          "forms": [
+            "builds on"
+          ]
+        },
+        {
+          "word": "substantially",
+          "pos": "adv.",
+          "ipa": "/səbˈstænʃəli/",
+          "zh": "大幅地",
+          "en": "by a large amount",
+          "example": "Online sales have increased substantially this year."
+        },
+        {
+          "word": "run into problems",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "遇到问题",
+          "en": "to start having difficulties",
+          "example": "The project ran into problems when the funding was cut.",
+          "forms": [
+            "ran into problems"
+          ]
+        },
+        {
+          "word": "bring something to market",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "将……推向市场",
+          "en": "to start selling a new product",
+          "example": "It took the team three years to bring the app to market.",
+          "forms": [
+            "bring the product to market"
+          ]
+        },
+        {
+          "word": "it is worth stressing",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "值得强调的是",
+          "en": "used to emphasise an important point",
+          "example": "It is worth stressing that the survey was very small."
+        },
+        {
+          "word": "the stakes are high",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "事关重大",
+          "en": "a lot can be won or lost",
+          "example": "With the final exam next week, the stakes are high for everyone.",
+          "forms": [
+            "The stakes are considerable"
+          ]
+        },
+        {
+          "word": "account for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "占（比例）",
+          "en": "to form a particular amount of something",
+          "example": "Young people account for half of the app's users."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The supplement has already been approved for export to overseas markets.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到出口或海外审批，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Provectus Algae's product is made from Asparagopsis seaweed.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Provectus replaced it with other algae and photosynthetic microbes\"，即不再使用 Asparagopsis，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Queensland government has given the company financial support.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"the Queensland government has contributed a $3.8 million grant\"，因此为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Richard Eckard, where do feed additives work best?",
+          "options": [
+            "On northern grazing land",
+            "In feedlots, where feed is eaten consistently",
+            "On dairy farms near the coast",
+            "In factories that grow algae"
+          ],
+          "answer": 1,
+          "explain": "原文说 additives \"work best in feedlots, where feed is eaten consistently\"，故选 B。"
+        }
+      ],
+      "discuss": "Do you think farmers should be required to reduce emissions from their animals, or should it be voluntary? Would you pay more for beef produced with lower emissions?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/rural/2026-11-14/provectus-algae-cattle-methane-supplement/107372936"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Jab Before the Trip",
+    "titleZh": "出行前的一针",
+    "setting": "A university student visits her GP in Carlton to check her vaccinations before an overseas trip.",
+    "settingZh": "一名大学生在卡尔顿的家庭医生诊所，出国前检查自己的疫苗接种情况。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Come on in, Mei, take a seat. So, what brings you in today?",
+        "zh": "请进，梅，坐吧。今天来是有什么事？"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "I'm flying to the States next month, and I wanted to double-check my vaccinations.",
+        "zh": "我下个月要飞去美国，想再确认一下我的疫苗接种情况。"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Good thinking. Is there anything in particular that's got you worried?",
+        "zh": "想得很周到。有什么特别让你担心的吗？"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "Honestly, the measles stuff. I read this morning the US has lost its measles-free status.",
+        "zh": "说实话，是麻疹的事。我今天早上看到美国失去了“无麻疹”地位。"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Yeah, I saw that too. It's a bit of a wake-up call, to be fair.",
+        "zh": "嗯，我也看到了。说实话，这确实算是个警钟。"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "I had my jabs as a kid in Malaysia, but I've got no idea where the records are.",
+        "zh": "我小时候在马来西亚打过疫苗，但完全不知道记录在哪儿。"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "No worries, that happens all the time. Let me pull up your history first.",
+        "zh": "别担心，这种情况很常见。我先调出你的病历看看。"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "Would it be a problem if I just had another dose to be on the safe side?",
+        "zh": "为了保险起见，我再打一针会有问题吗？"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Not at all. If your records are unclear, an extra MMR dose is generally fine for adults.",
+        "zh": "完全没问题。如果记录不清楚，成年人多打一剂麻腮风疫苗一般没关系。"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "That's a relief. Does it need to be done a certain amount of time before I go?",
+        "zh": "那我就放心了。需要在出发前多久打吗？"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Ideally at least two weeks beforehand, so your body has time to build up protection.",
+        "zh": "最好提前至少两周，这样身体有时间产生保护力。"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "Right, so I'd better not leave it till the last minute, then.",
+        "zh": "明白了，那我最好别拖到最后一刻。"
+      },
+      {
+        "s": "A",
+        "name": "Daniel",
+        "en": "Exactly. We can do it today if you're up for it. It's just a quick jab.",
+        "zh": "没错。如果你愿意，今天就可以打。就一针，很快。"
+      },
+      {
+        "s": "B",
+        "name": "Mei",
+        "en": "Let's get it over and done with, then. I'm not great with needles, mind you.",
+        "zh": "那就赶紧打完吧。不过说真的，我挺怕打针的。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Why are you here today?",
+        "en": "what brings you in today?",
+        "zh": "医生常用的开场问句"
+      },
+      {
+        "plain": "check again",
+        "en": "double-check",
+        "zh": "再次确认"
+      },
+      {
+        "plain": "a warning sign",
+        "en": "a bit of a wake-up call",
+        "zh": "一个警钟"
+      },
+      {
+        "plain": "I don't know at all",
+        "en": "I've got no idea",
+        "zh": "完全不知道"
+      },
+      {
+        "plain": "look at your records",
+        "en": "pull up your history",
+        "zh": "调出病历"
+      },
+      {
+        "plain": "to be careful",
+        "en": "to be on the safe side",
+        "zh": "为了保险起见"
+      },
+      {
+        "plain": "do it too late",
+        "en": "leave it till the last minute",
+        "zh": "拖到最后一刻"
+      },
+      {
+        "plain": "finish it quickly",
+        "en": "get it over and done with",
+        "zh": "赶紧做完了事"
+      }
+    ]
+  }
+}
