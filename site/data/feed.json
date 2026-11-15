@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T22:38:37.038Z",
+ "updatedAt": "2026-11-15T09:39:55.196Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The digital detectives preserving the truth of war | Hadi Al Khatib",
-   "url": "http://go.ted.com/hadialkhatib",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5f8aa43d8776fbbb21b36/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-14",
-   "minutes": 42,
+   "title": "Sunday Pick: How to challenge your self-limiting beliefs with Shawn Achor | from ReThinking with Adam Grant",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aee1ada1ad1a30ae5d0bb39/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793989506199-8178a55f-9111-4932-a899-34ff7ce90118.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-15",
+   "minutes": 41,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "A lot of today’s war footage is shot on phones and posted to platforms that were never meant to permanently store it. Digital archivist and TED Fellow Hadi Al Khatib founded Mnemonic to save these photos and videos before they vanish. Learn how his team is…"
+   "desc": "Your beliefs about yourself and the world have a big impact on your mental health, relationships, and success. As a positive psychology evangelist, Shawn Achor has spent his career studying how to challenge and change the core beliefs that might be holding…"
   },
   {
    "source": "SBS Learn English",
@@ -56,15 +56,15 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Chef fired for refusing to put pineapple on pizza (Level 6)",
-   "url": "https://breakingnewsenglish.com/2611/261109-pineapple-on-pizza.html",
+   "title": "Wire upgrade at fault for grounding all US flights (Level 6)",
+   "url": "https://breakingnewsenglish.com/2611/261116-ground-stop-at-us-airports.html",
    "audio": "",
    "image": "",
-   "date": "2026-11-09",
+   "date": "2026-11-16",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Nov 09, 2026. An Italian chef in Australia has been fired for refusing to put pineapple on pizzas."
+   "desc": "Nov 16, 2026. Thousands of flights across the USA were grounded on Friday the 13th following a communications failure."
   },
   {
    "source": "Aeon",
