@@ -1,0 +1,764 @@
+{
+  "date": "2026-11-16",
+  "issueNo": 29,
+  "title": "COP31 at halfway, Nvidia's spy scare and a World Cup double",
+  "createdAt": "2026-11-16T06:49:49+11:00",
+  "stories": [
+    {
+      "id": "cop31-midpoint",
+      "category": "World",
+      "headline": "COP31 climate talks reach halfway with key disputes unresolved",
+      "headlineZh": "COP31气候谈判过半，关键分歧仍未解决",
+      "summaryZh": "在土耳其安塔利亚举行的COP31进入最后一周，各国在化石燃料和适应资金上仍存分歧。",
+      "c1": "The UN climate summit in Antalya, Türkiye, has reached its halfway mark with far less progress than many had hoped. As COP31 entered its second and final week, ministers began arriving to tackle the politically sensitive issues that officials had been unable to settle, and a first draft of the closing decision was expected early in the week. The conference is scheduled to wrap up on Friday, 20 November.\n\nAustralia occupies an unusual position at these talks. Under an unusual arrangement, it shares hosting duties with Türkiye, and its Climate and Energy Minister, Chris Bowen, is presiding over the formal negotiations. Bowen described the discussions as productive, while conceding that several matters would need more time. His government, however, has come under fire at home and abroad after the Prime Minister's opening speech made no mention of coal, oil or gas.\n\nThe sharpest divisions concern money and fossil fuels. Developing nations are pressing for more funding to help them adapt to floods, droughts and heatwaves, yet delegates remain deeply divided over who should pay and how much. Meanwhile, a group including Brazil, Germany and the Netherlands is pushing for national roadmaps that would set out how each country intends to move away from fossil fuels. UN Secretary-General António Guterres put it bluntly: \"The dinosaurs did not have a lobby. Fossil fuels do.\"\n\nOutside the venue, frustration spilled onto the streets, with police estimating that about 7,000 people marched through Antalya on Saturday. Whether the final week delivers a meaningful agreement or merely papers over the cracks remains to be seen, but observers suggest that the outcome will hinge largely on how far major economies are prepared to compromise.",
+      "b2": "The UN climate summit in Antalya, Türkiye, is now halfway through, but progress has been slow. As the final week began, ministers started arriving to deal with the most difficult political questions. A first draft of the final agreement was expected early in the week, and the conference is due to finish on Friday, 20 November.\n\nAustralia has a special role at this year's meeting. It is sharing the hosting job with Türkiye, and the Australian minister Chris Bowen is leading the official negotiations. Bowen said the talks had been useful, but he admitted that some issues needed more time. Australia has also been criticised because the Prime Minister's speech did not mention coal, oil or gas.\n\nThe biggest arguments are about money and fossil fuels. Poorer countries want more financial help to cope with floods, droughts and extreme heat, but nations disagree about who should pay. Some countries, including Brazil, Germany and the Netherlands, want every nation to publish a plan for moving away from fossil fuels. The head of the UN also called strongly for an end to fossil fuels.\n\nOn Saturday, police said around 7,000 people marched through Antalya to show their frustration. It is still unclear whether the summit will end with a strong agreement.",
+      "vocab": [
+        {
+          "word": "reach the halfway mark",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "进行到一半",
+          "en": "to be at the middle point of a process or event",
+          "example": "By the time we reached the halfway mark of the hike, everyone was exhausted.",
+          "forms": [
+            "reached its halfway mark"
+          ]
+        },
+        {
+          "word": "politically sensitive",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "政治上敏感的",
+          "en": "likely to cause strong disagreement or controversy in politics",
+          "example": "Immigration remains a politically sensitive topic in many countries."
+        },
+        {
+          "word": "preside over",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "主持；掌管",
+          "en": "to be in charge of a meeting, event or process",
+          "example": "The senior judge presided over the long and complicated trial.",
+          "forms": [
+            "presiding over"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that his plan had a few weaknesses.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "come under fire",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "受到抨击",
+          "en": "to be strongly criticised",
+          "example": "The council has come under fire for closing the local library.",
+          "forms": [
+            "come under fire"
+          ]
+        },
+        {
+          "word": "press for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "极力要求",
+          "en": "to demand something firmly and repeatedly",
+          "example": "Parents are pressing for safer crossings near the school.",
+          "forms": [
+            "pressing for"
+          ]
+        },
+        {
+          "word": "spill onto the streets",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "蔓延到街头",
+          "en": "(of feelings or protests) to move from private places into public view",
+          "example": "Anger over the new tax soon spilled onto the streets.",
+          "forms": [
+            "spilled onto the streets"
+          ]
+        },
+        {
+          "word": "paper over the cracks",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "掩盖问题；粉饰太平",
+          "en": "to hide problems instead of solving them",
+          "example": "A quick apology won't paper over the cracks in their friendship.",
+          "forms": [
+            "papers over the cracks"
+          ]
+        },
+        {
+          "word": "hinge on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "取决于",
+          "en": "to depend completely on something",
+          "example": "Our holiday plans hinge on whether I get the time off work.",
+          "forms": [
+            "hinge largely on"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The conference is due to end on Friday, 20 November.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"The conference is scheduled to wrap up on Friday, 20 November\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Bowen said that all the remaining issues had already been settled.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说Bowen \"conceding that several matters would need more time\"，与“所有问题已解决”相矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the marchers in Antalya came from overseas.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说约7,000人游行（\"about 7,000 people marched\"），没有提到他们来自哪里。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why has the Australian government been criticised?",
+          "options": [
+            "It refused to host the summit with Türkiye.",
+            "Its Prime Minister's speech did not mention coal, oil or gas.",
+            "Chris Bowen left the negotiations early.",
+            "It blocked the first draft of the agreement."
+          ],
+          "answer": 1,
+          "explain": "原文说总理的开幕演讲 \"made no mention of coal, oil or gas\"，因此受到批评。"
+        }
+      ],
+      "discuss": "Why do you think it is so hard for so many countries to agree on climate action? Do you think these large summits are still worth holding?",
+      "sources": [
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/a-clear-call-for-climate-action-bowen-defends-albanese-at-cop31-296545"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-11-14/anthony-albanese-chris-bowen-hot-mic-gaffe-cop-31-climate-summit/107385964"
+        }
+      ]
+    },
+    {
+      "id": "waterbird-survey-bird-flu",
+      "category": "Environment",
+      "headline": "Aerial waterbird survey finds no bird flu impact yet in eastern Australia",
+      "headlineZh": "东澳水鸟空中调查暂未发现禽流感影响",
+      "summaryZh": "年度水鸟航空调查覆盖三分之一国土，尚未发现H5禽流感造成影响，但专家认为扩散难以避免。",
+      "c1": "For more than four decades, scientists have taken to the skies each spring to count the waterbirds of eastern Australia. This year's survey, run by the University of New South Wales, carried an extra burden: watching for any sign of H5 bird flu, which reached Australian shores in June. After flying about 38,000 kilometres over more than 1,000 wetlands, the team has so far found no evidence that the virus has taken a toll on inland bird populations.\n\nThat is not to say the danger has passed. Ecologist Richard Kingsford, who has taken part in almost every count, believes it is only \"a matter of time\" before more deaths are recorded. A CSIRO scientist, Vidya Bhardwaj, noted that outbreaks appear to have been largely confined to the coast and have slowed, although the virus is now circulating among wild birds. Because it survives less well in heat, summer may bring some respite, but she cautioned that its behaviour is difficult to predict.\n\nNot every alarming sight is linked to the disease. Hundreds of dead pelicans were found near Kati Thanda-Lake Eyre, yet Kingsford attributes them to the natural end of a breeding boom, when many chicks perish, rather than to infection.\n\nThe bigger picture remains sobering. Kingsford estimates that waterbird numbers have fallen by 60 to 70 per cent over the decades, largely because water diversion in the Murray-Darling system has deprived wetlands of the floods birds rely on to breed. Wetter La Niña years and the return of some environmental flows have helped numbers stabilise recently. Even so, he warns that as inland waters dry and birds crowd together, the risk of disease spreading rises considerably.",
+      "b2": "Every spring for more than 40 years, scientists have flown over eastern Australia to count waterbirds. This year's survey, run by the University of New South Wales, had an extra job: looking for signs of H5 bird flu, which arrived in Australia in June. The team flew about 38,000 kilometres over more than 1,000 wetlands and has not yet seen any effect of the virus.\n\nHowever, experts say the danger is not over. Ecologist Richard Kingsford believes more bird deaths will happen sooner or later. A CSIRO scientist, Vidya Bhardwaj, said outbreaks have mostly stayed near the coast and have slowed down, but the virus is now found in wild birds. It does not survive well in hot weather, so summer may help, but this is hard to predict.\n\nSome bad news is not about the disease. Hundreds of dead pelicans were found near Kati Thanda-Lake Eyre, but Kingsford says this happened because a breeding boom had ended.\n\nOver the long term, waterbird numbers have dropped by 60 to 70 per cent. Kingsford mainly blames the use of river water in the Murray-Darling system, which means fewer floods for breeding. When birds crowd together as water dries up, disease can spread more easily.",
+      "vocab": [
+        {
+          "word": "take to the skies",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "飞上天空",
+          "en": "to start flying, especially in an aircraft",
+          "example": "Hundreds of hot-air balloons took to the skies during the festival.",
+          "forms": [
+            "taken to the skies"
+          ]
+        },
+        {
+          "word": "take a toll on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "对……造成损害",
+          "en": "to have a harmful effect on something over time",
+          "example": "Working night shifts started to take a toll on her health.",
+          "forms": [
+            "taken a toll on"
+          ]
+        },
+        {
+          "word": "a matter of time",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "迟早的事",
+          "en": "certain to happen, though it is not known exactly when",
+          "example": "With so many cars on that road, an accident was only a matter of time."
+        },
+        {
+          "word": "be confined to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "局限于",
+          "en": "to exist or happen only in a particular place or group",
+          "example": "The damage from the storm was confined to a few coastal towns.",
+          "forms": [
+            "been largely confined to"
+          ]
+        },
+        {
+          "word": "respite",
+          "pos": "n.",
+          "ipa": "/ˈrespaɪt/",
+          "zh": "暂时的缓解",
+          "en": "a short break from something difficult or unpleasant",
+          "example": "The cool change brought some respite from the heatwave."
+        },
+        {
+          "word": "caution",
+          "pos": "v.",
+          "ipa": "/ˈkɔːʃn/",
+          "zh": "告诫；提醒",
+          "en": "to warn someone to be careful",
+          "example": "The coach cautioned the players against becoming overconfident.",
+          "forms": [
+            "cautioned"
+          ]
+        },
+        {
+          "word": "sobering",
+          "pos": "adj.",
+          "ipa": "/ˈsəʊbərɪŋ/",
+          "zh": "令人清醒的；发人深省的",
+          "en": "making you think seriously about a bad situation",
+          "example": "The report offers a sobering look at youth unemployment."
+        },
+        {
+          "word": "deprive of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "剥夺；使失去",
+          "en": "to take something important away from someone or something",
+          "example": "Long working hours deprived him of time with his children.",
+          "forms": [
+            "deprived wetlands of"
+          ]
+        },
+        {
+          "word": "rely on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "依靠；依赖",
+          "en": "to need something in order to survive or work",
+          "example": "Many older people rely on public transport to get around."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The survey team used drones as well as a plane this year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到 \"taken to the skies\" 和飞行距离，没有提到是否使用无人机。"
+        },
+        {
+          "type": "tfng",
+          "q": "H5 bird flu arrived in Australia in June.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说H5禽流感 \"reached Australian shores in June\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Kingsford believes the dead pelicans near Kati Thanda-Lake Eyre were killed by bird flu.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说Kingsford将其归因于 \"the natural end of a breeding boom\"，\"rather than to infection\"，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Kingsford, what is the main cause of the long-term fall in waterbird numbers?",
+          "options": [
+            "Bird flu spreading from the coast",
+            "Hot summers killing chicks",
+            "Water diversion in the Murray-Darling system",
+            "Hunting of pelicans near Lake Eyre"
+          ],
+          "answer": 2,
+          "explain": "原文说数量下降 \"largely because water diversion in the Murray-Darling system has deprived wetlands of the floods\"。"
+        }
+      ],
+      "discuss": "Why do you think long-running surveys like this one are important for protecting wildlife? Should governments spend more money on them in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-14/annual-eastern-bird-survey-monitors-bird-flu-impacts/107372532"
+        },
+        {
+          "name": "UNSW",
+          "url": "https://www.unsw.edu.au/newsroom/news/2026/09/2026-annual-waterbird-survey-will-also-track-H5N1"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-espionage-risks",
+      "category": "Tech",
+      "headline": "Nvidia CEO's resignation puts spotlight on espionage risks in tech",
+      "headlineZh": "英伟达CEO辞职，科技业间谍风险受关注",
+      "summaryZh": "黄仁勋因与疑似中国间谍有关联而辞职，前情报官员警告美国缺乏应对经济间谍的清晰战略。",
+      "c1": "The resignation of Jensen Huang, the long-serving chief executive of chip giant Nvidia, has sent shockwaves through Silicon Valley and raised uncomfortable questions about how exposed the technology industry is to foreign espionage. Huang stepped down after reports that he had been in a relationship with Alice Huang, an unrelated executive whom US officials suspect of working for China's Ministry of State Security. The FBI, Congress and Nvidia's own board are now investigating.\n\nAt the heart of the inquiries is whether she was recruited to extract company secrets, sway Huang's dealings with government, or both. Her former employer, Singapore-based Megaspeed, is also under scrutiny over suspicions that it smuggled Nvidia's most advanced chips into China in defiance of export controls; the company says it is committed to operating lawfully. Nvidia maintains it has no reason to believe that national security or its secrets were compromised, while Beijing has dismissed the allegations as groundless smears.\n\nFormer intelligence officials argue the case is symptomatic of a wider problem. One former CIA China specialist, Dennis Wilder, said the Chinese agency is \"much more bold than they used to be\", adding that Washington no longer pushes back as firmly as it did during the Cold War. Others contend that the US lacks a coherent strategy and is steadily losing ground.\n\nThe Nvidia affair is not an isolated incident. In October, an OpenAI employee was charged with concealing a recording device in a conference room, and the company reportedly trains staff to recognise approaches from spies. With artificial intelligence now regarded as a strategic asset, analysts suggest such precautions may soon become standard practice across the sector.",
+      "b2": "Jensen Huang, who led the chip company Nvidia for many years, has resigned, and the news has shocked Silicon Valley. He stepped down after reports that he had a relationship with Alice Huang, an executive who is not related to him. US officials suspect she worked for China's spy agency. The FBI, Congress and Nvidia's board are all investigating.\n\nInvestigators want to know if she was trying to steal company secrets or influence Huang's business with governments. Her former company, Megaspeed, is also being examined because officials think it may have secretly sent Nvidia's best chips to China, which is against US export rules. Megaspeed says it follows the law. Nvidia says it does not believe any secrets were lost, and China says the claims are false.\n\nFormer intelligence officers say the case shows a bigger problem. A former CIA expert, Dennis Wilder, said China's spy agency has become bolder and the US does not respond as strongly as it once did. Others say the US has no clear plan.\n\nThis is not the only case. In October, an OpenAI worker was charged with hiding a recording device in a meeting room. Experts think more tech companies will now train staff to watch out for spies.",
+      "vocab": [
+        {
+          "word": "send shockwaves through",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "在……引起震动",
+          "en": "to cause great surprise or alarm among a group of people",
+          "example": "The sudden factory closure sent shockwaves through the small town.",
+          "forms": [
+            "sent shockwaves through"
+          ]
+        },
+        {
+          "word": "step down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "辞职；下台",
+          "en": "to leave an important job or position",
+          "example": "The coach stepped down after five seasons with the club.",
+          "forms": [
+            "stepped down"
+          ]
+        },
+        {
+          "word": "at the heart of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "……的核心",
+          "en": "at the most central or important part of something",
+          "example": "Trust is at the heart of any good working relationship."
+        },
+        {
+          "word": "under scrutiny",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "受到审查",
+          "en": "being examined carefully, often critically",
+          "example": "The hospital's safety record is now under scrutiny."
+        },
+        {
+          "word": "in defiance of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "无视；违抗",
+          "en": "openly refusing to obey a rule or order",
+          "example": "They held the party in defiance of the lockdown rules."
+        },
+        {
+          "word": "dismiss",
+          "pos": "v.",
+          "ipa": "/dɪsˈmɪs/",
+          "zh": "驳斥；不予理会",
+          "en": "to refuse to accept that something is true or important",
+          "example": "The minister dismissed the report as politically motivated.",
+          "forms": [
+            "dismissed"
+          ]
+        },
+        {
+          "word": "symptomatic of",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "表明……的；……的征兆",
+          "en": "showing that a wider problem exists",
+          "example": "Long hospital queues are symptomatic of a stretched health system."
+        },
+        {
+          "word": "lose ground",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "失去优势；落后",
+          "en": "to become less successful or fall behind a rival",
+          "example": "The brand has been losing ground to cheaper competitors.",
+          "forms": [
+            "losing ground"
+          ]
+        },
+        {
+          "word": "an isolated incident",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "孤立事件",
+          "en": "something bad that happened once and is not part of a pattern",
+          "example": "Police said the attack appeared to be an isolated incident.",
+          "forms": [
+            "isolated incident"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Nvidia has admitted that some of its secrets were passed to China.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说Nvidia \"has no reason to believe that national security or its secrets were compromised\"，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Megaspeed has agreed to stop selling chips while the investigation continues.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说Megaspeed \"is committed to operating lawfully\"，没有提到是否停止销售芯片。"
+        },
+        {
+          "type": "tfng",
+          "q": "Nvidia's board is one of the bodies investigating the relationship.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"The FBI, Congress and Nvidia's own board are now investigating\"，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "What point does Dennis Wilder make?",
+          "options": [
+            "Nvidia's chips are not useful to China.",
+            "OpenAI has solved the problem of spying.",
+            "The Cold War was less dangerous than today.",
+            "China's spy agency has become bolder and the US pushes back less firmly."
+          ],
+          "answer": 3,
+          "explain": "原文引用他说中国情报机构 \"much more bold than they used to be\"，并说美国 \"no longer pushes back as firmly\"。"
+        }
+      ],
+      "discuss": "Why do you think technology companies have become major targets for spies? How should they balance openness and security in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-15/sex-spies-silicon-valley-nvidia-saga-highlights-risks-for-tech/107386438"
+        }
+      ]
+    },
+    {
+      "id": "rugby-league-world-cup-double",
+      "category": "Australia",
+      "headline": "Kangaroos and Jillaroos complete Rugby League World Cup double in Brisbane",
+      "headlineZh": "袋鼠队与女子袋鼠队在布里斯班双双夺得橄榄球联盟世界杯",
+      "summaryZh": "澳大利亚男女队在布里斯班决赛中均击败新西兰，连续第四次包揽两项世界杯冠军。",
+      "c1": "Australia tightened its grip on international rugby league on Sunday, with both its men's and women's teams beating New Zealand in World Cup finals at Brisbane's Lang Park. It is the fourth consecutive tournament in which Australia has claimed both titles, a run of success that underlines just how wide the gap has become between the nation and its rivals.\n\nThe Jillaroos set the tone in the afternoon, overwhelming the Kiwi Ferns 34-10 in searing heat. Jaime Chapman crossed for a hat-trick, scoring her first try barely two minutes in and drawing level with the World Cup record of 13 tries. For coach Jess Skinner, it was a remarkable debut season, while veteran Millie Elliott bowed out on a high by announcing her retirement after the match.\n\nThe men's final followed a similar script. Liam Martin scored after just 80 seconds, the fastest try ever recorded in a World Cup final, and the Kangaroos raced to a 24-6 half-time lead against an error-prone Kiwis side before winning 32-12. Jack Bostock, named player of the match, scored twice. Veteran James Tedesco was given the final five minutes in what was his last game for his country. Kiwis coach Stacey Jones admitted it was his team's worst performance of the tournament.\n\nThe result gives Australia its 13th men's title, compared with three for Great Britain and just one for New Zealand. The Kiwis have long been regarded as the second-best men's team in the world, and New Zealand won the first three women's World Cups, yet both sides have since been eclipsed. Such dominance arguably raises questions about whether one-sided finals help the game grow, although rivals may simply need time and investment to catch up.",
+      "b2": "On Sunday, Australia's men's and women's rugby league teams both beat New Zealand in the World Cup finals at Lang Park in Brisbane. It is the fourth tournament in a row in which Australia has won both titles.\n\nThe women's team, the Jillaroos, played first and beat the Kiwi Ferns 34-10 in very hot weather. Jaime Chapman scored three tries, and her first came after just two minutes. She now shares the World Cup record of 13 tries. Coach Jess Skinner won the title in her first season, and Millie Elliott retired after the game.\n\nThe men's final was similar. Liam Martin scored after only 80 seconds, which is the fastest try in a World Cup final. The Kangaroos led 24-6 at half-time and won 32-12. Jack Bostock was player of the match and scored two tries. James Tedesco played the last five minutes of his final game for Australia. New Zealand's coach, Stacey Jones, said it was his team's worst game of the tournament.\n\nThis is Australia's 13th men's title. Great Britain has won three and New Zealand only one. New Zealand also won the first three women's World Cups, but Australia is now much stronger. Other teams may need more time and money to catch up.",
+      "vocab": [
+        {
+          "word": "tighten one's grip on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "加强对……的控制",
+          "en": "to become even more powerful or dominant in something",
+          "example": "The company has tightened its grip on the local coffee market.",
+          "forms": [
+            "tightened its grip on"
+          ]
+        },
+        {
+          "word": "underline",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈlaɪn/",
+          "zh": "凸显；强调",
+          "en": "to show clearly that something is important or true",
+          "example": "The floods underline the need for better town planning.",
+          "forms": [
+            "underlines"
+          ]
+        },
+        {
+          "word": "set the tone",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "定下基调",
+          "en": "to establish the mood or standard for what follows",
+          "example": "Her friendly opening speech set the tone for the whole conference."
+        },
+        {
+          "word": "draw level with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "追平；与……持平",
+          "en": "to reach the same score or position as someone",
+          "example": "With one late goal, the visitors drew level with the home side.",
+          "forms": [
+            "drawing level with"
+          ]
+        },
+        {
+          "word": "bow out on a high",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "在巅峰时期退出",
+          "en": "to retire or leave at a moment of great success",
+          "example": "After winning the championship, she decided to bow out on a high.",
+          "forms": [
+            "bowed out on a high"
+          ]
+        },
+        {
+          "word": "follow a similar script",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "如出一辙",
+          "en": "to happen in much the same way as something earlier",
+          "example": "The second meeting followed a similar script, with nothing agreed.",
+          "forms": [
+            "followed a similar script"
+          ]
+        },
+        {
+          "word": "error-prone",
+          "pos": "adj.",
+          "ipa": "/ˈerə prəʊn/",
+          "zh": "容易出错的",
+          "en": "likely to make mistakes",
+          "example": "The old software was slow and error-prone."
+        },
+        {
+          "word": "eclipse",
+          "pos": "v.",
+          "ipa": "/ɪˈklɪps/",
+          "zh": "使黯然失色；超越",
+          "en": "to become more successful or important than someone else",
+          "example": "Her early films have been eclipsed by her later work.",
+          "forms": [
+            "eclipsed"
+          ]
+        },
+        {
+          "word": "catch up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "赶上",
+          "en": "to reach the same level or standard as others",
+          "example": "After missing two weeks of class, he worked hard to catch up."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Both finals were played at Lang Park in Brisbane.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说两支澳洲队都在 \"World Cup finals at Brisbane's Lang Park\" 击败新西兰。"
+        },
+        {
+          "type": "tfng",
+          "q": "New Zealand has never won a women's Rugby League World Cup.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"New Zealand won the first three women's World Cups\"，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Liam Martin scored the fastest try of the day, ahead of Jaime Chapman.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说Martin \"scored after just 80 seconds\"，而Chapman的首个达阵是 \"barely two minutes in\"，所以Martin更快。"
+        },
+        {
+          "type": "mcq",
+          "q": "How many men's World Cup titles has New Zealand won?",
+          "options": [
+            "One",
+            "Three",
+            "Four",
+            "Thirteen"
+          ],
+          "answer": 0,
+          "explain": "原文说澳大利亚获得第13个男子冠军，\"compared with three for Great Britain and just one for New Zealand\"。"
+        }
+      ],
+      "discuss": "Is it good or bad for a sport when one country dominates it for many years? What could be done to make international competitions more even in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-15/kangaroos-jillaroos-live-rugby-league-world-cup-finals/107376474"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck Between Stations",
+    "titleZh": "困在两站之间",
+    "setting": "Two colleagues who bump into each other on a Monday-morning Frankston line train chat while it sits stalled outside Richmond.",
+    "settingZh": "两位同事周一早上在弗兰克斯顿线的火车上偶遇，列车停在列治文站外不动，两人边等边聊。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "Morning, Leila! Fancy seeing you here. Any idea why we've stopped?",
+        "zh": "早啊，Leila！真巧在这儿碰到你。知道为什么停车了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "The driver just said there's a signal fault up ahead. Could be a while.",
+        "zh": "司机刚说前面信号出故障了，可能要等一会儿。"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "Typical. I've got a nine o'clock with the client, of all days.",
+        "zh": "老样子。偏偏今天九点我要见客户。"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "Better shoot them a quick message now, just to be on the safe side.",
+        "zh": "最好现在就给他们发个消息，以防万一。"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "Good call. Done. So, how was your weekend? Did you get up to much?",
+        "zh": "好主意，发了。那你周末过得怎样？忙什么了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "Not really. I mostly lay low, then watched the World Cup finals last night.",
+        "zh": "没怎么忙。基本在家待着，昨晚看了世界杯决赛。"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "Same here! The Jillaroos were on fire. That hat-trick was something else.",
+        "zh": "我也是！女子队状态火热，那个帽子戏法太厉害了。"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "Honestly, though, both games were done and dusted by half-time.",
+        "zh": "不过说实话，两场比赛半场时就已经大局已定了。"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "Fair point. I wouldn't mind a closer contest next time, to be honest.",
+        "zh": "说得对。说实话，下次我倒希望比赛能更胶着一点。"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "Oh, hang on, we're moving. Fingers crossed it's not just a false start.",
+        "zh": "哦，等等，车动了。但愿不是空欢喜一场。"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "If we're lucky, I'll only be ten minutes late. I can live with that.",
+        "zh": "运气好的话我只会迟到十分钟，这我能接受。"
+      },
+      {
+        "s": "B",
+        "name": "Leila",
+        "en": "Want to grab a coffee at lunch and catch up properly?",
+        "zh": "中午要不要一起喝杯咖啡，好好聊聊？"
+      },
+      {
+        "s": "A",
+        "name": "Marcus",
+        "en": "I'd love to. Let's touch base around twelve and sort out a place.",
+        "zh": "好啊。我们十二点左右联系一下，定个地方。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What a surprise to meet you here!",
+        "en": "Fancy seeing you here.",
+        "zh": "偶遇熟人时的地道说法"
+      },
+      {
+        "plain": "This always happens.",
+        "en": "Typical.",
+        "zh": "表示“老是这样”的无奈"
+      },
+      {
+        "plain": "send them a message",
+        "en": "shoot them a quick message",
+        "zh": "口语：快速发个消息"
+      },
+      {
+        "plain": "to be careful, just in case",
+        "en": "just to be on the safe side",
+        "zh": "以防万一"
+      },
+      {
+        "plain": "Did you do many things?",
+        "en": "Did you get up to much?",
+        "zh": "问别人最近/周末做了什么"
+      },
+      {
+        "plain": "I stayed at home and relaxed.",
+        "en": "I mostly lay low",
+        "zh": "低调待着，不出门"
+      },
+      {
+        "plain": "finished, already decided",
+        "en": "done and dusted",
+        "zh": "大局已定；搞定了"
+      },
+      {
+        "plain": "contact each other",
+        "en": "touch base",
+        "zh": "联系一下、碰个头"
+      }
+    ]
+  }
+}

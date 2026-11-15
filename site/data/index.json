@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-15T06:54:02+11:00",
+  "updatedAt": "2026-11-16T06:49:49+11:00",
   "issues": [
+    {
+      "date": "2026-11-16",
+      "issueNo": 29,
+      "title": "COP31 at halfway, Nvidia's spy scare and a World Cup double",
+      "headlines": [
+        "COP31 climate talks reach halfway with key disputes unresolved",
+        "Aerial waterbird survey finds no bird flu impact yet in eastern Australia",
+        "Nvidia CEO's resignation puts spotlight on espionage risks in tech",
+        "Kangaroos and Jillaroos complete Rugby League World Cup double in Brisbane"
+      ]
+    },
     {
       "date": "2026-11-15",
       "issueNo": 28,
