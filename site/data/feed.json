@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-15T09:39:55.196Z",
+ "updatedAt": "2026-11-15T23:02:01.932Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "AI killed Qantas jobs. Who's next?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/ai-killed-qantas-jobs-who-s-next/107377732",
-   "audio": "https://traffic.megaphone.fm/TECO2774685206.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/dca611c0-deab-11f1-bdad-37d4e2bb6e3b/image/f2bea2c7bdf215c7fa16ae97567ad415.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-13",
-   "minutes": 17,
+   "title": "What new blood tests mean for Alzheimer's",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-new-blood-tests-mean-for-alzheimer-s/107381750",
+   "audio": "https://traffic.megaphone.fm/TECO6707166619.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/592de2b0-e107-11f1-8b35-a72db6fafd10/image/69e9b403e62c657a600555905868a3a4.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-16",
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "How does a company get rid of jobs so they can be replaced with AI? Well,&nbsp;this week Qantas revealed a corporate playbook: move the jobs offshore, develop the tech, then get rid of the human. Today, James Thomson, a columnist at the&nbsp;Australian…"
+   "desc": "Has the world just gained millions of new Alzheimer's patients?&nbsp; It's a question at the centre of a fierce debate over a new definition of the disease, one that could classify people as having Alzheimer's years before they show any symptoms, as new blood…"
   },
   {
    "source": "Conversations",
