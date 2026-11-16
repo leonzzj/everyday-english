@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T23:02:01.932Z",
+ "updatedAt": "2026-11-16T09:58:09.993Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Rebecca Solnit on why things are much better than we think",
-   "url": "https://www.abc.net.au/listen/programs/conversations/rebecca-solnit-on-the-beginning-comes-after-the-end/107361546",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qd/Z/44.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F6d4580a8f39942cbace1f4c011dbd2eb.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-13",
-   "minutes": 49,
+   "title": "How a spy with a sexual secret saved the world from nuclear war",
+   "url": "https://www.abc.net.au/listen/programs/conversations/ben-mcintyre-redwood-spying-russia-cia-sexual-secret/107375562",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qf/Z/fs.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fe1458346cc9b3b5fc94f3974cb9ca36b.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-16",
+   "minutes": 53,
    "level": "C1",
    "accent": "AU",
-   "desc": "The American writer discusses the historic US midterm elections, the decline of Trump and how you can find hope by looking to the past. It’s easy to feel like everything is getting worse. Politics full of rage and violence, the threats posed by AI, the rise…"
+   "desc": "British writer Ben Macintyre tells the story of a KGB spy who betrayed his country in exchange for an unusual request — to unravel a very tender problem affecting his life, and his marriage. At the height of the Cold War on mysterious double agent revealed a…"
   },
   {
    "source": "TED Talks Daily",
