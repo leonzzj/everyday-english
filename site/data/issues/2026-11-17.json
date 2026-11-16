@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-17",
+  "issueNo": 30,
+  "title": "Yemen's retreat, a superbug warning and a new James Bond",
+  "createdAt": "2026-11-17T06:55:32+11:00",
+  "stories": [
+    {
+      "id": "yemen-aden-retreat",
+      "category": "World",
+      "headline": "Yemen's government forces quit Red Sea coast to defend Aden",
+      "headlineZh": "也门政府军撤离红海沿岸，回防亚丁",
+      "summaryZh": "也门亲政府部队撤出曼德海峡附近地区，集中兵力保卫亚丁，胡塞武装步步逼近。",
+      "c1": "Yemen's internationally recognised government has suffered what many observers regard as a serious setback. On Sunday, the Saudi-backed Southern Armed Forces announced that they were withdrawing from Dhubab airport and the surrounding area near the Bab el-Mandeb Strait, which had been recaptured from the Iranian-backed Houthis only in September. Officials insist the move is about securing Aden, the southern port city that has served as the government's de facto capital since the Houthis seized Sana'a in 2014.\n\nNot everyone accepts that framing. A military spokesman described the pullback as a tactical manoeuvre, even calling it a \"heroic stance\", but some analysts argue it is simply a retreat that has left a vacuum for the Houthis to fill. Houthi fighters are now reported to be within striking distance of Aden, while the city of Taiz, Yemen's third-largest, has been encircled in recent weeks.\n\nThe stakes extend well beyond Yemen's borders. Bab el-Mandeb links the Red Sea to the Gulf of Aden, and its importance has grown sharply since the Strait of Hormuz was effectively closed during the war involving Iran. Saudi Arabia has been relying on the Red Sea route to ship millions of barrels of oil, which the Houthis have tried to obstruct.\n\nFighting escalated after a fragile truce between the Houthis and Saudi Arabia collapsed in July, and the humanitarian toll is staggering. The World Food Programme warned in October that more than 18 million Yemenis face acute food insecurity. Amid the turmoil, the Red Cross confirmed that the Houthis had released 600 prisoners in Sana'a, a rare gesture that is unlikely, on its own, to ease tensions.",
+      "b2": "Yemen's government, which is recognised by most of the world, has had a major setback. On Sunday, Saudi-backed forces said they were leaving Dhubab airport and the nearby area close to the Bab el-Mandeb Strait. They had taken this area back from the Houthis, who are supported by Iran, only in September. The government says the aim is to protect Aden, the southern port city it has used as its capital since 2014.\n\nA military spokesman called the move tactical. However, some experts say it is really a retreat that allows the Houthis to take more land. Houthi fighters are now reported to be close to Aden, and they have surrounded the city of Taiz.\n\nThe situation matters to the wider world. Bab el-Mandeb connects the Red Sea with the Gulf of Aden, and it has become more important since the Strait of Hormuz was effectively closed. Saudi Arabia now sends large amounts of oil along the Red Sea, and the Houthis have tried to stop these ships.\n\nThe fighting grew worse after a ceasefire collapsed in July. The World Food Programme says more than 18 million people in Yemen do not have enough food. Meanwhile, the Red Cross confirmed that the Houthis had released 600 prisoners.",
+      "vocab": [
+        {
+          "word": "suffer a setback",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "遭受挫折",
+          "en": "to experience a problem that delays or reverses progress",
+          "example": "The project suffered a setback when its main funder pulled out.",
+          "forms": [
+            "suffered what many observers regard as a serious setback"
+          ]
+        },
+        {
+          "word": "de facto",
+          "pos": "adj.",
+          "ipa": "/ˌdeɪ ˈfæktəʊ/",
+          "zh": "事实上的",
+          "en": "existing in reality, even if not officially recognised",
+          "example": "After the manager left, Priya became the de facto team leader."
+        },
+        {
+          "word": "framing",
+          "pos": "n.",
+          "ipa": "/ˈfreɪmɪŋ/",
+          "zh": "（对事件的）表述方式",
+          "en": "the way an issue is presented in order to shape how people see it",
+          "example": "Critics rejected the government's framing of the cuts as 'savings'."
+        },
+        {
+          "word": "leave a vacuum",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "留下真空",
+          "en": "to create an empty space of power or control that others may fill",
+          "example": "The company's collapse left a vacuum in the local job market.",
+          "forms": [
+            "left a vacuum"
+          ]
+        },
+        {
+          "word": "within striking distance",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "近在咫尺；可以触及",
+          "en": "close enough to reach or attack something",
+          "example": "With two games left, the team is within striking distance of the title."
+        },
+        {
+          "word": "extend well beyond",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远远超出",
+          "en": "to reach much further than a particular limit",
+          "example": "The impact of the decision extends well beyond the university."
+        },
+        {
+          "word": "humanitarian toll",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "人道主义代价",
+          "en": "the harm a crisis causes to people's lives and wellbeing",
+          "example": "Aid agencies warned that the humanitarian toll of the floods would rise."
+        },
+        {
+          "word": "staggering",
+          "pos": "adj.",
+          "ipa": "/ˈstæɡərɪŋ/",
+          "zh": "惊人的",
+          "en": "so large or shocking that it is hard to believe",
+          "example": "The cost of the new stadium is a staggering amount for a small state."
+        },
+        {
+          "word": "ease tensions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "缓和紧张局势",
+          "en": "to make a conflict or difficult situation less intense",
+          "example": "The two neighbours met for coffee to ease tensions over the fence."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Government forces had recaptured the Dhubab area from the Houthis in September.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说该地区 \"had been recaptured from the Iranian-backed Houthis only in September\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "All analysts agree that the withdrawal was a sensible tactical decision.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Not everyone accepts that framing\"，有分析人士认为这 \"is simply a retreat\"，与\"所有人都同意\"矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Saudi Arabia plans to build a new oil pipeline to avoid the Red Sea.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到沙特 \"relying on the Red Sea route to ship millions of barrels of oil\"，没有提及修建新管道。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why has the Bab el-Mandeb Strait become more important recently?",
+          "options": [
+            "Because the Houthis have opened it to all shipping",
+            "Because the Strait of Hormuz has effectively been closed",
+            "Because Aden has become a major oil producer",
+            "Because the Red Cross now controls the route"
+          ],
+          "answer": 1,
+          "explain": "文中说其重要性 \"has grown sharply since the Strait of Hormuz was effectively closed\"。"
+        }
+      ],
+      "discuss": "Why do you think events in a distant conflict, like the fighting near the Red Sea, can affect people's daily lives in countries like Australia? Should ordinary people pay more attention to such conflicts?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-17/yemen-government-forces-retreat-bab-el-mandeb-strait/107392710"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb"
+        }
+      ]
+    },
+    {
+      "id": "antibiotic-resistance-warning",
+      "category": "Health",
+      "headline": "Doctors warn antibiotic resistance is outpacing Australia's response",
+      "headlineZh": "医生警告：抗生素耐药性蔓延速度超过澳洲应对能力",
+      "summaryZh": "澳大利亚医学会发布报告称，耐药性威胁日益严重，呼吁政府加大投入和协调行动。",
+      "c1": "Australia's peak body for doctors has issued a stark warning that drug-resistant infections are spreading faster than the country's efforts to contain them. In a report released on Tuesday, the Australian Medical Association (AMA) said reports of critical resistance had climbed by more than 25 per cent in 2024 alone. Globally, it noted, antimicrobial resistance could claim 39 million lives by 2050 if current trends persist, more than the projected toll of all cancers combined.\n\nThe danger, as AMA president Michael Bonning explained, is not confined to stubborn infections. Once antibiotics stop working, routine procedures such as joint replacements, caesarean sections and cancer treatment become considerably riskier. Bonning argued that the solutions are well understood, but that they need to be scaled up across hospitals, general practice, aged care and agriculture, backed by coordinated government action and proper investment.\n\nThere has been some progress. So-called stewardship programs, which promote the careful use of antibiotics, have cut overall use by roughly 21 per cent over the past decade, although prescribing in residential aged care has risen. The report also took aim at schemes allowing pharmacists to prescribe antibiotics for urinary tract infections without a GP, a criticism the Pharmacy Guild rejected, insisting that pharmacists follow the same guidelines as doctors.\n\nResearchers, meanwhile, point to a deeper problem: only a handful of new antibiotics are in the pipeline worldwide. Macquarie University biologist Amy Cain said drug companies have little financial incentive to develop them, leaving much of the burden to academics. She also urged Australia to follow the European Union in banning antibiotics in animal feed, warning that the world may be on the cusp of an exponential rise in resistance.",
+      "b2": "The Australian Medical Association (AMA), which represents the country's doctors, has warned that infections which do not respond to medicine are spreading faster than Australia can deal with them. Its new report says reports of serious resistance rose by more than 25 per cent in 2024. Around the world, the problem could cause 39 million deaths by 2050.\n\nAMA president Michael Bonning said the risk is not only about hard-to-treat infections. If antibiotics stop working, common operations such as joint replacements and caesareans become more dangerous. He said the answers are known, but governments must act together and invest properly.\n\nSome things are improving. Programs that encourage careful use of antibiotics have reduced their use by about 21 per cent in ten years, although use in aged care has gone up. The AMA also criticised schemes that let pharmacists give antibiotics for urinary tract infections without a doctor. The Pharmacy Guild disagreed and said pharmacists follow the same rules as doctors.\n\nScientists say very few new antibiotics are being developed. Amy Cain, from Macquarie University, said drug companies do not earn enough from them. She wants Australia to ban antibiotics in animal feed, as the European Union has done.",
+      "vocab": [
+        {
+          "word": "peak body",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "（行业）最高代表机构",
+          "en": "the main organisation that represents a profession or industry",
+          "example": "The peak body for universities criticised the new visa rules."
+        },
+        {
+          "word": "stark warning",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "严正警告",
+          "en": "a very clear and serious warning",
+          "example": "Scientists issued a stark warning about the health of the reef."
+        },
+        {
+          "word": "claim lives",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "夺去生命",
+          "en": "to cause people to die",
+          "example": "The heatwave claimed dozens of lives across the region.",
+          "forms": [
+            "claim 39 million lives"
+          ]
+        },
+        {
+          "word": "not confined to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "不仅限于",
+          "en": "not limited to one particular place, group or thing",
+          "example": "The housing crisis is not confined to the big cities."
+        },
+        {
+          "word": "scale up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "扩大规模",
+          "en": "to increase the size or extent of something",
+          "example": "The start-up plans to scale up production next year.",
+          "forms": [
+            "scaled up"
+          ]
+        },
+        {
+          "word": "take aim at",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "抨击；矛头指向",
+          "en": "to criticise someone or something",
+          "example": "The comedian took aim at politicians who never use public transport.",
+          "forms": [
+            "took aim at"
+          ]
+        },
+        {
+          "word": "in the pipeline",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "在筹备/研发中",
+          "en": "being planned or developed",
+          "example": "There are several new tram routes in the pipeline for Melbourne."
+        },
+        {
+          "word": "financial incentive",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "经济激励",
+          "en": "a money-related reason that encourages someone to do something",
+          "example": "Without a financial incentive, few landlords will install solar panels."
+        },
+        {
+          "word": "on the cusp of",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "即将；处在……边缘",
+          "en": "at the point where something is about to happen",
+          "example": "The young scientist is on the cusp of a major breakthrough."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Stewardship programs have reduced overall antibiotic use in Australia over the past ten years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说这些项目 \"have cut overall use by roughly 21 per cent over the past decade\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Antibiotic prescribing in residential aged care has fallen along with overall use.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中明确说 \"prescribing in residential aged care has risen\"，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The AMA wants pharmacists to be banned from selling all medicines without a prescription.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说AMA批评允许药剂师为尿路感染开抗生素的项目（\"took aim at schemes\"），没有提到要禁止药剂师销售所有药品。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Amy Cain, why are so few new antibiotics being developed?",
+          "options": [
+            "Governments have banned new research",
+            "Doctors refuse to prescribe new drugs",
+            "Drug companies have little financial incentive to make them",
+            "The European Union controls most research"
+          ],
+          "answer": 2,
+          "explain": "文中说 \"drug companies have little financial incentive to develop them\"。"
+        }
+      ],
+      "discuss": "Why do you think people often ask their doctor for antibiotics even when they may not need them? What do you think would be the most effective way to change this behaviour?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-17/doctors-warn-of-rising-antimicrobial-resistance/107389636"
+        }
+      ]
+    },
+    {
+      "id": "ai-supply-chain-pact",
+      "category": "Tech",
+      "headline": "Australia signs US-led pact to protect AI supply chains",
+      "headlineZh": "澳大利亚签署美国主导的人工智能供应链协议",
+      "summaryZh": "澳大利亚与日本、印度、英国等国签署《旧金山宣言》，旨在保护AI所需的技术与资源。",
+      "c1": "Australia has thrown its weight behind a US-led effort to safeguard the technology and resources that advanced artificial intelligence depends on. Along with nine other countries, including Japan, India and the United Kingdom, it has signed the so-called San Francisco Declaration, which forms part of the Trump administration's broader Pax Silica initiative. Australia was among the first countries to join that initiative about a year ago.\n\nThe declaration commits signatories to identifying vulnerable supply chains, protecting sensitive technology from theft or foreign interference, and reducing their reliance on countries that could disrupt access to critical minerals, energy, data centres and transport networks. Although the text stops short of naming China, the target is hardly a mystery: China controls more than 90 per cent of global refining for several critical minerals, while the US dominates the design of the advanced chips used to train AI models.\n\nSpeaking in Manila, Prime Minister Anthony Albanese stressed that humans must remain in charge of the technology, saying, \"We must shape AI rather than let it shape us.\" Yet some experts are sceptical. Olivia Shen of the University of Sydney's United States Studies Centre said it remains unclear what Pax Silica has actually achieved, even as its scope has expanded to include ports, communication networks and energy.\n\nThe wider region, meanwhile, appears reluctant to pick a side. Singapore and the Philippines have joined the US initiative, but Indonesia, Malaysia, Vietnam and Cambodia have backed a rival Chinese organisation, attracted in part by cheaper, openly available AI models. Whether the pact delivers tangible results, or merely deepens existing alliances, may only become clear over the coming years.",
+      "b2": "Australia has joined a US-led plan to protect the technology and materials that advanced artificial intelligence needs. Together with nine other countries, including Japan, India and the UK, it has signed the San Francisco Declaration. This is part of a larger US plan called Pax Silica, which Australia joined about a year ago.\n\nThe countries have agreed to find weak points in their supply chains and protect important technology from theft. They also want to depend less on countries that could block access to minerals, energy and data centres. The agreement does not mention China by name, but China refines more than 90 per cent of several important minerals.\n\nIn Manila, Prime Minister Anthony Albanese said people must stay in control of AI. However, some experts have doubts. Olivia Shen, from the University of Sydney, said it is not clear what Pax Silica has achieved so far, even though it now covers more areas, such as ports and energy.\n\nOther countries in the region are not choosing one side. Singapore and the Philippines have joined the US plan, but Indonesia, Malaysia, Vietnam and Cambodia support a Chinese group instead. It may take years to know whether the agreement really works.",
+      "vocab": [
+        {
+          "word": "throw your weight behind",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "全力支持",
+          "en": "to use your influence to support a plan or person",
+          "example": "Several local businesses threw their weight behind the new bike lane.",
+          "forms": [
+            "thrown its weight behind"
+          ]
+        },
+        {
+          "word": "safeguard",
+          "pos": "v.",
+          "ipa": "/ˈseɪfɡɑːd/",
+          "zh": "保护；捍卫",
+          "en": "to protect something from harm or loss",
+          "example": "The new law aims to safeguard workers' personal data."
+        },
+        {
+          "word": "signatory",
+          "pos": "n.",
+          "ipa": "/ˈsɪɡnətəri/",
+          "zh": "签署方",
+          "en": "a person, organisation or country that has signed an agreement",
+          "example": "Every signatory to the treaty must report its emissions each year.",
+          "forms": [
+            "signatories"
+          ]
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "差一点就……；没有走到……地步",
+          "en": "to almost do something but decide not to",
+          "example": "The minister criticised the plan but stopped short of calling for it to be scrapped.",
+          "forms": [
+            "stops short of"
+          ]
+        },
+        {
+          "word": "hardly a mystery",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "再明显不过",
+          "en": "very obvious; easy to understand or guess",
+          "example": "Why the café is always packed is hardly a mystery: the coffee is brilliant."
+        },
+        {
+          "word": "sceptical",
+          "pos": "adj.",
+          "ipa": "/ˈskeptɪkl/",
+          "zh": "怀疑的",
+          "en": "having doubts that something is true or will succeed",
+          "example": "I'm sceptical that the new timetable will make the trains any faster."
+        },
+        {
+          "word": "pick a side",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "选边站",
+          "en": "to choose to support one party in a dispute",
+          "example": "When my flatmates argue, I try not to pick a side."
+        },
+        {
+          "word": "tangible results",
+          "pos": "n. phr.",
+          "ipa": "",
+          "zh": "切实的成果",
+          "en": "clear, real outcomes that can be seen or measured",
+          "example": "After months of meetings, the committee finally produced tangible results."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Australia was one of the first countries to join the Pax Silica initiative.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"Australia was among the first countries to join that initiative\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "The San Francisco Declaration names China as the main threat.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说宣言 \"stops short of naming China\"，即没有点名中国，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Australia will spend billions of dollars on new data centres under the declaration.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到减少对可能阻断 \"data centres\" 等资源的国家的依赖，没有提及澳大利亚的投资金额。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does Olivia Shen suggest about Pax Silica?",
+          "options": [
+            "It has already met all its original goals",
+            "It is unclear what it has achieved, though its scope has grown",
+            "It should be limited to critical minerals only",
+            "It has been rejected by Singapore and the Philippines"
+          ],
+          "answer": 1,
+          "explain": "文中说她认为 \"it remains unclear what Pax Silica has actually achieved, even as its scope has expanded\"。"
+        }
+      ],
+      "discuss": "Do you think middle-sized countries like Australia benefit more from choosing a side in the technology race between big powers, or from staying neutral? Why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-17/australia-signs-us-led-ai-supply-chain-agreement/107392252"
+        }
+      ]
+    },
+    {
+      "id": "pattinson-new-bond",
+      "category": "Culture",
+      "headline": "Robert Pattinson named as the next James Bond",
+      "headlineZh": "罗伯特·帕丁森出任新一任詹姆斯·邦德",
+      "summaryZh": "亚马逊米高梅宣布由帕丁森主演第26部邦德电影，维伦纽瓦执导，上映日期未定。",
+      "c1": "After months of speculation, one of cinema's most closely watched casting decisions has finally been made. Amazon MGM Studios announced on Monday that Robert Pattinson will play James Bond in the next 007 film, partly by revealing the news in a post on the franchise's official Instagram account. The British actor, who shot to fame in the Twilight series before reinventing himself in more serious roles, reportedly screen-tested for the part in late October.\n\nThe film, which will be the 26th in the series, has assembled a formidable creative team. Denis Villeneuve, best known for the Dune films, will direct from a script by Steven Knight, while Amy Pascal and David Heyman, the producer behind every Harry Potter film, will oversee production. Pattinson described being entrusted with the role as \"the honour of a lifetime\", and Villeneuve praised him as a Bond with a timeless soul.\n\nThe announcement also marks a turning point for the franchise itself. Although Amazon bought MGM several years ago, it only gained creative control of the character in 2025, after striking a deal with longtime producers Barbara Broccoli and Michael G. Wilson. This will therefore be the first Bond film made entirely under Amazon's stewardship, and fans will be watching closely to see whether the tech giant respects the series' traditions.\n\nNot everyone is convinced, admittedly. Some devoted fans had hoped the studio would take a chance on a relative unknown rather than an established star. For now, many questions remain unanswered: the film has no title or release date, and key roles such as the villain, M and Q have yet to be cast.",
+      "b2": "After months of rumours, the next James Bond has finally been chosen. On Monday, Amazon MGM Studios announced that Robert Pattinson will play 007. Part of the news was shared on the film series' official Instagram account. Pattinson, a British actor, became famous in the Twilight films and later took on more serious roles.\n\nThe new film will be the 26th Bond movie. Denis Villeneuve, who directed the Dune films, will direct it, and Steven Knight is writing the script. David Heyman, who produced the Harry Potter films, and Amy Pascal will be the producers. Pattinson said playing Bond is \"the honour of a lifetime\".\n\nThis is also an important moment for the series. Amazon bought MGM several years ago, but it only got creative control of Bond in 2025, after a deal with the long-time producers Barbara Broccoli and Michael G. Wilson. This will be the first Bond film made fully by Amazon.\n\nNot all fans are happy. Some wanted the studio to choose a less famous actor. There are also many unanswered questions, because the film does not have a title or a release date yet, and other important roles have not been cast.",
+      "vocab": [
+        {
+          "word": "speculation",
+          "pos": "n.",
+          "ipa": "/ˌspekjuˈleɪʃn/",
+          "zh": "猜测；揣测",
+          "en": "guesses about something without knowing all the facts",
+          "example": "There was a lot of speculation about who would replace the coach."
+        },
+        {
+          "word": "closely watched",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "备受关注的",
+          "en": "followed with great interest by many people",
+          "example": "The interest rate decision is one of the most closely watched events of the year."
+        },
+        {
+          "word": "shoot to fame",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "一举成名",
+          "en": "to become famous very quickly",
+          "example": "The singer shot to fame after her video went viral.",
+          "forms": [
+            "shot to fame"
+          ]
+        },
+        {
+          "word": "reinvent yourself",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "重塑自我",
+          "en": "to change your image or career in a major way",
+          "example": "After twenty years in banking, he reinvented himself as a chef.",
+          "forms": [
+            "reinventing himself"
+          ]
+        },
+        {
+          "word": "formidable",
+          "pos": "adj.",
+          "ipa": "/fəˈmɪdəbl/",
+          "zh": "强大的；令人敬畏的",
+          "en": "very impressive and powerful",
+          "example": "The new coach has a formidable reputation in the league."
+        },
+        {
+          "word": "entrust",
+          "pos": "v.",
+          "ipa": "/ɪnˈtrʌst/",
+          "zh": "委托；托付",
+          "en": "to give someone responsibility for something important",
+          "example": "She was entrusted with organising the whole conference.",
+          "forms": [
+            "entrusted"
+          ]
+        },
+        {
+          "word": "mark a turning point",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "标志着转折点",
+          "en": "to be the moment when an important change happens",
+          "example": "Moving to Melbourne marked a turning point in my career.",
+          "forms": [
+            "marks a turning point"
+          ]
+        },
+        {
+          "word": "stewardship",
+          "pos": "n.",
+          "ipa": "/ˈstjuːədʃɪp/",
+          "zh": "管理；掌管",
+          "en": "the job of supervising or taking care of something",
+          "example": "Under her stewardship, the library doubled its membership."
+        },
+        {
+          "word": "take a chance on",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "冒险尝试；给……机会",
+          "en": "to choose someone or something even though success is uncertain",
+          "example": "The café took a chance on a young barista with no experience."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Part of the announcement was made through the franchise's Instagram account.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说公司 \"partly by revealing the news in a post on the franchise's official Instagram account\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "Amazon has had creative control of James Bond ever since it bought MGM.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说亚马逊收购米高梅后 \"only gained creative control of the character in 2025\"，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Filming of the new Bond film will begin in London next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说影片 \"has no title or release date\"，没有提到拍摄时间和地点。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are some fans unhappy with the decision?",
+          "options": [
+            "They wanted a relative unknown instead of an established star",
+            "They dislike Denis Villeneuve's Dune films",
+            "They think the film should be made by MGM alone",
+            "They wanted the next Bond to be American"
+          ],
+          "answer": 0,
+          "explain": "文中说部分影迷 \"had hoped the studio would take a chance on a relative unknown rather than an established star\"。"
+        }
+      ],
+      "discuss": "Why do you think film studios often choose famous stars rather than unknown actors for big roles? Do you think this is good for the film industry in the long run?",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042420/james-bond-casting-robert-pattinson"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Inspecting a Flat in Footscray",
+    "titleZh": "在Footscray看房",
+    "setting": "Two friends who are hoping to move in together inspect a two-bedroom flat in Footscray on a Saturday morning.",
+    "settingZh": "两位打算合租的朋友周六上午在Footscray看一套两居室公寓。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "Okay, first impressions? The photos online made it look a lot bigger.",
+        "zh": "好，第一印象如何？网上的照片让它看起来大多了。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Classic wide-angle lens trick. Still, the living room gets heaps of natural light.",
+        "zh": "典型的广角镜头把戏。不过，客厅的自然光倒是很充足。"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "True. But have you seen the second bedroom? You'd barely squeeze a double bed in.",
+        "zh": "没错。但你看过第二间卧室吗？双人床都快塞不进去。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "I'd be happy to take that one if we knock a bit off my share of the rent.",
+        "zh": "如果我少付一点房租，我很乐意住那间。"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "That sounds fair. Let's keep that in mind and check out the kitchen.",
+        "zh": "听起来很公平。先记着这件事，我们去看看厨房。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "The oven looks ancient, and there's a funny smell coming from under the sink.",
+        "zh": "烤箱看起来很老旧，水槽下面还有股怪味。"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "Could be mould. I'll ask the agent whether they've had any leaks recently.",
+        "zh": "可能是发霉了。我去问问中介最近有没有漏过水。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Good call. And ask if they'd consider a twelve-month lease rather than six.",
+        "zh": "好主意。顺便问问他们愿不愿意签十二个月而不是六个月的租约。"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "Definitely. Moving every six months would do my head in.",
+        "zh": "一定问。每六个月搬一次家会让我崩溃的。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "On the plus side, it's a five-minute walk to the station. That's a huge bonus.",
+        "zh": "好的一面是，走到车站只要五分钟。这是很大的加分项。"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "And the markets are just around the corner, so groceries would be cheaper.",
+        "zh": "而且市场就在附近，买菜会便宜些。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "So are we putting in an application, or do we want to sleep on it?",
+        "zh": "那我们是现在提交申请，还是再考虑一晚？"
+      },
+      {
+        "s": "A",
+        "name": "Tahlia",
+        "en": "Places like this get snapped up fast. Let's apply today and ask questions later.",
+        "zh": "这样的房子很快就会被抢走。今天就申请吧，有问题以后再问。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Fair enough. I'll grab the agent before the next lot of people turns up.",
+        "zh": "有道理。趁下一拨人来之前我去找中介。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "a lot of",
+        "en": "heaps of",
+        "zh": "澳式口语：很多"
+      },
+      {
+        "plain": "make my rent a little lower",
+        "en": "knock a bit off my share of the rent",
+        "zh": "knock off：减去、打折"
+      },
+      {
+        "plain": "Let's remember that",
+        "en": "Let's keep that in mind",
+        "zh": "记住、考虑在内"
+      },
+      {
+        "plain": "That's a good idea",
+        "en": "Good call",
+        "zh": "好主意、明智的决定"
+      },
+      {
+        "plain": "would make me very stressed",
+        "en": "would do my head in",
+        "zh": "让人抓狂（英澳口语）"
+      },
+      {
+        "plain": "very near",
+        "en": "just around the corner",
+        "zh": "就在附近"
+      },
+      {
+        "plain": "think about it overnight",
+        "en": "sleep on it",
+        "zh": "考虑一晚再决定"
+      },
+      {
+        "plain": "are rented very quickly",
+        "en": "get snapped up fast",
+        "zh": "被迅速抢购/抢租"
+      }
+    ]
+  }
+}
