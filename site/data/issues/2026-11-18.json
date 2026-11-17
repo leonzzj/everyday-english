@@ -1,0 +1,720 @@
+{
+  "date": "2026-11-18",
+  "issueNo": 31,
+  "title": "Kerch Bridge strike, Voyager's light-day milestone and GTA VI leave",
+  "createdAt": "2026-11-18T06:54:06+11:00",
+  "stories": [
+    {
+      "id": "kerch-bridge-strike",
+      "category": "World",
+      "headline": "Ukraine badly damages Russia's Kerch Bridge to Crimea",
+      "headlineZh": "乌克兰重创连接克里米亚与俄罗斯的刻赤大桥",
+      "summaryZh": "乌克兰连续两天袭击刻赤大桥，公路段疑似坍塌，距和谈仅一周。",
+      "c1": "Ukraine has inflicted what appears to be serious damage on the Crimean Bridge, the 19-kilometre road and rail link that connects southern Russia with the occupied peninsula. Images circulated by Ukrainian officials seemed to show a section of the road span lying in the water after a second consecutive day of attacks, while Ukraine's General Staff said the rail section was still standing, albeit with a damaged arch.\n\nThe bridge carries enormous symbolic weight. It is closely associated with Vladimir Putin, who oversaw Russia's annexation of Crimea in 2014, so any successful strike on it is likely to be read as a political blow as much as a military one. President Volodymyr Zelenskyy presented the attack as retaliation for Russian strikes on Ukrainian infrastructure. Moscow's installed governor in Crimea said two people had been killed, and traffic across the crossing was suspended. The Kremlin, for its part, insisted that a repair plan would be drawn up and that the bridge would emerge stronger than before.\n\nThe strike coincided with what Russian state media described as the largest Ukrainian drone attack since the full-scale invasion in 2022, with Russia's Defence Ministry claiming to have shot down 1,441 drones over 22 regions. Russia, meanwhile, hit bridges, energy facilities and part of the metro in Kyiv, and overnight strikes left consumers in eight Ukrainian regions without power.\n\nPerhaps the most sobering aspect is the timing. The escalation came only a week after US-brokered talks in Abu Dhabi, the first in nine months. Both sides now appear to be targeting each other's energy and transport networks in a grinding war of attrition, which suggests that, for the time being, neither is prepared to make the concessions a lasting deal would require.",
+      "b2": "Ukraine has seriously damaged the Crimean Bridge, a 19-kilometre road and rail link between southern Russia and occupied Crimea. Pictures shared by Ukrainian officials seemed to show part of the road section in the water after two days of attacks. Ukraine's military said the rail section was still standing, but its arch was damaged.\n\nThe bridge is an important symbol. It is closely linked to Vladimir Putin, who led Russia's annexation of Crimea in 2014. President Volodymyr Zelenskyy said the attack was a response to Russian strikes on Ukrainian infrastructure. Russia's governor in Crimea said two people were killed, and traffic on the bridge was stopped. The Kremlin said it would prepare a plan to repair the bridge.\n\nAt the same time, Russian state media reported the biggest Ukrainian drone attack since 2022. Russia's Defence Ministry said it shot down 1,441 drones over 22 regions. Russia also hit bridges, energy sites and part of the metro in Kyiv, and people in eight Ukrainian regions lost power.\n\nThe timing is worrying. The attacks came just one week after US-led peace talks in Abu Dhabi, the first in nine months. Both countries are now attacking each other's energy and transport systems, and neither seems ready to compromise.",
+      "vocab": [
+        {
+          "word": "inflict",
+          "pos": "v.",
+          "ipa": "/ɪnˈflɪkt/",
+          "zh": "造成（损害、痛苦）",
+          "en": "to cause something harmful to happen to someone or something",
+          "example": "The storm inflicted heavy losses on local farmers.",
+          "forms": [
+            "inflicted"
+          ]
+        },
+        {
+          "word": "albeit",
+          "pos": "conj.",
+          "ipa": "/ˌɔːlˈbiːɪt/",
+          "zh": "尽管；虽然",
+          "en": "although; even if (used to add a limiting detail)",
+          "example": "The plan worked, albeit more slowly than we had hoped."
+        },
+        {
+          "word": "symbolic weight",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "象征意义",
+          "en": "importance that comes from what something represents",
+          "example": "The old town hall carries real symbolic weight for residents."
+        },
+        {
+          "word": "be read as",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被理解为",
+          "en": "to be interpreted in a particular way",
+          "example": "His silence could easily be read as agreement."
+        },
+        {
+          "word": "retaliation",
+          "pos": "n.",
+          "ipa": "/rɪˌtæliˈeɪʃn/",
+          "zh": "报复",
+          "en": "action taken to harm someone who has harmed you",
+          "example": "The new tariffs were imposed in retaliation for earlier trade restrictions."
+        },
+        {
+          "word": "emerge stronger",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "变得更强大",
+          "en": "to come out of a difficult situation in a better state",
+          "example": "Many small businesses emerged stronger from the downturn.",
+          "forms": [
+            "emerge stronger"
+          ]
+        },
+        {
+          "word": "coincide with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "与……同时发生",
+          "en": "to happen at the same time as something else",
+          "example": "The festival coincides with the school holidays this year.",
+          "forms": [
+            "coincided with"
+          ]
+        },
+        {
+          "word": "sobering",
+          "pos": "adj.",
+          "ipa": "/ˈsəʊbərɪŋ/",
+          "zh": "令人警醒的",
+          "en": "making you feel serious and think carefully",
+          "example": "The report offers a sobering picture of youth unemployment."
+        },
+        {
+          "word": "war of attrition",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "消耗战",
+          "en": "a long conflict in which each side tries to wear the other down",
+          "example": "The pay dispute has turned into a war of attrition between management and staff."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The rail section of the bridge collapsed into the water.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"the rail section was still standing, albeit with a damaged arch\"，铁路段仍然矗立，所以错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "Zelenskyy said the attack was a response to Russian strikes on Ukrainian infrastructure.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Zelenskyy \"presented the attack as retaliation for Russian strikes on Ukrainian infrastructure\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Russian engineers expect repairs to take at least a year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到 \"a repair plan would be drawn up\"，没有提及修复所需时间。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the writer find most sobering about the attacks?",
+          "options": [
+            "The record number of drones involved",
+            "That they came soon after peace talks",
+            "The number of people killed on the bridge",
+            "The cost of repairing the bridge"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"the most sobering aspect is the timing\"，即袭击发生在 Abu Dhabi 和谈后仅一周。"
+        }
+      ],
+      "discuss": "Why do you think leaders often target symbolic structures during conflicts? Can such attacks make peace harder or easier to achieve?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/ukraine-damages-crimean-bridge-in-major-strike/107396824"
+        }
+      ]
+    },
+    {
+      "id": "voyager-light-day",
+      "category": "Science",
+      "headline": "Voyager 1 set to reach one light-day from Earth",
+      "headlineZh": "旅行者1号即将抵达距地球一光日之处",
+      "summaryZh": "发射近50年后，旅行者1号将距地球约259亿公里，信号单程需24小时。",
+      "c1": "Nearly half a century after leaving Earth, NASA's Voyager 1 is poised to pass a remarkable milestone: on 18 November it is expected to become the first human-made object to sit one light-day from home. At roughly 25.9 billion kilometres away, a radio signal sent from Earth would take a full 24 hours to reach the probe, and any reply would need just as long to make the return journey.\n\nLaunched in 1977 alongside its twin, Voyager 2, the spacecraft was originally intended to last about a decade. Instead, it toured Jupiter and Saturn, crossed into interstellar space in 2012 and is still hurtling outward at about 61,000 kilometres per hour. Voyager 2, which also flew past Uranus and Neptune, followed it into interstellar space in 2018, but is not expected to reach the same distance until 2035.\n\nThat said, the ageing explorer is living on borrowed time. Most of its instruments have been switched off, only two remain operational, and its thrusters are gradually clogging. Last month NASA lost contact with it for roughly 48 hours before it eventually came back online, a reminder of just how fragile the connection has become. Power and heating could last until the early 2030s, although that is far from guaranteed.\n\nArguably, Voyager's legacy extends well beyond the data it has gathered. Its images of Jupiter made distant worlds feel tangible to many people, and each probe carries a golden record of greetings, music and sounds from Earth, which scientists believe may outlast human civilisation itself. Project scientist Linda Spilker described the moment as an \"incredible milestone to celebrate\".",
+      "b2": "Almost 50 years after leaving Earth, NASA's Voyager 1 is about to reach an amazing milestone. On 18 November, it is expected to be one light-day from Earth. That is about 25.9 billion kilometres, so a radio signal from Earth would need 24 hours to reach the probe.\n\nVoyager 1 was launched in 1977 with its twin, Voyager 2. It was planned to work for about ten years. Instead, it visited Jupiter and Saturn, entered interstellar space in 2012 and is still travelling at about 61,000 kilometres per hour. Voyager 2 also visited Uranus and Neptune and entered interstellar space in 2018. It is expected to reach one light-day in 2035.\n\nHowever, Voyager 1 is getting old. Most of its instruments are switched off, only two still work, and its thrusters are slowly becoming blocked. Last month, NASA lost contact with it for about 48 hours before it came back online. Its power and heating may last until the early 2030s.\n\nVoyager is important for more than science. Its pictures of Jupiter made faraway planets feel real to many people. Each probe also carries a golden record with greetings, music and sounds from Earth. Scientists think this record may last longer than human civilisation.",
+      "vocab": [
+        {
+          "word": "be poised to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "即将；准备好做",
+          "en": "to be about to do something",
+          "example": "The company is poised to announce record profits.",
+          "forms": [
+            "is poised to"
+          ]
+        },
+        {
+          "word": "milestone",
+          "pos": "n.",
+          "ipa": "/ˈmaɪlstəʊn/",
+          "zh": "里程碑",
+          "en": "an important stage or event in a process",
+          "example": "Finishing her first marathon was a real milestone for her."
+        },
+        {
+          "word": "hurtle",
+          "pos": "v.",
+          "ipa": "/ˈhɜːtl/",
+          "zh": "飞驰；猛冲",
+          "en": "to move very fast, often in a way that seems dangerous",
+          "example": "The train hurtled past the platform without stopping.",
+          "forms": [
+            "hurtling"
+          ]
+        },
+        {
+          "word": "live on borrowed time",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "苟延残喘；时日无多",
+          "en": "to continue to exist longer than expected, but likely to end soon",
+          "example": "Our old laptop is living on borrowed time, so we'd better back everything up.",
+          "forms": [
+            "living on borrowed time"
+          ]
+        },
+        {
+          "word": "operational",
+          "pos": "adj.",
+          "ipa": "/ˌɒpəˈreɪʃənl/",
+          "zh": "可运行的；正常工作的",
+          "en": "working and ready to be used",
+          "example": "The new hospital wing will be fully operational by March."
+        },
+        {
+          "word": "come back online",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "恢复运行；重新上线",
+          "en": "to start working or be connected again after a failure",
+          "example": "The website came back online after a two-hour outage.",
+          "forms": [
+            "came back online"
+          ]
+        },
+        {
+          "word": "far from guaranteed",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远非确定",
+          "en": "not at all certain",
+          "example": "Funding for the project is far from guaranteed."
+        },
+        {
+          "word": "tangible",
+          "pos": "adj.",
+          "ipa": "/ˈtændʒəbl/",
+          "zh": "真实可感的；具体的",
+          "en": "real and able to be understood or felt",
+          "example": "The programme has delivered tangible benefits for local families."
+        },
+        {
+          "word": "outlast",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈlɑːst/",
+          "zh": "比……更持久",
+          "en": "to continue to exist for longer than something else",
+          "example": "Good friendships often outlast the jobs that bring people together."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Voyager 2 will reach one light-day from Earth before 2030.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Voyager 2 \"is not expected to reach the same distance until 2035\"，所以错误。"
+        },
+        {
+          "type": "tfng",
+          "q": "NASA is planning a new mission to follow Voyager 1 into interstellar space.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到任何新的探测任务。"
+        },
+        {
+          "type": "tfng",
+          "q": "Voyager 1 was originally expected to operate for around ten years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说它 \"was originally intended to last about a decade\"，一个十年即约十年。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the writer mention that NASA lost contact with Voyager 1 last month?",
+          "options": [
+            "To show that the probe is travelling faster than expected",
+            "To explain why the instruments were switched off",
+            "To show how fragile the connection has become",
+            "To suggest that the mission will end this year"
+          ],
+          "answer": 2,
+          "explain": "文中说失联约48小时是 \"a reminder of just how fragile the connection has become\"。"
+        }
+      ],
+      "discuss": "Why do you think people feel so attached to old space missions like Voyager? Should governments keep funding missions that have already achieved their main goals?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+        }
+      ]
+    },
+    {
+      "id": "bunnings-tech-offshoring",
+      "category": "Business",
+      "headline": "Bunnings to cut 230 tech jobs in offshoring deal",
+      "headlineZh": "Bunnings将裁减230个技术岗位并外包海外",
+      "summaryZh": "Bunnings把大部分技术服务交给印度塔塔咨询，约230个长期岗位将被裁撤。",
+      "c1": "Bunnings, the hardware chain that has become something of an Australian institution, will axe about 230 permanent technology roles and end a further 120 contractor positions as it hands much of its tech work to India-based Tata Consultancy Services (TCS). Under the restructure, the retailer will retain a core in-house team of about 500 people in Australia, while the remaining services will be delivered by TCS staff in Australia, India and the Philippines.\n\nThe transition is set to begin in December and run until June 2027, with job losses starting in the new year. Bunnings says affected employees will be offered redundancy packages, career transition help, wellbeing support and, where possible, redeployment. Managing director Mike Schneider described the move as a necessary change aimed at responding to evolving consumer needs.\n\nBreaking the news to staff in a virtual meeting, chief information officer Genevie Elliott stressed that the cuts were no reflection on individual performance. She argued that the partnership would help rein in costs and give the business access to specialist expertise and global retail experience at a time when online shopping and technology are changing rapidly.\n\nBunnings is hardly alone. Qantas, NAB, Officeworks, Woolworths and Coles have all announced overseas outsourcing in some form. While companies tend to justify such decisions on the grounds of efficiency, the trend inevitably raises awkward questions about the future of skilled white-collar work in Australia, and about whether the savings will ultimately benefit customers or simply flow through to profits.",
+      "b2": "Bunnings, the popular Australian hardware chain, will cut about 230 permanent technology jobs and end 120 contractor roles. It is moving much of its tech work to Tata Consultancy Services (TCS), a company based in India. Bunnings will keep a team of about 500 tech workers in Australia, and TCS staff in Australia, India and the Philippines will do the rest.\n\nThe change will start in December and continue until June 2027. Job losses will begin in the new year. Bunnings says workers will get redundancy packages, help with finding new careers, wellbeing support and, where possible, other jobs in the company. Managing director Mike Schneider said the change was necessary to respond to changing customer needs.\n\nChief information officer Genevie Elliott told staff about the cuts in an online meeting. She said the decision had nothing to do with how well individual people had worked. She said working with TCS would reduce costs and give Bunnings access to expert knowledge and global retail experience.\n\nBunnings is not the only company doing this. Qantas, NAB, Officeworks, Woolworths and Coles have also moved some work overseas. Companies say it makes them more efficient, but the trend raises questions about the future of skilled office jobs in Australia.",
+      "vocab": [
+        {
+          "word": "axe",
+          "pos": "v.",
+          "ipa": "/æks/",
+          "zh": "裁减；砍掉",
+          "en": "to suddenly remove jobs, services or plans",
+          "example": "The council plans to axe two bus routes next year."
+        },
+        {
+          "word": "in-house",
+          "pos": "adj.",
+          "ipa": "/ˌɪnˈhaʊs/",
+          "zh": "内部的；公司自有的",
+          "en": "done by a company's own staff rather than outside workers",
+          "example": "We have an in-house design team, so we rarely use agencies."
+        },
+        {
+          "word": "redundancy package",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "裁员补偿金",
+          "en": "money and benefits given to workers whose jobs are cut",
+          "example": "She used her redundancy package to retrain as a nurse."
+        },
+        {
+          "word": "redeployment",
+          "pos": "n.",
+          "ipa": "/ˌriːdɪˈplɔɪmənt/",
+          "zh": "调岗；重新安置",
+          "en": "moving staff to a different job within the same organisation",
+          "example": "The union is pushing for redeployment rather than job losses."
+        },
+        {
+          "word": "break the news",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "宣布（坏）消息",
+          "en": "to tell someone important, often bad, news",
+          "example": "He broke the news to his parents that he was leaving uni.",
+          "forms": [
+            "Breaking the news"
+          ]
+        },
+        {
+          "word": "no reflection on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "并不说明……（不好）",
+          "en": "not a sign that someone has done badly",
+          "example": "Not getting the grant is no reflection on the quality of your work."
+        },
+        {
+          "word": "rein in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "控制；约束",
+          "en": "to control or limit something, especially spending",
+          "example": "The government has promised to rein in public spending."
+        },
+        {
+          "word": "on the grounds of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以……为理由",
+          "en": "because of; for the reason of",
+          "example": "The application was rejected on the grounds of cost."
+        },
+        {
+          "word": "raise awkward questions",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发棘手的问题",
+          "en": "to make people ask difficult or uncomfortable things",
+          "example": "The leaked emails raise awkward questions for the minister.",
+          "forms": [
+            "raises awkward questions"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The union representing Bunnings staff has strongly criticised the decision.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到工会的反应。"
+        },
+        {
+          "type": "tfng",
+          "q": "Bunnings will keep a team of about 500 technology workers in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Bunnings \"will retain a core in-house team of about 500 people in Australia\"。"
+        },
+        {
+          "type": "tfng",
+          "q": "All of the outsourced work will be carried out in India.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说服务将由 \"TCS staff in Australia, India and the Philippines\" 提供，并非全部在印度。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Genevie Elliott, what is one benefit of the partnership with TCS?",
+          "options": [
+            "Faster delivery for online customers",
+            "New Bunnings stores in India",
+            "Higher wages for the remaining staff",
+            "Access to specialist expertise and global retail experience"
+          ],
+          "answer": 3,
+          "explain": "文中说合作会带来 \"access to specialist expertise and global retail experience\"。"
+        }
+      ],
+      "discuss": "Why do you think so many large companies are moving work overseas? What could governments or workers do in response?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860"
+        }
+      ]
+    },
+    {
+      "id": "gta6-annual-leave",
+      "category": "Culture",
+      "headline": "Australians take time off work for Grand Theft Auto VI",
+      "headlineZh": "澳洲玩家纷纷请假迎接《侠盗猎车手6》",
+      "summaryZh": "《侠盗猎车手6》即将发售，许多澳洲玩家请年假抢先体验，网络流量大增。",
+      "c1": "Australians are not usually known for taking annual leave to stay indoors, yet that is precisely what many fans are doing for Grand Theft Auto VI, which launches on Thursday morning after years of delays and leaks. Rather than wait for the weekend, devoted players are booking days off so they can lose themselves in the game's fictional, Florida-inspired setting, which includes Vice City, a stand-in for Miami.\n\nThe sheer scale of the project is hard to overstate. Reviewer Ben Schuster estimates its budget at between US$1.5 billion and US$2 billion, which would make it the most expensive video game ever made. Analytics firm Sensor Tower reports almost 15 million pre-orders, and Forbes expects the game to earn nearly $4.5 billion in its opening week. Its predecessor, GTA V, has sold more than 255 million copies since its release in 2013.\n\nEven the internet has felt the strain. Since downloads opened on 10 November, the NBN has recorded a noticeable jump in network use, with a spokesperson noting that the download alone is roughly 40 per cent of what an average home uses in a month. One fan, who has spent more than 3,000 hours on the previous instalment, has taken four days off and intends to finish the story before returning to work, largely to avoid spoilers.\n\nNot everyone is entirely comfortable with this enthusiasm. Responding to concerns that some workers might call in sick to play, the Fair Work Ombudsman reminded employees that employers are entitled to ask for evidence when sick leave is claimed. Still, with Schuster pointing out that 82 per cent of Australians play video games, the release is arguably less a niche event than a genuine cultural moment.",
+      "b2": "Many Australian fans are taking annual leave to play Grand Theft Auto VI, which comes out on Thursday morning after years of delays and leaks. They are booking days off to explore the game's fictional world, which is based on Florida.\n\nThe game is a huge project. Reviewer Ben Schuster thinks it cost between US$1.5 billion and US$2 billion to make, which would make it the most expensive video game ever. Sensor Tower says there have been almost 15 million pre-orders, and Forbes expects the game to earn nearly $4.5 billion in its first week. The last game, GTA V, has sold more than 255 million copies since 2013.\n\nDownloads started on 10 November, and the NBN saw a clear rise in internet use. A spokesperson said the download is about 40 per cent of what an average home uses in a month. One fan, who has played more than 3,000 hours of the last game, has taken four days off to finish the story and avoid spoilers.\n\nSome people worry that workers might call in sick to play. The Fair Work Ombudsman reminded workers that employers can ask for evidence when someone takes sick leave. Still, with 82 per cent of Australians playing video games, the release is a real cultural event.",
+      "vocab": [
+        {
+          "word": "lose oneself in",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "沉浸于",
+          "en": "to become so involved in something that you forget everything else",
+          "example": "On long flights I like to lose myself in a good novel.",
+          "forms": [
+            "lose themselves in"
+          ]
+        },
+        {
+          "word": "stand-in",
+          "pos": "n.",
+          "ipa": "/ˈstændɪn/",
+          "zh": "替身；替代物",
+          "en": "a person or thing that takes the place of another",
+          "example": "The fictional town in the series is a stand-in for Hobart."
+        },
+        {
+          "word": "hard to overstate",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "怎么强调都不为过",
+          "en": "so important or large that it is difficult to exaggerate",
+          "example": "The importance of clean water is hard to overstate."
+        },
+        {
+          "word": "predecessor",
+          "pos": "n.",
+          "ipa": "/ˈpriːdɪsesə(r)/",
+          "zh": "前作；前任",
+          "en": "something or someone that came before another",
+          "example": "The new phone is lighter than its predecessor."
+        },
+        {
+          "word": "feel the strain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "承受压力",
+          "en": "to be affected by pressure or heavy demand",
+          "example": "Hospitals are feeling the strain during flu season.",
+          "forms": [
+            "felt the strain"
+          ]
+        },
+        {
+          "word": "instalment",
+          "pos": "n.",
+          "ipa": "/ɪnˈstɔːlmənt/",
+          "zh": "（系列的）一部；一集",
+          "en": "one part of a series of films, books or games",
+          "example": "The final instalment of the trilogy comes out next year."
+        },
+        {
+          "word": "call in sick",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "打电话请病假",
+          "en": "to phone work to say you are ill and cannot come in",
+          "example": "Half the team called in sick after the end-of-year party."
+        },
+        {
+          "word": "be entitled to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "有权（做某事）",
+          "en": "to have the right to do or have something",
+          "example": "Casual workers are entitled to a higher hourly rate.",
+          "forms": [
+            "are entitled to"
+          ]
+        },
+        {
+          "word": "niche",
+          "pos": "adj.",
+          "ipa": "/niːʃ/",
+          "zh": "小众的",
+          "en": "interesting to or aimed at only a small group of people",
+          "example": "The shop sells niche products for keen home brewers."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Downloads of the game became available on 10 November.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"downloads opened on 10 November\"，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most fans intend to play the game online with friends.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到大多数玩家是否与朋友联机游戏。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Fair Work Ombudsman has banned workers from taking sick leave to play the game.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "监察署只是提醒 \"employers are entitled to ask for evidence when sick leave is claimed\"，并没有禁止。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does one fan plan to finish the game before going back to work?",
+          "options": [
+            "Mainly to avoid spoilers",
+            "Because the download takes four days",
+            "Because the game will be more expensive later",
+            "To review it for a magazine"
+          ],
+          "answer": 0,
+          "explain": "文中说这位玩家想在返工前打通剧情 \"largely to avoid spoilers\"。"
+        }
+      ],
+      "discuss": "Why do you think some entertainment releases become shared cultural events? Is it reasonable to take annual leave for something like a game or a concert?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/australians-are-taking-time-off-to-play-gta6/107388828"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Interview Nerves over Coffee",
+    "titleZh": "咖啡馆里的面试准备",
+    "setting": "Callum, who has a job interview the next morning, gets some last-minute advice from a friend at a café in Brunswick.",
+    "settingZh": "Callum第二天早上有个求职面试，在布伦瑞克的一家咖啡馆向朋友讨教临场建议。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "Thanks for coming, Ines. My interview's at nine tomorrow and I'm a bit of a wreck.",
+        "zh": "谢谢你过来，Ines。我明天九点有那个面试，我现在紧张得要命。"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "No worries. Grab a flat white and let's run through the questions you're dreading.",
+        "zh": "没事。点杯馥芮白，我们把你最怕的问题过一遍。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "Mainly the 'tell me about yourself' one. I always end up rambling about my whole life.",
+        "zh": "主要是“介绍一下你自己”那题。我每次都会把整个人生絮絮叨叨讲一遍。"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "Keep it to two minutes, tops. Where you are now, what you've done, and why this role.",
+        "zh": "最多两分钟。讲讲你现在的情况、做过什么，以及为什么想要这个职位。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "Right. What if they ask about the gap in my CV? I took six months off.",
+        "zh": "好。那如果他们问我简历上的空档怎么办？我休了六个月。"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "Just own it. Say you went travelling and came back with a clearer sense of direction.",
+        "zh": "大方承认就好。说你去旅行了，回来后方向更清晰了。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "I'm also worried they'll throw a curly technical question at me.",
+        "zh": "我还担心他们会抛给我一个刁钻的技术问题。"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "If you're stumped, talk them through how you'd tackle it. They want to see how you think.",
+        "zh": "要是被难住了，就跟他们讲讲你会怎么解决。他们想看你的思路。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "That's a good shout. Should I ask them anything at the end, or is that pushy?",
+        "zh": "好主意。最后我该向他们提问吗？还是会显得有点咄咄逼人？"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "Definitely ask something. Maybe what success would look like in the first six months.",
+        "zh": "一定要问点什么。比如头六个月里怎样才算做得好。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "Ooh, I like that. It shows I'm already picturing myself in the job.",
+        "zh": "哦，这个好。说明我已经在想象自己做这份工作了。"
+      },
+      {
+        "s": "B",
+        "name": "Ines",
+        "en": "Exactly. And for heaven's sake, get a decent night's sleep instead of cramming.",
+        "zh": "没错。还有，看在老天的份上，好好睡一觉，别临时抱佛脚。"
+      },
+      {
+        "s": "A",
+        "name": "Callum",
+        "en": "Ha, no promises. But seriously, I owe you one. Next coffee's on me.",
+        "zh": "哈，不敢保证。不过说真的，我欠你个人情。下次咖啡我请。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I'm very nervous",
+        "en": "I'm a bit of a wreck",
+        "zh": "紧张得要命（口语）"
+      },
+      {
+        "plain": "let's practise the questions",
+        "en": "let's run through the questions",
+        "zh": "把……过一遍、演练"
+      },
+      {
+        "plain": "talking too much without a point",
+        "en": "rambling",
+        "zh": "东拉西扯，说话没重点"
+      },
+      {
+        "plain": "two minutes maximum",
+        "en": "two minutes, tops",
+        "zh": "最多两分钟"
+      },
+      {
+        "plain": "admit it confidently",
+        "en": "Just own it",
+        "zh": "坦然承认，不回避"
+      },
+      {
+        "plain": "a difficult question",
+        "en": "a curly technical question",
+        "zh": "curly在澳洲口语中指刁钻的"
+      },
+      {
+        "plain": "That's a good idea",
+        "en": "That's a good shout",
+        "zh": "好主意（英澳口语）"
+      },
+      {
+        "plain": "I'll pay you back for this favour",
+        "en": "I owe you one",
+        "zh": "我欠你个人情"
+      }
+    ]
+  }
+}
