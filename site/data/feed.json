@@ -1,44 +1,44 @@
 {
- "updatedAt": "2026-11-16T09:58:09.993Z",
+ "updatedAt": "2026-11-17T01:55:50.529Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "What new blood tests mean for Alzheimer's",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/what-new-blood-tests-mean-for-alzheimer-s/107381750",
-   "audio": "https://traffic.megaphone.fm/TECO6707166619.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/592de2b0-e107-11f1-8b35-a72db6fafd10/image/69e9b403e62c657a600555905868a3a4.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-16",
-   "minutes": 16,
+   "title": "Will the Nvidia affair force a tech bro shake-up?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-the-nvidia-affair-force-a-tech-bro-shake-up/107390986",
+   "audio": "https://traffic.megaphone.fm/TECO9035193891.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/85931798-e1d0-11f1-9ef2-5f4c48134afa/image/af7d63028886934cf5d169525e1d0832.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-17",
+   "minutes": 18,
    "level": "C1",
    "accent": "AU",
-   "desc": "Has the world just gained millions of new Alzheimer's patients?&nbsp; It's a question at the centre of a fierce debate over a new definition of the disease, one that could classify people as having Alzheimer's years before they show any symptoms, as new blood…"
+   "desc": "Much has been made of Nvidia founder Jensen Huang's alleged affair with a suspected Chinese spy, which forced him to resign as CEO and sent shockwaves through global markets. But the scandal has also drawn attention to a bigger issue: the extraordinary power…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "How a spy with a sexual secret saved the world from nuclear war",
-   "url": "https://www.abc.net.au/listen/programs/conversations/ben-mcintyre-redwood-spying-russia-cia-sexual-secret/107375562",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qf/Z/fs.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fe1458346cc9b3b5fc94f3974cb9ca36b.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-16",
-   "minutes": 53,
+   "title": "Encore: My brilliant, terrifying mother, and the push and pull of home",
+   "url": "https://www.abc.net.au/listen/programs/conversations/artist-judy-cotton-on-her-memoir-swimming-home/107377038",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qg/Z/hg.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2Fd84edb64479cb553121aa042191fa3bb.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-17",
+   "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "British writer Ben Macintyre tells the story of a KGB spy who betrayed his country in exchange for an unusual request — to unravel a very tender problem affecting his life, and his marriage. At the height of the Cold War on mysterious double agent revealed a…"
+   "desc": "Artist Judy Cotton reflects on the Australia that formed her, and the legacy of her exacting mother. When Judy was sent off to boarding school in country NSW at the age of 4, she decided there was no point crying and that she would meet life’s challenges head…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: How to challenge your self-limiting beliefs with Shawn Achor | from ReThinking with Adam Grant",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aee1ada1ad1a30ae5d0bb39/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1793989506199-8178a55f-9111-4932-a899-34ff7ce90118.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-15",
-   "minutes": 41,
+   "title": "What you hear when you stop talking | John Lloyd",
+   "url": "http://go.ted.com/JohnLloyd",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af7358772c084b0516a29b5/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-17",
+   "minutes": 13,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Your beliefs about yourself and the world have a big impact on your mental health, relationships, and success. As a positive psychology evangelist, Shawn Achor has spent his career studying how to challenge and change the core beliefs that might be holding…"
+   "desc": "Scientists have estimated how many colors we can see and how many scents we can smell … but director John Lloyd can’t find anyone who has counted how many sounds we can hear. Drawing on a legendary career in radio, film and TV, he makes a funny case for…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Fugitive imagination",
-   "url": "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world",
+   "title": "The horse made the state",
+   "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/250df91b-cb37-49ba-b1b1-4c14f75bb40e/essay-panos_00206717.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-13",
+   "image": "https://images.aeonmedia.co/images/60bea515-b55f-48e9-9e81-4fe8bf8afde7/essay-uncavaliersurunepetiteeminencesurlagrandeplacedumarche_cadrageplusserre_a70091x.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-16",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Wherever people are confined, displaced, silenced or made disposable, fugitive forms of knowledge and imagination emerge - by Shahram Khosravi Read on Aeon"
+   "desc": "Civilisation wasn’t made possible by grain, but by transportation – and the conquest it enabled, from the steppe to the sea - by Lhamsuren Munkh-Erdene Read on Aeon"
   }
  ]
 }
