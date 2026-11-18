@@ -1,0 +1,729 @@
+{
+  "date": "2026-11-19",
+  "issueNo": 32,
+  "title": "Trump, Putin and Xi meet; bell frogs; Tame Impala's ARIA record",
+  "createdAt": "2026-11-19T06:54:29+11:00",
+  "stories": [
+    {
+      "id": "trump-putin-xi-summit",
+      "category": "World",
+      "headline": "Trump, Putin and Xi prepare for first three-way talks",
+      "headlineZh": "特朗普、普京与习近平将首次举行三方会晤",
+      "summaryZh": "三国领导人将在深圳APEC期间首次会面，核武、乌克兰与伊朗议题受关注。",
+      "c1": "Donald Trump, Vladimir Putin and Xi Jinping are poised to sit down together for the first time, on the sidelines of the Asia-Pacific Economic Cooperation (APEC) forum in the southern Chinese city of Shenzhen. Beijing and Moscow have yet to confirm what they intend to discuss, but the White House has flagged four broad themes: nuclear non-proliferation, the wars in Ukraine and Iran, trade, and artificial intelligence.\n\nOn paper, nuclear arms may be the most pressing issue. Russia holds the world's largest arsenal, with the United States close behind, and New START, the treaty that capped their strategic weapons, lapsed in February. Mr Trump has been reluctant to sign a replacement unless China is brought into the fold, yet Beijing has long refused, arguing that its stockpile, though growing rapidly, remains far smaller. Experts who spoke to the ABC expect little real progress on this front.\n\nUkraine is likely to prove more contentious. There are fears the war could be discussed without Kyiv at the table, and Mr Trump has called it his \"favourite subject\". On Iran, he may press China, Tehran's main oil customer, to help end the conflict or to push for the full reopening of the Strait of Hormuz, although analysts doubt Beijing wants to become deeply entangled.\n\nEach leader stands to gain something different. Mr Trump, fresh from difficult midterm elections, wants to look like a deal-maker; Mr Putin could regain his seat at the top table without major concessions; and Mr Xi hopes to be seen as the power broker capable of bringing rivals together. Even so, analysts remain sceptical about concrete outcomes. With no joint press conference or communiqué expected, the world will have to rely on each government's own account of what was said behind closed doors.",
+      "b2": "Donald Trump, Vladimir Putin and Xi Jinping are expected to meet together for the first time. The meeting will take place during the APEC forum in Shenzhen, in southern China. The White House says it wants to talk about nuclear weapons, the wars in Ukraine and Iran, trade and artificial intelligence.\n\nRussia has the largest number of nuclear weapons in the world, and the US has almost as many. A treaty that limited their weapons ended in February. Mr Trump wants China to join any new deal, but China says its own arsenal is much smaller and has refused. Experts do not expect much progress.\n\nSome people worry that the leaders will discuss the war in Ukraine without Ukraine being there. Mr Trump may also ask China, which is Iran's biggest oil customer, to help end that conflict. However, experts think China does not want to get too involved.\n\nEach leader wants something different. Mr Trump wants to show he can make deals after difficult midterm elections. Mr Putin wants to be treated as an important world leader again, and Mr Xi wants to look like the person who brought the three together. Still, analysts doubt there will be real results. There will be no joint press conference, so each country will give its own version of the talks.",
+      "vocab": [
+        {
+          "word": "on the sidelines of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……的场边/间隙",
+          "en": "during a larger event, but separately from its main business",
+          "example": "The two ministers met on the sidelines of the conference to discuss visas."
+        },
+        {
+          "word": "flag",
+          "pos": "v.",
+          "ipa": "/flæɡ/",
+          "zh": "提出；标出（问题）",
+          "en": "to point out something as important or worth attention",
+          "example": "My manager flagged a few issues with the budget before the meeting.",
+          "forms": [
+            "flagged"
+          ]
+        },
+        {
+          "word": "lapse",
+          "pos": "v.",
+          "ipa": "/læps/",
+          "zh": "（协议等）失效，到期",
+          "en": "to stop being valid because the time limit has passed",
+          "example": "I let my gym membership lapse over the winter.",
+          "forms": [
+            "lapsed"
+          ]
+        },
+        {
+          "word": "bring into the fold",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "把……拉进来/纳入团体",
+          "en": "to make someone part of a group or agreement",
+          "example": "The club hopes to bring younger members into the fold next season.",
+          "forms": [
+            "brought into the fold"
+          ]
+        },
+        {
+          "word": "contentious",
+          "pos": "adj.",
+          "ipa": "/kənˈtenʃəs/",
+          "zh": "有争议的",
+          "en": "likely to cause disagreement or argument",
+          "example": "Parking fees became a contentious issue at the council meeting."
+        },
+        {
+          "word": "entangled",
+          "pos": "adj.",
+          "ipa": "/ɪnˈtæŋɡəld/",
+          "zh": "卷入的，纠缠的",
+          "en": "involved in a difficult situation that is hard to escape",
+          "example": "She didn't want to get entangled in her flatmates' argument."
+        },
+        {
+          "word": "stand to gain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "可能获益",
+          "en": "to be likely to benefit from something",
+          "example": "Small businesses stand to gain the most from the new tax cut.",
+          "forms": [
+            "stands to gain"
+          ]
+        },
+        {
+          "word": "concession",
+          "pos": "n.",
+          "ipa": "/kənˈseʃən/",
+          "zh": "让步",
+          "en": "something you agree to give up in order to reach an agreement",
+          "example": "Both sides had to make concessions before the deal was signed.",
+          "forms": [
+            "concessions"
+          ]
+        },
+        {
+          "word": "behind closed doors",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "秘密地，闭门",
+          "en": "privately, without the public or media present",
+          "example": "The real negotiations took place behind closed doors."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The White House has named the topics it wants to discuss, but China and Russia have not confirmed theirs.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 “Beijing and Moscow have yet to confirm what they intend to discuss, but the White House has flagged four broad themes”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The three leaders are scheduled to hold a joint press conference after the meeting.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中指出 “With no joint press conference or communiqué expected”，与题干相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "The meeting in Shenzhen is expected to last for two days.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到会晤将持续多长时间，因此无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, why might Mr Trump press China over Iran?",
+          "options": [
+            "China has promised to send troops to the Strait of Hormuz.",
+            "China recently signed a new nuclear treaty with Iran.",
+            "China is Tehran's main oil customer.",
+            "China is hosting peace talks between the US and Iran."
+          ],
+          "answer": 2,
+          "explain": "文中称中国是 “Tehran's main oil customer”，因此特朗普可能借此向中国施压；其他选项文中均未提及。"
+        }
+      ],
+      "discuss": "Do you think meetings between world leaders achieve much when no agreements are signed? Why might the symbolism still matter?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-19/what-trump-putin-xi-want-when-they-meet/107390546"
+        }
+      ]
+    },
+    {
+      "id": "bell-frogs-mine-pollution",
+      "category": "Environment",
+      "headline": "Mine pollution may have helped endangered frogs resist a deadly fungus",
+      "headlineZh": "矿区污染或曾帮助濒危青蛙抵御致命真菌",
+      "summaryZh": "堪培拉大学研究发现，极低浓度的铜可杀死壶菌，38只青蛙已被放归湿地。",
+      "c1": "Researchers at the University of Canberra are exploring an unexpected possibility: that pollution from an abandoned mine may have helped one of Australia's most threatened frogs hold out against a deadly disease. The green and golden bell frog has suffered a decline of roughly 90 per cent since the 1970s, largely because of chytrid fungus, which attacks amphibians' skin and can impair breathing and other vital functions.\n\nThe team's attention has turned to the Carwoola wetlands, downstream of the long-closed Lake George Mine at Captains Flat. Copper and zinc are thought to have washed into the Molonglo River and across the floodplain over many years. Remarkably, the frogs persisted there for around 50 years longer than anywhere else in the uplands, making Carwoola the species' last known stronghold on the NSW Southern Tablelands.\n\nLaboratory experiments lend weight to the theory. Postdoctoral researcher Milad Esmaeilbeigi found that copper concentrations of just one to two micrograms per litre could kill almost half of the fungus's free-swimming spores. Crucially, the levels detected in the field were far below those known to harm frogs. Associate Professor Simon Clulow described the result as a \"conservation paradox\", while stressing that nobody is advocating the deliberate pollution of wetlands.\n\nThe findings now underpin a practical rescue effort. With no frogs confirmed at Carwoola since 2021, the scientists released 38 microchipped animals into the wetlands this week. They will be scanned and swabbed to track infection, which the team regards as all but inevitable given how widespread chytrid is in the environment. Other measures, such as so-called frog saunas and salted ponds, are also part of the plan, in the hope that the population can eventually recover.",
+      "b2": "Scientists at the University of Canberra think pollution from an old mine may have helped an endangered frog survive a deadly disease. The number of green and golden bell frogs has fallen by about 90 per cent since the 1970s. The main cause is chytrid fungus, which attacks the frogs' skin and can make it hard for them to breathe.\n\nThe researchers are studying wetlands at Carwoola, downstream from the closed Lake George Mine. Copper and zinc from the mine are thought to have flowed into the area. The frogs survived at Carwoola for about 50 years longer than in other places in the region.\n\nIn the lab, a researcher found that very small amounts of copper could kill almost half of the fungus's spores. These amounts were much lower than the levels that hurt frogs. The team calls this a surprising result, but they are not saying that anyone should pollute wetlands.\n\nNo frogs have been confirmed at Carwoola since 2021, so this week the scientists released 38 frogs with microchips. They will check the frogs for infection, which they expect to happen because the fungus is so common. Other ideas, such as frog saunas and salty ponds, are also part of the plan to help the frogs recover.",
+      "vocab": [
+        {
+          "word": "hold out against",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "抵挡住，坚持抵抗",
+          "en": "to continue to resist something difficult or dangerous",
+          "example": "The old shop held out against the big supermarkets for decades."
+        },
+        {
+          "word": "suffer a decline",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "遭受下降/衰退",
+          "en": "to become smaller, weaker or less successful",
+          "example": "Local newspapers have suffered a steep decline in readers.",
+          "forms": [
+            "suffered a decline"
+          ]
+        },
+        {
+          "word": "impair",
+          "pos": "v.",
+          "ipa": "/ɪmˈpeə/",
+          "zh": "损害，削弱",
+          "en": "to damage something so that it works less well",
+          "example": "Lack of sleep can seriously impair your concentration."
+        },
+        {
+          "word": "stronghold",
+          "pos": "n.",
+          "ipa": "/ˈstrɒŋhəʊld/",
+          "zh": "大本营，最后据点",
+          "en": "a place where something is still strong or common",
+          "example": "The north of the state is a stronghold for the Greens."
+        },
+        {
+          "word": "lend weight to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为……提供支持",
+          "en": "to make an idea or argument seem more likely to be true",
+          "example": "New survey results lend weight to the council's plan."
+        },
+        {
+          "word": "concentration",
+          "pos": "n.",
+          "ipa": "/ˌkɒnsənˈtreɪʃən/",
+          "zh": "浓度",
+          "en": "the amount of a substance in a liquid or area",
+          "example": "High concentrations of salt can damage plants.",
+          "forms": [
+            "concentrations"
+          ]
+        },
+        {
+          "word": "paradox",
+          "pos": "n.",
+          "ipa": "/ˈpærədɒks/",
+          "zh": "悖论，矛盾的现象",
+          "en": "a situation that seems impossible because it has two opposite features",
+          "example": "It's a paradox that we have more ways to connect but feel lonelier."
+        },
+        {
+          "word": "underpin",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈpɪn/",
+          "zh": "支撑，构成……的基础",
+          "en": "to give strength or support to an idea, plan or system",
+          "example": "Years of research underpin the new treatment."
+        },
+        {
+          "word": "all but inevitable",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "几乎不可避免",
+          "en": "almost certain to happen",
+          "example": "With the team so far behind, a loss looked all but inevitable."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The copper levels found in the Carwoola wetlands are high enough to harm frogs.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 “the levels detected in the field were far below those known to harm frogs”，与题干相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Lake George Mine closed because of complaints about water pollution.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只说矿山 “long-closed”（早已关闭），没有说明关闭原因。"
+        },
+        {
+          "type": "tfng",
+          "q": "Green and golden bell frog numbers have dropped by around nine-tenths since the 1970s.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 “suffered a decline of roughly 90 per cent since the 1970s”，即约九成，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "What do the researchers expect to happen to the 38 released frogs?",
+          "options": [
+            "They will avoid chytrid because the water is polluted.",
+            "They will be returned to the laboratory within a month.",
+            "They will breed quickly and spread across the uplands.",
+            "They will almost certainly become infected with chytrid."
+          ],
+          "answer": 3,
+          "explain": "文中说感染被视为 “all but inevitable given how widespread chytrid is”，即几乎必然被感染。"
+        }
+      ],
+      "discuss": "Should conservation decisions ever take advantage of something harmful, like pollution, if it helps a species survive? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/researchers-suspect-pollution-helped-endangered-frogs/107394814"
+        }
+      ]
+    },
+    {
+      "id": "sydney-smart-glasses-bans",
+      "category": "Tech",
+      "headline": "Sydney councils move to ban smart glasses at beaches and pools",
+      "headlineZh": "悉尼多个市议会拟在海滩和泳池禁用智能眼镜",
+      "summaryZh": "因担心偷拍与骚扰，邦迪所在的韦弗利议会原则上通过海滩禁令。",
+      "c1": "Several Sydney councils are moving to restrict smart glasses in public places, amid growing unease about people being filmed without their knowledge. Waverley Council, which covers Bondi, Bronte and Tamarama, has approved a beach ban in principle and is now consulting on how it might be enforced. Randwick, home to Coogee and Maroubra, is investigating whether to extend its existing pool ban to its beaches, and Northern Beaches Council is weighing up a similar step.\n\nPools have been the first battleground. The City of Sydney, Canterbury-Bankstown, North Sydney, Mosman, Blacktown and Sutherland Shire already prohibit the devices at their swimming facilities, mostly with exemptions for people with disability, and Inner West Council joined them after a vote on Tuesday night. Regional councils, including Clarence Valley and Bellingen Shire, have also debated comparable motions.\n\nConcerns centre on privacy and safety, particularly for women and children. A University of Sydney study of 350 online videos recorded on smart glasses found that 60 per cent contained potential harassment, much of it in so-called rizz videos, in which wearers flirt with strangers while filming them. Councillors have also raised the prospect of footage from change rooms or pool areas ending up online.\n\nNot everyone is convinced, however. One Bellingen councillor argued that the push lacked proper due diligence on its privacy implications, and one local resident pointed out that the glasses can genuinely help people with poor eyesight. Premier Chris Minns has said he will consider whether statewide action is warranted. Meanwhile, the federal government declined to include specific rules in its draft privacy policy, although it has not ruled out other measures.",
+      "b2": "Some councils in Sydney want to stop people from wearing smart glasses in certain public places because of worries about secret filming. Waverley Council, which includes Bondi Beach, has agreed to a beach ban in principle. Randwick and Northern Beaches councils are also thinking about similar rules for their beaches.\n\nSeveral councils, including the City of Sydney and Blacktown, have already banned smart glasses at their swimming pools. Most of these bans make exceptions for people with disability. On Tuesday night, Inner West Council also voted for a pool ban.\n\nThe main worries are privacy and safety, especially for women and children. A University of Sydney study looked at 350 videos made with smart glasses and found that 60 per cent showed possible harassment. Many were videos in which the wearer flirts with strangers while filming them. Councillors also worry that videos from change rooms could be posted online.\n\nHowever, not everyone agrees with the bans. One councillor said the idea had not been properly researched, and one resident said the glasses can help people who have trouble seeing. The NSW Premier, Chris Minns, says he will think about rules for the whole state. The federal government did not include special rules in its draft privacy policy, but it has not ruled out other steps.",
+      "vocab": [
+        {
+          "word": "in principle",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "原则上",
+          "en": "in general, though the details are not yet decided",
+          "example": "The landlord has agreed in principle to let us keep a cat."
+        },
+        {
+          "word": "weigh up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "权衡，斟酌",
+          "en": "to think carefully about the good and bad sides before deciding",
+          "example": "I'm still weighing up whether to take the job in Brisbane.",
+          "forms": [
+            "weighing up"
+          ]
+        },
+        {
+          "word": "battleground",
+          "pos": "n.",
+          "ipa": "/ˈbætlɡraʊnd/",
+          "zh": "争论焦点，战场",
+          "en": "a place or subject where people strongly disagree",
+          "example": "School uniforms have become a battleground between parents and principals."
+        },
+        {
+          "word": "exemption",
+          "pos": "n.",
+          "ipa": "/ɪɡˈzempʃən/",
+          "zh": "豁免，例外",
+          "en": "permission not to follow a rule that applies to others",
+          "example": "Students can apply for an exemption from the late fee.",
+          "forms": [
+            "exemptions"
+          ]
+        },
+        {
+          "word": "comparable",
+          "pos": "adj.",
+          "ipa": "/ˈkɒmpərəbəl/",
+          "zh": "类似的，可比的",
+          "en": "similar in size, type or quality",
+          "example": "Rents in Geelong are not comparable to those in inner Melbourne."
+        },
+        {
+          "word": "centre on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "集中于，以……为中心",
+          "en": "to have something as the main subject or focus",
+          "example": "The discussion centred on how to cut travel costs."
+        },
+        {
+          "word": "raise the prospect of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引发……的可能性",
+          "en": "to make people think that something might happen",
+          "example": "The storm warnings raised the prospect of flights being cancelled.",
+          "forms": [
+            "raised the prospect of"
+          ]
+        },
+        {
+          "word": "due diligence",
+          "pos": "n.",
+          "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
+          "zh": "尽职调查，审慎考查",
+          "en": "careful research done before making a decision",
+          "example": "Do your due diligence before signing any lease."
+        },
+        {
+          "word": "rule out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "排除（可能性）",
+          "en": "to say that something is not possible or will not happen",
+          "example": "The coach hasn't ruled out a return for the injured player.",
+          "forms": [
+            "ruled out"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Waverley Council has already decided exactly how its beach ban will be enforced.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说韦弗利议会 “is now consulting on how it might be enforced”，说明执行方式尚未确定，与题干相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "Smart glasses sales in Australia have doubled over the past year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提供任何智能眼镜销量的数据，无法判断。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the existing pool bans include exceptions for people with disability.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说泳池禁令 “mostly with exemptions for people with disability”，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did the University of Sydney study find?",
+          "options": [
+            "Sixty per cent of the smart-glasses videos it examined contained potential harassment.",
+            "Most smart-glasses videos were filmed inside change rooms.",
+            "Smart glasses are rarely used at Sydney beaches.",
+            "People with poor eyesight make up most smart-glasses users."
+          ],
+          "answer": 0,
+          "explain": "文中说研究的350个视频中 “60 per cent contained potential harassment”，其他选项文中未提及。"
+        }
+      ],
+      "discuss": "Should wearable cameras be banned in some public places, or is education a better answer? How might attitudes change as the technology becomes more common?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/nsw-local-sydney-councils-crack-down-on-smart-glasses-on-beaches/107398950"
+        }
+      ]
+    },
+    {
+      "id": "arias-tame-impala-ai-protest",
+      "category": "Culture",
+      "headline": "Tame Impala breaks ARIA records as artists protest against AI",
+      "headlineZh": "Tame Impala刷新ARIA纪录，音乐人集体抗议AI",
+      "summaryZh": "凯文·帕克获七项大奖成史上获奖最多艺人，颁奖礼上音乐人呼吁保护版权。",
+      "c1": "Kevin Parker, the creative force behind Tame Impala, rewrote the record books at the 40th ARIA Awards at Sydney's Hordern Pavilion on Wednesday night. He collected seven trophies, including Album of the Year for Deadbeat, the project's fifth album, and Song of the Year for Dracula. That brought his career tally to 22, overtaking Silverchair and John Farnham on 21 apiece and making him the most decorated artist in the awards' history. It was also his fourth Album of the Year win, surpassing Powderfinger's previous record.\n\nThe night was not a one-man show, though. Melbourne-based Ecca Vandal, a first-time nominee, converted seven nominations into four wins, among them the Michael Gudinski Breakthrough Artist award. Between them, she and Parker claimed almost half of the 29 categories. By contrast, Genesis Owusu, who had shared the lead in nominations with eight, went home empty-handed.\n\nYet the most striking feature of the evening was a coordinated protest against artificial intelligence companies training their models on Australian creative work without permission. Linked to an ARIA campaign urging the federal government to act, it saw a string of artists use their time on stage to speak out against any move to change copyright law. Laneway Festival's Danny Rogers dedicated his award to original music, while Tim Minchin championed the value of human artistry.\n\nEven Sir Elton John weighed in by video, telling the government: \"Don't let AI use any Australian artist's work without full permission.\" Musicians including Jack River and Josh Pyke warned that loosening the rules would amount to handing over creators' work. Whether the message will shift policy remains to be seen, but the industry has clearly signalled that it is prepared to fight.",
+      "b2": "Kevin Parker, the musician behind Tame Impala, made history at the 40th ARIA Awards in Sydney on Wednesday night. He won seven awards, including Album of the Year for Deadbeat and Song of the Year for Dracula. He now has 22 ARIA Awards in total, more than any other artist. Silverchair and John Farnham have 21 each.\n\nMelbourne-based Ecca Vandal also had a great night. It was her first time being nominated, and she won four awards, including the Michael Gudinski Breakthrough Artist award. Genesis Owusu had eight nominations but did not win anything.\n\nThe night also included a protest against AI companies. Many artists are angry that these companies use Australian creative work to train their AI models without asking permission. The protest was part of an ARIA campaign asking the government to act. Several artists spoke on stage against changing Australia's copyright laws.\n\nDanny Rogers from Laneway Festival dedicated his award to original music, and Tim Minchin spoke about why human creativity matters. Elton John sent a video message asking the government to protect Australian artists' work. It is not yet clear whether the government will listen, but the music industry has made its position very clear.",
+      "vocab": [
+        {
+          "word": "rewrite the record books",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "改写纪录，创造历史",
+          "en": "to achieve something that sets a new record",
+          "example": "The young swimmer rewrote the record books at the national titles.",
+          "forms": [
+            "rewrote the record books"
+          ]
+        },
+        {
+          "word": "tally",
+          "pos": "n.",
+          "ipa": "/ˈtæli/",
+          "zh": "总数，累计数",
+          "en": "a running total of points, wins or other items",
+          "example": "Her goal tally for the season is already higher than last year's."
+        },
+        {
+          "word": "apiece",
+          "pos": "adv.",
+          "ipa": "/əˈpiːs/",
+          "zh": "每个，各",
+          "en": "for each one",
+          "example": "The tickets cost twenty dollars apiece."
+        },
+        {
+          "word": "decorated",
+          "pos": "adj.",
+          "ipa": "/ˈdekəreɪtɪd/",
+          "zh": "获奖众多的",
+          "en": "having received many awards or honours",
+          "example": "He's one of the most decorated coaches in the league."
+        },
+        {
+          "word": "go home empty-handed",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "空手而归",
+          "en": "to leave without winning or getting anything",
+          "example": "We entered the trivia night but went home empty-handed again.",
+          "forms": [
+            "went home empty-handed"
+          ]
+        },
+        {
+          "word": "coordinated",
+          "pos": "adj.",
+          "ipa": "/kəʊˈɔːdɪneɪtɪd/",
+          "zh": "协同的，有组织的",
+          "en": "organised so that people act together",
+          "example": "Unions launched a coordinated campaign across three states."
+        },
+        {
+          "word": "a string of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一连串的",
+          "en": "a series of similar things or people, one after another",
+          "example": "The team has had a string of injuries this season."
+        },
+        {
+          "word": "weigh in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "发表意见，参与讨论",
+          "en": "to give your opinion in a discussion or debate",
+          "example": "Even the neighbours weighed in on where the new fence should go.",
+          "forms": [
+            "weighed in"
+          ]
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚待观察，还不清楚",
+          "en": "to be not yet known or decided",
+          "example": "Whether the new timetable will reduce delays remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Genesis Owusu won two of the awards he was nominated for.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Genesis Owusu “went home empty-handed”，即一个奖都没拿到，与题干相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "Kevin Parker now holds more ARIA Awards than any other artist.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说他累计22项，“making him the most decorated artist in the awards' history”，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Ecca Vandal will tour overseas next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到 Ecca Vandal 的巡演计划，无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "What was the main aim of the protest at the ceremony?",
+          "options": [
+            "To demand higher fees for performing at music festivals",
+            "To oppose AI companies using Australian creative work without permission",
+            "To criticise the way ARIA nominations are chosen",
+            "To call for more Australian music on commercial radio"
+          ],
+          "answer": 1,
+          "explain": "文中说这是 “a coordinated protest against artificial intelligence companies training their models on Australian creative work without permission”。"
+        }
+      ],
+      "discuss": "Should AI companies have to ask permission or pay artists before using their work to train models? What might happen to creative industries if they do not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-18/aria-awards-2026-tame-impala-ecca-vandal-genesis-owusu-ai/107401124"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck at Flinders Street",
+    "titleZh": "困在弗林德斯街车站",
+    "setting": "Two colleagues heading home after work find their train is delayed at Flinders Street Station.",
+    "settingZh": "两位同事下班回家时，发现他们在弗林德斯街车站要坐的火车晚点了。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh, you're kidding. Sandringham trains are delayed again? That's the third time this week.",
+        "zh": "不会吧，桑德灵厄姆线的火车又晚点了？这周都第三次了。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Yeah, the board's saying a signalling fault near Richmond. Could be a while, apparently.",
+        "zh": "是啊，显示屏上说里士满附近信号故障。据说可能要等一阵。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Brilliant. I promised my housemate I'd be home in time to cook dinner.",
+        "zh": "太好了（反话）。我答应室友回家做晚饭的。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Flick her a text now so she doesn't end up waiting around for you.",
+        "zh": "现在就给她发个短信吧，免得她一直干等你。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good call. Do you reckon it's worth jumping on a tram instead?",
+        "zh": "好主意。你觉得改坐电车值得吗？"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Honestly, it'd take ages. I'd rather grab a coffee and ride it out here.",
+        "zh": "说实话，那要花很久。我宁可买杯咖啡在这儿等过去。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Fair enough. Have you seen the news about councils banning smart glasses at beaches?",
+        "zh": "也是。你看到议会要在海滩禁用智能眼镜的新闻了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "I did. I'm on the fence, to be honest. Privacy matters, but bans seem a bit heavy-handed.",
+        "zh": "看到了。说实话我还拿不定主意。隐私很重要，但直接禁止似乎有点过头。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Maybe, but I wouldn't want some random filming me at the pool without asking.",
+        "zh": "也许吧，但我可不想有陌生人未经允许在泳池拍我。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "No, fair point. That would really get under my skin too.",
+        "zh": "嗯，有道理。那也会让我很不爽。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Hang on, the board's just changed. They're saying fifteen minutes now.",
+        "zh": "等等，显示屏刚变了，现在说还要十五分钟。"
+      },
+      {
+        "s": "B",
+        "name": "Marcus",
+        "en": "Could be worse. Come on, my shout — let's get that coffee before it changes again.",
+        "zh": "还不算太糟。走吧，我请客——趁它还没再变，先去买咖啡。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "You're a legend. I'll get the next one, I promise.",
+        "zh": "你真够意思。下次我请，说定了。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Are you joking?",
+        "en": "you're kidding",
+        "zh": "表示惊讶或不满，“不会吧”"
+      },
+      {
+        "plain": "Send her a message",
+        "en": "Flick her a text",
+        "zh": "澳式口语：随手发条短信"
+      },
+      {
+        "plain": "That's a good idea.",
+        "en": "Good call.",
+        "zh": "赞同对方的建议"
+      },
+      {
+        "plain": "wait until the problem is over",
+        "en": "ride it out",
+        "zh": "耐心等到困境结束"
+      },
+      {
+        "plain": "I can't decide.",
+        "en": "I'm on the fence",
+        "zh": "犹豫不决，没站队"
+      },
+      {
+        "plain": "too strict",
+        "en": "heavy-handed",
+        "zh": "（做法）过于强硬"
+      },
+      {
+        "plain": "really annoy me",
+        "en": "get under my skin",
+        "zh": "让人心烦、恼火"
+      },
+      {
+        "plain": "I'll pay.",
+        "en": "my shout",
+        "zh": "澳式口语：我请客"
+      }
+    ]
+  }
+}
