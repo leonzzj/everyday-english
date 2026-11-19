@@ -1,31 +1,31 @@
 {
- "updatedAt": "2026-11-19T00:37:24.065Z",
+ "updatedAt": "2026-11-19T10:32:57.144Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "The first ever Trump-Putin-Xi meeting",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/the-first-ever-trump-putin-xi-meeting/107399786",
-   "audio": "https://traffic.megaphone.fm/TECO2388249960.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/d7e9413c-e362-11f1-8a0d-d7cb3bbde19f/image/d60348729a75777a4d0f54fba7121081.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "title": "Can Pat Cummins survive Sandpapergate?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/can-pat-cummins-survive-sandpapergate/107402976",
+   "audio": "https://traffic.megaphone.fm/TECO9195887934.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/23d8c564-e3c1-11f1-8191-b30e5d36912f/image/0ea936d28ade6ce71fc4a7025f48043a.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
    "date": "2026-11-19",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "For the first time the leaders of the US, Russia and China are set to be in the same room.&nbsp;&nbsp; The meeting, at the APEC summit in China, is being compared to the 1945 Yalta conference, when world leaders gathered to shape the post-war world…"
+   "desc": "Just days after denying any involvement, Australian Test cricket captain Patrick Cummins is under pressure following an explosive 4,000-word essay by Cameron Bancroft, the man at the centre of the 2018 Sandpaper scandal, claiming the whole team knew about the…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "From Redfern to Harvard — deep listening and changing the world",
-   "url": "https://www.abc.net.au/listen/programs/conversations/larissa-behrendt-euahleyai-gamillaroi-law-redfern/107385232",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qg/Z/n2.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F1a04f03380fc638dae91348fbd3952cd.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-18",
-   "minutes": 53,
+   "title": "Encore: The boy dancing with teatowels who became a ballet icon",
+   "url": "https://www.abc.net.au/listen/programs/conversations/david-mcallister-ballet-dancing-australian-ballet-legend/107386672",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qi/Z/vk.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3b55bbad22cc2b63f9c0ac88c5339e3e.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-19",
+   "minutes": 50,
    "level": "C1",
    "accent": "AU",
-   "desc": "Euahleyai and Gamillaroi law academic, Larissa Behrendt on continuing her flawed but extraordinary dad's work and forging her own path as the first Aboriginal woman to study law at Harvard. Larissa grew up hearing mischievous stories from her dad Paul, who…"
+   "desc": "Growing up David McAllister was tormented by school bullies for his dancing, but within years, it was clear he was one of the best ballet dancers of his generation. When David was a little boy, he would tuck tea towels into his undies and dance around in…"
   },
   {
    "source": "TED Talks Daily",
