@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-18T10:25:24.654Z",
+ "updatedAt": "2026-11-19T00:37:24.065Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Is this how a recession feels?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/is-this-how-a-recession-feels/107395546",
-   "audio": "https://traffic.megaphone.fm/TECO2114295772.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/afc28ef8-e299-11f1-9829-afc634c399a4/image/edf5b4c97d4c990266c955205f925a56.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-18",
-   "minutes": 18,
+   "title": "The first ever Trump-Putin-Xi meeting",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/the-first-ever-trump-putin-xi-meeting/107399786",
+   "audio": "https://traffic.megaphone.fm/TECO2388249960.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/d7e9413c-e362-11f1-8a0d-d7cb3bbde19f/image/d60348729a75777a4d0f54fba7121081.png?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-19",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "After years of high inflation and mounting economic pressure, 2027 is shaping up to be an even tougher year for many Australians. &nbsp; And now the government is looking to tighten its own belt, flagging spending cuts in the mid-year budget…"
+   "desc": "For the first time the leaders of the US, Russia and China are set to be in the same room.&nbsp;&nbsp; The meeting, at the APEC summit in China, is being compared to the 1945 Yalta conference, when world leaders gathered to shape the post-war world…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "My search for proof aliens exist | Avi Loeb (re-release)",
-   "url": "http://go.ted.com/AviLoeb",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6afb5767f1fb73f380bc6633/media.mp3",
+   "title": "The “godfather of AI” on the risks that worry him most | Geoffrey Hinton",
+   "url": "http://go.ted.com/GeoffreyHinton",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6afc7f5d22c8b5ded545df81/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-18",
-   "minutes": 22,
+   "date": "2026-11-19",
+   "minutes": 29,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Why have we not yet found proof of alien life? According to astrophysicist Avi Loeb, we simply haven't dedicated the proper resources. Diving into unidentified phenomena such as the Oumuamua asteroid, he explores his scientific search for extraterrestrial…"
+   "desc": "Geoffrey Hinton helped create the neural networks behind today’s AI, won a Nobel Prize for it — and has spent the years since warning about where it’s headed. In conversation with journalist Nicholas Thompson, Hinton shares the AI risks he’s worried about…"
   },
   {
    "source": "SBS Learn English",
