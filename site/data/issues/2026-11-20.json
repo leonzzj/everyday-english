@@ -1,0 +1,748 @@
+{
+  "date": "2026-11-20",
+  "issueNo": 33,
+  "title": "Rohingya genocide ruling, a star's cosmic meal and a jobs shock",
+  "createdAt": "2026-11-20T06:53:31+11:00",
+  "stories": [
+    {
+      "id": "icj-rohingya-genocide",
+      "category": "World",
+      "headline": "World court finds Myanmar guilty of genocide against the Rohingya",
+      "headlineZh": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪",
+      "summaryZh": "国际法院以九比六裁定缅甸2017年在若开邦对罗兴亚人实施种族灭绝，但裁决难以执行。",
+      "c1": "The International Court of Justice has ruled that Myanmar committed genocide against its Rohingya Muslim minority, marking the first time the United Nations' top court has found a state itself responsible for the crime. The case was brought by The Gambia, and nine of the court's fifteen judges concluded that the military operations of 2017 in northern Rakhine State were carried out with the intention of destroying the group. The court cited at least 10,000 deaths.\n\nGenocide is notoriously difficult to prove, because prosecutors must establish a specific intent to wipe out a people rather than simply evidence of mass killing. Myanmar had consistently denied the allegations, insisting that its soldiers were conducting \"clearance operations\" in response to armed attacks. The judges, however, found that the only reasonable inference was genocidal intent.\n\nThe ruling is final and cannot be appealed. Myanmar has been ordered to halt the violence, investigate and punish those responsible, and allow displaced Rohingya to return safely and voluntarily. It stopped short of ordering citizenship for all Rohingya, and compensation will be settled later, with Myanmar given until November 2028 to submit a plan.\n\nFor survivors, the decision is a long-awaited vindication. One rights advocate called it \"a huge day for the Rohingya people\". Yet the court has no means of enforcing its judgments, and experts caution that the political turmoil in Myanmar makes meaningful redress unlikely in the near term. Meanwhile, roughly 1.2 million Rohingya remain crammed into camps in Cox's Bazar, Bangladesh, where aid has dwindled since the United States cut foreign aid in 2025.",
+      "b2": "The International Court of Justice, the UN's highest court, has ruled that Myanmar committed genocide against the Rohingya, a Muslim minority. It is the first time the court has found that a country committed genocide. The case was brought by The Gambia, and nine of the fifteen judges agreed.\n\nThe judges said that military operations in northern Rakhine State in 2017 were meant to destroy the Rohingya as a group. At least 10,000 people died. Myanmar has always denied this. It said its soldiers were responding to armed attacks.\n\nThe decision is final, so Myanmar cannot appeal. The court ordered it to stop the violence, punish those responsible and let Rohingya people return home safely if they choose. The court did not order citizenship for all Rohingya. Myanmar must present a plan for compensation by November 2028.\n\nRohingya survivors and rights groups welcomed the ruling. However, the court cannot force a country to follow its decisions, and experts think real change in Myanmar will be slow. About 1.2 million Rohingya still live in crowded camps in Cox's Bazar, Bangladesh, where aid has fallen since the United States cut foreign aid in 2025.",
+      "vocab": [
+        {
+          "word": "notoriously difficult",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "出了名地困难",
+          "en": "well known for being very hard",
+          "example": "Cats are notoriously difficult to train, but ours learnt to sit."
+        },
+        {
+          "word": "establish",
+          "pos": "v.",
+          "ipa": "/ɪˈstæblɪʃ/",
+          "zh": "证实；确立",
+          "en": "to prove that something is true",
+          "example": "Police are still trying to establish what caused the fire."
+        },
+        {
+          "word": "wipe out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "彻底消灭",
+          "en": "to destroy something completely",
+          "example": "One bad season could wipe out a small farm's savings."
+        },
+        {
+          "word": "inference",
+          "pos": "n.",
+          "ipa": "/ˈɪnfərəns/",
+          "zh": "推断；推论",
+          "en": "a conclusion reached from the available evidence",
+          "example": "The obvious inference is that nobody read the email."
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "差一点没有；没有走到…地步",
+          "en": "to almost do something but decide not to",
+          "example": "She criticised the plan but stopped short of calling for it to be scrapped.",
+          "forms": [
+            "stopped short of"
+          ]
+        },
+        {
+          "word": "vindication",
+          "pos": "n.",
+          "ipa": "/ˌvɪndɪˈkeɪʃn/",
+          "zh": "证明正确；平反",
+          "en": "proof that someone was right or treated unfairly",
+          "example": "The award felt like a vindication of years of hard work."
+        },
+        {
+          "word": "redress",
+          "pos": "n.",
+          "ipa": "/rɪˈdres/",
+          "zh": "补救；赔偿",
+          "en": "payment or action to correct a wrong",
+          "example": "Customers who were overcharged are seeking redress from the bank."
+        },
+        {
+          "word": "in the near term",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在短期内",
+          "en": "in the period of time that is coming soon",
+          "example": "Prices are unlikely to fall in the near term."
+        },
+        {
+          "word": "dwindle",
+          "pos": "v.",
+          "ipa": "/ˈdwɪndl/",
+          "zh": "逐渐减少",
+          "en": "to become gradually smaller or fewer",
+          "example": "Our savings dwindled while we were travelling.",
+          "forms": [
+            "dwindled"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The court's decision was supported by every judge.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"nine of the court's fifteen judges\" 得出结论，并非全体法官一致，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Myanmar can still appeal against the ruling.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文明确说 \"The ruling is final and cannot be appealed\"，与题述矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Myanmar's government has said it will comply with the court's orders.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到缅甸此前否认指控（\"consistently denied the allegations\"），没有说明其是否会遵守裁决，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, why is genocide hard to prove?",
+          "options": [
+            "Evidence of mass killing is usually destroyed",
+            "Prosecutors must show a specific intent to destroy a group",
+            "Only the UN Security Council can bring such cases",
+            "Witnesses are rarely willing to testify"
+          ],
+          "answer": 1,
+          "explain": "原文：\"prosecutors must establish a specific intent to wipe out a people rather than simply evidence of mass killing\"。"
+        }
+      ],
+      "discuss": "International courts often cannot enforce their rulings. Do you think judgments like this still matter? Why or why not?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168836"
+        }
+      ]
+    },
+    {
+      "id": "giant-star-swallows-companion",
+      "category": "Science",
+      "headline": "Astronomers catch a giant star swallowing its companion",
+      "headlineZh": "天文学家首次目睹巨星吞噬伴星全过程",
+      "summaryZh": "仙女座星系中一颗红巨星吞没了伴星，这是首次从头到尾观测到此类过程。",
+      "c1": "Astronomers have, for the first time, watched a giant star engulf a smaller companion from beginning to end, according to a study published in Nature. The pair, catalogued as AT2025abao and affectionately nicknamed Big Bao and Little Bao, lie in the Andromeda galaxy, some 2.5 million light-years from Earth. Big Bao is a red giant roughly seven times the mass of the Sun and more than 350 times its size, while its partner has about 0.7 solar masses.\n\nThe system first caught researchers' attention in 2023 because of its erratic brightness. Trawling through archival data, the team, led by Columbia University's Viraj Karambelkar, found that the giant had begun brightening as early as 2018. A sharp flare in October 2025 suggested that Little Bao had finally been swallowed, and NASA's James Webb Space Telescope observed the aftermath just 47 days after the outburst peaked, the earliest follow-up of such an event.\n\nThe process, known as common envelope evolution, has long been proposed in theory but is extremely hard to catch in practice, since the engulfment lasts only a few years. It is thought to play a pivotal role in creating tight pairs of compact objects, such as neutron stars that eventually collide. An Australian astrophysicist not involved in the work likened the observations to a crime scene where the cameras were already rolling.\n\nThat said, the researchers acknowledge that engulfment is a possible, rather than certain, explanation, and modelling such turbulent events remains fiendishly complex. They expect new survey telescopes to capture many more of these cosmic meals in the years ahead.",
+      "b2": "For the first time, astronomers have watched a giant star swallow a smaller star from start to finish. The study was published in the journal Nature. The two stars are in the Andromeda galaxy, about 2.5 million light-years away. Scientists call them Big Bao and Little Bao. Big Bao is a red giant about seven times heavier than the Sun and more than 350 times bigger.\n\nResearchers noticed the system in 2023 because its brightness kept changing. Older data showed that the giant star had started getting brighter in 2018. In October 2025, a sudden bright flash suggested that the smaller star had been swallowed. The James Webb Space Telescope studied the area only 47 days after the flash was at its brightest.\n\nScientists have long believed this process happens, but it is very hard to see because it lasts only a few years. It may help explain how pairs of very dense stars form close together.\n\nHowever, the team says swallowing is a possible explanation, not a certain one. They hope new telescopes will find many more events like this in the future.",
+      "vocab": [
+        {
+          "word": "engulf",
+          "pos": "v.",
+          "ipa": "/ɪnˈɡʌlf/",
+          "zh": "吞没；淹没",
+          "en": "to completely surround or swallow something",
+          "example": "Within minutes, thick smoke had engulfed the whole street."
+        },
+        {
+          "word": "catch someone's attention",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "引起某人注意",
+          "en": "to make someone notice something",
+          "example": "A bright yellow poster caught my attention at the station.",
+          "forms": [
+            "caught researchers' attention"
+          ]
+        },
+        {
+          "word": "erratic",
+          "pos": "adj.",
+          "ipa": "/ɪˈrætɪk/",
+          "zh": "不稳定的；无规律的",
+          "en": "changing often and without a regular pattern",
+          "example": "The wifi here is so erratic that I keep losing my calls."
+        },
+        {
+          "word": "trawl through",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "仔细搜寻；翻查",
+          "en": "to search through a large amount of material",
+          "example": "I spent the evening trawling through old photos for the party.",
+          "forms": [
+            "Trawling through"
+          ]
+        },
+        {
+          "word": "as early as",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "早在……",
+          "en": "used to stress how early something happened",
+          "example": "People start queuing as early as five in the morning."
+        },
+        {
+          "word": "play a pivotal role",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "起关键作用",
+          "en": "to be extremely important in making something happen",
+          "example": "Volunteers played a pivotal role in the clean-up after the floods.",
+          "forms": [
+            "play a pivotal role"
+          ]
+        },
+        {
+          "word": "liken something to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……比作",
+          "en": "to say that one thing is similar to another",
+          "example": "She likened starting a business to raising a child.",
+          "forms": [
+            "likened the observations to"
+          ]
+        },
+        {
+          "word": "that said",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "话虽如此",
+          "en": "used to introduce a point that contrasts with what came before",
+          "example": "The food was expensive. That said, it was the best meal I've had all year."
+        },
+        {
+          "word": "fiendishly complex",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "极其复杂",
+          "en": "extremely complicated and difficult",
+          "example": "The tax rules for freelancers are fiendishly complex."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Big Bao is larger and heavier than its companion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 Big Bao 约七倍太阳质量、\"more than 350 times its size\"，伴星只有约0.7倍太阳质量，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The two stars were first spotted in October 2025.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：\"The system first caught researchers' attention in 2023\"；2025年10月只是出现了明显增亮，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The research team plans to use the Webb telescope to observe the system again next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说韦布望远镜在爆发峰值后47天进行了观测，并未提及明年再次观测的计划，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why is common envelope evolution rarely observed?",
+          "options": [
+            "It only happens in the Milky Way",
+            "It produces no visible light",
+            "The engulfment stage lasts only a few years",
+            "Telescopes cannot see as far as Andromeda"
+          ],
+          "answer": 2,
+          "explain": "原文：\"extremely hard to catch in practice, since the engulfment lasts only a few years\"。"
+        }
+      ],
+      "discuss": "Why do you think people are fascinated by discoveries in distant space, even when they have no practical use? Should governments keep funding this kind of research?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-11-19/scientists-watch-red-giant-star-eat-another-the-size-of-our-sun/107394074"
+        },
+        {
+          "name": "Sci.News",
+          "url": "https://www.sci.news/astronomy/webb-star-merger-andromeda-galaxy-15207.html"
+        }
+      ]
+    },
+    {
+      "id": "data-centre-pollution",
+      "category": "Environment",
+      "headline": "Data centre boom could rival coal plants for pollution, report warns",
+      "headlineZh": "报告警告：数据中心热潮的污染或堪比燃煤电厂",
+      "summaryZh": "气候委员会称，九个拟建数据中心若靠化石能源供电，2035年排放或近四千万吨。",
+      "c1": "Australia's rush to build data centres for artificial intelligence could pump out as much greenhouse gas as some of the country's dirtiest coal-fired power stations, according to a new report from the Climate Council. The group examined nine proposed facilities in New South Wales, Victoria, Queensland and the Northern Territory, and estimated that, if powered largely by fossil fuels, they could produce close to 40 million tonnes of pollution a year by 2035.\n\nThe Climate Council's chief executive, Amanda McKenzie, warned that because most new centres plan to plug into the existing grid, which still runs mainly on coal and gas, the boom could drive up both emissions and power bills. The organisation is calling for mandatory national standards that would oblige large projects to bring new renewable energy and storage online within three years of approval. The federal government is expected to introduce legislation along similar lines early next year.\n\nThe industry has pushed back. Its peak body, Data Centres Australia, dismissed the demand figures as \"speculative\" and said operating centres already offset around 70 per cent of their energy use through renewable agreements. A University of Technology Sydney researcher conceded the report reflected a worst-case scenario, while acknowledging it was a genuine possibility if wind and solar construction fails to accelerate.\n\nThe debate is far from abstract for nearby communities. More than 24,000 people have signed a petition against a proposed digital park near Dalby in Queensland, and residents of Victoria's Latrobe Valley fear that thirsty data centres could put further strain on already stressed rivers.",
+      "b2": "A new report from the Climate Council says Australia's new data centres for artificial intelligence could create as much pollution as some of the country's worst coal power stations. The group studied nine planned data centres in four states and territories. It found that, if they mainly use fossil fuels, they could produce nearly 40 million tonnes of pollution a year by 2035.\n\nThe Climate Council's chief executive, Amanda McKenzie, said most new centres plan to use the existing power grid, which still depends mostly on coal and gas. This could increase pollution and electricity prices. The group wants national rules that make large projects add new renewable energy and storage within three years. The federal government plans to introduce a law like this next year.\n\nThe data centre industry disagrees. Its main industry group called the figures \"speculative\". It says current centres already cover about 70 per cent of their energy use with renewable deals. A researcher said the report described the worst case, but that it could still happen.\n\nLocal people are also worried. More than 24,000 people have signed a petition against a project near Dalby in Queensland, and some Victorians fear data centres will use too much river water.",
+      "vocab": [
+        {
+          "word": "pump out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "大量排放；大量产出",
+          "en": "to produce large amounts of something",
+          "example": "Old cars pump out far more fumes than modern ones."
+        },
+        {
+          "word": "plug into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "接入；连接到",
+          "en": "to connect to a system or network",
+          "example": "The new suburb will plug into the city's water supply next year."
+        },
+        {
+          "word": "drive up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "推高（价格等）",
+          "en": "to make prices or costs rise",
+          "example": "The housing shortage has driven up rents across Melbourne."
+        },
+        {
+          "word": "mandatory",
+          "pos": "adj.",
+          "ipa": "/ˈmændətri/",
+          "zh": "强制的；法定的",
+          "en": "required by law or a rule",
+          "example": "Wearing a helmet is mandatory for cyclists in Australia."
+        },
+        {
+          "word": "bring something online",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使投入运行",
+          "en": "to make a system or facility start operating",
+          "example": "The council hopes to bring the new pool online by summer.",
+          "forms": [
+            "bring new renewable energy and storage online"
+          ]
+        },
+        {
+          "word": "push back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "反对；抵制",
+          "en": "to resist or argue against something",
+          "example": "Staff pushed back against the plan to cut flexible hours.",
+          "forms": [
+            "pushed back"
+          ]
+        },
+        {
+          "word": "worst-case scenario",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "最坏情况",
+          "en": "the worst possible thing that could happen",
+          "example": "In the worst-case scenario, we'll just catch a later flight."
+        },
+        {
+          "word": "far from abstract",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝非抽象空谈；非常现实",
+          "en": "very real and practical, not just a theory",
+          "example": "For renters, the housing crisis is far from abstract."
+        },
+        {
+          "word": "put a strain on",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给……带来压力",
+          "en": "to cause difficulties or pressure for something",
+          "example": "Long shifts can put a strain on family life.",
+          "forms": [
+            "put further strain on"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All nine data centres in the report are planned for New South Wales.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说九个项目位于 \"New South Wales, Victoria, Queensland and the Northern Territory\"，并非全在新州，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Data Centres Australia accepted the Climate Council's demand figures.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文：该行业组织 \"dismissed the demand figures as 'speculative'\"，与题述相反。"
+        },
+        {
+          "type": "tfng",
+          "q": "The proposed digital park near Dalby has already received government approval.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说有超过24,000人签署请愿反对 \"a proposed digital park near Dalby\"，没有提及是否已获批准，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the Climate Council want large data centre projects to do?",
+          "options": [
+            "Build their own coal-fired power stations",
+            "Move to the Northern Territory",
+            "Add new renewable energy and storage within three years of approval",
+            "Stop using the grid completely"
+          ],
+          "answer": 2,
+          "explain": "原文：要求大型项目 \"bring new renewable energy and storage online within three years of approval\"。"
+        }
+      ],
+      "discuss": "Should the environmental cost of artificial intelligence change how often we use it? Who should be responsible for reducing that cost: companies, governments or users?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-19/climate-council-report-data-centre-millions-tonnes-pollution-/107400036"
+        },
+        {
+          "name": "Climate Council",
+          "url": "https://www.climatecouncil.org.au/resources/pollution-pipeline-australias-dirtiest-data-ce/"
+        }
+      ]
+    },
+    {
+      "id": "unemployment-recession-fears",
+      "category": "Business",
+      "headline": "Jobless rate jumps to 4.9%, fuelling fears of recession",
+      "headlineZh": "澳大利亚失业率升至4.9%，引发经济衰退担忧",
+      "summaryZh": "十月澳就业人数意外减少约4.4万，失业率创2021年以来新高，经济学家警告衰退风险。",
+      "c1": "Australia's unemployment rate climbed to 4.9 per cent in October, up from 4.7 per cent the month before and the highest level since October 2021, according to figures from the Australian Bureau of Statistics. Employment fell by about 44,000 people, a sharp contrast with the gain of roughly 25,000 that economists had pencilled in. Part-time positions accounted for the overwhelming majority of the losses, and the participation rate slipped to 66.6 per cent.\n\nThe figures prompted a wave of gloomy commentary. AMP's chief economist said the data was \"going in the direction of recession\", while other analysts suggested the economy might already have one foot in a downturn. Opposition Leader Angus Taylor seized on the numbers, declaring that the country was in an \"economic crisis\". Investors were rattled too: the ASX 200 fell just over 1 per cent and the Australian dollar sank to a ten-month low.\n\nIt is worth noting, however, that a technical recession, defined as two consecutive quarters of negative growth, could not be confirmed until around the middle of 2027. Some economists also point out that Australia saw similar warning signs in 2001 and 2008 yet narrowly avoided one.\n\nThe weaker labour market puts the Reserve Bank in a delicate position. After five rate rises in nine months took the cash rate to 4.85 per cent, most major banks now expect it to hold steady in December. The RBA has argued that unemployment of between 4.5 and 5 per cent is needed to rein in inflation, but NAB predicts the jobless rate could peak as high as 5.5 per cent.",
+      "b2": "Australia's unemployment rate rose to 4.9 per cent in October, up from 4.7 per cent in September. It is the highest rate since October 2021. About 44,000 fewer people had jobs, although economists had expected around 25,000 more. Most of the jobs lost were part-time.\n\nMany economists were worried by the news. AMP's chief economist said the data was \"going in the direction of recession\". Opposition Leader Angus Taylor said Australia was in an \"economic crisis\". The share market fell by just over 1 per cent, and the Australian dollar dropped to its lowest level in ten months.\n\nHowever, a recession usually means two quarters in a row of negative growth, and this cannot be confirmed until around the middle of 2027. Australia also saw similar warning signs in 2001 and 2008 but did not go into recession then.\n\nThe Reserve Bank now has a difficult decision. It has raised interest rates five times in nine months, to 4.85 per cent. Most major banks now think it will not change rates in December. The RBA says unemployment between 4.5 and 5 per cent is needed to control inflation, but NAB thinks it could reach 5.5 per cent.",
+      "vocab": [
+        {
+          "word": "pencil in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "初步预计；暂定",
+          "en": "to expect or plan something that may change later",
+          "example": "Let's pencil in Friday for dinner and confirm later.",
+          "forms": [
+            "pencilled in"
+          ]
+        },
+        {
+          "word": "account for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "占（比例）",
+          "en": "to form a particular amount of a total",
+          "example": "Rent accounts for nearly half of my income.",
+          "forms": [
+            "accounted for"
+          ]
+        },
+        {
+          "word": "the overwhelming majority",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "绝大多数",
+          "en": "almost all of a group",
+          "example": "The overwhelming majority of students passed the course."
+        },
+        {
+          "word": "have one foot in",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "一只脚已踏入；几乎陷入",
+          "en": "to be very close to or already partly in a situation",
+          "example": "With all these delays, the project has one foot in failure.",
+          "forms": [
+            "have one foot in"
+          ]
+        },
+        {
+          "word": "seize on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "抓住（借题发挥）",
+          "en": "to quickly use something to support your argument",
+          "example": "Critics seized on the mistake to attack the minister.",
+          "forms": [
+            "seized on"
+          ]
+        },
+        {
+          "word": "rattled",
+          "pos": "adj.",
+          "ipa": "/ˈrætld/",
+          "zh": "慌乱的；不安的",
+          "en": "nervous or worried",
+          "example": "She was a bit rattled after the near miss on the freeway."
+        },
+        {
+          "word": "narrowly avoid",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "险些发生；侥幸避免",
+          "en": "to only just escape something bad",
+          "example": "The two trams narrowly avoided a collision.",
+          "forms": [
+            "narrowly avoided"
+          ]
+        },
+        {
+          "word": "in a delicate position",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "处境微妙；进退两难",
+          "en": "in a situation that needs great care",
+          "example": "Being friends with both of them puts me in a delicate position."
+        },
+        {
+          "word": "rein in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "控制；抑制",
+          "en": "to control something more strictly",
+          "example": "We need to rein in our spending before Christmas."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Economists had expected employment to rise in October.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文：经济学家原本预计 \"the gain of roughly 25,000\"，即预计就业增加，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Australia is now officially in a technical recession.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说技术性衰退 \"could not be confirmed until around the middle of 2027\"，因此目前并未正式进入衰退，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the job losses were in the construction industry.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说 \"Part-time positions accounted for the overwhelming majority of the losses\"，未提及具体行业，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What do most major banks expect the Reserve Bank to do in December?",
+          "options": [
+            "Raise the cash rate for a sixth time",
+            "Keep the cash rate unchanged",
+            "Cut the cash rate sharply",
+            "Stop publishing its forecasts"
+          ],
+          "answer": 1,
+          "explain": "原文：\"most major banks now expect it to hold steady in December\"。"
+        }
+      ],
+      "discuss": "Why do you think rising unemployment worries people even when the numbers are still fairly low? What should governments do first when the job market weakens?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abc.net.au/news/2026-11-19/federal-politics-live-blog-migrant-workers/107400850"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Planning a Saturday Barbecue",
+    "titleZh": "计划周六烧烤",
+    "setting": "Two friends in Fitzroy North plan a weekend barbecue in the park while keeping an eye on a hot forecast.",
+    "settingZh": "两位住在北菲茨罗伊的朋友一边关注高温天气预报，一边计划周末去公园烧烤。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Hey, are you still keen on that barbecue at Edinburgh Gardens on Saturday?",
+        "zh": "嘿，你周六还想去爱丁堡花园烧烤吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Definitely, but have you seen the forecast? It's meant to hit thirty-four.",
+        "zh": "当然想，不过你看天气预报了吗？据说会到34度。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Ugh, typical Melbourne. Last weekend I was wearing a puffer jacket.",
+        "zh": "唉，真是典型的墨尔本天气。上周末我还穿着羽绒服呢。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "We could push it back to the evening, once things have cooled down a bit.",
+        "zh": "我们可以推迟到傍晚，等天气凉快一点再去。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good call. Say six o'clock? That way we'll catch the sunset too.",
+        "zh": "好主意。六点怎么样？这样还能看到日落。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Works for me. Should I grab a spot early, though? It gets packed on hot days.",
+        "zh": "我没问题。不过我要不要早点去占位置？天热的时候人特别多。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "If you don't mind. I'll be stuck at work until about five anyway.",
+        "zh": "如果你不介意的话就麻烦你了。反正我得在公司待到五点左右。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "No worries. What are we doing for food? Just snags and a few salads?",
+        "zh": "没问题。吃的怎么安排？就香肠加几样沙拉？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Let's mix it up a bit. I'll bring some marinated chicken skewers.",
+        "zh": "来点新花样吧。我带些腌好的鸡肉串。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Ooh, nice. Then I'll sort out drinks and a bag of ice.",
+        "zh": "哦，不错。那我负责饮料和一袋冰块。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Perfect. Oh, and are the public barbecues even working at the moment?",
+        "zh": "完美。哦对了，那里的公共烧烤炉现在能用吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Not sure. I'll double-check the council website tonight, just to be safe.",
+        "zh": "不确定。为了保险起见，我今晚去市政府网站再确认一下。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Cheers. And if there's a total fire ban, we'll just do a picnic instead.",
+        "zh": "谢啦。要是全面禁火，我们就改成野餐。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Fair enough. Either way, I'm just looking forward to switching off for once.",
+        "zh": "有道理。不管怎样，我就盼着能难得放松一下。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Do you still want to",
+        "en": "are you still keen on",
+        "zh": "keen on：很想做某事（澳式常用）"
+      },
+      {
+        "plain": "It will probably reach",
+        "en": "It's meant to hit",
+        "zh": "be meant to：据说会；hit：达到（温度）"
+      },
+      {
+        "plain": "change it to a later time",
+        "en": "push it back",
+        "zh": "推迟"
+      },
+      {
+        "plain": "That's a good idea.",
+        "en": "Good call.",
+        "zh": "好主意（口语）"
+      },
+      {
+        "plain": "That time is fine for me.",
+        "en": "Works for me.",
+        "zh": "我没问题"
+      },
+      {
+        "plain": "get a place",
+        "en": "grab a spot",
+        "zh": "占个位置"
+      },
+      {
+        "plain": "do something different",
+        "en": "mix it up a bit",
+        "zh": "换换花样"
+      },
+      {
+        "plain": "relax completely",
+        "en": "switching off",
+        "zh": "彻底放松，不想工作的事"
+      }
+    ]
+  }
+}
