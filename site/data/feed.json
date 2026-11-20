@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T00:45:18.682Z",
+ "updatedAt": "2026-11-20T10:13:58.473Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: The boy dancing with teatowels who became a ballet icon",
-   "url": "https://www.abc.net.au/listen/programs/conversations/david-mcallister-ballet-dancing-australian-ballet-legend/107386672",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qi/Z/vk.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3b55bbad22cc2b63f9c0ac88c5339e3e.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-19",
-   "minutes": 50,
+   "title": "Beyond the robot apocalypse - who really wins in a world of AI?",
+   "url": "https://www.abc.net.au/listen/programs/conversations/cory-doctorow-artificial-intelligence/107388236",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qj/Z/4t.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F38d31893d5853d14327f9c0ed5303176.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-20",
+   "minutes": 52,
    "level": "C1",
    "accent": "AU",
-   "desc": "Growing up David McAllister was tormented by school bullies for his dancing, but within years, it was clear he was one of the best ballet dancers of his generation. When David was a little boy, he would tuck tea towels into his undies and dance around in…"
+   "desc": "Journalist Cory Doctorow on why we need to dig deeper into the scary messaging around AI to flip the narrative so it works FOR us instead of the other way around. AI is now widely seen as a job destroyer, a slop maker, a privacy invader and another burden on…"
   },
   {
    "source": "TED Talks Daily",
