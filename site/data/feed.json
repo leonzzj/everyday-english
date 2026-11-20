@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-19T10:32:57.144Z",
+ "updatedAt": "2026-11-20T00:45:18.682Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Can Pat Cummins survive Sandpapergate?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/can-pat-cummins-survive-sandpapergate/107402976",
-   "audio": "https://traffic.megaphone.fm/TECO9195887934.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/23d8c564-e3c1-11f1-8191-b30e5d36912f/image/0ea936d28ade6ce71fc4a7025f48043a.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-19",
-   "minutes": 17,
+   "title": "Are we ready for the next big tech outage?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/are-we-ready-for-the-next-big-tech-outage/107403008",
+   "audio": "https://traffic.megaphone.fm/TECO3201581165.mp3",
+   "image": "https://megaphone.imgix.net/podcasts/0208b7da-e42c-11f1-9d73-cb5c073dcac0/image/c210e5856b45ee771e734b48ae33cf07.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
+   "date": "2026-11-20",
+   "minutes": 18,
    "level": "C1",
    "accent": "AU",
-   "desc": "Just days after denying any involvement, Australian Test cricket captain Patrick Cummins is under pressure following an explosive 4,000-word essay by Cameron Bancroft, the man at the centre of the 2018 Sandpaper scandal, claiming the whole team knew about the…"
+   "desc": "Over the past week, a series of tech outages at major companies around the world have caused chaos. &nbsp;&nbsp;There was the Microsoft glitch which&nbsp;caused a&nbsp;mass&nbsp;disruption&nbsp;of services; an aviation update grounded every plane&nbsp;across…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The “godfather of AI” on the risks that worry him most | Geoffrey Hinton",
-   "url": "http://go.ted.com/GeoffreyHinton",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6afc7f5d22c8b5ded545df81/media.mp3",
+   "title": "A letter to the end of time | Lau Noah",
+   "url": "http://go.ted.com/launoah",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aff1debc1a867006b449928/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-19",
-   "minutes": 29,
+   "date": "2026-11-20",
+   "minutes": 20,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Geoffrey Hinton helped create the neural networks behind today’s AI, won a Nobel Prize for it — and has spent the years since warning about where it’s headed. In conversation with journalist Nicholas Thompson, Hinton shares the AI risks he’s worried about…"
+   "desc": "You’ve likely never met composer Lau Noah, but she has a wish for you: that someday you’ll look back on your life and feel at peace. In a soulful performance that’s part concert, part story hour, she weaves together songs and short fables that celebrate love…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Catwalks and crackdowns",
-   "url": "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran",
+   "title": "At least it remembers",
+   "url": "https://aeon.co/essays/what-would-parenting-by-ai-look-like",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/aadc8bad-88e2-4670-bc0a-b6a8c5190408/essay-gettyimages-2294390691.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-17",
+   "image": "https://images.aeonmedia.co/images/67889061-dbb5-4c47-87eb-21851f330133/essay-gettyimages-1950705233.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-19",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Women in Tehran are changing society by dressing as they choose, in numbers too large to stop. This is the ‘art of presence’ - by Parisa Khoshnami Read on Aeon"
+   "desc": "Parents fear what AI will do to children. But for some, it’s the only steady presence they have – and that’s the real worry - by Tom Wooldridge Read on Aeon"
   }
  ]
 }
