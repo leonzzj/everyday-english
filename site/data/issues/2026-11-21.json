@@ -1,0 +1,739 @@
+{
+  "date": "2026-11-21",
+  "issueNo": 34,
+  "title": "EU–UK reset, a tangled human family tree and Anthropic's record IPO",
+  "createdAt": "2026-11-21T06:53:51+11:00",
+  "stories": [
+    {
+      "id": "eu-uk-reset",
+      "category": "World",
+      "headline": "EU and UK seal reset deal a decade after Brexit vote",
+      "headlineZh": "脱欧公投十年后，欧盟与英国敲定关系“重启”协议",
+      "summaryZh": "欧英在布鲁塞尔峰会上就青年流动、动植物检疫和碳排放交易达成协议，但仍需走法律程序。",
+      "c1": "A decade after Britons voted to leave the European Union, London and Brussels have sealed what both sides are calling a reset of their relationship. Following a summit in Brussels on Friday, the office of British Prime Minister Andy Burnham announced that negotiations had concluded, with agreements struck in three policy areas that had long been sticking points.\n\nThe most tangible change for ordinary people is a youth mobility scheme. Under it, up to 100,000 young Europeans will be able to live and work in the UK for as long as three years, and young Britons will enjoy the same opportunity in the EU. A second agreement will cut back the checks on animals, plants and related products crossing the border, an arrangement estimated to be worth £5.1 billion to the British economy. A third links the two sides' emissions trading systems, so that goods such as steel will be exempt from each other's border carbon levies.\n\nBurnham, who said the deals could add 0.5 per cent to Britain's economy, was upbeat, calling it \"a good day for Britain\". Even so, the agreements will not take effect overnight: each side must first complete its own legal process, and talks are set to continue in several areas. A deeper reset is likely to require months, if not years, of further negotiation.\n\nNot everyone is persuaded. Nigel Farage, leader of the right-wing Reform UK party, dismissed the prime minister as naive and accused the EU of exploiting his inexperience. Burnham, for his part, has said that rejoining the bloc remains one option under consideration, while stressing that such a move is far from imminent. For now, the deal looks less like a reversal of Brexit than a pragmatic attempt to soften its sharpest edges.",
+      "b2": "The European Union and the United Kingdom have agreed a deal to improve their relationship, ten years after the Brexit vote. The agreement was reached at a summit in Brussels on Friday. The office of British Prime Minister Andy Burnham said the negotiations were finished.\n\nThe deal covers three areas. First, up to 100,000 young Europeans will be able to live and work in the UK for up to three years, and young Britons will be able to do the same in the EU. Second, there will be fewer checks on animals, plants and related products. This is expected to be worth £5.1 billion to the UK economy. Third, goods such as steel will not have to pay each other's border carbon charges.\n\nBurnham said the deals could make Britain's economy 0.5 per cent bigger, and he called it a good day for the country. However, both sides still need to complete their own legal processes before the changes start, and more talks are planned.\n\nNot everyone is happy. Nigel Farage, the leader of Reform UK, called Burnham naive. Burnham has said that rejoining the EU is one possible option, but he says it will not happen soon.",
+      "vocab": [
+        {
+          "word": "seal",
+          "pos": "v.",
+          "ipa": "/siːl/",
+          "zh": "敲定；达成（协议）",
+          "en": "to make an agreement final and official",
+          "example": "The two companies sealed the partnership with a handshake.",
+          "forms": [
+            "sealed"
+          ]
+        },
+        {
+          "word": "sticking point",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "症结；争议焦点",
+          "en": "an issue that stops people from reaching an agreement",
+          "example": "Pay was the main sticking point in the negotiations."
+        },
+        {
+          "word": "tangible",
+          "pos": "adj.",
+          "ipa": "/ˈtændʒəbl/",
+          "zh": "实实在在的；切实的",
+          "en": "real and able to be seen or felt",
+          "example": "The new bike lanes have brought tangible benefits to commuters."
+        },
+        {
+          "word": "cut back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "削减；减少",
+          "en": "to reduce the amount or number of something",
+          "example": "We've had to cut back on eating out this month."
+        },
+        {
+          "word": "upbeat",
+          "pos": "adj.",
+          "ipa": "/ˈʌpbiːt/",
+          "zh": "乐观的",
+          "en": "positive and cheerful about the future",
+          "example": "Despite the delays, the project manager remained upbeat."
+        },
+        {
+          "word": "take effect",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "生效",
+          "en": "to start to apply or have results",
+          "example": "The new parking rules take effect on Monday."
+        },
+        {
+          "word": "for one's part",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "就某人而言",
+          "en": "used to give one person's view or role in a situation",
+          "example": "For my part, I'd rather wait until prices come down.",
+          "forms": [
+            "for his part"
+          ]
+        },
+        {
+          "word": "imminent",
+          "pos": "adj.",
+          "ipa": "/ˈɪmɪnənt/",
+          "zh": "即将发生的",
+          "en": "likely to happen very soon",
+          "example": "Forecasters say a cool change is imminent."
+        },
+        {
+          "word": "pragmatic",
+          "pos": "adj.",
+          "ipa": "/præɡˈmætɪk/",
+          "zh": "务实的",
+          "en": "dealing with problems in a practical, sensible way",
+          "example": "She took a pragmatic approach and fixed the cheapest problems first."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Under the youth mobility scheme, young people can stay for up to five years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说可停留 \"for as long as three years\"，不是五年，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The steel industry has welcomed the link between the two emissions trading systems.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到钢铁等商品 \"will be exempt from each other's border carbon levies\"，没有提及钢铁行业的反应，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Burnham believes the deals could increase the size of Britain's economy.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道 Burnham \"said the deals could add 0.5 per cent to Britain's economy\"，因此为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "How does the writer sum up the deal in the final paragraph?",
+          "options": [
+            "As the first step towards Britain quickly rejoining the EU",
+            "As a complete reversal of the Brexit decision",
+            "As a practical effort to reduce the harshest effects of Brexit",
+            "As a failure caused by the prime minister's inexperience"
+          ],
+          "answer": 2,
+          "explain": "最后一句说该协议 \"less like a reversal of Brexit than a pragmatic attempt to soften its sharpest edges\"，即务实地缓和脱欧最尖锐的影响。"
+        }
+      ],
+      "discuss": "Why do you think countries that once separated, like Britain and the EU, might later try to rebuild close ties? Do you think public opinion on such decisions can change over a decade?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal"
+        }
+      ]
+    },
+    {
+      "id": "taung-child-fossil",
+      "category": "Science",
+      "headline": "Famous Taung Child fossil suggests a tangled human family tree",
+      "headlineZh": "著名“汤恩幼儿”化石显示人类家族树错综复杂",
+      "summaryZh": "新研究将汤恩幼儿化石定年为约300万年前，并认为多具化石可能属于不同人族物种。",
+      "c1": "One of the most famous fossils in the study of human origins may be about to complicate the story it helped to tell. The Taung Child, a small skull discovered in South Africa in 1924, has been dated by a new study to between 2.96 and 3.03 million years ago, and the researchers behind it argue that it points to a far messier family tree than textbooks typically suggest.\n\nThe fossil holds a special status because it is the type specimen of Australopithecus africanus, meaning it is the reference point against which the species is defined. Yet no firm criteria were ever set for assigning other fossils to the species, so the Taung Child is, strictly speaking, the only specimen that can be attributed to it with certainty. Led by Professor Gabriele Macho of Vrije Universiteit Brussel, the team found that several adult fossils long lumped together with it show distinct patterns of growth and brain development.\n\nIf that interpretation holds, remains from around the Sterkfontein area may belong to several different hominin species, which either coexisted or lived at different times. The researchers propose that repeated swings between wetter and drier climates in southern Africa split populations apart, isolated some groups and later brought them back together, occasionally leading to interbreeding. Fossil pollen indicates that the region was then wetter and more heavily forested than it is today.\n\nMacho summed up the idea vividly, describing the family tree as \"a chaotic, tangled bush driven by climate shifts\". It is worth noting that the study does not name any new species, and its conclusions rest on interpretation rather than definitive proof. Nonetheless, it adds weight to a growing view that human evolution unfolded as a branching network rather than a single, orderly line of descent.",
+      "b2": "A famous fossil called the Taung Child may change how we understand human evolution. The small skull was found in South Africa in 1924. A new study says it is between 2.96 and 3.03 million years old.\n\nThe Taung Child is very important because scientists use it to define the species Australopithecus africanus. However, there were never clear rules for adding other fossils to this species. A team led by Professor Gabriele Macho from Vrije Universiteit Brussel found that several adult fossils grouped with the Taung Child grew and developed differently.\n\nThis suggests that fossils from the Sterkfontein area may come from several different species. These species may have lived at the same time or at different times. The researchers think that changes between wetter and drier climates separated groups of hominins, the early relatives of humans, and later brought them together again. Sometimes the groups interbred. Fossil pollen shows that the area was wetter and had more forest at that time.\n\nProfessor Macho said the human family tree was like a messy bush, not a straight line. The study does not name any new species, and it is based on interpretation. Still, it supports the idea that human evolution had many branches.",
+      "vocab": [
+        {
+          "word": "complicate",
+          "pos": "v.",
+          "ipa": "/ˈkɒmplɪkeɪt/",
+          "zh": "使复杂化",
+          "en": "to make something more difficult to understand or deal with",
+          "example": "Last-minute changes to the guest list complicated the seating plan."
+        },
+        {
+          "word": "strictly speaking",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "严格来说",
+          "en": "if you use words or rules in their exact sense",
+          "example": "Strictly speaking, a tomato is a fruit, not a vegetable."
+        },
+        {
+          "word": "attribute something to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "认为…属于／归因于",
+          "en": "to say that something belongs to or was caused by someone or something",
+          "example": "The painting was once attributed to a famous Dutch artist.",
+          "forms": [
+            "attributed to"
+          ]
+        },
+        {
+          "word": "lump together",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把…归为一类",
+          "en": "to put different people or things into one group without considering differences",
+          "example": "It's unfair to lump all young drivers together.",
+          "forms": [
+            "lumped together"
+          ]
+        },
+        {
+          "word": "hold",
+          "pos": "v.",
+          "ipa": "/həʊld/",
+          "zh": "（观点）站得住脚；成立",
+          "en": "to remain true or valid",
+          "example": "If the forecast holds, we'll have sunshine for the picnic.",
+          "forms": [
+            "holds"
+          ]
+        },
+        {
+          "word": "coexist",
+          "pos": "v.",
+          "ipa": "/ˌkəʊɪɡˈzɪst/",
+          "zh": "共存",
+          "en": "to exist together at the same time or in the same place",
+          "example": "Old traditions and modern habits coexist in many cities.",
+          "forms": [
+            "coexisted"
+          ]
+        },
+        {
+          "word": "sum up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "总结；概括",
+          "en": "to describe the main idea of something briefly",
+          "example": "If I had to sum up the trip in one word, it would be 'exhausting'.",
+          "forms": [
+            "summed up"
+          ]
+        },
+        {
+          "word": "rest on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "以…为基础；取决于",
+          "en": "to depend on or be based on something",
+          "example": "The whole plan rests on getting council approval."
+        },
+        {
+          "word": "add weight to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使…更有说服力",
+          "en": "to make an idea or argument seem more likely to be true",
+          "example": "The new survey adds weight to calls for cheaper public transport.",
+          "forms": [
+            "adds weight to"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The researchers have formally named a new hominin species.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中明确说 \"the study does not name any new species\"，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Taung Child is the only fossil that can be assigned to Australopithecus africanus with certainty.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道它 \"is, strictly speaking, the only specimen that can be attributed to it with certainty\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Other scientists have rejected the study's conclusions.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说结论 \"rest on interpretation rather than definitive proof\"，没有提到其他科学家的反应，因此为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the researchers, what may have caused populations to split and later reconnect?",
+          "options": [
+            "Repeated shifts between wetter and drier climates",
+            "Competition with other species for food",
+            "Volcanic eruptions in southern Africa",
+            "The movement of forests towards the coast"
+          ],
+          "answer": 0,
+          "explain": "文中说 \"repeated swings between wetter and drier climates in southern Africa split populations apart ... and later brought them back together\"。"
+        }
+      ],
+      "discuss": "Why do you think the story of human evolution is often presented as a simple straight line? Does it matter to ordinary people whether the real picture is more complicated?",
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "category": "Business",
+      "headline": "Anthropic's record IPO leaves many Australian investors empty-handed",
+      "headlineZh": "Anthropic创纪录上市，众多澳洲投资者几乎空手而归",
+      "summaryZh": "Anthropic以每股83美元在纳斯达克上市，募资约813亿美元创纪录，但澳洲投资者获配极少。",
+      "c1": "Artificial intelligence company Anthropic has made a spectacular debut on the Nasdaq, in what is being described as the largest initial public offering on record. The AI developer priced its shares at US$83, above its marketed range of US$70 to US$78, after orders reportedly outstripped the shares on offer roughly six times over. The float raised about US$81.3 billion, eclipsing the previous record of roughly US$75 billion set by SpaceX.\n\nTrading under the ticker ANT, the stock opened as high as US$111.50 before investors began to take profits. It closed its first day at US$97.17, a gain of about 17 per cent on the offer price, even as Wall Street's main indices fell by around 2 per cent.\n\nAustralian investors, however, were left largely on the sidelines. According to a supplementary prospectus, Australia received about 1.32 million shares, worth almost US$110 million. CommSec filled only around 14 per cent of what its clients had bid for, some brokers received as little as 7 per cent, and Sydney-based fund manager Minotaur Capital came away with nothing. Commentators suggested that large US institutions had been given priority.\n\nNot all observers are convinced the price is justified. The company's prospectus shows revenue soaring from US$41 million in 2023 to more than US$16 billion in the first half of 2026, but it also reveals a net loss of about US$80 billion over those six months. Morningstar has put the shares' fair value at US$92, and some fund managers argue that investors are paying a hefty premium for a business that has yet to turn a profit.",
+      "b2": "The artificial intelligence company Anthropic has started trading on the Nasdaq stock exchange. It is the biggest initial public offering, or IPO, ever recorded. The company sold its shares at US$83 each, which was higher than its planned range. It raised about US$81.3 billion, beating the earlier record of about US$75 billion set by SpaceX.\n\nOn its first day, the share price rose as high as US$111.50. It then fell back and finished at US$97.17, about 17 per cent above the offer price. On the same day, the main US share markets fell by around 2 per cent.\n\nMany Australian investors were disappointed. Australia received about 1.32 million shares in total. CommSec customers got only around 14 per cent of the shares they asked for, and one Sydney fund manager received none at all. Some commentators think big US investors were given priority.\n\nSome experts believe the shares are too expensive. Anthropic's income has grown very quickly, but the company lost about US$80 billion in the first six months of 2026. Morningstar thinks a fair value for the shares is US$92, and some fund managers say the company is not yet making a profit.",
+      "vocab": [
+        {
+          "word": "outstrip",
+          "pos": "v.",
+          "ipa": "/ˌaʊtˈstrɪp/",
+          "zh": "超过；超出",
+          "en": "to become larger or greater than something else",
+          "example": "Demand for concert tickets outstripped supply within minutes.",
+          "forms": [
+            "outstripped"
+          ]
+        },
+        {
+          "word": "eclipse",
+          "pos": "v.",
+          "ipa": "/ɪˈklɪps/",
+          "zh": "超越；使相形见绌",
+          "en": "to be much greater or more successful than something",
+          "example": "Her new album has eclipsed all her earlier sales records.",
+          "forms": [
+            "eclipsing"
+          ]
+        },
+        {
+          "word": "take profits",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "获利了结",
+          "en": "to sell shares after their price has risen in order to gain money",
+          "example": "Many traders took profits after the gold price spiked."
+        },
+        {
+          "word": "on the sidelines",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "置身局外；靠边站",
+          "en": "not involved in an activity that others are taking part in",
+          "example": "Smaller retailers have been left on the sidelines of the online boom."
+        },
+        {
+          "word": "come away with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "带着…离开；最终得到",
+          "en": "to leave a situation having gained something (or nothing)",
+          "example": "We came away with some great ideas from the workshop.",
+          "forms": [
+            "came away with"
+          ]
+        },
+        {
+          "word": "give priority",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "给予优先权",
+          "en": "to treat someone or something as more important than others",
+          "example": "The clinic gives priority to patients with urgent symptoms.",
+          "forms": [
+            "given priority"
+          ]
+        },
+        {
+          "word": "justified",
+          "pos": "adj.",
+          "ipa": "/ˈdʒʌstɪfaɪd/",
+          "zh": "合理的；有正当理由的",
+          "en": "having a good reason",
+          "example": "Given the delays, her complaint seemed completely justified."
+        },
+        {
+          "word": "hefty",
+          "pos": "adj.",
+          "ipa": "/ˈhefti/",
+          "zh": "高额的；大量的",
+          "en": "large in amount, often more than expected",
+          "example": "We got a hefty bill after leaving the heater on all winter."
+        },
+        {
+          "word": "turn a profit",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "实现盈利",
+          "en": "to start earning more money than you spend",
+          "example": "The café didn't turn a profit until its third year."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Anthropic set its share price below the range it had originally marketed.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说价格为 US$83，\"above its marketed range of US$70 to US$78\"，因此为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Anthropic plans to list its shares on the Australian stock exchange next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只讨论澳洲投资者通过券商获配情况，没有提到在澳洲上市的计划，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The main US share indices fell on the day of Anthropic's debut.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道 \"Wall Street's main indices fell by around 2 per cent\"，因此为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "What concern do some fund managers raise about the shares?",
+          "options": [
+            "Too few shares were offered to US institutions.",
+            "The company's revenue has stopped growing.",
+            "The listing was delayed for too long.",
+            "Investors are paying a large premium for a company that is not yet profitable."
+          ],
+          "answer": 3,
+          "explain": "文中说一些基金经理认为投资者 \"are paying a hefty premium for a business that has yet to turn a profit\"。"
+        }
+      ],
+      "discuss": "Why do you think so many investors are eager to buy shares in AI companies that are still losing money? Do you think this enthusiasm will last?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-20/asx-markets-business-live-news-nov-20/107403768"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise"
+        }
+      ]
+    },
+    {
+      "id": "australia-china-ai-dialogue",
+      "category": "Australia",
+      "headline": "Australia and China agree to hold talks on artificial intelligence",
+      "headlineZh": "澳大利亚与中国同意建立人工智能对话机制",
+      "summaryZh": "阿尔巴尼斯在北京与李强举行年度总理会晤，双方同意就人工智能安全、治理和应用开展对话。",
+      "c1": "Australia and China have agreed to establish a formal dialogue on artificial intelligence, giving the two governments a channel to compare notes as they grapple with how the fast-moving technology should be regulated. The agreement was reached in Beijing on Friday, when Prime Minister Anthony Albanese held his annual leaders' meeting with Chinese Premier Li Qiang. According to a joint statement released by China, the talks will cover AI safety, governance and applications.\n\nIt was a whirlwind visit. Albanese spent only about six hours in the Chinese capital, having met President Xi Jinping that morning in Shenzhen on the margins of the APEC summit. Xi spoke of a complete turnaround in relations, while conceding that differences between the two countries remain. Alongside AI, the leaders discussed trade, climate change, health and tourism.\n\nThe timing is noteworthy. Only days earlier, Australia had signed a technology declaration with the United States aimed at reducing reliance on China for critical technologies, including commitments to identify vulnerable supply chains and protect sensitive technology. Opening a channel with Beijing on AI so soon afterwards reflects Canberra's attempt to strike a delicate balance between its security ties with Washington and its economically vital relationship with China.\n\nThe dialogue capped off an 11-day overseas trip that took in the COP31 climate talks, the ASEAN summit in Manila and APEC, where Albanese bluntly told Russian President Vladimir Putin to end the invasion of Ukraine. Whether the new AI channel produces concrete results remains to be seen, but it suggests that both sides are keen to keep relations on an even keel despite their lingering disagreements.",
+      "b2": "Australia and China have agreed to start formal talks about artificial intelligence. The two governments want to share their experiences as they try to decide how the technology should be controlled. Prime Minister Anthony Albanese and Chinese Premier Li Qiang made the agreement in Beijing on Friday. The talks will cover AI safety, rules and uses.\n\nAlbanese was in Beijing for only about six hours. Earlier that day, he met President Xi Jinping in Shenzhen at the APEC summit. Xi said relations had completely turned around, but he admitted that the two countries still have differences. The leaders also talked about trade, climate change, health and tourism.\n\nJust a few days before, Australia signed a technology agreement with the United States. Its aim is to make Australia less dependent on China for important technologies. Talking with China about AI so soon after this shows that Australia is trying to balance its relationships with both countries.\n\nThe visit ended an 11-day overseas trip. Albanese also attended the COP31 climate talks and the ASEAN summit in Manila. At APEC, he told Russian President Vladimir Putin to end the invasion of Ukraine. It is not yet clear what the AI talks will achieve.",
+      "vocab": [
+        {
+          "word": "compare notes",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "交流经验；交换看法",
+          "en": "to share information or experiences with someone",
+          "example": "After the first week, the new staff met up to compare notes."
+        },
+        {
+          "word": "grapple with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "努力应对；设法解决",
+          "en": "to try hard to deal with a difficult problem",
+          "example": "Many councils are grappling with a shortage of affordable housing."
+        },
+        {
+          "word": "whirlwind",
+          "pos": "adj.",
+          "ipa": "/ˈwɜːlwɪnd/",
+          "zh": "旋风式的；匆忙的",
+          "en": "happening very quickly, with lots of activity",
+          "example": "They had a whirlwind romance and married within six months."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（勉强）承认",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "The coach conceded that the team hadn't played well.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "noteworthy",
+          "pos": "adj.",
+          "ipa": "/ˈnəʊtwɜːði/",
+          "zh": "值得注意的",
+          "en": "interesting or important enough to be noticed",
+          "example": "It's noteworthy that crime fell even as the population grew."
+        },
+        {
+          "word": "strike a delicate balance",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "取得微妙的平衡",
+          "en": "to find a careful compromise between two competing needs",
+          "example": "Parents have to strike a delicate balance between freedom and safety."
+        },
+        {
+          "word": "cap off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "为…画上句号；圆满结束",
+          "en": "to finish something with a final event or achievement",
+          "example": "We capped off the holiday with dinner by the beach.",
+          "forms": [
+            "capped off"
+          ]
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尚待观察；还不确定",
+          "en": "used to say that something is not yet known",
+          "example": "Whether the new timetable will reduce delays remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        },
+        {
+          "word": "on an even keel",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "平稳；稳定",
+          "en": "steady and without sudden changes or problems",
+          "example": "After a rocky start, the business is now back on an even keel."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The first meeting of the new AI dialogue is scheduled for early next year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说双方同意 \"establish a formal dialogue\"，并说成效 \"remains to be seen\"，没有提到首次会议的时间，因此为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Xi acknowledged that some differences between Australia and China still exist.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中写道 Xi \"conceding that differences between the two countries remain\"，因此为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Albanese spent several days in Beijing during the trip.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说他 \"spent only about six hours in the Chinese capital\"，因此为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the writer describe the timing of the AI agreement as noteworthy?",
+          "options": [
+            "Because it happened on the final day of COP31",
+            "Because Australia had just signed a US declaration aimed at reducing reliance on China for key technologies",
+            "Because China had refused similar talks with the United States",
+            "Because it was the first time Albanese had met Li Qiang"
+          ],
+          "answer": 1,
+          "explain": "文中说 \"Only days earlier, Australia had signed a technology declaration with the United States aimed at reducing reliance on China\"。"
+        }
+      ],
+      "discuss": "Why do you think governments want to talk to each other about how to regulate AI, even when they are rivals in other areas? Will international rules on AI ever be possible?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Coffee in the Seminar Break",
+    "titleZh": "研讨课间买咖啡",
+    "setting": "Two students at a university in Parkville chat while queuing for coffee during a break in their Thursday seminar.",
+    "settingZh": "两名在帕克维尔上大学的学生在周四研讨课的休息时间排队买咖啡，边等边聊。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Phew, that first hour dragged. Are you grabbing a coffee before we head back in?",
+        "zh": "呼，第一个小时好漫长。回去之前你要买杯咖啡吗？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Definitely. I'm running on about five hours' sleep, so I need all the help I can get.",
+        "zh": "当然。我只睡了大概五个小时，现在急需提神。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Did you pull an all-nighter for the essay? I thought you'd already handed it in.",
+        "zh": "你为了那篇论文熬通宵了？我以为你早就交了。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "I had, but then I realised I'd misread the brief, so I had to redo half of it.",
+        "zh": "是交了，可后来发现我看错了要求，只好重写了一半。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Oh no, that's rough. Did you at least manage to get it in on time?",
+        "zh": "天哪，太惨了。那你至少按时交上了吧？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "I just scraped in, with about ten minutes to spare. Never again, I swear.",
+        "zh": "勉强赶上，离截止只剩十分钟左右。我发誓再也不这样了。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "You say that every semester, though. Anyway, what did you make of today's reading?",
+        "zh": "你每个学期都这么说。对了，你觉得今天的阅读材料怎么样？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "To be honest, I only skimmed it. Something about how cities cope with heatwaves, right?",
+        "zh": "说实话，我只是粗略看了一下。讲的是城市如何应对热浪，对吧？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Yeah. I found it pretty eye-opening, especially the bit about tree cover in the western suburbs.",
+        "zh": "对。我觉得挺让人大开眼界的，尤其是关于西区树木覆盖率的那部分。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Oh, that rings a bell. Is that what the tutor wants us to discuss after the break?",
+        "zh": "哦，好像有点印象。导师是不是让我们休息后讨论这个？"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "I reckon so. If you like, I can fill you in on the main points while we wait.",
+        "zh": "我觉得是。你要是愿意，排队时我可以给你讲讲要点。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "You're a lifesaver. I'll shout you a coffee in return. It's the least I can do.",
+        "zh": "你真是救星。作为回报，这杯咖啡我请。这是我起码该做的。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Deal. But if she calls on you, you're on your own!",
+        "zh": "成交。不过要是她点你名，你就得自己应付了！"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Fair enough. I'll just nod thoughtfully and hope for the best.",
+        "zh": "有道理。到时候我就若有所思地点点头，听天由命吧。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "The first hour was very slow",
+        "en": "that first hour dragged",
+        "zh": "drag：（时间）过得很慢"
+      },
+      {
+        "plain": "I only slept five hours",
+        "en": "I'm running on about five hours' sleep",
+        "zh": "running on...：靠…撑着"
+      },
+      {
+        "plain": "stay awake all night to study",
+        "en": "pull an all-nighter",
+        "zh": "熬通宵（学习或工作）"
+      },
+      {
+        "plain": "I only just finished on time",
+        "en": "I just scraped in",
+        "zh": "scrape in：勉强赶上／过关"
+      },
+      {
+        "plain": "What did you think of",
+        "en": "what did you make of",
+        "zh": "make of：对…有何看法"
+      },
+      {
+        "plain": "I think I remember that",
+        "en": "that rings a bell",
+        "zh": "听起来耳熟；有点印象"
+      },
+      {
+        "plain": "I can tell you about",
+        "en": "I can fill you in on",
+        "zh": "fill sb in on：给某人补充介绍情况"
+      },
+      {
+        "plain": "I'll buy you a coffee",
+        "en": "I'll shout you a coffee",
+        "zh": "shout：澳式口语“请客”"
+      }
+    ]
+  }
+}
