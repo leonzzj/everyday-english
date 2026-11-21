@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T10:13:58.473Z",
+ "updatedAt": "2026-11-21T00:04:34.935Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "A letter to the end of time | Lau Noah",
-   "url": "http://go.ted.com/launoah",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aff1debc1a867006b449928/media.mp3",
+   "title": "Who should profit when AI comes to town? | Brian Janous",
+   "url": "http://go.ted.com/BrianJanous",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6afdeb0309ab149ef043dc8e/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-20",
-   "minutes": 20,
+   "date": "2026-11-21",
+   "minutes": 14,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "You’ve likely never met composer Lau Noah, but she has a wish for you: that someday you’ll look back on your life and feel at peace. In a soulful performance that’s part concert, part story hour, she weaves together songs and short fables that celebrate love…"
+   "desc": "AI data centers are popping up across the US — and the people living next to them are increasingly upset. Brian Janous, whose company finds land for some of the biggest data centers, hears those objections firsthand. He proposes a solution that would change…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "At least it remembers",
-   "url": "https://aeon.co/essays/what-would-parenting-by-ai-look-like",
+   "title": "My grandmother was a seal",
+   "url": "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/67889061-dbb5-4c47-87eb-21851f330133/essay-gettyimages-1950705233.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-19",
+   "image": "https://images.aeonmedia.co/images/0cd99f4c-ddf6-43aa-b167-ea096fe4a0e7/essay-selkie-final-illustration.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-20",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Parents fear what AI will do to children. But for some, it’s the only steady presence they have – and that’s the real worry - by Tom Wooldridge Read on Aeon"
+   "desc": "Many Irish families believed they descended from selkies. Their stories reveal the violence and grief in our kinship with nature - by Jordan Lee Borgman Read on Aeon"
   }
  ]
 }
