@@ -1,0 +1,735 @@
+{
+  "date": "2026-11-22",
+  "issueNo": 35,
+  "title": "Killer robot talks, a tsunami warning gap and AI cameras on the court",
+  "createdAt": "2026-11-22T06:49:55+11:00",
+  "stories": [
+    {
+      "id": "killer-robots-talks",
+      "category": "World",
+      "headline": "Nations agree to keep working on 'killer robot' rules until 2028",
+      "headlineZh": "各国同意在2028年前继续制定“杀手机器人”规则",
+      "summaryZh": "日内瓦联合国会议决定继续讨论自主武器规则，但未承诺制定具法律约束力的条约。",
+      "c1": "After more than a decade of talks, countries meeting at a United Nations conference in Geneva have agreed to keep working towards an international instrument on lethal autonomous weapons, the so-called \"killer robots\" that can select and attack targets without a human making the final decision. Under the deal announced on Saturday, the 128 participating countries have until 2028 to complete the task.\n\nThe outcome, however, falls short of what many had hoped for. Nearly 100 nations had pushed for the swift adoption of legally binding rules, but decisions under the Convention on Certain Conventional Weapons require the consent of every member, and major arms producers, including the United States, Russia and Israel, resisted. Diplomats said Russian procedural objections forced some formal sessions to be cancelled, and the final wording was hammered out overnight.\n\nLanguage proved to be a sticking point. According to Swiss diplomat Julien Thoeni, who chaired the conference, some countries objected to the word \"negotiate\", so the agreed text speaks instead of the \"elaboration\" of an instrument. That process is meant to determine which weapons should be prohibited outright under international humanitarian law and which might be permitted subject to regulation. Thoeni nevertheless hailed the result as a meaningful step, arguing that multilateral diplomacy can still deliver in a deeply divided world.\n\nCampaigners were far less enthusiastic. The Stop Killer Robots coalition, which represents around 300 organisations, described the mandate as watered down, warning that it offers no clear path to binding rules even though AI systems that choose their own targets are already being used in combat. Human Rights Watch called the outcome disappointing, noting that the technology is advancing far faster than the diplomacy meant to rein in such weapons.",
+      "b2": "Countries at a United Nations conference in Geneva have agreed to continue working on rules for lethal autonomous weapons. These are often called \"killer robots\" because they can choose and attack targets without a human making the final decision. The 128 countries now have until 2028 to finish the job.\n\nHowever, many people wanted more. Nearly 100 countries asked for legally binding rules to be adopted quickly. But under this convention, every member must agree, and big weapons producers such as the United States, Russia and Israel were against the idea. Diplomats said objections from Russia led to some meetings being cancelled, and the final text was agreed overnight.\n\nThe exact words caused problems. Swiss diplomat Julien Thoeni, who chaired the meeting, said some countries did not accept the word \"negotiate\". The text now talks about the \"elaboration\" of an instrument. The process should decide which weapons are banned and which are allowed with regulation. Thoeni still called the result a meaningful step.\n\nCampaign groups were less positive. The Stop Killer Robots coalition, which includes about 300 organisations, said the agreement was watered down and gave no clear route to binding rules. Human Rights Watch said the result was disappointing because the technology is moving much faster than the diplomacy.",
+      "vocab": [
+        {
+          "word": "fall short of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "未达到；不及（预期）",
+          "en": "to fail to reach a standard or expectation",
+          "example": "The new stadium fell short of what fans had been promised.",
+          "forms": [
+            "falls short of"
+          ]
+        },
+        {
+          "word": "swift adoption",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "迅速采纳",
+          "en": "the quick acceptance or approval of a rule, idea or technology",
+          "example": "The scheme's swift adoption surprised even its designers."
+        },
+        {
+          "word": "legally binding",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "具有法律约束力的",
+          "en": "having the force of law, so it must be obeyed",
+          "example": "A verbal agreement can be legally binding in some situations."
+        },
+        {
+          "word": "hammer out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（经艰苦讨论）敲定",
+          "en": "to reach an agreement after long and difficult discussion",
+          "example": "The two flatmates finally hammered out a cleaning roster.",
+          "forms": [
+            "hammered out"
+          ]
+        },
+        {
+          "word": "sticking point",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "症结；争议焦点",
+          "en": "an issue that prevents people from reaching agreement",
+          "example": "Pay remained the main sticking point in the negotiations."
+        },
+        {
+          "word": "outright",
+          "pos": "adv.",
+          "ipa": "ˈaʊtraɪt",
+          "zh": "彻底地；完全地",
+          "en": "completely and immediately, not partly or gradually",
+          "example": "Some councils want to ban e-scooters outright."
+        },
+        {
+          "word": "subject to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "受…制约；以…为条件",
+          "en": "dependent on or controlled by something",
+          "example": "All bookings are subject to availability."
+        },
+        {
+          "word": "multilateral",
+          "pos": "adj.",
+          "ipa": "ˌmʌltiˈlætərəl",
+          "zh": "多边的",
+          "en": "involving three or more countries or groups",
+          "example": "Climate change can only be tackled through multilateral cooperation."
+        },
+        {
+          "word": "rein in",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "控制；约束",
+          "en": "to control or limit something more strictly",
+          "example": "The government is trying to rein in spending before the election."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Decisions under the Convention on Certain Conventional Weapons can be made by a majority vote.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说 decisions \"require the consent of every member\"，即需要全体成员同意，而不是多数通过。"
+        },
+        {
+          "type": "tfng",
+          "q": "The agreed text refers to the \"elaboration\" of an instrument instead of using the word \"negotiate\".",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文：some countries objected to the word \"negotiate\", so the agreed text speaks instead of the \"elaboration\" of an instrument。"
+        },
+        {
+          "type": "tfng",
+          "q": "Switzerland has offered to pay for the work on the new instrument.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文中只说瑞士外交官 Julien Thoeni 主持了会议，没有提到任何国家出资。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why were legally binding rules not adopted quickly?",
+          "options": [
+            "Most of the 128 countries rejected the idea of any rules",
+            "Every member must agree, and major arms producers resisted",
+            "The chair of the conference refused to hold a vote",
+            "The talks were cancelled after Russia left the conference"
+          ],
+          "answer": 1,
+          "explain": "原文：decisions ... require the consent of every member, and major arms producers ... resisted。因此需要全体同意而主要军火生产国反对。"
+        }
+      ],
+      "discuss": "Should decisions about using lethal force ever be left to machines? Why do you think some powerful countries resist binding rules, and do you expect that to change in the future?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit"
+        }
+      ]
+    },
+    {
+      "id": "macquarie-tsunami-gap",
+      "category": "Science",
+      "headline": "Tsunami warnings slower after staff leave remote Macquarie Island",
+      "headlineZh": "麦夸里岛人员撤离后，海啸预警时间变慢",
+      "summaryZh": "因禽流感担忧撤离人员后，麦夸里岛地震站停摆，地震探测时间约多出两分钟。",
+      "c1": "Australia's ability to warn coastal communities of an approaching tsunami has been quietly weakened, according to internal documents obtained by the ABC. The seismic observatory on Macquarie Island, roughly 1,500 kilometres south-east of Tasmania, has been offline since staff were withdrawn from the remote research station in early October.\n\nThe withdrawal stemmed from concerns about a possible outbreak of H5 bird flu. Officials judged that expeditioners would suffer psychological strain if they had to spend months surrounded by dying and dead elephant seal pups, even though the staff themselves had said they were willing to stay. Once they left, the station lost power, and an attempt by Geoscience Australia to automate the observatory with solar panels was abandoned when strong winds made installation unsafe.\n\nThe consequences sound modest but could matter in practice. Detecting an earthquake in the region used to take about eight minutes; it now takes an estimated ten, adding roughly two minutes to tsunami alerts. Geoscience Australia concedes that detection will be slower and less sensitive for quakes south of Australia and New Zealand, yet maintains that warnings should still meet the required timeframe of around ten minutes. The move has also had knock-on effects for weather and wildlife monitoring.\n\nSeismologists are less sanguine. The island sits on the boundary between the Pacific and Australian plates, a region that has produced at least nine earthquakes larger than magnitude 7.5 since 1900. Professor Hrvoje Tkalčić of the Australian National University described the silent station as a \"major gap\", pointing out that the nearest alternative is more than 1,000 kilometres away. Expeditioners are not expected to live on the island again until April or May 2028.",
+      "b2": "Documents obtained by the ABC show that Australia now has less time to warn people about a tsunami. The earthquake observatory on Macquarie Island, about 1,500 kilometres south-east of Tasmania, has not worked since staff left the research station in early October.\n\nThe staff were removed because of worries about a possible bird flu outbreak. Officials thought it would be too stressful for them to live for months among dying and dead elephant seal pups, although the staff said they were happy to stay. After they left, the station had no power. Geoscience Australia tried to make the observatory work automatically with solar panels, but strong winds made this unsafe.\n\nThe change is small but important. It used to take about eight minutes to detect an earthquake in the area. Now it takes about ten, so tsunami alerts are around two minutes slower. Geoscience Australia says detection will be slower, but it still expects warnings to meet the required time of about ten minutes.\n\nScientists are more worried. The island is on the border between two tectonic plates, and the area has had at least nine very large earthquakes since 1900. One expert from the Australian National University called the station a \"major gap\". Staff are not expected to live there again until 2028.",
+      "vocab": [
+        {
+          "word": "stem from",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "源于；由…引起",
+          "en": "to be caused by or come from something",
+          "example": "Many of his worries stem from a lack of sleep.",
+          "forms": [
+            "stemmed from"
+          ]
+        },
+        {
+          "word": "psychological strain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "心理压力",
+          "en": "mental stress caused by a difficult situation",
+          "example": "Working night shifts for years can put enormous psychological strain on people."
+        },
+        {
+          "word": "abandon",
+          "pos": "v.",
+          "ipa": "əˈbændən",
+          "zh": "放弃；中止",
+          "en": "to stop doing or trying to do something before it is finished",
+          "example": "The match was abandoned because of heavy rain.",
+          "forms": [
+            "abandoned"
+          ]
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "kənˈsiːd",
+          "zh": "（勉强）承认",
+          "en": "to admit, often unwillingly, that something is true",
+          "example": "The coach conceded that the team had played poorly.",
+          "forms": [
+            "concedes"
+          ]
+        },
+        {
+          "word": "maintain",
+          "pos": "v.",
+          "ipa": "meɪnˈteɪn",
+          "zh": "坚称；坚持认为",
+          "en": "to keep saying that something is true, even if others disagree",
+          "example": "She maintains that she never received the email.",
+          "forms": [
+            "maintains"
+          ]
+        },
+        {
+          "word": "timeframe",
+          "pos": "n.",
+          "ipa": "ˈtaɪmfreɪm",
+          "zh": "时限；时间框架",
+          "en": "the period of time within which something must happen",
+          "example": "We need to finish the report within a tight timeframe."
+        },
+        {
+          "word": "knock-on effect",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "连锁反应",
+          "en": "an indirect result of an action or event",
+          "example": "The train strike had a knock-on effect on city traffic.",
+          "forms": [
+            "knock-on effects"
+          ]
+        },
+        {
+          "word": "sanguine",
+          "pos": "adj.",
+          "ipa": "ˈsæŋɡwɪn",
+          "zh": "乐观的；自信的",
+          "en": "hopeful and positive, especially in a difficult situation",
+          "example": "Economists are less sanguine about next year's growth."
+        },
+        {
+          "word": "point out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "指出",
+          "en": "to tell someone a fact they may not have noticed",
+          "example": "My tutor pointed out a mistake in my references.",
+          "forms": [
+            "pointing out"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The Macquarie Island observatory has detected a tsunami during the past year.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章只说该站自十月起停摆，并未提到它近年是否探测到海啸。"
+        },
+        {
+          "type": "tfng",
+          "q": "Geoscience Australia believes tsunami warnings should still meet the required timeframe.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文：Geoscience Australia ... maintains that warnings should still meet the required timeframe of around ten minutes。"
+        },
+        {
+          "type": "tfng",
+          "q": "The solar panels were installed on the island but did not produce enough power.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文说自动化尝试 \"was abandoned when strong winds made installation unsafe\"，即太阳能板根本没有安装成功。"
+        },
+        {
+          "type": "mcq",
+          "q": "How much longer does it now take to detect an earthquake in the region?",
+          "options": [
+            "About ten minutes longer",
+            "About eight minutes longer",
+            "About two minutes longer",
+            "More than an hour longer"
+          ],
+          "answer": 2,
+          "explain": "原文：it used to take about eight minutes; it now takes an estimated ten, adding roughly two minutes to tsunami alerts。"
+        }
+      ],
+      "discuss": "Was it right to put the wellbeing of staff ahead of scientific monitoring on Macquarie Island? How should governments balance human welfare against public safety in cases like this?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714"
+        }
+      ]
+    },
+    {
+      "id": "basketball-ai-cameras",
+      "category": "Tech",
+      "headline": "Parents push back against AI cameras at junior basketball games",
+      "headlineZh": "家长反对在青少年篮球比赛中使用AI摄像头",
+      "summaryZh": "澳大利亚篮协试行AI录像系统，逾1.3万人联署请愿，担忧儿童隐私与商业化。",
+      "c1": "Basketball Australia's plan to film community games with artificial intelligence cameras has run into growing resistance from parents and campaigners, who argue that children's privacy is being treated as an afterthought. A petition launched last month by GetUp and the grassroots group Not All Clubs, calling on the sport's governing body to stop filming children, has now attracted more than 13,000 signatures.\n\nThe system, known as Hoops TV, was developed with the Israel-based company Pixellot. Smart cameras installed in stadiums record matches, including junior ones, and the footage, along with AI-generated statistics, is made available online to players and their guardians. It was trialled this week with associations in Darwin, the Illawarra region of New South Wales and Brisbane's northern suburbs, and a wider rollout is planned in the coming months. Crucially, games are recorded by default unless a parent or player objects.\n\nBasketball Australia insists the technology is an exciting opportunity for the community game. Spokesman Tim Brenton argued that children are already being filmed informally at stadiums, and that Hoops TV simply allows such footage to be captured and managed in a more controlled way. As a non-profit, he added, the organisation ploughs back any revenue into basketball.\n\nCritics remain unconvinced. Cyber-safety expert Susan McLean warned that any digital recording carries a risk of falling into the wrong hands, citing a spate of recent data breaches, and noted that several Victorian leagues have declined to take part. The petition also highlights an earlier Victorian trial in which a woman protected by a family violence intervention order was allegedly contacted by a man after her game was live-streamed. GetUp, meanwhile, fears that children's sport could end up being monetised through advertising.",
+      "b2": "Basketball Australia wants to film community games with artificial intelligence cameras, but many parents and campaigners are against the plan. They say children's privacy is not being taken seriously. A petition started last month by GetUp and a group called Not All Clubs now has more than 13,000 signatures.\n\nThe system is called Hoops TV, and it was made with Pixellot, a company based in Israel. Cameras in stadiums record games, including junior games. Players and their parents or guardians can watch the videos and see AI statistics online. The system was tested this week in Darwin, the Illawarra region and northern Brisbane, and it will be used more widely in the next few months. Games are filmed unless a parent or player says no.\n\nBasketball Australia says the technology is an exciting opportunity. Its spokesman, Tim Brenton, said people already film children at stadiums, and Hoops TV gives more control over the videos. He also said any money made goes back into basketball.\n\nCritics are not convinced. A cyber-safety expert, Susan McLean, said any recording could be accessed by the wrong people, and that some Victorian leagues have refused to join. GetUp is also worried that children's sport could be used to make money from advertising.",
+      "vocab": [
+        {
+          "word": "run into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "遭遇；碰到（困难）",
+          "en": "to meet an unexpected problem or difficulty",
+          "example": "The project ran into trouble when funding was cut."
+        },
+        {
+          "word": "afterthought",
+          "pos": "n.",
+          "ipa": "ˈɑːftəθɔːt",
+          "zh": "事后才想到的事；次要考虑",
+          "en": "something considered or added only after the main thing",
+          "example": "Safety should never be an afterthought in building design."
+        },
+        {
+          "word": "grassroots",
+          "pos": "adj.",
+          "ipa": "ˈɡrɑːsruːts",
+          "zh": "草根的；基层的",
+          "en": "coming from ordinary people rather than leaders",
+          "example": "The campaign began as a small grassroots movement."
+        },
+        {
+          "word": "by default",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "默认；自动地",
+          "en": "happening automatically unless you choose otherwise",
+          "example": "Your phone backs up photos by default."
+        },
+        {
+          "word": "plough back",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把（利润）再投入",
+          "en": "to reinvest profits into the same business or activity",
+          "example": "The café ploughs back its profits into training staff.",
+          "forms": [
+            "ploughs back"
+          ]
+        },
+        {
+          "word": "fall into the wrong hands",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "落入坏人手中",
+          "en": "to be obtained by someone who may misuse it",
+          "example": "Keep your passwords safe so they don't fall into the wrong hands.",
+          "forms": [
+            "falling into the wrong hands"
+          ]
+        },
+        {
+          "word": "a spate of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一连串；接二连三的",
+          "en": "a large number of similar events happening close together",
+          "example": "There has been a spate of burglaries in our street."
+        },
+        {
+          "word": "decline to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "拒绝（做某事）",
+          "en": "to politely refuse to do something",
+          "example": "The minister declined to comment on the rumours.",
+          "forms": [
+            "declined to"
+          ]
+        },
+        {
+          "word": "monetise",
+          "pos": "v.",
+          "ipa": "ˈmʌnɪtaɪz",
+          "zh": "将…变现；从中牟利",
+          "en": "to make money from something",
+          "example": "Many apps monetise their users' data.",
+          "forms": [
+            "monetised"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Under Hoops TV, a game is filmed only if parents give written permission first.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文：games are recorded by default unless a parent or player objects，即默认录制，需主动反对才不录。"
+        },
+        {
+          "type": "tfng",
+          "q": "Several Victorian leagues have chosen not to take part in the scheme.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文：several Victorian leagues have declined to take part。"
+        },
+        {
+          "type": "tfng",
+          "q": "Pixellot has promised to strengthen its privacy settings for junior games.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文中没有提到 Pixellot 作出任何回应或承诺。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Tim Brenton, what is one benefit of Hoops TV?",
+          "options": [
+            "It will make junior players more likely to turn professional",
+            "It will stop parents from filming games on their phones",
+            "It will be cheaper than paying professional camera operators",
+            "It allows footage of games to be captured and managed in a more controlled way"
+          ],
+          "answer": 3,
+          "explain": "原文：Hoops TV simply allows such footage to be captured and managed in a more controlled way。"
+        }
+      ],
+      "discuss": "Should children's sport be filmed and analysed by AI by default? Who do you think should decide how such footage is used, and why?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-21/concerns-over-basketball-australia-ai-cameras-junior-games/107406442"
+        }
+      ]
+    },
+    {
+      "id": "homebirth-rallies",
+      "category": "Society",
+      "headline": "Thousands rally against insurance rules threatening homebirth access",
+      "headlineZh": "数千人集会反对威胁居家分娩的新保险规定",
+      "summaryZh": "明年起私人执业助产士须购买保险方可接生，民众担心居家分娩服务大幅萎缩。",
+      "c1": "Thousands of families, midwives and advocates took to the streets across Australia on Saturday, warning that new insurance rules threaten a \"catastrophic collapse\" in access to midwife-supported homebirths. Organisers Homebirth Australia said more than 12,000 people had registered for rallies at 26 locations, with hundreds gathering in Sydney's Hyde Park and outside the Northern Territory parliament in Darwin.\n\nAt the heart of the dispute is the end of an exemption, in place since 2009, that has allowed privately practising midwives to attend homebirths without private indemnity insurance. From 1 January, that exemption will be scrapped. The difficulty is that only about 5 per cent of the nation's 35,000 or so registered midwives are endorsed and therefore able to obtain the required cover, according to data from the health practitioner regulator.\n\nFederal Health Minister Mark Butler has defended the change, describing it as a no-brainer that all health practitioners carry insurance, particularly for births, where the potential for serious harm is considerable. He noted that an insurance product has been developed and offered to midwives, and that health ministers agreed some 18 months ago to bring homebirth midwives into line with other professions.\n\nOpponents counter that the available policy does not suit every midwife, and that regional women stand to lose the most, since some live hours from the nearest hospital and may have only one endorsed midwife in their area. Several speakers warned that the change could inadvertently push women towards freebirth, giving birth with no midwife or doctor present at all. The Australian College of Midwives has urged the government to come up with a more suitable policy.",
+      "b2": "On Saturday, thousands of families, midwives and supporters joined rallies across Australia. They are worried that new insurance rules will make it much harder to have a homebirth with a midwife. The organisers, Homebirth Australia, said more than 12,000 people registered for rallies in 26 places, including Sydney and Darwin.\n\nSince 2009, private midwives have been allowed to attend homebirths without private insurance. From 1 January, this exemption will end. The problem is that only about 5 per cent of Australia's roughly 35,000 registered midwives are endorsed and can get the insurance they will need.\n\nThe federal Health Minister, Mark Butler, supports the change. He said it is obvious that all health workers should have insurance, especially for births, because serious harm is possible. He said an insurance product is available to midwives, and that health ministers made this decision about 18 months ago.\n\nPeople against the change say the insurance does not suit all midwives. They believe women in regional areas will be hit hardest, because some live hours from a hospital and have very few midwives nearby. Some speakers warned that more women may choose to give birth with no midwife or doctor at all. The Australian College of Midwives wants the government to create a better policy.",
+      "vocab": [
+        {
+          "word": "take to the streets",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "走上街头（抗议）",
+          "en": "to protest publicly in large numbers",
+          "example": "Students took to the streets to demand action on climate change.",
+          "forms": [
+            "took to the streets"
+          ]
+        },
+        {
+          "word": "at the heart of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "处于…的核心",
+          "en": "at the most central or important part of something",
+          "example": "Trust is at the heart of any good friendship."
+        },
+        {
+          "word": "scrap",
+          "pos": "v.",
+          "ipa": "skræp",
+          "zh": "废除；取消",
+          "en": "to get rid of a plan, rule or system",
+          "example": "The council scrapped its plan for a new car park.",
+          "forms": [
+            "scrapped"
+          ]
+        },
+        {
+          "word": "no-brainer",
+          "pos": "n.",
+          "ipa": "ˌnəʊˈbreɪnə",
+          "zh": "不用多想的事；显而易见的选择",
+          "en": "a decision that is very easy or obvious",
+          "example": "Taking the train instead of driving in peak hour is a no-brainer."
+        },
+        {
+          "word": "bring into line with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使与…一致",
+          "en": "to make something match a rule or standard",
+          "example": "The new law brings our privacy rules into line with Europe's.",
+          "forms": [
+            "bring homebirth midwives into line with"
+          ]
+        },
+        {
+          "word": "counter",
+          "pos": "v.",
+          "ipa": "ˈkaʊntə",
+          "zh": "反驳",
+          "en": "to reply to an argument with an opposing argument",
+          "example": "When I said the plan was too expensive, she countered that it would save money later."
+        },
+        {
+          "word": "stand to lose",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "可能会失去",
+          "en": "to be likely to lose something",
+          "example": "Small shops stand to lose the most if the road is closed."
+        },
+        {
+          "word": "inadvertently",
+          "pos": "adv.",
+          "ipa": "ˌɪnədˈvɜːtəntli",
+          "zh": "无意中；不经意地",
+          "en": "without intending to",
+          "example": "I inadvertently deleted the whole folder."
+        },
+        {
+          "word": "come up with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "想出；提出",
+          "en": "to think of an idea, plan or solution",
+          "example": "We need to come up with a better name for the project."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The exemption for privately practising midwives was first introduced in 2009.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "正确。原文：an exemption, in place since 2009。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most registered midwives in Australia are already able to obtain the required insurance.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "错误。原文：only about 5 per cent of ... registered midwives are endorsed and therefore able to obtain the required cover。"
+        },
+        {
+          "type": "tfng",
+          "q": "Mark Butler spoke at the rally in Sydney's Hyde Park.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "未提及。文章引用了 Butler 的观点，但没有说他是否出席集会。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why are women in regional areas expected to be hit hardest?",
+          "options": [
+            "They may live hours from a hospital and have only one endorsed midwife nearby",
+            "They are not allowed to buy private health insurance",
+            "Regional hospitals have stopped offering birth services",
+            "The new rules apply only outside the capital cities"
+          ],
+          "answer": 0,
+          "explain": "原文：regional women stand to lose the most, since some live hours from the nearest hospital and may have only one endorsed midwife in their area。"
+        }
+      ],
+      "discuss": "How should governments balance patient safety with people's freedom to choose how they receive care? Do you think rules like this make birth safer or riskier overall?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-21/homebirth-rallies-midwife-insurance-freebirth/107412380"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "After the Flat Inspection",
+    "titleZh": "看房之后",
+    "setting": "Two friends compare notes on the footpath after inspecting a two-bedroom flat in Brunswick on a Saturday morning.",
+    "settingZh": "周六上午，两个朋友在不伦瑞克看完一套两居室公寓后，站在人行道上交换看法。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Well, that was a bit of a mixed bag, wasn't it?",
+        "zh": "嗯，这房子有好有坏，对吧？"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "Yeah, the photos definitely did it a few favours, I reckon.",
+        "zh": "是啊，我觉得照片确实把它拍得好看多了。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "The second bedroom was tiny. You'd barely squeeze a single bed in there.",
+        "zh": "第二间卧室太小了，勉强才能塞进一张单人床。"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "True, but the kitchen's been done up, and the light's lovely in the mornings.",
+        "zh": "没错，但厨房翻新过，而且早上采光很好。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Did you notice that damp patch on the bathroom ceiling, though?",
+        "zh": "不过你注意到浴室天花板上那块潮湿的印子了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "I did. That's a bit of a red flag, to be honest.",
+        "zh": "注意到了。说实话，那有点让人担心。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "And there must have been thirty people traipsing through. It's so competitive.",
+        "zh": "而且来看房的人起码有三十个，竞争太激烈了。"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "Tell me about it. Half of them had their applications ready on the spot.",
+        "zh": "可不是嘛。一半人当场就把申请材料准备好了。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Should we put in an application anyway, just to keep our options open?",
+        "zh": "要不我们还是先递个申请，给自己留条后路？"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "I'm on the fence. It's close to the tram, but the rent's a stretch.",
+        "zh": "我还拿不定主意。离电车站近，但租金对我们来说有点吃力。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "We could ask the agent whether they'd fix the damp before we move in.",
+        "zh": "我们可以问问中介，入住前能不能把潮湿问题修好。"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "Good call. If they're cagey about it, that tells us everything we need to know.",
+        "zh": "好主意。如果他们支支吾吾，那就说明一切了。"
+      },
+      {
+        "s": "A",
+        "name": "Ines",
+        "en": "Right, let's sleep on it and decide by tomorrow night.",
+        "zh": "好，那我们先考虑一晚，明晚前做决定。"
+      },
+      {
+        "s": "B",
+        "name": "Kofi",
+        "en": "Sounds like a plan. Coffee first, though? I'm running on empty.",
+        "zh": "就这么定了。不过先喝杯咖啡吧？我快没电了。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "it had good and bad points",
+        "en": "a bit of a mixed bag",
+        "zh": "好坏参半"
+      },
+      {
+        "plain": "the photos made it look better",
+        "en": "the photos definitely did it a few favours",
+        "zh": "照片美化了它"
+      },
+      {
+        "plain": "a warning sign",
+        "en": "a bit of a red flag",
+        "zh": "危险信号；值得警惕的地方"
+      },
+      {
+        "plain": "I strongly agree",
+        "en": "Tell me about it.",
+        "zh": "可不是嘛（表示深有同感）"
+      },
+      {
+        "plain": "I can't decide",
+        "en": "I'm on the fence",
+        "zh": "犹豫不决"
+      },
+      {
+        "plain": "the rent is too expensive for us",
+        "en": "the rent's a stretch",
+        "zh": "租金有点负担不起"
+      },
+      {
+        "plain": "good idea",
+        "en": "Good call.",
+        "zh": "好主意；判断得对"
+      },
+      {
+        "plain": "let's think about it overnight",
+        "en": "let's sleep on it",
+        "zh": "考虑一晚再决定"
+      }
+    ]
+  }
+}
