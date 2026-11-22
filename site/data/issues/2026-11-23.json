@@ -1,0 +1,717 @@
+{
+  "date": "2026-11-23",
+  "issueNo": 36,
+  "title": "Lowy's power index, Geelong's corpse flower and Wong's AI warning",
+  "createdAt": "2026-11-23T06:49:32+11:00",
+  "stories": [
+    {
+      "id": "lowy-asia-power-index",
+      "category": "World",
+      "headline": "US–China power gap in Asia at its narrowest, Lowy report finds",
+      "headlineZh": "洛伊研究所报告：美中在亚洲的实力差距降至历史最小",
+      "summaryZh": "洛伊研究所2026年亚洲实力指数显示，美国外交影响力创纪录下滑，中国稳步追赶，澳大利亚跌至第六。",
+      "c1": "The United States has lost a considerable amount of power and influence in Asia over the past year, while China has steadily gained ground, according to the Lowy Institute's 2026 Asia Power Index. The annual report found that the overall gap between the two superpowers has shrunk to 5.3 points, the narrowest margin since the index was launched, although Washington still holds a clear lead.\n\nThe most striking shift came in diplomatic influence, where the US suffered a record decline. The report attributes much of this to the Trump administration's war with Iran and a string of unpopular policy decisions. Lead author Jack Sato identified three factors: a series of missteps by an increasingly transactional America, conflicts elsewhere diverting its attention away from the Indo-Pacific, and China's rapid military build-up. As a result, the American lead in military capability has narrowed from 27 points in 2018 to just over 15.\n\nChina, by contrast, held steady on most measures and now ranks first for both economic relationships and diplomatic influence. The two powers are almost level on economic capability in the region. Further down the table, India climbed to third place, consolidating its status as a major power, even though China's overall power is still 80 per cent greater.\n\nFor Australia, the picture is less encouraging. Its overall score dipped slightly and it slipped one place to sixth, behind Russia. South-East Asia was also hit hard by the closure of the Strait of Hormuz, which pushed up fuel and fertiliser prices, and diplomatic influence fell in almost every country in the region. Indonesia suffered the steepest drop, which the authors put down largely to its president's \"haphazard\" approach to foreign policy.",
+      "b2": "A new report says the United States has lost a lot of power and influence in Asia this year, while China has moved closer. The Lowy Institute's 2026 Asia Power Index found that the overall gap between the two countries is now 5.3 points. This is the smallest gap since the index began, but the US is still clearly ahead.\n\nThe biggest change was in diplomatic influence, where the US had a record fall. The report links this to the war with Iran and other unpopular decisions by the Trump administration. Lead author Jack Sato said the US had made several mistakes, had been distracted by conflicts in other regions and had faced fast military growth in China. The US military lead has fallen from 27 points in 2018 to just over 15.\n\nChina stayed steady on most measures. It is now first for economic relationships and diplomatic influence, and the two powers are almost equal in economic capability. India rose to third place, although China is still 80 per cent more powerful.\n\nAustralia's score fell slightly, and it dropped one place to sixth, behind Russia. In South-East Asia, the closure of the Strait of Hormuz raised fuel and fertiliser prices. Indonesia had the biggest fall in diplomatic influence.",
+      "vocab": [
+        {
+          "word": "gain ground",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "取得进展；逐渐追上",
+          "en": "to become more successful or popular, often catching up with a rival",
+          "example": "Electric bikes are gaining ground as a way to get around the inner suburbs.",
+          "forms": [
+            "gained ground"
+          ]
+        },
+        {
+          "word": "attribute … to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "to say that something is caused by a particular thing",
+          "example": "She attributes her improved sleep to cutting out coffee after lunch.",
+          "forms": [
+            "attributes much of this to"
+          ]
+        },
+        {
+          "word": "a string of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一连串的",
+          "en": "a series of similar things happening one after another",
+          "example": "The café closed after a string of bad reviews."
+        },
+        {
+          "word": "transactional",
+          "pos": "adj.",
+          "ipa": "/trænˈzækʃənl/",
+          "zh": "交易性的；功利的",
+          "en": "focused on what you can get from each deal rather than long-term relationships",
+          "example": "He has a very transactional view of friendship."
+        },
+        {
+          "word": "divert attention",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "转移注意力",
+          "en": "to make someone focus on something else",
+          "example": "The scandal diverted attention from the government's budget problems.",
+          "forms": [
+            "diverting its attention"
+          ]
+        },
+        {
+          "word": "military build-up",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "军事扩张；军力增强",
+          "en": "an increase in a country's weapons and armed forces",
+          "example": "Neighbouring countries are watching the military build-up with concern."
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show that something is very different from what was just mentioned",
+          "example": "Sydney was wet all weekend; Melbourne, by contrast, was sunny."
+        },
+        {
+          "word": "consolidate",
+          "pos": "v.",
+          "ipa": "/kənˈsɒlɪdeɪt/",
+          "zh": "巩固；加强",
+          "en": "to make a position or power stronger and more secure",
+          "example": "The team consolidated its lead with two late goals.",
+          "forms": [
+            "consolidating"
+          ]
+        },
+        {
+          "word": "put something down to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……归因于",
+          "en": "to think that something is caused by a particular thing",
+          "example": "I put my bad mood down to lack of sleep.",
+          "forms": [
+            "put down largely to"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "According to the report, China's military capability in Asia is now greater than that of the US.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 the American lead in military capability has narrowed ... to just over 15，美国仍领先，所以与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "The gap between the US and China is the smallest it has been since the index began.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 the narrowest margin since the index was launched，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Japan moved up one place in this year's index.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章没有提到日本的排名变化，因此无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which country recorded the steepest fall in diplomatic influence?",
+          "options": [
+            "Australia",
+            "Russia",
+            "India",
+            "Indonesia"
+          ],
+          "answer": 3,
+          "explain": "原文 Indonesia suffered the steepest drop，答案是印度尼西亚。"
+        }
+      ],
+      "discuss": "Why do you think a country's diplomatic influence can change so quickly? Does it matter to ordinary people which power is most influential in their region?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-22/us-loses-influence-in-asia-as-china-gains-in-lowy-power-index/107411514"
+        }
+      ]
+    },
+    {
+      "id": "corpse-flower-pollen",
+      "category": "Environment",
+      "headline": "Scientists bank Geelong corpse flower's pollen to fight extinction",
+      "headlineZh": "科学家采集吉朗尸花花粉入库，助力对抗物种灭绝",
+      "summaryZh": "吉朗植物园的巨魔芋“皮特”开花后，研究人员首次将其花粉存入维州种子库，以防这一濒危物种灭绝。",
+      "c1": "For a few days last week, thousands of people queued to squeeze into a steamy greenhouse at the Geelong Botanic Gardens, where the temperature is kept at around 27°C. The attraction was a titan arum, better known as the corpse flower, which its keepers had nicknamed \"Pete\". The plant is notorious for its pungent odour, which one local visitor likened to a teenage boy's school bag. By Friday morning, however, its brief moment of glory was over and the bloom had collapsed.\n\nBehind the scenes, scientists were seizing a rare opportunity. Dr Rebecca Miller, a research scientist at Royal Botanic Gardens Victoria, monitored the plant's condition and temperature before cutting a small window into its base and collecting pollen with a scalpel. It is the first time corpse flower pollen has been stored at the Victorian Conservation Seedbank in Melbourne, where it is intended to serve as an insurance policy against extinction.\n\nThe stakes are high. Fewer than 1,000 titan arums are thought to survive in the wild, in the jungles of Indonesia, where they are threatened by poaching, climate change and the clearing of forests for palm oil, timber and agriculture. Their biology does not help either: each plant blooms for no more than two days, and only once every seven to ten years, so chances to pollinate are few and far between.\n\nMiller will trial storage at minus 20 and minus 80 degrees Celsius, with varying levels of moisture, hoping to keep the pollen usable for a few years so that it can pollinate flowers in other botanic gardens. She concedes that viability may be low, but remains cautiously optimistic. She also hopes the attention will spill over to Australia's own under-appreciated arums, including a species from northern Australia that mimics dung to attract flies.",
+      "b2": "Last week, thousands of people waited in line to enter a hot, humid greenhouse at the Geelong Botanic Gardens. They came to see a titan arum, also called the corpse flower, which staff had named \"Pete\". The plant is famous for its terrible smell. One visitor said it smelt like a teenage boy's school bag. By Friday morning, the flower had finished and collapsed.\n\nWhile visitors enjoyed the show, scientists were busy. Dr Rebecca Miller from Royal Botanic Gardens Victoria checked the plant's condition, cut a small window into its base and collected pollen. This is the first time corpse flower pollen has been stored at the Victorian Conservation Seedbank in Melbourne. The idea is to protect the species from extinction.\n\nThe species is in serious danger. Fewer than 1,000 plants are believed to be left in the wild, in Indonesia's jungles. They face poaching, climate change and forest clearing. Each plant flowers for only up to two days, once every seven to ten years.\n\nMiller will test storing the pollen at minus 20 and minus 80 degrees Celsius. She hopes it will stay usable for a few years, so other botanic gardens can use it. She admits it may not work well, but she is hopeful.",
+      "vocab": [
+        {
+          "word": "squeeze into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "挤进",
+          "en": "to fit yourself into a small or crowded space with difficulty",
+          "example": "We managed to squeeze into the back of the packed tram."
+        },
+        {
+          "word": "notorious for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "因……而臭名昭著",
+          "en": "famous for something bad",
+          "example": "This intersection is notorious for traffic jams at peak hour."
+        },
+        {
+          "word": "pungent",
+          "pos": "adj.",
+          "ipa": "/ˈpʌndʒənt/",
+          "zh": "刺鼻的；气味强烈的",
+          "en": "having a very strong smell or taste",
+          "example": "The pungent smell of durian filled the whole flat."
+        },
+        {
+          "word": "liken … to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……比作",
+          "en": "to say that something is similar to something else",
+          "example": "Critics likened the new stadium to a giant spaceship.",
+          "forms": [
+            "likened"
+          ]
+        },
+        {
+          "word": "seize an opportunity",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "抓住机会",
+          "en": "to act quickly to make use of a chance",
+          "example": "She seized the opportunity to study overseas for a semester.",
+          "forms": [
+            "seizing a rare opportunity"
+          ]
+        },
+        {
+          "word": "insurance policy",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "保障措施；后路",
+          "en": "something you do to protect yourself against a possible future problem",
+          "example": "Keeping a spare key at a neighbour's is a good insurance policy."
+        },
+        {
+          "word": "the stakes are high",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "利害攸关；风险很大",
+          "en": "there is a lot to win or lose",
+          "example": "The stakes are high for both teams in Saturday's final."
+        },
+        {
+          "word": "few and far between",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "稀少；难得",
+          "en": "rare; not happening often",
+          "example": "Affordable rentals near the city are few and far between."
+        },
+        {
+          "word": "spill over",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "蔓延到；波及",
+          "en": "to spread from one area or situation to another",
+          "example": "Tensions in the office began to spill over into team meetings."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The titan arum's bloom usually lasts for several weeks.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 each plant blooms for no more than two days，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Visitors had to buy a special ticket to see Pete in the greenhouse.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只说人们 queued to squeeze into a steamy greenhouse，没有提到门票，无法判断。"
+        },
+        {
+          "type": "tfng",
+          "q": "Pollen from a corpse flower had never before been stored at the Victorian Conservation Seedbank.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 It is the first time corpse flower pollen has been stored at the Victorian Conservation Seedbank，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT given as a threat to titan arums in the wild?",
+          "options": [
+            "Poaching",
+            "Climate change",
+            "Invasive insects",
+            "Clearing forests for palm oil"
+          ],
+          "answer": 2,
+          "explain": "原文列出 poaching, climate change and the clearing of forests for palm oil，没有提到入侵昆虫。"
+        }
+      ],
+      "discuss": "Why do you think rare events like a corpse flower blooming attract such huge crowds? Can public curiosity really help protect endangered species?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-22/behind-the-scenes-scientists-are-working-to-bring-corpse-flowers/107402372"
+        }
+      ]
+    },
+    {
+      "id": "wong-ai-security",
+      "category": "Tech",
+      "headline": "Penny Wong to frame AI as a major national security challenge",
+      "headlineZh": "黄英贤将把人工智能定位为重大国家安全挑战",
+      "summaryZh": "外长黄英贤将在议会发表重要外交演讲，警告人工智能让外国干预更快更隐蔽，并呼吁澳大利亚迅速行动。",
+      "c1": "Foreign Minister Penny Wong is set to put artificial intelligence at the centre of Australia's foreign policy, using a major speech to parliament on Tuesday to describe it as a significant national security challenge. The address, titled \"Securing Australia's future in a changing world\", will take the place of a foreign policy white paper. The last such document was published in 2017, and Wong has previously argued that these papers quickly become outdated.\n\nIn the speech, Wong will argue that AI is transforming military power and reshaping economies in ways that cannot be fully anticipated. She will also warn that the technology is making foreign interference faster, cheaper and harder to spot. She is expected to cite reports of an Iranian operation that used fake journalist personas to publish articles about the US-Iran conflict, as well as Russian covert operations that reportedly used deepfakes to sway US elections.\n\nHer remarks come amid growing concern about the security of AI infrastructure at home. ASIO chief Mike Burgess warned that foreign adversaries could covertly seek some form of control over AI infrastructure, and that building data centres in Australia carries a risk of foreign interference. Home Affairs Minister Tony Burke has said such facilities act as a magnet for foreign interference and that their ownership structures warrant careful scrutiny.\n\nRather than waiting for international treaties, Wong will contend that Australia must act quickly, noting that it is already legislating mandatory AI safety standards and strengthening its cyber resilience. She will also caution that the race to develop frontier AI, concentrated in a handful of companies and countries, should not reward speed at the expense of prudence. Pointing to Australia's past influence on nuclear proliferation and online safety, she will signal an ambition to shape the rules on AI in a similar way.",
+      "b2": "Foreign Minister Penny Wong will give an important speech to parliament on Tuesday. In it, she will describe artificial intelligence as a major national security challenge for Australia. The speech is called \"Securing Australia's future in a changing world\", and it will replace a foreign policy white paper. Australia's last white paper came out in 2017.\n\nWong will say that AI is changing military power, people's lives and the economy in ways that are hard to predict. She will also warn that AI makes foreign interference faster, cheaper and more difficult to notice. She is expected to mention reports that Iran used fake journalists to publish articles, and that Russia used deepfakes to try to influence US elections.\n\nThere are also worries about AI data centres in Australia. The head of ASIO, Mike Burgess, has warned that foreign enemies could try to secretly gain some control over AI infrastructure. Home Affairs Minister Tony Burke said data centres attract foreign interference, so their owners must be checked carefully.\n\nWong will argue that Australia should not wait for international agreements. She will say Australia is already making laws for AI safety standards. She will also warn that companies racing to build powerful AI should not put speed ahead of safety.",
+      "vocab": [
+        {
+          "word": "take the place of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "取代；代替",
+          "en": "to replace something",
+          "example": "Video calls have largely taken the place of business trips for our team."
+        },
+        {
+          "word": "foreign interference",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "外国干预",
+          "en": "secret or harmful attempts by another country to influence a nation's politics",
+          "example": "The new laws aim to make foreign interference in elections harder."
+        },
+        {
+          "word": "sway",
+          "pos": "v.",
+          "ipa": "/sweɪ/",
+          "zh": "左右；影响（看法）",
+          "en": "to influence someone's opinion or decision",
+          "example": "Celebrity endorsements rarely sway my vote."
+        },
+        {
+          "word": "covertly",
+          "pos": "adv.",
+          "ipa": "/ˈkəʊvɜːtli/",
+          "zh": "秘密地；暗中",
+          "en": "done secretly, without people knowing",
+          "example": "The journalist covertly recorded the conversation."
+        },
+        {
+          "word": "act as a magnet for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "吸引……",
+          "en": "to attract a particular kind of person or thing",
+          "example": "The new laneway bars act as a magnet for young people on weekends."
+        },
+        {
+          "word": "warrant",
+          "pos": "v.",
+          "ipa": "/ˈwɒrənt/",
+          "zh": "使有必要；值得",
+          "en": "to make an action necessary or appropriate",
+          "example": "The decline in student numbers warrants a closer look."
+        },
+        {
+          "word": "contend",
+          "pos": "v.",
+          "ipa": "/kənˈtend/",
+          "zh": "主张；坚决认为",
+          "en": "to argue or state that something is true",
+          "example": "Some economists contend that rates will fall early next year."
+        },
+        {
+          "word": "a handful of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "少数；一小撮",
+          "en": "a small number of people or things",
+          "example": "Only a handful of students turned up to the Friday lecture."
+        },
+        {
+          "word": "at the expense of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "以……为代价",
+          "en": "in a way that causes harm or loss to something else",
+          "example": "He finished the report on time, but at the expense of his weekend."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Australia's most recent foreign policy white paper was published in 2017.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 The last such document was published in 2017，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The speech will announce extra funding for ASIO.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章提到 ASIO 局长的警告，但没有提到任何拨款，无法判断。"
+        },
+        {
+          "type": "tfng",
+          "q": "Wong believes Australia should wait for international treaties before taking action on AI.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 Rather than waiting for international treaties, Wong will contend that Australia must act quickly，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did Tony Burke say about data centres?",
+          "options": [
+            "They should be built only by Australian companies.",
+            "They attract foreign interference, so their ownership needs careful checking.",
+            "They use too much electricity.",
+            "They are no longer a security concern."
+          ],
+          "answer": 1,
+          "explain": "原文 such facilities act as a magnet for foreign interference and that their ownership structures warrant careful scrutiny。"
+        }
+      ],
+      "discuss": "Why do you think governments find it so hard to keep up with new technologies like AI? Should a single country set its own rules, or wait for global agreement?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-22/federal-politics-penny-wong-foreign-policy-ai-threat/107414236"
+        }
+      ]
+    },
+    {
+      "id": "against-convenience",
+      "category": "Society",
+      "headline": "Is convenience making us lonelier? A journalist makes the case",
+      "headlineZh": "便利让我们更孤独吗？一位记者这样认为",
+      "summaryZh": "美国记者布拉德在新书《反对便利》中指出，应用程序和自助服务虽省时，却让人更孤立，并带来隐性代价。",
+      "c1": "Ordering coffee through an app, streaming music and gliding through self-service checkouts may save us a few minutes, but according to American journalist Gabe Bullard, these everyday conveniences come at a hidden cost. In his book Against Convenience, Bullard, who lives in Switzerland, argues that many services designed to make life easier are quietly leaving us more isolated, while low-paid workers and the environment bear much of the burden.\n\nHis interest in the subject grew out of personal experience. After the pandemic lockdowns, he got into the habit of ordering his coffee ahead through an app, and found the routine surprisingly lonely. When he switched to a coffee shop where he had to order in person, and started inviting colleagues along, he noticed that his mood and his working relationships improved, and that the coffee was better too.\n\nBullard's broader point is that the less we leave home and deal with other people, the more isolated we become. He also worries that algorithmic feeds and personalised services, which cater to our individual tastes, may distort our sense of a shared world that none of us fully controls. A psychologist quoted in the interview makes a similar case: even waving at a stranger acknowledges that we occupy a shared space, and social skills tend to weaken when they go unused.\n\nThat is not to say Bullard rejects technology outright. Instead, he suggests that a little friction can be valuable, prompting us to reflect on what we consume. He now shops in stores rather than online, buys music instead of streaming it and chats more with strangers. He admits he was initially sceptical of one Swiss trend, in which people meet in parks to eat pudding with forks, but has come to see it as an encouraging way to socialise.",
+      "b2": "Apps, streaming and fast self-service checkouts can save us time. But American journalist Gabe Bullard believes these conveniences have a hidden cost. In his book Against Convenience, he argues that many services which make life easier are also making us more isolated. He also says that low-paid workers and the environment often pay the price.\n\nBullard's idea came from his own life. After the pandemic lockdowns, he ordered his coffee through an app every day, and he felt lonely. Then he started going to a coffee shop where he ordered in person, and he invited colleagues to join him. His mood got better, he became closer to his colleagues, and even the coffee tasted better.\n\nHe believes that the less we go out and talk to people, the more alone we feel. He also thinks personalised feeds and services, which are designed around our own tastes, can change how we see the shared world. A psychologist in the interview agrees that small actions, like waving at a stranger, matter, and that social skills get weaker if we don't use them.\n\nBullard does not hate technology. He now shops in stores, buys music instead of streaming it, and talks more to strangers.",
+      "vocab": [
+        {
+          "word": "come at a cost",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "付出代价",
+          "en": "to involve a loss or disadvantage",
+          "example": "Fast fashion comes at a cost to the environment.",
+          "forms": [
+            "come at a hidden cost"
+          ]
+        },
+        {
+          "word": "bear the burden",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "承担负担",
+          "en": "to carry the responsibility or cost of something",
+          "example": "Renters often bear the burden of rising housing costs.",
+          "forms": [
+            "bear much of the burden"
+          ]
+        },
+        {
+          "word": "grow out of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "源于；从……发展而来",
+          "en": "to develop from something",
+          "example": "The podcast grew out of conversations with friends over dinner.",
+          "forms": [
+            "grew out of"
+          ]
+        },
+        {
+          "word": "get into the habit of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "养成……的习惯",
+          "en": "to start doing something regularly",
+          "example": "I've got into the habit of walking to work on Fridays.",
+          "forms": [
+            "got into the habit of"
+          ]
+        },
+        {
+          "word": "cater to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "迎合；满足",
+          "en": "to provide what a particular person or group wants",
+          "example": "The menu caters to vegans and people with allergies."
+        },
+        {
+          "word": "distort",
+          "pos": "v.",
+          "ipa": "/dɪˈstɔːt/",
+          "zh": "扭曲；歪曲",
+          "en": "to change something so that it is no longer true or accurate",
+          "example": "Social media can distort our idea of what a normal life looks like."
+        },
+        {
+          "word": "outright",
+          "pos": "adv.",
+          "ipa": "/ˈaʊtraɪt/",
+          "zh": "完全地；彻底地",
+          "en": "completely and immediately",
+          "example": "The council rejected the proposal outright."
+        },
+        {
+          "word": "friction",
+          "pos": "n.",
+          "ipa": "/ˈfrɪkʃn/",
+          "zh": "阻力；摩擦",
+          "en": "small difficulties that slow a process down",
+          "example": "Removing friction from online shopping makes it easier to overspend."
+        },
+        {
+          "word": "come to see",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "逐渐认识到",
+          "en": "to gradually start to view something in a particular way",
+          "example": "I've come to see my long commute as useful reading time."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Bullard thinks people should give up using technology completely.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文 That is not to say Bullard rejects technology outright，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "After moving from app ordering to a coffee shop, Bullard got on better with his colleagues.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文 he noticed that his mood and his working relationships improved，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Against Convenience has become a bestseller in Switzerland.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文章只提到 Bullard 住在瑞士，没有提到书的销量，无法判断。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the example of eating pudding with forks in parks show?",
+          "options": [
+            "An unusual but positive way for people to socialise",
+            "A dessert that Bullard dislikes",
+            "A trend that Bullard believes wastes time",
+            "A Swiss tradition that is disappearing"
+          ],
+          "answer": 0,
+          "explain": "原文 has come to see it as an encouraging way to socialise，说明这是一种积极的社交方式。"
+        }
+      ],
+      "discuss": "Why do you think so many people choose convenience over contact with others? Do you think this trend will reverse in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-21/against-convenience-fighting-loneliness-and-building-community/107267134"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Stuck at Richmond Station",
+    "titleZh": "困在里士满车站",
+    "setting": "Two colleagues are waiting on a crowded platform at Richmond station after their train home is delayed on a Monday evening.",
+    "settingZh": "周一傍晚，两位同事回家的火车晚点，他们在拥挤的里士满车站站台上等车。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Don't tell me — the Frankston line's delayed again? That's the third time this week.",
+        "zh": "别告诉我——弗兰克斯顿线又晚点了？这周已经第三次了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Yep, signal fault near South Yarra, apparently. They're saying twenty minutes, at least.",
+        "zh": "是啊，据说南亚拉附近信号故障。说至少要二十分钟。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Brilliant. I was hoping to squeeze in a run before dinner.",
+        "zh": "太好了（反话）。我本来还想在晚饭前抽空跑个步。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Could be worse. At least it's not pouring like last Thursday.",
+        "zh": "还不算最糟。至少不像上周四那样下倾盆大雨。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "True. I suppose I could just grab an Uber, but that'd cost a fortune at this hour.",
+        "zh": "也是。我也可以叫个优步，但这个点会贵得离谱。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Funny, I was reading this morning about how convenience is making us lonelier.",
+        "zh": "真巧，我今天早上刚读到一篇文章，说便利让我们更孤独。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh yeah? So you reckon a delayed train is good for the soul?",
+        "zh": "哦是吗？所以你觉得火车晚点对心灵有好处？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Sort of! We wouldn't be having a proper chat if we were stuck in separate cars.",
+        "zh": "有点吧！如果我们各自坐在车里，就不会这样好好聊天了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Fair point. I've barely spoken to anyone outside the office in weeks.",
+        "zh": "有道理。我已经好几周几乎没和办公室以外的人说过话了。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Same here. Most days I just put my headphones in and zone out.",
+        "zh": "我也是。大多数时候我就戴上耳机发呆。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Hang on, is that our train? No — it's the Sandringham one. False alarm.",
+        "zh": "等等，那是我们的车吗？不是——是桑德林厄姆线的。虚惊一场。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Tell you what, if it's not here in ten, let's grab a bite nearby.",
+        "zh": "这样吧，如果十分钟内车还不来，我们就去附近随便吃点东西。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "You're on. Dumplings on Swan Street? My shout, since you kept me sane.",
+        "zh": "一言为定。去天鹅街吃饺子？我请客，谢谢你让我没崩溃。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "Please don't say that ...",
+        "en": "Don't tell me",
+        "zh": "表示不愿相信坏消息"
+      },
+      {
+        "plain": "fit in a run",
+        "en": "squeeze in a run",
+        "zh": "挤出时间做某事"
+      },
+      {
+        "plain": "It's not so bad.",
+        "en": "Could be worse.",
+        "zh": "安慰别人的常用说法"
+      },
+      {
+        "plain": "be very expensive",
+        "en": "cost a fortune",
+        "zh": "花一大笔钱"
+      },
+      {
+        "plain": "You're right.",
+        "en": "Fair point.",
+        "zh": "承认对方说得有道理"
+      },
+      {
+        "plain": "stop paying attention",
+        "en": "zone out",
+        "zh": "走神；放空"
+      },
+      {
+        "plain": "OK, I agree.",
+        "en": "You're on.",
+        "zh": "接受提议，一言为定"
+      },
+      {
+        "plain": "I'll pay.",
+        "en": "My shout",
+        "zh": "澳式说法：我请客"
+      }
+    ]
+  }
+}
