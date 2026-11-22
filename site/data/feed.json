@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-22T09:58:50.729Z",
+ "updatedAt": "2026-11-22T23:42:36.715Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Are we ready for the next big tech outage?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/are-we-ready-for-the-next-big-tech-outage/107403008",
-   "audio": "https://traffic.megaphone.fm/TECO3201581165.mp3",
-   "image": "https://megaphone.imgix.net/podcasts/0208b7da-e42c-11f1-9d73-cb5c073dcac0/image/c210e5856b45ee771e734b48ae33cf07.jpg?ixlib=rails-4.3.1&fit=crop&auto=format%2Ccompress&w=480&h=480",
-   "date": "2026-11-20",
-   "minutes": 18,
+   "title": "How RFK Jr. helped bring measles back",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-rfk-jr-helped-bring-measles-back/107409132",
+   "audio": "https://traffic.megaphone.fm/TECO5362013376.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2F81e618f0-e687-11f1-bcb7-87cb6877c7e1%2Fimage%2F5c89c65fb96f9aa82e1c7b0d56f9a95a.png%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-23",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Over the past week, a series of tech outages at major companies around the world have caused chaos. &nbsp;&nbsp;There was the Microsoft glitch which&nbsp;caused a&nbsp;mass&nbsp;disruption&nbsp;of services; an aviation update grounded every plane&nbsp;across…"
+   "desc": "Measles is officially back in the United States, with America losing the elimination status it held for more than a quarter of a century.&nbsp; So how much responsibility lies with Donald Trump's hand-picked health secretary, Robert F Kennedy Jr, and the…"
   },
   {
    "source": "Conversations",
