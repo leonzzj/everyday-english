@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T23:30:30.916Z",
+ "updatedAt": "2026-11-22T09:58:50.729Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Why intuition is the heart of music | Fabiola Reyna",
-   "url": "http://go.ted.com/FabiolaReyna",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b00794904470b737a38a15a/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-21",
-   "minutes": 36,
+   "title": "Sunday Pick: Romance is dead, long live romance | from Corner Piece",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b007e1204470b737a38a15b/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1795329162071-376576dc-5546-403b-ad2a-0513e367a89c.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-22",
+   "minutes": 44,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "For guitarist and TED Fellow Fabiola Reyna, music is first and foremost a way of connecting — to ourselves, our ancestors and each other. They take us inside their creative process, discussing why great music starts with intuition, how they turned love and…"
+   "desc": "The proliferation of dating apps have people thinking romance is dead. But is that what romance really is? In today’s Sunday Pick, we bring you another episode of the TED podcast, Corner Piece , where host Melissa sets out to discover the true definition of…"
   },
   {
    "source": "SBS Learn English",
