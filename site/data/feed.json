@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T23:42:36.715Z",
+ "updatedAt": "2026-11-23T10:57:55.278Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -17,15 +17,15 @@
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Beyond the robot apocalypse - who really wins in a world of AI?",
-   "url": "https://www.abc.net.au/listen/programs/conversations/cory-doctorow-artificial-intelligence/107388236",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qj/Z/4t.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F38d31893d5853d14327f9c0ed5303176.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-20",
-   "minutes": 52,
+   "title": "The Indigenous people and convicts who founded modern Australia",
+   "url": "https://www.abc.net.au/listen/programs/conversations/james-boyce-colonial-history-spirituality-tasmania/107400328",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qm/Z/oo.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F04d99fb3f3e2eb3c97206f8201fe46a3.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-23",
+   "minutes": 53,
    "level": "C1",
    "accent": "AU",
-   "desc": "Journalist Cory Doctorow on why we need to dig deeper into the scary messaging around AI to flip the narrative so it works FOR us instead of the other way around. AI is now widely seen as a job destroyer, a slop maker, a privacy invader and another burden on…"
+   "desc": "Tasmanian historian James Boyce unravels the story of colonisation you think you know. He says these two groups learned from and influenced each other — in amongst the violence and war — to build an early cultural adaptation. James is concerned with the…"
   },
   {
    "source": "TED Talks Daily",
@@ -56,15 +56,15 @@
   {
    "source": "Breaking News English",
    "kind": "read",
-   "title": "Wire upgrade at fault for grounding all US flights (Level 6)",
-   "url": "https://breakingnewsenglish.com/2611/261116-ground-stop-at-us-airports.html",
+   "title": "U.S. brings an end to production of one-cent coin (Level 6)",
+   "url": "https://breakingnewsenglish.com/2611/261123-penny-coin.html",
    "audio": "",
    "image": "",
-   "date": "2026-11-16",
+   "date": "2026-11-23",
    "minutes": 10,
    "level": "B2–C1",
    "accent": "",
-   "desc": "Nov 16, 2026. Thousands of flights across the USA were grounded on Friday the 13th following a communications failure."
+   "desc": "Nov 23, 2026. The United States has officially brought an end to the production of its one-cent coin."
   },
   {
    "source": "Aeon",
