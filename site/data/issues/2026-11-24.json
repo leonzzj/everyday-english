@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-24",
+  "issueNo": 37,
+  "title": "COP31's collapse, a rat-trapping trick and Nvidia's U-turn",
+  "createdAt": "2026-11-24T06:54:59+11:00",
+  "stories": [
+    {
+      "id": "cop31-talks-collapse",
+      "category": "Environment",
+      "headline": "UN climate talks collapse, leaving Australia and the Pacific frustrated",
+      "headlineZh": "联合国气候谈判破裂，澳大利亚与太平洋国家深感失望",
+      "summaryZh": "COP31在土耳其安塔利亚未能达成协议，化石燃料问题成为僵局核心。",
+      "c1": "The annual UN climate summit, COP31, ended in failure on Sunday when negotiators in Antalya, Türkiye, abandoned their efforts to reach a final agreement. The talks had already overrun by almost two days, and a last-ditch draft issued jointly by the two presidents was not enough to bridge the gap. At the heart of the deadlock lay a familiar question: whether the world should commit to reducing its use of fossil fuels.\n\nThis conference was unusual in that the presidency was shared. Türkiye hosted the summit and held the final say on outcomes, while Australia's climate minister, Chris Bowen, was given authority over the negotiations themselves. In the aftermath, Mr Bowen conceded that \"unbridgeable red lines\" on fossil fuels and climate finance had sunk the deal. Critics, however, have been quick to point the finger at him.\n\nFor Pacific nations, the outcome is a bitter blow. Australia had pitched for the presidency largely on the promise of amplifying its neighbours' voices, yet low-lying states such as Tuvalu, whose climate minister described fossil fuel language as a red line, came away with little. Progress on finance for developing countries was also minimal. One ABC analysis argues the failure dents Australia's credibility, given that it continues to approve major new gas and coal projects.\n\nThe backdrop could hardly have been grimmer. This year has been the hottest on record, the United States stayed away from the talks entirely, and this was the first summit to admit that the Paris goal of limiting warming to 1.5°C has been overshot. Even so, some observers point out that the shift to clean energy is gathering pace regardless of diplomatic setbacks. The UN's climate chief now plans to consider reforms to the process before next year's conference in Ethiopia.",
+      "b2": "The UN climate summit COP31 in Antalya, Türkiye, ended without an agreement on Sunday, almost two days later than planned. A final joint draft from both presidents still failed. The main problem was whether countries should agree to use less fossil fuel.\n\nThis summit had two presidents. Türkiye hosted the event and made the final decisions, while Australia's climate minister, Chris Bowen, led the negotiations. After the talks broke down, Mr Bowen said strong disagreements about fossil fuels and climate finance had made a deal impossible. Some critics blame him for the failure.\n\nThe result is very disappointing for Pacific nations. Australia had asked to lead the talks partly to give its Pacific neighbours a stronger voice. However, countries like Tuvalu, which wanted clear language on fossil fuels, got very little. There was also little progress on money for developing countries. An ABC analysis says the failure hurts Australia's reputation, because it is still approving new gas and coal projects.\n\nThis year has been the hottest on record, and the United States did not attend. The summit also admitted that the 1.5°C goal from Paris has been passed. Still, some experts say clean energy is growing quickly anyway. The UN's climate chief will now look at ways to reform the process before next year's meeting in Ethiopia.",
+      "vocab": [
+        {
+          "word": "last-ditch",
+          "pos": "adj.",
+          "ipa": "/ˌlɑːst ˈdɪtʃ/",
+          "zh": "最后一搏的",
+          "en": "made as a final attempt to avoid failure",
+          "example": "In a last-ditch effort to save the shop, the owners launched a crowdfunding page."
+        },
+        {
+          "word": "bridge the gap",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "弥合差距",
+          "en": "to reduce the difference between two sides or things",
+          "example": "The new scholarship aims to bridge the gap between rich and poor students."
+        },
+        {
+          "word": "deadlock",
+          "pos": "n.",
+          "ipa": "/ˈdedlɒk/",
+          "zh": "僵局",
+          "en": "a situation in which neither side can agree or make progress",
+          "example": "After hours of argument, the committee reached a deadlock on the budget."
+        },
+        {
+          "word": "in the aftermath",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在……之后（尤指不好的事件）",
+          "en": "in the period after an important, usually bad, event",
+          "example": "In the aftermath of the floods, volunteers helped clean up the town."
+        },
+        {
+          "word": "point the finger at",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "指责；归咎于",
+          "en": "to blame someone for something",
+          "example": "It's easy to point the finger at the coach when the team loses."
+        },
+        {
+          "word": "a bitter blow",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "沉重打击",
+          "en": "a very disappointing or upsetting event",
+          "example": "Losing the final in the last minute was a bitter blow for the players."
+        },
+        {
+          "word": "amplify",
+          "pos": "v.",
+          "ipa": "/ˈæmplɪfaɪ/",
+          "zh": "放大；增强（声音、影响）",
+          "en": "to make something louder, stronger or more noticeable",
+          "example": "Social media can amplify the voices of people who are usually ignored.",
+          "forms": [
+            "amplifying"
+          ]
+        },
+        {
+          "word": "dent someone's credibility",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "损害……的可信度",
+          "en": "to make people trust someone less",
+          "example": "The broken promise has dented the council's credibility with residents.",
+          "forms": [
+            "dents Australia's credibility"
+          ]
+        },
+        {
+          "word": "gather pace",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "加速；势头增强",
+          "en": "to develop or move faster",
+          "example": "The campaign to save the local pool is gathering pace.",
+          "forms": [
+            "gathering pace"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Chris Bowen admitted that disagreements over climate finance helped cause the failure.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 Bowen conceded that \"unbridgeable red lines\" on fossil fuels and climate finance had sunk the deal，题干与原文一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Tuvalu has announced that it will leave the UN climate process.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中只提到图瓦卢气候部长把化石燃料表述视为 a red line，并未提到图瓦卢退出联合国气候进程。"
+        },
+        {
+          "type": "tfng",
+          "q": "The COP31 talks finished on schedule but without an agreement.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 The talks had already overrun by almost two days，即谈判超时近两天，与“按时结束”矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why was this COP described as unusual?",
+          "options": [
+            "It was held in two different countries at once.",
+            "Its presidency was shared between two countries.",
+            "It was led by the United States.",
+            "It was the shortest climate summit ever held."
+          ],
+          "answer": 1,
+          "explain": "文中说 This conference was unusual in that the presidency was shared，土耳其和澳大利亚共同担任主席。"
+        }
+      ],
+      "discuss": "Do you think big international summits are still the best way to tackle climate change? Why or why not?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-23/un-climate-talk-breakdown-a-disaster-for-australia/107416230"
+        },
+        {
+          "name": "GMA News (search result)",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010496/cop31-flop-triggers-backlash-in-australia-pacific-nations-express-despair/story/"
+        }
+      ]
+    },
+    {
+      "id": "rat-decoy-trick",
+      "category": "Science",
+      "headline": "Marketing trick lures wary rats into tunnels, study finds",
+      "headlineZh": "营销“诱饵效应”也能引老鼠入洞",
+      "summaryZh": "悉尼大学研究发现，放一份吃不到的美食在入口，老鼠进入隧道的次数增加83%。",
+      "c1": "It is a tactic familiar to anyone who has gone shopping for a television, only to find that the model they wanted has sold out. Faced with an option they cannot have, many customers settle for a cheaper alternative they had not previously considered. Now researchers at the University of Sydney have shown that this so-called \"phantom decoy\" effect can also sway the behaviour of black rats.\n\nBlack rats are notoriously hard to trap. Having arrived in Australia with European colonisation, they are the product of a long history in which the rats that wandered into traps tended not to survive, leaving behind wary descendants. To test whether a decoy could tip the balance, Professor Peter Banks and his colleagues set up tracking tunnels at 226 sites in urban bushland across Sydney over two years, baiting them with plain bread, bread with jam, or nothing at all.\n\nAt half of the tunnels, the team placed a ball of peanut butter and oats in a steel container at the entrance, where rats could see and smell it but not reach it. Remarkably, entries into tunnels holding only bread rose by 83 per cent when the decoy was present. Placing the same treat at the back of a tunnel, by contrast, produced no such boost, suggesting that the effect was not simply a matter of more food attracting more rats.\n\nThe findings, published in the Journal of Applied Ecology, could have practical benefits. An independent expert suggested the approach might reduce the number of poison baits needed, lowering the risk of native animals being poisoned second-hand. It is worth noting, though, that the study measured tunnel entries rather than actual captures, so whether the trick translates into more rats being caught remains to be seen.",
+      "b2": "Imagine you go to a shop to buy a TV, but the one you want has sold out. Many shoppers then buy a cheaper TV they had not thought about before. Researchers at the University of Sydney have found that this \"phantom decoy\" trick also works on black rats.\n\nBlack rats are very hard to catch. Over a long time, rats that went into traps usually died, so today's rats are very careful. Professor Peter Banks and his team wanted to see if a decoy could change this. Over two years, they placed tracking tunnels at 226 sites in bushland around Sydney. Some had plain bread inside, some had bread with jam, and some were empty.\n\nAt half of the tunnels, the team put a ball of peanut butter and oats in a steel container at the entrance. Rats could see and smell it but not eat it. With this decoy outside, visits to tunnels with only bread went up by 83 per cent. Putting the same treat at the back of a tunnel did not have this effect.\n\nThe study appeared in the Journal of Applied Ecology. An expert said the method could mean fewer poison baits, which would protect native animals. However, the study counted tunnel visits, not captured rats, so more research is needed.",
+      "vocab": [
+        {
+          "word": "settle for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "将就；勉强接受",
+          "en": "to accept something that is not exactly what you wanted",
+          "example": "They couldn't get tickets for Saturday, so they settled for the Sunday show."
+        },
+        {
+          "word": "sway",
+          "pos": "v.",
+          "ipa": "/sweɪ/",
+          "zh": "左右；影响（决定、看法）",
+          "en": "to influence someone's opinion or behaviour",
+          "example": "Online reviews often sway people's choice of restaurant."
+        },
+        {
+          "word": "notoriously",
+          "pos": "adv.",
+          "ipa": "/nəʊˈtɔːriəsli/",
+          "zh": "出了名地（多指坏的方面）",
+          "en": "in a way that is well known for being bad or difficult",
+          "example": "Melbourne's weather is notoriously hard to predict."
+        },
+        {
+          "word": "tip the balance",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "打破平衡；起决定性作用",
+          "en": "to be the factor that makes one result more likely than another",
+          "example": "The free parking tipped the balance in favour of the bigger shopping centre."
+        },
+        {
+          "word": "by contrast",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "相比之下",
+          "en": "used to show that something is very different from what was just mentioned",
+          "example": "The city was crowded and noisy; the coast, by contrast, was peaceful."
+        },
+        {
+          "word": "a matter of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "……的问题；取决于",
+          "en": "used to say what something involves or depends on",
+          "example": "Learning a language isn't just a matter of memorising words."
+        },
+        {
+          "word": "second-hand",
+          "pos": "adv.",
+          "ipa": "/ˌsekəndˈhænd/",
+          "zh": "间接地",
+          "en": "indirectly, through another person or thing rather than directly",
+          "example": "Children can be harmed second-hand by smoke from other people's cigarettes."
+        },
+        {
+          "word": "translate into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "转化为；导致",
+          "en": "to result in a particular effect or outcome",
+          "example": "Higher wages don't always translate into better living standards.",
+          "forms": [
+            "translates into"
+          ]
+        },
+        {
+          "word": "remain to be seen",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "尚不清楚；有待观察",
+          "en": "used to say that something is not yet known",
+          "example": "Whether the new bike lanes will reduce traffic remains to be seen.",
+          "forms": [
+            "remains to be seen"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The decoy food at the tunnel entrance could be smelled but not eaten by the rats.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 rats could see and smell it but not reach it，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "The researchers now plan to test the same method on house mice.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到研究人员下一步要在家鼠身上测试这一方法。"
+        },
+        {
+          "type": "tfng",
+          "q": "The experiment was carried out in several Australian cities.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说实验在 226 sites in urban bushland across Sydney 进行，只在悉尼，与“多个城市”矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the article mention placing the treat at the back of a tunnel?",
+          "options": [
+            "To show that rats prefer jam to peanut butter",
+            "To explain how the tunnels were built",
+            "To show that the effect was not just about extra food",
+            "To prove that rats avoid peanut butter"
+          ],
+          "answer": 2,
+          "explain": "文中说 produced no such boost, suggesting that the effect was not simply a matter of more food attracting more rats。"
+        }
+      ],
+      "discuss": "Why do you think humans and animals can be influenced by options they cannot actually have? Can you think of other places where this trick is used?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-11-23/tricking-rats-into-traps-with-human-marketing-psychology/107409412"
+        },
+        {
+          "name": "The Conversation (search result)",
+          "url": "https://theconversation.com/a-trick-marketers-use-to-sell-you-things-can-also-persuade-rats-to-enter-traps-new-study-296932"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-huang-returns",
+      "category": "Business",
+      "headline": "Nvidia brings back Jensen Huang as CEO, sending shares soaring",
+      "headlineZh": "英伟达让黄仁勋重返CEO职位，股价大涨",
+      "summaryZh": "辞职不到两周后，英伟达董事会一致同意黄仁勋复职，股价早盘涨逾30%。",
+      "c1": "In a dramatic reversal, Nvidia has reinstated its co-founder Jensen Huang as chief executive, less than a fortnight after he resigned and only days after the chipmaker's board had ruled out his return. The decision, announced on Monday in the US, was greeted enthusiastically by investors: the company's shares jumped by more than 30 per cent in early trading, following a sharp fall in value when the scandal first broke.\n\nMr Huang stepped down on 12 November following revelations about his private life, including a relationship with a businesswoman whom US authorities suspected of spying for China, an allegation Beijing has denied. According to the board, which voted unanimously to bring him back, input from senior levels of the US government had satisfied directors that his return posed no national security risk. Colette Kress, who had stepped in as interim chief executive, will revert to her role as chief financial officer.\n\nThe move has proved deeply divisive. President Donald Trump, who had lobbied for the reinstatement, hailed the outcome, and an online petition backing Mr Huang attracted more than 180,000 signatures. Yet lawmakers from both major parties have voiced unease. Senator Elizabeth Warren branded the decision \"reckless\", while some Republicans questioned the board's conclusion that national security was not at risk.\n\nThe episode raises awkward questions about corporate governance, not least whether any single leader can become indispensable to a company at the centre of the AI boom. Nvidia still faces investigations by the Securities and Exchange Commission and the Department of Justice, and it has pledged to hire a chief compliance officer. For now, though, markets appear to have concluded that the firm is better off with its founder at the helm, whatever doubts may linger.",
+      "b2": "Nvidia has given Jensen Huang his job as chief executive back, only days after its board said he would not return. Investors were delighted. The company's shares rose by more than 30 per cent in early trading on Monday in the US, after falling sharply when the scandal began.\n\nMr Huang resigned on 12 November after news about his private life. This included a relationship with a businesswoman who US authorities suspected of spying for China. China has denied this. The board voted unanimously to bring him back. It said advice from senior US government officials showed his return was not a national security risk. Colette Kress, who was interim chief executive, will go back to being chief financial officer.\n\nPeople are strongly divided about the decision. President Donald Trump, who wanted Mr Huang back, praised it, and more than 180,000 people signed a petition supporting him. However, politicians from both major parties are worried. Senator Elizabeth Warren called the decision \"reckless\", and some Republicans questioned the board's view on national security.\n\nThe story raises questions about whether one leader can become too important. Nvidia is still being investigated by the Securities and Exchange Commission and the Department of Justice. For now, investors seem happy to have the founder back in charge.",
+      "vocab": [
+        {
+          "word": "reversal",
+          "pos": "n.",
+          "ipa": "/rɪˈvɜːsl/",
+          "zh": "逆转；彻底改变",
+          "en": "a change to the opposite of what was decided or expected",
+          "example": "The council's reversal on the parking fees surprised local businesses."
+        },
+        {
+          "word": "rule out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "排除（可能性）",
+          "en": "to say that something is not possible or will not happen",
+          "example": "Police have not ruled out the possibility that the fire was deliberate.",
+          "forms": [
+            "ruled out"
+          ]
+        },
+        {
+          "word": "step down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "辞职；下台",
+          "en": "to leave an important job or position",
+          "example": "After twenty years, the principal decided to step down at the end of the year.",
+          "forms": [
+            "stepped down"
+          ]
+        },
+        {
+          "word": "revert to",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "恢复到；回到（原来的状态）",
+          "en": "to go back to a previous state, role or way of doing something",
+          "example": "When the trial ended, the café reverted to its old opening hours."
+        },
+        {
+          "word": "divisive",
+          "pos": "adj.",
+          "ipa": "/dɪˈvaɪsɪv/",
+          "zh": "引起分歧的",
+          "en": "causing strong disagreement between people",
+          "example": "The new tax has been a divisive issue for the government."
+        },
+        {
+          "word": "lobby for",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "游说争取",
+          "en": "to try to persuade people in power to support something",
+          "example": "Residents have lobbied for a new pedestrian crossing near the school.",
+          "forms": [
+            "lobbied for"
+          ]
+        },
+        {
+          "word": "voice unease",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "表达不安",
+          "en": "to say that you feel worried or uncomfortable about something",
+          "example": "Several parents voiced unease about the new phone policy.",
+          "forms": [
+            "voiced unease"
+          ]
+        },
+        {
+          "word": "not least",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "尤其；特别是",
+          "en": "especially; used to emphasise an important example",
+          "example": "The plan has many problems, not least its huge cost."
+        },
+        {
+          "word": "at the helm",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "掌舵；担任领导",
+          "en": "in charge of an organisation or activity",
+          "example": "With a new captain at the helm, the team has started winning again."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Huang has agreed to take a lower salary after his return.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到黄仁勋的薪酬变化。"
+        },
+        {
+          "type": "tfng",
+          "q": "The board's decision to reinstate Huang was unanimous.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 the board, which voted unanimously to bring him back，与题干一致。"
+        },
+        {
+          "type": "tfng",
+          "q": "Colette Kress has left Nvidia after her time as interim chief executive.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 Kress will revert to her role as chief financial officer，她仍留在公司，与题干矛盾。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement about the reaction to Huang's return is correct?",
+          "options": [
+            "Only Democrats criticised the decision.",
+            "Investors reacted negatively at first.",
+            "President Trump opposed the decision.",
+            "Criticism came from members of both major parties."
+          ],
+          "answer": 3,
+          "explain": "文中说 lawmakers from both major parties have voiced unease，两党议员都表示担忧。"
+        }
+      ],
+      "discuss": "Should a company ever depend so heavily on one leader? What are the risks and benefits of this for businesses and investors?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-24/nvidia-ceo-jensen-huang-reinstated/107419102"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo"
+        }
+      ]
+    },
+    {
+      "id": "defence-zones-bill",
+      "category": "Australia",
+      "headline": "New defence laws spark fears for protest and press freedom",
+      "headlineZh": "新国防法案引发对抗议与新闻自由的担忧",
+      "summaryZh": "法案允许划定国防安全区，擅入或拍照最高可判七年，批评者称程序过于仓促。",
+      "c1": "Sweeping new defence laws expected to clear federal parliament this week have triggered a fierce debate over where national security ends and civil liberties begin. The 231-page Accelerating Capability and Protecting Bases bill, which passed the Senate last week with the backing of both Labor and the Coalition, would allow ministers to declare defence security zones around bases, data centres, vehicles and other sites used for defence purposes.\n\nUnder the legislation, entering such a zone would become a criminal offence, as would photographing or sketching it, with penalties of up to seven years in prison. Officials could detain people they reasonably suspect of having entered a zone and search their devices, and there is no exemption for journalists. The government argues the powers are overdue, pointing to Defence figures showing that drone sightings over bases jumped from 19 in 2022–23 to 204 in 2025–26.\n\nCritics, however, are alarmed by both the substance of the bill and the speed of the process. The Law Council's incoming president said three business days of public consultation was nowhere near enough to scrutinise such a lengthy bill, and independent senator David Pocock complained that debate in the Senate had been cut to just 30 minutes. Civil liberties groups also warn that zone boundaries may not be made public, raising the prospect of people being charged for unknowingly straying into one.\n\nThe Greens leader, David Shoebridge, went further, telling the Senate the legislation was \"going to war against democracy\" and suggesting that peaceful protesters at Pine Gap could face jail. Prime Minister Anthony Albanese has dismissed such commentary as absurd, insisting that keeping people safe is the government's first responsibility. Ministers also stress that the reforms include statutory limits and independent oversight, though critics remain unconvinced.",
+      "b2": "New defence laws, expected to pass federal parliament this week, have started a strong debate about security and freedom. The 231-page Accelerating Capability and Protecting Bases bill passed the Senate last week with support from Labor and the Coalition. It would let ministers create defence security zones around bases, data centres, vehicles and other defence sites.\n\nUnder the bill, it would be a crime to enter one of these zones or to photograph or sketch it. The maximum penalty would be seven years in prison. Officials could hold suspects and search their devices, and journalists would not be exempt. The government says the powers are needed because drone sightings over bases rose from 19 in 2022–23 to 204 in 2025–26.\n\nCritics are worried about the bill and about how fast it was passed. The Law Council's incoming president said three business days of public consultation was far too short for such a long bill. Civil liberties groups say the zone boundaries may be kept secret, so people could be charged without knowing they had entered one.\n\nGreens leader David Shoebridge said the bill was \"going to war against democracy\". Prime Minister Anthony Albanese called these comments absurd and said keeping people safe comes first. Ministers say the laws have limits and independent oversight, but critics are not convinced.",
+      "vocab": [
+        {
+          "word": "sweeping",
+          "pos": "adj.",
+          "ipa": "/ˈswiːpɪŋ/",
+          "zh": "全面的；影响广泛的",
+          "en": "having a big effect on many people or things",
+          "example": "The new principal made sweeping changes to the school timetable."
+        },
+        {
+          "word": "clear parliament",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "在议会获得通过",
+          "en": "to be officially approved by parliament",
+          "example": "The housing bill is unlikely to clear parliament before the election.",
+          "forms": [
+            "clear federal parliament"
+          ]
+        },
+        {
+          "word": "civil liberties",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "公民自由",
+          "en": "the basic rights of people, such as free speech and freedom to protest",
+          "example": "Some people think more CCTV cameras are a threat to civil liberties."
+        },
+        {
+          "word": "overdue",
+          "pos": "adj.",
+          "ipa": "/ˌəʊvəˈdjuː/",
+          "zh": "早该实行的；迟来的",
+          "en": "needed or expected for a long time",
+          "example": "A review of public transport fares is long overdue."
+        },
+        {
+          "word": "nowhere near",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远远不够；离……差得远",
+          "en": "not at all; far from",
+          "example": "Two days is nowhere near enough time to see everything in Tasmania."
+        },
+        {
+          "word": "scrutinise",
+          "pos": "v.",
+          "ipa": "/ˈskruːtənaɪz/",
+          "zh": "仔细审查",
+          "en": "to examine something very carefully",
+          "example": "Journalists will scrutinise the budget for hidden cuts."
+        },
+        {
+          "word": "stray into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "误入；不经意进入",
+          "en": "to move into an area without meaning to",
+          "example": "The hikers strayed into a closed section of the national park.",
+          "forms": [
+            "straying into"
+          ]
+        },
+        {
+          "word": "go further",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更进一步；说得更重",
+          "en": "to say or do something more extreme than others",
+          "example": "Some councillors want a plastic bag ban, but others go further and want all plastics banned.",
+          "forms": [
+            "went further"
+          ]
+        },
+        {
+          "word": "dismiss … as",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……斥为",
+          "en": "to say that something is not worth considering because it is silly or wrong",
+          "example": "The minister dismissed the report as out of date.",
+          "forms": [
+            "dismissed such commentary as"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Journalists would be exempt from the new offences.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "文中说 there is no exemption for journalists，与题干矛盾。"
+        },
+        {
+          "type": "tfng",
+          "q": "Polling shows that most Australians support the new laws.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到任何民意调查结果。"
+        },
+        {
+          "type": "tfng",
+          "q": "The bill has already been passed by the Senate.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "文中说 the bill, which passed the Senate last week，与题干一致。"
+        },
+        {
+          "type": "mcq",
+          "q": "What evidence does the government use to justify the new powers?",
+          "options": [
+            "A sharp rise in drone sightings over defence bases",
+            "A long period of public consultation",
+            "Support from civil liberties groups",
+            "Recent arrests of protesters at Pine Gap"
+          ],
+          "answer": 0,
+          "explain": "文中说政府 pointing to Defence figures showing that drone sightings over bases jumped from 19 ... to 204。"
+        }
+      ],
+      "discuss": "How should governments balance national security with people's right to protest and report the news? Where would you draw the line?",
+      "sources": [
+        {
+          "name": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australia-new-defence-laws-democracy/3bsjq3pnq"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Hay Fever at the GP",
+    "titleZh": "看全科医生：花粉过敏",
+    "setting": "A young man sees his GP in Brunswick after a fortnight of bad hay fever during Melbourne's spring pollen season.",
+    "settingZh": "墨尔本春季花粉季，一名年轻男子被花粉症困扰两周后，到布伦瑞克的全科诊所看病。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Come on in, Josh, have a seat. So, what's brought you in today?",
+        "zh": "进来吧，乔什，请坐。那么，今天是什么情况让你来看病？"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "It's my hay fever, honestly. It's been driving me up the wall this past fortnight.",
+        "zh": "说实话，是花粉症。这两周快把我逼疯了。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "You're not alone there. Spring in Melbourne is brutal for pollen. What symptoms are you getting?",
+        "zh": "不只你一个人这样。墨尔本的春天花粉特别厉害。你有哪些症状？"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "Constant sneezing, itchy eyes, and I've been waking up with a tight chest.",
+        "zh": "一直打喷嚏，眼睛痒，而且我醒来时总觉得胸口发紧。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Right, the chest tightness is the bit I'd rather not brush aside. Any history of asthma?",
+        "zh": "好的，胸闷这一点我可不想忽略。你有哮喘病史吗？"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "I had it as a kid, but I grew out of it, or so I thought.",
+        "zh": "小时候有过，但长大后就好了——至少我是这么以为的。"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "That's worth keeping an eye on. Have you heard of thunderstorm asthma?",
+        "zh": "这需要留意。你听说过雷暴哮喘吗？"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "Vaguely. Isn't that when storms break up pollen and loads of people struggle to breathe?",
+        "zh": "有点印象。是不是暴风雨把花粉打碎，然后很多人呼吸困难？"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Pretty much. People with hay fever can be caught off guard, even without diagnosed asthma.",
+        "zh": "差不多。有花粉症的人可能会措手不及，哪怕没被确诊过哮喘。"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "That's a bit unnerving, to be honest. What should I actually be doing?",
+        "zh": "说实话，这有点让人不安。那我具体该怎么做？"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "I'll prescribe a preventer nasal spray and a reliever puffer, just to be on the safe side.",
+        "zh": "为了保险起见，我给你开一支预防性鼻喷剂和一个缓解用的吸入器。"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "Fair enough. Do I need to take the puffer everywhere, or is that overkill?",
+        "zh": "好的。我需要到哪儿都带着吸入器吗，还是那样有点小题大做？"
+      },
+      {
+        "s": "A",
+        "name": "Anika",
+        "en": "Not overkill at all. Keep it on you, and check the pollen forecast before heading out.",
+        "zh": "一点也不小题大做。随身带着，出门前看看花粉预报。"
+      },
+      {
+        "s": "B",
+        "name": "Josh",
+        "en": "Will do. Thanks, Doc. I'm glad I didn't just tough it out.",
+        "zh": "一定照做。谢谢医生。还好我没有硬撑着。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What's your problem?",
+        "en": "what's brought you in today",
+        "zh": "医生常用的礼貌开场问法"
+      },
+      {
+        "plain": "It's very annoying.",
+        "en": "driving me up the wall",
+        "zh": "让人非常烦躁、抓狂"
+      },
+      {
+        "plain": "ignore",
+        "en": "brush aside",
+        "zh": "不当回事；置之不理"
+      },
+      {
+        "plain": "It stopped when I got older.",
+        "en": "grew out of it",
+        "zh": "长大后（问题/习惯）自然消失"
+      },
+      {
+        "plain": "be surprised and unprepared",
+        "en": "caught off guard",
+        "zh": "措手不及"
+      },
+      {
+        "plain": "to be safe",
+        "en": "just to be on the safe side",
+        "zh": "为了保险起见"
+      },
+      {
+        "plain": "too much / unnecessary",
+        "en": "overkill",
+        "zh": "过头了；小题大做"
+      },
+      {
+        "plain": "suffer without getting help",
+        "en": "tough it out",
+        "zh": "硬撑；咬牙挺过去"
+      }
+    ]
+  }
+}
