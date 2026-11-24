@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-25",
+  "issueNo": 38,
+  "title": "A Pakistani astronaut, reef heat and the right to sue social media",
+  "createdAt": "2026-11-25T06:54:16+11:00",
+  "stories": [
+    {
+      "id": "pakistan-astronaut-tiangong",
+      "category": "World",
+      "headline": "Pakistani pilot set to be first foreigner aboard China's space station",
+      "headlineZh": "巴基斯坦飞行员将成为首位登上中国空间站的外国人",
+      "summaryZh": "神舟二十四号将搭载巴基斯坦宇航员阿里飞往天宫，标志中巴航天合作迈出新步。",
+      "c1": "A Pakistan Air Force pilot is poised to make history this week as the first foreign national to fly aboard a Chinese spacecraft. Muhammad Zeeshan Ali, 40, is scheduled to lift off on the Shenzhou-24 mission from the Jiuquan Satellite Launch Center in north-west China on Wednesday morning, local time, alongside commander Tang Hongbo and flight engineer Wu Yi. China's crewed space agency has described it as the first joint flight of Chinese and foreign astronauts in its programme.\n\nAli, who will serve as a payload specialist rather than help pilot the craft, is expected to spend roughly a week aboard the Tiangong station. His main task will be to oversee four joint China–Pakistan experiments in biotechnology and materials science, most of them proposed by Pakistani universities and research institutes. He was selected through a demanding three-stage process and has spent months training in Beijing, including centrifuge sessions and technical work conducted in Chinese.\n\nThe flight carries considerable symbolic weight. It coincides with 75 years of diplomatic ties between the two countries, and Pakistani officials have framed China's choice as a mark of an unusually close partnership. Ali himself described the mission as \"not a finish line; it is a launchpad\".\n\nThe launch also underlines how far China's space ambitions have come. Having been effectively shut out of the International Space Station, partly because of a 2011 US law limiting NASA's cooperation with Beijing, China built a station of its own and now aims to land astronauts on the Moon by 2030. Opening Tiangong to foreign visitors arguably allows it to turn technical achievement into diplomatic influence, although it remains unclear how many other countries will follow Pakistan's lead.",
+      "b2": "A pilot from the Pakistan Air Force is about to become the first foreigner to travel on a Chinese spacecraft. Muhammad Zeeshan Ali, aged 40, is due to launch on the Shenzhou-24 mission from north-west China on Wednesday morning, local time. He will fly with two Chinese astronauts, Tang Hongbo and Wu Yi.\n\nAli will not fly the spacecraft. Instead, he will work as a payload specialist and stay on the Tiangong space station for about a week. He will look after four experiments in biotechnology and materials science, which were mostly designed by Pakistani universities and research groups. To prepare, he trained for months in Beijing.\n\nThe mission is very important for both countries. This year marks 75 years of diplomatic relations between Pakistan and China, and Pakistani officials see the flight as proof of a close friendship. Ali has said the trip is a beginning, not an end.\n\nThe launch also shows how quickly China's space programme has grown. China was largely kept out of the International Space Station, partly because of a 2011 US law, so it built its own station. It now wants to land astronauts on the Moon by 2030. Inviting foreign astronauts may also help China gain influence around the world.",
+      "vocab": [
+        {
+          "word": "be poised to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "即将；准备好做",
+          "en": "to be ready and about to do something",
+          "example": "The company is poised to announce record profits next month.",
+          "forms": [
+            "is poised to"
+          ]
+        },
+        {
+          "word": "lift off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "（火箭）升空",
+          "en": "to leave the ground and rise into the air",
+          "example": "We watched the hot-air balloon lift off just after dawn."
+        },
+        {
+          "word": "payload specialist",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "载荷专家",
+          "en": "a crew member responsible for experiments rather than flying the craft",
+          "example": "The payload specialist spent most of the mission running medical tests."
+        },
+        {
+          "word": "demanding",
+          "pos": "adj.",
+          "ipa": "/dɪˈmɑːndɪŋ/",
+          "zh": "要求高的；费力的",
+          "en": "needing a lot of skill, effort or time",
+          "example": "Nursing is a demanding job, both physically and emotionally."
+        },
+        {
+          "word": "carry symbolic weight",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "具有象征意义",
+          "en": "to be important because of what it represents",
+          "example": "The leaders' handshake carried real symbolic weight after years of tension.",
+          "forms": [
+            "carries considerable symbolic weight"
+          ]
+        },
+        {
+          "word": "coincide with",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "与……同时发生",
+          "en": "to happen at the same time as something else",
+          "example": "The festival coincides with the school holidays, so it gets very busy.",
+          "forms": [
+            "coincides with"
+          ]
+        },
+        {
+          "word": "frame",
+          "pos": "v.",
+          "ipa": "/freɪm/",
+          "zh": "把……描述为；定性",
+          "en": "to present something in a particular way",
+          "example": "The minister framed the tax rise as a temporary sacrifice.",
+          "forms": [
+            "framed"
+          ]
+        },
+        {
+          "word": "shut out of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……排除在外",
+          "en": "to prevent someone from taking part in something",
+          "example": "Smaller firms often feel shut out of government contracts."
+        },
+        {
+          "word": "follow someone's lead",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "效仿某人",
+          "en": "to do the same thing that someone else has done first",
+          "example": "Once one café banned plastic cups, others on the street followed its lead.",
+          "forms": [
+            "follow Pakistan's lead"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Ali will help to pilot the Shenzhou-24 spacecraft.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说他担任 \"payload specialist rather than help pilot the craft\"，即不负责驾驶，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Most of the experiments Ali will oversee were proposed by Pakistani institutions.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称实验 \"most of them proposed by Pakistani universities and research institutes\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Several other countries have already booked flights to Tiangong.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 \"it remains unclear how many other countries will follow\"，并未提到其他国家已预订，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, why did China build its own space station?",
+          "options": [
+            "It wanted to host more foreign astronauts than the ISS",
+            "It was largely excluded from the International Space Station",
+            "Pakistan asked China to build one",
+            "The ISS was about to close"
+          ],
+          "answer": 1,
+          "explain": "原文说中国 \"effectively shut out of the International Space Station\"，部分原因是2011年美国的法律，因此自建空间站。"
+        }
+      ],
+      "discuss": "Why do you think countries invest so much in sending their own citizens into space? Is space cooperation likely to bring nations closer, or will it become another arena for competition?",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"
+        }
+      ]
+    },
+    {
+      "id": "glp1-muscle-loss-warning",
+      "category": "Health",
+      "headline": "Weight-loss jab boom could bring falls and fractures, experts warn",
+      "headlineZh": "专家警告：减肥针热潮或导致跌倒和骨折风险上升",
+      "summaryZh": "澳运动科学机构称GLP-1药物可能造成肌肉流失，呼吁将力量训练纳入治疗。",
+      "c1": "Australia's enthusiasm for weight-loss injections could come at an unexpected cost, according to the country's peak body for exercise physiology. Exercise and Sports Science Australia (ESSA) has warned that the rapid uptake of GLP-1 medications, such as Ozempic and Mounjaro, may leave some patients with weaker muscles, a greater risk of falls and fractures, and, in the long run, a loss of independence.\n\nThe concern stems from the fact that the weight shed on these drugs is not all fat; lean tissue, including muscle, can be lost too. An estimated 500,000 Australians now use the injections, and ESSA's chief executive, Katie Lyndon, argues that without proper oversight some could struggle to stand or walk unaided in later life. That, she suggests, could place health and aged care systems under enormous strain.\n\nTo address the problem, ESSA has released screening tools for GPs, prompting them to flag warning signs such as unusually rapid weight loss, older age, previous falls and declining activity levels. A spokesman for the Royal Australian College of GPs welcomed the resources, while cautioning that patients who obtain the drugs through telehealth services, or who inject unapproved substances, may never receive advice about exercise at all.\n\nEncouragingly, there is evidence that the damage can be limited. A University of Western Australia study of 120 people found that those who did resistance training while taking tirzepatide lost about a quarter less lean tissue than those who did not. Its lead researcher put it simply: resistance exercise should be \"part of the prescription\". Experts also recommend prioritising protein and focusing on strength rather than simply watching the scales.",
+      "b2": "Weight-loss injections are very popular in Australia, but experts say they may have a hidden cost. Exercise and Sports Science Australia (ESSA) has warned that drugs such as Ozempic and Mounjaro could make some people's muscles weaker. This could lead to more falls, broken bones and, later in life, less independence.\n\nThe problem is that people on these drugs do not only lose fat. They can also lose muscle. About 500,000 Australians now use the injections. ESSA's chief executive, Katie Lyndon, says some of them may find it hard to stand or walk on their own when they are older, which could put pressure on hospitals and aged care.\n\nESSA has created screening tools to help GPs spot patients at risk, for example people who are losing weight very fast or who have fallen before. A spokesman for GPs welcomed the tools. However, he said people who buy the drugs online may not get any advice about exercise.\n\nThere is some good news. A study of 120 people in Western Australia found that those who did strength training while on the drug tirzepatide lost about 25 per cent less muscle and other lean tissue. Experts also advise eating enough protein.",
+      "vocab": [
+        {
+          "word": "come at a cost",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "付出代价",
+          "en": "to involve a disadvantage or loss",
+          "example": "The city's rapid growth has come at a cost to its green spaces.",
+          "forms": [
+            "come at an unexpected cost"
+          ]
+        },
+        {
+          "word": "peak body",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "（澳）最高行业组织",
+          "en": "the main organisation representing a profession or industry",
+          "example": "The peak body for nurses has called for better pay."
+        },
+        {
+          "word": "uptake",
+          "pos": "n.",
+          "ipa": "/ˈʌpteɪk/",
+          "zh": "采用率；接受程度",
+          "en": "the rate at which people start using something",
+          "example": "The uptake of electric cars has been slower in rural areas."
+        },
+        {
+          "word": "stem from",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "源于；由……引起",
+          "en": "to be caused by something",
+          "example": "Many of his money problems stem from a lack of planning.",
+          "forms": [
+            "stems from"
+          ]
+        },
+        {
+          "word": "shed",
+          "pos": "v.",
+          "ipa": "/ʃed/",
+          "zh": "减掉；去除",
+          "en": "to get rid of something, e.g. weight",
+          "example": "She shed five kilos after she started cycling to work."
+        },
+        {
+          "word": "unaided",
+          "pos": "adj.",
+          "ipa": "/ʌnˈeɪdɪd/",
+          "zh": "无需帮助的",
+          "en": "without help from anyone or anything",
+          "example": "After the operation, he could walk unaided within a week."
+        },
+        {
+          "word": "place under strain",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使承受压力",
+          "en": "to put pressure on something so it struggles to cope",
+          "example": "The heatwave placed the power grid under strain.",
+          "forms": [
+            "place health and aged care systems under enormous strain"
+          ]
+        },
+        {
+          "word": "flag",
+          "pos": "v.",
+          "ipa": "/flæɡ/",
+          "zh": "标出；提醒注意",
+          "en": "to draw attention to something, often a problem",
+          "example": "The software flags any spelling mistakes in red."
+        },
+        {
+          "word": "prioritise",
+          "pos": "v.",
+          "ipa": "/praɪˈɒrɪtaɪz/",
+          "zh": "优先考虑",
+          "en": "to treat something as more important than other things",
+          "example": "During exam season, try to prioritise sleep over social media.",
+          "forms": [
+            "prioritising"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "All of the weight lost on GLP-1 drugs is body fat.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"the weight shed on these drugs is not all fat; lean tissue, including muscle, can be lost too\"，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The RACGP spokesman was worried that some telehealth patients may not receive exercise advice.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称通过 \"telehealth services\" 获得药物的患者 \"may never receive advice about exercise\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The government has promised to fund ESSA's new screening tools.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到政府对这些工具的资助，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did the University of Western Australia study find?",
+          "options": [
+            "Tirzepatide does not cause any muscle loss",
+            "Protein supplements doubled muscle growth",
+            "Resistance training reduced lean tissue loss by about a quarter",
+            "Older patients lost more weight than younger ones"
+          ],
+          "answer": 2,
+          "explain": "原文说做抗阻训练的人 \"lost about a quarter less lean tissue\"，故选第三项。"
+        }
+      ],
+      "discuss": "Why do you think weight-loss medications have become so popular so quickly? Should doctors be required to prescribe exercise alongside them?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-25/glp1-weight-loss-muscle-loss-bone-fractures/107419818"
+        }
+      ]
+    },
+    {
+      "id": "reef-ocean-heat-warning",
+      "category": "Environment",
+      "headline": "Record ocean heat forecast as Great Barrier Reef braces for bleaching",
+      "headlineZh": "海洋高温预警：大堡礁或再遭大规模白化",
+      "summaryZh": "受厄尔尼诺与气候变化叠加影响，澳东部海域今夏或迎来创纪录海洋热浪。",
+      "c1": "Scientists have issued a stark warning that Australia's coastal waters could reach unprecedented temperatures this summer, putting the Great Barrier Reef at risk of yet another mass bleaching event. A long-range forecast from the CSIRO and the Bureau of Meteorology projects sea temperatures roughly 2°C above normal along much of the Queensland, New South Wales, Tasmanian and Northern Territory coasts, with a very high likelihood of marine heatwaves.\n\nThe outlook reflects a combination of factors. Climate change is steadily pushing ocean temperatures higher, and October was the warmest on record globally. El Niño, meanwhile, typically cools much of the western Pacific, yet it tends to bring calm, sunny and dry weather. Without cloud, rain and wind to mix heat downwards, shallow waters can warm remarkably quickly. Widespread bleaching occurred during the last two El Niño events, in 2016 and 2024.\n\nSo severe is the outlook that scientists have had to extend the scale they use to measure accumulated heat stress on corals. According to the reef's marine park authority, temperatures on the reef climbed from below average in early October to near record highs by mid-November. The authority is stepping up surveys, controlling crown-of-thorns starfish and trialling heat-tolerant corals.\n\nNot everyone believes this goes far enough. The Australian Marine Conservation Society wants the federal environment minister, Murray Watt, to draw up an emergency plan that would treat severe bleaching much like a natural disaster. The government, for its part, maintains that existing processes are robust and that its focus is on building the reef's resilience year-round. One government scientist summed up the season ahead as \"a stress test for the future\".",
+      "b2": "Scientists say the sea around Australia could become hotter than ever before this summer. This could cause another mass bleaching event on the Great Barrier Reef. A forecast from the CSIRO and the Bureau of Meteorology says ocean temperatures may be about 2°C above normal along large parts of the east and north coasts, and marine heatwaves are very likely.\n\nThere are two main reasons. First, climate change is making the oceans warmer, and October was the hottest October on record around the world. Second, El Niño often brings calm, sunny and dry weather. Without wind and rain, shallow water heats up quickly. There was widespread bleaching in the last two El Niño years, 2016 and 2024.\n\nThe forecast is so extreme that scientists had to make their heat-stress scale bigger. The reef authority says water temperatures rose to near record levels by mid-November. It is doing more surveys and testing corals that can handle heat.\n\nA conservation group wants the environment minister, Murray Watt, to create an emergency plan and treat bleaching like a natural disaster. The government says its current approach is strong and focuses on protecting the reef all year.",
+      "vocab": [
+        {
+          "word": "issue a stark warning",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "发出严厉警告",
+          "en": "to give a very clear and serious warning",
+          "example": "Doctors have issued a stark warning about the dangers of vaping.",
+          "forms": [
+            "issued a stark warning"
+          ]
+        },
+        {
+          "word": "unprecedented",
+          "pos": "adj.",
+          "ipa": "/ʌnˈpresɪdentɪd/",
+          "zh": "前所未有的",
+          "en": "never having happened before",
+          "example": "The pandemic caused unprecedented disruption to schools."
+        },
+        {
+          "word": "a combination of factors",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "多种因素共同作用",
+          "en": "several causes working together",
+          "example": "The delay was caused by a combination of factors, including bad weather."
+        },
+        {
+          "word": "accumulated",
+          "pos": "adj.",
+          "ipa": "/əˈkjuːmjəleɪtɪd/",
+          "zh": "累积的",
+          "en": "gradually built up over time",
+          "example": "Years of accumulated stress eventually affected her health."
+        },
+        {
+          "word": "step up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "加强；加大力度",
+          "en": "to increase the amount or intensity of something",
+          "example": "Police are stepping up patrols over the holiday period.",
+          "forms": [
+            "stepping up"
+          ]
+        },
+        {
+          "word": "go far enough",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "做得足够；力度够",
+          "en": "to be sufficient to deal with a problem",
+          "example": "Critics say the new rules don't go far enough to protect renters.",
+          "forms": [
+            "goes far enough"
+          ]
+        },
+        {
+          "word": "draw up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "起草；制定",
+          "en": "to prepare a plan or document",
+          "example": "The council has drawn up a plan to reduce traffic in the city centre."
+        },
+        {
+          "word": "robust",
+          "pos": "adj.",
+          "ipa": "/rəʊˈbʌst/",
+          "zh": "健全的；稳固的",
+          "en": "strong and unlikely to fail",
+          "example": "We need a robust system for checking students' work."
+        },
+        {
+          "word": "resilience",
+          "pos": "n.",
+          "ipa": "/rɪˈzɪliəns/",
+          "zh": "恢复力；韧性",
+          "en": "the ability to recover quickly from difficulties",
+          "example": "Community gardens can build a neighbourhood's resilience."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "El Niño usually makes much of the western Pacific warmer.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 El Niño \"typically cools much of the western Pacific\"，与陈述相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Reef temperatures were below average in early October.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称温度 \"climbed from below average in early October\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The forecast predicts sea temperatures about 4°C above normal along the Queensland coast.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说预测海温 \"roughly 2°C above normal\"，而不是4°C，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did scientists extend the scale used to measure heat stress?",
+          "options": [
+            "The old scale was inaccurate",
+            "The forecast conditions were too severe for it",
+            "The government asked them to",
+            "Corals have become more heat-tolerant"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"So severe is the outlook that scientists have had to extend the scale\"，故选第二项。"
+        }
+      ],
+      "discuss": "Should severe coral bleaching be treated like a natural disaster such as a bushfire or flood? What might change if it were?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-25/scientists-issue-great-barrier-reef-coral-bleaching-warning/107412866"
+        }
+      ]
+    },
+    {
+      "id": "right-to-sue-social-media",
+      "category": "Tech",
+      "headline": "Australians to gain right to sue social media giants",
+      "headlineZh": "澳大利亚人将有权起诉社交媒体巨头",
+      "summaryZh": "工党与绿党达成协议，通过“数字注意义务”法案，平台违规最高罚全球收入5%。",
+      "c1": "Australians who suffer harm online may soon be able to take social media companies to court, after Labor struck a deal with the Greens to pass its digital duty of care legislation through the Senate. In return for the Greens' support, the government has agreed to introduce a so-called private right of action, which would allow individuals to sue platforms directly rather than relying solely on the eSafety Commissioner to hold them to account.\n\nThe duty itself would require platforms such as Facebook, TikTok and Instagram to take reasonable steps to protect children from harms including bullying, misogyny and content promoting eating disorders, and to shield adults from serious threats such as stalking. Platforms would also have to factor \"addictive\" design features, like endless scrolling, into their risk assessments, and users aged 16 and over could opt out of algorithm-driven feeds.\n\nThe financial stakes have risen considerably. Under the amended bill, the maximum penalty for a breach would be up to 5 per cent of a platform's global revenue, compared with a cap of $109.2 million in Labor's original proposal. The government will also gain powers to create a digital complaints ombudsman to handle smaller disputes in future.\n\nCommunications Minister Anika Wells played down the prospect of a flood of litigation, suggesting lawsuits would probably be fairly rare and that the real aim was a cultural shift in how tech companies view accountability. The Greens, by contrast, struck a more combative tone, warning that class actions should follow if companies failed to improve. The Coalition remains opposed to the bill on free speech grounds, and Ms Wells said she had briefed the US ambassador on the changes.",
+      "b2": "People in Australia who are harmed online may soon be able to sue social media companies. Labor has made a deal with the Greens so that its digital duty of care law can pass the Senate. As part of the deal, the government agreed that individuals can take platforms to court themselves, instead of only depending on the eSafety Commissioner.\n\nUnder the new duty, platforms such as Facebook, TikTok and Instagram must take reasonable steps to protect children from things like bullying and content about eating disorders. They must also protect adults from serious harms such as stalking. Companies will have to think about \"addictive\" features like endless scrolling, and users aged 16 and over will be able to turn off algorithm-based feeds.\n\nThe fines will be much bigger. A company that breaks the rules could be fined up to 5 per cent of its global revenue. Labor's first plan had a limit of $109.2 million.\n\nCommunications Minister Anika Wells said she expects lawsuits to be fairly rare. She hopes the law will change how tech companies think about responsibility. The Greens were tougher, saying there should be class actions if companies do not improve. The Coalition is against the bill because of free speech concerns.",
+      "vocab": [
+        {
+          "word": "take someone to court",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "起诉某人",
+          "en": "to start legal action against someone",
+          "example": "The tenants threatened to take their landlord to court over the repairs.",
+          "forms": [
+            "take social media companies to court"
+          ]
+        },
+        {
+          "word": "strike a deal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "达成协议",
+          "en": "to reach an agreement after negotiation",
+          "example": "The two clubs struck a deal for the player just before the deadline.",
+          "forms": [
+            "struck a deal"
+          ]
+        },
+        {
+          "word": "hold someone to account",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "追究某人责任",
+          "en": "to make someone take responsibility for their actions",
+          "example": "Voters want to hold politicians to account for broken promises.",
+          "forms": [
+            "hold them to account"
+          ]
+        },
+        {
+          "word": "factor into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把……考虑在内",
+          "en": "to include something when making a decision or calculation",
+          "example": "Don't forget to factor travel time into your schedule.",
+          "forms": [
+            "factor \"addictive\" design features, like endless scrolling, into"
+          ]
+        },
+        {
+          "word": "opt out of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "选择退出",
+          "en": "to choose not to take part in something",
+          "example": "You can opt out of marketing emails at any time."
+        },
+        {
+          "word": "stakes",
+          "pos": "n.",
+          "ipa": "/steɪks/",
+          "zh": "利害关系；风险",
+          "en": "what can be gained or lost in a situation",
+          "example": "With the title on the line, the stakes couldn't be higher."
+        },
+        {
+          "word": "play down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "淡化；轻描淡写",
+          "en": "to make something seem less important than it is",
+          "example": "The coach played down his injury, saying it was just a bruise.",
+          "forms": [
+            "played down"
+          ]
+        },
+        {
+          "word": "litigation",
+          "pos": "n.",
+          "ipa": "/ˌlɪtɪˈɡeɪʃn/",
+          "zh": "诉讼",
+          "en": "the process of taking legal action",
+          "example": "The company wants to settle the dispute and avoid costly litigation."
+        },
+        {
+          "word": "combative",
+          "pos": "adj.",
+          "ipa": "/ˈkɒmbətɪv/",
+          "zh": "好斗的；强硬的",
+          "en": "ready and eager to argue or fight",
+          "example": "The interview became combative when the reporter asked about the scandal."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Under the deal, individuals would be able to sue platforms directly.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"allow individuals to sue platforms directly\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Several major platforms have already announced they will challenge the law in court.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "文中没有提到平台对法律提出法律挑战，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Coalition has decided to support the bill.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"The Coalition remains opposed to the bill\"，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "What did Anika Wells say was the real aim of the law?",
+          "options": [
+            "To raise money through fines",
+            "To ban algorithm-driven feeds",
+            "To encourage a flood of lawsuits",
+            "To change how tech companies view accountability"
+          ],
+          "answer": 3,
+          "explain": "原文说 \"the real aim was a cultural shift in how tech companies view accountability\"，故选第四项。"
+        }
+      ],
+      "discuss": "Do you think giving people the right to sue social media companies will make the internet safer? Who should be most responsible for online harm: platforms, governments or users?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-24/federal-politics-labor-makes-deal-greens-on-digital-duty-of-care/107420982"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Sizing Up a Flat in Footscray",
+    "titleZh": "在Footscray看房",
+    "setting": "Two friends who plan to share a flat leave an open inspection in Footscray and talk it over on the footpath.",
+    "settingZh": "两位打算合租的朋友在Footscray参加完开放看房后，站在人行道上讨论这套房子。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "So, what's the verdict? I reckon it's better than the last three we saw.",
+        "zh": "那么，你觉得怎么样？我觉得比之前看的三套都好。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "It's not bad, but did you see how many people turned up? It was packed.",
+        "zh": "还不错，但你看到来了多少人吗？挤满了。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Yeah, we'd have to get our application in tonight if we're serious.",
+        "zh": "是啊，如果我们是认真的，今晚就得把申请交上去。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "I'm keen, but the second bedroom's tiny. You'd barely fit a double bed in there.",
+        "zh": "我挺想要的，但第二间卧室太小了，几乎放不下一张双人床。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "I'd happily take the small room if it brings my share of the rent down.",
+        "zh": "如果能让我少付点房租，我很乐意住小房间。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "That seems fair. Did the agent say anything about the heating, though?",
+        "zh": "这挺公平的。不过中介有没有提到暖气的事？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Just a split system in the lounge. It'll be freezing in winter, to be honest.",
+        "zh": "只有客厅有一台分体空调。说实话，冬天会很冷。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "And I'm pretty sure I spotted a bit of mould above the bathroom window.",
+        "zh": "而且我很确定在浴室窗户上方看到了一点霉斑。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good catch. We should ask them to sort that out before we sign anything.",
+        "zh": "眼尖！签任何东西之前应该让他们先处理好。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "On the plus side, it's a five-minute walk to the station. That's a huge drawcard.",
+        "zh": "好处是走到车站只要五分钟，这是很大的吸引力。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Exactly. I'd be in the city in no time, instead of spending forty minutes on the bus.",
+        "zh": "没错。我很快就能到市区，而不用在公交上花四十分钟。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Alright, let's not overthink it. We can flag the mould in our application.",
+        "zh": "好吧，别想太多了。我们可以在申请里提一下霉斑的问题。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Deal. I'll fill in the form tonight and send you the link to check.",
+        "zh": "成交。我今晚填表，然后把链接发给你核对。"
+      },
+      {
+        "s": "B",
+        "name": "Callum",
+        "en": "Sounds like a plan. Fingers crossed we're not up against fifty other people.",
+        "zh": "好主意。希望别有五十个人跟我们竞争。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "What do you think?",
+        "en": "what's the verdict?",
+        "zh": "征求对方最终看法的口语说法"
+      },
+      {
+        "plain": "came / arrived",
+        "en": "turned up",
+        "zh": "出现、到场"
+      },
+      {
+        "plain": "I want it / I'm interested",
+        "en": "I'm keen",
+        "zh": "澳式口语：很想要、很感兴趣"
+      },
+      {
+        "plain": "makes my rent cheaper",
+        "en": "brings my share of the rent down",
+        "zh": "降低我分摊的房租"
+      },
+      {
+        "plain": "You noticed something important.",
+        "en": "Good catch.",
+        "zh": "称赞对方发现了问题"
+      },
+      {
+        "plain": "fix that",
+        "en": "sort that out",
+        "zh": "解决、处理好"
+      },
+      {
+        "plain": "a big attraction",
+        "en": "a huge drawcard",
+        "zh": "澳式英语：吸引人的亮点"
+      },
+      {
+        "plain": "I hope we're lucky",
+        "en": "Fingers crossed",
+        "zh": "祈求好运"
+      }
+    ]
+  }
+}
