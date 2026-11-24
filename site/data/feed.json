@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T04:00:16.929Z",
+ "updatedAt": "2026-11-24T12:44:02.099Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "A colossal oscillation",
-   "url": "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
+   "title": "Is mental illness universal?",
+   "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/db143ee5-8693-43d5-a478-870c77a733a7/trevor-farrer-bom-.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-23",
+   "image": "https://images.aeonmedia.co/images/52cd7554-7970-47c1-b2e1-b1f2609d4c56/essay-2011-04-26t120000z_177609120_gm1e74q1iax01_rtrmadp_3_china.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-24",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "El Niño has upended global weather, shaping the fate of societies, for millennia. Is this past a clue to a turbulent future? - by Dagomar Degroot Read on Aeon"
+   "desc": "Do all cultures experience the same mental disorders? Or are our experiences of mental distress culturally specific? - by Alexander Pereira Read on Aeon"
   }
  ]
 }
