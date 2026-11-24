@@ -1,44 +1,44 @@
 {
- "updatedAt": "2026-11-23T10:57:55.278Z",
+ "updatedAt": "2026-11-24T04:00:16.929Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "How RFK Jr. helped bring measles back",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-rfk-jr-helped-bring-measles-back/107409132",
-   "audio": "https://traffic.megaphone.fm/TECO5362013376.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2F81e618f0-e687-11f1-bcb7-87cb6877c7e1%2Fimage%2F5c89c65fb96f9aa82e1c7b0d56f9a95a.png%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-23",
+   "title": "How fossil fuels killed COP31",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-fossil-fuels-killed-cop31/107417332",
+   "audio": "https://traffic.megaphone.fm/TECO1523963706.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2Fac8f15ec-e750-11f1-8d97-ebd5bbf8fd33%2Fimage%2F0df8922d66db111b5599b1d1ff3845c3.png%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-24",
    "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Measles is officially back in the United States, with America losing the elimination status it held for more than a quarter of a century.&nbsp; So how much responsibility lies with Donald Trump's hand-picked health secretary, Robert F Kennedy Jr, and the…"
+   "desc": "After nearly two days of overtime, the latest COP summit has ended without an overarching climate deal.&nbsp;&nbsp; Australia's climate minister Chris Bowen was charged with keeping the meeting&nbsp;on track, but it broke down after big oil producing…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "The Indigenous people and convicts who founded modern Australia",
-   "url": "https://www.abc.net.au/listen/programs/conversations/james-boyce-colonial-history-spirituality-tasmania/107400328",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qm/Z/oo.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F04d99fb3f3e2eb3c97206f8201fe46a3.jpg%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-23",
-   "minutes": 53,
+   "title": "Encore: Remembering Molly Meldrum—Countdown's chaotic ringmaster",
+   "url": "https://www.abc.net.au/listen/programs/conversations/remembering-molly-meldrum-countdown-abc-tv-icon/107404416",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qn/Z/n7.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F3ec4719181c07cfdadc7fe13b1f1a9e6.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-24",
+   "minutes": 46,
    "level": "C1",
    "accent": "AU",
-   "desc": "Tasmanian historian James Boyce unravels the story of colonisation you think you know. He says these two groups learned from and influenced each other — in amongst the violence and war — to build an early cultural adaptation. James is concerned with the…"
+   "desc": "From altar boy to music industry legend, in 2014 Molly Meldrum spoke with Rebecca Levingston about his wild career across music and television. As the host of the ABC TV's music show Countdown, Molly brought the world's biggest pop stars into people's homes…"
   },
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Sunday Pick: Romance is dead, long live romance | from Corner Piece",
-   "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b007e1204470b737a38a15b/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1795329162071-376576dc-5546-403b-ad2a-0513e367a89c.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-22",
-   "minutes": 44,
+   "title": "Why government is slow — and how to fix it | Li Hongyi",
+   "url": "http://go.ted.com/LiHongyi",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b045e0af068e148d201778b/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-24",
+   "minutes": 10,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "The proliferation of dating apps have people thinking romance is dead. But is that what romance really is? In today’s Sunday Pick, we bring you another episode of the TED podcast, Corner Piece , where host Melissa sets out to discover the true definition of…"
+   "desc": "Government is slow at solving problems — and technologist Li Hongyi wants to fix that. In a quick talk, he introduces his experimental team in the Singaporean government, which visits schools, hospitals, fire stations and communities with one goal: to find…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "My grandmother was a seal",
-   "url": "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family",
+   "title": "A colossal oscillation",
+   "url": "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/0cd99f4c-ddf6-43aa-b167-ea096fe4a0e7/essay-selkie-final-illustration.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-20",
+   "image": "https://images.aeonmedia.co/images/db143ee5-8693-43d5-a478-870c77a733a7/trevor-farrer-bom-.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-23",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Many Irish families believed they descended from selkies. Their stories reveal the violence and grief in our kinship with nature - by Jordan Lee Borgman Read on Aeon"
+   "desc": "El Niño has upended global weather, shaping the fate of societies, for millennia. Is this past a clue to a turbulent future? - by Dagomar Degroot Read on Aeon"
   }
  ]
 }
