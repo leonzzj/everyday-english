@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-25T02:40:36.809Z",
+ "updatedAt": "2026-11-25T11:30:31.830Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "How many job losses does the RBA want?",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/how-many-job-losses-does-the-rba-want/107422386",
-   "audio": "https://traffic.megaphone.fm/TECO1202837861.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2Fd6eb5a98-e819-11f1-bb9c-9bb86f58747f%2Fimage%2F0e3899430bb05427660fbbcf0457ae05.png%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "title": "Lamarre-Condon guilty",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/lamarre-condon-guilty/107425440",
+   "audio": "https://traffic.megaphone.fm/TECO5430780212.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2Fccdf28dc-e886-11f1-869a-578d8c590823%2Fimage%2F7df8a488432b9042093ba2fc1f6a1436.jpg%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-25",
-   "minutes": 17,
+   "minutes": 16,
    "level": "C1",
    "accent": "AU",
-   "desc": "It's not the message the Treasurer would have wanted to deliver this close to Christmas, particularly with growing speculation about his own political future.&nbsp; But Jim Chalmers is warning Australians to brace for tough economic times, painting a bleak…"
+   "desc": "Warning: This story contains content that may disturb some listeners It took just over two hours for a jury to emerge with guilty&nbsp;verdicts in the trial&nbsp;of&nbsp;Beau Lamarre-Condon.&nbsp;&nbsp; The former NSW police officer has been convicted of…"
   },
   {
    "source": "Conversations",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "The skilled workers that the economy is overlooking | Tonya Hicks",
-   "url": "http://go.ted.com/TonyaHicks",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b0461613ec60db8fc5cfeba/media.mp3",
+   "title": "Can AI show us how language works? | Jennifer Hu",
+   "url": "http://go.ted.com/JenniferHu",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b04888bf5587e011de1fed1/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
    "date": "2026-11-25",
-   "minutes": 14,
+   "minutes": 16,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Union electrician Tonya Hicks is one of very few women in her trade, and for years she had to fight people’s assumptions just to do her job. Then one day at a steel mill, her crew put their own work on the line for her. Drawing on more than two decades…"
+   "desc": "Language is central to nearly every moment of our lives, yet researchers know surprisingly little about how it works. Using AI models as a new kind of lab for studying how humans learn language, computational cognitive scientist Jennifer Hu shows where…"
   },
   {
    "source": "SBS Learn English",
