@@ -1,0 +1,751 @@
+{
+  "date": "2026-11-26",
+  "issueNo": 39,
+  "title": "A Pacific security pact, inflation's jump and a melanoma pioneer",
+  "createdAt": "2026-11-26T06:54:41+11:00",
+  "stories": [
+    {
+      "id": "solomon-islands-treaty",
+      "category": "World",
+      "headline": "Solomon Islands signs landmark security treaty with Australia",
+      "headlineZh": "所罗门群岛与澳大利亚签署里程碑式安全条约",
+      "summaryZh": "澳所两国总理在堪培拉签署新条约，被视为中国在太平洋影响力受挫。",
+      "c1": "Australia and Solomon Islands have signed what both prime ministers described as a historic treaty, in a move widely seen as a setback for China's ambitions in the Pacific. Anthony Albanese and Matthew Wale put their names to the agreement in Canberra on Wednesday, where the visiting leader was greeted with considerable ceremony, including a 19-gun salute, and accompanied by a large delegation of ministers and MPs.\n\nUnder the deal, Solomon Islands commits to keeping its sensitive infrastructure free from militarisation and foreign interference, and to refusing any foreign military or security base on its soil. It must also consult Australia on matters of national security and look first to Pacific Islands Forum members for security cooperation. In return, Australia will help strengthen the local police force, open new migration pathways into aged care and childcare, ease visa rules and fund development priorities such as free education. The ABC has been told Canberra's contribution will amount to about $740 million, most of it in grants.\n\nThe treaty is all the more significant because it follows a controversial 2022 security pact between Solomon Islands and China, signed by Wale's predecessor, Manasseh Sogavare. According to the ABC, Wale's government has quietly informed Beijing that it will let that agreement lapse when it falls due for renewal in April 2027, although Wale himself declined to confirm this, citing a confidentiality clause. Notably, the new treaty stops short of explicitly banning security ties with outside powers.\n\nNot everyone is convinced. Sogavare, now opposition leader, has warned that the shift could jeopardise development links with Beijing, and the opposition has accused Australia of \"chequebook diplomacy\". Analysts suggest the agreement is likely to remain contested at home, and that Australia's standing in the region will ultimately hinge on whether it delivers on its promises.",
+      "b2": "Australia and Solomon Islands have signed a new treaty that many people see as a blow to China's influence in the Pacific. Prime Ministers Anthony Albanese and Matthew Wale signed the deal in Canberra on Wednesday. Both leaders called it historic.\n\nSolomon Islands has promised not to allow any foreign military base on its land and to protect important infrastructure from foreign interference. It must also talk to Australia about national security. In return, Australia will help strengthen the police, create new work pathways in aged care and childcare, and pay for projects such as free education. The ABC understands the total will be about $740 million.\n\nIn 2022, the previous government of Solomon Islands signed a security deal with China. Reports say Mr Wale's government has told Beijing it will not renew that deal when it ends in April 2027. However, Mr Wale would not confirm this publicly. The new treaty does not completely ban security links with other countries.\n\nSome people in Solomon Islands are unhappy. Former prime minister Manasseh Sogavare, who now leads the opposition, says the change could hurt the country's relationship with China. Experts say the treaty will probably stay controversial, and that Australia must keep its promises if it wants to keep the region's trust.",
+      "vocab": [
+        {
+          "word": "be widely seen as",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被普遍视为",
+          "en": "to be considered by many people to be something",
+          "example": "The new policy is widely seen as a response to public pressure.",
+          "forms": [
+            "widely seen as"
+          ]
+        },
+        {
+          "word": "setback",
+          "pos": "n.",
+          "ipa": "/ˈsetbæk/",
+          "zh": "挫折；倒退",
+          "en": "something that delays progress or makes a situation worse",
+          "example": "Losing the key player was a major setback for the team."
+        },
+        {
+          "word": "put your name to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "签署；署名支持",
+          "en": "to sign a document or formally support it",
+          "example": "She refused to put her name to a report she hadn't written.",
+          "forms": [
+            "put their names to"
+          ]
+        },
+        {
+          "word": "all the more",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "更加；越发",
+          "en": "even more than before, for a particular reason",
+          "example": "His success is all the more impressive given his age."
+        },
+        {
+          "word": "lapse",
+          "pos": "v.",
+          "ipa": "/læps/",
+          "zh": "（合同等）失效、终止",
+          "en": "to end because it is not renewed",
+          "example": "I forgot to renew my gym membership and let it lapse."
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "差一点就；没有走到…地步",
+          "en": "to almost do something but decide not to",
+          "example": "The minister criticised the plan but stopped short of calling for it to be scrapped.",
+          "forms": [
+            "stops short of"
+          ]
+        },
+        {
+          "word": "jeopardise",
+          "pos": "v.",
+          "ipa": "/ˈdʒepədaɪz/",
+          "zh": "危及；损害",
+          "en": "to put something at risk of being harmed or lost",
+          "example": "Missing the deadline could jeopardise the whole project."
+        },
+        {
+          "word": "remain contested",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "仍有争议",
+          "en": "to continue to be argued about or disputed",
+          "example": "The origins of the tradition remain contested among historians."
+        },
+        {
+          "word": "hinge on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "取决于",
+          "en": "to depend completely on something",
+          "example": "Whether we go camping hinges on the weather forecast."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "The treaty was signed in Canberra.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说两国总理 \"put their names to the agreement in Canberra\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The new treaty explicitly bans Solomon Islands from any security partnership with outside countries.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文称新条约 \"stops short of explicitly banning security ties with outside powers\"，与陈述相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Australia's funding will be paid in equal yearly instalments over ten years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到约7.4亿澳元、大部分为赠款（\"most of it in grants\"），未提及分期方式，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What has Manasseh Sogavare warned about?",
+          "options": [
+            "The local police force will be weakened",
+            "The treaty is not legally binding",
+            "Australia will build a military base",
+            "Development links with Beijing could suffer"
+          ],
+          "answer": 3,
+          "explain": "原文说他警告这一转变 \"could jeopardise development links with Beijing\"，故选 D。"
+        }
+      ],
+      "discuss": "Why do you think larger countries offer aid and security help to smaller neighbours? Is this a genuine partnership, or mainly a way of competing for influence?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-25/australia-signs-pact-with-solomon-islands-in-blow-to-china/107424550"
+        }
+      ]
+    },
+    {
+      "id": "inflation-three-year-high",
+      "category": "Business",
+      "headline": "Fuel and power bills push inflation to a three-year high",
+      "headlineZh": "燃油和电费推动澳通胀升至三年新高",
+      "summaryZh": "截至10月的年通胀率升至4.9%，核心通胀也高于预期，加息担忧再起。",
+      "c1": "Australia's inflation problem has worsened markedly, with new figures showing consumer prices rose 4.9 per cent in the year to October, up from 4.3 per cent in September. According to the Australian Bureau of Statistics, it is the highest headline rate in three years, and it comes just two weeks before the Reserve Bank's board next meets, on 8 December.\n\nMuch of the surge can be traced to the petrol bowser. Automotive fuel prices climbed 6.3 per cent in October alone and are up roughly a third over the past year, reflecting higher global oil prices. Housing was the largest contributor overall, however, partly because electricity costs jumped more than 25 per cent once government energy rebates came to an end. Prices for new homes also rose, as builders passed on higher materials and labour costs.\n\nOf greater concern to the central bank is underlying inflation. The trimmed mean, which strips out the most extreme price movements and on this occasion excluded fuel, rose to 3.8 per cent, above the 3.6 per cent economists had expected and well outside the RBA's 2 to 3 per cent target band. One economist described the combination of rising inflation and rising unemployment as the bank's worst nightmare, while AMP economists raised the spectre of stagflation, weak growth combined with high inflation, in 2027.\n\nTreasurer Jim Chalmers acknowledged there was no quick fix and has signalled substantial savings in next month's budget update. Forecasters are divided on what comes next: some expect interest rates to stay on hold for an extended period, whereas others believe a rate rise in February is still on the table. Either way, households, which can hardly cut back on essentials, are likely to feel the squeeze for some time yet.",
+      "b2": "Prices in Australia are rising faster again. New figures from the Australian Bureau of Statistics show that inflation reached 4.9 per cent in the year to October, up from 4.3 per cent in September. This is the highest rate in three years. The Reserve Bank's board will meet again on 8 December.\n\nFuel is a big reason for the rise. Petrol prices went up 6.3 per cent in October alone because global oil prices are higher. Housing costs also increased a lot. Electricity bills rose by more than 25 per cent after government energy rebates finished, and new homes became more expensive too.\n\nUnderlying inflation, which leaves out the biggest price changes, rose to 3.8 per cent. This was higher than economists expected and above the Reserve Bank's target of 2 to 3 per cent. Some economists are worried about stagflation, which happens when prices keep rising but the economy grows slowly.\n\nTreasurer Jim Chalmers says there is no quick fix, and he plans to announce savings in next month's budget update. Experts disagree about what will happen to interest rates. Some think rates will stay the same for a long time, but others say a rise in February is still possible. Many families will probably continue to find everyday life expensive.",
+      "vocab": [
+        {
+          "word": "worsen markedly",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "明显恶化",
+          "en": "to become much worse in a way that is easy to notice",
+          "example": "Air quality worsened markedly during the bushfire season.",
+          "forms": [
+            "worsened markedly"
+          ]
+        },
+        {
+          "word": "be traced to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "可追溯到；源于",
+          "en": "to have its cause or origin in something",
+          "example": "The outbreak was traced to a single restaurant.",
+          "forms": [
+            "be traced to"
+          ]
+        },
+        {
+          "word": "come to an end",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "结束；告终",
+          "en": "to finish or stop",
+          "example": "When the free trial came to an end, I cancelled the subscription.",
+          "forms": [
+            "came to an end"
+          ]
+        },
+        {
+          "word": "pass on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "转嫁（成本）",
+          "en": "to make customers pay for an increase in your own costs",
+          "example": "Airlines are likely to pass on higher fuel costs to travellers.",
+          "forms": [
+            "passed on"
+          ]
+        },
+        {
+          "word": "strip out",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "剔除；去掉",
+          "en": "to remove certain items so they are not included",
+          "example": "If you strip out one-off costs, the company's profit actually rose.",
+          "forms": [
+            "strips out"
+          ]
+        },
+        {
+          "word": "raise the spectre of",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "引发对…的担忧",
+          "en": "to make people fear that something bad may happen",
+          "example": "The drought has raised the spectre of food shortages.",
+          "forms": [
+            "raised the spectre of"
+          ]
+        },
+        {
+          "word": "on the table",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "（方案）在考虑中",
+          "en": "being considered or discussed as a possibility",
+          "example": "A four-day working week is now on the table at my company."
+        },
+        {
+          "word": "cut back on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "削减；减少",
+          "en": "to reduce the amount of something you use or spend",
+          "example": "I'm trying to cut back on sugar this month."
+        },
+        {
+          "word": "feel the squeeze",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "感到经济拮据",
+          "en": "to have less money than before and find things hard",
+          "example": "With rents rising, many students are starting to feel the squeeze."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Annual inflation in September was higher than in October.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说10月的4.9%是 \"up from 4.3 per cent in September\"，即9月更低，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Electricity costs rose partly because government energy rebates ended.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称电费上涨发生在 \"once government energy rebates came to an end\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Fuel prices rose faster in Melbourne than in Sydney.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只给出全国燃油涨幅（\"6.3 per cent in October alone\"），未比较各城市，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which measure rose to 3.8 per cent?",
+          "options": [
+            "Headline inflation",
+            "Automotive fuel prices",
+            "The trimmed mean",
+            "Electricity prices"
+          ],
+          "answer": 2,
+          "explain": "原文说 \"The trimmed mean ... rose to 3.8 per cent\"，故选 C。"
+        }
+      ],
+      "discuss": "When prices rise quickly, who do you think suffers the most, and why? Should governments step in to protect people from the rising cost of essentials?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-25/abs-october-cpi-inflation-rises-year-/107424668"
+        },
+        {
+          "name": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/naca-sbs-news-in-easy-english-25-november-2026/aeubr7v8i"
+        }
+      ]
+    },
+    {
+      "id": "georgina-long-science-prize",
+      "category": "Health",
+      "headline": "Melanoma pioneer Georgina Long wins Prime Minister's Science Prize",
+      "headlineZh": "黑色素瘤研究先驱乔治娜·朗荣获总理科学奖",
+      "summaryZh": "朗教授的药物疗法让晚期黑色素瘤生存率提升约十倍，并获澳洲最高科学荣誉。",
+      "c1": "Professor Georgina Long, a medical oncologist whose research has reshaped the treatment of melanoma, has been awarded the 2026 Prime Minister's Science Prize, often described as Australia's most prestigious scientific honour. Long, who combines caring for patients with translational research and the running of clinical trials, said she felt deeply humbled by the recognition.\n\nThe impact of her work, developed in partnership with the late Richard Scolyer, is difficult to overstate. Over the past decade and a half, drug therapies she helped to develop have improved survival roughly tenfold for people with stage four melanoma, the most advanced form of the disease. According to Long, around half of all melanoma is now cured. More recently, she has led work on an mRNA therapeutic vaccine, and she is now turning her attention to the patients who still die of the disease, as well as to whether the findings can be applied to other cancers.\n\nAccepting the award, Long made a broader case for science itself. She argued that Australians tend to take for granted the research underpinning everyday objects, from phones to cars to clothing. In her view, Australian science punches above its weight and deserves investment, yet the country is far better at celebrating plenty of other things than scientific achievement. Her remarks come amid ongoing concern about cuts to research and development.\n\nLong also had a message for young people. Science, she said, is fuelled by curiosity and the simple question \"why\", rather than being confined to the laboratory. She urged them to stay curious, to give themselves time to discover what they are good at without striving for perfection, and to pursue work they enjoy and that gives something back to their community.",
+      "b2": "Professor Georgina Long, a cancer doctor and researcher, has won the 2026 Prime Minister's Science Prize. It is often described as the most important science award in Australia. Long said she felt very humbled.\n\nLong is famous for her work on melanoma, a type of skin cancer. Together with the late Richard Scolyer, she helped develop drug treatments that have changed the lives of many patients. Survival for people with stage four melanoma has improved about ten times. Long says about half of all melanoma can now be cured. She has also led research on an mRNA vaccine for the disease and now wants to help the patients who still die from it.\n\nLong also spoke about the importance of science. She said Australians often forget that science is behind everyday things like phones, cars and clothes. She believes Australian science is very strong and worth investing in, but that the country does not celebrate it enough. There are concerns about cuts to research.\n\nShe also gave advice to young people. She told them to keep asking 'why', to take time to find out what they are good at, and to remember that they do not have to be perfect. She also encouraged them to do work that they enjoy and that helps their community.",
+      "vocab": [
+        {
+          "word": "reshape",
+          "pos": "v.",
+          "ipa": "/ˌriːˈʃeɪp/",
+          "zh": "重塑；彻底改变",
+          "en": "to change the form or nature of something in an important way",
+          "example": "Smartphones have reshaped the way we travel.",
+          "forms": [
+            "reshaped"
+          ]
+        },
+        {
+          "word": "difficult to overstate",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "怎么强调都不为过",
+          "en": "so important that it cannot be exaggerated",
+          "example": "The value of a good mentor is difficult to overstate."
+        },
+        {
+          "word": "turn your attention to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "把注意力转向",
+          "en": "to start to think about or deal with something new",
+          "example": "After the exams, she turned her attention to finding a job.",
+          "forms": [
+            "turning her attention to"
+          ]
+        },
+        {
+          "word": "make a case for",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "为…提出论据",
+          "en": "to give reasons why something is good or should happen",
+          "example": "He made a strong case for more bike lanes in the city.",
+          "forms": [
+            "made a broader case for"
+          ]
+        },
+        {
+          "word": "take for granted",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "视为理所当然",
+          "en": "to fail to appreciate something because it is always there",
+          "example": "We often take clean drinking water for granted."
+        },
+        {
+          "word": "underpin",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈpɪn/",
+          "zh": "支撑；构成…的基础",
+          "en": "to support or form the basis of something",
+          "example": "Trust underpins every successful friendship.",
+          "forms": [
+            "underpinning"
+          ]
+        },
+        {
+          "word": "punch above its weight",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "表现超出其规模/实力",
+          "en": "to achieve more than expected given its size",
+          "example": "For a small café, it really punches above its weight on coffee quality.",
+          "forms": [
+            "punches above its weight"
+          ]
+        },
+        {
+          "word": "be confined to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "局限于",
+          "en": "to exist or happen only in a particular place or area",
+          "example": "The problem isn't confined to big cities.",
+          "forms": [
+            "being confined to"
+          ]
+        },
+        {
+          "word": "give something back",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "回馈（社会）",
+          "en": "to do something useful for others in return for what you have received",
+          "example": "After retiring, he wanted to give something back by volunteering.",
+          "forms": [
+            "gives something back"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Long developed her melanoma treatments entirely on her own.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说她的成果是 \"developed in partnership with the late Richard Scolyer\"，并非独自完成，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The prize includes a cash award of $250,000.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到奖金数额，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "Long says around half of all melanoma is now cured.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 \"around half of all melanoma is now cured\"，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Long, what is the main driving force behind science?",
+          "options": [
+            "Curiosity and asking why",
+            "Government funding",
+            "Competition between countries",
+            "Laboratory equipment"
+          ],
+          "answer": 0,
+          "explain": "原文说科学 \"is fuelled by curiosity and the simple question 'why'\"，故选 A。"
+        }
+      ],
+      "discuss": "Why do you think scientists rarely become as famous as sports stars or celebrities? Should countries do more to celebrate scientific achievement, and how?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-25/georgina-long-prime-ministers-science-prize-2026-melanoma/107424118"
+        }
+      ]
+    },
+    {
+      "id": "she-rested-motherhood",
+      "category": "Culture",
+      "headline": "Composer turns the grief and joy of motherhood into song",
+      "headlineZh": "作曲家把为人母的悲伤与喜悦写成歌",
+      "summaryZh": "艾梅·法尔松以产后抑郁经历为灵感，创作音乐剧场作品《She Rested》。",
+      "c1": "When composer and performer Aimée Falzon had her first child nine years ago, the experience left her feeling, in her own words, broken. Within months she was struggling with postnatal depression and anxiety, finding it hard to leave her baby with anyone even briefly, and feeling as though she had no identity of her own. A turning point came when a friend insisted on taking her for a walk near her home in the Blue Mountains, west of Sydney, and listened.\n\nOut of that period has grown She Rested, a song cycle that weaves together live music, storytelling and mythology to portray motherhood as both grief-filled and joyful. Falzon began writing it in stolen moments while her baby napped, recording melodies as voice notes while breastfeeding. Progress stalled after the birth of her second child, but the project gathered momentum once her eldest started school, and it was developed over roughly three years with the Western Sydney company Urban Theatre Projects.\n\nThe work is premiering at Superposition, a new arts festival held in Penrith and the Blue Mountains. Its dramaturge is Falzon's partner, the award-winning playwright S Shakthidharan. While his debut play Counting and Cracking toured at home and abroad, Falzon took on most of the caring and felt cut off from their creative partnership, which caused real tension between them. Making the show together, she says, has proved healing for both.\n\nPerhaps the most striking response has come from audiences. After early development performances, mothers told Falzon they felt understood and recognised themselves in the work. She hopes it offers a safe, non-judgmental space in which to acknowledge feelings that often remain taboo. As for Falzon herself, she says she now feels put back together, with a far greater capacity for love than she had imagined possible.",
+      "b2": "Nine years ago, composer and performer Aimée Falzon had her first baby. She soon developed postnatal depression and anxiety. She found it hard to leave her baby with anyone. Her recovery began when a friend took her for a walk in the Blue Mountains, west of Sydney, and listened to her.\n\nThis led to She Rested, a show that mixes live music, storytelling and mythology. It shows motherhood as both sad and joyful. Falzon wrote parts of it while her baby slept and recorded tunes as voice notes while breastfeeding. After her second child was born, the work slowed down, but it was developed over about three years with Urban Theatre Projects in Western Sydney.\n\nThe show is premiering at Superposition, a new arts festival in Penrith and the Blue Mountains. Falzon's partner, playwright S Shakthidharan, helped shape the work. When his play toured, she did most of the parenting and felt separated from their creative work together. Making this show has helped them both heal.\n\nMothers who watched early performances told Falzon that they felt understood and could see themselves in the story. She wants the show to be a safe place to share difficult feelings without being judged. Falzon says she now feels whole again and has more love than she expected.",
+      "vocab": [
+        {
+          "word": "turning point",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "转折点",
+          "en": "a moment when an important change begins",
+          "example": "Moving to Melbourne was a turning point in my career."
+        },
+        {
+          "word": "weave together",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把…交织在一起",
+          "en": "to combine different elements into one whole",
+          "example": "The documentary weaves together interviews and old home videos.",
+          "forms": [
+            "weaves together"
+          ]
+        },
+        {
+          "word": "stolen moments",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "忙里偷闲的片刻",
+          "en": "short periods of free time found in a busy life",
+          "example": "She studied Spanish in stolen moments on the train to work."
+        },
+        {
+          "word": "stall",
+          "pos": "v.",
+          "ipa": "/stɔːl/",
+          "zh": "停滞；陷入停顿",
+          "en": "to stop making progress",
+          "example": "Negotiations stalled when neither side would compromise.",
+          "forms": [
+            "stalled"
+          ]
+        },
+        {
+          "word": "gather momentum",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "势头渐强",
+          "en": "to develop faster or become stronger over time",
+          "example": "The campaign gathered momentum after it went viral online.",
+          "forms": [
+            "gathered momentum"
+          ]
+        },
+        {
+          "word": "take on",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "承担（责任、工作）",
+          "en": "to accept a responsibility or a task",
+          "example": "I've taken on too much work this semester.",
+          "forms": [
+            "took on"
+          ]
+        },
+        {
+          "word": "be cut off from",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与…隔绝",
+          "en": "to be separated from people or things you need",
+          "example": "Living in the country, she felt cut off from her old friends.",
+          "forms": [
+            "cut off from"
+          ]
+        },
+        {
+          "word": "non-judgmental",
+          "pos": "adj.",
+          "ipa": "/ˌnɒnˌdʒʌdʒˈmentl/",
+          "zh": "不评判的；包容的",
+          "en": "not criticising or forming harsh opinions about others",
+          "example": "A good counsellor listens in a calm, non-judgmental way."
+        },
+        {
+          "word": "capacity for",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "…的能力/容量",
+          "en": "the ability to feel or do something",
+          "example": "Children have an amazing capacity for learning languages."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Falzon finished writing She Rested before her second child was born.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Progress stalled after the birth of her second child\"，作品在长子上学后才加快完成，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "A friend who took Falzon for a walk helped mark the start of her recovery.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文称 \"A turning point came when a friend insisted on taking her for a walk\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Tickets for the festival performance have already sold out.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到门票销售情况，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What is S Shakthidharan's role in She Rested?",
+          "options": [
+            "Lead singer",
+            "Dramaturge",
+            "Festival director",
+            "Producer at Urban Theatre Projects"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"Its dramaturge is Falzon's partner ... S Shakthidharan\"，故选 B。"
+        }
+      ],
+      "discuss": "Why do you think some feelings about parenthood are still treated as taboo? Can art help people talk about difficult experiences more openly than conversation can?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-26/aimee-falzon-she-rested-urban-theatre-projects-superposition/107421058"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Grumbling About Prices in Carlton",
+    "titleZh": "在卡尔顿咖啡馆吐槽物价",
+    "setting": "Two friends catch up at a café in Carlton on a weekday morning and end up talking about the rising cost of living.",
+    "settingZh": "两位朋友在一个工作日早上于卡尔顿的咖啡馆见面，聊着聊着就说到了生活成本上涨。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Sorry I'm late — the tram crawled the whole way down Lygon Street.",
+        "zh": "抱歉我迟到了，电车在莱贡街一路慢吞吞地爬。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "No worries, I've only just sat down. I went ahead and ordered you a flat white.",
+        "zh": "没事，我也刚坐下。我先帮你点了一杯馥芮白。"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Legend. Did you see the inflation figures yesterday? Nearly five per cent.",
+        "zh": "太够意思了。你看到昨天的通胀数据了吗？快到百分之五了。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "Yeah, I caught it on the news. Can't say I was surprised, honestly.",
+        "zh": "看到了，新闻里说了。说实话，我一点也不意外。"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Me neither. Filling up the car last week made my eyes water.",
+        "zh": "我也是。上周给车加满油，价格贵得让我肉疼。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "Tell me about it. I've started riding to work just to save a few bucks.",
+        "zh": "可不是嘛。我都开始骑车上班了，就为了省几块钱。"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Good on you. Our power bill's gone through the roof since the rebate ended.",
+        "zh": "真不错。补贴结束以后，我们家的电费简直涨上天了。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "Same here. We've been trying to cut back, but there's only so much you can do.",
+        "zh": "我们也是。一直在想办法省，可能做的也就那么多。"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Exactly. You can skip takeaway, but you can't exactly skip paying the rent.",
+        "zh": "没错。外卖可以不点，房租总不能不交吧。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "Do you reckon the Reserve Bank will put rates up again?",
+        "zh": "你觉得储备银行会再加息吗？"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Who knows? Half the experts say hold, and the other half say hike.",
+        "zh": "谁知道呢？一半专家说维持不变，另一半说要加息。"
+      },
+      {
+        "s": "B",
+        "name": "Hamish",
+        "en": "Well, either way, this coffee might have to be my one treat this week.",
+        "zh": "反正不管怎样，这杯咖啡可能就是我这周唯一的犒劳了。"
+      },
+      {
+        "s": "A",
+        "name": "Ana",
+        "en": "Fair enough. Let's make it last, then — and the next round's on me.",
+        "zh": "有道理。那咱们慢慢喝——下一轮我请。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "I already ordered for you",
+        "en": "I went ahead and ordered you",
+        "zh": "没等对方就先做了某事"
+      },
+      {
+        "plain": "Thank you, you're great",
+        "en": "Legend.",
+        "zh": "澳式口语：太够意思了"
+      },
+      {
+        "plain": "It was very expensive",
+        "en": "made my eyes water",
+        "zh": "贵得吓人、肉疼"
+      },
+      {
+        "plain": "I agree, I have the same problem",
+        "en": "Tell me about it.",
+        "zh": "深有同感，可不是嘛"
+      },
+      {
+        "plain": "Well done",
+        "en": "Good on you",
+        "zh": "澳式口语：干得好"
+      },
+      {
+        "plain": "increased a lot",
+        "en": "gone through the roof",
+        "zh": "（价格）暴涨"
+      },
+      {
+        "plain": "there is a limit",
+        "en": "there's only so much you can do",
+        "zh": "能做的有限"
+      },
+      {
+        "plain": "I'll pay next time",
+        "en": "the next round's on me",
+        "zh": "下一轮我请客"
+      }
+    ]
+  }
+}
