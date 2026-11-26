@@ -1,0 +1,748 @@
+{
+  "date": "2026-11-27",
+  "issueNo": 40,
+  "title": "An Antarctic deal, slowing emissions cuts and a 'zero-human company'",
+  "createdAt": "2026-11-27T06:53:44+11:00",
+  "stories": [
+    {
+      "id": "antarctic-logistics-deal",
+      "category": "World",
+      "headline": "Australia and China quietly agree to share Antarctic logistics",
+      "headlineZh": "澳中悄然达成南极后勤互助协议",
+      "summaryZh": "信息公开文件显示澳中签署南极后勤合作安排，而中国正计划在澳南极领地修建冰上跑道。",
+      "c1": "Australia has quietly agreed to share logistical support with China in Antarctica, according to Freedom of Information documents released to the ABC. The arrangement came to light in a briefing prepared for the environment department ahead of Senate estimates, which noted that the Australian Antarctic Division had no cooperative deal with China's Polar Research Institute for the 2025–26 season, but that one for 2026–27 was in development. The foreign affairs department has since confirmed it has been enacted, describing the two countries' cooperation as long-standing.\n\nThe precise terms have not been disclosed. The ABC understands, however, that it is a so-called \"quid pro quo\" arrangement, under which each side typically supports the other's flights, ground transport and emergency assistance. Such deals are far from unusual: Australia struck a similar one with China for 2024–25 and has comparable arrangements with other nations, including France.\n\nWhat lends the agreement added significance is China's growing footprint on the frozen continent. Beijing plans to build a blue-ice runway in the Grove Mountains, which lie within Australian Antarctic Territory. Its environmental evaluation envisages up to eight flights a year and describes the site as an \"aircraft carrier-style hub\" for East Antarctica, with an opening expected in 2029–30. China already runs five research stations and intends to add a sixth.\n\nCanberra has been notably guarded. The foreign affairs department declined to say whether it supports the runway, stating only that it expects all parties to uphold the Antarctic Treaty, including its bans on militarisation and mining. Meanwhile, requests for documents about Chinese icebreakers visiting Australian ports were rejected on national security grounds, suggesting the issue is regarded as rather more sensitive than officials let on.",
+      "b2": "Australia has agreed to share transport and other support with China in Antarctica. The ABC learned about the deal through Freedom of Information documents. A government briefing said that Australia's Antarctic Division and China's Polar Research Institute were preparing an agreement for the 2026–27 season, and the foreign affairs department says it is now in place.\n\nThe details have not been made public. However, the ABC understands that the two sides will help each other with flights, ground transport and emergencies. This kind of deal is quite common. Australia had a similar one with China in 2024–25, and it also has deals with countries such as France.\n\nThe agreement matters partly because China is expanding in Antarctica. It plans to build a runway on blue ice in the Grove Mountains, an area inside Australian Antarctic Territory. The runway could handle up to eight flights a year and may open in 2029–30. China already has five research stations and wants to build another one.\n\nThe Australian government has said very little. It would not say whether it supports the runway. It only said that all countries should follow the Antarctic Treaty, which bans military activity and mining there. The ABC's requests for documents about Chinese icebreakers in Australian ports were also refused for national security reasons.",
+      "vocab": [
+        {
+          "word": "come to light",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "被披露；为人所知",
+          "en": "to become known, especially after being hidden",
+          "example": "The problem only came to light after customers began complaining.",
+          "forms": [
+            "came to light"
+          ]
+        },
+        {
+          "word": "in development",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "正在开发/筹备中",
+          "en": "being planned or prepared but not yet finished",
+          "example": "A sequel to the film is already in development."
+        },
+        {
+          "word": "long-standing",
+          "pos": "adj.",
+          "ipa": "/ˌlɒŋˈstændɪŋ/",
+          "zh": "长期存在的",
+          "en": "having existed for a long time",
+          "example": "The two clubs have a long-standing rivalry."
+        },
+        {
+          "word": "quid pro quo",
+          "pos": "n.",
+          "ipa": "/ˌkwɪd prəʊ ˈkwəʊ/",
+          "zh": "交换条件；互惠",
+          "en": "something given in return for something else",
+          "example": "Their support was a quid pro quo for our help last year."
+        },
+        {
+          "word": "strike a deal",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "达成协议",
+          "en": "to reach an agreement with someone",
+          "example": "The union finally struck a deal with management.",
+          "forms": [
+            "struck a similar one"
+          ]
+        },
+        {
+          "word": "lend significance to",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使…更具意义",
+          "en": "to make something seem more important",
+          "example": "The timing lends extra significance to the announcement.",
+          "forms": [
+            "lends the agreement added significance"
+          ]
+        },
+        {
+          "word": "footprint",
+          "pos": "n.",
+          "ipa": "/ˈfʊtprɪnt/",
+          "zh": "（影响/存在的）范围",
+          "en": "the amount of presence or influence something has in an area",
+          "example": "The company has expanded its footprint across Asia."
+        },
+        {
+          "word": "envisage",
+          "pos": "v.",
+          "ipa": "/ɪnˈvɪzɪdʒ/",
+          "zh": "设想；预计",
+          "en": "to imagine or plan something as possible in the future",
+          "example": "The council envisages a car-free city centre by 2035.",
+          "forms": [
+            "envisages"
+          ]
+        },
+        {
+          "word": "guarded",
+          "pos": "adj.",
+          "ipa": "/ˈɡɑːdɪd/",
+          "zh": "谨慎的；有所保留的",
+          "en": "careful not to give away information or feelings",
+          "example": "She gave a guarded answer when asked about her plans."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Australia had a logistics deal with China's Polar Research Institute for the 2025–26 season.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Antarctic Division \"had no cooperative deal\" with China's Polar Research Institute \"for the 2025–26 season\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The full terms of the new agreement have been made public.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"The precise terms have not been disclosed\"，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "France has expressed concern about China's planned runway.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到澳大利亚与法国有 \"comparable arrangements\"，并未提及法国对跑道的态度，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the writer suggest in the final paragraph?",
+          "options": [
+            "The government strongly opposes China's runway.",
+            "Officials may see the issue as more sensitive than they admit.",
+            "Chinese icebreakers have been banned from Australian ports.",
+            "The Antarctic Treaty allows limited mining."
+          ],
+          "answer": 1,
+          "explain": "最后一段说 \"suggesting the issue is regarded as rather more sensitive than officials let on\"，即官方可能比公开表示的更在意此事。"
+        }
+      ],
+      "discuss": "Why do you think countries cooperate in Antarctica even when they are rivals elsewhere? Do you think this kind of cooperation will last as more nations expand their presence there?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-27/china-and-australia-sign-antarctica-agreement-new-runway/107429314"
+        }
+      ]
+    },
+    {
+      "id": "emissions-fall-short",
+      "category": "Environment",
+      "headline": "Emissions fall, but too slowly for Australia's 2035 target",
+      "headlineZh": "澳大利亚排放下降，但速度不足以实现2035年目标",
+      "summaryZh": "年度气候声明显示排放下降1.3%，但气候变化局警告减排速度需大幅加快。",
+      "c1": "Australia's greenhouse gas emissions are falling, but nowhere near quickly enough to meet the country's 2035 target, according to the government's annual climate statement. Emissions dropped by 1.3 per cent in the year to June, a reduction of 6.2 million tonnes. Climate and Energy Minister Chris Bowen noted that this year's pace was roughly one and a half times the average of the past decade, yet the fall was smaller than those recorded in the two previous reporting periods.\n\nThe Climate Change Authority, which advises the government, struck a more sobering note. The government has committed to cutting emissions by 62 to 70 per cent by 2035, and reaching the upper end of that range would require average cuts of about 30 million tonnes a year, almost five times the current rate. The authority's chair, Matt Kean, described the challenge as \"formidable\". Modelling suggests Australia is almost on track for its legislated 2030 goal of 43 per cent, although at least one prominent economist doubts even that will be met on time.\n\nThe electricity sector remains the bright spot. Its emissions fell 3.6 per cent, and renewables supplied a record 45.9 per cent of power in the National Electricity Market. Transport, by contrast, edged up slightly, as diesel use on the roads and domestic flying increased, despite electric vehicles now making up nearly a quarter of new car sales.\n\nAccording to Mr Kean, the bottleneck is no longer approving projects but actually building them, with financing, construction and grid connections all lagging behind. He argued that deployment would need to roughly triple, and warned that the nation's reliance on coal and iron ore exports is arguably its greatest economic risk.",
+      "b2": "Australia's greenhouse gas emissions are going down, but not fast enough to reach the 2035 target. The government's annual climate statement shows emissions fell by 1.3 per cent in the year to June. That is a drop of 6.2 million tonnes. Minister Chris Bowen said the pace was about one and a half times the average of the last ten years.\n\nThe Climate Change Authority gave a more serious warning. The government has promised to cut emissions by 62 to 70 per cent by 2035. To reach 70 per cent, Australia would need to cut about 30 million tonnes every year, almost five times faster than now. The authority's chair, Matt Kean, called this a very difficult task. Australia is close to being on track for its 2030 goal of 43 per cent.\n\nElectricity is the success story. Emissions from the sector fell by 3.6 per cent, and renewable energy produced a record 45.9 per cent of power in the main electricity market. However, transport emissions rose a little because people used more diesel and took more domestic flights.\n\nMr Kean said the main problem now is building approved projects, not approving them. He believes the country must build about three times faster. He also warned that depending on coal and iron ore exports is a major economic risk.",
+      "vocab": [
+        {
+          "word": "nowhere near",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "远远不够；差得远",
+          "en": "not at all; far from",
+          "example": "The stadium was nowhere near full on Sunday."
+        },
+        {
+          "word": "strike a sobering note",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "发出令人清醒的警示",
+          "en": "to say something serious that makes people less optimistic",
+          "example": "The report struck a sobering note about youth unemployment.",
+          "forms": [
+            "struck a more sobering note"
+          ]
+        },
+        {
+          "word": "the upper end of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "…的上限；高端",
+          "en": "the highest part of a range",
+          "example": "Prices are at the upper end of what most families can afford."
+        },
+        {
+          "word": "on track",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "按计划进行；有望实现",
+          "en": "likely to achieve what is planned",
+          "example": "We're on track to finish the project by Friday."
+        },
+        {
+          "word": "bright spot",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "亮点",
+          "en": "a part of a situation that is good when the rest is not",
+          "example": "Tourism was the one bright spot in a weak economy."
+        },
+        {
+          "word": "edge up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "小幅上升",
+          "en": "to increase slightly and gradually",
+          "example": "Petrol prices have edged up again this week.",
+          "forms": [
+            "edged up"
+          ]
+        },
+        {
+          "word": "bottleneck",
+          "pos": "n.",
+          "ipa": "/ˈbɒtlnek/",
+          "zh": "瓶颈",
+          "en": "something that slows down a process",
+          "example": "Staff shortages are the main bottleneck in the system."
+        },
+        {
+          "word": "lag behind",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "落后",
+          "en": "to move or develop more slowly than others",
+          "example": "Rural areas still lag behind cities in internet speed.",
+          "forms": [
+            "lagging behind"
+          ]
+        },
+        {
+          "word": "reliance on",
+          "pos": "n.",
+          "ipa": "/rɪˈlaɪəns/",
+          "zh": "对…的依赖",
+          "en": "the state of depending on something",
+          "example": "Our reliance on cars makes the city hard to walk around."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Emissions fell by more in the year to June than in the two previous reporting periods.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"the fall was smaller than those recorded in the two previous reporting periods\"，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Renewables supplied a record share of power in the National Electricity Market.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"renewables supplied a record 45.9 per cent of power in the National Electricity Market\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "The Climate Change Authority recommended a new carbon tax on diesel.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文提到柴油使用增加，但没有提到任何碳税建议，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Matt Kean, what is the main obstacle now?",
+          "options": [
+            "Approving enough new projects",
+            "Turning approved projects into working capacity",
+            "A lack of public support for renewables",
+            "Falling sales of electric vehicles"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"the bottleneck is no longer approving projects but actually building them\"。"
+        }
+      ],
+      "discuss": "Why do you think it is harder to cut emissions from transport than from electricity? What would encourage people in your city to change how they travel?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-26/australia-emissions-fall-short-2035-climate-target/107418552"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-26/federal-politics-live-blog-november-26/107427220"
+        }
+      ]
+    },
+    {
+      "id": "zero-human-company",
+      "category": "Tech",
+      "headline": "Sydney founder plans 'zero-human company' run by AI agents",
+      "headlineZh": "悉尼创业者计划打造由AI代理运营的“零人公司”",
+      "summaryZh": "一家悉尼科技公司推出由聊天机器人销售、AI维护的软件业务，法律专家质疑其说法。",
+      "c1": "A Sydney tech founder says he is on the verge of launching what he calls Australia's first \"zero-human company\". Lambros Photios, who heads the software firm Adaca, has set up Ante, a business that relies on chatbots to sell AI-built productivity software. Developers created the product in roughly ten days by using AI to clone a subscription tool the company had been paying for, and Photios hopes it will be maintained entirely by AI agents, without daily human input, by March.\n\nThe appeal is largely financial. A business like this would traditionally need four or five full-time staff, but with chatbots answering customers and AI writing code, Photios argues that labour costs could fall to almost nothing, allowing Ante to undercut its rivals. He is careful, though, to keep AI away from payments and data security, conceding that a hallucination involving financial records simply cannot be risked.\n\nLegal experts are sceptical. Under Australian law, every company must have a director who is held liable when things go wrong, so a genuinely human-free company is impossible. University of Melbourne law professor Jeannie Paterson argues that a firm meeting its obligations would really be a sole trader relying heavily on automation, and calls the label \"a terrible sleight of hand\".\n\nThe idea lands at a sensitive moment. Australian tech firms have shed thousands of jobs this year, with an industry body attributing many of the cuts to AI, and entry-level developer roles are drying up. Photios acknowledges a backlash is likely, but hopes AI will ultimately create more business owners than it displaces, perhaps by encouraging laid-off developers to start ventures of their own.",
+      "b2": "A tech businessman in Sydney says he will soon run Australia's first \"zero-human company\". Lambros Photios, the founder of the software firm Adaca, has started a business called Ante. It uses chatbots to sell productivity software made by AI. His developers built the product in about ten days, and he wants AI agents to maintain it without daily human help by March.\n\nThe main reason is money. A business like this usually needs four or five full-time workers. Photios says that if chatbots talk to customers and AI writes the code, staff costs could almost disappear, so Ante can charge much less than other companies. However, he does not let AI handle payments or data security, because mistakes there would be too dangerous.\n\nLegal experts have doubts. In Australia, every company must have a director who is responsible if something goes wrong. Professor Jeannie Paterson from the University of Melbourne says the name \"zero-human company\" is misleading.\n\nThe idea comes at a difficult time. Australian tech companies have cut thousands of jobs this year, and many of these cuts have been linked to AI. Junior developer jobs are also disappearing. Photios expects people to react badly, but he hopes AI will help more people start their own businesses.",
+      "vocab": [
+        {
+          "word": "on the verge of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "即将；濒临",
+          "en": "very close to doing or experiencing something",
+          "example": "Scientists say they are on the verge of a breakthrough."
+        },
+        {
+          "word": "undercut",
+          "pos": "v.",
+          "ipa": "/ˌʌndəˈkʌt/",
+          "zh": "以更低价格抢生意",
+          "en": "to sell something more cheaply than a competitor",
+          "example": "Online stores often undercut local shops on price."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "（不情愿地）承认",
+          "en": "to admit that something is true, often reluctantly",
+          "example": "He conceded that the plan had some weaknesses.",
+          "forms": [
+            "conceding"
+          ]
+        },
+        {
+          "word": "be held liable",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "被追究法律责任",
+          "en": "to be legally responsible for something",
+          "example": "Landlords can be held liable for unsafe buildings.",
+          "forms": [
+            "held liable"
+          ]
+        },
+        {
+          "word": "sceptical",
+          "pos": "adj.",
+          "ipa": "/ˈskeptɪkl/",
+          "zh": "怀疑的",
+          "en": "doubting that something is true or will work",
+          "example": "I'm sceptical about diets that promise quick results."
+        },
+        {
+          "word": "sleight of hand",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "障眼法；花招",
+          "en": "a clever trick used to deceive people",
+          "example": "Calling a price rise a 'service upgrade' is just sleight of hand."
+        },
+        {
+          "word": "shed jobs",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "裁员",
+          "en": "to get rid of workers",
+          "example": "The airline shed hundreds of jobs during the downturn.",
+          "forms": [
+            "shed thousands of jobs"
+          ]
+        },
+        {
+          "word": "dry up",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "枯竭；逐渐消失",
+          "en": "to gradually stop being available",
+          "example": "Work dried up for many actors during the strike.",
+          "forms": [
+            "drying up"
+          ]
+        },
+        {
+          "word": "backlash",
+          "pos": "n.",
+          "ipa": "/ˈbæklæʃ/",
+          "zh": "强烈反对",
+          "en": "a strong negative reaction from many people",
+          "example": "The new parking fees caused a backlash from residents."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Ante's product was built in roughly ten days.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"Developers created the product in roughly ten days\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Photios plans to let AI agents manage Ante's payments.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说他 \"is careful... to keep AI away from payments and data security\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Ante already has more customers than its main competitor.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文提到 Ante 可以 \"undercut its rivals\"，但没有提到客户数量，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why does Jeannie Paterson criticise the term \"zero-human company\"?",
+          "options": [
+            "Because AI cannot write reliable software",
+            "Because such companies pay too little tax",
+            "Because a legally compliant firm still needs a responsible human",
+            "Because chatbots are banned from selling products"
+          ],
+          "answer": 2,
+          "explain": "原文指出每家公司都必须有承担责任的董事，Paterson 认为这种公司其实是 \"a sole trader relying heavily on automation\"，因此称该说法是 \"a terrible sleight of hand\"。"
+        }
+      ],
+      "discuss": "Would you feel comfortable buying from a company run almost entirely by AI? Why or why not, and do you think attitudes will change in the next ten years?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-11-27/what-is-a-zero-human-company/107410116"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy-discrimination-medicine",
+      "category": "Society",
+      "headline": "Doctors say they were penalised for having children",
+      "headlineZh": "多名医生称因生育而在职业上受到惩罚",
+      "summaryZh": "《四角》调查发现，澳大利亚多名医生称因怀孕失去职位或收入，联邦政府仍在考虑改革。",
+      "c1": "Several doctors across Australia say they have been penalised for starting a family, according to a Four Corners investigation that found pregnancy discrimination persists across industries, pay levels and locations. In medicine, the accounts suggest that the very structure of training can leave young doctors exposed at the moment they decide to have children.\n\nOne trainee in New South Wales, identified only as Alice, says she accepted a three-year training position with the state's health ministry and then told the department she was pregnant. Months before she was due to start, the offer was withdrawn. After she escalated the matter and sought legal advice, she was offered the job again, but only on a two-year contract, and she eventually moved interstate. Another doctor, an emergency registrar, says she kept her pregnancy under wraps until her contract was signed, because she had to reapply for her job every year.\n\nIn Tasmania, the head of the state branch of the Australian Medical Association said she had been overwhelmed by the number of doctors who came forward after the investigation. Many reported losing a role for the following year after disclosing a pregnancy, while those forced to move interstate for training risk forfeiting their parental leave entitlements. The Tasmanian health department has acknowledged the problem and says talks are under way.\n\nNSW Health says it cannot comment on individual cases but takes such allegations seriously. At the federal level, the Sex Discrimination Commissioner, Anna Cody, called in October for an overhaul of the law. The government, however, has yet to commit to her recommendations, pointing out that discrimination in employment is already unlawful and saying it is carefully considering the report.",
+      "b2": "A number of doctors in Australia say they were treated unfairly because they had children. Their stories come from a Four Corners investigation, which found that pregnancy discrimination still happens in many industries and places. In medicine, the way training works can make young doctors especially vulnerable.\n\nA trainee doctor in New South Wales, called Alice, accepted a three-year training job and then told the health department she was pregnant. Months before she was meant to start, the job offer was taken back. After she complained and got legal advice, she was offered the job again, but only for two years. She later moved to another state. Another doctor hid her pregnancy until her contract was signed, because she had to apply for her job again every year.\n\nIn Tasmania, the leader of the local Australian Medical Association branch said many doctors contacted her after the investigation. Some lost a job for the next year after telling their employer they were pregnant. Doctors who move to another state for training can also lose their parental leave.\n\nNSW Health says it takes these complaints seriously. In October, the Sex Discrimination Commissioner, Anna Cody, called for the law to be changed. The federal government says it is still considering her report.",
+      "vocab": [
+        {
+          "word": "penalise",
+          "pos": "v.",
+          "ipa": "/ˈpiːnəlaɪz/",
+          "zh": "使处于不利地位；惩罚",
+          "en": "to treat someone unfairly or put them at a disadvantage",
+          "example": "The new rules penalise people who work part-time.",
+          "forms": [
+            "penalised"
+          ]
+        },
+        {
+          "word": "persist",
+          "pos": "v.",
+          "ipa": "/pəˈsɪst/",
+          "zh": "持续存在",
+          "en": "to continue to exist, especially when unwanted",
+          "example": "If the pain persists, see your doctor.",
+          "forms": [
+            "persists"
+          ]
+        },
+        {
+          "word": "leave someone exposed",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使某人处于易受伤害的境地",
+          "en": "to put someone in a vulnerable position",
+          "example": "Cutting the safety budget could leave workers exposed.",
+          "forms": [
+            "leave young doctors exposed"
+          ]
+        },
+        {
+          "word": "escalate",
+          "pos": "v.",
+          "ipa": "/ˈeskəleɪt/",
+          "zh": "（问题）上报；升级",
+          "en": "to take a complaint to a higher level of authority",
+          "example": "If the manager ignores you, escalate it to HR.",
+          "forms": [
+            "escalated"
+          ]
+        },
+        {
+          "word": "keep something under wraps",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "保密",
+          "en": "to keep something secret",
+          "example": "They kept their engagement under wraps for months.",
+          "forms": [
+            "kept her pregnancy under wraps"
+          ]
+        },
+        {
+          "word": "come forward",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "主动站出来（提供信息）",
+          "en": "to offer information or help, often about something difficult",
+          "example": "Police have urged witnesses to come forward.",
+          "forms": [
+            "came forward"
+          ]
+        },
+        {
+          "word": "forfeit",
+          "pos": "v.",
+          "ipa": "/ˈfɔːfɪt/",
+          "zh": "丧失；被没收",
+          "en": "to lose a right or something because of a rule",
+          "example": "If you cancel late, you forfeit your deposit.",
+          "forms": [
+            "forfeiting"
+          ]
+        },
+        {
+          "word": "under way",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "正在进行中",
+          "en": "already started and happening",
+          "example": "Repairs to the bridge are now under way."
+        },
+        {
+          "word": "overhaul",
+          "pos": "n.",
+          "ipa": "/ˈəʊvəhɔːl/",
+          "zh": "全面改革；彻底检修",
+          "en": "a complete change to improve a system",
+          "example": "The tax system is badly in need of an overhaul."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Alice's training offer was originally for three years.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说她接受了 \"a three-year training position\"，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Alice took legal action and won compensation from the health ministry.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说她 \"sought legal advice\" 后重新获得职位，并未提及赔偿，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The federal government has agreed to adopt all of Anna Cody's recommendations.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说政府 \"has yet to commit to her recommendations\"，故为 False。"
+        },
+        {
+          "type": "mcq",
+          "q": "Why did the emergency registrar hide her pregnancy?",
+          "options": [
+            "Her hospital had a rule against pregnant staff",
+            "She had to reapply for her job every year",
+            "She was planning to move interstate",
+            "She wanted to avoid losing a pay rise"
+          ],
+          "answer": 1,
+          "explain": "原文说她隐瞒怀孕 \"because she had to reapply for her job every year\"。"
+        }
+      ],
+      "discuss": "Why do you think pregnancy discrimination still happens even though it is illegal? What changes would make workplaces fairer for parents?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-27/doctors-allege-pregnancy-discrimination-in-medicine/107396068"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Planning a Busy Saturday",
+    "titleZh": "规划一个忙碌的周六",
+    "setting": "Two housemates in Coburg plan their Saturday, which falls on Victorian state election day.",
+    "settingZh": "两位住在科堡的室友商量周六的安排——那天恰好是维州州选举日。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "So what's the plan for Saturday? Are you still keen on doing something?",
+        "zh": "那周六打算干嘛？你还想出去玩吗？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Definitely, but I need to vote first. It's election day, remember?",
+        "zh": "当然想，不过我得先去投票。那天是选举日，记得吧？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Oh, of course. I'm planning to vote early in the morning and get it out of the way.",
+        "zh": "哦对。我打算一大早去投票，先把这事搞定。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Smart move. The queues at our local primary school were massive last time.",
+        "zh": "聪明。上次我们附近那所小学排队排得超长。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "And we can't skip the democracy sausage afterwards. That's non-negotiable.",
+        "zh": "投完票可不能错过“民主香肠”，这个没得商量。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Ha, fair enough. After that, fancy checking out the Barbie exhibition at Melbourne Museum?",
+        "zh": "哈，有道理。之后要不要去墨尔本博物馆看芭比展？"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Seriously? I didn't have you pegged as a Barbie fan.",
+        "zh": "真的假的？我可没想到你是芭比粉。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "I'm not, really, but apparently it's more about design and branding than dolls.",
+        "zh": "其实也不算，但听说展览更多讲的是设计和品牌，而不只是娃娃。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Fair point. My mum never let me have one, so I'm kind of curious.",
+        "zh": "说得也是。我妈小时候从来不让我玩芭比，所以我还挺好奇的。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Apparently they've got the very first Barbie from 1959. That'd be worth seeing.",
+        "zh": "据说他们有1959年的第一代芭比，挺值得一看的。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Count me in. Should we book tickets, or just rock up on the day?",
+        "zh": "算我一个。我们要提前订票，还是当天直接去？"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Opening day might be packed, so I'd book ahead just to be on the safe side.",
+        "zh": "开展第一天可能人很多，保险起见我觉得还是提前订吧。"
+      },
+      {
+        "s": "A",
+        "name": "Priya",
+        "en": "Good call. I'll sort the tickets if you shout lunch.",
+        "zh": "好主意。你请吃午饭的话，票我来搞定。"
+      },
+      {
+        "s": "B",
+        "name": "Declan",
+        "en": "Deal. As long as lunch isn't another sausage from the polling booth!",
+        "zh": "成交。只要午饭不是投票站的又一根香肠就行！"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "finish it early so I don't have to think about it",
+        "en": "get it out of the way",
+        "zh": "先把（麻烦事）解决掉"
+      },
+      {
+        "plain": "we must do it",
+        "en": "That's non-negotiable",
+        "zh": "这个没得商量"
+      },
+      {
+        "plain": "Do you want to go to...?",
+        "en": "fancy checking out",
+        "zh": "想不想去看看……（英式口语）"
+      },
+      {
+        "plain": "I didn't think you were",
+        "en": "I didn't have you pegged as",
+        "zh": "没想到你是……那种人"
+      },
+      {
+        "plain": "I want to join",
+        "en": "Count me in",
+        "zh": "算我一个"
+      },
+      {
+        "plain": "just arrive without booking",
+        "en": "rock up on the day",
+        "zh": "当天直接去（澳式口语）"
+      },
+      {
+        "plain": "to avoid any problems",
+        "en": "to be on the safe side",
+        "zh": "为了保险起见"
+      },
+      {
+        "plain": "if you pay for lunch",
+        "en": "if you shout lunch",
+        "zh": "你请客吃午饭（澳式口语）"
+      }
+    ]
+  }
+}
