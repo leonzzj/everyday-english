@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T01:53:20.671Z",
+ "updatedAt": "2026-11-26T11:12:05.416Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Can AI show us how language works? | Jennifer Hu",
-   "url": "http://go.ted.com/JenniferHu",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b04888bf5587e011de1fed1/media.mp3",
+   "title": "Why you should share a recipe with a stranger | Anuj Gupta",
+   "url": "http://go.ted.com/AnujGupta",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b05afcc7eeadadee4f9e424/media.mp3",
    "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-25",
-   "minutes": 16,
+   "date": "2026-11-26",
+   "minutes": 29,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Language is central to nearly every moment of our lives, yet researchers know surprisingly little about how it works. Using AI models as a new kind of lab for studying how humans learn language, computational cognitive scientist Jennifer Hu shows where…"
+   "desc": "Can we eat our way to a stronger democracy? Civic leader Anuj Gupta believes that food is one of our last common denominators. Drawing on a decade spent bringing together strangers for shared meals, he explains how the stories and memories behind our recipes…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "Is mental illness universal?",
-   "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
+   "title": "The pretendian wars",
+   "url": "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/52cd7554-7970-47c1-b2e1-b1f2609d4c56/essay-2011-04-26t120000z_177609120_gm1e74q1iax01_rtrmadp_3_china.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-24",
+   "image": "https://images.aeonmedia.co/images/e68a91ac-5959-4ae2-9d6b-7320076b26c7/grey-owl-feather-essay.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-26",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "Do all cultures experience the same mental disorders? Or are our experiences of mental distress culturally specific? - by Alexander Pereira Read on Aeon"
+   "desc": "To falsely claim Indigenous identity is not a frivolous mistake. It’s a grave theft, and the stakes are getting higher - by Dina Gilio-Whitaker Read on Aeon"
   }
  ]
 }
