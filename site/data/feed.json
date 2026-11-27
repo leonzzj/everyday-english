@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T01:51:21.816Z",
+ "updatedAt": "2026-11-27T11:03:44.367Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Why you should share a recipe with a stranger | Anuj Gupta",
-   "url": "http://go.ted.com/AnujGupta",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b05afcc7eeadadee4f9e424/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-26",
-   "minutes": 29,
+   "title": "Want to be happy? Be grateful | David Steindl-Rast",
+   "url": "https://audiocollective.ted.com/",
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b05d68657045eccfdcd6ecc/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1795557467624-7152b187-1709-4963-81ba-db2325d8f683.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-27",
+   "minutes": 17,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "Can we eat our way to a stronger democracy? Civic leader Anuj Gupta believes that food is one of our last common denominators. Drawing on a decade spent bringing together strangers for shared meals, he explains how the stories and memories behind our recipes…"
+   "desc": "The one thing all humans have in common is that each of us wants to be happy, says Brother David Steindl-Rast, a monk and interfaith scholar. And happiness, he suggests, is born from gratitude. An inspiring lesson in slowing down, looking where you're going…"
   },
   {
    "source": "SBS Learn English",
@@ -69,15 +69,15 @@
   {
    "source": "Aeon",
    "kind": "read",
-   "title": "The pretendian wars",
-   "url": "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft",
+   "title": "The energy of thought",
+   "url": "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something",
    "audio": "",
-   "image": "https://images.aeonmedia.co/images/e68a91ac-5959-4ae2-9d6b-7320076b26c7/grey-owl-feather-essay.jpg?width=480&quality=75&format=auto",
-   "date": "2026-11-26",
+   "image": "https://images.aeonmedia.co/images/c26f206d-2e06-4e5b-8156-0d964a42cffc/essay-main-gettyimages-2247445825.jpg?width=480&quality=75&format=auto",
+   "date": "2026-11-27",
    "minutes": 20,
    "level": "C1+",
    "accent": "",
-   "desc": "To falsely claim Indigenous identity is not a frivolous mistake. It’s a grave theft, and the stakes are getting higher - by Dina Gilio-Whitaker Read on Aeon"
+   "desc": "We have an astonishing number of models of how the mind works. All of them neglect something essential - by David Colaço & Philipp Haueis Read on Aeon"
   }
  ]
 }
