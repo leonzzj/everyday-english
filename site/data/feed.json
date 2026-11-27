@@ -1,31 +1,31 @@
 {
- "updatedAt": "2026-11-26T11:12:05.416Z",
+ "updatedAt": "2026-11-27T01:51:21.816Z",
  "items": [
   {
    "source": "ABC News Daily",
    "kind": "listen",
-   "title": "Lamarre-Condon guilty",
-   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/lamarre-condon-guilty/107425440",
-   "audio": "https://traffic.megaphone.fm/TECO5430780212.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2Fccdf28dc-e886-11f1-869a-578d8c590823%2Fimage%2F7df8a488432b9042093ba2fc1f6a1436.jpg%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-25",
-   "minutes": 16,
+   "title": "Will voters turn Victoria blue and orange?",
+   "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-voters-turn-victoria-blue-and-orange/107430108",
+   "audio": "https://traffic.megaphone.fm/TECO8464386606.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fmegaphone-images.spotifycdn.com%2Fpodcasts%2F2bb795c6-e9ac-11f1-bac2-affa987fa803%2Fimage%2F3c96f89f0c98fdf7d8a47a004725aae1.png%3Fixlib%3Drails-4.3.1%26max-w%3D3000%26max-h%3D3000%26fit%3Dcrop%26auto%3Dformat%2Ccompress&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-27",
+   "minutes": 17,
    "level": "C1",
    "accent": "AU",
-   "desc": "Warning: This story contains content that may disturb some listeners It took just over two hours for a jury to emerge with guilty&nbsp;verdicts in the trial&nbsp;of&nbsp;Beau Lamarre-Condon.&nbsp;&nbsp; The former NSW police officer has been convicted of…"
+   "desc": "For&nbsp;12 years&nbsp;Victorians have backed Labor&nbsp;into government, but this weekend it's almost certain they'll turn the state Liberal blue with perhaps a tinge of One Nation orange.&nbsp; So, could the swing be replicated at a national level in a…"
   },
   {
    "source": "Conversations",
    "kind": "listen",
-   "title": "Encore: The gritty truth behind an Australian fashion icon",
-   "url": "https://www.abc.net.au/listen/programs/conversations/encore-easton-pearson-fashion-label-legendary-australian/107413274",
-   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qq/Z/4n.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F0979d5525452bbd8ca3e94487efa1360.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-26",
-   "minutes": 51,
+   "title": "The witchy women who conned the world with their charisma and courage",
+   "url": "https://www.abc.net.au/listen/programs/conversations/kaz-cooke-spooky-ladies-witches-mediums-magic/107414778",
+   "audio": "https://mediacore-live-production.akamaized.net/audio/02/qq/Z/bf.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Flive-production.wcms.abc-cdn.net.au%2F7f10d2400081d84bddd6f02f8d8eb432.png%3Fsrc&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-27",
+   "minutes": 49,
    "level": "C1",
    "accent": "AU",
-   "desc": "Lydia Pearson co-founded a fashion label that was beloved around the world. Decades later, everything began to unravel. Lydia grew up in Toowoomba in the 1960s, and always loved clothes as a child. When she moved to Brisbane to go to university, she met a…"
+   "desc": "Cartoonist and author Kaz Cooke on the eccentric and rebellious women who became clairvoyants, mediums, mind-readers and magician's assistants, carving out lives on the fringes of polite Victorian society. In ancient times, women were thought to be able to…"
   },
   {
    "source": "TED Talks Daily",
