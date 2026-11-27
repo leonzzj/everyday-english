@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-27T06:53:44+11:00",
+  "updatedAt": "2026-11-28T07:20:00+11:00",
   "issues": [
+    {
+      "date": "2026-11-28",
+      "issueNo": 41,
+      "title": "Taiwan's local polls, a record-wet spring and robot dogs on the ward",
+      "headlines": [
+        "Taiwan votes in 'nine-in-one' local elections seen as mid-term test",
+        "Storms cap off Australia's wettest El Niño spring on record",
+        "Sony's retired robot dogs find new homes in Japanese hospitals",
+        "Victoria votes as polls point to the end of Labor's 12-year rule"
+      ]
+    },
     {
       "date": "2026-11-27",
       "issueNo": 40,

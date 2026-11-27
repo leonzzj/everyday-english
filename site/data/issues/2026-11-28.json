@@ -1,0 +1,735 @@
+{
+  "date": "2026-11-28",
+  "issueNo": 41,
+  "title": "Taiwan's local polls, a record-wet spring and robot dogs on the ward",
+  "createdAt": "2026-11-28T07:20:00+11:00",
+  "stories": [
+    {
+      "id": "taiwan-nine-in-one",
+      "category": "World",
+      "headline": "Taiwan votes in 'nine-in-one' local elections seen as mid-term test",
+      "headlineZh": "台湾举行“九合一”地方选举，被视为期中考验",
+      "summaryZh": "台湾逾一万一千个地方职位同日改选，结果或影响2028年大选，也牵动澳大利亚能源出口。",
+      "c1": "Millions of Taiwanese voters head to the polls on Saturday in what are known as the \"nine-in-one\" elections, so called because nine tiers of local office are contested at once, ranging from the mayors of the six major municipalities right down to village chiefs. More than 11,000 positions are up for grabs, and roughly 19.6 million people are eligible to cast a ballot at upwards of 18,000 polling stations, although, unlike in Australia, voting is not compulsory.\n\nHeld every four years, halfway through the presidential cycle, the polls are widely regarded as a mid-term report card for President Lai Ching-te and his Democratic Progressive Party (DPP). The stakes are considerable: in 2022 the opposition Kuomintang (KMT), which favours closer ties with Beijing, captured 14 of Taiwan's 22 cities and counties, a result seen as a serious blow to the DPP. Some analysts believe this year's outcome could shape the 2028 presidential race.\n\nYet the campaigns have revolved less around cross-strait tensions than around bread-and-butter concerns such as housing affordability, public transport and youth employment. The most closely watched contest is in Taipei, where the KMT's Chiang Wan-an, a great-grandson of Chiang Kai-shek, is seeking a second term against Puma Shen, a DPP lawmaker whom Beijing has sanctioned. Taiwan has warned of possible Chinese interference, which the head of its Mainland Affairs Council described as \"inevitable\", while Beijing dismisses such claims as fabricated.\n\nFor Australia, the result is not merely of academic interest. Taiwan is a critical link in global supply chains for AI and smart devices, and Australia supplies almost half of its coal and 38 per cent of its LNG. With a referendum on nuclear power held alongside the vote, any shift in Taiwan's energy policy could ripple through Australian exports.",
+      "b2": "On Saturday, Taiwan is voting in the \"nine-in-one\" elections. The name means that nine levels of local government are chosen on the same day, from big-city mayors to village chiefs. More than 11,000 positions are available, and about 19.6 million people can vote. Voting is not compulsory.\n\nThese elections happen every four years, in the middle of the president's term. Many people see them as a test for President Lai Ching-te and his party, the DPP. In 2022, the opposition KMT, which wants closer ties with China, won 14 of the 22 cities and counties. Some experts think this year's result could affect the 2028 presidential election.\n\nHowever, most candidates have focused on everyday problems such as housing costs, public transport and jobs for young people. The biggest race is in Taipei, where KMT mayor Chiang Wan-an wants a second term. His rival is Puma Shen, a DPP lawmaker sanctioned by China. Taiwan has warned that China may try to interfere, but Beijing says these claims are false.\n\nThe result also matters to Australia. Taiwan is an important part of global supply chains for AI and smart devices, and Australia sells it almost half of its coal and 38 per cent of its LNG. A vote on nuclear power could also change Taiwan's energy plans and affect Australian exports.",
+      "vocab": [
+        {
+          "word": "head to the polls",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "去投票；举行选举",
+          "en": "to go and vote in an election",
+          "example": "Voters in three states will head to the polls next year."
+        },
+        {
+          "word": "up for grabs",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "可争夺的；尚无归属",
+          "en": "available for anyone to win or take",
+          "example": "With the champion injured, the title is up for grabs."
+        },
+        {
+          "word": "cast a ballot",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "投票",
+          "en": "to vote in an election",
+          "example": "She cast her ballot on the way to work."
+        },
+        {
+          "word": "report card",
+          "pos": "n.",
+          "ipa": "",
+          "zh": "成绩单；评估",
+          "en": "an assessment of how well someone has performed",
+          "example": "The by-election became a report card on the new leader."
+        },
+        {
+          "word": "bread-and-butter",
+          "pos": "adj.",
+          "ipa": "/ˌbred ən ˈbʌtə/",
+          "zh": "基本的；关乎民生的",
+          "en": "basic and important to ordinary people's daily lives",
+          "example": "Voters care most about bread-and-butter issues like rent and wages."
+        },
+        {
+          "word": "closely watched",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "备受关注的",
+          "en": "followed with great attention by many people",
+          "example": "The court's decision is one of the most closely watched cases this year."
+        },
+        {
+          "word": "seek a second term",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "寻求连任",
+          "en": "to try to be elected again for another period in office",
+          "example": "The mayor has confirmed she will seek a second term.",
+          "forms": [
+            "seeking a second term"
+          ]
+        },
+        {
+          "word": "dismiss something as",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "把…斥为",
+          "en": "to reject an idea, saying it is not true or important",
+          "example": "He dismissed the rumours as nonsense.",
+          "forms": [
+            "dismisses such claims as"
+          ]
+        },
+        {
+          "word": "ripple through",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "波及；影响扩散到",
+          "en": "to spread its effects gradually through a system or group",
+          "example": "Higher fuel prices soon rippled through the whole economy."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Voting in Taiwan's nine-in-one elections is compulsory.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文明确说 \"voting is not compulsory\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "In 2022, the KMT won 14 of Taiwan's 22 cities and counties.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 2022 年 KMT \"captured 14 of Taiwan's 22 cities and counties\"，与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Opinion polls show that Chiang Wan-an is likely to win in Taipei.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说 Chiang \"is seeking a second term\"，没有提到任何民调结果，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to the article, what have the local campaigns mainly focused on?",
+          "options": [
+            "Relations with mainland China",
+            "Everyday issues such as housing and transport",
+            "Taiwan's defence spending",
+            "Building new nuclear power stations"
+          ],
+          "answer": 1,
+          "explain": "原文说竞选更多围绕 \"bread-and-butter concerns such as housing affordability, public transport and youth employment\"，而非两岸关系。"
+        }
+      ],
+      "discuss": "Why do you think local elections often focus on everyday issues rather than big national questions? Should they be seen as a verdict on the national government?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-28/what-are-taiwan-nine-in-one-elections/107433590"
+        }
+      ]
+    },
+    {
+      "id": "wettest-el-nino-spring",
+      "category": "Environment",
+      "headline": "Storms cap off Australia's wettest El Niño spring on record",
+      "headlineZh": "风暴为澳大利亚史上最湿润的厄尔尼诺春季收尾",
+      "summaryZh": "厄尔尼诺通常带来干旱，但今年澳洲春季降雨创纪录；气象局预计夏季将异常炎热。",
+      "c1": "Australia's soggy spring has gone out with a bang. A plume of humid tropical air swept across the east of the country this weekend, bringing widespread thunderstorms and raising the prospect of flash and river flooding in several states. It was a fitting finale to what has been the nation's wettest spring on record for an El Niño year.\n\nSome of the downpours have been striking. Thargomindah, in outback Queensland, was drenched by 66 millimetres in under 12 hours, more than double its monthly average and its heaviest November rain in 35 years, while Warracknabeal in Victoria's Wimmera recorded more than 50 millimetres in a single hour. Minor flooding was possible across more than a dozen Victorian catchments, as well as parts of southern Queensland, NSW and even northern Tasmania, which had endured an exceptionally dry spell since August.\n\nWhat makes the season remarkable is that El Niño is normally associated with drier conditions. Compared with 27 previous El Niño years since 1900, 2026 has set national records for the wettest El Niño year, winter-spring, October and spring. Pinning down the exact cause is difficult, but very warm Indian Ocean temperatures have fed extra moisture into the atmosphere, and an unusually strong high-pressure system near New Zealand may also have played a part.\n\nRelief from the rain, however, may be short-lived, and not necessarily welcome. El Niño's influence on rainfall tends to fade by summer, and the Bureau of Meteorology expects a drier-than-normal season across much of tropical Australia. More worryingly, national temperatures are forecast to sit close to 2°C above the long-term average, potentially rivalling the record set in 2018–19.",
+      "b2": "Australia's very wet spring ended with more storms this weekend. Warm, wet tropical air moved across the east of the country, bringing thunderstorms and the risk of flash flooding and river flooding in several states. It has been Australia's wettest spring on record for an El Niño year.\n\nSome places received huge amounts of rain. Thargomindah in outback Queensland got 66 millimetres in less than 12 hours, which is more than twice its usual rain for the whole month. In Warracknabeal, in western Victoria, more than 50 millimetres fell in just one hour. Minor flooding was possible in many rivers in Victoria, southern Queensland, NSW and northern Tasmania.\n\nThis is unusual because El Niño usually brings drier weather to Australia. Compared with 27 earlier El Niño years since 1900, 2026 has broken national records for the wettest El Niño year, October and spring. It is hard to know the exact reason, but a very warm Indian Ocean has added extra moisture to the air.\n\nThe wet weather may not last. El Niño's effect on rain usually becomes weaker in summer, and the Bureau of Meteorology expects a drier summer than normal in much of tropical Australia. Summer is also likely to be very hot, with national temperatures forecast to be close to 2°C above the long-term average.",
+      "vocab": [
+        {
+          "word": "go out with a bang",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "轰轰烈烈地结束",
+          "en": "to end in an exciting or dramatic way",
+          "example": "The festival went out with a bang with a huge fireworks show.",
+          "forms": [
+            "gone out with a bang"
+          ]
+        },
+        {
+          "word": "raise the prospect of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使…成为可能；引发…的可能",
+          "en": "to make something seem likely to happen",
+          "example": "The talks have raised the prospect of a ceasefire.",
+          "forms": [
+            "raising the prospect of"
+          ]
+        },
+        {
+          "word": "fitting finale",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "恰如其分的结尾",
+          "en": "an ending that suits what came before",
+          "example": "Winning the cup was a fitting finale to her career."
+        },
+        {
+          "word": "drench",
+          "pos": "v.",
+          "ipa": "/drentʃ/",
+          "zh": "使湿透",
+          "en": "to make someone or something completely wet",
+          "example": "We got drenched walking home without an umbrella.",
+          "forms": [
+            "drenched"
+          ]
+        },
+        {
+          "word": "endure",
+          "pos": "v.",
+          "ipa": "/ɪnˈdjʊə/",
+          "zh": "忍受；经历（困境）",
+          "en": "to experience something difficult for a long time",
+          "example": "The city endured three weeks without proper power.",
+          "forms": [
+            "endured"
+          ]
+        },
+        {
+          "word": "be associated with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "与…相关联",
+          "en": "to be connected with something in people's minds",
+          "example": "Rising rents are often associated with population growth.",
+          "forms": [
+            "is normally associated with"
+          ]
+        },
+        {
+          "word": "pin down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "确定；查明",
+          "en": "to discover or describe something exactly",
+          "example": "Doctors are still trying to pin down the cause of her headaches.",
+          "forms": [
+            "Pinning down"
+          ]
+        },
+        {
+          "word": "play a part",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "起作用",
+          "en": "to be one of the causes of something",
+          "example": "Luck certainly played a part in our win.",
+          "forms": [
+            "played a part"
+          ]
+        },
+        {
+          "word": "short-lived",
+          "pos": "adj.",
+          "ipa": "/ˌʃɔːtˈlɪvd/",
+          "zh": "短暂的",
+          "en": "lasting only for a short time",
+          "example": "The team's lead proved short-lived."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Thargomindah received more than twice its usual monthly rainfall in under 12 hours.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 66 毫米 \"in under 12 hours, more than double its monthly average\"，与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "El Niño is usually linked with wetter conditions in Australia.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 \"El Niño is normally associated with drier conditions\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "The storms seriously damaged homes in Warracknabeal.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只提到 Warracknabeal 一小时降雨超过 50 毫米，没有提及房屋受损，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "What does the Bureau of Meteorology expect for much of tropical Australia this summer?",
+          "options": [
+            "Record-breaking rainfall",
+            "Cooler-than-average temperatures",
+            "Drier-than-normal conditions",
+            "Frequent tropical cyclones"
+          ],
+          "answer": 2,
+          "explain": "原文说气象局预计 \"a drier-than-normal season across much of tropical Australia\"。"
+        }
+      ],
+      "discuss": "Why do you think weather patterns seem harder to predict than they used to be? How should communities prepare for both floods and heatwaves?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544"
+        }
+      ]
+    },
+    {
+      "id": "aibo-robot-dogs-hospitals",
+      "category": "Tech",
+      "headline": "Sony's retired robot dogs find new homes in Japanese hospitals",
+      "headlineZh": "索尼退役机器狗在日本医院找到新家",
+      "summaryZh": "索尼回收修复旧款Aibo机器狗并送往医院，帮助病人缓解等待、鼓励孩子接受检查。",
+      "c1": "In Japan, retired robot dogs are finding a second life in hospitals. Sony's Aibo, which first went on sale in 1999 and is no longer in production, is being donated by owners who can no longer keep their mechanical pets. Through an \"adoption program\" run by Tokyo-based Sony Group Corporation, the robots are repaired and upgraded before being rehomed in hospitals and other care facilities.\n\nPacked with sensors and cameras, Aibo is programmed to remember its name, its owner's face and its surroundings. It barks, cocks its head, waddles towards people and appears to be delighted when petted. Yoshiyuki Katsuno, the Sony official who oversees the scheme, says owners often feel as though they are sending off their own child, and he believes the robots can get people talking and lift the spirits of those who are worn out.\n\nAt a university on the outskirts of Tokyo, ear, nose and throat doctor Manabu Komori says Aibo helps to ease the long waits faced by patients and has coaxed reluctant children into being examined. Admittedly, the hospital also uses real dogs to comfort patients, and Komori stops short of claiming that robots are superior. Still, a machine does not need feeding and is far less likely to be temperamental.\n\nThe program reflects a broader cultural appetite for cuteness in Japan, where \"kawaii\" is seen less as a weakness than as a quality that fosters harmony and communication. Whether such robots offer genuine companionship or merely a convincing imitation remains an open question, but for patients facing a daunting hospital visit, the distinction may matter little.",
+      "b2": "In Japan, old robot dogs are being given new homes in hospitals. Sony's Aibo first went on sale in 1999, but it is no longer made. Some owners who cannot keep their robot pets have given them to Sony, which repairs and upgrades them through an \"adoption program\". Then they go to hospitals and care facilities.\n\nAibo has sensors and cameras, and it can remember its name, its owner's face and its surroundings. It barks, moves its head and walks towards people, and it seems happy when someone pets it. Yoshiyuki Katsuno, who runs the program at Sony, says owners feel like they are saying goodbye to their own child. He believes Aibo helps people talk to each other and can cheer up tired people.\n\nManabu Komori, a doctor at a university near Tokyo, says Aibo makes long waits easier for patients. It has also helped nervous children agree to be examined. The hospital uses real dogs too, and Komori does not say robots are better. However, a robot dog does not need food.\n\nCuteness, or \"kawaii\", is important in Japanese culture, where it is seen as something that helps people get along. People may disagree about whether a robot can be a real friend, but for nervous patients in hospital, it may not matter very much.",
+      "vocab": [
+        {
+          "word": "find a second life",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "获得新生；被重新利用",
+          "en": "to be used again in a new way after the original use ends",
+          "example": "Old shipping containers are finding a second life as cafés.",
+          "forms": [
+            "finding a second life"
+          ]
+        },
+        {
+          "word": "rehome",
+          "pos": "v.",
+          "ipa": "/ˌriːˈhəʊm/",
+          "zh": "为（宠物等）重新安置",
+          "en": "to find a new home for an animal or object",
+          "example": "The shelter rehomes hundreds of cats every year.",
+          "forms": [
+            "rehomed"
+          ]
+        },
+        {
+          "word": "packed with",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "充满；装满",
+          "en": "containing a lot of something",
+          "example": "The new phone is packed with clever features."
+        },
+        {
+          "word": "lift the spirits of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使…振奋；让…开心",
+          "en": "to make someone feel happier",
+          "example": "A sunny morning always lifts the spirits of the whole office."
+        },
+        {
+          "word": "worn out",
+          "pos": "adj.",
+          "ipa": "",
+          "zh": "筋疲力尽的",
+          "en": "extremely tired",
+          "example": "After the night shift, she was completely worn out."
+        },
+        {
+          "word": "coax someone into",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "哄劝某人做",
+          "en": "to gently persuade someone to do something",
+          "example": "We coaxed him into joining the choir.",
+          "forms": [
+            "coaxed reluctant children into"
+          ]
+        },
+        {
+          "word": "stop short of",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "差一点就；未至于",
+          "en": "to almost do something but decide not to",
+          "example": "The minister stopped short of calling for her resignation.",
+          "forms": [
+            "stops short of"
+          ]
+        },
+        {
+          "word": "temperamental",
+          "pos": "adj.",
+          "ipa": "/ˌtemprəˈmentl/",
+          "zh": "喜怒无常的；不稳定的",
+          "en": "likely to change mood or behave unpredictably",
+          "example": "Our old printer is a bit temperamental."
+        },
+        {
+          "word": "daunting",
+          "pos": "adj.",
+          "ipa": "/ˈdɔːntɪŋ/",
+          "zh": "令人生畏的",
+          "en": "making you feel nervous or less confident",
+          "example": "Starting a new job in another country can be daunting."
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "Sony is still manufacturing new Aibo robots.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 Aibo \"is no longer in production\"，与题干相反，故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Owners are paid by Sony when they donate their Aibo.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文只说主人把 Aibo 捐出（\"is being donated by owners\"），没有提到索尼是否付钱，故为 Not Given。"
+        },
+        {
+          "type": "tfng",
+          "q": "The hospital where Dr Komori works also uses real dogs to comfort patients.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"the hospital also uses real dogs to comfort patients\"，与题干一致，故为 True。"
+        },
+        {
+          "type": "mcq",
+          "q": "According to Dr Komori, what has Aibo helped to do?",
+          "options": [
+            "Replace nurses on night shifts",
+            "Diagnose ear and throat problems",
+            "Reduce the number of real dogs needed",
+            "Persuade reluctant children to be examined"
+          ],
+          "answer": 3,
+          "explain": "原文说 Aibo \"has coaxed reluctant children into being examined\"。"
+        }
+      ],
+      "discuss": "Why do you think people form emotional bonds with robots? Could robot companions become common in Australian hospitals or aged care in the future?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-27/sony-s-dog-robot-aibo-gets-rehomed-to-hospitals/107436690"
+        }
+      ]
+    },
+    {
+      "id": "victorian-election-day",
+      "category": "Australia",
+      "headline": "Victoria votes as polls point to the end of Labor's 12-year rule",
+      "headlineZh": "维州投票日到来，民调显示工党12年执政或将终结",
+      "summaryZh": "维州约一半选民已提前投票，民调显示联盟党有望获胜，单一民族党和绿党也备受关注。",
+      "c1": "Victorians are casting their final votes today in a state election that polls suggest will bring 12 years of Labor government to an end. By the time polling booths opened, roughly half of the state's 4.7 million eligible voters had already voted, either at early voting centres or by post.\n\nLabor's slide has been dramatic. The party has cycled through three leaders in four years: Daniel Andrews stepped down in 2023, and his successor, Jacinta Allan, resigned in July amid corruption allegations surrounding the Big Build infrastructure program and a contentious change to the emergency services levy. Her replacement, Ben Carroll, has ordered a royal commission into the allegations, but he has struggled to shake off soaring state debt and the legacy of his predecessors.\n\nOn the other side, Liberal leader Jess Wilson has worked to rebuild a party that has had three leaders since 2022, and the Coalition surged in the polls on law and order. Even so, she spent the final days of the campaign on the back foot after late revelations of planned privatisations and kinder cuts. To form government, the Coalition needs to pick up more than a dozen extra seats, a task that a resurgent One Nation could complicate.\n\nIndeed, One Nation is expected to attract more than 20 per cent of the primary vote, despite a string of candidate controversies. The Greens, led by Ellen Sandell, are hoping to hold inner-city seats such as Melbourne, Richmond and Brunswick, though Sandell concedes these contests are \"always incredibly close\". Whatever the outcome, the winning party may well take office with a historically low primary vote.",
+      "b2": "Victorians are voting in a state election today, and polls suggest that 12 years of Labor government will come to an end. About half of the state's 4.7 million eligible voters had already voted early or by post before election day.\n\nLabor has had a difficult few years, with three leaders in four years. Daniel Andrews left in 2023. Then Jacinta Allan resigned in July after corruption claims about the Big Build program and an unpopular change to the emergency services levy. The new premier, Ben Carroll, ordered a royal commission, but high state debt has made his job harder.\n\nLiberal leader Jess Wilson has tried to rebuild her party, which has had three leaders since 2022. The Coalition became more popular because of worries about crime. However, near the end of the campaign, Wilson had to defend plans for privatisations and kinder cuts. The Coalition needs to win more than 12 new seats to govern, and One Nation could make this harder.\n\nOne Nation is expected to win more than 20 per cent of the primary vote, even though several of its candidates have caused controversy. The Greens, led by Ellen Sandell, hope to keep inner-city seats such as Melbourne, Richmond and Brunswick. Whoever wins may have a very low primary vote compared with past governments.",
+      "vocab": [
+        {
+          "word": "bring something to an end",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "使…结束",
+          "en": "to make something finish",
+          "example": "The new law will bring decades of debate to an end.",
+          "forms": [
+            "bring 12 years of Labor government to an end"
+          ]
+        },
+        {
+          "word": "cycle through",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "轮番更换；接连经历",
+          "en": "to go through a series of things one after another",
+          "example": "The club has cycled through four coaches in two years.",
+          "forms": [
+            "cycled through"
+          ]
+        },
+        {
+          "word": "step down",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "辞职；下台",
+          "en": "to leave an important job or position",
+          "example": "The CEO stepped down after the scandal.",
+          "forms": [
+            "stepped down"
+          ]
+        },
+        {
+          "word": "contentious",
+          "pos": "adj.",
+          "ipa": "/kənˈtenʃəs/",
+          "zh": "有争议的",
+          "en": "likely to cause disagreement",
+          "example": "Housing density is a contentious issue in many suburbs."
+        },
+        {
+          "word": "shake off",
+          "pos": "phr. v.",
+          "ipa": "",
+          "zh": "摆脱",
+          "en": "to get rid of something unwanted",
+          "example": "The company has struggled to shake off its poor reputation."
+        },
+        {
+          "word": "on the back foot",
+          "pos": "idiom",
+          "ipa": "",
+          "zh": "处于守势；被动",
+          "en": "in a defensive position, reacting to problems",
+          "example": "The tough questions put the minister on the back foot."
+        },
+        {
+          "word": "form government",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "组建政府",
+          "en": "to gain enough seats to become the government",
+          "example": "No party won enough seats to form government alone."
+        },
+        {
+          "word": "a string of",
+          "pos": "phr.",
+          "ipa": "",
+          "zh": "一连串的",
+          "en": "a series of similar things happening one after another",
+          "example": "The team has suffered a string of injuries this season."
+        },
+        {
+          "word": "concede",
+          "pos": "v.",
+          "ipa": "/kənˈsiːd/",
+          "zh": "承认（通常不情愿）",
+          "en": "to admit that something is true, often unwillingly",
+          "example": "He conceded that the plan had some weaknesses.",
+          "forms": [
+            "concedes"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "type": "tfng",
+          "q": "About half of eligible Victorian voters had voted before polling booths opened on election day.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"roughly half of the state's 4.7 million eligible voters had already voted\"，与题干一致，故为 True。"
+        },
+        {
+          "type": "tfng",
+          "q": "Jacinta Allan resigned as leader in 2023.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 1,
+          "explain": "原文说 2023 年下台的是 Daniel Andrews，而 Jacinta Allan \"resigned in July\"（今年七月），故为 False。"
+        },
+        {
+          "type": "tfng",
+          "q": "Jess Wilson served as a government minister before becoming Liberal leader.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "answer": 2,
+          "explain": "原文没有提到 Jess Wilson 是否曾担任部长，故为 Not Given。"
+        },
+        {
+          "type": "mcq",
+          "q": "Which party is expected to win more than 20 per cent of the primary vote?",
+          "options": [
+            "One Nation",
+            "The Greens",
+            "Labor",
+            "Independents"
+          ],
+          "answer": 0,
+          "explain": "原文说 \"One Nation is expected to attract more than 20 per cent of the primary vote\"。"
+        }
+      ],
+      "discuss": "Why do you think more and more people choose to vote early instead of on election day? Does this change how political campaigns should work?",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-day-arrives-ben-carroll-jess-wilson/107422598"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Rainy Flat Inspection",
+    "titleZh": "雨天看房",
+    "setting": "Two friends meet outside a flat in Footscray for an inspection on a stormy morning.",
+    "settingZh": "一个暴风雨的早上，两个朋友在富茨克雷的一间公寓外碰头看房。",
+    "lines": [
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Sorry I'm late — the tram was crawling because of the rain. Have I missed much?",
+        "zh": "抱歉来晚了——下雨电车开得像蜗牛一样。我错过什么了吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Not at all. The agent's running behind too, so we've got a few minutes.",
+        "zh": "完全没有。中介也迟到了，我们还有几分钟。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Good. It looks decent from the outside, but I'm a bit wary of the photos online.",
+        "zh": "那就好。从外面看还不错，但我对网上那些照片有点存疑。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Same. They always use a wide-angle lens to make the rooms look twice the size.",
+        "zh": "我也是。他们总用广角镜头，让房间看起来大一倍。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Exactly. I'm checking the bathroom for mould straight away, given all this rain.",
+        "zh": "没错。下了这么多雨，我要先去浴室看看有没有霉。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "Smart. And let's run the taps to see what the water pressure's like.",
+        "zh": "聪明。我们再开开水龙头，看看水压怎么样。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Did the listing say whether parking's included? That could be a deal-breaker for me.",
+        "zh": "房源信息有说包不包车位吗？这对我来说可能是决定性的。"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "It was a bit vague, so I'll bring it up with the agent.",
+        "zh": "写得有点含糊，我会跟中介提一下。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Also, it's a bit of a hike to the station. Did you time the walk?",
+        "zh": "还有，走到车站有点远。你计时过吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "About twelve minutes. Not ideal, but it's doable if the rent's reasonable.",
+        "zh": "大概十二分钟。不算理想，但如果房租合理还是可以接受的。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Fair enough. If it ticks most of the boxes, should we apply today?",
+        "zh": "有道理。如果大部分条件都满足，我们今天就申请吗？"
+      },
+      {
+        "s": "B",
+        "name": "Tom",
+        "en": "I reckon so. Places like this get snapped up within a day or two.",
+        "zh": "我觉得行。这样的房子一两天内就会被抢光。"
+      },
+      {
+        "s": "A",
+        "name": "Mei",
+        "en": "Right, here comes the agent. Let's play it cool and not look too keen.",
+        "zh": "好，中介来了。我们装得淡定点，别显得太想要。"
+      }
+    ],
+    "phrases": [
+      {
+        "plain": "is late",
+        "en": "running behind",
+        "zh": "（日程）延误、晚了"
+      },
+      {
+        "plain": "I don't fully trust",
+        "en": "wary of",
+        "zh": "对…有戒心"
+      },
+      {
+        "plain": "a reason for me to say no",
+        "en": "deal-breaker",
+        "zh": "决定成败的关键问题"
+      },
+      {
+        "plain": "I'll ask about it",
+        "en": "bring it up",
+        "zh": "提起某事"
+      },
+      {
+        "plain": "quite far to walk",
+        "en": "a bit of a hike",
+        "zh": "走路有点远"
+      },
+      {
+        "plain": "it's possible",
+        "en": "it's doable",
+        "zh": "可行的"
+      },
+      {
+        "plain": "meets most of our needs",
+        "en": "ticks most of the boxes",
+        "zh": "满足大部分条件"
+      },
+      {
+        "plain": "get rented very quickly",
+        "en": "get snapped up",
+        "zh": "被迅速抢走"
+      }
+    ]
+  }
+}
