@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:33:21.471Z",
+ "updatedAt": "2026-11-28T10:40:34.939Z",
  "items": [
   {
    "source": "ABC News Daily",
@@ -30,15 +30,15 @@
   {
    "source": "TED Talks Daily",
    "kind": "listen",
-   "title": "Want to be happy? Be grateful | David Steindl-Rast",
+   "title": "How to weave a cultural legacy through storytelling | Cohen Bradley (re-release)",
    "url": "https://audiocollective.ted.com/",
-   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b05d68657045eccfdcd6ecc/media.mp3",
-   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2F1795557467624-7152b187-1709-4963-81ba-db2325d8f683.jpeg&w=480&h=480&fit=cover&we&output=webp&q=80",
-   "date": "2026-11-27",
-   "minutes": 17,
+   "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6b0714d75f5f2316633ac0c8/media.mp3",
+   "image": "https://wsrv.nl/?url=https%3A%2F%2Fassets.pippa.io%2Fshows%2F67587e77c705e441797aff96%2Fshow-cover.png&w=480&h=480&fit=cover&we&output=webp&q=80",
+   "date": "2026-11-28",
+   "minutes": 13,
    "level": "B2–C1",
    "accent": "Mixed",
-   "desc": "The one thing all humans have in common is that each of us wants to be happy, says Brother David Steindl-Rast, a monk and interfaith scholar. And happiness, he suggests, is born from gratitude. An inspiring lesson in slowing down, looking where you're going…"
+   "desc": "\"I think of legacy as the weaving together of our stories passed on as a whole,\" says Haida storyteller Cohen Bradley. Highlighting the significance of potlatch ceremonies (or gift-giving feasts) and other Indigenous traditions of the Haida Nation, Bradley…"
   },
   {
    "source": "SBS Learn English",
